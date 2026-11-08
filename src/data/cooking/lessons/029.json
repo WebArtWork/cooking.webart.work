@@ -1,0 +1,79 @@
+{
+  "id": 29,
+  "slug": "029-haccp-hazard-analysis-and-critical-control-points",
+  "group": "016",
+  "title": {
+    "en": "HACCP — Hazard Analysis and Critical Control Points",
+    "ua": "HACCP — аналіз небезпечних факторів і критичні контрольні точки"
+  },
+  "en": {
+    "short": "HACCP is a preventive food-safety system that identifies significant hazards and controls them at critical process steps. Rather than relying only on finished-food inspection, it defines measurable limits and corrective actions before problems occur.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "The seven HACCP principles are hazard analysis, identification of critical control points (CCPs), establishment of critical limits, monitoring, corrective actions, verification, and records. A CCP is a step essential to control a specific significant food-safety hazard."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "Hazards can be biological, chemical, or physical. A validated critical limit may involve time and temperature, pH, water activity, or another measurable factor. Sanitation, training, supplier controls, and pest prevention are important prerequisite programs and are not automatically CCPs."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Map the real workflow from receiving ingredients to service. Identify hazards and preventive measures, establish which steps are truly critical, define validated limits, assign monitoring responsibility, specify what to do on failure, verify the program, and keep records."
+      },
+      {
+        "title": "Practical example",
+        "text": "A kitchen produces chilled cooked chicken. A documented plan might control cooking to a validated safe endpoint and cooling to approved time–temperature limits, with recorded thermometer checks and actions when targets are missed. Exact CCPs depend on site-specific analysis."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "HACCP is not merely a checklist or a temperature log. A neat log does not prove the limits were scientifically valid or consistently followed. Adapt the plan to local Ukrainian requirements and the actual food operation; seek qualified review for regulated processes."
+      },
+      {
+        "title": "Related theories",
+        "text": "016, 019, 020, 025, 320."
+      }
+    ]
+  },
+  "ua": {
+    "short": "HACCP — превентивна система безпечності харчових продуктів, яка визначає суттєві небезпеки та контролює їх на критичних етапах. Замість сподіватися лише на перевірку готової страви, вона встановлює вимірювані межі та дії за відхилень.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Сім принципів HACCP: аналіз небезпечних факторів, визначення критичних контрольних точок (ККТ), встановлення критичних меж, моніторинг, коригувальні дії, перевірка ефективності системи та документація. ККТ — етап, де контроль необхідний для суттєвої небезпеки."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Небезпеки бувають біологічними, хімічними й фізичними. Підтверджена критична межа може стосуватися часу й температури, pH, активності води або іншого показника. Прибирання, навчання, перевірка постачальників та захист від шкідників — важливі програми-передумови, але не обов’язково ККТ."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Опишіть фактичний шлях продукту від приймання до подачі. Визначте ризики й засоби запобігання, справді критичні етапи, обґрунтовані межі, відповідальних за вимірювання, дії при порушенні, порядок перевірки системи та ведення записів."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Кухня виготовляє охолоджену готову курятину. План може передбачати контроль безпечної температури приготування та швидкого охолодження, записи зі щупа й дії при невиконанні умов. Конкретні ККТ залежать від аналізу саме цього закладу."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "HACCP — не просто чекліст чи журнал температур. Акуратні записи не доводять наукової обґрунтованості меж. План має відповідати українським вимогам і реальному процесу; складні регульовані технології потребують кваліфікованої перевірки."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "016, 019, 020, 025, 320."
+      }
+    ]
+  },
+  "related": [
+    16,
+    19,
+    20,
+    25,
+    320
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines",
+    "https://www.fda.gov/files/food/published/FDA-FoodCode2022-FullDocument-01182023_0.pdf"
+  ]
+}

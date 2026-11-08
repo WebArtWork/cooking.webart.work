@@ -1,0 +1,390 @@
+/* Catalog tokens remain authoritative; bridge them to the existing Angular components. */
+:root {
+	--font-sans: 'Inter Variable', system-ui, sans-serif;
+	--font-serif: 'Fraunces Variable', Georgia, serif;
+	--success: oklch(0.44 0.1 150);
+	--warning: oklch(0.46 0.09 75);
+	--primary-hover: var(--primary);
+	--inner: var(--muted);
+	--inner-foreground: var(--foreground);
+	--track: var(--border);
+	--text: var(--foreground);
+	--strong: var(--foreground);
+	--muted-text: var(--muted-foreground);
+	--radius-card: var(--radius);
+	--radius-btn: var(--radius);
+	--radius-chip: var(--radius);
+	--radius-menu: var(--radius);
+	--radius-row: var(--radius);
+	--primary-from: var(--primary);
+	--primary-to: var(--primary);
+	--primary-hover-from: var(--primary);
+	--primary-hover-to: var(--primary);
+	--c-primary: var(--primary);
+	--c-primary-hover: var(--primary);
+	--c-bg-primary: var(--background);
+	--c-bg-secondary: var(--card);
+	--c-bg-tertiary: var(--muted);
+	--c-text: var(--foreground);
+	--c-text-strong: var(--foreground);
+	--c-text-muted: var(--muted-foreground);
+	--c-border: var(--border);
+	--ff-base: var(--font-sans);
+}
+html:not([data-mode='dark']) {
+	color-scheme: light;
+	--radius-btn: 999px;
+	--radius-chip: 999px;
+}
+html[data-mode='dark'] {
+	color-scheme: dark;
+	--success: oklch(0.78 0.12 150);
+	--warning: oklch(0.8 0.12 85);
+}
+.ds {
+	color: var(--foreground);
+	font-family: var(--font-sans);
+}
+.ds h1,
+.ds h2,
+.ds h3,
+.brand-name {
+	font-family: var(--font-serif);
+	font-weight: 500;
+	text-wrap: balance;
+}
+.ds h1, .ds h2, .ds h3 { margin: 0; }
+.ds-btn,
+.ds-chip {
+	min-height: 44px;
+	padding: 12px 20px;
+	border-radius: var(--radius-btn);
+}
+.ds .ds-btn-primary,
+.ds a.ds-btn-primary {
+	background: var(--primary);
+	color: var(--primary-foreground);
+	background-image: none;
+}
+.ds a.ds-btn-outline { color: var(--foreground); }
+.ds-card {
+	background: var(--card);
+	color: var(--card-foreground);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-card);
+	box-shadow: var(--shadow-sm);
+}
+.ds-input {
+	min-height: 48px;
+	background: var(--card);
+	color: var(--foreground);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	padding: 12px 16px;
+}
+.ds-input::placeholder {
+	color: var(--muted-foreground);
+	opacity: 1;
+}
+.ds details > summary {
+	min-height: 44px;
+	padding-block: 8px;
+}
+.cook-shell {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 24px;
+}
+.cook-header {
+	border-bottom: 1px solid var(--border);
+}
+.cook-header .cook-shell {
+	min-height: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
+.cook-brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	min-height: 44px;
+	text-decoration: none;
+}
+.brand-name {
+	font-size: 28px;
+	letter-spacing: -1px;
+}
+.cook-nav {
+	display: flex;
+	gap: 8px;
+}
+.cook-nav a {
+	min-height: 44px;
+	display: inline-flex;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: var(--radius-btn);
+	text-decoration: none;
+	font-size: 14px;
+}
+.cook-nav a[aria-current='page'] {
+	background: var(--accent);
+	color: var(--accent-foreground);
+	font-weight: 600;
+}
+.cook-account {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+.cook-account a,
+.cook-account button {
+	min-height: 44px;
+}
+.cook-hero {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 64px;
+	align-items: center;
+	padding-block: 64px;
+}
+.cook-hero h1 {
+	font-size: clamp(44px, 5vw, 68px);
+	line-height: 1.08;
+	letter-spacing: -2px;
+	max-width: 11ch;
+}
+.cook-hero p {
+	max-width: 44ch;
+	line-height: 1.7;
+	color: var(--muted-foreground);
+	margin-top: 24px;
+}
+.cook-hero img {
+	aspect-ratio: 4 / 5;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: var(--radius-card);
+}
+.cook-section {
+	padding-block: 48px;
+	border-top: 1px solid var(--border);
+}
+.cook-section h2 {
+	font-size: 32px;
+	line-height: 1.2;
+}
+.cook-lessons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	margin-top: 32px;
+}
+.cook-lesson-card {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 24px;
+	gap: 16px;
+}
+.cook-lesson-card h3 {
+	font-size: 24px;
+	line-height: 1.2;
+}
+.cook-lesson-card p {
+	color: var(--muted-foreground);
+	line-height: 1.65;
+	flex: 1;
+}
+.cook-lesson-card a {
+	min-height: 44px;
+	display: inline-flex;
+	align-items: center;
+	color: var(--primary);
+	text-underline-offset: 4px;
+}
+.cook-page {
+	padding-block: 48px 64px;
+}
+.cook-page > h1 {
+	font-size: 44px;
+	line-height: 1.15;
+}
+.cook-page > p {
+	margin-top: 16px;
+	color: var(--muted-foreground);
+	line-height: 1.7;
+	max-width: 60ch;
+}
+.cook-curriculum {
+	margin-top: 32px;
+}
+.cook-curriculum li {
+	display: flex;
+	align-items: baseline;
+	gap: 24px;
+	padding-block: 24px;
+	border-bottom: 1px solid var(--border);
+}
+.cook-curriculum li > div {
+	flex: 1;
+}
+.cook-curriculum h2,
+.cook-curriculum h3 {
+	font-size: 26px;
+	line-height: 1.3;
+}
+.cook-curriculum p {
+	color: var(--muted-foreground);
+	margin-top: 8px;
+	line-height: 1.7;
+}
+.cook-number {
+	color: var(--muted-foreground);
+	font-size: 14px;
+	font-variant-numeric: tabular-nums;
+	min-width: 24px;
+}
+.cook-footer {
+	border-top: 1px solid var(--border);
+	padding-block: 24px;
+}
+.cook-footer .cook-shell {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+.cook-footer nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+.cook-footer a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	color: var(--muted-foreground);
+	font-size: 14px;
+}
+.cook-prose {
+	max-width: 68ch;
+	margin-inline: auto;
+	padding-block: 48px;
+	line-height: 1.8;
+}
+.cook-prose h1 {
+	font-size: 44px;
+	line-height: 1.15;
+	margin-block: 24px;
+}
+.cook-prose h2 {
+	font-size: 28px;
+	line-height: 1.3;
+	margin-top: 32px;
+}
+.cook-prose p {
+	margin-top: 16px;
+}
+.cook-prose > a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	color: var(--primary);
+}
+.cook-prose .ds-btn {
+	margin-top: 24px;
+}
+.cook-prose ul {
+	list-style: disc;
+	padding-left: 24px;
+	margin-top: 16px;
+}
+.cook-prose details {
+	margin-top: 16px;
+}
+.cook-prose summary {
+	cursor: pointer;
+}
+.cook-feedback {
+	padding: 16px;
+	background: var(--muted);
+	border-radius: var(--radius);
+	margin-top: 16px;
+}
+@media (hover: hover) and (pointer: fine) {
+	.cook-nav a:hover:not([aria-current='page']) {
+		background: var(--muted);
+	}
+	.ds-btn:hover {
+		filter: brightness(0.96);
+	}
+}
+@media (max-width: 767px) {
+	.cook-shell {
+		padding-inline: 20px;
+	}
+	.cook-header .cook-shell {
+		flex-wrap: wrap;
+		gap: 8px;
+		padding-block: 12px;
+	}
+	.brand-name {
+		font-size: 24px;
+	}
+	.cook-nav {
+		order: 3;
+		width: 100%;
+		justify-content: center;
+		gap: 0;
+	}
+	.cook-nav a {
+		padding-inline: 16px;
+	}
+	.cook-account a {
+		padding-inline: 12px;
+	}
+	.cook-hero {
+		grid-template-columns: 1fr;
+		gap: 32px;
+		padding-block: 40px;
+	}
+	.cook-hero h1 {
+		max-width: 13ch;
+		letter-spacing: -1px;
+	}
+	.cook-hero img {
+		aspect-ratio: 5 / 4;
+	}
+	.cook-lessons {
+		grid-template-columns: 1fr;
+	}
+	.cook-section {
+		padding-block: 32px;
+	}
+	.cook-page > h1,
+	.cook-prose h1 {
+		font-size: 36px;
+	}
+	.cook-prose {
+		padding-block: 32px;
+	}
+}
+@media print {
+	html[data-mode],
+	body,
+	.ds {
+		background: white !important;
+		color: black !important;
+	}
+	.cook-header,
+	.cook-footer,
+	.ds-btn,
+	.cook-account {
+		display: none !important;
+	}
+}

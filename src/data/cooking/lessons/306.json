@@ -1,0 +1,80 @@
+{
+  "id": 306,
+  "slug": "306-reverse-engineering-existing-recipes",
+  "group": "301",
+  "title": {
+    "en": "Reverse Engineering Existing Recipes",
+    "ua": "Відтворення рецептів шляхом зворотного аналізу"
+  },
+  "en": {
+    "short": "Reverse engineering begins with a finished dish and infers likely ingredients, techniques, and process steps from observable clues. It combines sensory analysis, food-science reasoning, and controlled experiments rather than claiming to recover a secret recipe exactly.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Work backward from texture, browning, thickness, aroma, temperature, and structure. Multiple ingredient and technique combinations may produce similar results, so build testable hypotheses instead of guessing a single answer."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "A shiny stable sauce suggests emulsification; a tender gelatin-rich braise suggests collagen conversion over time; a crumb with large holes suggests dough hydration, handling, and fermentation. These are clues, not proof."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Photograph and describe the target, list the likely components, estimate ratios, then design a small trial. Compare color, thickness, mass loss, aroma, and taste; change one factor per round and record evidence."
+      },
+      {
+        "title": "Practical example",
+        "text": "To recreate a bakery muffin, compare versions that use a creaming method and a quick muffin-mixing method. Observe dome height, crumb tenderness, and moisture before adjusting sugar or fat."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Taste memory is imprecise, appearance can mislead, and restaurant equipment may be unavailable. Respect proprietary work and attribution; reconstruction is not a license to misrepresent a copied recipe as original."
+      },
+      {
+        "title": "Related theories",
+        "text": "015, 211, 212, 216, 290, 300."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Зворотний аналіз рецепта починається з готової страви та пошуку ймовірних інгредієнтів і технік за її ознаками. Метод поєднує дегустацію, харчову науку й контрольовані експерименти, а не обіцяє точно розкрити секретну рецептуру.",
+    "sections": [
+      {
+        "title": "Головна ідея",
+        "text": "Аналізуйте результат у зворотному напрямку: текстуру, скоринку, густину, аромат, температуру й структуру. Подібний результат можна отримати різними способами, тому слід формулювати перевірні гіпотези."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Блискучий однорідний соус може свідчити про емульсію; ніжне тушковане м’ясо — про тривале перетворення колагену; великі пори хліба — про певну гідратацію та ферментацію. Це підказки, а не докази."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Опишіть і сфотографуйте зразок, визначте складники, приблизні пропорції та метод. Зробіть малий тест і порівняйте колір, густину, втрату маси, аромат і смак. У кожному наступному тесті змінюйте один чинник."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Для відтворення мафіна з пекарні порівняйте кремування масла з цукром і швидкий метод змішування. Оцініть висоту, ніжність м’якушки та вологість."
+      },
+      {
+        "title": "Поширені помилки та обмеження",
+        "text": "Пам’ять про смак неточна, зовнішній вигляд оманливий, а професійне обладнання недоступне вдома. Поважайте авторство та не видавайте чуже за власне."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "015, 211, 212, 216, 290, 300."
+      }
+    ]
+  },
+  "related": [
+    15,
+    211,
+    212,
+    216,
+    290,
+    300
+  ],
+  "referenceTitle": "Sources / Джерела",
+  "references": [
+    "https://www.cacfp.org/2024/07/02/recipe-standardization-guide/",
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide"
+  ]
+}

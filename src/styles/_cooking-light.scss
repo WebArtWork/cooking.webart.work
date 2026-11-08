@@ -1,0 +1,71 @@
+html:not([data-mode='dark']) {
+	--background: oklch(0.96 0.014 80);
+	--foreground: oklch(0.27 0.012 55);
+	--card: oklch(0.985 0.008 80 / 0.92);
+	--card-foreground: oklch(0.27 0.012 55);
+	--popover: oklch(0.985 0.008 80 / 0.96);
+	--popover-foreground: oklch(0.27 0.012 55);
+	--primary: oklch(0.5 0.115 38);
+	--primary-foreground: oklch(0.985 0.006 80);
+	--secondary: oklch(1 0 0 / 0.65);
+	--secondary-foreground: oklch(0.3 0.012 55);
+	--muted: oklch(1 0 0 / 0.45);
+	--muted-foreground: oklch(0.5 0.012 55);
+	--accent: oklch(0.94 0.022 38);
+	--accent-foreground: oklch(0.45 0.115 38);
+	--destructive: oklch(0.58 0.22 27);
+	--destructive-foreground: oklch(0.985 0.006 80);
+	--border: oklch(0 0 0 / 0.08);
+	--input: oklch(1 0 0 / 0.55);
+	--ring: oklch(0.5 0.115 38);
+	--radius: 1.5rem;
+	--glass-strong: oklch(1 0 0 / 0.65);
+	--glass: oklch(1 0 0 / 0.4);
+	--glass-soft: oklch(1 0 0 / 0.25);
+	--glass-hover-strong: oklch(1 0 0 / 0.8);
+	--glass-hover: oklch(1 0 0 / 0.55);
+	--glass-hover-soft: oklch(1 0 0 / 0.4);
+	--glass-blur: blur(1.75rem) saturate(160%);
+	--shadow-glass-inner:
+		inset 0 0.0938rem 0 oklch(1 0 0 / 0.55), inset 0 -0.0938rem 0 oklch(1 0 0 / 0.18);
+	--shadow-glass-outer:
+		0 0.0625rem 0.1875rem oklch(0 0 0 / 0.04), 0 0.125rem 0.375rem oklch(0 0 0 / 0.06);
+	--shadow-glass:
+		inset 0 0.0938rem 0 oklch(1 0 0 / 0.55), inset 0 -0.0938rem 0 oklch(1 0 0 / 0.18),
+		0 0.0625rem 0.1875rem oklch(0 0 0 / 0.04), 0 0.125rem 0.375rem oklch(0 0 0 / 0.06);
+	--shadow-glass-hover:
+		inset 0 0.0938rem 0 oklch(1 0 0 / 0.65), inset 0 -0.0938rem 0 oklch(1 0 0 / 0.2),
+		0 0.125rem 0.25rem oklch(0 0 0 / 0.05), 0 0.25rem 0.625rem oklch(0 0 0 / 0.08);
+	--shadow-2xs: 0 0.0625rem 0.0625rem oklch(0 0 0 / 0.03);
+	--shadow-xs: 0 0.0625rem 0.125rem oklch(0 0 0 / 0.04);
+	--shadow-sm:
+		0 0.0625rem 0.125rem oklch(0 0 0 / 0.05), 0 0.0625rem 0.0625rem oklch(0 0 0 / 0.04);
+	--shadow: 0 0.0625rem 0.1875rem oklch(0 0 0 / 0.06), 0 0.0625rem 0.125rem oklch(0 0 0 / 0.04);
+	--shadow-md:
+		0 0.125rem 0.375rem oklch(0 0 0 / 0.07), 0 0.0625rem 0.125rem oklch(0 0 0 / 0.05),
+		0 0 0 0.0625rem oklch(0 0 0 / 0.04);
+	--shadow-lg: 0 0.375rem 0.875rem oklch(0 0 0 / 0.08), 0 0 0 0.0625rem oklch(0 0 0 / 0.04);
+	--shadow-xl: 0 0.75rem 1.5rem oklch(0 0 0 / 0.1), 0 0 0 0.0625rem oklch(0 0 0 / 0.05);
+	--chart-1: var(--primary);
+	--chart-2: oklch(from var(--primary) calc(l - 0.09) calc(c * 0.92) h);
+	--chart-3: oklch(from var(--primary) calc(l - 0.18) calc(c * 0.84) h);
+	--chart-4: oklch(from var(--primary) calc(l - 0.27) calc(c * 0.76) h);
+	--chart-5: oklch(from var(--primary) calc(l - 0.36) calc(c * 0.68) h);
+	--transition-duration-fast: 180ms;
+	--transition-duration-base: 240ms;
+	--transition-duration-slow: 300ms;
+	--ease-out: cubic-bezier(0.19, 1, 0.22, 1);
+	--ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+	--ease-in: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	--default-transition-duration: var(--transition-duration-fast);
+	--default-transition-timing-function: var(--ease-out);
+	--ai-label: var(--muted);
+	--ai-label-foreground: var(--foreground);
+	--layout-density: spacious;
+	--layout-density-source: design-system;
+	--layout-sidebar: calc(var(--spacing, 0.25rem) * 62);
+	--layout-inset: calc(var(--spacing, 0.25rem) * 10);
+	--layout-section-gap: calc(var(--spacing, 0.25rem) * 12);
+	--layout-column-gap: calc(var(--spacing, 0.25rem) * 4);
+	--layout-card-padding: calc(var(--spacing, 0.25rem) * 6);
+}

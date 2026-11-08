@@ -2,7 +2,7 @@
 export const CONTACT_EMAIL = 'ceo@webart.work';
 
 /** This app's source code, published under the GPL. */
-export const SOURCE_URL = 'https://github.com/WebArtWork/business.webart.work';
+export const SOURCE_URL = 'https://github.com/WebArtWork/cooking.webart.work';
 
 export interface Credit {
 	name: string;

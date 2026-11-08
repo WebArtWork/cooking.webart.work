@@ -1,108 +1,100 @@
-import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
 import { buildRouteMeta } from '@wawjs/ngx-default';
 import { companyProfile } from './feature/company/company.data';
-import { guestGuard } from './feature/auth/auth.guard';
-import { GlossaryService } from './feature/glossary/glossary.service';
-import { loadQuestions, PRACTICE_TOPICS } from './feature/practice/practice.data';
-import { loadTopic, THEORY_TOPICS } from './feature/theory/theory.data';
-
-const loadComponent = () =>
-	import('./pages/home/home.component').then((m) => m.HomeComponent);
-const page = (path: string, mode: string, extra: Record<string, unknown> = {}) => ({
-	mode,
-	meta: buildRouteMeta(companyProfile, path),
-	...extra,
-});
-const infoPage = (path: string, title: string, paragraphs: string[]) => ({
-	path,
-	loadComponent,
-	data: page('/' + path, path, { info: { title, paragraphs } }),
-});
-
+import cookingRoutes from '../data/cooking/routes.json';
+import { COOKING_LOADERS } from './feature/cooking/theory.loaders';
+import type { CookingTheory } from './feature/cooking/theories';
+const loadCooking = () =>
+	import('./pages/cooking/cooking.component').then((m) => m.CookingComponent);
+const page = (path: string, mode: string) => ({ mode, meta: buildRouteMeta(companyProfile, path) });
+// Preserve the copied Business content on disk, without publishing it as Cooking lessons.
 export const routes: Routes = [
 	{
 		path: '',
 		pathMatch: 'full',
-		loadComponent,
-		data: page('/', 'home', {
+		loadComponent: loadCooking,
+		data: {
+			...page('/', 'home'),
 			meta: {
 				...buildRouteMeta(companyProfile, '/'),
 				title: companyProfile.title,
 				titleSuffix: '',
 			},
-		}),
+		},
 	},
 	{
 		path: 'theories',
-		loadComponent: () => import('./pages/theory/theory.component').then((m) => m.TheoryComponent),
-		data: page('/theories', 'theory'),
+		loadComponent: () =>
+			import('./pages/cooking-theory/catalog.component').then(
+				(m) => m.CookingCatalogComponent,
+			),
+		data: page('/theories', 'theories'),
 	},
-	...THEORY_TOPICS.map(
-		(topic): Routes[number] => ({
-			path: 'theories/' + topic.slug,
-			loadComponent: () =>
-				import('./pages/theory-lesson/theory-lesson.component').then((m) => m.TheoryLessonComponent),
-			resolve: { topic: () => loadTopic(topic.slug), glossary: () => inject(GlossaryService).load() },
-			data: page('/theories/' + topic.slug, 'lesson'),
-		}),
-	),
-	{
-		path: 'practices',
-		loadComponent: () => import('./pages/practice/practice.component').then((m) => m.PracticeComponent),
-		data: page('/practices', 'practice'),
-	},
-	...PRACTICE_TOPICS.map(
-		(topic): Routes[number] => ({
-			path: 'practices/' + topic.slug,
-			loadComponent: () => import('./pages/exercise/exercise.component').then((m) => m.ExerciseComponent),
-			resolve: { set: () => loadQuestions(topic.slug), glossary: () => inject(GlossaryService).load() },
-			data: page('/practices/' + topic.slug, 'exercise'),
-		}),
-	),
-	{
-		path: 'glossary',
-		loadComponent: () => import('./pages/glossary/glossary.component').then((m) => m.GlossaryComponent),
-		data: page('/glossary', 'glossary'),
-	},
+	...(['short', 'full'] as const).map((version) => ({
+		path: 'theories/print/' + version,
+		loadComponent: () =>
+			import('./pages/cooking-theory/print.component').then((m) => m.CookingPrintComponent),
+		data: {
+			version,
+			meta: {
+				title: version === 'full' ? 'Full cooking theories' : 'Short cooking theories',
+				robots: 'noindex, follow',
+			},
+		},
+	})),
+	...cookingRoutes.map((theory) => ({
+		path: 'theories/' + theory.slug,
+		loadComponent: () =>
+			import('./pages/cooking-theory/lesson.component').then((m) => m.CookingLessonComponent),
+		resolve: {
+			theory: () => COOKING_LOADERS[theory.slug]().then((m) => m.default),
+			meta: async () => {
+				const lesson = (await COOKING_LOADERS[theory.slug]()).default as CookingTheory;
+				return {
+					...buildRouteMeta(companyProfile, '/theories/' + theory.slug),
+					title: lesson.title.en,
+					description: lesson.en.short,
+				};
+			},
+		},
+		data: page('/theories/' + theory.slug, 'lesson'),
+	})),
+	{ path: 'practices', loadComponent: loadCooking, data: page('/practices', 'practices') },
+	{ path: 'about', loadComponent: loadCooking, data: page('/about', 'about') },
 	{
 		path: 'privacy',
-		loadComponent: () => import('./pages/privacy/privacy.component').then((m) => m.PrivacyComponent),
+		loadComponent: () =>
+			import('./pages/privacy/privacy.component').then((m) => m.PrivacyComponent),
 		data: page('/privacy', 'privacy'),
 	},
-	infoPage('licenses', 'Licenses and credits', [
-		'This project is licensed under GPL-3.0-or-later. Third-party software retains its own license terms. The distribution includes third-party license notices.',
-		'The lessons and exercises are original learning material; the further reading links point to the sources of each topic.',
-	]),
-	// links from before the rename keep working
-	{ path: 'theory', redirectTo: 'theories', pathMatch: 'full' },
-	{ path: 'theory/:slug', redirectTo: 'theories/:slug' },
-	{ path: 'practice', redirectTo: 'practices', pathMatch: 'full' },
-	{ path: 'practice/:slug', redirectTo: 'practices/:slug' },
+	{
+		path: 'licenses',
+		loadComponent: () =>
+			import('./pages/cooking/credits.component').then((m) => m.CreditsComponent),
+		data: page('/licenses', 'licenses'),
+	},
 	{
 		path: 'sign-in',
-		canActivate: [guestGuard],
-		loadComponent: () => import('./pages/sign-in/sign-in.component').then((m) => m.SignInComponent),
-		data: { meta: { ...buildRouteMeta(companyProfile, '/sign-in'), title: 'Sign in', robots: 'noindex, nofollow' } },
+		loadComponent: () =>
+			import('./pages/sign-in/sign-in.component').then((m) => m.SignInComponent),
+		data: {
+			meta: { ...buildRouteMeta(companyProfile, '/sign-in'), robots: 'noindex, nofollow' },
+		},
 	},
 	{
 		path: 'profile',
-		loadComponent: () => import('./pages/profile/profile.component').then((m) => m.ProfileComponent),
-		data: { meta: { ...buildRouteMeta(companyProfile, '/profile'), title: 'Profile', robots: 'noindex, nofollow' } },
+		loadComponent: () =>
+			import('./pages/profile/profile.component').then((m) => m.ProfileComponent),
+		data: {
+			meta: { ...buildRouteMeta(companyProfile, '/profile'), robots: 'noindex, nofollow' },
+		},
 	},
 	{ path: 'dashboard', redirectTo: '', pathMatch: 'full' },
+	{ path: 'theory', redirectTo: 'theories', pathMatch: 'full' },
+	{ path: 'practice', redirectTo: 'practices', pathMatch: 'full' },
 	{
 		path: '**',
-		loadComponent,
-		data: {
-			mode: 'not-found',
-			meta: { title: 'Page not found', robots: 'noindex, follow' },
-			info: {
-				title: 'This learning page has moved',
-				paragraphs: [
-					'Explore the lessons and practice exercises to find the topic you are looking for.',
-				],
-			},
-		},
+		loadComponent: loadCooking,
+		data: { mode: 'not-found', meta: { title: 'Page not found', robots: 'noindex, follow' } },
 	},
 ];

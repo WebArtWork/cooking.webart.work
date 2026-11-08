@@ -1,9 +1,9 @@
 # Agent Guide
 
-This repository is an Angular 22 HoReCa marketing site template that consumes base conventions,
+This repository is an Angular 22 Cooking education site that consumes base conventions,
 AI guidance, and reusable defaults from the npm package `@wawjs/ngx-default`.
 
-Treat this project as a prerender-first business website. The app owns its pages, routes, layouts,
+Treat this project as a prerender-first culinary learning website. The app owns its pages, routes, layouts,
 business content, company profile, static assets, and bootstrap wiring. Reusable default feature
 APIs must be imported from `@wawjs/ngx-default`.
 
@@ -11,7 +11,7 @@ APIs must be imported from `@wawjs/ngx-default`.
 
 - Stack: Angular 22, TypeScript 6, Angular SSR/prerender, Tailwind CSS, SCSS
 - Package manager: `npm`
-- Main goal: fast, clean, SEO-friendly HoReCa landing pages
+- Main goal: fast, clean, SEO-friendly culinary learning pages
 - Primary output: prerendered static site from `dist/app/browser`
 - Local app source: `src/`
 - App-owned data bridge and company profile: `src/app/feature/bootstrap/` and

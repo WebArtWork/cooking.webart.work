@@ -6,7 +6,7 @@ export interface PracticeScore {
 export type PracticeScores = Record<string, PracticeScore>;
 
 /** Where the scores are kept in this browser. */
-export const PRACTICE_STORAGE_KEY = 'business_practice';
+export const PRACTICE_STORAGE_KEY = 'cooking_practice';
 
 export const scoreTotal = (score: PracticeScore): number => score.quiz + score.written;
 

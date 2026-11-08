@@ -28,7 +28,9 @@ export class AuthService {
 
 	/** Resolves with the current user once Firebase has checked the saved session, or created a guest. */
 	async whenReady(): Promise<User | null> {
-		this._ready ??= this._restore();
+		this._ready ??= this._restore().catch(() => {
+			this.user.set(null);
+		});
 		await this._ready;
 		return this.user() ?? null;
 	}
@@ -42,16 +44,24 @@ export class AuthService {
 		const auth = await this._firebase.auth();
 		if (!auth) throw new Error('Sign-in is only available in the browser.');
 
-		const { GoogleAuthProvider, linkWithPopup, signInWithCredential, signInWithPopup } = await import('firebase/auth');
+		const { GoogleAuthProvider, linkWithPopup, signInWithCredential, signInWithPopup } =
+			await import('firebase/auth');
 		const provider = new GoogleAuthProvider();
 		const guest = auth.currentUser?.isAnonymous ? auth.currentUser : null;
 
 		let user: User;
 		try {
-			user = guest ? (await linkWithPopup(guest, provider)).user : (await signInWithPopup(auth, provider)).user;
+			user = guest
+				? (await linkWithPopup(guest, provider)).user
+				: (await signInWithPopup(auth, provider)).user;
 		} catch (error) {
 			const credential = GoogleAuthProvider.credentialFromError(error as never);
-			if (!guest || (error as { code?: string }).code !== 'auth/credential-already-in-use' || !credential) throw error;
+			if (
+				!guest ||
+				(error as { code?: string }).code !== 'auth/credential-already-in-use' ||
+				!credential
+			)
+				throw error;
 			const guestScores = await this._data.loadScores(guest.uid);
 			user = (await signInWithCredential(auth, credential)).user;
 			await this._data.mergeScores(user.uid, guestScores);
@@ -81,7 +91,8 @@ export class AuthService {
 		const user = auth?.currentUser;
 		if (!user) throw new Error('Not signed in.');
 
-		const { deleteUser, GoogleAuthProvider, reauthenticateWithPopup } = await import('firebase/auth');
+		const { deleteUser, GoogleAuthProvider, reauthenticateWithPopup } =
+			await import('firebase/auth');
 		if (!user.isAnonymous) await reauthenticateWithPopup(user, new GoogleAuthProvider());
 		await this._account.deleteData(user.uid);
 		await deleteUser(user);

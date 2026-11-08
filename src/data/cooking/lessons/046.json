@@ -1,0 +1,78 @@
+{
+  "id": 46,
+  "slug": "046-heat-vs-temperature",
+  "group": "046",
+  "title": {
+    "en": "Heat vs. Temperature",
+    "ua": "Різниця між теплотою та температурою"
+  },
+  "en": {
+    "short": "Heat is energy transferred because of a temperature difference; temperature describes how hot or cold a material is. Knowing the difference helps explain why a small hot pan and a large pot of warm water behave differently.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Temperature is measured in degrees Celsius or kelvin, whereas heat transfer is measured in joules. A burner provides energy, but the resulting temperature rise depends on the amount of food, its specific heat, evaporation, and how quickly energy escapes. Heat naturally flows from a hotter region toward a cooler one."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "For a simple material away from a phase change, absorbed heat is approximately Q = m × c × ΔT, where m is mass, c is specific heat capacity, and ΔT is temperature change. This model does not include energy spent on evaporation, melting, or chemical reactions."
+      },
+      {
+        "title": "How to apply it",
+        "text": "When doubling a soup recipe, plan for more energy and usually more time to reach simmering, even if the target temperature stays unchanged. Measure food temperature with a thermometer rather than inferring it from burner setting or steam alone."
+      },
+      {
+        "title": "Practical example",
+        "text": "Heating 1 kg of water from 20°C to 70°C takes roughly 209 kJ in an idealized calculation. Heating 2 kg by the same 50°C requires about twice that energy before accounting for heat losses."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Heat is not a substance stored inside the dish, and a higher flame does not always mean higher liquid temperature. Near boiling, additional energy often goes into producing steam instead of raising temperature."
+      },
+      {
+        "title": "Related theories",
+        "text": "047, 050, 052, 053."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Теплота — це енергія, яку тіла передають через різницю температур; температура характеризує їхній тепловий стан. Ця відмінність пояснює, чому маленька гаряча сковорода й великий казан теплої води поводяться по-різному.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Температуру вимірюють у градусах Цельсія або кельвінах, а передану теплоту — у джоулях. Конфорка подає енергію, але підвищення температури залежить від маси їжі, її теплоємності, випаровування та втрат тепла. Тепло самочинно переходить від гарячішої ділянки до холоднішої."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Для речовини без фазових переходів поглинуту теплоту наближено визначають як Q = m × c × ΔT, де m — маса, c — питома теплоємність, а ΔT — зміна температури. Така модель не враховує енергію випаровування, плавлення та хімічних реакцій."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Подвоюючи порцію супу, враховуйте, що для доведення до слабкого кипіння знадобиться більше енергії й зазвичай більше часу, хоча цільова температура лишається тією самою. Температуру їжі вимірюйте термометром, а не визначайте лише за положенням ручки конфорки чи кількістю пари."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "На нагрівання 1 кг води від 20°C до 70°C за спрощеним розрахунком потрібно близько 209 кДж. Для 2 кг за тієї самої різниці 50°C треба приблизно вдвічі більше енергії без урахування втрат."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Теплота — не речовина, «накопичена» в страві, а сильніший вогонь не завжди означає вищу температуру рідини. Біля точки кипіння додаткова енергія часто витрачається на пароутворення, а не на подальше нагрівання."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "047, 050, 052, 053."
+      }
+    ]
+  },
+  "related": [
+    47,
+    50,
+    52,
+    53
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 47,
+  "slug": "047-heat-conduction",
+  "group": "046",
+  "title": {
+    "en": "Heat Conduction",
+    "ua": "Теплопровідність"
+  },
+  "en": {
+    "short": "Conduction transfers thermal energy through contact between neighboring particles. In cooking, it moves heat from a hot pan into food and from a food’s hot surface toward its cooler center.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "The transfer rate depends on the temperature difference, contact area, material conductivity, and distance heat must travel. Good contact is crucial: an uneven steak touching the pan at only a few points browns differently from one making broad, even contact."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "The one-dimensional Fourier-law model expresses conductive heat flow as proportional to conductivity k, area A, and temperature gradient ΔT/L. Food is heterogeneous and may lose water or change structure, so kitchen heat flow is rarely perfectly steady."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Preheat the pan enough for the chosen food; dry moist surfaces where browning is desired; arrange items in a single layer and avoid excessive pan crowding. Use a thermometer for thick items because their centers lag behind the surface."
+      },
+      {
+        "title": "Practical example",
+        "text": "A thin pancake rapidly conducts heat from a griddle through its small thickness. A thick potato needs substantially longer for its center to heat, even when the exterior receives similar heat."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Conduction is not the only mechanism: convection and radiation can act simultaneously. Avoid assuming that pan material or a single surface reading determines the temperature throughout food."
+      },
+      {
+        "title": "Related theories",
+        "text": "046, 048, 051, 057."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Теплопровідність передає теплову енергію через взаємодію сусідніх частинок. На кухні вона переносить тепло від сковороди до продукту та від гарячої поверхні шматка до його холоднішої середини.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Швидкість передавання залежить від різниці температур, площі контакту, теплопровідності матеріалу та відстані, яку має пройти тепло. Контакт важливий: нерівний стейк, що торкається сковороди лише в кількох місцях, підрум’янюється інакше, ніж плаский шматок із широкою площею дотику."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "У спрощеному законі Фур’є потік тепла пропорційний теплопровідності k, площі A та температурному градієнту ΔT/L. Продукти неоднорідні, втрачають воду й змінюють структуру, тому реальний потік тепла на кухні рідко буває сталим."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Розігрійте сковороду відповідно до продукту; для утворення скоринки приберіть зайву вологу з поверхні. Розташовуйте шматки одним шаром і не переповнюйте посуд. У товстих продуктах перевіряйте центр термометром, адже він нагрівається із запізненням."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Тонкий млинець швидко отримує тепло від поверхні сковороди по всій товщині. Товстій картоплині потрібно значно більше часу, щоб прогріти середину, навіть якщо зовнішня поверхня нагрівається так само."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Теплопровідність не єдиний механізм: водночас працюють конвекція та випромінювання. Не варто вважати, що матеріал сковороди або одне вимірювання поверхні визначає температуру всередині продукту."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "046, 048, 051, 057."
+      }
+    ]
+  },
+  "related": [
+    46,
+    48,
+    51,
+    57
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ]
+}

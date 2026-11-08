@@ -1,9 +1,10 @@
 @use 'tailwindcss';
 @use './styles/theme';
 @use './styles/ds-base';
-@use './styles/ds-light';
-@use './styles/ds-dark';
-@use './styles/brand';
+@use './styles/cooking-light';
+@use './styles/cooking-dark';
+@use './styles/cooking';
+@use './styles/cooking-theories';
 
 /* Short Tailwind names for the active skin's tokens, so utilities follow light/dark. */
 @theme inline {
@@ -57,6 +58,9 @@ dialog:focus-visible {
 }
 
 .sr-only-focusable:not(:focus) {
+	padding: 0 !important;
+	border: 0;
+	min-height: 0;
 	position: absolute;
 	width: 1px;
 	height: 1px;

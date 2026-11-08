@@ -1,0 +1,82 @@
+{
+  "id": 321,
+  "slug": "321-fifo-inventory-rotation",
+  "group": "316",
+  "title": {
+    "en": "FIFO Inventory Rotation",
+    "ua": "Ротація запасів за принципом FIFO"
+  },
+  "en": {
+    "short": "First-in, first-out (FIFO) is a stock-rotation method that normally uses earlier received ingredients before newer ones. Together with expiry-date checks, traceable labels, and suitable storage, it reduces avoidable spoilage and protects consistent kitchen production.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Record when each lot enters the kitchen and make it easy to retrieve the oldest appropriate stock. FIFO follows arrival order; FEFO (first-expired, first-out) follows the earliest use-by date. When dates differ, safety and the applicable date limits override an automatic FIFO choice."
+      },
+      {
+        "title": "Operational principles",
+        "text": "Mark each container with an ingredient name, receiving or preparation date, relevant use-by date, and batch identifier when available. Put older eligible stock in front of or above newly delivered stock while preserving correct raw-versus-ready-to-eat segregation and temperature control. A shelf label is not permission to extend a legal or manufacturer shelf life."
+      },
+      {
+        "title": "How to apply it",
+        "text": "At receiving, inspect packaging, date codes, and temperatures; reject unsuitable deliveries. Move older stock forward, put new stock behind it, review items approaching their dates before planning tomorrow’s prep, and document discarded stock. Audit refrigerated, frozen, and dry stores separately."
+      },
+      {
+        "title": "Practical example",
+        "text": "A restaurant receives 8 kg of carrots on Monday and another 10 kg on Thursday. Both deliveries are suitable and the Monday lot expires first, so Monday’s carrots are used first. If Thursday’s lot has an earlier use-by date, check and prioritize by that date instead."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Do not place newly delivered raw poultry above ready-to-eat food simply to make FIFO convenient. Do not use visibly spoiled, temperature-abused, recalled, or expired stock because it is the oldest. A date label and smell test cannot establish microbiological safety."
+      },
+      {
+        "title": "Related theories",
+        "text": "026, 027, 029, 254, 255, 319, 322."
+      }
+    ]
+  },
+  "ua": {
+    "short": "FIFO (першим надійшло — першим використано) — спосіб ротації запасів, за якого раніше отримані продукти зазвичай використовують перед новими. Разом із контролем термінів придатності, маркуванням і правильним зберіганням це допомагає зменшити псування продуктів та підтримувати стабільну роботу кухні.",
+    "sections": [
+      {
+        "title": "Головна ідея",
+        "text": "Фіксуйте надходження кожної партії та розміщуйте запаси так, щоб першими було зручно брати старіші придатні продукти. FIFO орієнтується на дату надходження, а FEFO (першим закінчується термін — першим використовується) — на найближчу кінцеву дату використання. Вимоги безпеки та терміни придатності мають пріоритет над простою черговістю."
+      },
+      {
+        "title": "Принципи організації",
+        "text": "Позначайте назву продукту, дату надходження або приготування, дату використання та, за наявності, номер партії. Нові продукти ставте позаду старих, не порушуючи температурного режиму й розділення сирих продуктів та готової їжі. Маркування не подовжує дозволений строк зберігання."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Під час приймання перевіряйте упаковку, терміни та температурні умови; невідповідні поставки відхиляйте. Переставляйте старіші запаси вперед, плануйте заготовки з урахуванням найближчих дат використання й реєструйте списання. Окремо перевіряйте холодильники, морозильники та сухий склад."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Заклад отримав 8 кг моркви в понеділок і ще 10 кг у четвер. Якщо обидві партії придатні, а в понеділкової строк закінчується раніше, її використовують першою. Якщо в четвергової партії коротший строк, порядок коригують за FEFO."
+      },
+      {
+        "title": "Поширені помилки та обмеження",
+        "text": "Не можна ставити сиру птицю над готовою їжею лише заради ротації. Найстарішу партію не використовують, якщо вона зіпсована, зберігалася неправильно, відкликана або втратила придатність. Запах чи етикетка не доводять мікробіологічної безпечності."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "026, 027, 029, 254, 255, 319, 322."
+      }
+    ]
+  },
+  "related": [
+    26,
+    27,
+    29,
+    254,
+    255,
+    319,
+    322
+  ],
+  "referenceTitle": "Sources / Джерела",
+  "references": [
+    "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.epa.gov/sustainable-management-food/prevent-wasted-food-through-source-reduction"
+  ]
+}

@@ -1,53 +1,37 @@
-# Business
+# Cooking
 
-A business learning platform at [business.webart.work](https://business.webart.work). Business
-theories and frameworks (strategy, startups, marketing, finance, operations, leadership and decision
-making), each with a short and a detailed version, in English and Ukrainian, followed by practice
-sets that test them.
+Cooking education at https://cooking.webart.work, built with Angular 22, TypeScript, prerendered pages and the existing `@wawjs/ngx-default` conventions.
 
-## Stack
+## Lessons
 
-Angular 22 with SSR prerender and Tailwind CSS. Firebase (project `learning-c2766`) for guest and
-Google sign-in and saved progress. Conventions come from `@wawjs/ngx-default`; see `AGENTS.md`.
+The 17 supplied archives contain 330 theories. Their original bytes are preserved in `content/cooking-theories/001.md` through `330.md`; `content/cooking-import.json` records archive provenance and SHA-256 hashes. Every theory includes English and Ukrainian short versions, six detailed sections per language, related theories and source URLs. No theory or exercise images were generated.
 
-## Content
+The importer creates 21 numbered topic groups, a searchable bilingual catalog, lazy lesson JSON, route loaders and build-only SEO metadata. Original lesson prose, numerical examples, limitations and source links are preserved. The app renders supplied material as escaped text with bold emphasis, never as executable HTML.
 
-The 89 theories are written in `content/theories/NN.md` (English and Ukrainian, a short and a detailed
-version each). After editing one, regenerate the app data with `npm run theories:import`; it writes:
+## Features
 
-- `src/data/theory/catalog.json`: modules and lesson cards (slug, module, minutes, EN/UA title and summary).
-- `src/data/theory/topics/<slug>.json`: a lesson's text, registered in `src/app/feature/theory/theory.loaders.ts`.
-- the SEO entry of every lesson page in `src/data/company/company.json`.
+- Search all 330 lessons by title, number or keyword in either language; filter by topic. Filters persist in the URL.
+- Short/full reading, related links and previous/next lessons. Each lesson has its own prerendered URL and metadata.
+- Device-local study marks under `cooking_reading`.
+- Print an individual short/full theory, or all 330 short/full theories in English or Ukrainian. Print styles use black text on white in both themes.
+- Editorial Warm light and Chocolate & Cream dark, consistent Iconoir icons, self-hosted Inter/Fraunces and generic generated Cooking photography.
 
-The rest of the content:
-
-- `src/data/practice/<slug>.json` and `src/data/practice/keys/<slug>.json`: a lesson's questions and answer
-  keys, registered in `src/app/feature/practice/practice.loaders.ts`.
-- `src/data/glossary/glossary.json`: glossary sections and terms.
-- `src/app/feature/dashboard/priority.ts`: the learning path order of the modules.
-
-## Brand
-
-Three rising amber bars on dark navy (`#0F1724`, amber `#F7C35C` to `#E8892B`). Every brand image is
-drawn by `tools/brand/render-brand.swift` (macOS, no image tools needed): the logo, favicon and web
-icons, the landing illustration (`src/assets/hero.jpg`), the social cards in `src/assets/seo/`, and the
-Android and iOS launcher icons and splash screens. To change the brand, edit the script and run:
-
-```bash
-swift tools/brand/render-brand.swift
-```
+Practice exercises, recipes and the virtual kitchen remain future work. Copied Business content and any pre-existing local edits remain on disk as an archive; their lesson and exercise routes are not published as Cooking content. Archived import commands are named explicitly in package.json.
 
 ## Commands
 
-```bash
-npm start        # dev server
-npm run build    # production build and prerender into dist/app/browser
+```sh
+npm ci
+npm start
+npm run theories:import
+npm run check:content
+npm run build:seo
 ```
 
-## Deploy
+Production output: `dist/app/browser`. `build:seo` imports and verifies the content, prerenders 336 pages and checks every English short/full lesson against its generated HTML. The browser bundle loads individual lessons on demand; the full catalog and all-theory print data are lazy.
 
-GitHub Pages through `.github/workflows/deploy.yml`, with `CNAME` set to `business.webart.work`.
+## Configuration and verification
 
-## License
+Google sign-in inherits the shared learning Firebase configuration and still requires configuration/verification; reading and local study marks work without it. Native builds/signing and Firebase rules deployment were not performed. The native workflow remains manual. The existing GitHub Pages workflow requires its configured repository deployment secret.
 
-GPL-3.0-or-later.
+See `DESIGN_REVIEW.md` for validation evidence and limitations.

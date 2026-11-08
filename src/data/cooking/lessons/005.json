@@ -1,0 +1,77 @@
+{
+  "id": 5,
+  "slug": "005-cooking-workflow-and-step-sequencing",
+  "group": "001",
+  "title": {
+    "en": "Cooking Workflow and Step Sequencing",
+    "ua": "Послідовність етапів приготування"
+  },
+  "en": {
+    "short": "Cooking workflow determines which tasks must happen first and which can happen simultaneously. Correct sequencing protects food quality and safety while allowing a complete meal to finish together.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Cooking consists of dependent operations: bread dough must ferment before baking, a pan must heat before searing, and food requiring chilling needs adequate cooling time. These dependencies form a workflow rather than an arbitrary list."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "The longest or least flexible task often determines the schedule. Some steps can run in parallel, but an unattended pan, unsafe cooling, or overloaded workspace creates risk. A task is complete only when its quality and safety checks pass."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Work backward from serving time. Identify active and passive steps, required equipment and critical points; start long operations early, coordinate shared burners, and leave time for resting and cleanup."
+      },
+      {
+        "title": "Practical example",
+        "text": "For roast chicken with rice and salad, start preheating and chicken preparation first, begin rice while the chicken cooks, wash salad vegetables separately, and dress salad near serving time. Check chicken with a thermometer."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Poor sequencing causes cold sides, overcooked proteins, or raw vegetables contaminating cooked food. Do not schedule multiple tasks that all require continuous attention during the same few minutes."
+      },
+      {
+        "title": "Related theories",
+        "text": "003, 006, 019."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Послідовність приготування визначає, які операції мають передувати іншим і що можна робити одночасно. Вдала організація допомагає зберегти якість та безпечність їжі й подати всі компоненти вчасно.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Готування складається із залежних операцій: тісто має піднятися перед випіканням, сковорода — нагрітися перед обсмажуванням, а продукти для зберігання потребують належного охолодження. Це робочий процес, а не довільний список кроків."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Найтриваліша або найменш гнучка операція часто визначає розклад. Частину дій можна виконувати паралельно, але без нагляду за сковородою, правильного охолодження та вільної робочої зони виникають ризики. Завершення етапу перевіряють за якістю й безпечністю."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Плануйте у зворотному напрямку від часу подачі. Позначте активні та пасивні операції, потрібний інвентар і критичні точки; довгі процеси починайте першими, узгоджуйте використання конфорок і залишайте час на відпочинок страв та прибирання."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Для курки з рисом і салатом спочатку розігрійте духовку та підготуйте птицю, поки вона печеться — приготуйте рис, окремо помийте овочі, а заправку до салату додайте безпосередньо перед подачею. Готовність курки перевірте термометром."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Погана послідовність призводить до холодних гарнірів, пересушених білкових продуктів або забруднення готової їжі сирими. Не ставте одночасно надто багато завдань, що вимагають безперервної уваги."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "003, 006, 019."
+      }
+    ]
+  },
+  "related": [
+    3,
+    6,
+    19
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://www.cacfp.org/2024/05/07/culinary-basics-mise-en-place/",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
+  ]
+}

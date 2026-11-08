@@ -1,0 +1,77 @@
+{
+  "id": 10,
+  "slug": "010-accuracy-and-precision-in-cooking",
+  "group": "001",
+  "title": {
+    "en": "Accuracy and Precision in Cooking",
+    "ua": "Точність вимірювань у кулінарії"
+  },
+  "en": {
+    "short": "Accuracy means closeness to the true or intended quantity, while precision means consistency between repeated measurements. Both matter when seasoning, baking, monitoring temperatures, and documenting recipes.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "A device can be consistent but wrong: a miscalibrated scale might always show 10 g too much. Conversely, an accurate instrument used inconsistently gives variable results. Measurement uncertainty should be judged against the size of the ingredient or safety threshold."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "Error sources include calibration, unstable surfaces, measuring technique, ingredient temperature and resolution. A scale that increments by 1 g may be adequate for 500 g of flour but poor for a 0.5 g additive."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Check a scale against a suitable reference, use a stable level surface and tare containers. Use a thermometer appropriate to the task and follow its calibration instructions. Record key measurements rather than relying on memory."
+      },
+      {
+        "title": "Practical example",
+        "text": "For a dessert requiring 2 g of salt, a 1 g resolution scale might allow a large relative dosing error. A finer scale or a tested formulation is preferable, while 500 g flour is much less sensitive to that resolution."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Do not mistake repeated readings for proof of correctness or add unnecessary decimal places to rough measurements. Food-safety thresholds require reliable calibrated temperature measurements, not visual estimates."
+      },
+      {
+        "title": "Related theories",
+        "text": "009, 014, 309."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Правильність вимірювання показує близькість до потрібного значення, а прецизійність — сталість повторних результатів. Обидві характеристики важливі для дозування спецій, випічки, температурного контролю та документації.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Прилад може давати стабільні, але неправильні результати: невідкалібровані ваги щоразу показуватимуть на 10 г більше. І навпаки, правильний прилад за непослідовного користування дає різні числа. Значущість похибки залежить від дози та критичності порога."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Причини похибок — калібрування, нерівна поверхня, техніка вимірювання, температура продукту й роздільна здатність приладу. Ваги з кроком 1 г можуть підходити для 500 г борошна, але не для 0,5 г добавки."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Перевіряйте ваги відповідним еталоном, ставте їх на стійку рівну поверхню та обнуляйте тару. Користуйтеся термометром, призначеним для конкретного завдання, та дотримуйтеся інструкції з калібрування. Важливі показники записуйте."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Якщо десерт містить 2 г солі, ваги з кроком 1 г можуть створювати велику відносну похибку. Краще використати точніші ваги, тоді як для 500 г борошна цей крок менш критичний."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Стабільні показники ще не доводять їхньої правильності, а надлишкові десяткові знаки не роблять приблизні вимірювання точними. Пороги харчової безпечності контролюйте надійним термометром, а не на око."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "009, 014, 309."
+      }
+    ]
+  },
+  "related": [
+    9,
+    14,
+    309
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://www.nist.gov/pml/owm/nist-metric-recipes-sp-1290",
+    "https://extension.umn.edu/food/preparing/cooking-at-home"
+  ]
+}

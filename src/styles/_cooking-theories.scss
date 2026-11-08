@@ -1,0 +1,232 @@
+.cooking-search {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 1.5rem;
+	margin-top: 2rem;
+}
+.cooking-search label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.cooking-search select {
+	width: 100%;
+}
+.cooking-list-tools {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-block: 1.5rem 2rem;
+	color: var(--muted-foreground);
+}
+.cooking-list-tools nav,
+.cooking-reader-tools {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+.cooking-topic {
+	border-bottom: 1px solid var(--border);
+	padding-block: 1rem;
+}
+.cooking-topic > summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+	font-family: var(--font-serif);
+	font-size: 1.5rem;
+	cursor: pointer;
+	list-style: none;
+	min-height: 3rem;
+}
+.cooking-topic > summary::after {
+	content: '+';
+	font: inherit;
+}
+.cooking-topic[open] > summary::after {
+	content: '−';
+}
+.cooking-topic-count {
+	margin-left: auto;
+	color: var(--muted-foreground);
+	font-family: var(--font-sans);
+	font-size: 0.875rem;
+}
+.cooking-lesson-list {
+	margin-top: 1rem;
+}
+.cooking-lesson-list > li {
+	display: flex;
+	gap: 1.5rem;
+	padding: 1.5rem 0;
+	border-top: 1px solid var(--border);
+}
+.cooking-lesson-list > li > div {
+	flex: 1;
+	min-width: 0;
+}
+.cooking-lesson-list h2 {
+	font-size: 1.5rem;
+	line-height: 1.3;
+}
+.cooking-lesson-list h2 a {
+	min-height: 2.75rem;
+	display: inline-flex;
+	align-items: center;
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+}
+.cooking-lesson-list p {
+	margin-top: 0.5rem;
+	line-height: 1.7;
+	color: var(--muted-foreground);
+	max-width: 75ch;
+}
+.cooking-studied {
+	display: inline-block;
+	color: var(--foreground);
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+}
+.cooking-empty {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 1rem;
+}
+.cooking-reader {
+	overflow-wrap: anywhere;
+}
+.cooking-reader h1 {
+	font-size: 2.75rem;
+	line-height: 1.15;
+	margin-top: 1rem;
+}
+.cooking-reader section h2 {
+	margin-top: 2rem;
+}
+.cooking-short {
+	font-size: 1.125rem;
+	line-height: 1.75;
+}
+.cooking-reader-tools {
+	margin-top: 1.5rem;
+}
+.cooking-reader-tools .ds-btn {
+	margin-top: 0;
+}
+.cooking-sources a,
+.cooking-related a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.75rem;
+	color: var(--primary);
+	text-decoration: underline;
+	text-underline-offset: 0.2rem;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+}
+.cooking-sources li,
+.cooking-related li {
+	margin-block: 0.5rem;
+}
+.cooking-study {
+	border-top: 1px solid var(--border);
+	margin-top: 2rem;
+}
+.cooking-study p {
+	color: var(--muted-foreground);
+}
+.cooking-related {
+	margin-top: 2rem;
+}
+.cooking-related h2 {
+	font-size: 1.75rem;
+	line-height: 1.3;
+}
+.cooking-adjacent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+.cooking-adjacent .ds-btn {
+	margin-top: 0;
+}
+.cooking-print-lesson {
+	border-top: 1px solid var(--border);
+	overflow-wrap: anywhere;
+}
+.cook-prose .cooking-print-title {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+.cooking-print-lesson h3 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+.cooking-print-lesson a {
+	overflow-wrap: anywhere;
+	color: var(--primary);
+}
+@media (max-width: 767px) {
+	.cooking-search {
+		grid-template-columns: 1fr;
+	}
+	.cooking-reader h1 {
+		font-size: 2.25rem;
+	}
+	.cooking-list-tools nav {
+		width: 100%;
+	}
+	.cooking-topic > summary {
+		font-size: 1.5rem;
+	}
+}
+@media print {
+	html[data-mode] {
+		--background: white;
+		--foreground: black;
+		--primary: black;
+		--muted-foreground: #333;
+		--border: #ccc;
+		--card: white;
+		--card-foreground: black;
+	}
+	.cooking-reader-tools,
+	.cooking-print-tools,
+	.cooking-study,
+	.cooking-adjacent,
+	.cooking-back,
+	.cooking-related {
+		display: none !important;
+	}
+	.cooking-print-lesson {
+		break-before: page;
+		padding: 0;
+		border: 0;
+		max-width: none;
+	}
+	.cooking-print-lesson:first-of-type {
+		break-before: auto;
+	}
+	.cooking-reader {
+		max-width: none;
+		padding: 0;
+	}
+	.cooking-print-lesson h2,
+	.cooking-print-lesson h3,
+	.cooking-reader h2 {
+		break-after: avoid;
+	}
+	.cooking-print-lesson p,
+	.cooking-reader p {
+		widows: 3;
+		orphans: 3;
+	}
+}

@@ -1,0 +1,80 @@
+{
+  "id": 303,
+  "slug": "303-ingredient-substitution-logic",
+  "group": "301",
+  "title": {
+    "en": "Ingredient Substitution Logic",
+    "ua": "Логіка заміни інгредієнтів"
+  },
+  "en": {
+    "short": "A sensible substitution starts by identifying what an ingredient does in a particular recipe. Replacements must be assessed for taste, water content, texture, cooking behavior, and possible allergens rather than chosen solely by appearance.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Separate an ingredient’s identity from its function. In soup, cream adds richness and body; in whipped dessert, it must also trap air. The same replacement may work in one dish but fail in another."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "Changes in moisture, protein, fat, acidity, starch, and sugar alter heat transfer and structure. For example, replacing fresh tomato with concentrated paste changes water content and intensity, not merely tomato flavor."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Write the missing ingredient’s roles and constraints. Select a substitute, estimate changes in liquid and seasoning, test a small batch, and document whether texture, color, and cooking time remain acceptable."
+      },
+      {
+        "title": "Practical example",
+        "text": "Replace 200 g of fresh spinach in a cooked filling with frozen spinach only after thawing and squeezing it; otherwise excess water may make the pastry soggy."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Volume-for-volume swaps are often unreliable. Check packaged foods for allergens and cross-contact; never assume plant-based automatically means free of milk, soy, nuts, or gluten."
+      },
+      {
+        "title": "Related theories",
+        "text": "008, 009, 105, 143, 211, 304."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Розумна заміна інгредієнта починається з визначення його ролі в конкретному рецепті. Замінник оцінюють за смаком, вологістю, текстурою, поведінкою під час нагрівання та можливими алергенами, а не лише за зовнішньою схожістю.",
+    "sections": [
+      {
+        "title": "Головна ідея",
+        "text": "Відокремлюйте назву інгредієнта від його функції. У супі вершки дають жирність і густину, а у збитому десерті ще й утримують повітря. Тому одна заміна не працюватиме однаково в усіх стравах."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Співвідношення вологи, білків, жирів, кислот, крохмалю та цукру визначає структуру й нагрівання. Томатна паста замість свіжих томатів змінює також густину та інтенсивність смаку."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Запишіть, для чого потрібен відсутній продукт, і його критичні властивості. Виберіть альтернативу, перераховуйте рідину й приправи, перевіряйте маленьку порцію та фіксуйте зміни."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Замінюючи 200 г свіжого шпинату замороженим для начинки, розморозьте його й відіжміть воду, інакше випічка може розмокнути."
+      },
+      {
+        "title": "Поширені помилки та обмеження",
+        "text": "Однаковий об’єм не означає однакову масу чи функціональність. Перевіряйте алергени; рослинний продукт може містити сою, горіхи, глютен або сліди молока."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "008, 009, 105, 143, 211, 304."
+      }
+    ]
+  },
+  "related": [
+    8,
+    9,
+    105,
+    143,
+    211,
+    304
+  ],
+  "referenceTitle": "Sources / Джерела",
+  "references": [
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide",
+    "https://www.foodallergy.org/resources/avoiding-cross-contact"
+  ]
+}

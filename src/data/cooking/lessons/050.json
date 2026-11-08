@@ -1,0 +1,78 @@
+{
+  "id": 50,
+  "slug": "050-specific-heat-capacity-of-foods",
+  "group": "046",
+  "title": {
+    "en": "Specific Heat Capacity of Foods",
+    "ua": "Питома теплоємність харчових продуктів"
+  },
+  "en": {
+    "short": "Specific heat capacity describes how much energy is needed to warm a unit mass of material by one degree. Foods rich in water generally need more energy to change temperature than many fats or metal cookware.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "The heat-capacity relationship Q = m × c × ΔT helps estimate heating demand. Liquid water has a specific heat of about 4.18 kJ/(kg·°C), whereas olive oil is roughly 2 kJ/(kg·°C); complex foods vary with composition and temperature."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "A large water-rich pot can buffer temperature changes when cold ingredients are added, but it also takes substantial energy to heat initially. Food temperature responses also depend on conductivity, mixing, evaporation, and phase changes, not only heat capacity."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Use a large enough pot of water when a stable boil is important, yet avoid unnecessary excess if conserving energy. When moving from a one-serving recipe to family-size production, plan for increased total heating energy."
+      },
+      {
+        "title": "Practical example",
+        "text": "An ideal calculation for heating 0.5 kg of water by 40°C gives about 84 kJ. The same amount of oil, ignoring losses and changes with temperature, takes markedly less energy for the same temperature rise."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Do not mistake heat capacity for heat conductivity: an ingredient may take much energy to warm yet transfer that heat slowly. The simple formula is inappropriate across melting, boiling, or other phase changes unless those energy terms are added."
+      },
+      {
+        "title": "Related theories",
+        "text": "046, 051, 053, 055."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Питома теплоємність показує, скільки енергії треба для нагрівання одиниці маси речовини на один градус. Продукти з високим вмістом води зазвичай потребують більше енергії для зміни температури, ніж багато жирів або металевий посуд.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Співвідношення Q = m × c × ΔT допомагає оцінити потребу в енергії. Для рідкої води питома теплоємність близько 4,18 кДж/(кг·°C), а для оливкової олії — приблизно 2 кДж/(кг·°C); значення складних продуктів змінюється залежно від складу й температури."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Велика кількість води може пом’якшувати падіння температури після додавання холодних інгредієнтів, але спочатку потребує значної енергії для нагрівання. Температурна реакція залежить також від теплопровідності, перемішування, випаровування й фазових переходів, а не лише від теплоємності."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Коли потрібне стабільне кипіння, використовуйте достатню кількість води, але уникайте зайвого об’єму, якщо важлива економія енергії. Масштабуючи рецепт з однієї порції до сімейної, враховуйте збільшення сумарних витрат тепла."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "За ідеалізованим розрахунком, для нагрівання 0,5 кг води на 40°C потрібно близько 84 кДж. Та сама маса олії за тієї самої зміни температури потребує істотно менше енергії, якщо не враховувати втрати й зміну властивостей."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Не плутайте теплоємність із теплопровідністю: продукт може потребувати багато енергії для нагрівання, але передавати її повільно. Просту формулу не можна без поправок застосовувати до плавлення, кипіння та інших фазових переходів."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "046, 051, 053, 055."
+      }
+    ]
+  },
+  "related": [
+    46,
+    51,
+    53,
+    55
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ]
+}

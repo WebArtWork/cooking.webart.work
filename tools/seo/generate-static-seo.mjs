@@ -8,7 +8,8 @@ const outputDirs = [path.join(rootDir, 'dist/app/browser'), path.join(rootDir, '
 
 const company = await readJson('src/data/company/company.json');
 const siteUrl = trimTrailingSlash(company.siteUrl || 'https://example.com');
-const pageSeo = company.pageSeo ?? {};
+// Lesson metadata is kept out of the initial browser bundle; the lesson resolver supplies it.
+const pageSeo = { ...company.pageSeo, ...await readJson('src/data/cooking/seo.json') };
 
 // every page with SEO data that search engines may index; routes with parameters (/library/games/:id) are left out
 const routes = Object.keys(pageSeo).filter(

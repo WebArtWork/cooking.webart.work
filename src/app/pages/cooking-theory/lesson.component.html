@@ -1,0 +1,80 @@
+@let lesson = theory();
+<article class="cook-prose cooking-reader">
+	<a class="cooking-back" routerLink="/theories">← {{ 'All cooking theories' | t }}</a>
+	<h1>{{ pick(lesson.title, language()) }}</h1>
+	<p class="text-mute">{{ 'Theory {number} of 330' | t: { number: lesson.id } }}</p>
+	<section aria-labelledby="short-title">
+		<h2 id="short-title">{{ 'In short' | t }}</h2>
+		<p class="cooking-short"><app-cooking-text [text]="body().short" /></p>
+	</section>
+	<div class="cooking-reader-tools">
+		<button
+			class="ds-btn ds-btn-primary"
+			type="button"
+			[attr.aria-expanded]="expanded()"
+			aria-controls="full-theory"
+			(click)="toggle()"
+		>
+			{{ (expanded() ? 'Show short version' : 'Read full theory') | t }}
+		</button>
+		<button class="ds-btn ds-btn-outline" type="button" (click)="print()">
+			{{ (expanded() ? 'Print full theory' : 'Print short theory') | t }}
+		</button>
+	</div>
+	<div id="full-theory" [hidden]="!expanded()">
+		@for (section of body().sections; track $index) {
+			<section>
+				<h2>{{ section.title }}</h2>
+				<p><app-cooking-text [text]="section.text" /></p>
+			</section>
+		}
+	</div>
+	<section class="cooking-sources">
+		<h2>{{ 'Sources' | t }}</h2>
+		<ul>
+			@for (source of lesson.references; track source) {
+				<li>
+					<a [href]="source" rel="noopener noreferrer">{{ source }}</a>
+				</li>
+			}
+		</ul>
+	</section>
+	<section class="cooking-study" aria-labelledby="study-title">
+		<h2 id="study-title">{{ 'Your study progress' | t }}</h2>
+		<p>{{ 'Study marks are saved on this device.' | t }}</p>
+		<button
+			class="ds-btn ds-btn-outline"
+			type="button"
+			[attr.aria-pressed]="studied()"
+			(click)="study.toggle(lesson.slug)"
+		>
+			{{ (studied() ? 'Studied — undo' : 'Mark as studied') | t }}</button
+		><span class="sr-only" role="status">{{
+			(studied() ? 'Marked as studied' : 'Not marked as studied') | t
+		}}</span>
+	</section>
+	<nav class="cooking-related" [attr.aria-label]="'Related theories' | t">
+		<h2>{{ 'Related theories' | t }}</h2>
+		<ul>
+			@for (item of related(); track item.id) {
+				<li>
+					<a [routerLink]="['/theories', item.slug]"
+						>{{ item.id }}. {{ pick(item.title, language()) }}</a
+					>
+				</li>
+			}
+		</ul>
+	</nav>
+	<nav class="cooking-adjacent" [attr.aria-label]="'Previous and next theory' | t">
+		@if (previous(); as item) {
+			<a class="ds-btn ds-btn-outline" [routerLink]="['/theories', item.slug]"
+				>← {{ 'Previous theory' | t }}</a
+			>
+		}
+		@if (next(); as item) {
+			<a class="ds-btn ds-btn-outline" [routerLink]="['/theories', item.slug]"
+				>{{ 'Next theory' | t }} →</a
+			>
+		}
+	</nav>
+</article>

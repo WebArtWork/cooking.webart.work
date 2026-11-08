@@ -1,0 +1,76 @@
+{
+  "id": 9,
+  "slug": "009-measuring-ingredients-and-unit-conversion",
+  "group": "001",
+  "title": {
+    "en": "Measuring Ingredients and Unit Conversion",
+    "ua": "Вимірювання інгредієнтів та перетворення одиниць"
+  },
+  "en": {
+    "short": "Mass, volume, and temperature are different kinds of measurement used in recipes. Knowing how to convert units correctly prevents dosing errors and improves repeatability, especially in baking.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "Grams and kilograms describe mass; milliliters and liters describe volume. The relation between mass and volume depends on density, so 100 ml of oil does not weigh exactly 100 g, and a cup of flour is not equivalent to a cup of water by mass."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "Useful exact metric conversions are 1 kg = 1,000 g and 1 L = 1,000 ml. Fahrenheit converts to Celsius by subtracting 32 and multiplying by 5/9; Celsius converts to Fahrenheit by multiplying by 9/5 and adding 32."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Use a digital scale for flour, salt, sugar and other precise ingredients. Tare the container between additions, select a measuring jug for liquids, and verify which type of “cup,” tablespoon or teaspoon a source recipe assumes."
+      },
+      {
+        "title": "Practical example",
+        "text": "An oven set to 180°C is about 356°F, commonly rounded to 350°F in recipes. However, 250 ml of flour cannot be converted to grams without accounting for packing and the flour type."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "The most frequent errors are using volume as mass, mixing metric and US customary cups, neglecting a tare operation, and rounding tiny quantities such as leavening agents too aggressively."
+      },
+      {
+        "title": "Related theories",
+        "text": "007, 008, 010."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Маса, об’єм і температура — різні величини, які використовують у рецептах. Правильне перетворення одиниць запобігає помилкам дозування та покращує відтворюваність, особливо у випічці.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Грами та кілограми вимірюють масу, а мілілітри й літри — об’єм. Зв’язок між ними залежить від густини: 100 мл олії не важать точно 100 г, а склянка борошна й склянка води мають різну масу."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Точні метричні перетворення: 1 кг = 1 000 г, 1 л = 1 000 мл. Для перетворення Фаренгейтів на Цельсії відніміть 32 і помножте на 5/9; для зворотного перетворення помножте на 9/5 і додайте 32."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Для борошна, солі, цукру та інших точних компонентів користуйтеся електронними вагами. Обнуляйте вагу тари між додаваннями, рідини за потреби міряйте мірним посудом і уточнюйте, яку саме «склянку» мав на увазі автор."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Температура 180°C приблизно дорівнює 356°F; у рецептах її часто округлюють до 350°F. Натомість 250 мл борошна не можна коректно перевести в грами без знання його щільності та способу наповнення."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Часті помилки — прирівнювати об’єм до маси, змішувати метричні та американські міри, забувати обнулити тару та надмірно округлювати малі дози розпушувачів."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "007, 008, 010."
+      }
+    ]
+  },
+  "related": [
+    7,
+    8,
+    10
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://www.nist.gov/pml/owm/nist-metric-recipes-sp-1290"
+  ]
+}

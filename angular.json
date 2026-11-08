@@ -49,7 +49,19 @@
 							{
 								"glob": "**/*",
 								"input": "src/assets",
-								"output": "/"
+								"output": "/",
+								"ignore": [
+									"hero.jpg",
+									"seo/dashboard.jpg",
+									"seo/theory.jpg",
+									"seo/practice.jpg",
+									"seo/privacy.jpg",
+									"seo/licenses.jpg",
+									"seo/glossary.jpg",
+									"seo/profile.jpg",
+									"seo/sign-in.jpg",
+									".well-known/**"
+								]
 							},
 							{
 								"glob": "**/*.json",
@@ -61,6 +73,7 @@
 							"node_modules/@wawjs/ngx-ui/styles.css",
 							"node_modules/@fontsource-variable/inter/index.css",
 							"node_modules/@fontsource-variable/inter-tight/index.css",
+							"node_modules/@fontsource-variable/fraunces/index.css",
 							"src/styles.scss"
 						],
 						"server": "src/main.server.ts",

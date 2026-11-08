@@ -13,7 +13,7 @@ export class UserDataService {
 			const db = await this._firebase.firestore();
 			if (!db) return {};
 			const { doc, getDoc } = await import('firebase/firestore');
-			const snapshot = await getDoc(doc(db, 'users', uid, 'progress', 'practice'));
+			const snapshot = await getDoc(doc(db, 'users', uid, 'progress', 'cooking-practice'));
 			return (snapshot.data()?.['scores'] as PracticeScores | undefined) ?? {};
 		} catch (error) {
 			console.error('Could not load the saved results.', error);
@@ -26,7 +26,10 @@ export class UserDataService {
 			const db = await this._firebase.firestore();
 			if (!db) return;
 			const { doc, serverTimestamp, setDoc } = await import('firebase/firestore');
-			await setDoc(doc(db, 'users', uid, 'progress', 'practice'), { scores, updatedAt: serverTimestamp() });
+			await setDoc(doc(db, 'users', uid, 'progress', 'cooking-practice'), {
+				scores,
+				updatedAt: serverTimestamp(),
+			});
 		} catch (error) {
 			console.error('Could not save the results.', error);
 		}
@@ -44,7 +47,7 @@ export class UserDataService {
 			const db = await this._firebase.firestore();
 			if (!db) return [];
 			const { doc, getDoc } = await import('firebase/firestore');
-			const snapshot = await getDoc(doc(db, 'users', uid, 'progress', 'reading'));
+			const snapshot = await getDoc(doc(db, 'users', uid, 'progress', 'cooking-reading'));
 			return (snapshot.data()?.['read'] as string[] | undefined) ?? [];
 		} catch (error) {
 			console.error('Could not load the lessons read.', error);
@@ -57,10 +60,12 @@ export class UserDataService {
 			const db = await this._firebase.firestore();
 			if (!db) return;
 			const { doc, serverTimestamp, setDoc } = await import('firebase/firestore');
-			await setDoc(doc(db, 'users', uid, 'progress', 'reading'), { read, updatedAt: serverTimestamp() });
+			await setDoc(doc(db, 'users', uid, 'progress', 'cooking-reading'), {
+				read,
+				updatedAt: serverTimestamp(),
+			});
 		} catch (error) {
 			console.error('Could not save the lessons read.', error);
 		}
 	}
-
 }

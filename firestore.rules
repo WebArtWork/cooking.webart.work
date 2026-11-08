@@ -77,9 +77,9 @@ service cloud.firestore {
 			match /progress/{id} {
 				allow read, delete: if isOwner(uid);
 				allow create, update: if isOwner(uid)
-					&& ((id == 'practice' && validPractice(request.resource.data))
+					&& (((id == 'practice' || id == 'cooking-practice') && validPractice(request.resource.data))
 						|| (id == 'systems' && validSystems(request.resource.data))
-						|| (id == 'reading' && validReading(request.resource.data)));
+						|| ((id == 'reading' || id == 'cooking-reading') && validReading(request.resource.data)));
 			}
 		}
 	}

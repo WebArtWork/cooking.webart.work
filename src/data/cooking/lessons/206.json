@@ -1,0 +1,79 @@
+{
+  "id": 206,
+  "slug": "206-dough-temperature-control",
+  "group": "196",
+  "title": {
+    "en": "Dough Temperature Control",
+    "ua": "Контроль температури тіста"
+  },
+  "en": {
+    "short": "Dough temperature governs fermentation speed and influences bread consistency from batch to batch. Bakers manage it through ingredient temperatures, mixing friction and proofing conditions.",
+    "sections": [
+      {
+        "title": "Core idea",
+        "text": "A desired dough temperature (DDT) is the target measured just after mixing, not an oven setting. Many lean wheat doughs perform well in the mid-20s °C, but colder long ferments and richer doughs use other targets."
+      },
+      {
+        "title": "Scientific / practical principles",
+        "text": "One professional approximation for straight dough: water temperature in °C ≈ 3 × DDT − flour temperature − room temperature − mixer friction factor (all expressed in compatible °C-based differences). Mixer friction must be measured empirically; formula precision depends on the equipment and mass."
+      },
+      {
+        "title": "How to apply it",
+        "text": "Take readings of flour, room and water, then use an instant-read probe on the mixed dough. Record dough temperature alongside the rise; adjust water temperature at the next batch rather than blindly changing yeast quantity."
+      },
+      {
+        "title": "Practical example",
+        "text": "If target dough temperature is 25 °C, flour 21 °C, room 23 °C and measured friction correction 4 °C, estimate water at 27 °C (75 − 21 − 23 − 4). Verify by actual post-mix measurement."
+      },
+      {
+        "title": "Common mistakes and limitations",
+        "text": "Ignoring mixer heat causes inconsistent results; a single target does not suit every formula. Do not heat water excessively to compensate for a cold kitchen without considering yeast and other ingredients."
+      },
+      {
+        "title": "Related theories",
+        "text": "014, 050, 201, 202, 205."
+      }
+    ]
+  },
+  "ua": {
+    "short": "Температура тіста керує швидкістю бродіння та допомагає отримувати однаковий результат у різних замісах. Пекар контролює її температурою інгредієнтів, нагріванням від вимішування й умовами вистоювання.",
+    "sections": [
+      {
+        "title": "Суть",
+        "text": "Цільова температура тіста (DDT) — показник після замішування, а не налаштування духовки. Для багатьох простих пшеничних тіст підходить середина діапазону 20–29 °C, але холодне тривале бродіння та здоба потребують інших значень."
+      },
+      {
+        "title": "Наукові та практичні принципи",
+        "text": "Орієнтовна формула для тіста без опари: температура води (°C) ≈ 3 × DDT − температура борошна − температура приміщення − поправка на нагрів від міксера. Поправку визначають дослідно; формула не замінює вимірювання фактичної температури тіста."
+      },
+      {
+        "title": "Як застосовувати",
+        "text": "Виміряйте температуру борошна, повітря, води й готового замісу щупом. Записуйте її разом із часом та результатом бродіння. Наступного разу коригуйте передусім температуру води, а не бездумно додавайте дріжджі."
+      },
+      {
+        "title": "Практичний приклад",
+        "text": "Якщо бажана температура тіста 25 °C, борошно має 21 °C, приміщення 23 °C, а поправка на міксер 4 °C, розрахункова вода має бути 27 °C (75 − 21 − 23 − 4). Після замішування перевірте реальне значення."
+      },
+      {
+        "title": "Поширені помилки й обмеження",
+        "text": "Ігнорування нагріву від міксера погіршує повторюваність. Одна температура не підходить усім видам хліба; надмірно гаряча вода може пошкодити дріжджі."
+      },
+      {
+        "title": "Пов’язані теорії",
+        "text": "014, 050, 201, 202, 205."
+      }
+    ]
+  },
+  "related": [
+    14,
+    50,
+    201,
+    202,
+    205
+  ],
+  "referenceTitle": "References / Джерела",
+  "references": [
+    "https://www.kingarthurbaking.com/pro/reference/dough-temperature",
+    "https://www.kingarthurbaking.com/blog/2023/03/23/ask-the-bread-coach-my-dough-isnt-rising-what-now"
+  ]
+}
