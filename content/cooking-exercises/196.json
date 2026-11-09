@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 196,
+    "title": {
+      "en": "Shortcrust Pastry and Gluten Control",
+      "ua": "Пісочне тісто та контроль клейковини"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-196-01",
+      "theoryId": 196,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why is excessive kneading usually undesirable in shortcrust pastry?",
+        "ua": "Чому для пісочного тіста зазвичай небажане надмірне вимішування?"
+      },
+      "explanation": {
+        "en": "Shortcrust aims for a tender, often crumbly texture rather than a strong gluten network.",
+        "ua": "Пісочне тісто має бути ніжним і часто крихким, а не мати потужну клейковинну сітку."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "It automatically creates puff-pastry layers",
+            "ua": "Воно автоматично створює листкові шари"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "It removes every bit of salt",
+            "ua": "Воно повністю видаляє сіль"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It can develop gluten and toughen the pastry",
+            "ua": "Воно може розвинути клейковину й зробити тісто жорстким"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-196-02",
+      "theoryId": 196,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Fat distribution and restrained handling influence shortcrust tenderness.",
+        "ua": "Розподіл жиру та помірна механічна обробка впливають на ніжність пісочного тіста."
+      },
+      "explanation": {
+        "en": "Fat can limit hydration of some flour proteins and promote tenderness.",
+        "ua": "Жир може обмежувати зволоження частини білків борошна й сприяти ніжності."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-196-03",
+      "theoryId": 196,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match shortcrust techniques with consequences.",
+        "ua": "Поєднайте техніки пісочного тіста з наслідками."
+      },
+      "explanation": {
+        "en": "The desired pastry texture controls how ingredients are handled.",
+        "ua": "Бажана текстура визначає спосіб обробки складників."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Cold butter pieces",
+            "ua": "Шматочки холодного масла"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Minimal mixing after hydration",
+            "ua": "Мінімальне змішування після зволоження"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Chilling before rolling",
+            "ua": "Охолодження перед розкачуванням"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Can contribute flakiness",
+            "ua": "Можуть сприяти шаруватій текстурі"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Makes fat firmer and handling easier",
+            "ua": "Робить жир твердішим і полегшує обробку"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Limits excessive gluten development",
+            "ua": "Обмежує надмірний розвиток клейковини"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-196-04",
+      "theoryId": 196,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A pie crust shrinks and feels tough. Which cause should you examine?",
+        "ua": "Основа пирога стискається й виходить жорсткою. Яку причину перевірити?"
+      },
+      "explanation": {
+        "en": "Gluten development and tension can contribute to shrinkage.",
+        "ua": "Розвинена клейковина та натяг можуть спричиняти стягування тіста."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Overworking the dough and insufficient rest",
+            "ua": "Надмірну обробку тіста й недостатній відпочинок"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cooling baked pastry before serving",
+            "ua": "Охолодження випеченої основи перед подачею"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Using a rolling pin at all",
+            "ua": "Сам факт використання качалки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-196-05",
+      "theoryId": 196,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which steps often support tender shortcrust pastry?",
+        "ua": "Які дії зазвичай допомагають отримати ніжне пісочне тісто?"
+      },
+      "explanation": {
+        "en": "Controlled hydration and working support tenderness.",
+        "ua": "Контроль гідратації та обробки допомагає зберегти ніжність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use controlled amounts of water",
+            "ua": "Додавати контрольовану кількість води"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Avoid unnecessary kneading",
+            "ua": "Уникати зайвого вимішування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Keep adding water until it becomes soup",
+            "ua": "Доливати воду, доки тісто не стане супом"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Chill when the formula requires it",
+            "ua": "Охолоджувати, коли цього потребує рецептура"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

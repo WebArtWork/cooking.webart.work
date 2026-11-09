@@ -1,80 +1,87 @@
 {
   "id": 210,
-  "slug": "210-bakers-percentages-and-bread-formulas",
-  "group": "196",
+  "slug": "210-yogurt-kefir-and-cultured-dairy",
+  "group": "207",
   "title": {
-    "en": "Baker's Percentages and Bread Formulas",
-    "ua": "Пекарські відсотки та формули хлібопечення"
+    "en": "Yogurt, Kefir, and Cultured Dairy",
+    "ua": "Йогурт, кефір та ферментовані молочні продукти"
   },
   "en": {
-    "short": "Baker's percentages express ingredient weights relative to the total flour weight, defined as 100%. They let bakers compare formulas and scale batches while keeping dough proportions consistent.",
+    "short": "Yogurt and kefir are fermented dairy products, but their microbial cultures and processing conditions differ. Controlled acidity, temperature, hygiene and refrigeration are essential to achieve both the intended texture and safe handling.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "For any ingredient, baker’s percentage = (ingredient mass ÷ total flour mass) × 100%. All flours count toward the total, including flour contained in a preferment or starter; water in a starter must also be accounted for when computing overall hydration."
+        "text": "Typical yogurt cultures include Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus. As they metabolize lactose, pH decreases; casein micelles destabilize and form the characteristic gel. Heating milk before inoculation also alters whey proteins, often improving viscosity and water retention."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "The resulting percentages do not need to sum to 100%; a dough with 100% flour, 70% water, 2% salt and 1% yeast totals 173% of flour weight. Weighing is more repeatable than volume measurements."
+        "text": "A Utah State University tested process heats milk to 85–93 °C, cools to about 44–46 °C before adding starter, cultures for several hours until pH reaches 4.6 or lower, then refrigerates immediately. These values belong to that tested process; different dairy systems may use other validated schedules. Heating the milk does not make unclean utensils acceptable."
       },
       {
         "title": "How to apply it",
-        "text": "For 500 g flour at 70% hydration use 350 g water; at 2% salt use 10 g; at 1% yeast use 5 g. To double the batch, double each weight; for a fixed total dough yield calculate flour from the sum of percentage factors."
+        "text": "Use pasteurized milk, a food-grade starter, a reliable thermometer and clean vessels. Follow the heat, cool, culture and chill sequence from a tested recipe; avoid disturbing a set-style yogurt during incubation. Strain after chilling for a thicker Greek-style texture."
       },
       {
         "title": "Practical example",
-        "text": "An exercise: calculate flour required for 1,730 g dough with a formula totaling 173%: 1,730 ÷ 1.73 = 1,000 g flour, then water 700 g, salt 20 g and yeast 10 g."
+        "text": "Prepare yogurt with the same starter and milk, then compare the texture of an undisturbed sample with a sample stirred after setting. Taste only if both batches met the tested safety process."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Confusing ingredient percentages with share of total dough gives wrong quantities. A starter counted as one item can conceal its flour and water, and changing scale may require adjusting mixing and fermentation logistics."
+        "text": "Incubating indefinitely to fix weak yogurt can create excessive acidity without addressing the cause. Do not culture raw milk without validated controls, and never leave finished yogurt unrefrigerated."
+      },
+      {
+        "title": "Additional insight",
+        "text": "Yogurt is commonly fermented by defined thermophilic bacterial starters, while kefir grains typically contain mixed lactic-acid bacteria and yeasts. They differ in gas production, acidity, texture and incubation conditions; do not substitute their cultures into one another's safety protocol."
       },
       {
         "title": "Related theories",
-        "text": "008, 009, 198, 201, 206, 312."
+        "text": "123, 207, 208, 216."
       }
     ]
   },
   "ua": {
-    "short": "Пекарські відсотки показують масу кожного компонента відносно загальної маси борошна, яку приймають за 100%. Такий запис дає змогу порівнювати рецептури та масштабувати заміси без зміни пропорцій.",
+    "short": "Йогурт і кефір є ферментованими молочними продуктами, проте склад їхніх культур і умови приготування відрізняються. Контроль кислотності, температури, гігієни та охолодження важливий і для текстури, і для безпечного поводження з продуктом.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Для будь-якого інгредієнта пекарський відсоток = (маса компонента ÷ загальна маса борошна) × 100%. Ураховують борошно із заквасок та опар, а для загальної гідратації — і воду, що міститься в них."
+        "text": "Типовими культурами йогурту є Streptococcus thermophilus та Lactobacillus delbrueckii subsp. bulgaricus. Під час споживання лактози pH знижується, казеїнові міцели дестабілізуються й утворюють гель. Попереднє нагрівання молока також змінює сироваткові білки, часто покращуючи густину й утримання вологи."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Сума відсотків може перевищувати 100%. Наприклад, 100% борошна, 70% води, 2% солі й 1% дріжджів дають 173% маси борошна. Зважування компонентів точніше за вимірювання чашками."
+        "text": "За перевіреною технологією Utah State University молоко нагрівають до 85–93 °C, охолоджують приблизно до 44–46 °C перед введенням закваски, витримують кілька годин до pH не вище 4,6 й одразу ставлять у холодильник. Ці значення належать конкретній технології: інші системи можуть мати інші перевірені режими. Нагрівання молока не виправдовує брудний посуд."
       },
       {
         "title": "Як застосовувати",
-        "text": "Для 500 г борошна з гідратацією 70% потрібно 350 г води, 2% солі — 10 г, 1% дріжджів — 5 г. Для подвоєння порції збільшуйте кожну масу вдвічі; для заданої загальної маси тіста спершу визначте потрібне борошно."
+        "text": "Використовуйте пастеризоване молоко, харчову закваску, надійний термометр і чистий посуд. Дотримуйтеся послідовності нагрівання, охолодження, заквашування та швидкого охолодження з перевіреного рецепта. Не рухайте йогурт під час формування гелю; для густішої текстури відцідіть охолоджений продукт."
       },
       {
         "title": "Практичний приклад",
-        "text": "Приклад: для 1 730 г тіста з сумою формули 173% потрібно 1 730 ÷ 1,73 = 1 000 г борошна, 700 г води, 20 г солі й 10 г дріжджів."
+        "text": "Зробіть йогурт з однієї закваски та молока, а потім порівняйте текстуру неушкодженого зразка й порції, розмішаної після застигання. Куштуйте лише за дотримання перевіреного безпечного процесу."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не плутайте відсоток від борошна з часткою загальної маси тіста. Закваска, записана одним числом, приховує власну воду й борошно. За значного збільшення партії можуть змінитися умови замішування та бродіння."
+        "text": "Нескінченне витримування слабкого йогурту може лише надмірно підвищити кислотність. Не заквашуйте сире молоко без перевіреної технології та не залишайте готовий йогурт без охолодження."
+      },
+      {
+        "title": "Додатковий аспект",
+        "text": "Йогурт зазвичай заквашують визначеними теплолюбними бактеріями, а кефірні зерна часто містять суміш молочнокислих бактерій і дріжджів. Продукти різняться газоутворенням, кислотністю, текстурою та умовами ферментації; не замінюйте одну закваску іншою в перевіреному безпечному процесі."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "008, 009, 198, 201, 206, 312."
+        "text": "123, 207, 208, 216."
       }
     ]
   },
   "related": [
-    8,
-    9,
-    198,
-    201,
-    206,
-    312
+    123,
+    207,
+    208,
+    216
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage",
-    "https://www.kingarthurbaking.com/blog/2022/04/28/what-is-bakers-math-and-how-can-i-use-it-in-my-everyday-bread-baking"
+    "https://extension.usu.edu/preserve-the-harvest/fermented-yogurt",
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://www.uaf.edu/ces/publications/database/food/making-yogurt.php"
   ]
 }

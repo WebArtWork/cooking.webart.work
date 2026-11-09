@@ -1,77 +1,70 @@
 {
   "id": 5,
-  "slug": "005-cooking-workflow-and-step-sequencing",
+  "slug": "005-ingredient-quality-freshness-and-seasonality",
   "group": "001",
   "title": {
-    "en": "Cooking Workflow and Step Sequencing",
-    "ua": "Послідовність етапів приготування"
+    "en": "Ingredient Quality, Freshness, and Seasonality",
+    "ua": "Якість, свіжість та сезонність інгредієнтів"
   },
   "en": {
-    "short": "Cooking workflow determines which tasks must happen first and which can happen simultaneously. Correct sequencing protects food quality and safety while allowing a complete meal to finish together.",
+    "short": "Ingredient quality means that a food is suitable for its intended dish, not simply expensive or visually attractive. Freshness, ripeness, seasonality, storage history, and reliable sourcing influence flavor, texture, cost, and safety.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Cooking consists of dependent operations: bread dough must ferment before baking, a pan must heat before searing, and food requiring chilling needs adequate cooling time. These dependencies form a workflow rather than an arbitrary list."
+        "text": "Choosing ingredients is a culinary decision: a ripe tomato for a raw salad may be wrong for a long-cooked sauce, while a firmer one may hold its shape better. Freshness describes condition and storage history; seasonality describes when an ingredient is naturally abundant, not an automatic guarantee of quality."
       },
       {
-        "title": "Scientific / practical principles",
-        "text": "The longest or least flexible task often determines the schedule. Some steps can run in parallel, but an unattended pan, unsafe cooling, or overloaded workspace creates risk. A task is complete only when its quality and safety checks pass."
+        "title": "Scientific and practical principles",
+        "text": "Ripening changes sugars, acids, aromas, water content, and plant cell walls. Oxidation, microbial growth, and enzymatic activity continue during storage. Fresh produce quality is best evaluated with product-specific indicators, such as firmness, absence of rot, aroma, and intact packaging; fish, meat, and dairy require strict temperature and traceability checks."
       },
       {
         "title": "How to apply it",
-        "text": "Work backward from serving time. Identify active and passive steps, required equipment and critical points; start long operations early, coordinate shared burners, and leave time for resting and cleanup."
+        "text": "Define the ingredient’s job before shopping: crisp texture, sweetness, acidity, thickening, or aroma. Check labels, dates where relevant, transport temperature, damage, and reliable supply. Plan dishes around good seasonal produce when practical; substitute by culinary function, not only by name."
       },
       {
         "title": "Practical example",
-        "text": "For roast chicken with rice and salad, start preheating and chicken preparation first, begin rice while the chicken cooks, wash salad vegetables separately, and dress salad near serving time. Check chicken with a thermometer."
+        "text": "For fresh tomato salad, choose ripe, fragrant tomatoes with an appealing texture. For a slow-cooked winter tomato sauce, quality canned tomatoes may deliver more consistent flavor than pale, unripe fresh ones."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Poor sequencing causes cold sides, overcooked proteins, or raw vegetables contaminating cooked food. Do not schedule multiple tasks that all require continuous attention during the same few minutes."
-      },
-      {
-        "title": "Related theories",
-        "text": "003, 006, 019."
+        "text": "Do not assume “local,” “organic,” “seasonal,” or “fresh-looking” automatically means microbiologically safe. A bruised fruit may still be usable after appropriate trimming, but visible rot or an unsafe storage history must not be ignored. Never taste suspect food to test safety."
       }
     ]
   },
   "ua": {
-    "short": "Послідовність приготування визначає, які операції мають передувати іншим і що можна робити одночасно. Вдала організація допомагає зберегти якість та безпечність їжі й подати всі компоненти вчасно.",
+    "short": "Якість інгредієнтів означає придатність продукту для конкретної страви, а не лише високу ціну чи красивий вигляд. Свіжість, стиглість, сезонність, умови зберігання та походження впливають на смак, текстуру, вартість і безпечність.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Готування складається із залежних операцій: тісто має піднятися перед випіканням, сковорода — нагрітися перед обсмажуванням, а продукти для зберігання потребують належного охолодження. Це робочий процес, а не довільний список кроків."
+        "text": "Вибір інгредієнта залежить від ролі у страві: стиглий томат для салату може не підходити для довгого тушкування, а щільніший краще зберігатиме форму. Свіжість характеризує стан і попереднє зберігання, сезонність означає період природної доступності, а не гарантію якості."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Найтриваліша або найменш гнучка операція часто визначає розклад. Частину дій можна виконувати паралельно, але без нагляду за сковородою, правильного охолодження та вільної робочої зони виникають ризики. Завершення етапу перевіряють за якістю й безпечністю."
+        "text": "Під час достигання змінюються цукри, кислоти, ароматичні речовини, вологість і клітинні стінки. Під час зберігання тривають окиснення, ферментативні процеси та за певних умов ріст мікроорганізмів. Якість овочів оцінюють за характерними ознаками, тоді як м’ясо, риба й молочні продукти потребують особливого контролю температури та походження."
       },
       {
         "title": "Як застосовувати",
-        "text": "Плануйте у зворотному напрямку від часу подачі. Позначте активні та пасивні операції, потрібний інвентар і критичні точки; довгі процеси починайте першими, узгоджуйте використання конфорок і залишайте час на відпочинок страв та прибирання."
+        "text": "Спершу визначте функцію продукту: хрумкість, солодкість, кислотність, загущення чи аромат. Під час купівлі перевіряйте маркування, умови перевезення, пошкодження й надійність продавця. За можливості використовуйте сезонні продукти; замінюйте інгредієнти за їхніми властивостями, а не лише назвою."
       },
       {
         "title": "Практичний приклад",
-        "text": "Для курки з рисом і салатом спочатку розігрійте духовку та підготуйте птицю, поки вона печеться — приготуйте рис, окремо помийте овочі, а заправку до салату додайте безпосередньо перед подачею. Готовність курки перевірте термометром."
+        "text": "Для салату підійдуть стиглі ароматні томати з приємною текстурою. Узимку для довгої варки соусу якісні консервовані томати можуть дати стабільніший смак, ніж недостиглі свіжі."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Погана послідовність призводить до холодних гарнірів, пересушених білкових продуктів або забруднення готової їжі сирими. Не ставте одночасно надто багато завдань, що вимагають безперервної уваги."
-      },
-      {
-        "title": "Пов’язані теорії",
-        "text": "003, 006, 019."
+        "text": "Не вважайте, що позначення «місцевий», «органічний», «сезонний» або привабливий вигляд гарантують мікробіологічну безпечність. Дрібні пошкодження інколи можна правильно обрізати, але гниль і порушене зберігання ігнорувати не можна. Не куштуйте підозрілий продукт для перевірки."
       }
     ]
   },
   "related": [
-    3,
-    6,
-    19
+    19,
+    20,
+    93,
+    132
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.cacfp.org/2024/05/07/culinary-basics-mise-en-place/",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
     "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
   ]
 }

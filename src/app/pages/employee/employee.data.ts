@@ -1,0 +1,92 @@
+import type { ExploreCard, Text } from '../explore-types';
+
+export interface Employee extends ExploreCard {
+	employer: string;
+	type: Text;
+	about: Text;
+	responsibilities: Text[];
+	requirements: Text[];
+	offer: Text;
+}
+
+/** Static sample job listings. Replace with real listings later. */
+export const EMPLOYEES: Employee[] = [
+	{
+		slug: 'line-cook',
+		name: 'Line cook',
+		meta: { en: 'Casa Verde · Full-time', ua: 'Casa Verde · повна зайнятість' },
+		text: {
+			en: 'Prepare and plate dishes at the grill and sauté stations during evening service.',
+			ua: 'Готуйте й оформлюйте страви на гриль- і сотейній станціях під час вечірнього сервісу.',
+		},
+		employer: 'Casa Verde',
+		type: { en: 'Full-time, evenings', ua: 'Повна зайнятість, вечірні зміни' },
+		about: {
+			en: 'Casa Verde is looking for a line cook to join a small, steady team. You will work the grill and sauté stations and learn the oven station over time.',
+			ua: 'Casa Verde шукає кухаря на лінію, щоб приєднатися до невеликої стабільної команди. Ви працюватимете на гриль- і сотейній станціях, а з часом опануєте піч.',
+		},
+		responsibilities: [
+			{ en: 'Prepare and plate dishes to the recipe and standard', ua: 'Готувати й оформлювати страви за рецептурою та стандартом' },
+			{ en: 'Set up and close your station each shift', ua: 'Готувати та закривати станцію щозміни' },
+			{ en: 'Follow food safety and storage rules', ua: 'Дотримуватися правил безпечності та зберігання продуктів' },
+		],
+		requirements: [
+			{ en: 'One year of kitchen experience or a culinary course', ua: 'Рік досвіду на кухні або кулінарні курси' },
+			{ en: 'Comfort working in a fast, busy service', ua: 'Готовність працювати в швидкому й завантаженому сервісі' },
+			{ en: 'A valid health certificate', ua: 'Чинна санітарна книжка' },
+		],
+		offer: { en: 'Staff meals, paid training and a share of tips.', ua: 'Харчування персоналу, оплачуване навчання та частка чайових.' },
+	},
+	{
+		slug: 'pastry-assistant',
+		name: 'Pastry assistant',
+		meta: { en: 'Baking Institute · Part-time', ua: 'Baking Institute · часткова зайнятість' },
+		text: {
+			en: 'Support the pastry team with dough, fillings and early-morning production.',
+			ua: 'Допомагайте команді кондитерів із тістом, начинками та ранковим виробництвом.',
+		},
+		employer: 'Baking Institute',
+		type: { en: 'Part-time, mornings', ua: 'Часткова зайнятість, ранкові зміни' },
+		about: {
+			en: 'The pastry team needs an assistant for early-morning production. You will support the bakers and learn the basics of dough, fillings and finishing.',
+			ua: 'Команді кондитерів потрібен помічник для ранкового виробництва. Ви допомагатимете пекарям і вивчите основи роботи з тістом, начинками та оздобленням.',
+		},
+		responsibilities: [
+			{ en: 'Weigh ingredients and prepare doughs', ua: 'Зважувати інгредієнти та готувати тісто' },
+			{ en: 'Make fillings and creams', ua: 'Готувати начинки та креми' },
+			{ en: 'Keep the workshop clean and organised', ua: 'Підтримувати чистоту й порядок у цеху' },
+		],
+		requirements: [
+			{ en: 'Interest in baking and attention to detail', ua: 'Інтерес до випічки та уважність до деталей' },
+			{ en: 'Able to start at 5:30', ua: 'Можливість починати о 5:30' },
+			{ en: 'No experience needed, training provided', ua: 'Досвід не потрібен, навчання надається' },
+		],
+		offer: { en: 'Flexible days, free classes and fresh bread.', ua: 'Гнучкий графік, безкоштовні заняття та свіжий хліб.' },
+	},
+	{
+		slug: 'sous-chef',
+		name: 'Sous-chef',
+		meta: { en: 'Dnipro Grill · Full-time', ua: 'Dnipro Grill · повна зайнятість' },
+		text: {
+			en: 'Lead the kitchen team, manage ordering and keep quality consistent.',
+			ua: 'Керуйте командою кухні, відповідайте за замовлення продуктів і стабільну якість.',
+		},
+		employer: 'Dnipro Grill',
+		type: { en: 'Full-time', ua: 'Повна зайнятість' },
+		about: {
+			en: 'Dnipro Grill is hiring a sous-chef to work with the head chef. You will lead the team during service and take charge of ordering and quality.',
+			ua: 'Dnipro Grill шукає су-шефа, який працюватиме разом із шеф-кухарем. Ви керуватимете командою під час сервісу та відповідатимете за замовлення й якість.',
+		},
+		responsibilities: [
+			{ en: 'Lead the kitchen team during service', ua: 'Керувати командою кухні під час сервісу' },
+			{ en: 'Plan ordering and manage food cost', ua: 'Планувати закупівлі та контролювати собівартість' },
+			{ en: 'Train new cooks and check quality', ua: 'Навчати нових кухарів і перевіряти якість' },
+		],
+		requirements: [
+			{ en: 'Three years in a professional kitchen, one in a lead role', ua: 'Три роки у професійній кухні, один із них на керівній посаді' },
+			{ en: 'Strong knowledge of food safety and costing', ua: 'Глибоке знання безпечності харчових продуктів і калькуляції' },
+			{ en: 'Calm, clear communication under pressure', ua: 'Спокійна й чітка комунікація в напружені моменти' },
+		],
+		offer: { en: 'Competitive salary, a say in the menu and paid time off.', ua: 'Конкурентна зарплата, вплив на меню та оплачувана відпустка.' },
+	},
+];

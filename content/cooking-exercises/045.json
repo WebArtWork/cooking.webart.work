@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 45,
+    "title": {
+      "en": "Thermal Mass, Food Thickness, and Heating Speed",
+      "ua": "Теплова інерція, товщина продукту та швидкість нагрівання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-045-01",
+      "theoryId": 45,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which steak of the same composition generally heats more slowly in the center?",
+        "ua": "Який стейк однакового складу зазвичай повільніше нагрівається всередині?"
+      },
+      "explanation": {
+        "en": "Heat must travel farther to reach the center of a thick cut.",
+        "ua": "Теплу потрібно пройти більшу відстань до середини товстого шматка."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Much thicker steak",
+            "ua": "Значно товщий стейк"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Thinner steak",
+            "ua": "Тонший стейк"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Both heat identically regardless of thickness",
+            "ua": "Обидва нагріваються однаково незалежно від товщини"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-045-02",
+      "theoryId": 45,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A full heavy pan may recover temperature more slowly after cold food is added than a small batch.",
+        "ua": "Повна сковорода з великою кількістю холодних продуктів може довше відновлювати температуру, ніж із малою партією."
+      },
+      "explanation": {
+        "en": "Cold food absorbs heat; total thermal mass and burner power matter.",
+        "ua": "Холодні продукти поглинають тепло; важливі теплова інерція й потужність конфорки."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-045-03",
+      "theoryId": 45,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the change to its likely heating effect.",
+        "ua": "Поєднайте зміну з імовірним впливом на нагрівання."
+      },
+      "explanation": {
+        "en": "Mass, geometry, and heat delivery all affect timing.",
+        "ua": "Маса, геометрія й підведення тепла визначають час готування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Double the food mass",
+            "ua": "Подвоїти масу продукту"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Make slice thinner",
+            "ua": "Зробити скибку тоншою"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Crowd a frying pan",
+            "ua": "Переповнити сковороду"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Lower surface temperature and more steaming",
+            "ua": "Зниження температури поверхні та більше пари"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Faster center heating under comparable conditions",
+            "ua": "Швидше нагрівання середини за подібних умов"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "More total energy for equal temperature rise",
+            "ua": "Більше енергії для тієї самої зміни температури"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-045-04",
+      "theoryId": 45,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Idealized: heat 0.5 kg water by 40°C, c = 4.18 kJ/(kg·°C). Energy in kJ?",
+        "ua": "Ідеалізовано: нагріти 0,5 кг води на 40°C за c = 4,18 кДж/(кг·°C). Скільки енергії в кДж?"
+      },
+      "explanation": {
+        "en": "Q = 0.5 × 4.18 × 40 = 83.6 kJ without losses or phase changes.",
+        "ua": "Q = 0,5 × 4,18 × 40 = 83,6 кДж без урахування втрат та фазових переходів."
+      },
+      "numericInput": {
+        "unit": "kJ",
+        "allowDecimals": true,
+        "unitLabel": {
+          "en": "kilojoules",
+          "ua": "кілоджоулів"
+        }
+      },
+      "answer": {
+        "value": 83.6,
+        "tolerance": 0,
+        "unit": "kJ"
+      }
+    },
+    {
+      "id": "cooking-045-05",
+      "theoryId": 45,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want evenly cooked roasted carrots. Which preparation improves uniformity?",
+        "ua": "Потрібна рівномірно запечена морква. Яка підготовка допоможе?"
+      },
+      "explanation": {
+        "en": "Consistent thickness makes heating paths more similar.",
+        "ua": "Однакова товщина робить шляхи поширення тепла більш подібними."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use similar piece thickness",
+            "ua": "Нарізати шматки подібної товщини"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Mix tiny coins with whole thick carrots",
+            "ua": "Змішати тонкі кружальця з цілими товстими морквинами"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Measure salt only after serving",
+            "ua": "Вимірювати сіль лише після подачі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

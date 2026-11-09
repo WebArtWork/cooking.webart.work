@@ -149,8 +149,8 @@ body:has(.fit-page) {
 	width: 2.5rem;
 	height: 2.5rem;
 	border-radius: 9999px;
-	border: 3px solid var(--color-line, rgb(128 128 128 / 0.3));
-	border-top-color: var(--color-brand, #6d6fe8);
+	border: 3px solid var(--border, rgb(128 128 128 / 0.3));
+	border-top-color: var(--primary, #a7472c);
 	animation: spinner-turn 0.8s linear infinite;
 }
 @keyframes spinner-turn {

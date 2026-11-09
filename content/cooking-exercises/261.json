@@ -1,0 +1,313 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 261,
+    "title": {
+      "en": "Experimental Cooking and Scientific Testing",
+      "ua": "Експериментальна кулінарія та наукове тестування"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://doi.org/10.1088/0031-9120/49/5/512",
+    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-chemistry",
+    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-physics",
+    "https://pll.harvard.edu/course/science-and-cooking"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-261-01",
+      "theoryId": 261,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What makes a cooking trial a controlled experiment?",
+        "ua": "Що робить кулінарне випробування контрольованим експериментом?"
+      },
+      "explanation": {
+        "en": "Controlled comparisons let cooks relate a measured change to a plausible cause.",
+        "ua": "Контрольовані порівняння дозволяють пов’язати вимірювану зміну з імовірною причиною."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Judging only by an unrecorded impression",
+            "ua": "Оцінювати лише незаписане враження"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Changing all ingredients and temperatures simultaneously",
+            "ua": "Одночасно змінювати всі інгредієнти й температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Changing one defined variable while keeping relevant others as consistent as practical",
+            "ua": "Змінювати одну визначену змінну, максимально зберігаючи інші важливі умови"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-261-02",
+      "theoryId": 261,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "One successful trial is sufficient proof that a recipe will always work in every kitchen.",
+        "ua": "Одного успішного випробування достатньо, щоб довести, що рецепт завжди спрацює на будь-якій кухні."
+      },
+      "explanation": {
+        "en": "Repeatability requires multiple trials and attention to ingredients, equipment and conditions.",
+        "ua": "Відтворюваність потребує повторних випробувань і врахування інгредієнтів, обладнання та умов."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-261-03",
+      "theoryId": 261,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match experimental-design terms to their purpose.",
+        "ua": "Поєднайте терміни планування експерименту з їхньою метою."
+      },
+      "explanation": {
+        "en": "Clear variables and outcome measures make a test interpretable.",
+        "ua": "Чіткі змінні й показники результату роблять тест зрозумілим."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Control batch",
+            "ua": "Контрольна партія"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Independent variable",
+            "ua": "Незалежна змінна"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Outcome measure",
+            "ua": "Показник результату"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "The factor deliberately changed",
+            "ua": "Чинник, який навмисно змінюють"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Quantifies a response such as firmness or mass loss",
+            "ua": "Кількісно описує результат, як-от щільність або втрату маси"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Provides a comparison baseline",
+            "ua": "Дає базу для порівняння"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-261-04",
+      "theoryId": 261,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want to know whether extra acid changes vegetable firmness. Which test design is best?",
+        "ua": "Ви хочете з’ясувати, чи додаткова кислота змінює твердість овочів. Який план найкращий?"
+      },
+      "explanation": {
+        "en": "Control ingredient size, cooking time and heat to isolate the acid effect.",
+        "ua": "Контролюйте розмір продуктів, час та нагрівання, щоб виділити вплив кислоти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use unrelated vegetables at unrelated temperatures",
+            "ua": "Використати різні овочі за різних температур"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Judge only from one randomly chosen bite",
+            "ua": "Зробити висновок за одним випадковим шматочком"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Prepare comparable batches that differ primarily in acid amount, then measure texture",
+            "ua": "Приготувати порівнювані партії, що різняться переважно кількістю кислоти, та виміряти текстуру"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-261-05",
+      "theoryId": 261,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which records improve the value of a kitchen experiment?",
+        "ua": "Які записи підвищують цінність кухонного експерименту?"
+      },
+      "explanation": {
+        "en": "Good experiment records support explanation and replication.",
+        "ua": "Якісні записи допомагають пояснювати та повторювати результати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Temperature and timing",
+            "ua": "Температура та час"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Exact ingredient masses",
+            "ua": "Точні маси інгредієнтів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Observed texture and flavor scores",
+            "ua": "Оцінки текстури та смаку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Only a final photograph with no process notes",
+            "ua": "Лише кінцева фотографія без записів процесу"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "a",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-261-06",
+      "theoryId": 261,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the steps for a meaningful controlled kitchen trial.",
+        "ua": "Упорядкуйте кроки змістовного контрольованого кулінарного випробування."
+      },
+      "explanation": {
+        "en": "An experiment is useful only when its comparisons are interpretable.",
+        "ua": "Експеримент корисний, коли його порівняння можна обґрунтовано тлумачити."
+      },
+      "steps": [
+        {
+          "id": "s4",
+          "text": {
+            "en": "Record, compare and decide what to test again",
+            "ua": "Записати, порівняти й вирішити, що перевірити повторно"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Define the question and expected result",
+            "ua": "Сформулювати запитання та очікуваний результат"
+          }
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Set up comparable control and changed batches",
+            "ua": "Підготувати порівнювані контрольну та змінену партії"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Measure outcomes with the same method",
+            "ua": "Виміряти результати однаковим методом"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

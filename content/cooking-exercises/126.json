@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 126,
+    "title": {
+      "en": "Butter, Clarified Butter, and Ghee",
+      "ua": "Вершкове масло, очищене масло та гхі"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.psu.edu/processing-edible-oils",
+    "https://dev-annex.exploratorium.edu/cooking/icooks/12-29-03.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-126-01",
+      "theoryId": 126,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is mainly removed while clarifying butter?",
+        "ua": "Що переважно видаляють під час очищення вершкового масла?"
+      },
+      "explanation": {
+        "en": "Clarifying separates nearly pure butterfat from water and milk solids.",
+        "ua": "Очищення відділяє майже чистий молочний жир від води та молочних частинок."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Water and milk solids",
+            "ua": "Воду та молочні сухі речовини"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "All the fat",
+            "ua": "Увесь жир"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Every flavor molecule",
+            "ua": "Усі ароматичні речовини"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-126-02",
+      "theoryId": 126,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Clarified butter usually tolerates higher frying temperatures than whole butter because milk solids are removed.",
+        "ua": "Очищене масло зазвичай краще переносить високі температури смаження, бо молочні частинки видалені."
+      },
+      "explanation": {
+        "en": "Milk solids brown and scorch sooner than purified fat.",
+        "ua": "Молочні частинки темніють і підгорають раніше, ніж очищений жир."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-126-03",
+      "theoryId": 126,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match butter products to characteristics.",
+        "ua": "Поєднайте масляні продукти з властивостями."
+      },
+      "explanation": {
+        "en": "Processing changes moisture, solids and flavor.",
+        "ua": "Обробка змінює вологу, тверді речовини й аромат."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Whole butter",
+            "ua": "Звичайне вершкове масло"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Clarified butter",
+            "ua": "Очищене вершкове масло"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Ghee",
+            "ua": "Гхі"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Clarified and usually cooked for nutty notes",
+            "ua": "Очищене й зазвичай прогріте до горіхового аромату"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Mostly separated butterfat",
+            "ua": "Переважно відділений молочний жир"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Contains milk solids and water",
+            "ua": "Містить молочні частинки та воду"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-126-04",
+      "theoryId": 126,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Whole butter browns and smokes before you finish frying. What might help next time?",
+        "ua": "Вершкове масло темніє й димить до завершення смаження. Що може допомогти?"
+      },
+      "explanation": {
+        "en": "Removing milk solids improves tolerance to higher-temperature cooking.",
+        "ua": "Видалення молочних частинок підвищує придатність для сильнішого нагріву."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use clarified butter or an appropriate heat-stable oil",
+            "ua": "Використати очищене масло чи відповідну термостійку олію"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Burn the milk solids intentionally",
+            "ua": "Навмисно спалити молочні частинки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Increase the pan temperature further",
+            "ua": "Ще більше нагріти сковороду"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-126-05",
+      "theoryId": 126,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which claim is inaccurate?",
+        "ua": "Яке твердження неправильне?"
+      },
+      "explanation": {
+        "en": "Trace milk proteins can remain, so clarified butter is not automatically allergen-free.",
+        "ua": "Сліди молочних білків можуть залишатися, тому очищене масло не обов’язково безпечне за алергії."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ghee is a type of clarified butterfat",
+            "ua": "Гхі — різновид очищеного молочного жиру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whole butter contains some water",
+            "ua": "Звичайне масло містить воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Clarifying butter removes all milk allergens completely",
+            "ua": "Очищення масла повністю видаляє всі молочні алергени"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

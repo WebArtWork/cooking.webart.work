@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 216,
+    "title": {
+      "en": "Fermentation Safety, Spoilage, and Troubleshooting",
+      "ua": "Безпечність ферментації, псування та діагностика проблем"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://www.mda.state.mn.us/acidified-foods"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-216-01",
+      "theoryId": 216,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which observation is sufficient by itself to prove fermented food is safe?",
+        "ua": "Яка ознака сама по собі доводить, що ферментований продукт безпечний?"
+      },
+      "explanation": {
+        "en": "Safety requires validated procedures and appropriate measurable controls.",
+        "ua": "Безпечність вимагає перевіреної процедури та належного вимірюваного контролю."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Visible bubbles",
+            "ua": "Видимі бульбашки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A sour smell",
+            "ua": "Кислий запах"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "None of these observations alone",
+            "ua": "Жодна з цих ознак окремо"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-216-02",
+      "theoryId": 216,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Salt, temperature, acidity, and oxygen conditions can influence fermentation safety.",
+        "ua": "Сіль, температура, кислотність і доступ кисню можуть впливати на безпечність ферментації."
+      },
+      "explanation": {
+        "en": "Departures from a tested process may permit unwanted microbes to grow.",
+        "ua": "Відхилення від перевіреного процесу можуть сприяти розвитку небажаних мікроорганізмів."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-216-03",
+      "theoryId": 216,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match fermentation problems with the appropriate response.",
+        "ua": "Поєднайте проблеми ферментації з належною дією."
+      },
+      "explanation": {
+        "en": "Good records and correct conditions matter more than appearance alone.",
+        "ua": "Належні записи та умови важливіші за один лише зовнішній вигляд."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Unidentified fuzzy mold",
+            "ua": "Невідома пухнаста пліснява"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Missing process record",
+            "ua": "Відсутній запис параметрів"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Submerged vegetables in brine",
+            "ua": "Овочі занурені в розсіл"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Discard the suspect batch",
+            "ua": "Утилізувати підозрілу партію"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Helps maintain intended low-oxygen conditions",
+            "ua": "Допомагає підтримувати необхідні умови з низьким вмістом кисню"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Cannot verify that the tested process was followed",
+            "ua": "Неможливо підтвердити дотримання перевіреної процедури"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-216-04",
+      "theoryId": 216,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A vegetable ferment smells unusual and develops unidentified fuzzy growth. What should you do?",
+        "ua": "Ферментовані овочі мають незвичний запах і невідому пухнасту плісняву. Що робити?"
+      },
+      "explanation": {
+        "en": "Do not taste or salvage suspect contaminated ferments.",
+        "ua": "Не куштуйте й не намагайтеся врятувати підозріло забруднені ферментовані продукти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard the product and review the process",
+            "ua": "Утилізувати продукт і перевірити процес"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Scrape off the top and sell the remainder",
+            "ua": "Зняти верхній шар і продавати решту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add sugar to guarantee safety",
+            "ua": "Додати цукор, щоб гарантувати безпечність"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-216-05",
+      "theoryId": 216,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which records help verify a controlled fermentation?",
+        "ua": "Які записи допомагають перевірити контрольовану ферментацію?"
+      },
+      "explanation": {
+        "en": "Objective process records support troubleshooting and safety checks.",
+        "ua": "Об’єктивні записи допомагають аналізувати помилки та безпечність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Whether the jar looks fashionable",
+            "ua": "Чи модно виглядає банка"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Applicable acidity measurements",
+            "ua": "Вимірювання кислотності за потреби"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Ingredient and salt quantities",
+            "ua": "Кількість інгредієнтів та солі"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Time and temperature observations",
+            "ua": "Спостереження за часом і температурою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    }
+  ]
+}

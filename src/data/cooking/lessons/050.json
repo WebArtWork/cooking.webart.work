@@ -1,78 +1,84 @@
 {
   "id": 50,
-  "slug": "050-specific-heat-capacity-of-foods",
-  "group": "046",
+  "slug": "050-carryover-cooking-and-resting",
+  "group": "043",
   "title": {
-    "en": "Specific Heat Capacity of Foods",
-    "ua": "Питома теплоємність харчових продуктів"
+    "en": "Carryover Cooking and Resting",
+    "ua": "Доготування після нагрівання та відпочинок продукту"
   },
   "en": {
-    "short": "Specific heat capacity describes how much energy is needed to warm a unit mass of material by one degree. Foods rich in water generally need more energy to change temperature than many fats or metal cookware.",
+    "short": "Food continues exchanging internal heat after leaving the stove or oven. Carryover cooking and resting can alter final doneness, especially in thick meats and large baked items.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "The heat-capacity relationship Q = m × c × ΔT helps estimate heating demand. Liquid water has a specific heat of about 4.18 kJ/(kg·°C), whereas olive oil is roughly 2 kJ/(kg·°C); complex foods vary with composition and temperature."
+        "text": "When a roast leaves the oven, its outer layers are often hotter than the center. Heat continues moving inward, sometimes increasing the center temperature before the entire portion cools. How much it rises depends on thickness, cooking temperature, shape, insulation, and whether food remains in a hot vessel."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "A large water-rich pot can buffer temperature changes when cold ingredients are added, but it also takes substantial energy to heat initially. Food temperature responses also depend on conductivity, mixing, evaporation, and phase changes, not only heat capacity."
+        "text": "Carryover is not a fixed number of degrees, and the peak center temperature may occur minutes after removal. For quality, experienced cooks use a continuous temperature probe to prevent overshooting. For safety, follow applicable validated minimum time–temperature rules rather than assuming that an unverified future temperature rise makes undercooking acceptable."
       },
       {
         "title": "How to apply it",
-        "text": "Use a large enough pot of water when a stable boil is important, yet avoid unnecessary excess if conserving energy. When moving from a one-serving recipe to family-size production, plan for increased total heating energy."
+        "text": "Monitor center temperature during and after cooking, especially with thick roasts. Move the food away from excessively hot pans when appropriate and let it rest according to the food type. Where a minimum temperature must be reached before removal, respect that requirement."
       },
       {
         "title": "Practical example",
-        "text": "An ideal calculation for heating 0.5 kg of water by 40°C gives about 84 kJ. The same amount of oil, ignoring losses and changes with temperature, takes markedly less energy for the same temperature rise."
+        "text": "A thick roast may continue warming internally after it is taken out of the oven, while a thin fillet may show very little rise. A thermometer reveals the real behavior instead of using a universal allowance."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Do not mistake heat capacity for heat conductivity: an ingredient may take much energy to warm yet transfer that heat slowly. The simple formula is inappropriate across melting, boiling, or other phase changes unless those energy terms are added."
+        "text": "Carryover is not the same as food safety holding, and it cannot repair unsafe cooling or incomplete cooking. Resting also affects serving temperature and texture; claims that it always “reabsorbs juices” are oversimplified."
+      },
+      {
+        "title": "Plan the endpoint",
+        "text": "A hot exterior can continue heating the center after removal; the rise depends on mass, geometry, temperature difference, and resting conditions. Resting may also stabilize texture and reduce immediate juice loss on slicing, but it does not substitute for appropriate safe cooking targets."
       },
       {
         "title": "Related theories",
-        "text": "046, 051, 053, 055."
+        "text": "045, 049."
       }
     ]
   },
   "ua": {
-    "short": "Питома теплоємність показує, скільки енергії треба для нагрівання одиниці маси речовини на один градус. Продукти з високим вмістом води зазвичай потребують більше енергії для зміни температури, ніж багато жирів або металевий посуд.",
+    "short": "Після зняття з вогню тепло всередині продукту ще перерозподіляється. Доготування та відпочинок впливають на остаточну готовність, особливо великих шматків м’яса й випічки.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Співвідношення Q = m × c × ΔT допомагає оцінити потребу в енергії. Для рідкої води питома теплоємність близько 4,18 кДж/(кг·°C), а для оливкової олії — приблизно 2 кДж/(кг·°C); значення складних продуктів змінюється залежно від складу й температури."
+        "text": "Коли печеню дістають з духовки, зовнішні шари зазвичай гарячіші за центр. Тепло далі рухається всередину й може підвищувати температуру серцевини ще до загального охолодження. Величина підвищення залежить від товщини, температури приготування, форми, теплоізоляції та гарячого посуду."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Велика кількість води може пом’якшувати падіння температури після додавання холодних інгредієнтів, але спочатку потребує значної енергії для нагрівання. Температурна реакція залежить також від теплопровідності, перемішування, випаровування й фазових переходів, а не лише від теплоємності."
+        "text": "Доготування не додає фіксовану кількість градусів, а максимум температури центру може настати через кілька хвилин. Для збереження текстури досвідчені кухарі користуються термощупом, щоб не перегріти страву. Для безпечності дотримуйтеся підтверджених норм часу й температури, не розраховуючи на неперевірене подальше нагрівання недоготовленого продукту."
       },
       {
         "title": "Як застосовувати",
-        "text": "Коли потрібне стабільне кипіння, використовуйте достатню кількість води, але уникайте зайвого об’єму, якщо важлива економія енергії. Масштабуючи рецепт з однієї порції до сімейної, враховуйте збільшення сумарних витрат тепла."
+        "text": "Контролюйте температуру середини під час приготування і після нього, особливо у великих шматках. За потреби перекладіть продукт із надто гарячої сковороди та дайте йому відпочити відповідно до типу їжі. Якщо правила вимагають досягти мінімуму до зняття з нагрівання, обов’язково дотримуйтесь цього."
       },
       {
         "title": "Практичний приклад",
-        "text": "За ідеалізованим розрахунком, для нагрівання 0,5 кг води на 40°C потрібно близько 84 кДж. Та сама маса олії за тієї самої зміни температури потребує істотно менше енергії, якщо не враховувати втрати й зміну властивостей."
+        "text": "Велика печеня може продовжувати прогріватися після духовки, тоді як тонке філе іноді майже не підвищує температуру. Термометр показує фактичну поведінку краще за універсальну «поправку на відпочинок»."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не плутайте теплоємність із теплопровідністю: продукт може потребувати багато енергії для нагрівання, але передавати її повільно. Просту формулу не можна без поправок застосовувати до плавлення, кипіння та інших фазових переходів."
+        "text": "Доготування не є тим самим, що безпечне гаряче зберігання, і воно не виправляє порушення охолодження чи недоготування. Відпочинок також впливає на температуру подачі й текстуру; твердження, ніби він завжди «повертає соки всередину», надто спрощене."
+      },
+      {
+        "title": "Плануйте кінцевий результат",
+        "text": "Гаряча зовнішня частина може ще прогрівати центр після завершення нагрівання; ефект залежить від маси, форми й перепаду температур. Відпочинок може стабілізувати текстуру та зменшити втрату соку під час нарізання, але не замінює вимоги до безпечного приготування."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "046, 051, 053, 055."
+        "text": "045, 049."
       }
     ]
   },
   "related": [
-    46,
-    51,
-    53,
-    55
+    45,
+    49
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
-    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+    "https://ask.fsis.usda.gov/article/What-is-a-safe-internal-temperature-for-cooking-meat-and-poultry",
+    "https://extension.umn.edu/food/preparing/cooking-at-home"
   ]
 }

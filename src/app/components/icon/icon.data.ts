@@ -30,7 +30,16 @@ export type IconName =
 	| 'qr'
 	| 'glossary'
 	| 'systems'
-	| 'center';
+	| 'center'
+	| 'print'
+	| 'compass'
+	| 'camera'
+	| 'rank-bowl'
+	| 'rank-egg'
+	| 'rank-bread'
+	| 'rank-soup'
+	| 'rank-pepper'
+	| 'rank-chef';
 
 interface IconPair {
 	/** Solar (linear) - light skin */
@@ -271,6 +280,78 @@ export const ICONS: Record<IconName, IconPair> = {
 		),
 		iconoir: iconoirGroup(
 			'<path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/><circle cx="12" cy="12" r="3"/>',
+		),
+	},
+	'rank-bowl': {
+		solar: iconoirGroup(
+			'<path d="M4 8h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V9a1 1 0 0 1 1-1"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M4 8h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V9a1 1 0 0 1 1-1"/>',
+		),
+	},
+	'rank-egg': {
+		solar: iconoirGroup(
+			'<path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0"/><path d="M14 3a5 5 0 0 1 4.872 6.13a3 3 0 0 1 .178 5.681a3 3 0 1 1-4.684 3.626a5 5 0 1 1-8.662-5a5 5 0 1 1 4.645-8.856A4.98 4.98 0 0 1 14 2.996z"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0"/><path d="M14 3a5 5 0 0 1 4.872 6.13a3 3 0 0 1 .178 5.681a3 3 0 1 1-4.684 3.626a5 5 0 1 1-8.662-5a5 5 0 1 1 4.645-8.856A4.98 4.98 0 0 1 14 2.996z"/>',
+		),
+	},
+	'rank-bread': {
+		solar: iconoirGroup(
+			'<path d="M18 4a3 3 0 0 1 2 5.235V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9.236a3 3 0 0 1 1.824-5.231H18z"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M18 4a3 3 0 0 1 2 5.235V18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9.236a3 3 0 0 1 1.824-5.231H18z"/>',
+		),
+	},
+	'rank-soup': {
+		solar: iconoirGroup(
+			'<path d="M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m8-7a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2M8 4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m8-7a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2M8 4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2"/>',
+		),
+	},
+	'rank-pepper': {
+		solar: iconoirGroup(
+			'<path d="M13 11c0 2.21-2.239 4-5 4s-5-1.79-5-4a8 8 0 1 0 16 0a3 3 0 0 0-6 0"/><path d="M16 8c0-2 2-4 4-4"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M13 11c0 2.21-2.239 4-5 4s-5-1.79-5-4a8 8 0 1 0 16 0a3 3 0 0 0-6 0"/><path d="M16 8c0-2 2-4 4-4"/>',
+		),
+	},
+	'rank-chef': {
+		solar: iconoirGroup(
+			'<path d="M12 3c1.918 0 3.52 1.35 3.91 3.151A4 4 0 0 1 18 13.874V21H6v-7.126a4 4 0 1 1 2.092-7.723A4 4 0 0 1 12 3M6.161 17.009L18 17"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M12 3c1.918 0 3.52 1.35 3.91 3.151A4 4 0 0 1 18 13.874V21H6v-7.126a4 4 0 1 1 2.092-7.723A4 4 0 0 1 12 3M6.161 17.009L18 17"/>',
+		),
+	},
+	print: {
+		solar: iconoirGroup(
+			'<path d="M17 17h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2m10-8V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v4"/><path d="M7 15a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M17 17h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2m10-8V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v4"/><path d="M7 15a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z"/>',
+		),
+	},
+	compass: {
+		solar: iconoirGroup(
+			'<path d="m8 16l2-6l6-2l-2 6z"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m9-9v2m0 14v2m-9-9h2m14 0h2"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="m8 16l2-6l6-2l-2 6z"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m9-9v2m0 14v2m-9-9h2m14 0h2"/>',
+		),
+	},
+	camera: {
+		solar: iconoirGroup(
+			'<path d="M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2"/><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/>',
+		),
+		iconoir: iconoirGroup(
+			'<path d="M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2"/><path d="M9 13a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/>',
 		),
 	},
 };

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 51,
+    "title": {
+      "en": "Protein Denaturation and Coagulation",
+      "ua": "Денатурація та коагуляція білків"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://teachersinstitute.yale.edu/curriculum/units/2020/2/20.02.03/2",
+    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-chemistry",
+    "https://asbe.org/article/baking/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-051-01",
+      "theoryId": 51,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What happens to egg-white proteins as they heat?",
+        "ua": "Що відбувається з білками яєчного білка під час нагрівання?"
+      },
+      "explanation": {
+        "en": "Protein denaturation and coagulation explain why a clear egg white turns opaque and firms.",
+        "ua": "Денатурація та коагуляція пояснюють, чому прозорий білок стає білим і щільним."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "They unfold and form networks that can set the egg",
+            "ua": "Вони розгортаються й утворюють структуру, яка ущільнює яйце"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "They become starch granules",
+            "ua": "Вони перетворюються на гранули крохмалю"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They turn into liquid sugar",
+            "ua": "Вони перетворюються на рідкий цукор"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-051-02",
+      "theoryId": 51,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Excessive heat can make scrambled eggs rubbery and release water.",
+        "ua": "Надмірний нагрів може зробити яєчню-бовтанку гумовою та спричинити виділення води."
+      },
+      "explanation": {
+        "en": "Over-tightened protein networks expel moisture and toughen texture.",
+        "ua": "Надто щільні білкові структури витісняють воду та роблять текстуру жорсткою."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-051-03",
+      "theoryId": 51,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the protein process to its culinary example.",
+        "ua": "Поєднайте білковий процес із кулінарним прикладом."
+      },
+      "explanation": {
+        "en": "Temperature and acidity can change protein structures in different ways.",
+        "ua": "Температура та кислотність змінюють структуру білків різними способами."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Denaturation",
+            "ua": "Денатурація"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Coagulation",
+            "ua": "Коагуляція"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Acid-induced curdling",
+            "ua": "Кислотне зсідання"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Milk proteins form curds in acid",
+            "ua": "Молочні білки згортаються під дією кислоти"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Egg firms into a network",
+            "ua": "Яйце ущільнюється в сітчасту структуру"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Protein molecules unfold",
+            "ua": "Білкові молекули розгортаються"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-051-04",
+      "theoryId": 51,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Arrange the basic stages of cooking an egg white.",
+        "ua": "Розташуйте основні етапи приготування яєчного білка."
+      },
+      "explanation": {
+        "en": "Coagulation results from transformed proteins joining into a network.",
+        "ua": "Коагуляція виникає через об’єднання змінених білків у структуру."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Unfolded molecules interact and form a network",
+            "ua": "Розгорнуті молекули взаємодіють і формують структуру"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Heat begins to unfold proteins",
+            "ua": "Нагрівання починає розгортати білки"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "White becomes opaque and firms",
+            "ua": "Білок стає непрозорим і щільним"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-051-05",
+      "theoryId": 51,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your scrambled eggs are dry and tough. What should change next time?",
+        "ua": "Яєчня-бовтанка вийшла сухою та жорсткою. Що змінити наступного разу?"
+      },
+      "explanation": {
+        "en": "Gentle heat improves control over coagulation and moisture retention.",
+        "ua": "М’яке нагрівання дозволяє краще контролювати коагуляцію й збереження вологи."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use gentler heat and stop earlier",
+            "ua": "Готувати на помірнішому вогні й завершити раніше"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cook much longer at maximum heat",
+            "ua": "Готувати значно довше на максимальному вогні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add more pan scraping pressure",
+            "ua": "Сильніше шкребти сковороду"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

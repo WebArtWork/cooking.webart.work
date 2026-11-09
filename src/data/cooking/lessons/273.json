@@ -1,79 +1,91 @@
 {
   "id": 273,
-  "slug": "273-ukrainian-culinary-traditions",
-  "group": "271",
+  "slug": "273-batch-scaling-and-yield-adjustment",
+  "group": "262",
   "title": {
-    "en": "Ukrainian Culinary Traditions",
-    "ua": "Українські кулінарні традиції"
+    "en": "Batch Scaling and Yield Adjustment",
+    "ua": "Масштабування рецептур та коригування виходу"
   },
   "en": {
-    "short": "Ukrainian cuisine reflects regional agriculture, seasonal produce, fermentation and shared family meals. Learning its techniques means understanding how soups, grains, dumplings and preserved vegetables are adapted across households.",
+    "short": "Scaling changes the quantity of food while preserving intended proportions, texture, and safety. Ingredient arithmetic is only the first step; vessel geometry, heat transfer, evaporation, and equipment capacity must also be tested.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Traditions vary among Polissia, Podillia, the Carpathians, the steppe and other regions. Familiar examples include borscht, varenyky, holubtsi, buckwheat dishes, sourdough breads, pickled vegetables and seasonal fruit preparations."
+        "text": "Calculate a scaling factor as target yield divided by original yield, using matching units and the same stage of production. Distinguish raw purchased weight, trimmed usable weight, and cooked served weight."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Borscht often layers vegetable sweetness, acidity, aromatic bases and a stock or vegetable broth. Flour doughs, potato fillings and cabbage dishes illustrate starch hydration, moisture management and lactic fermentation. UNESCO inscribed the culture of Ukrainian borscht cooking in 2022 as intangible heritage in need of urgent safeguarding, acknowledging many community versions."
+        "text": "Surface area does not grow at the same rate as volume. Larger soup pots heat and cool differently, crowded pans brown less effectively, and large baking batches may need different pans, mixing, or time."
       },
       {
         "title": "How to apply it",
-        "text": "Learn a technique through two regional versions rather than designating one exclusive recipe. Prepare beetroot separately when appropriate, adjust acidity gradually, and observe how the broth and vegetable cuts affect color, texture and aroma."
+        "text": "Record yield and portion size; multiply ingredient masses by the factor, then recalculate edible yields and round only where practical. Confirm vessel capacity, mixing limits, holding and cooling plans, and retest seasoning and consistency."
       },
       {
         "title": "Practical example",
-        "text": "Compare a meat-based borscht with a mushroom-and-bean version. Both can use beetroot, cabbage and an acidic component but will need different layering and cooking times to develop balance."
+        "text": "A recipe yields 8 portions of 250 g each, or 2 kg. For 20 portions, the mass target is 5 kg and the scaling factor is 2.5; ingredients scale by 2.5 initially, but pan size and cooking schedule require review."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Do not confuse UNESCO recognition of a cultural practice with a claim of exclusive ownership of the dish. “Traditional” does not remove the need for safe storage, proper cooking and clear allergen information."
+        "text": "Do not multiply oven time by 2.5. Seasoning and leavening can respond nonlinearly; food safety controls cannot be waived for a larger quantity."
       },
       {
         "title": "Related theories",
-        "text": "091, 103, 181, 228, 235."
+        "text": "007, 105, 191, 266, 270, 279, 282."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "A 6-portion recipe uses 900 g edible vegetables; plan 24 portions at 75% edible yield. The target edible mass is 3,600 g and the theoretical as-purchased mass is 4,800 g. Then check whether pans and safe cooling capacity support this batch."
       }
     ]
   },
   "ua": {
-    "short": "Українська кухня відображає регіональне землеробство, сезонні продукти, квашення та родинні традиції. Її вивчення — це розуміння способів приготування борщу, круп, вареників та заготовок у різних місцевостях.",
+    "short": "Масштабування змінює кількість страви зі збереженням задуманої текстури, пропорцій та безпеки. Перерахунок інгредієнтів є лише початком: потрібно врахувати розміри посуду, теплопередачу, випаровування й потужність обладнання.",
     "sections": [
       {
-        "title": "Суть",
-        "text": "Традиції Полісся, Поділля, Карпат, степових та інших регіонів мають власні особливості. Приклади — борщ, вареники, голубці, гречані страви, хліб на заквасці, квашені овочі та сезонні фруктові заготовки."
+        "title": "Головна ідея",
+        "text": "Коефіцієнт масштабування дорівнює бажаному виходу, поділеному на початковий, за однакових одиниць і стадій обробки. Розрізняйте закуплену масу, їстівну після очищення та готову масу порцій."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "У борщі поєднуються солодкість овочів, кислота, ароматична основа та м’ясний або овочевий бульйон. Тісто й картопляні начинки демонструють роль крохмалю та вологи, а квашена капуста — молочнокисле бродіння. У 2022 році UNESCO внесла культуру приготування українського борщу до списку спадщини, що потребує термінової охорони, визнавши різноманіття місцевих варіантів."
+        "text": "Площа поверхні й об’єм збільшуються по-різному. У великій каструлі змінюється нагрівання та охолодження, переповнена сковорода гірше підрум’янює, а велика партія випічки потребує іншої організації процесу."
       },
       {
         "title": "Як застосовувати",
-        "text": "Вивчайте техніку на прикладі двох місцевих версій, а не оголошуйте один рецепт єдино правильним. За потреби готуйте буряк окремо, вводьте кислоту поступово та простежуйте вплив нарізання на колір і текстуру."
+        "text": "Запишіть вихід і масу порції, помножте маси інгредієнтів на коефіцієнт, потім уточніть втрати й округлення. Перевірте місткість посуду, план охолодження, час, приправи та консистенцію."
       },
       {
         "title": "Практичний приклад",
-        "text": "Порівняйте борщ на м’ясному бульйоні та борщ із грибами й квасолею. В обох є буряк, капуста та кислий компонент, але порядок приготування й розвиток смаку будуть різними."
+        "text": "Рецепт дає 8 порцій по 250 г, тобто 2 кг. Для 20 порцій потрібно 5 кг, а коефіцієнт дорівнює 2,5. Маси інгредієнтів спершу збільшують у 2,5 раза, але метод приготування перевіряють окремо."
       },
       {
-        "title": "Поширені помилки й обмеження",
-        "text": "Визнання UNESCO стосується культурної практики й не означає виняткового права на страву. Традиційність не скасовує вимог безпечного зберігання, приготування та обліку алергенів."
+        "title": "Поширені помилки та обмеження",
+        "text": "Не множте час випікання на 2,5. Сіль, розпушувачі та випаровування інколи потребують додаткової корекції; збільшення партії не скасовує вимог безпеки."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "091, 103, 181, 228, 235."
+        "text": "007, 105, 191, 266, 270, 279, 282."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Рецепт на 6 порцій потребує 900 г очищених овочів. Сплануйте 24 порції за виходу їстівної частини 75%: потрібно 3 600 г їстівної маси, або теоретично 4 800 г закупленої сировини. Перевірте місткість посуду й можливість безпечного охолодження."
       }
     ]
   },
   "related": [
-    91,
-    103,
-    181,
-    228,
-    235
+    7,
+    105,
+    191,
+    266,
+    270,
+    279,
+    282
   ],
-  "referenceTitle": "References / Джерела",
+  "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://ich.unesco.org/en/USL/culture-of-ukrainian-borscht-cooking-01852",
-    "https://ich.unesco.org/en/news/culture-of-ukrainian-borscht-cooking-inscribed-on-the-list-of-intangible-cultural-heritage-in-need-of-urgent-safeguarding-13412"
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage",
+    "https://www.kingarthurbaking.com/blog/2020/11/23/how-to-reduce-a-recipe"
   ]
 }

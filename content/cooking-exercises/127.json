@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 127,
+    "title": {
+      "en": "Cooking Oils, Smoke Points, and Oxidation",
+      "ua": "Кулінарні олії, температури димлення та окиснення"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.psu.edu/food-safety-questions-and-answers",
+    "https://extension.psu.edu/processing-edible-oils"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-127-01",
+      "theoryId": 127,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does the smoke point of a cooking oil describe?",
+        "ua": "Що означає температура димлення кулінарної олії?"
+      },
+      "explanation": {
+        "en": "Smoke point is one property; oxidative stability and intended use also matter.",
+        "ua": "Температура димлення — лише одна з властивостей; також важливі окисна стабільність і призначення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The temperature at which visible smoke begins under test conditions",
+            "ua": "Температуру появи видимого диму за певних умов"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The temperature at which every microbe dies instantly",
+            "ua": "Температуру миттєвого знищення всіх мікробів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The temperature at which oil freezes",
+            "ua": "Температуру замерзання олії"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-127-02",
+      "theoryId": 127,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Repeated heating and exposure to air can degrade frying oil.",
+        "ua": "Повторний нагрів і контакт із повітрям можуть погіршувати якість олії."
+      },
+      "explanation": {
+        "en": "Oxidation and thermal reactions change oil flavor and properties.",
+        "ua": "Окиснення та термічні реакції змінюють смак і властивості олії."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-127-03",
+      "theoryId": 127,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match oil observations with actions.",
+        "ua": "Поєднайте ознаки олії з діями."
+      },
+      "explanation": {
+        "en": "Oil condition and cooking temperature affect quality and safety.",
+        "ua": "Стан олії та температура приготування впливають на якість і безпеку."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Persistent off odor",
+            "ua": "Стійкий сторонній запах"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Visible smoking",
+            "ua": "Видимий дим"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Fresh oil suited to method",
+            "ua": "Свіжа олія, придатна для методу"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Use with controlled temperature",
+            "ua": "Використовувати з контролем температури"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Reduce excessive heat",
+            "ua": "Зменшити надмірний нагрів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Discard degraded oil",
+            "ua": "Викинути зіпсовану олію"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-127-04",
+      "theoryId": 127,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Used oil smells rancid and foams unusually when heated. What should you do?",
+        "ua": "Використана олія пахне прогірклим і незвично піниться. Що робити?"
+      },
+      "explanation": {
+        "en": "Foaming, discoloration and off odors indicate oil should not be reused; water splashes into hot oil are dangerous.",
+        "ua": "Піна, зміна кольору й сторонній запах — ознаки непридатної олії; вода в гарячій олії небезпечна."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard and replace the oil",
+            "ua": "Викинути й замінити олію"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ignore the signs and keep frying",
+            "ua": "Ігнорувати ознаки й продовжити смаження"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Mix in raw water while oil is very hot",
+            "ua": "Долити сиру воду в дуже гарячу олію"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-127-05",
+      "theoryId": 127,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which claim about oil selection is misleading?",
+        "ua": "Яке твердження про вибір олії вводить в оману?"
+      },
+      "explanation": {
+        "en": "Nutrition, refinement, fatty-acid profile and oxidative stability also matter.",
+        "ua": "Важливі також харчова цінність, очищення, склад жирних кислот і стійкість до окиснення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Oxidative stability matters",
+            "ua": "Окисна стабільність має значення"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cooking method matters",
+            "ua": "Метод приготування має значення"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Highest smoke point alone guarantees the healthiest oil",
+            "ua": "Найвища температура димлення сама гарантує найкориснішу олію"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-127-06",
+      "theoryId": 127,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which signs suggest frying oil should be discarded?",
+        "ua": "Які ознаки свідчать, що олію для фритюру варто викинути?"
+      },
+      "explanation": {
+        "en": "Odors, abnormal foaming and off flavors indicate degraded oil.",
+        "ua": "Запахи, аномальна піна й сторонні присмаки вказують на погіршення олії."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Persistent rancid odor",
+            "ua": "Стійкий прогірклий запах"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unusual foaming when heated",
+            "ua": "Незвичне піноутворення під час нагрівання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Clear clean appearance in new oil",
+            "ua": "Чистий прозорий вигляд свіжої олії"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Noticeable off flavor",
+            "ua": "Виразний сторонній присмак"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

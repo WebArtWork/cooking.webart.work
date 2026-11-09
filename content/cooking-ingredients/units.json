@@ -1,0 +1,157 @@
+{
+  "units": [
+    {
+      "id": "g",
+      "name": {
+        "en": "Gram",
+        "ua": "Грам"
+      },
+      "type": "mass"
+    },
+    {
+      "id": "kg",
+      "name": {
+        "en": "Kilogram",
+        "ua": "Кілограм"
+      },
+      "type": "mass"
+    },
+    {
+      "id": "mg",
+      "name": {
+        "en": "Milligram",
+        "ua": "Міліграм"
+      },
+      "type": "mass"
+    },
+    {
+      "id": "ml",
+      "name": {
+        "en": "Milliliter",
+        "ua": "Мілілітр"
+      },
+      "type": "volume"
+    },
+    {
+      "id": "l",
+      "name": {
+        "en": "Liter",
+        "ua": "Літр"
+      },
+      "type": "volume"
+    },
+    {
+      "id": "pcs",
+      "name": {
+        "en": "Piece",
+        "ua": "Штука"
+      },
+      "type": "count"
+    },
+    {
+      "id": "slice",
+      "name": {
+        "en": "Slice",
+        "ua": "Скибка"
+      },
+      "type": "count"
+    },
+    {
+      "id": "clove",
+      "name": {
+        "en": "Clove",
+        "ua": "Зубчик"
+      },
+      "type": "count"
+    },
+    {
+      "id": "bunch",
+      "name": {
+        "en": "Bunch",
+        "ua": "Пучок"
+      },
+      "type": "count"
+    },
+    {
+      "id": "leaf",
+      "name": {
+        "en": "Leaf",
+        "ua": "Листок"
+      },
+      "type": "count"
+    },
+    {
+      "id": "sprig",
+      "name": {
+        "en": "Sprig",
+        "ua": "Гілочка"
+      },
+      "type": "count"
+    },
+    {
+      "id": "can",
+      "name": {
+        "en": "Can",
+        "ua": "Банка"
+      },
+      "type": "package"
+    },
+    {
+      "id": "jar",
+      "name": {
+        "en": "Jar",
+        "ua": "Баночка"
+      },
+      "type": "package"
+    },
+    {
+      "id": "packet",
+      "name": {
+        "en": "Packet",
+        "ua": "Пакет"
+      },
+      "type": "package"
+    },
+    {
+      "id": "tsp",
+      "name": {
+        "en": "Teaspoon",
+        "ua": "Чайна ложка"
+      },
+      "type": "volume_approx"
+    },
+    {
+      "id": "tbsp",
+      "name": {
+        "en": "Tablespoon",
+        "ua": "Столова ложка"
+      },
+      "type": "volume_approx"
+    },
+    {
+      "id": "cup",
+      "name": {
+        "en": "Cup",
+        "ua": "Чашка"
+      },
+      "type": "volume_approx"
+    },
+    {
+      "id": "pinch",
+      "name": {
+        "en": "Pinch",
+        "ua": "Дрібка"
+      },
+      "type": "approx"
+    },
+    {
+      "id": "to_taste",
+      "name": {
+        "en": "To taste",
+        "ua": "За смаком"
+      },
+      "type": "qualitative"
+    }
+  ],
+  "note": "No automatic cup/spoon-to-gram conversion: volume, spoon standards, and ingredient density differ."
+}

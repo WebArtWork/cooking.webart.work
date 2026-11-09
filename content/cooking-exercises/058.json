@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 58,
+    "title": {
+      "en": "Aroma, Smell, and Flavor Perception",
+      "ua": "Аромат, нюх та сприйняття смаку"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/meal-planning/understanding-tastes-and-food-flavors",
+    "https://health.nih.gov/health-topics-a-z/smell-and-taste-disorders",
+    "https://extension.umaine.edu/food-health/2024/08/01/fresh-herbs/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-058-01",
+      "theoryId": 58,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What largely creates the aroma of freshly cut basil?",
+        "ua": "Що переважно створює аромат щойно нарізаного базиліку?"
+      },
+      "explanation": {
+        "en": "Cutting releases volatile molecules that reach smell receptors.",
+        "ua": "Нарізання вивільняє леткі молекули, які досягають нюхових рецепторів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Volatile compounds released from plant tissue",
+            "ua": "Леткі сполуки, що вивільняються з рослинних тканин"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only sodium chloride",
+            "ua": "Лише хлорид натрію"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only starch gelatinization",
+            "ua": "Лише клейстеризація крохмалю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-058-02",
+      "theoryId": 58,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Much of perceived flavor depends on aroma reaching the nose during chewing.",
+        "ua": "Значна частина сприйняття смаку страви залежить від ароматів, які потрапляють до носа під час жування."
+      },
+      "explanation": {
+        "en": "Retronasal olfaction combines with taste and texture to create flavor.",
+        "ua": "Ретроназальний нюх поєднується зі смаком і текстурою в загальному відчутті страви."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-058-03",
+      "theoryId": 58,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each sensation to its main perception.",
+        "ua": "Поєднайте відчуття з основним механізмом сприйняття."
+      },
+      "explanation": {
+        "en": "Flavor integrates olfaction, taste, and chemesthetic perception.",
+        "ua": "Відчуття страви поєднує нюх, смак та хіместезію."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Lemon aroma",
+            "ua": "Лимонний аромат"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Saltiness",
+            "ua": "Солоність"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Chili burn",
+            "ua": "Печіння від чилі"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Chemesthetic nerve sensation",
+            "ua": "Хіместетичне нервове відчуття"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Taste receptor stimulation",
+            "ua": "Стимуляція смакових рецепторів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Smell of volatile molecules",
+            "ua": "Нюхове сприйняття летких молекул"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-058-04",
+      "theoryId": 58,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a useful herb-aroma comparison experiment.",
+        "ua": "Розташуйте кроки експерименту з ароматом зелені."
+      },
+      "explanation": {
+        "en": "Heating and chopping change volatile release and chemistry.",
+        "ua": "Нагрівання та нарізання змінюють вивільнення летких сполук і їхню хімію."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Warm a comparable amount briefly in oil",
+            "ua": "Коротко прогріти схожу кількість у жирі"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Smell a clean fresh herb sample",
+            "ua": "Понюхати чисту свіжу зелень"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Compare the aromas without assuming more heat is always better",
+            "ua": "Порівняти аромати, не вважаючи сильніший нагрів завжди кращим"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-058-05",
+      "theoryId": 58,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your herb soup has no fresh top note after long boiling. Best finishing adjustment?",
+        "ua": "Після тривалого кипіння суп втратив свіжий трав’яний аромат. Що зробити наприкінці?"
+      },
+      "explanation": {
+        "en": "Late additions preserve some delicate top-note volatiles.",
+        "ua": "Додавання наприкінці допомагає зберегти леткі ніжні аромати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Add a little fresh tender herb near serving",
+            "ua": "Додати трохи свіжої ніжної зелені перед подачею"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Boil fresh basil another two hours",
+            "ua": "Кип’ятити базилік іще дві години"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Increase salt to recreate basil aroma",
+            "ua": "Додати більше солі, щоб відновити аромат базиліку"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

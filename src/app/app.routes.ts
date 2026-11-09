@@ -7,7 +7,6 @@ import type { CookingTheory } from './feature/cooking/theories';
 const loadCooking = () =>
 	import('./pages/cooking/cooking.component').then((m) => m.CookingComponent);
 const page = (path: string, mode: string) => ({ mode, meta: buildRouteMeta(companyProfile, path) });
-// Preserve the copied Business content on disk, without publishing it as Cooking lessons.
 export const routes: Routes = [
 	{
 		path: '',
@@ -30,18 +29,6 @@ export const routes: Routes = [
 			),
 		data: page('/theories', 'theories'),
 	},
-	...(['short', 'full'] as const).map((version) => ({
-		path: 'theories/print/' + version,
-		loadComponent: () =>
-			import('./pages/cooking-theory/print.component').then((m) => m.CookingPrintComponent),
-		data: {
-			version,
-			meta: {
-				title: version === 'full' ? 'Full cooking theories' : 'Short cooking theories',
-				robots: 'noindex, follow',
-			},
-		},
-	})),
 	...cookingRoutes.map((theory) => ({
 		path: 'theories/' + theory.slug,
 		loadComponent: () =>
@@ -59,8 +46,27 @@ export const routes: Routes = [
 		},
 		data: page('/theories/' + theory.slug, 'lesson'),
 	})),
-	{ path: 'practices', loadComponent: loadCooking, data: page('/practices', 'practices') },
-	{ path: 'about', loadComponent: loadCooking, data: page('/about', 'about') },
+	// practice: the list and one session per theory, loaded as a group
+	{ path: 'practices', loadChildren: () => import('./practice.routes').then((m) => m.PRACTICE_ROUTES) },
+	{
+		path: 'explore',
+		loadComponent: () =>
+			import('./pages/cooking-explore/explore.component').then((m) => m.CookingExploreComponent),
+		data: page('/explore', 'explore'),
+	},
+	{ path: 'about', redirectTo: 'explore', pathMatch: 'full' },
+	{
+		path: 'cook/recipe',
+		loadComponent: () => import('./pages/cook/recipe-builder.component').then((m) => m.RecipeBuilderComponent),
+		// a form the author fills in: not for search results
+		data: { meta: { ...buildRouteMeta(companyProfile, '/cook'), title: 'New recipe', robots: 'noindex, follow' } },
+	},
+	{
+		path: 'cook',
+		loadComponent: () => import('./pages/cook/cook.component').then((m) => m.CookComponent),
+		// empty for now, so it stays out of search results
+		data: { meta: { ...buildRouteMeta(companyProfile, '/cook'), title: 'Cook', robots: 'noindex, follow' } },
+	},
 	{
 		path: 'privacy',
 		loadComponent: () =>
@@ -92,6 +98,8 @@ export const routes: Routes = [
 	{ path: 'dashboard', redirectTo: '', pathMatch: 'full' },
 	{ path: 'theory', redirectTo: 'theories', pathMatch: 'full' },
 	{ path: 'practice', redirectTo: 'practices', pathMatch: 'full' },
+	// the pages that the cards of Explore open, loaded as a group
+	{ path: '', loadChildren: () => import('./explore.routes').then((m) => m.EXPLORE_ROUTES) },
 	{
 		path: '**',
 		loadComponent: loadCooking,

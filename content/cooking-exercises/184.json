@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 184,
+    "title": {
+      "en": "Sourdough Starters and Microbial Balance",
+      "ua": "Хлібні закваски та мікробний баланс"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/blog/2019/07/22/bulk-fermentation",
+    "https://www.kingarthurbaking.com/learn/bread"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-184-01",
+      "theoryId": 184,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What typically makes a sourdough starter different from commercial-yeast-only dough?",
+        "ua": "Чим закваска зазвичай відрізняється від тіста лише на промислових дріжджах?"
+      },
+      "explanation": {
+        "en": "Sourdough commonly relies on a mixed microbial ecosystem.",
+        "ua": "Хлібна закваска зазвичай ґрунтується на змішаній спільноті мікроорганізмів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "It cannot ferment flour",
+            "ua": "Вона не здатна ферментувати борошно"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "It must contain no water",
+            "ua": "У ній не має бути води"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It contains yeasts and lactic acid bacteria",
+            "ua": "Вона містить дріжджі та молочнокислі бактерії"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-184-02",
+      "theoryId": 184,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A starter that smells unusual or grows fuzzy mold should be considered safe because all sourdough is acidic.",
+        "ua": "Закваска з незвичним запахом або пухнастою пліснявою безпечна лише тому, що всі закваски кислі."
+      },
+      "explanation": {
+        "en": "Visible mold or clear contamination signals warrant discarding a starter.",
+        "ua": "Видима пліснява або явні ознаки забруднення є підставою викинути закваску."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-184-03",
+      "theoryId": 184,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match starter terms with meanings.",
+        "ua": "Поєднайте терміни закваски з їхнім значенням."
+      },
+      "explanation": {
+        "en": "Starter management is controlled by refreshments, ratios and observation.",
+        "ua": "Керування закваскою ґрунтується на оновленні, пропорціях та спостереженні."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Starter feeding",
+            "ua": "Підгодовування закваски"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Levain build",
+            "ua": "Підготовка левену"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Starter hydration",
+            "ua": "Гідратація закваски"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Active portion prepared for a dough",
+            "ua": "Активна порція для конкретного тіста"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Water weight relative to flour weight",
+            "ua": "Маса води відносно маси борошна"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Adding fresh flour and water",
+            "ua": "Додавання свіжого борошна та води"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-184-04",
+      "theoryId": 184,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your starter repeatedly shows minimal activity after feeding. What is the best first investigation?",
+        "ua": "Закваска майже не проявляє активності після підгодовування. Що перевірити насамперед?"
+      },
+      "explanation": {
+        "en": "Fermentation speed depends on microbial activity and conditions.",
+        "ua": "Швидкість бродіння залежить від активності мікроорганізмів та умов."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Assume doubling is guaranteed after exactly one hour",
+            "ua": "Вважати, що вона обов’язково подвоїться рівно за годину"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add detergent to remove sourness",
+            "ua": "Додати мийний засіб, щоб прибрати кислинку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assess feeding ratio, temperature and elapsed time",
+            "ua": "Перевірити співвідношення підгодовування, температуру й час"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-184-05",
+      "theoryId": 184,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A starter contains 90 g water and 90 g flour. What is its hydration percentage?",
+        "ua": "Закваска містить 90 г води та 90 г борошна. Яка її гідратація у відсотках?"
+      },
+      "explanation": {
+        "en": "Hydration = water mass ÷ flour mass × 100 = 100%.",
+        "ua": "Гідратація = маса води ÷ маса борошна × 100 = 100%."
+      },
+      "numericInput": {
+        "unit": "%",
+        "unitLabel": {
+          "en": "percent",
+          "ua": "відсотків"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 100,
+        "tolerance": 0,
+        "unit": "%"
+      }
+    }
+  ]
+}

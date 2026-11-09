@@ -1,78 +1,84 @@
 {
   "id": 49,
-  "slug": "049-thermal-radiation",
-  "group": "046",
+  "slug": "049-moisture-migration-and-water-loss",
+  "group": "043",
   "title": {
-    "en": "Thermal Radiation",
-    "ua": "Теплове випромінювання"
+    "en": "Moisture Migration and Water Loss",
+    "ua": "Переміщення вологи та втрата води"
   },
   "en": {
-    "short": "Thermal radiation carries energy as electromagnetic waves and requires no direct contact. In cooking, glowing grill coals, broiler elements, and hot oven surfaces radiate heat onto food.",
+    "short": "Water moves and evaporates during cooking, changing juiciness, concentration, crispness, and weight. Managing heat and exposed surface area helps preserve or deliberately remove moisture.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "All objects emit thermal radiation; warmer surfaces generally emit far more. Dark, matte, shiny, and reflective surfaces absorb and emit radiation differently, although geometry, convection, and conduction also affect actual cooking."
+        "text": "Moisture moves through tissues by capillary flow, pressure differences, and diffusion; heat changes the structure of cells, starches, and proteins. Some foods release water when salted or heated, while dry grains absorb water and swell. The balance depends on cut size, time, temperature, and surrounding humidity."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "A simplified Stefan–Boltzmann relationship says radiant power depends strongly on absolute temperature (approximately its fourth power) and surface properties. Distance and line of sight matter: food hidden from a heating element receives less direct radiation."
+        "text": "As water evaporates from the surface, internal moisture may move outward to replace it. If surface evaporation outpaces replenishment, a drier crust can form. Heat-driven protein contraction can also squeeze moisture out of meat and eggs."
       },
       {
         "title": "How to apply it",
-        "text": "For broiling, place food at an appropriate distance from the upper element and watch closely. Rotate or reposition items when browning is uneven. Use oven-safe dishes and mitts because exposed surfaces and containers may become extremely hot."
+        "text": "Dry a food surface before searing if browning is important; avoid crowding the pan when cooking mushrooms or vegetables. Match cooking time to thickness, and use a thermometer for proteins to prevent unnecessary overheating."
       },
       {
         "title": "Practical example",
-        "text": "The top of a gratin browns quickly under a broiler even while the interior heats more slowly. Moving the dish farther from the element reduces direct radiant intensity and helps avoid burning."
+        "text": "A pan loaded with wet mushrooms may initially fill with liquid and steam them. In smaller batches, released water evaporates faster and the mushrooms can brown more effectively."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Radiation differs from microwave heating, which couples electromagnetic fields to food materials in a different frequency range and mechanism. Browning alone does not indicate a safe center temperature."
+        "text": "Juices do not simply get \"sealed in\" by searing, and drying a surface does not guarantee a moist center. Food safety and final texture still depend on complete, appropriately monitored cooking."
+      },
+      {
+        "title": "Two competing goals",
+        "text": "A covered pan limits evaporation and favors moist cooking; an uncovered hot pan promotes evaporation and browning. Salting, osmotic effects, resting, and ingredient structure can influence where water moves, but no technique can guarantee that all water stays inside food."
       },
       {
         "title": "Related theories",
-        "text": "046, 047, 048, 056."
+        "text": "045, 050."
       }
     ]
   },
   "ua": {
-    "short": "Теплове випромінювання переносить енергію електромагнітними хвилями без безпосереднього контакту. На кухні випромінювання від розжареного вугілля, гриля чи гарячих стінок духовки нагріває поверхню страв.",
+    "short": "Під час приготування вода переміщується й випаровується, змінюючи соковитість, концентрацію, хрусткість і масу продукту. Контроль жару та відкритої поверхні допомагає зберегти або свідомо прибрати вологу.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Усі тіла випромінюють теплову енергію; зі зростанням температури інтенсивність випромінювання різко збільшується. Темні матові, світлі та блискучі поверхні по-різному поглинають і випромінюють енергію, хоча на реальне приготування також впливають форма посуду, конвекція й теплопровідність."
+        "text": "Волога переміщується тканинами через капілярний рух, різницю тиску та дифузію; тепло змінює будову клітин, крохмалю й білків. Частина продуктів віддає воду після соління чи нагрівання, а сухі крупи поглинають її й набухають. Баланс залежить від розміру нарізання, часу, температури та вологості середовища."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Спрощений закон Стефана — Больцмана пов’язує потужність випромінювання з абсолютною температурою приблизно в четвертому степені та властивостями поверхні. Відстань і прямий «огляд» нагрівача теж важливі: затінена частина продукту отримує менше прямого випромінювання."
+        "text": "Коли вода випаровується з поверхні, внутрішня волога може рухатися назовні. Якщо випаровування швидше за надходження вологи, утворюється сухіший шар і потенційно скоринка. Скорочення білків під дією тепла також може витискати воду з м’яса та яєць."
       },
       {
         "title": "Як застосовувати",
-        "text": "Під час приготування під верхнім нагрівачем розміщуйте продукт на відповідній відстані й уважно стежте за ним. Якщо колір нерівномірний, поверніть або переставте шматки. Використовуйте жаростійкий посуд і рукавиці: відкриті поверхні та форми можуть сильно нагріватися."
+        "text": "Перед обсмажуванням обсушіть поверхню, якщо хочете утворити скоринку; не переповнюйте сковороду грибами чи овочами. Добирайте час відповідно до товщини, а для білкових продуктів користуйтеся термометром, щоб уникнути зайвого перегрівання."
       },
       {
         "title": "Практичний приклад",
-        "text": "Верхівка гратену швидко зарум’янюється під верхнім нагрівачем, хоча середина прогрівається повільніше. Якщо відсунути форму від елемента, інтенсивність прямого нагрівання зменшиться і ризик підгоряння стане нижчим."
+        "text": "Якщо викласти багато вологих грибів одразу, сковорода спочатку наповниться рідиною і гриби швидше тушкуватимуться у парі. Маленькі партії віддають вологу з можливістю швидшого випаровування, тому краще підрум’янюються."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Теплове випромінювання не слід ототожнювати з мікрохвильовим нагріванням, де електромагнітне поле взаємодіє з матеріалом їжі в іншому діапазоні частот. Рум’яна поверхня не доводить, що центр досяг безпечної температури."
+        "text": "Обсмажування не «запечатує соки» всередині, а суха поверхня не гарантує соковитої середини. Безпечність і кінцева текстура залежать від належного приготування та контролю температури."
+      },
+      {
+        "title": "Дві протилежні цілі",
+        "text": "Кришка обмежує випаровування й допомагає вологому приготуванню; відкрита гаряча поверхня посилює випаровування та підрум’янення. Сіль, осмос, відпочинок і структура продукту змінюють рух води, проте жодна техніка не гарантує повного збереження вологи."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "046, 047, 048, 056."
+        "text": "045, 050."
       }
     ]
   },
   "related": [
-    46,
-    47,
-    48,
-    56
+    45,
+    50
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
-    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+    "https://www.usgs.gov/water-science-school/science/facts-about-water",
+    "https://www.ice.edu/blog/knife-skills-video"
   ]
 }

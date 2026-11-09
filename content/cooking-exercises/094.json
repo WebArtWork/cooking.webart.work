@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 94,
+    "title": {
+      "en": "Vegetable Pigments and Color Changes",
+      "ua": "Рослинні пігменти та зміни кольору"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources include international culinary references and US, UK, Canadian, Australian and New Zealand consumer food-safety guidance. Specific national requirements do not automatically apply to Ukrainian food businesses.",
+    "ua": "Джерела охоплюють міжнародні кулінарні матеріали та рекомендації з безпеки продуктів США, Великої Британії, Канади, Австралії й Нової Зеландії. Національні норми інших країн не є автоматично вимогами для закладів харчування України."
+  },
+  "sources": [
+    "https://extension.psu.edu/preserving-color-and-preventing-browning-of-foods",
+    "https://app.ckbk.com/reference/food00011c05s001e005se001se002/texture",
+    "https://www.sciencedirect.com/science/article/pii/S0963996914004074",
+    "https://medlineplus.gov/ency/article/002095.htm",
+    "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/diy-red-cabbage-ph-test",
+    "https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2026-04-17-power-plant-pigments"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-094-01",
+      "theoryId": 94,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which pigment gives many leafy vegetables their green color?",
+        "ua": "Який пігмент робить багато листових овочів зеленими?"
+      },
+      "explanation": {
+        "en": "Chlorophyll absorbs light and is responsible for much of the green appearance.",
+        "ua": "Хлорофіл поглинає світло й зумовлює зелений колір."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Chlorophyll",
+            "ua": "Хлорофіл"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Myoglobin",
+            "ua": "Міоглобін"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Melanin",
+            "ua": "Меланін"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-094-02",
+      "theoryId": 94,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Red cabbage color can vary when exposed to acids or bases.",
+        "ua": "Колір червонокачанної капусти може змінюватися під дією кислот та лугів."
+      },
+      "explanation": {
+        "en": "Its anthocyanin pigments respond to pH changes.",
+        "ua": "Антоціанові пігменти реагують на зміну pH."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-094-03",
+      "theoryId": 94,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match pigments to typical colors.",
+        "ua": "Поєднайте пігменти з типовими кольорами."
+      },
+      "explanation": {
+        "en": "Different classes of plant pigments create different visible colors.",
+        "ua": "Різні групи рослинних пігментів формують різні кольори."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Chlorophyll",
+            "ua": "Хлорофіл"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Carotenoids",
+            "ua": "Каротиноїди"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Anthocyanins",
+            "ua": "Антоціани"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Purple-red cabbage",
+            "ua": "Фіолетово-червона капуста"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Orange carrot",
+            "ua": "Помаранчева морква"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Green spinach",
+            "ua": "Зелений шпинат"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-094-04",
+      "theoryId": 94,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want a color-change demonstration with red cabbage juice. What should you add in separate samples?",
+        "ua": "Ви хочете показати зміну кольору соку червонокачанної капусти. Що додати в окремі зразки?"
+      },
+      "explanation": {
+        "en": "Acid and mild alkalinity shift the appearance of anthocyanins.",
+        "ua": "Кисле та слабколужне середовища змінюють вигляд антоціанів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lemon juice and a little baking-soda solution",
+            "ua": "Лимонний сік і трохи розчину соди"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only more plain cabbage",
+            "ua": "Лише більше капусти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only olive oil",
+            "ua": "Лише оливкову олію"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-094-05",
+      "theoryId": 94,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which explanation of green vegetable color is incorrect?",
+        "ua": "Яке пояснення кольору зелених овочів хибне?"
+      },
+      "explanation": {
+        "en": "Pigment color is not a microbiological safety test.",
+        "ua": "Колір пігментів не є перевіркою мікробіологічної безпечності."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Overcooking can dull green color",
+            "ua": "Надмірне варіння може приглушити зелений колір"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Acid can affect chlorophyll appearance",
+            "ua": "Кислота може змінювати вигляд хлорофілу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Green color proves food is microbiologically safe",
+            "ua": "Зелений колір доводить мікробіологічну безпечність"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-094-06",
+      "theoryId": 94,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which pairs of pigments and produce are plausible?",
+        "ua": "Які поєднання пігментів і рослинних продуктів правильні?"
+      },
+      "explanation": {
+        "en": "Different pigment families explain common fruit and vegetable colors.",
+        "ua": "Різні родини пігментів пояснюють кольори овочів і фруктів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Carotenoids — carrots",
+            "ua": "Каротиноїди — морква"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Anthocyanins — red cabbage",
+            "ua": "Антоціани — червонокачанна капуста"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Myoglobin — spinach leaves",
+            "ua": "Міоглобін — листя шпинату"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Chlorophyll — spinach",
+            "ua": "Хлорофіл — шпинат"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

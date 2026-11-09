@@ -1,82 +1,90 @@
 {
   "id": 88,
-  "slug": "088-water-bath-cooking-bain-marie",
-  "group": "066",
+  "slug": "088-slow-cooking",
+  "group": "070",
   "title": {
-    "en": "Water Bath Cooking (Bain-Marie)",
-    "ua": "Приготування на водяній бані"
+    "en": "Slow Cooking",
+    "ua": "Повільне приготування"
   },
   "en": {
-    "short": "A bain-marie surrounds a vessel of delicate food with warm water to moderate heat transfer. It reduces hot spots and helps custards, terrines, and sauces cook or stay warm more evenly.",
+    "short": "Slow cooking uses gentle heat over hours to soften connective tissue and develop integrated flavors. It requires food-safe preparation, appropriate ingredients, and proper handling of leftovers.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "One container holds food while another holds heated water; the inner container may be set into a roasting tray or suspended above a saucepan. The water acts as a thermal buffer between the heat source and a delicate mixture. For some applications the inner bowl touches hot water; for others it is warmed mainly by steam."
+        "text": "A slow cooker warms food in a covered vessel with limited evaporation; low and high are heating settings rather than guarantees of an exact food temperature. Moisture and the lid help heat circulate. Food-safe slow cooking requires starting with thawed meat, suitable batch size, and an operating appliance."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Water has substantial heat capacity and moves heat around the container by convection, smoothing sudden temperature changes. At ordinary atmospheric pressure, a boiling water bath cannot exceed water’s boiling point as a liquid, but the metal vessel may be hotter above the waterline. A bain-marie can slow coagulation and prevent localized curdling, though it does not guarantee a safe final temperature."
+        "text": "Long heating softens collagen and plant tissues, but enzymes and microbes respond to time and temperature too. A large frozen block may warm too slowly through unsafe temperatures. Leaving the lid in place maintains heat; reopening repeatedly can delay cooking. Slow cookers are unsuitable for safely reheating cold leftovers from scratch."
       },
       {
         "title": "How to apply it",
-        "text": "For baked custards, place individual ramekins in a deep pan and add hot water partway up their sides. Bake gently until the centers are just set, then remove from the bath so carryover heat does not overcook them. For chocolate or sauce, maintain gentle heat and keep water or steam from splashing into sensitive mixtures. Use oven gloves and avoid spilling hot water."
+        "text": "Thaw meat and poultry in the refrigerator before loading, unless using a commercial product explicitly labeled for the appliance. Cut ingredients to reasonable sizes, add the liquid required by the recipe, and use a tested fill level. Keep the lid closed and measure finished food temperatures. Cool leftovers in shallow containers rather than leaving them in the cooker."
       },
       {
         "title": "Practical example",
-        "text": "A crème brûlée custard heats more evenly in ramekins surrounded by water than it would directly against a hot metal baking tray. The edges are less likely to overcook before the center sets; final doneness still needs visual or temperature checking."
+        "text": "For a vegetable-and-beef stew, layer root vegetables, add thawed beef, onions, and broth, and cook using the recipe’s low or high setting. Check that the meat is both tender and safely cooked. Transfer unused portions to shallow containers promptly."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "A water bath is not a disinfecting step or a guarantee against foodborne illness. Boiling the surrounding water aggressively can still ruin custard. Do not confuse a water bath for gentle cooking with sous-vide, where a pouch is immersed in precisely controlled circulating water."
+        "text": "Do not use the warm setting for raw ingredients or assume that an unplugged pot remains safe. Do not start with a frozen roast, repeatedly lift the lid, or leave finished food cooling for hours in the ceramic insert. Cooker sizes and heating performance vary, so check the manual."
+      },
+      {
+        "title": "Food safety",
+        "text": "Place thawed meat and refrigerated ingredients into a clean cooker and use the recommended cooking setting, not “keep warm” to cook. USDA advises against reheating chilled leftovers directly in a slow cooker because they may heat too slowly; reheat safely using a faster method first. Avoid leaving food at room temperature for prolonged periods during setup."
       },
       {
         "title": "Related theories",
-        "text": "046, 052, 053, 058, 087, 137, 220."
+        "text": "050, 052, 085, 086, 089."
       }
     ]
   },
   "ua": {
-    "short": "Водяна баня оточує посуд із ніжною стравою теплою водою, пом’якшуючи передавання тепла. Вона зменшує ризик локального перегрівання та допомагає рівномірно готувати креми, паштети й делікатні соуси.",
+    "short": "Повільне приготування використовує м’який нагрів протягом багатьох годин для розм’якшення тканин і поєднання смаків. Воно потребує безпечної підготовки продуктів, правильного режиму й поводження із залишками.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Одна ємність містить продукт, інша — гарячу воду. Внутрішню форму можна поставити у глибоке деко або розмістити над каструлею. Вода працює як тепловий буфер між джерелом нагрівання та чутливою сумішшю. В одних випадках посуд контактує з водою, в інших його переважно нагріває пара."
+        "text": "Мультиварка з режимом повільного приготування або окрема slow cooker нагріває продукти в закритій чаші з мінімальним випаровуванням. Позначки low і high означають режими нагрівання, а не гарантовану температуру в центрі їжі. Для безпечного результату важливі розморожена сировина, допустиме заповнення чаші та справна техніка."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Вода має велику теплоємність, а конвекція розподіляє тепло навколо форми, згладжуючи різкі перепади температури. За звичайного тиску кипляча рідка вода не перевищує власної температури кипіння, хоча стінки металевого посуду над рівнем води можуть бути гарячішими. Так менша ймовірність локального згортання білка, але безпечну готовність усе одно потрібно перевіряти."
+        "text": "За кілька годин колаген і рослинні тканини пом’якшуються, проте мікроорганізми також реагують на тривалість і температуру. Великий заморожений шматок надто повільно проходить небезпечний температурний діапазон. Часте відкривання кришки знижує температуру. Розігрівати холодні залишки з холодильника повільною мультиваркою не рекомендують."
       },
       {
         "title": "Як застосовувати",
-        "text": "Для запеченого крему поставте порційні формочки у глибоке деко й налийте гарячу воду приблизно до частини їхньої висоти. Готуйте помірно, доки центр злегка загусне; тоді обережно вийміть форми з води. Для шоколаду чи соусу уникайте надмірного кипіння та потрапляння крапель води всередину. Захищайте руки від гарячого посуду."
+        "text": "Розморожуйте м’ясо та птицю в холодильнику; винятком може бути спеціальний готовий продукт з інструкцією для такого приладу. Наріжте інгредієнти, додайте передбачену рідину, не перевищуйте позначки заповнення. Тримайте кришку закритою, перевіряйте внутрішню температуру. Залишки перекладіть у неглибокі ємності для швидкого охолодження."
       },
       {
         "title": "Практичний приклад",
-        "text": "Крем-брюле у формочках на водяній бані прогрівається рівномірніше, ніж просто на гарячому деку. Краї менше пересихають до моменту готовності центру, але готовність усе одно оцінюють за консистенцією або термометром."
+        "text": "Для яловичого рагу на дно кладуть коренеплоди, потім повністю розморожене м’ясо, цибулю та бульйон. Готують за режимом і тривалістю перевіреного рецепта, після чого перевіряють м’якість і безпечну температуру, а залишки швидко охолоджують."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Водяна баня не знезаражує їжу сама по собі. Бурхливе кипіння води все одно може зіпсувати яєчний крем. Не плутайте такий спосіб із су-від, де продукт у пакеті перебуває у точно контрольованій циркуляційній воді."
+        "text": "Режим підтримання тепла не призначений для приготування сирої їжі. Не починайте із замороженої великої печені, не відкривайте кришку щоп’ять хвилин і не залишайте страву на години остигати у важкій чаші. Різні прилади нагрівають неоднаково, тому користуйтеся інструкцією."
+      },
+      {
+        "title": "Безпечність",
+        "text": "Закладайте розморожене м’ясо й охолоджені інгредієнти в чистий прилад та обирайте режим приготування, а не «підтримання тепла». USDA не радить розігрівати холодні залишки їжі безпосередньо у slow cooker: вони можуть надто повільно прогріватися. Спершу використайте швидший безпечний спосіб розігрівання; не тримайте продукти довго за кімнатної температури."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "046, 052, 053, 058, 087, 137, 220."
+        "text": "050, 052, 085, 086, 089."
       }
     ]
   },
   "related": [
-    46,
+    50,
     52,
-    53,
-    58,
-    87,
-    137,
-    220
+    85,
+    86,
+    89
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://rouxbe.com/cooking-courses/culinary-foundations-rouxbe",
-    "https://www.britannica.com/topic/bain-marie",
-    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+    "https://www.foodsafety.gov/blog/warm-safely-slow-cooked-meal",
+    "https://extension.umaine.edu/food-health/2023/10/19/slow-cooker-8-steps-for-success-safety/",
+    "https://ask.fsis.usda.gov/article/Is-it-safe-to-cook-frozen-foods-in-a-slow-cooker-or-crock-pot",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://ask.fsis.usda.gov/article/What-methods-of-reheating-food-are-safe"
   ]
 }

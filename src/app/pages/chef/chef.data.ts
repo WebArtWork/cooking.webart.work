@@ -1,0 +1,91 @@
+import type { ExploreCard, Text } from '../explore-types';
+
+export interface Chef extends ExploreCard {
+	bio: Text;
+	specialities: Text[];
+	signature: Text[];
+	experience: Text;
+	/** Slugs of the recipes the chef cooks. */
+	recipes: string[];
+	/** Slugs of the restaurants where the chef works. */
+	restaurants: string[];
+}
+
+/** Static sample chefs. Replace with real profiles later. */
+export const CHEFS: Chef[] = [
+	{
+		slug: 'maria-kovalenko',
+		name: 'Maria Kovalenko',
+		meta: { en: 'Pastry chef', ua: 'Шеф-кондитер' },
+		text: {
+			en: 'Specialises in laminated dough and teaches pastry basics to home bakers.',
+			ua: 'Спеціалізується на листковому тісті та навчає домашніх пекарів основам випічки.',
+		},
+		bio: {
+			en: 'Maria has worked in pastry kitchens for twelve years. She is known for patient, precise laminated dough and for explaining the reasons behind every step.',
+			ua: 'Марія дванадцять років працює у кондитерських цехах. Її знають за терплячу й точну роботу з листковим тістом та вміння пояснити, навіщо потрібен кожен крок.',
+		},
+		specialities: [
+			{ en: 'Laminated dough', ua: 'Листкове тісто' },
+			{ en: 'Plated desserts', ua: 'Десерти для подачі' },
+			{ en: 'Chocolate work', ua: 'Робота з шоколадом' },
+		],
+		signature: [
+			{ en: 'Butter croissant', ua: 'Круасан на маслі' },
+			{ en: 'Lemon tart', ua: 'Лимонний тарт' },
+		],
+		experience: { en: '12 years', ua: '12 років' },
+		recipes: ['no-knead-bread'],
+		restaurants: ['casa-verde'],
+	},
+	{
+		slug: 'andrii-bondar',
+		name: 'Andrii Bondar',
+		meta: { en: 'Head chef', ua: 'Шеф-кухар' },
+		text: {
+			en: 'Runs a seasonal kitchen and writes about cooking with local produce.',
+			ua: 'Керує сезонною кухнею та пише про приготування страв із місцевих продуктів.',
+		},
+		bio: {
+			en: 'Andrii leads a kitchen that changes its menu with the harvest. He buys directly from nearby farms and writes short guides on cooking with what is in season.',
+			ua: 'Андрій очолює кухню, яка змінює меню разом зі збором врожаю. Він купує продукти безпосередньо на сусідніх фермах і пише короткі посібники про готування з сезонних продуктів.',
+		},
+		specialities: [
+			{ en: 'Seasonal menus', ua: 'Сезонні меню' },
+			{ en: 'Live-fire cooking', ua: 'Готування на відкритому вогні' },
+			{ en: 'Kitchen management', ua: 'Керування кухнею' },
+		],
+		signature: [
+			{ en: 'Smoked beetroot with buttermilk', ua: 'Копчений буряк із маслянкою' },
+			{ en: 'Roast pork shoulder', ua: 'Запечена свиняча лопатка' },
+		],
+		experience: { en: '16 years', ua: '16 років' },
+		recipes: ['crisp-roast-chicken', 'weeknight-tomato-pasta'],
+		restaurants: ['dnipro-grill'],
+	},
+	{
+		slug: 'sofia-lysenko',
+		name: 'Sofia Lysenko',
+		meta: { en: 'Fermentation specialist', ua: 'Спеціалістка з ферментації' },
+		text: {
+			en: 'Works with sourdough, miso and pickles, and shares safe home methods.',
+			ua: 'Працює із заквасками, місо та квашеннями й ділиться безпечними домашніми методами.',
+		},
+		bio: {
+			en: 'Sofia studies and teaches fermentation. Her focus is practical: clear salt ratios, clean equipment and how to tell a healthy ferment from a spoiled one.',
+			ua: 'Софія вивчає ферментацію та навчає її. Її підхід практичний: чіткі пропорції солі, чисте обладнання й уміння відрізнити здорове бродіння від зіпсованого.',
+		},
+		specialities: [
+			{ en: 'Sourdough', ua: 'Закваски' },
+			{ en: 'Miso and koji', ua: 'Місо та коджі' },
+			{ en: 'Vegetable pickling', ua: 'Квашення овочів' },
+		],
+		signature: [
+			{ en: 'Seven-day sauerkraut', ua: 'Квашена капуста за сім днів' },
+			{ en: 'Rye sourdough', ua: 'Житній хліб на заквасці' },
+		],
+		experience: { en: '9 years', ua: '9 років' },
+		recipes: ['no-knead-bread'],
+		restaurants: ['casa-verde', 'sakura-table'],
+	},
+];

@@ -1,78 +1,79 @@
 {
   "id": 26,
-  "slug": "026-safe-refrigeration-and-food-storage",
-  "group": "016",
+  "slug": "026-reheating-and-hot-holding",
+  "group": "012",
   "title": {
-    "en": "Safe Refrigeration and Food Storage",
-    "ua": "Безпечне охолоджене зберігання продуктів"
+    "en": "Reheating and Hot Holding",
+    "ua": "Повторне розігрівання та гаряче зберігання страв"
   },
   "en": {
-    "short": "Refrigeration slows microbial growth but does not stop it completely. Storage temperatures, packaging, shelf placement, and time determine how safely food can be kept.",
+    "short": "Reheating and hot holding are two different food-safety controls: one heats food to the required endpoint, the other prevents it from cooling into unsafe conditions. Uniform temperatures and good storage history are essential for both.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Many perishable foods require cold holding. A common US consumer guideline is a refrigerator at or below 4°C (40°F) and a freezer at or below −18°C (0°F); professional food-service requirements can use different thresholds."
+        "text": "Previously cooked food can be contaminated again during cooling, storage, or serving. For refrigerated leftovers, US consumer guidance recommends reheating to 74°C (165°F) throughout; apply relevant local rules in commercial kitchens."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Cold air must circulate around containers, while a thermometer verifies the actual appliance temperature. Raw meat can leak onto ready-to-eat foods; oxygen, moisture, and exposure also influence quality. Freezing extends useful storage but cannot repair spoiled food."
+        "text": "The outer layer of food heats before its center. Microwaves in particular can create temperature differences, so covering, stirring or rotating, resting, and measuring in several places improve reliability; reheating does not necessarily destroy heat-stable toxins produced during improper storage."
       },
       {
         "title": "How to apply it",
-        "text": "Check the fridge with an appliance thermometer, group foods in sealed containers, date prepared items and keep raw meat or fish below cooked and ready-to-eat dishes. Refrigerate perishables promptly; US consumer guidance uses a maximum two hours at ambient temperatures, or one hour when hotter than 32°C (90°F)."
+        "text": "Start with leftovers that were cooled promptly and kept refrigerated. Reheat on the stove, in an oven, or in a microwave; bring soups, gravies, and sauces to a boil, then verify the applicable endpoint. Use shallow portions for more even heating."
       },
       {
         "title": "Practical example",
-        "text": "A prepared salad is placed on an upper shelf, while uncooked chicken sits in a leakproof tray on the bottom shelf. Each item is labeled and the refrigerator is not overloaded, allowing cold air to circulate."
+        "text": "A chilled bowl of lentil stew may feel hot at the edges while remaining lukewarm at the center. Stir midway, heat it thoroughly, allow the microwave standing time, then check several spots before serving."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "A cold-feeling container does not prove the center cooled fast enough. Do not keep perishable leftovers indefinitely: for many cooked leftovers US guidance suggests about 3–4 days refrigerated, while specific foods and jurisdictions vary."
+        "text": "Do not use slow cookers or chafing dishes to reheat cold leftovers: heating may be too slow. Reheating cannot reliably rescue food kept at unsafe temperatures; never judge safety by smell or visible steam alone."
       },
       {
-        "title": "Related theories",
-        "text": "018, 020, 022, 027."
+        "title": "Additional application",
+        "text": "Reheating is a separate step from hot holding. For refrigerated leftovers, US consumer guidance generally calls for 74°C/165°F throughout. A warming cabinet or chafing dish maintains already-hot food; it is not an approved way to heat cold food slowly. The 2026 US model Food Code uses its own reheating and holding provisions for food businesses."
       }
     ]
   },
   "ua": {
-    "short": "Холодильник уповільнює ріст мікроорганізмів, але не зупиняє його повністю. Безпечність зберігання залежить від температури, пакування, розміщення на полицях і тривалості.",
+    "short": "Повторне розігрівання та гаряче зберігання це різні заходи безпечності: перший доводить страву до потрібної температури, другий не дозволяє їй небезпечно охолонути. Для обох важливі рівномірність нагріву й правильне попереднє зберігання.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Більшість швидкопсувних продуктів слід тримати охолодженими. Поширена побутова рекомендація США: холодильник — не вище 4°C (40°F), морозильник — не вище −18°C (0°F); для професійних закладів можуть діяти інші нормативи."
+        "text": "Після першого приготування їжа може повторно забруднитися під час охолодження, зберігання чи подачі. Для залишків готових страв побутові рекомендації США передбачають нагрівання до 74°C (165°F) по всьому об’єму; для закладів слід виконувати місцеві норми."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Між контейнерами має циркулювати холодне повітря, а реальну температуру перевіряють окремим термометром. Сік із сирого м’яса може потрапляти на готові продукти; доступ кисню та волога також впливають на якість. Заморожування подовжує зберігання, але не відновлює зіпсовану їжу."
+        "text": "Поверхня нагрівається раніше за середину. У мікрохвильовій печі нерівномірність особливо помітна, тому накривання, перемішування, повертання, витримка та перевірка кількох точок важливі. Повторне нагрівання не завжди руйнує токсини, що утворилися за порушення зберігання."
       },
       {
         "title": "Як застосовувати",
-        "text": "Перевіряйте температуру холодильника, тримайте їжу в чистих закритих контейнерах, позначайте дату приготування, а сире м’ясо й рибу ставте нижче готових страв. Швидкопсувні продукти потрібно охолоджувати своєчасно: побутовий орієнтир США — до двох годин, або до однієї години за температури довкілля понад 32°C."
+        "text": "Розігрівайте тільки ті залишки, які своєчасно охолодили та тримали в холоді. Використовуйте плиту, духовку чи мікрохвильовку; супи, підливи й соуси доводьте до кипіння та перевіряйте потрібну температуру. Невеликі порції прогріваються рівномірніше."
       },
       {
         "title": "Практичний приклад",
-        "text": "Готовий салат стоїть на верхній полиці, а сира курятина — на нижній у герметичному піддоні. Продукти підписані, а холодильник не переповнений, тому повітря циркулює."
+        "text": "Густе сочевичне рагу може бути гарячим біля стінок посудини, але теплим у центрі. Перемішайте посеред процесу, повністю прогрійте, дайте постояти після мікрохвильовки й перевірте декілька ділянок."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Холодний зовні контейнер ще не доводить, що його середина швидко охолола. Не тримайте залишки безмежно: для багатьох готових страв рекомендація США — приблизно 3–4 доби в холодильнику, але конкретні строки залежать від продукту та місцевих норм."
+        "text": "Не використовуйте мультиварку в режимі повільного приготування чи марміт для первинного розігрівання холодних залишків. Нагрівання не гарантує порятунку їжі, яку довго зберігали неправильно; запах і пара не доводять безпечності."
       },
       {
-        "title": "Пов’язані теорії",
-        "text": "018, 020, 022, 027."
+        "title": "Додаткове застосування",
+        "text": "Повторне розігрівання є окремою операцією, відмінною від підтримання страви гарячою. Для залишків їжі побутові рекомендації США зазвичай вимагають 74°C по всьому об’єму. Марміт або шафа підігрівання підтримує вже гарячу страву, але не призначений для повільного нагрівання холодної. Для закладів у модельному Food Code США 2026 року передбачено окремі правила."
       }
     ]
   },
   "related": [
-    18,
-    20,
-    22,
+    23,
+    24,
+    25,
     27
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.cdc.gov/food-safety/prevention/",
-    "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely/"
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://ask.fsis.usda.gov/article/What-methods-of-reheating-food-are-safe",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
   ]
 }

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 133,
+    "title": {
+      "en": "Marinating Meat and Its Limitations",
+      "ua": "Маринування м’яса та обмеження цього методу"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.seriouseats.com/should-you-marinate-meat-7565205",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-133-01",
+      "theoryId": 133,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which marinade ingredient is most likely to penetrate meat substantially over time?",
+        "ua": "Який компонент маринаду найімовірніше проникатиме глибше в м’ясо з часом?"
+      },
+      "explanation": {
+        "en": "Salt diffuses into muscle; many aromatics act mainly near the surface.",
+        "ua": "Сіль дифундує в м’язи, а багато ароматичних добавок діють переважно на поверхні."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Salt",
+            "ua": "Сіль"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Large pieces of parsley",
+            "ua": "Великі шматочки петрушки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whole peppercorns",
+            "ua": "Цілі горошини перцю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-133-02",
+      "theoryId": 133,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "An acidic marinade reliably penetrates the full center of a thick roast within a few minutes.",
+        "ua": "Кислий маринад за кілька хвилин надійно проникає до середини товстого шматка м’яса."
+      },
+      "explanation": {
+        "en": "Marinade diffusion is limited by time, geometry and molecules; acidity often changes surface texture first.",
+        "ua": "Проникнення залежить від часу, товщини та молекул; кислота спочатку змінює поверхню."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-133-03",
+      "theoryId": 133,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match marinade components to primary effects.",
+        "ua": "Поєднайте компоненти маринаду з головними ефектами."
+      },
+      "explanation": {
+        "en": "Marinades do not affect all depths equally.",
+        "ua": "Маринади діють на різну глибину неоднаково."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Salt",
+            "ua": "Сіль"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Acid",
+            "ua": "Кислота"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Garlic and herbs",
+            "ua": "Часник і трави"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Aroma mostly near the surface",
+            "ua": "Аромат переважно біля поверхні"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Surface protein changes",
+            "ua": "Зміни білків біля поверхні"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Internal seasoning over time",
+            "ua": "Поступове просолювання всередині"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-133-04",
+      "theoryId": 133,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A cook wants to marinate chicken for several hours. Where should it be kept?",
+        "ua": "Кухар хоче маринувати курятину кілька годин. Де її тримати?"
+      },
+      "explanation": {
+        "en": "Refrigeration reduces the risk of bacterial growth during marination.",
+        "ua": "Охолодження зменшує ризик розмноження бактерій під час маринування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "In the refrigerator in a suitable covered container",
+            "ua": "У холодильнику в придатній закритій ємності"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "On a sunny windowsill",
+            "ua": "На сонячному підвіконні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "On the warm stove",
+            "ua": "На теплій плиті"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-133-05",
+      "theoryId": 133,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which marinade advice is unsafe?",
+        "ua": "Яка порада щодо маринаду небезпечна?"
+      },
+      "explanation": {
+        "en": "Marinade that contacted raw poultry needs an appropriate cooking treatment before being served as sauce.",
+        "ua": "Маринад після сирої птиці потребує належного нагрівання перед подачею як соус."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Refrigerate raw meat while marinating",
+            "ua": "Зберігати сире м’ясо з маринадом у холодильнику"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Avoid raw-meat cross-contamination",
+            "ua": "Не допускати забруднення сирим м’ясом"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use leftover raw-chicken marinade as a sauce without boiling",
+            "ua": "Використати маринад після сирої курки як соус без кип’ятіння"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-133-06",
+      "theoryId": 133,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which marinating practices are safer for raw poultry?",
+        "ua": "Які правила маринування сирої птиці безпечніші?"
+      },
+      "explanation": {
+        "en": "Refrigeration, separation and appropriate heating reduce pathogen risks.",
+        "ua": "Охолодження, розділення та належне нагрівання зменшують ризики патогенів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep poultry refrigerated",
+            "ua": "Зберігати птицю в холодильнику"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Separate raw marinade from ready-to-eat foods",
+            "ua": "Відокремлювати сирий маринад від готової їжі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Boil reserved raw-contact marinade thoroughly before using as sauce",
+            "ua": "Ретельно прокип’ятити маринад після сирої птиці перед подачею як соусу"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Taste raw marinade directly from the bowl",
+            "ua": "Пробувати сирий маринад просто з миски"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

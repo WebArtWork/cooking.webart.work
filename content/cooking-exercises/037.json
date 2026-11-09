@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 37,
+    "title": {
+      "en": "Chopping, Mincing, and Chiffonade",
+      "ua": "Рубання, дрібне подрібнення та шифонад"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ciaconsulting.org/wp-content/uploads/2026/02/Best-of-Boot-Camp-World-Tour-v.120-CP.pdf",
+    "https://hr.uky.edu/work-life-and-well-being/nutrition/food-preparation/knife-skills"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-037-01",
+      "theoryId": 37,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does chiffonade describe?",
+        "ua": "Що таке шифонад?"
+      },
+      "explanation": {
+        "en": "Chiffonade makes fine ribbons of tender leafy ingredients.",
+        "ua": "Шифонад — тонкі стрічки з ніжного листя."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Thin ribbons cut from stacked or rolled leaves",
+            "ua": "Тонкі стрічки з покладеного шарами чи згорнутого листя"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Huge irregular meat chunks",
+            "ua": "Великі нерівні шматки м’яса"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vegetables grated into crumbs",
+            "ua": "Овочі, натерті на крихту"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-037-02",
+      "theoryId": 37,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Mincing generally creates smaller pieces than rough chopping.",
+        "ua": "Дрібне рубання зазвичай дає менші шматочки, ніж грубе рубання."
+      },
+      "explanation": {
+        "en": "Mincing increases surface exposure and integrates aromatic ingredients more evenly.",
+        "ua": "Дрібне рубання збільшує відкриту поверхню та рівномірніше розподіляє ароматичні інгредієнти."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-037-03",
+      "theoryId": 37,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each technique to its best example.",
+        "ua": "Поєднайте техніку з прикладом."
+      },
+      "explanation": {
+        "en": "The size and shape should fit the intended dish.",
+        "ua": "Розмір і форма мають відповідати призначенню страви."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Chopping",
+            "ua": "Рубання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Mincing",
+            "ua": "Дрібне рубання"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Chiffonade",
+            "ua": "Шифонад"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Thin basil leaf ribbons",
+            "ua": "Тонкі стрічки листя базиліку"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Very fine garlic for a dressing",
+            "ua": "Дуже дрібний часник для заправки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Coarse pieces of parsley for soup",
+            "ua": "Великі шматочки петрушки для супу"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-037-04",
+      "theoryId": 37,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "How should you prepare chiffonade from clean basil leaves?",
+        "ua": "Як приготувати шифонад із чистого листя базиліку?"
+      },
+      "explanation": {
+        "en": "Gentle cutting creates strips without crushing delicate leaves.",
+        "ua": "Обережне нарізання утворює смужки без роздавлювання ніжного листя."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Roll stack loosely if appropriate",
+            "ua": "За потреби нещільно згорнути стопку"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Dry and stack leaves",
+            "ua": "Обсушити та скласти листки"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Slice across with a sharp knife",
+            "ua": "Нарізати поперек гострим ножем"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-037-05",
+      "theoryId": 37,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You need garlic spread evenly through a smooth dressing. Best cut?",
+        "ua": "Потрібно рівномірно розподілити часник у гладкій заправці. Яке нарізання найкраще?"
+      },
+      "explanation": {
+        "en": "Fine pieces distribute flavor throughout a homogeneous dressing.",
+        "ua": "Дрібні частинки рівномірніше розподіляють смак у заправці."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Large chunks",
+            "ua": "Великі шматки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Fine mince or paste",
+            "ua": "Дрібне рубання або паста"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whole unpeeled cloves",
+            "ua": "Цілі неочищені зубчики"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

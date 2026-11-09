@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 10,
+    "title": {
+      "en": "Cookware Materials and Appliance Selection",
+      "ua": "Матеріали посуду та вибір кухонної техніки"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ciachef.edu/online-resources/",
+    "https://extension.umn.edu/food/preparing/cooking-at-home"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-010-01",
+      "theoryId": 10,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match cookware or appliances to a useful property.",
+        "ua": "Поєднайте посуд чи прилад із корисною властивістю."
+      },
+      "explanation": {
+        "en": "Material and heating mode affect how rapidly and evenly food heats.",
+        "ua": "Матеріал і режим нагріву визначають швидкість та рівномірність прогрівання."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Cast iron pan",
+            "ua": "Чавунна сковорода"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Thin aluminum pan",
+            "ua": "Тонка алюмінієва сковорода"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Convection oven",
+            "ua": "Конвекційна духовка"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Moving hot air around food",
+            "ua": "Циркуляція гарячого повітря навколо продукту"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Rapid response to heat changes",
+            "ua": "Швидка реакція на зміну нагрівання"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "High thermal mass and good heat retention",
+            "ua": "Велика теплова інерція та добре збереження тепла"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-010-02",
+      "theoryId": 10,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is a major reason to avoid overcrowding a sauté pan?",
+        "ua": "Чому небажано переповнювати сковороду під час швидкого обсмажування?"
+      },
+      "explanation": {
+        "en": "Water released by a large load can lower surface temperature and encourage steaming.",
+        "ua": "Вода з великої кількості продукту знижує температуру поверхні й сприяє паровій обробці."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Crowding traps moisture and reduces browning",
+            "ua": "Тісне розміщення утримує вологу та зменшує підрум’янення"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "It automatically sterilizes food",
+            "ua": "Це автоматично стерилізує їжу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It makes every piece identical",
+            "ua": "Це робить усі шматочки однаковими"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "It eliminates the need for oil",
+            "ua": "Це усуває потребу в олії"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-010-03",
+      "theoryId": 10,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe needs steady low heat for a custard. Which setup best limits direct hot spots?",
+        "ua": "Заварний крем потребує м’якого рівномірного нагріву. Який спосіб краще запобігає локальному перегріву?"
+      },
+      "explanation": {
+        "en": "Water baths moderate temperature and reduce rapid localized overheating.",
+        "ua": "Водяна баня пом’якшує нагрів та знижує ризик локального перегріву."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Water bath or controlled gentle heating",
+            "ua": "Водяна баня або контрольований м’який нагрів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Maximum direct flame",
+            "ua": "Максимальне пряме полум’я"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Uncovered pan over a blowtorch",
+            "ua": "Відкрита сковорода над пальником"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "A dry pot left unattended",
+            "ua": "Сухий сотейник без нагляду"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-010-04",
+      "theoryId": 10,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A pan with a thick base is guaranteed to never have hot spots.",
+        "ua": "Сковорода з товстим дном гарантовано не має зон перегріву."
+      },
+      "explanation": {
+        "en": "Thickness can help heat distribution, but burner size, materials, and design still matter.",
+        "ua": "Товщина може поліпшити розподіл тепла, але впливають також конфорка, матеріал і конструкція."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-010-05",
+      "theoryId": 10,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which cookware habit creates an avoidable burn hazard?",
+        "ua": "Яка звичка користування посудом створює зайвий ризик опіків?"
+      },
+      "explanation": {
+        "en": "Exposed handles can be struck or pulled, spilling hot contents.",
+        "ua": "За виступаючу ручку можна зачепитися й перекинути гарячий вміст."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Turn pan handles inward",
+            "ua": "Повернути ручки сковорід усередину"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use an oven mitt for hot cookware",
+            "ua": "Користуватися прихваткою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Leave a pan handle projecting into a walkway",
+            "ua": "Залишати ручку сковороди над проходом"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Keep flammables away from burners",
+            "ua": "Тримати горючі речі подалі від конфорок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

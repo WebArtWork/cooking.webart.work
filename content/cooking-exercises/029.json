@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 29,
+    "title": {
+      "en": "Kitchen Burns, Fire, and Accident Prevention",
+      "ua": "Запобігання опікам, пожежам та кухонним травмам"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.nfpa.org/Education-and-Research/Home-Fire-Safety/Cooking",
+    "https://www.nfpa.org/education-and-research/home-fire-safety/cooking",
+    "https://www.osha.gov/restaurant-safety",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-029-01",
+      "theoryId": 29,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What should you do for a small, contained stovetop pan-oil fire if it is safe to act?",
+        "ua": "Що робити при невеликому локалізованому загорянні олії в сковороді, якщо діяти безпечно?"
+      },
+      "explanation": {
+        "en": "NFPA advises covering a small pan fire, turning off the burner, and letting it cool; evacuate and call emergency services if unsafe.",
+        "ua": "NFPA рекомендує накрити невелике загоряння кришкою, вимкнути конфорку й дати охолонути; за небезпеки евакуюватися та викликати рятувальників."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Slide a fitted lid over the pan and turn off the heat",
+            "ua": "Обережно накрити сковороду відповідною кришкою та вимкнути нагрів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Throw water into the oil",
+            "ua": "Лити воду в олію"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Carry the flaming pan outside",
+            "ua": "Нести палаючу сковороду надвір"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Fan flames with a towel",
+            "ua": "Роздувати полум’я рушником"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-029-02",
+      "theoryId": 29,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Water is appropriate for extinguishing a burning pan of cooking oil.",
+        "ua": "Вода підходить для гасіння палаючої олії в сковороді."
+      },
+      "explanation": {
+        "en": "Water can cause burning oil to splatter violently and worsen the fire.",
+        "ua": "Вода може спричинити сильне розбризкування палаючої олії й посилити пожежу."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-029-03",
+      "theoryId": 29,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which kitchen behaviors reduce burn and fire risk?",
+        "ua": "Які кухонні звички зменшують ризик опіків і пожежі?"
+      },
+      "explanation": {
+        "en": "Attention, clear workspaces, and safe handle placement prevent common accidents.",
+        "ua": "Уважність, вільне місце й правильне розташування ручок запобігають типовим травмам."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep flammable towels away from burners",
+            "ua": "Тримати рушники подалі від конфорок"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stay nearby during frying",
+            "ua": "Не залишати смаження без нагляду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Turn pan handles away from edges",
+            "ua": "Повернути ручки посуду від краю"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Wear long dangling sleeves near flame",
+            "ua": "Працювати біля полум’я у довгих вільних рукавах"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-029-04",
+      "theoryId": 29,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order actions for a small covered pan fire only when safe to approach.",
+        "ua": "Розташуйте дії для невеликої пожежі в сковороді, лише якщо можна безпечно підійти."
+      },
+      "explanation": {
+        "en": "Never move a burning pan or add water; personal safety takes priority.",
+        "ua": "Ніколи не переносіть палаючу сковороду та не додавайте воду; особиста безпека — пріоритет."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Slide a proper lid over the pan if safe",
+            "ua": "Якщо безпечно, обережно накрити сковороду відповідною кришкою"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Leave the lid on to cool; evacuate/call responders if control is not safe",
+            "ua": "Не знімати кришку до охолодження; якщо контролювати небезпечно — евакуюватися та викликати рятувальників"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Keep distance and assess whether the fire is small and contained",
+            "ua": "Тримати дистанцію й оцінити, чи полум’я невелике та локалізоване"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Turn off the heat source if safe",
+            "ua": "Якщо безпечно, вимкнути джерело нагріву"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-029-05",
+      "theoryId": 29,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which knife-handling habit is unsafe?",
+        "ua": "Яка звичка роботи з ножем є небезпечною?"
+      },
+      "explanation": {
+        "en": "Step back and let a falling knife fall rather than attempting to catch it.",
+        "ua": "Відійдіть і дайте ножу впасти, не намагаючись його ловити."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use a stable board",
+            "ua": "Користуватися стійкою дошкою"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Keep fingers tucked behind the blade path",
+            "ua": "Тримати пальці подалі від шляху леза"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Try to catch a falling knife",
+            "ua": "Намагатися спіймати ніж, що падає"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Store knives safely",
+            "ua": "Безпечно зберігати ножі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-029-06",
+      "theoryId": 29,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A pan fire is spreading beyond the pan. What is the safest response?",
+        "ua": "Вогонь зі сковороди поширюється за її межі. Яка дія найбезпечніша?"
+      },
+      "explanation": {
+        "en": "A spreading fire is not a small, safely contained pan fire.",
+        "ua": "Пожежа, що поширюється, уже не є невеликим локалізованим загорянням."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Evacuate and call emergency services from a safe location",
+            "ua": "Евакуюватися та викликати рятувальників із безпечного місця"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Keep cooking next to it",
+            "ua": "Продовжувати готувати поруч"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Pour water on it",
+            "ua": "Полити водою"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Carry it across the room",
+            "ua": "Нести сковороду через кімнату"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

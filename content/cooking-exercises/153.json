@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 153,
+    "title": {
+      "en": "Sustainable Seafood Selection and Sourcing",
+      "ua": "Вибір морепродуктів зі сталих джерел"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fisheries.noaa.gov/topic/sustainable-seafood",
+    "https://www.msc.org/en-us/standards-and-certification/the-msc-standards"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-153-01",
+      "theoryId": 153,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why is the fish species name alone insufficient to judge sustainability?",
+        "ua": "Чому самої назви виду риби недостатньо для оцінки сталості?"
+      },
+      "explanation": {
+        "en": "The same species can come from fisheries with very different ecosystem impacts.",
+        "ua": "Той самий вид може походити з промислів із різним впливом на екосистеми."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Fishery, gear, origin and management vary",
+            "ua": "Промисел, знаряддя лову, походження та управління відрізняються"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Seafood sustainability depends only on taste",
+            "ua": "Сталість залежить лише від смаку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Every fishery of a species has identical impacts",
+            "ua": "Усі промисли одного виду мають однаковий вплив"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-153-02",
+      "theoryId": 153,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A sustainability label removes the need to check freshness and refrigeration.",
+        "ua": "Маркування сталого походження скасовує потребу перевіряти свіжість і охолодження."
+      },
+      "explanation": {
+        "en": "Ecological sourcing and food safety are separate checks.",
+        "ua": "Екологічність походження та харчова безпека — різні перевірки."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-153-03",
+      "theoryId": 153,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match seafood purchasing criteria to the concern assessed.",
+        "ua": "Поєднайте критерії закупівлі морепродуктів із відповідними ризиками."
+      },
+      "explanation": {
+        "en": "Traceability allows sustainability and safety decisions to be assessed independently.",
+        "ua": "Простежуваність дозволяє окремо оцінити сталість та безпечність."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Bycatch rate",
+            "ua": "Рівень прилову"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Catch location and gear",
+            "ua": "Район і знаряддя лову"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Cold-chain records",
+            "ua": "Записи холодового ланцюга"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Impacts on non-target species",
+            "ua": "Вплив на нецільові види"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Product handling and safety",
+            "ua": "Поводження з продуктом та безпечність"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Fishery-level environmental impact",
+            "ua": "Екологічний вплив конкретного промислу"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-153-04",
+      "theoryId": 153,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Two suppliers offer the same fish. One provides catch region and gear, the other provides only a species name. Which supports better assessment?",
+        "ua": "Два постачальники пропонують той самий вид риби. Один вказує район і спосіб вилову, інший — лише назву. Який варіант легше оцінити?"
+      },
+      "explanation": {
+        "en": "Regional assessments depend on production method and management context.",
+        "ua": "Регіональні оцінки залежать від способу добування та управління промислом."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The supplier with no records",
+            "ua": "Постачальник без жодних записів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The supplier with traceable region and gear details",
+            "ua": "Постачальник із простежуваними даними про район і спосіб вилову"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Neither: origin never matters",
+            "ua": "Жоден: походження ніколи не має значення"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-153-05",
+      "theoryId": 153,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which statement about sustainable seafood is misleading?",
+        "ua": "Яке твердження про сталі морепродукти вводить в оману?"
+      },
+      "explanation": {
+        "en": "Aquaculture differs greatly in feed, disease, pollution, escape and governance impacts.",
+        "ua": "Аквакультура відрізняється за впливом кормів, хвороб, забруднення, втеч та управління."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Aquaculture has environmental considerations",
+            "ua": "Аквакультура має екологічні аспекти"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Every farmed fish is automatically sustainable",
+            "ua": "Будь-яка вирощена риба автоматично є сталою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Bycatch and habitat effects matter",
+            "ua": "Прилов і вплив на середовище мають значення"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

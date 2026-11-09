@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 213,
+    "title": {
+      "en": "Koji, Miso, and Soy-Based Fermentation",
+      "ua": "Кодзі, місо та ферментація соєвих продуктів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://www.mda.state.mn.us/acidified-foods"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-213-01",
+      "theoryId": 213,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is koji in traditional Japanese fermentation?",
+        "ua": "Що таке кодзі в традиційній японській ферментації?"
+      },
+      "explanation": {
+        "en": "Koji typically uses Aspergillus oryzae to produce enzymes that transform starches and proteins.",
+        "ua": "Кодзі зазвичай використовує Aspergillus oryzae для утворення ферментів, що змінюють крохмалі й білки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A grain or legume substrate cultivated with selected mold",
+            "ua": "Зернова або бобова основа, вирощена з культурою спеціального пліснявого гриба"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A frozen dairy foam",
+            "ua": "Заморожена молочна піна"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A pure salt solution",
+            "ua": "Чистий сольовий розчин"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-213-02",
+      "theoryId": 213,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Koji enzymes can break down both starch and proteins.",
+        "ua": "Ферменти кодзі можуть розщеплювати і крохмаль, і білки."
+      },
+      "explanation": {
+        "en": "Amylases generate sugars and proteases release peptides and amino acids.",
+        "ua": "Амілази утворюють цукри, а протеази вивільняють пептиди й амінокислоти."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-213-03",
+      "theoryId": 213,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match soy-fermentation components to functions.",
+        "ua": "Поєднайте складники соєвої ферментації з функціями."
+      },
+      "explanation": {
+        "en": "Flavor emerges from enzyme action and controlled microbial activity over time.",
+        "ua": "Смак виникає завдяки дії ферментів та контрольованої мікробної активності з часом."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Koji enzymes",
+            "ua": "Ферменти кодзі"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Salt in miso",
+            "ua": "Сіль у місо"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Proteolysis",
+            "ua": "Протеоліз"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Influences microbial activity and preservation",
+            "ua": "Впливає на мікрофлору та збереження"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Produces peptides and amino acids",
+            "ua": "Утворює пептиди й амінокислоти"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Break down macromolecules",
+            "ua": "Розщеплюють великі молекули"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-213-04",
+      "theoryId": 213,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A student wants to make miso. What is the sound starting point?",
+        "ua": "Учень хоче виготовити місо. З чого варто почати?"
+      },
+      "explanation": {
+        "en": "Controlled cultures and tested processes help manage contamination risks.",
+        "ua": "Контрольовані культури та перевірені процеси допомагають зменшити ризик забруднення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Skip sanitation because fermentation kills all microbes",
+            "ua": "Пропустити гігієну, адже ферментація знищує всі мікроби"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use food-grade starter and a verified salt, time, and temperature procedure",
+            "ua": "Використати харчову культуру та перевірені параметри солі, часу й температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Grow unidentified mold on leftover rice",
+            "ua": "Виростити невідому плісняву на залишках рису"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-213-05",
+      "theoryId": 213,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which statements about miso and koji are accurate?",
+        "ua": "Які твердження про місо та кодзі правильні?"
+      },
+      "explanation": {
+        "en": "Only identified food-safe cultures and controlled procedures should be used.",
+        "ua": "Слід застосовувати лише визначені харчові культури й контрольовані процеси."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Salt amount influences the process",
+            "ua": "Кількість солі впливає на процес"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Koji supplies enzymes",
+            "ua": "Кодзі забезпечує ферменти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Fermentation can create savory compounds",
+            "ua": "Ферментація може створювати речовини насиченого смаку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Any wild mold is safe to eat",
+            "ua": "Будь-яку дику плісняву безпечно їсти"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

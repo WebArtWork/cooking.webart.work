@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 2,
+    "title": {
+      "en": "Goals of Cooking and Food Doneness",
+      "ua": "Цілі приготування та ступені готовності продуктів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ciachef.edu/online-resources/",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-002-01",
+      "theoryId": 2,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which pair best describes the primary goals of cooking?",
+        "ua": "Яка пара найкраще описує основні цілі приготування?"
+      },
+      "explanation": {
+        "en": "Cooking balances sensory quality with verified safety; optimal treatment depends on ingredient and method.",
+        "ua": "Приготування поєднує смакову якість із перевіреною безпечністю; оптимальна обробка залежить від продукту та методу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only darker color and longer time",
+            "ua": "Лише темніший колір і довший час"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Desirable flavor/texture and appropriate food safety",
+            "ua": "Бажані смак/текстура та належна безпечність"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Maximum moisture loss and salt",
+            "ua": "Максимальна втрата води та сіль"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Identical temperature for every food",
+            "ua": "Однакова температура для всіх продуктів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-002-02",
+      "theoryId": 2,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which observations can help judge culinary doneness? Select all that apply.",
+        "ua": "Які ознаки допомагають оцінити кулінарну готовність? Оберіть усі відповідні."
+      },
+      "explanation": {
+        "en": "Time alone is unreliable because size, equipment, and initial temperature vary.",
+        "ua": "Самого часу недостатньо: розмір, обладнання та початкова температура різняться."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Texture and resistance when tested appropriately",
+            "ua": "Текстура й опір під час належної перевірки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Internal temperature measured when required",
+            "ua": "Внутрішня температура, виміряна за потреби"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A universal fixed number of minutes",
+            "ua": "Універсальна незмінна кількість хвилин"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Surface appearance and aroma",
+            "ua": "Вигляд поверхні та аромат"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "cooking-002-03",
+      "theoryId": 2,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "The best culinary texture and the safe endpoint are always exactly the same thing.",
+        "ua": "Найкраща кулінарна текстура та безпечний рівень готовності завжди означають те саме."
+      },
+      "explanation": {
+        "en": "A texture target does not substitute for validated safety rules for high-risk foods.",
+        "ua": "Бажана текстура не замінює перевірених правил безпечності для продуктів підвищеного ризику."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-002-04",
+      "theoryId": 2,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A thick piece is browned outside but cool in the center. What should guide the next step?",
+        "ua": "Товстий шматок підрум’янився зовні, але прохолодний всередині. Що має визначати наступну дію?"
+      },
+      "explanation": {
+        "en": "The interior may lag far behind the surface. For hazardous foods use an accurate thermometer.",
+        "ua": "Середина може нагріватися значно повільніше за поверхню. Для ризикових продуктів використовуйте точний термометр."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Serve it because the crust is ready",
+            "ua": "Подати, бо скоринка готова"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Check internal temperature and continue cooking appropriately",
+            "ua": "Виміряти внутрішню температуру й відповідно продовжити приготування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add a decorative garnish",
+            "ua": "Додати прикрасу"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Assume a timer guarantees safety",
+            "ua": "Припустити, що таймер гарантує безпечність"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

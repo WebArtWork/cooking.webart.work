@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 273,
+    "title": {
+      "en": "Batch Scaling and Yield Adjustment",
+      "ua": "Масштабування рецептур та коригування виходу"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage",
+    "https://www.kingarthurbaking.com/blog/2020/11/23/how-to-reduce-a-recipe"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-273-01",
+      "theoryId": 273,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe makes 8 servings; a production order needs 24. What is the ingredient scaling factor?",
+        "ua": "Рецепт розраховано на 8 порцій, а потрібно 24. Який коефіцієнт масштабування інгредієнтів?"
+      },
+      "explanation": {
+        "en": "The ingredient multiplier is target portions divided by original portions: 24 ÷ 8 = 3.",
+        "ua": "Множник інгредієнтів дорівнює цільовим порціям, поділеним на початкові: 24 ÷ 8 = 3."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Three",
+            "ua": "Три"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Twenty-four",
+            "ua": "Двадцять чотири"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "One third",
+            "ua": "Одна третина"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-273-02",
+      "theoryId": 273,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Cooking time should always be multiplied by exactly the same factor as ingredient quantity.",
+        "ua": "Час приготування завжди слід множити рівно на той самий коефіцієнт, що й кількість продуктів."
+      },
+      "explanation": {
+        "en": "Batch dimensions, vessel size and heat transfer change cooking time nonlinearly.",
+        "ua": "Розміри партії, посуд і теплопередавання змінюють час приготування нелінійно."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-273-03",
+      "theoryId": 273,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match scaling terms to their meanings.",
+        "ua": "Поєднайте терміни масштабування з їхнім значенням."
+      },
+      "explanation": {
+        "en": "Consistent scaling distinguishes purchase mass, usable yield and portion count.",
+        "ua": "Правильне масштабування розрізняє закупівельну масу, їстівний вихід та кількість порцій."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Gross purchase weight",
+            "ua": "Вага закупленої сировини"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Edible yield",
+            "ua": "Їстівний вихід"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Scaling factor",
+            "ua": "Коефіцієнт масштабування"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Usable food after preparation",
+            "ua": "Придатна кількість після підготовки"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "New serving count divided by old serving count",
+            "ua": "Нова кількість порцій, поділена на початкову"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Amount before trimming and waste",
+            "ua": "Кількість до очищення та втрат"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-273-04",
+      "theoryId": 273,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A kitchen scales a stew recipe from 10 to 80 portions. What should be retested?",
+        "ua": "Кухня масштабує рагу з 10 до 80 порцій. Що потрібно перевірити повторно?"
+      },
+      "explanation": {
+        "en": "Larger batches behave differently, even when quantities scale arithmetically.",
+        "ua": "Великі партії поводяться інакше, навіть коли кількості масштабовано арифметично."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Recheck vessel capacity, heat-up rate, final yield and seasoning",
+            "ua": "Повторно перевірити місткість посуду, швидкість нагріву, вихід та приправляння"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only multiply every heating time by eight",
+            "ua": "Лише помножити весь час нагрівання на вісім"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove temperature controls to save time",
+            "ua": "Прибрати температурний контроль задля швидкості"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-273-05",
+      "theoryId": 273,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which are sound practices when scaling a recipe?",
+        "ua": "Які практики правильні під час масштабування рецепта?"
+      },
+      "explanation": {
+        "en": "Arithmetic is only the starting point; operational verification completes scaling.",
+        "ua": "Арифметика лише початок; масштабування завершують технологічною перевіркою."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Recheck the cooking vessel and equipment capacity",
+            "ua": "Повторно перевірити місткість посуду й обладнання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ignore food safety because the formula is unchanged",
+            "ua": "Ігнорувати безпеку, бо формула не змінилася"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Measure the actual finished yield",
+            "ua": "Виміряти фактичний готовий вихід"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Scale ingredient masses using a consistent factor",
+            "ua": "Масштабувати маси продуктів одним коефіцієнтом"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d",
+          "a",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-273-06",
+      "theoryId": 273,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A 12-portion recipe uses 900 g of carrots. How many grams are needed for 20 portions at the same ratio?",
+        "ua": "Рецепт на 12 порцій потребує 900 г моркви. Скільки грамів потрібно для 20 порцій за тим самим співвідношенням?"
+      },
+      "explanation": {
+        "en": "900 × (20 ÷ 12) = 1,500 g.",
+        "ua": "900 × (20 ÷ 12) = 1500 г."
+      },
+      "numericInput": {
+        "unit": "g",
+        "unitLabel": {
+          "en": "grams",
+          "ua": "грамів"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 1500,
+        "tolerance": 0,
+        "unit": "g"
+      }
+    },
+    {
+      "id": "cooking-273-07",
+      "theoryId": 273,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe requires 2.4 kg of peeled potatoes; peeling yield is 80%. How many kilograms of raw potatoes must be purchased?",
+        "ua": "Рецепту потрібно 2,4 кг очищеної картоплі; вихід після очищення — 80%. Скільки кілограмів сирої картоплі слід закупити?"
+      },
+      "explanation": {
+        "en": "Purchase mass = edible mass ÷ yield fraction = 2.4 ÷ 0.8 = 3 kg.",
+        "ua": "Закупівельна маса = їстівна маса ÷ частка виходу = 2,4 ÷ 0,8 = 3 кг."
+      },
+      "numericInput": {
+        "unit": "kg",
+        "unitLabel": {
+          "en": "kilograms",
+          "ua": "кілограмів"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 3,
+        "tolerance": 0,
+        "unit": "kg"
+      }
+    }
+  ]
+}

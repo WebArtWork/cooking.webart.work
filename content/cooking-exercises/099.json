@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 99,
+    "title": {
+      "en": "Onion, Garlic, and Allium Flavor Development",
+      "ua": "Цибуля, часник та формування їхнього смаку"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources include international culinary references and US, UK, Canadian, Australian and New Zealand consumer food-safety guidance. Specific national requirements do not automatically apply to Ukrainian food businesses.",
+    "ua": "Джерела охоплюють міжнародні кулінарні матеріали та рекомендації з безпеки продуктів США, Великої Британії, Канади, Австралії й Нової Зеландії. Національні норми інших країн не є автоматично вимогами для закладів харчування України."
+  },
+  "sources": [
+    "https://pubs.acs.org/doi/full/10.1021/bk-2019-1303.ch004",
+    "https://pubs.acs.org/doi/abs/10.1021/bk-2011-1068.ch009",
+    "https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-099-01",
+      "theoryId": 99,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What causes much of the sharp aroma when garlic is crushed?",
+        "ua": "Що зумовлює значну частину різкого аромату розчавленого часнику?"
+      },
+      "explanation": {
+        "en": "Crushing brings enzymes into contact with sulfur-containing substrates.",
+        "ua": "Роздавлювання зближує ферменти із сірковмісними речовинами."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Enzymatic reactions after cells are broken",
+            "ua": "Ферментативні реакції після руйнування клітин"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Instant conversion into table salt",
+            "ua": "Миттєве перетворення на кухонну сіль"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Chlorophyll appearing in cloves",
+            "ua": "Поява хлорофілу в зубчиках"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-099-02",
+      "theoryId": 99,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Low, slow heating of onions tends to produce a different flavor from briefly frying them on very high heat.",
+        "ua": "Повільне нагрівання цибулі на слабкому вогні дає інший смак, ніж коротке обсмажування на дуже сильному жарі."
+      },
+      "explanation": {
+        "en": "Time and temperature control softening, browning and volatile compounds.",
+        "ua": "Час і температура впливають на розм’якшення, підрум’янення та леткі сполуки."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-099-03",
+      "theoryId": 99,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the preparation to a likely allium flavor.",
+        "ua": "Поєднайте обробку з типовим смаком цибулевих."
+      },
+      "explanation": {
+        "en": "Cell damage and heating style strongly alter allium flavors.",
+        "ua": "Руйнування клітин та спосіб нагрівання сильно змінюють смак цибулевих."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Fresh minced garlic",
+            "ua": "Свіжий подрібнений часник"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Slowly softened onion",
+            "ua": "Повільно розм’якшена цибуля"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Burnt minced garlic",
+            "ua": "Підгорілий подрібнений часник"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Harsh bitter notes",
+            "ua": "Різка гіркота"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Mellow and sweetish",
+            "ua": "М’який та злегка солодкуватий"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Sharp and pungent",
+            "ua": "Різкий і пекучий"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-099-04",
+      "theoryId": 99,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Minced garlic burns before onions soften. What should you change?",
+        "ua": "Подрібнений часник підгоряє, поки цибуля ще тверда. Що змінити?"
+      },
+      "explanation": {
+        "en": "Small garlic pieces scorch quickly; sequence ingredients by how fast they cook.",
+        "ua": "Дрібний часник швидко підгоряє; інгредієнти слід додавати за часом приготування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Add garlic later and reduce excessive heat",
+            "ua": "Додавати часник пізніше та зменшити сильний жар"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Increase heat to maximum",
+            "ua": "Збільшити нагрів до максимуму"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cut the garlic smaller and add it earlier",
+            "ua": "Порізати часник дрібніше й додати раніше"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-099-05",
+      "theoryId": 99,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which instruction misunderstands sautéing garlic?",
+        "ua": "Яка порада про обсмажування часнику хибна?"
+      },
+      "explanation": {
+        "en": "Burnt garlic generally becomes bitter, not reliably sweet.",
+        "ua": "Підгорілий часник зазвичай стає гірким, а не гарантовано солодким."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Watch heat carefully",
+            "ua": "Уважно контролювати жар"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stir if appropriate",
+            "ua": "За потреби перемішувати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Blacken it completely to guarantee sweetness",
+            "ua": "Повністю почорнити часник, щоб гарантовано отримати солодкість"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

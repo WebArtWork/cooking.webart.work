@@ -1,0 +1,6763 @@
+{
+  "version": "1.0.0",
+  "languages": [
+    "en",
+    "ua"
+  ],
+  "type": "curated cooking technique catalog",
+  "techniques": [
+    {
+      "id": "mise-en-place",
+      "name": {
+        "en": "Mise en place",
+        "ua": "Підготовка всього необхідного"
+      },
+      "aliases": {
+        "en": [
+          "mise en place"
+        ],
+        "ua": [
+          "міз-ан-плас"
+        ]
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "preheating",
+      "name": {
+        "en": "Preheating",
+        "ua": "Попереднє розігрівання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "batch-cooking",
+      "name": {
+        "en": "Batch cooking",
+        "ua": "Приготування партіями"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "staggered-cooking",
+      "name": {
+        "en": "Staggered cooking",
+        "ua": "Поетапне приготування за часом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "par-cooking",
+      "name": {
+        "en": "Par-cooking",
+        "ua": "Часткове попереднє приготування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "par-baking",
+      "name": {
+        "en": "Par-baking",
+        "ua": "Часткове випікання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "resting-food",
+      "name": {
+        "en": "Resting cooked food",
+        "ua": "Витримування готової страви"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "carryover-cooking",
+      "name": {
+        "en": "Carryover cooking",
+        "ua": "Доготування залишковим теплом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "rotating-trays",
+      "name": {
+        "en": "Rotating baking trays",
+        "ua": "Переставляння дек у духовці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.preparation"
+    },
+    {
+      "id": "ice-bath-chilling",
+      "name": {
+        "en": "Ice-bath chilling",
+        "ua": "Охолодження на крижаній бані"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "shocking",
+      "name": {
+        "en": "Shocking in ice water",
+        "ua": "Шокове охолодження в крижаній воді"
+      },
+      "aliases": {
+        "en": [
+          "ice bath",
+          "refreshing"
+        ],
+        "ua": [
+          "охолодження в крижаній воді"
+        ]
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "rapid-chilling",
+      "name": {
+        "en": "Rapid chilling",
+        "ua": "Швидке охолодження"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "thawing-in-refrigerator",
+      "name": {
+        "en": "Refrigerator thawing",
+        "ua": "Розморожування в холодильнику"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "cold-water-thawing",
+      "name": {
+        "en": "Cold-water thawing",
+        "ua": "Розморожування в холодній воді"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "tempering-ingredients",
+      "name": {
+        "en": "Bringing ingredients to working temperature",
+        "ua": "Доведення інгредієнтів до робочої температури"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "warming-plates",
+      "name": {
+        "en": "Warming serving plates",
+        "ua": "Підігрівання посуду для подачі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "workflow",
+      "subcategoryId": "workflow.temperature"
+    },
+    {
+      "id": "chopping",
+      "name": {
+        "en": "Chopping",
+        "ua": "Рубання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "fine-chopping",
+      "name": {
+        "en": "Fine chopping",
+        "ua": "Дрібне рубання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "mincing",
+      "name": {
+        "en": "Mincing",
+        "ua": "Подрібнення ножем"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "slicing",
+      "name": {
+        "en": "Slicing",
+        "ua": "Нарізання скибками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "thin-slicing",
+      "name": {
+        "en": "Thin slicing",
+        "ua": "Нарізання тонкими скибками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "dicing",
+      "name": {
+        "en": "Dicing",
+        "ua": "Нарізання кубиками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "fine-dicing",
+      "name": {
+        "en": "Fine dicing",
+        "ua": "Нарізання дрібними кубиками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "rough-chopping",
+      "name": {
+        "en": "Rough chopping",
+        "ua": "Грубе нарізання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "wedging",
+      "name": {
+        "en": "Cutting into wedges",
+        "ua": "Нарізання часточками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "halving",
+      "name": {
+        "en": "Halving",
+        "ua": "Розрізання навпіл"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "quartering",
+      "name": {
+        "en": "Quartering",
+        "ua": "Розрізання на чверті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "cross-cutting",
+      "name": {
+        "en": "Cross-cutting",
+        "ua": "Поперечне нарізання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "bias-cutting",
+      "name": {
+        "en": "Bias cutting",
+        "ua": "Нарізання навскіс"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "scoring",
+      "name": {
+        "en": "Scoring",
+        "ua": "Надрізання поверхні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.basic-cuts"
+    },
+    {
+      "id": "julienne",
+      "name": {
+        "en": "Julienne",
+        "ua": "Нарізання жульєном"
+      },
+      "aliases": {
+        "en": [
+          "julienne cut"
+        ],
+        "ua": [
+          "соломка"
+        ]
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "brunoise",
+      "name": {
+        "en": "Brunoise",
+        "ua": "Нарізання брюнуазом"
+      },
+      "aliases": {
+        "en": [
+          "brunoise cut"
+        ],
+        "ua": [
+          "дрібний кубик"
+        ]
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "batonnet",
+      "name": {
+        "en": "Batonnet",
+        "ua": "Нарізання брусочками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "allumette",
+      "name": {
+        "en": "Allumette cut",
+        "ua": "Нарізання тонкою соломкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "paysanne",
+      "name": {
+        "en": "Paysanne cut",
+        "ua": "Нарізання пайзан"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "chiffonade",
+      "name": {
+        "en": "Chiffonade",
+        "ua": "Нарізання шифонадом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "rondelle",
+      "name": {
+        "en": "Rondelle cut",
+        "ua": "Нарізання кружальцями"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "oblique-roll-cut",
+      "name": {
+        "en": "Oblique roll cut",
+        "ua": "Нарізання з поворотом навскіс"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "tournage",
+      "name": {
+        "en": "Tournage",
+        "ua": "Фігурне обточування овочів"
+      },
+      "aliases": {
+        "en": [
+          "turning vegetables"
+        ],
+        "ua": [
+          "обточування овочів"
+        ]
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "supreme-cutting",
+      "name": {
+        "en": "Citrus suprême cutting",
+        "ua": "Вирізання сегментів цитрусових без плівок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.classical-cuts"
+    },
+    {
+      "id": "butterflying",
+      "name": {
+        "en": "Butterflying",
+        "ua": "Розкривання пластом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "spiral-cutting",
+      "name": {
+        "en": "Spiral cutting",
+        "ua": "Спіральне нарізання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "shaving",
+      "name": {
+        "en": "Shaving into thin ribbons",
+        "ua": "Нарізання тонкими стрічками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "ribbon-cutting",
+      "name": {
+        "en": "Ribbon cutting",
+        "ua": "Нарізання стрічками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "crinkle-cutting",
+      "name": {
+        "en": "Crinkle cutting",
+        "ua": "Фігурне хвилясте нарізання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "matchstick-cutting",
+      "name": {
+        "en": "Matchstick cutting",
+        "ua": "Нарізання сірниками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "shredding",
+      "name": {
+        "en": "Shredding",
+        "ua": "Шаткування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "spiralizing",
+      "name": {
+        "en": "Spiralizing",
+        "ua": "Нарізання овочевою спіраллю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "crushing-with-knife",
+      "name": {
+        "en": "Crushing with a knife",
+        "ua": "Розчавлювання пласким боком ножа"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "knife",
+      "subcategoryId": "knife.special-shaping"
+    },
+    {
+      "id": "rinsing",
+      "name": {
+        "en": "Rinsing",
+        "ua": "Промивання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "scrubbing",
+      "name": {
+        "en": "Scrubbing vegetables",
+        "ua": "Очищення овочів щіткою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "peeling",
+      "name": {
+        "en": "Peeling",
+        "ua": "Знімання шкірки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "paring",
+      "name": {
+        "en": "Paring",
+        "ua": "Тонке зрізання шкірки ножем"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "blanch-peeling",
+      "name": {
+        "en": "Blanch-and-peel",
+        "ua": "Бланшування для знімання шкірки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "seed-removal",
+      "name": {
+        "en": "Deseeding",
+        "ua": "Видалення насіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "coring",
+      "name": {
+        "en": "Coring",
+        "ua": "Видалення серцевини"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "pitting",
+      "name": {
+        "en": "Pitting",
+        "ua": "Видалення кісточок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "stemming",
+      "name": {
+        "en": "Destemming",
+        "ua": "Видалення плодоніжок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "trimming",
+      "name": {
+        "en": "Trimming",
+        "ua": "Обрізання зайвих частин"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "hulling-berries",
+      "name": {
+        "en": "Hulling berries",
+        "ua": "Видалення чашолистків ягід"
+      },
+      "aliases": {
+        "en": [
+          "hulling strawberries"
+        ],
+        "ua": [
+          "видалення хвостиків ягід"
+        ]
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "shelling",
+      "name": {
+        "en": "Shelling",
+        "ua": "Лущення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.cleaning"
+    },
+    {
+      "id": "coarse-grating",
+      "name": {
+        "en": "Coarse grating",
+        "ua": "Натирання на грубій тертці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "fine-grating",
+      "name": {
+        "en": "Fine grating",
+        "ua": "Натирання на дрібній тертці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "microplaning",
+      "name": {
+        "en": "Microplaning",
+        "ua": "Натирання на дрібній тертці-рашпілі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "zesting",
+      "name": {
+        "en": "Zesting citrus",
+        "ua": "Знімання цитрусової цедри"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "juicing",
+      "name": {
+        "en": "Juicing",
+        "ua": "Вичавлювання соку"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "pulping",
+      "name": {
+        "en": "Pulping",
+        "ua": "Перетирання на м’якоть"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "mashing",
+      "name": {
+        "en": "Mashing",
+        "ua": "Розминання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "pounding",
+      "name": {
+        "en": "Pounding",
+        "ua": "Розтовкування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "stone-grinding",
+      "name": {
+        "en": "Stone grinding",
+        "ua": "Перетирання на камені"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "mortar-pestle-grinding",
+      "name": {
+        "en": "Mortar-and-pestle grinding",
+        "ua": "Розтирання у ступці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.processing"
+    },
+    {
+      "id": "wilting-greens",
+      "name": {
+        "en": "Wilting greens",
+        "ua": "Припускання зелені до в’янення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "salting-vegetables",
+      "name": {
+        "en": "Salting vegetables to draw moisture",
+        "ua": "Просолювання овочів для видалення вологи"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "sweating-vegetables",
+      "name": {
+        "en": "Sweating vegetables",
+        "ua": "Пасерування овочів без підрум’янення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "soaking-dried-produce",
+      "name": {
+        "en": "Soaking dried produce",
+        "ua": "Замочування сушених продуктів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "rehydrating-mushrooms",
+      "name": {
+        "en": "Rehydrating dried mushrooms",
+        "ua": "Розмочування сушених грибів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "sprouting",
+      "name": {
+        "en": "Sprouting",
+        "ua": "Пророщування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "blanching-nuts-for-skinning",
+      "name": {
+        "en": "Blanching nuts for peeling",
+        "ua": "Бланшування горіхів для зняття шкірки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "produce",
+      "subcategoryId": "produce.plant-preparation"
+    },
+    {
+      "id": "trussing",
+      "name": {
+        "en": "Trussing",
+        "ua": "Обв’язування кулінарною ниткою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "deboning",
+      "name": {
+        "en": "Deboning",
+        "ua": "Видалення кісток"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "frenching-bones",
+      "name": {
+        "en": "Frenching bones",
+        "ua": "Зачищення кісток для подачі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "butchering",
+      "name": {
+        "en": "Butchering",
+        "ua": "Розбирання туші"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "portioning-meat",
+      "name": {
+        "en": "Portioning meat",
+        "ua": "Порціонування м’яса"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "tenderizing-by-pounding",
+      "name": {
+        "en": "Tenderizing by pounding",
+        "ua": "Відбивання м’яса"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "mechanical-tenderizing",
+      "name": {
+        "en": "Mechanical tenderizing",
+        "ua": "Механічне розм’якшення м’яса"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "slicing-against-grain",
+      "name": {
+        "en": "Slicing against the grain",
+        "ua": "Нарізання впоперек волокон"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "spatchcocking",
+      "name": {
+        "en": "Spatchcocking",
+        "ua": "Розпластування птиці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "stuffing-poultry",
+      "name": {
+        "en": "Stuffing poultry",
+        "ua": "Начиняння птиці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "larding",
+      "name": {
+        "en": "Larding",
+        "ua": "Шпигування жиром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "barding",
+      "name": {
+        "en": "Barding",
+        "ua": "Обгортання м’яса жиром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "rendering-fat",
+      "name": {
+        "en": "Rendering fat",
+        "ua": "Витоплювання жиру"
+      },
+      "aliases": {
+        "en": [
+          "render fat"
+        ],
+        "ua": [
+          "витоплення сала"
+        ]
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.meat"
+    },
+    {
+      "id": "scaling-fish",
+      "name": {
+        "en": "Scaling fish",
+        "ua": "Зчищання луски"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "filleting-fish",
+      "name": {
+        "en": "Filleting fish",
+        "ua": "Філеювання риби"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "pin-boning",
+      "name": {
+        "en": "Pin-bone removal",
+        "ua": "Виймання дрібних кісток із філе"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "skinning-fish",
+      "name": {
+        "en": "Skinning fish fillets",
+        "ua": "Знімання шкіри з рибного філе"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "acid-curing-seafood",
+      "name": {
+        "en": "Acid marinating raw seafood",
+        "ua": "Маринування сирих морепродуктів у кислоті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "gutting-fish",
+      "name": {
+        "en": "Gutting fish",
+        "ua": "Патрання риби"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "butterflying-fish",
+      "name": {
+        "en": "Butterflying fish",
+        "ua": "Розкривання риби пластом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "deveining-shrimp",
+      "name": {
+        "en": "Deveining shrimp",
+        "ua": "Видалення кишкової жилки креветок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "shelling-shrimp",
+      "name": {
+        "en": "Shelling shrimp",
+        "ua": "Очищення креветок від панцира"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "shucking-oysters",
+      "name": {
+        "en": "Shucking oysters",
+        "ua": "Розкривання устриць"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "shucking-clams",
+      "name": {
+        "en": "Shucking clams",
+        "ua": "Розкривання двостулкових молюсків"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "purging-shellfish",
+      "name": {
+        "en": "Purging live shellfish",
+        "ua": "Очищення живих молюсків від піску"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "scoring-squid",
+      "name": {
+        "en": "Scoring squid",
+        "ua": "Надрізання кальмара сіткою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "proteins",
+      "subcategoryId": "proteins.fish"
+    },
+    {
+      "id": "seasoning",
+      "name": {
+        "en": "Seasoning",
+        "ua": "Приправляння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "layered-seasoning",
+      "name": {
+        "en": "Layered seasoning",
+        "ua": "Пошарове приправляння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "dry-rubbing",
+      "name": {
+        "en": "Dry rubbing",
+        "ua": "Натирання сухою сумішшю спецій"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "marinating",
+      "name": {
+        "en": "Marinating",
+        "ua": "Маринування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "acid-marination",
+      "name": {
+        "en": "Acid marination",
+        "ua": "Маринування в кислому середовищі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "enzyme-tenderizing",
+      "name": {
+        "en": "Enzymatic tenderizing",
+        "ua": "Ферментативне розм’якшення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "wet-brining",
+      "name": {
+        "en": "Wet brining",
+        "ua": "Витримування у соляному розсолі"
+      },
+      "aliases": {
+        "en": [
+          "brining"
+        ],
+        "ua": [
+          "розсіл"
+        ]
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "dry-brining",
+      "name": {
+        "en": "Dry brining",
+        "ua": "Сухе просолювання"
+      },
+      "aliases": {
+        "en": [
+          "dry salting"
+        ],
+        "ua": [
+          "сухе соління"
+        ]
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "injection-marinating",
+      "name": {
+        "en": "Injection marinating",
+        "ua": "Введення маринаду ін’єкцією"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "infusing-oil",
+      "name": {
+        "en": "Infusing oil",
+        "ua": "Ароматизація олії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "blooming-spices",
+      "name": {
+        "en": "Blooming spices in fat",
+        "ua": "Розкриття аромату спецій у жирі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "toasting-spices",
+      "name": {
+        "en": "Toasting spices",
+        "ua": "Підсмажування спецій"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "spice-grinding",
+      "name": {
+        "en": "Grinding spices",
+        "ua": "Мелення спецій"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.seasoning"
+    },
+    {
+      "id": "dredging",
+      "name": {
+        "en": "Dredging in flour",
+        "ua": "Обвалювання в борошні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "breading",
+      "name": {
+        "en": "Breading",
+        "ua": "Панірування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "standard-breading",
+      "name": {
+        "en": "Three-stage breading",
+        "ua": "Триетапне панірування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "battering",
+      "name": {
+        "en": "Battering",
+        "ua": "Покриття рідким кляром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "dusting-with-starch",
+      "name": {
+        "en": "Dusting with starch",
+        "ua": "Присипання крохмалем"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "crusting",
+      "name": {
+        "en": "Crusting with seasoning",
+        "ua": "Створення пряної скоринки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "coating-with-seeds",
+      "name": {
+        "en": "Seed coating",
+        "ua": "Покриття насінням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "seasoning",
+      "subcategoryId": "seasoning.coating"
+    },
+    {
+      "id": "baking",
+      "name": {
+        "en": "Baking",
+        "ua": "Випікання"
+      },
+      "aliases": {
+        "en": [
+          "oven baking"
+        ],
+        "ua": [
+          "випікати"
+        ]
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "roasting",
+      "name": {
+        "en": "Roasting",
+        "ua": "Запікання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "convection-baking",
+      "name": {
+        "en": "Convection baking",
+        "ua": "Випікання з конвекцією"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "fan-roasting",
+      "name": {
+        "en": "Fan-assisted roasting",
+        "ua": "Запікання з конвекцією"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "low-temperature-roasting",
+      "name": {
+        "en": "Low-temperature roasting",
+        "ua": "Низькотемпературне запікання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "high-temperature-roasting",
+      "name": {
+        "en": "High-temperature roasting",
+        "ua": "Високотемпературне запікання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "slow-roasting",
+      "name": {
+        "en": "Slow roasting",
+        "ua": "Повільне запікання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "broiling",
+      "name": {
+        "en": "Broiling under top heat",
+        "ua": "Запікання під верхнім нагрівом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "gratinating",
+      "name": {
+        "en": "Gratinating",
+        "ua": "Запікання до рум’яної скоринки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "blind-baking",
+      "name": {
+        "en": "Blind baking",
+        "ua": "Сліпе випікання основи"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "parchment-baking",
+      "name": {
+        "en": "Baking in parchment",
+        "ua": "Запікання у пергаменті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "salt-crust-baking",
+      "name": {
+        "en": "Salt-crust baking",
+        "ua": "Запікання в соляній скоринці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "clay-baking",
+      "name": {
+        "en": "Clay-shell baking",
+        "ua": "Запікання в глиняній оболонці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.oven"
+    },
+    {
+      "id": "dry-toasting",
+      "name": {
+        "en": "Dry toasting",
+        "ua": "Сухе підсмажування"
+      },
+      "aliases": {
+        "en": [
+          "toasting"
+        ],
+        "ua": [
+          "підсушування"
+        ]
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "dry-roasting",
+      "name": {
+        "en": "Dry roasting",
+        "ua": "Сухе обсмажування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "charring",
+      "name": {
+        "en": "Charring",
+        "ua": "Обвуглювання поверхні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "blistering",
+      "name": {
+        "en": "Blistering",
+        "ua": "Підпалювання до пухирців"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "blackening",
+      "name": {
+        "en": "Blackening",
+        "ua": "Обсмажування до темної пряної скоринки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "flash-roasting",
+      "name": {
+        "en": "Flash roasting",
+        "ua": "Швидке запікання на сильному жарі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.surface"
+    },
+    {
+      "id": "air-frying",
+      "name": {
+        "en": "Air frying",
+        "ua": "Приготування в аерофритюрниці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "microwave-cooking",
+      "name": {
+        "en": "Microwave cooking",
+        "ua": "Приготування в мікрохвильовій печі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "microwave-steaming",
+      "name": {
+        "en": "Microwave steaming",
+        "ua": "Приготування на парі в мікрохвильовій печі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "griddle-cooking",
+      "name": {
+        "en": "Griddle cooking",
+        "ua": "Смаження на пласкій жарильній поверхні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "stone-baking",
+      "name": {
+        "en": "Stone baking",
+        "ua": "Випікання на камені"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "dutch-oven-baking",
+      "name": {
+        "en": "Dutch oven baking",
+        "ua": "Випікання у чавунному казані з кришкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dryheat",
+      "subcategoryId": "dryheat.appliances"
+    },
+    {
+      "id": "grilling",
+      "name": {
+        "en": "Grilling",
+        "ua": "Грилювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "direct-grilling",
+      "name": {
+        "en": "Direct grilling",
+        "ua": "Грилювання над прямим жаром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "indirect-grilling",
+      "name": {
+        "en": "Indirect grilling",
+        "ua": "Грилювання непрямим жаром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "charcoal-grilling",
+      "name": {
+        "en": "Charcoal grilling",
+        "ua": "Грилювання на вугіллі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "gas-grilling",
+      "name": {
+        "en": "Gas grilling",
+        "ua": "Грилювання на газовому грилі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "plancha-grilling",
+      "name": {
+        "en": "Plancha grilling",
+        "ua": "Смаження на планчі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "open-fire-roasting",
+      "name": {
+        "en": "Open-fire roasting",
+        "ua": "Смаження на відкритому вогні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "spit-roasting",
+      "name": {
+        "en": "Spit roasting",
+        "ua": "Смаження на рожні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "rotisserie-roasting",
+      "name": {
+        "en": "Rotisserie roasting",
+        "ua": "Обертальне смаження на рожні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "skewer-grilling",
+      "name": {
+        "en": "Skewer grilling",
+        "ua": "Смаження на шампурах"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "vertical-roasting",
+      "name": {
+        "en": "Vertical spit roasting",
+        "ua": "Смаження на вертикальному рожні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "tandoor-cooking",
+      "name": {
+        "en": "Tandoor cooking",
+        "ua": "Приготування в тандурі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.grilling"
+    },
+    {
+      "id": "hot-smoking",
+      "name": {
+        "en": "Hot smoking",
+        "ua": "Гаряче копчення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "cold-smoking",
+      "name": {
+        "en": "Cold smoking",
+        "ua": "Холодне копчення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "smoke-roasting",
+      "name": {
+        "en": "Smoke roasting",
+        "ua": "Запікання з димом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "ember-roasting",
+      "name": {
+        "en": "Ember roasting",
+        "ua": "Запікання в жаринах"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "ash-baking",
+      "name": {
+        "en": "Ash baking",
+        "ua": "Випікання в попелі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "plank-grilling",
+      "name": {
+        "en": "Plank grilling",
+        "ua": "Грилювання на дерев’яній дошці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "pit-roasting",
+      "name": {
+        "en": "Pit roasting",
+        "ua": "Запікання в земляній печі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "directheat",
+      "subcategoryId": "directheat.smoke"
+    },
+    {
+      "id": "sauteing",
+      "name": {
+        "en": "Sautéing",
+        "ua": "Швидке обсмажування"
+      },
+      "aliases": {
+        "en": [
+          "sauté",
+          "saute"
+        ],
+        "ua": [
+          "соте",
+          "смаження соте"
+        ]
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "pan-frying",
+      "name": {
+        "en": "Pan-frying",
+        "ua": "Смаження на пательні"
+      },
+      "aliases": {
+        "en": [
+          "frying in pan"
+        ],
+        "ua": [
+          "смаження на сковороді"
+        ]
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "shallow-frying",
+      "name": {
+        "en": "Shallow-frying",
+        "ua": "Смаження в невеликій кількості олії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "searing",
+      "name": {
+        "en": "Searing",
+        "ua": "Швидке обсмажування до скоринки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "hard-searing",
+      "name": {
+        "en": "Hard searing",
+        "ua": "Інтенсивне обсмажування до скоринки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "reverse-searing",
+      "name": {
+        "en": "Reverse searing",
+        "ua": "Зворотне обсмажування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "basting-with-butter",
+      "name": {
+        "en": "Butter basting",
+        "ua": "Поливання гарячим маслом під час смаження"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "flambeing",
+      "name": {
+        "en": "Flambéing",
+        "ua": "Фламбування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "pan-roasting",
+      "name": {
+        "en": "Pan-roasting",
+        "ua": "Смаження з доготуванням у духовці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "stir-frying",
+      "name": {
+        "en": "Stir-frying",
+        "ua": "Смаження з помішуванням"
+      },
+      "aliases": {
+        "en": [
+          "stir fry"
+        ],
+        "ua": [
+          "стір-фрай"
+        ]
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "wok-tossing",
+      "name": {
+        "en": "Wok tossing",
+        "ua": "Підкидання продуктів у вокові"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "wok-hei-cooking",
+      "name": {
+        "en": "Wok hei cooking",
+        "ua": "Смаження у вокові з ароматом сильного жару"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "dry-frying",
+      "name": {
+        "en": "Dry-frying",
+        "ua": "Сухе смаження"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.pan"
+    },
+    {
+      "id": "deep-frying",
+      "name": {
+        "en": "Deep-frying",
+        "ua": "Смаження у фритюрі"
+      },
+      "aliases": {
+        "en": [
+          "deep fry"
+        ],
+        "ua": [
+          "фритюр"
+        ]
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "double-frying",
+      "name": {
+        "en": "Double-frying",
+        "ua": "Подвійне смаження у фритюрі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "flash-frying",
+      "name": {
+        "en": "Flash-frying",
+        "ua": "Миттєве смаження у фритюрі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "gentle-oil-cooking",
+      "name": {
+        "en": "Gentle oil cooking",
+        "ua": "Приготування в олії на низькій температурі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "tempura-frying",
+      "name": {
+        "en": "Tempura frying",
+        "ua": "Смаження темпури"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "pressure-frying",
+      "name": {
+        "en": "Pressure frying",
+        "ua": "Смаження під тиском"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "vacuum-frying",
+      "name": {
+        "en": "Vacuum frying",
+        "ua": "Вакуумне смаження"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "frying",
+      "subcategoryId": "frying.oil"
+    },
+    {
+      "id": "boiling",
+      "name": {
+        "en": "Boiling",
+        "ua": "Кип’ятіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "rolling-boil",
+      "name": {
+        "en": "Rolling boil",
+        "ua": "Інтенсивне кип’ятіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "simmering",
+      "name": {
+        "en": "Simmering",
+        "ua": "Томління при слабкому кипінні"
+      },
+      "aliases": {
+        "en": [
+          "simmer"
+        ],
+        "ua": [
+          "варіння на малому вогні"
+        ]
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "gentle-simmering",
+      "name": {
+        "en": "Gentle simmering",
+        "ua": "Ледь помітне кипіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "poaching",
+      "name": {
+        "en": "Poaching",
+        "ua": "Припускання в гарячій рідині"
+      },
+      "aliases": {
+        "en": [
+          "poach"
+        ],
+        "ua": [
+          "поширування"
+        ]
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "shallow-poaching",
+      "name": {
+        "en": "Shallow poaching",
+        "ua": "Припускання в малій кількості рідини"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "blanching",
+      "name": {
+        "en": "Blanching",
+        "ua": "Бланшування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "parboiling",
+      "name": {
+        "en": "Parboiling",
+        "ua": "Попереднє відварювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "hot-water-bath",
+      "name": {
+        "en": "Hot-water bath cooking",
+        "ua": "Приготування на водяній бані"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "water-bath-baking",
+      "name": {
+        "en": "Bain-marie baking",
+        "ua": "Випікання на водяній бані"
+      },
+      "aliases": {
+        "en": [
+          "bain marie"
+        ],
+        "ua": [
+          "бенмарі"
+        ]
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.water"
+    },
+    {
+      "id": "milk-poaching",
+      "name": {
+        "en": "Milk poaching",
+        "ua": "Припускання в молоці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "oil-poaching",
+      "name": {
+        "en": "Oil poaching",
+        "ua": "Припускання в олії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "stock-poaching",
+      "name": {
+        "en": "Stock poaching",
+        "ua": "Припускання в бульйоні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "tea-poaching",
+      "name": {
+        "en": "Tea poaching",
+        "ua": "Припускання в чаї"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "acid-poaching",
+      "name": {
+        "en": "Acidulated poaching",
+        "ua": "Припускання у підкисленій рідині"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "court-bouillon-poaching",
+      "name": {
+        "en": "Court-bouillon poaching",
+        "ua": "Припускання в ароматному відварі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "wetheat",
+      "subcategoryId": "wetheat.special-liquid"
+    },
+    {
+      "id": "steaming",
+      "name": {
+        "en": "Steaming",
+        "ua": "Приготування на парі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "basket-steaming",
+      "name": {
+        "en": "Basket steaming",
+        "ua": "Приготування у паровому кошику"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "tiered-steaming",
+      "name": {
+        "en": "Tiered steaming",
+        "ua": "Приготування в багатоярусній пароварці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "steam-baking",
+      "name": {
+        "en": "Steam baking",
+        "ua": "Випікання з парою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "pressure-steaming",
+      "name": {
+        "en": "Pressure steaming",
+        "ua": "Приготування парою під тиском"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "pressure-cooking",
+      "name": {
+        "en": "Pressure cooking",
+        "ua": "Приготування під тиском"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.steam"
+    },
+    {
+      "id": "foil-packet-cooking",
+      "name": {
+        "en": "Foil packet cooking",
+        "ua": "Приготування у фольговому пакеті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "leaf-wrapping",
+      "name": {
+        "en": "Leaf wrapping",
+        "ua": "Загортання в листя"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "parchment-packet-cooking",
+      "name": {
+        "en": "En papillote",
+        "ua": "Приготування в папільйоті"
+      },
+      "aliases": {
+        "en": [
+          "en papillote"
+        ],
+        "ua": [
+          "папільйот"
+        ]
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "clay-pot-cooking",
+      "name": {
+        "en": "Clay-pot cooking",
+        "ua": "Приготування в глиняному горщику"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "tagine-cooking",
+      "name": {
+        "en": "Tagine cooking",
+        "ua": "Приготування в тажині"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "sealed-pot-cooking",
+      "name": {
+        "en": "Sealed-pot cooking",
+        "ua": "Приготування в герметично закритому горщику"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "steaming",
+      "subcategoryId": "steaming.covered"
+    },
+    {
+      "id": "braising",
+      "name": {
+        "en": "Braising",
+        "ua": "Тушкування з невеликою кількістю рідини"
+      },
+      "aliases": {
+        "en": [
+          "braise"
+        ],
+        "ua": [
+          "бразирування"
+        ]
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "stewing",
+      "name": {
+        "en": "Stewing",
+        "ua": "Тушкування шматочків у рідині"
+      },
+      "aliases": {
+        "en": [
+          "stew"
+        ],
+        "ua": [
+          "готування рагу"
+        ]
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "pot-roasting",
+      "name": {
+        "en": "Pot roasting",
+        "ua": "Тушкування великого шматка під кришкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "smothering",
+      "name": {
+        "en": "Smothering",
+        "ua": "Тушкування під кришкою у власному соку"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "fricasseeing",
+      "name": {
+        "en": "Fricasseeing",
+        "ua": "Приготування фрикасе"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "red-braising",
+      "name": {
+        "en": "Red braising",
+        "ua": "Тушкування в темному соєвому соусі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "white-braising",
+      "name": {
+        "en": "White braising",
+        "ua": "Світле тушкування без підрум’янення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "slow-cooker-cooking",
+      "name": {
+        "en": "Slow-cooker cooking",
+        "ua": "Приготування в мультиварці повільного нагрівання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.combined"
+    },
+    {
+      "id": "low-and-slow-cooking",
+      "name": {
+        "en": "Low-and-slow cooking",
+        "ua": "Тривале приготування на слабкому жарі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.slow"
+    },
+    {
+      "id": "confit-cooking",
+      "name": {
+        "en": "Confit cooking",
+        "ua": "Повільне приготування в жирі"
+      },
+      "aliases": {
+        "en": [
+          "confit"
+        ],
+        "ua": [
+          "конфі"
+        ]
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.slow"
+    },
+    {
+      "id": "slow-simmer-reduction",
+      "name": {
+        "en": "Slow simmer reduction",
+        "ua": "Тривале уварювання на слабкому вогні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "combined",
+      "subcategoryId": "combined.slow"
+    },
+    {
+      "id": "absorption-cooking",
+      "name": {
+        "en": "Absorption cooking",
+        "ua": "Варіння методом поглинання води"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "pilaf-method",
+      "name": {
+        "en": "Pilaf method",
+        "ua": "Приготування методом плову"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "risotto-method",
+      "name": {
+        "en": "Risotto method",
+        "ua": "Приготування методом різото"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "pasta-boiling",
+      "name": {
+        "en": "Boiling pasta",
+        "ua": "Варіння макаронних виробів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "pasta-finishing-in-sauce",
+      "name": {
+        "en": "Finishing pasta in sauce",
+        "ua": "Доготування пасти в соусі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "rice-steaming",
+      "name": {
+        "en": "Steaming rice",
+        "ua": "Приготування рису на парі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "rice-washing",
+      "name": {
+        "en": "Washing rice",
+        "ua": "Промивання рису"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "rice-soaking",
+      "name": {
+        "en": "Soaking rice",
+        "ua": "Замочування рису"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "rice-resting",
+      "name": {
+        "en": "Resting cooked rice",
+        "ua": "Витримування готового рису"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "fluffing-grains",
+      "name": {
+        "en": "Fluffing grains",
+        "ua": "Розпушування круп виделкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.grains"
+    },
+    {
+      "id": "soaking-legumes",
+      "name": {
+        "en": "Soaking legumes",
+        "ua": "Замочування бобових"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "quick-soaking-beans",
+      "name": {
+        "en": "Quick-soaking beans",
+        "ua": "Швидке замочування квасолі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "skimming-foam",
+      "name": {
+        "en": "Skimming foam",
+        "ua": "Знімання піни"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "starch-slurry",
+      "name": {
+        "en": "Making starch slurry",
+        "ua": "Приготування крохмальної суспензії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "gelatinizing-starch",
+      "name": {
+        "en": "Starch gelatinization",
+        "ua": "Клейстеризація крохмалю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "retrograding-starch",
+      "name": {
+        "en": "Starch retrogradation",
+        "ua": "Ретроградація крохмалю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "grains",
+      "subcategoryId": "grains.legumes"
+    },
+    {
+      "id": "stock-making",
+      "name": {
+        "en": "Stock making",
+        "ua": "Варіння бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "bone-roasting-for-stock",
+      "name": {
+        "en": "Roasting bones for stock",
+        "ua": "Запікання кісток для бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "mirepoix-sweating",
+      "name": {
+        "en": "Sweating mirepoix",
+        "ua": "Пасерування овочевої основи"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "skimming-stock",
+      "name": {
+        "en": "Skimming stock",
+        "ua": "Знімання піни з бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "stock-straining",
+      "name": {
+        "en": "Straining stock",
+        "ua": "Проціджування бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "stock-clarifying",
+      "name": {
+        "en": "Clarifying stock",
+        "ua": "Освітлення бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "consomme-raft-clarification",
+      "name": {
+        "en": "Consommé raft clarification",
+        "ua": "Освітлення консоме білковим шаром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "stock-reduction",
+      "name": {
+        "en": "Reducing stock",
+        "ua": "Уварювання бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "stock-defatting",
+      "name": {
+        "en": "Defatting stock",
+        "ua": "Знежирення бульйону"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.stockmaking"
+    },
+    {
+      "id": "steeping",
+      "name": {
+        "en": "Steeping",
+        "ua": "Настоювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "infusing",
+      "name": {
+        "en": "Infusing",
+        "ua": "Ароматичне настоювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "decoction",
+      "name": {
+        "en": "Decoction",
+        "ua": "Виварювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "cold-infusion",
+      "name": {
+        "en": "Cold infusion",
+        "ua": "Холодне настоювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "tea-brewing",
+      "name": {
+        "en": "Brewing tea",
+        "ua": "Заварювання чаю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "coffee-brewing",
+      "name": {
+        "en": "Brewing coffee",
+        "ua": "Приготування кави методом екстракції"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "stocks",
+      "subcategoryId": "stocks.extraction"
+    },
+    {
+      "id": "deglazing",
+      "name": {
+        "en": "Deglazing",
+        "ua": "Деглазування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "reducing-sauce",
+      "name": {
+        "en": "Reducing sauce",
+        "ua": "Уварювання соусу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "mounting-with-butter",
+      "name": {
+        "en": "Mounting with butter",
+        "ua": "Завершення соусу холодним маслом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "nappe-coating",
+      "name": {
+        "en": "Nappé consistency",
+        "ua": "Доведення соусу до консистенції наппе"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "pureeing",
+      "name": {
+        "en": "Puréeing",
+        "ua": "Пюрування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "blending",
+      "name": {
+        "en": "Blending",
+        "ua": "Подрібнення блендером"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "straining-through-sieve",
+      "name": {
+        "en": "Sieving",
+        "ua": "Протирання через сито"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "passing-through-chinois",
+      "name": {
+        "en": "Straining through chinois",
+        "ua": "Проціджування через конічне сито"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "sauce-glazing",
+      "name": {
+        "en": "Glazing with sauce",
+        "ua": "Глазурування соусом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.sauce"
+    },
+    {
+      "id": "emulsifying",
+      "name": {
+        "en": "Emulsifying",
+        "ua": "Емульгування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "whisking-emulsion",
+      "name": {
+        "en": "Whisking an emulsion",
+        "ua": "Збивання емульсії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "immersion-blender-emulsion",
+      "name": {
+        "en": "Stick-blender emulsifying",
+        "ua": "Емульгування занурювальним блендером"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "temporary-emulsion",
+      "name": {
+        "en": "Making a temporary emulsion",
+        "ua": "Створення нестійкої емульсії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "stable-emulsion",
+      "name": {
+        "en": "Making a stable emulsion",
+        "ua": "Створення стійкої емульсії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "aerating",
+      "name": {
+        "en": "Aerating",
+        "ua": "Насичення повітрям"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "foaming",
+      "name": {
+        "en": "Foaming",
+        "ua": "Створення піни"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.emulsions"
+    },
+    {
+      "id": "roux-making",
+      "name": {
+        "en": "Making a roux",
+        "ua": "Приготування ру"
+      },
+      "aliases": {
+        "en": [
+          "roux"
+        ],
+        "ua": [
+          "ру"
+        ]
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "beurre-manie-thickening",
+      "name": {
+        "en": "Thickening with beurre manié",
+        "ua": "Загущення масляно-борошняною сумішшю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "liaison-thickening",
+      "name": {
+        "en": "Liaison thickening",
+        "ua": "Загущення жовтками та вершками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "slurry-thickening",
+      "name": {
+        "en": "Slurry thickening",
+        "ua": "Загущення крохмальною суспензією"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "reduction-thickening",
+      "name": {
+        "en": "Thickening by reduction",
+        "ua": "Загущення уварюванням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "gelatin-setting",
+      "name": {
+        "en": "Gelatin setting",
+        "ua": "Желювання желатином"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "agar-setting",
+      "name": {
+        "en": "Agar setting",
+        "ua": "Желювання агаром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "pectin-setting",
+      "name": {
+        "en": "Pectin setting",
+        "ua": "Желювання пектином"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "sauces",
+      "subcategoryId": "sauces.thickeners"
+    },
+    {
+      "id": "kneading",
+      "name": {
+        "en": "Kneading",
+        "ua": "Вимішування тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "extruding-pasta",
+      "name": {
+        "en": "Extruding pasta",
+        "ua": "Видавлювання пасти через матрицю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "hand-pulling-noodles",
+      "name": {
+        "en": "Hand-pulling noodles",
+        "ua": "Витягування локшини руками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "no-knead-mixing",
+      "name": {
+        "en": "No-knead mixing",
+        "ua": "Замішування тіста без інтенсивного вимішування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "autolyse",
+      "name": {
+        "en": "Autolyse",
+        "ua": "Автоліз тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "stretch-and-fold",
+      "name": {
+        "en": "Stretch and fold",
+        "ua": "Розтягування та складання тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "coil-fold",
+      "name": {
+        "en": "Coil fold",
+        "ua": "Складання тіста спіраллю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "slap-and-fold",
+      "name": {
+        "en": "Slap and fold",
+        "ua": "Відбивання та складання тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "windowpane-test",
+      "name": {
+        "en": "Windowpane test",
+        "ua": "Перевірка тіста на глютенове віконце"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "resting-dough",
+      "name": {
+        "en": "Resting dough",
+        "ua": "Відпочинок тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "bench-rest",
+      "name": {
+        "en": "Bench rest",
+        "ua": "Попередній відпочинок заготовки"
+      },
+      "aliases": {
+        "en": [
+          "bench resting"
+        ],
+        "ua": [
+          "відпочинок заготовки"
+        ]
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "bulk-fermentation",
+      "name": {
+        "en": "Bulk fermentation",
+        "ua": "Основне бродіння тіста"
+      },
+      "aliases": {
+        "en": [
+          "first rise"
+        ],
+        "ua": [
+          "перше бродіння"
+        ]
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "retarding-dough",
+      "name": {
+        "en": "Cold retarding dough",
+        "ua": "Холодне вистоювання тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "final-proofing",
+      "name": {
+        "en": "Final proofing",
+        "ua": "Остаточне вистоювання тіста"
+      },
+      "aliases": {
+        "en": [
+          "final rise"
+        ],
+        "ua": [
+          "фінальна розстойка"
+        ]
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "punching-down",
+      "name": {
+        "en": "Punching down dough",
+        "ua": "Обминання тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "pre-shaping-dough",
+      "name": {
+        "en": "Pre-shaping dough",
+        "ua": "Попереднє формування тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "shaping-loaves",
+      "name": {
+        "en": "Shaping loaves",
+        "ua": "Формування хлібних заготовок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "scoring-bread",
+      "name": {
+        "en": "Scoring bread",
+        "ua": "Надрізання хлібних заготовок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "steam-injection-baking",
+      "name": {
+        "en": "Steam-injection baking",
+        "ua": "Випікання з подачею пари"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.mixing"
+    },
+    {
+      "id": "laminating-dough",
+      "name": {
+        "en": "Laminating dough",
+        "ua": "Ламінування тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "book-fold",
+      "name": {
+        "en": "Book fold",
+        "ua": "Складання тіста книжкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "letter-fold",
+      "name": {
+        "en": "Letter fold",
+        "ua": "Складання тіста листом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "rolling-out-dough",
+      "name": {
+        "en": "Rolling out dough",
+        "ua": "Розкачування тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "sheeting-dough",
+      "name": {
+        "en": "Sheeting dough",
+        "ua": "Розкатування тіста на машині"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "docking-dough",
+      "name": {
+        "en": "Docking dough",
+        "ua": "Наколювання тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "crimping-pastry",
+      "name": {
+        "en": "Crimping pastry",
+        "ua": "Защипування країв тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "pinching-dumplings",
+      "name": {
+        "en": "Pinching dumplings",
+        "ua": "Защипування пельменів або вареників"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "pleating-dumplings",
+      "name": {
+        "en": "Pleating dumplings",
+        "ua": "Формування складок на тісті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "hand-stretching-dough",
+      "name": {
+        "en": "Hand-stretching dough",
+        "ua": "Розтягування тіста руками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "slapping-flatbread",
+      "name": {
+        "en": "Slapping flatbread",
+        "ua": "Формування коржів ударами долонь"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "dough",
+      "subcategoryId": "dough.pastry-dough"
+    },
+    {
+      "id": "creaming-butter-sugar",
+      "name": {
+        "en": "Creaming butter and sugar",
+        "ua": "Розтирання масла з цукром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "reverse-creaming",
+      "name": {
+        "en": "Reverse creaming",
+        "ua": "Зворотне кремування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "two-stage-mixing",
+      "name": {
+        "en": "Two-stage mixing",
+        "ua": "Двоетапне змішування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "muffin-method",
+      "name": {
+        "en": "Muffin mixing method",
+        "ua": "Метод змішування тіста для мафінів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "rubbing-in-fat",
+      "name": {
+        "en": "Rubbing fat into flour",
+        "ua": "Перетирання жиру з борошном"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "cutting-in-fat",
+      "name": {
+        "en": "Cutting fat into flour",
+        "ua": "Врубування жиру в борошно"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "folding-batter",
+      "name": {
+        "en": "Folding batter",
+        "ua": "Обережне вмішування тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "whipping-egg-foam",
+      "name": {
+        "en": "Whipping egg foam",
+        "ua": "Збивання яєчної піни"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "ribbon-stage-whipping",
+      "name": {
+        "en": "Whipping to ribbon stage",
+        "ua": "Збивання до стадії стрічки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "sifting-dry-ingredients",
+      "name": {
+        "en": "Sifting dry ingredients",
+        "ua": "Просіювання сухих інгредієнтів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "sablage",
+      "name": {
+        "en": "Sablage",
+        "ua": "Саблаж — перетирання борошна з жиром"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "macaronage",
+      "name": {
+        "en": "Macaronage",
+        "ua": "Макаронаж"
+      },
+      "aliases": {
+        "en": [
+          "macaron mixing"
+        ],
+        "ua": [
+          "макаронаж"
+        ]
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "piping-batter",
+      "name": {
+        "en": "Piping batter",
+        "ua": "Відсаджування тіста кондитерським мішком"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.batters"
+    },
+    {
+      "id": "crumb-coating",
+      "name": {
+        "en": "Crumb coating",
+        "ua": "Нанесення чорнового шару крему"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "frosting-cake",
+      "name": {
+        "en": "Frosting a cake",
+        "ua": "Покривання торта кремом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "layering-cake",
+      "name": {
+        "en": "Layering a cake",
+        "ua": "Складання шарів торта"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "soaking-sponge",
+      "name": {
+        "en": "Soaking sponge cake",
+        "ua": "Просочування бісквіта"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "mirror-glazing",
+      "name": {
+        "en": "Mirror glazing",
+        "ua": "Дзеркальне глазурування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "chocolate-dripping",
+      "name": {
+        "en": "Chocolate drip decorating",
+        "ua": "Оздоблення шоколадними патьоками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "sugar-dusting",
+      "name": {
+        "en": "Dusting with powdered sugar",
+        "ua": "Посипання цукровою пудрою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "baking",
+      "subcategoryId": "baking.cake-finishing"
+    },
+    {
+      "id": "caramelizing-sugar",
+      "name": {
+        "en": "Caramelizing sugar",
+        "ua": "Карамелізація цукру"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "wet-caramel",
+      "name": {
+        "en": "Wet caramel method",
+        "ua": "Волога карамелізація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "dry-caramel",
+      "name": {
+        "en": "Dry caramel method",
+        "ua": "Суха карамелізація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "sugar-syrup-cooking",
+      "name": {
+        "en": "Cooking sugar syrup",
+        "ua": "Уварювання цукрового сиропу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "soft-ball-stage",
+      "name": {
+        "en": "Soft-ball sugar stage",
+        "ua": "Стадія м’якої кульки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "hard-crack-stage",
+      "name": {
+        "en": "Hard-crack sugar stage",
+        "ua": "Стадія твердої карамелі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "candymaking-pulling",
+      "name": {
+        "en": "Pulling sugar",
+        "ua": "Витягування цукрової маси"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "spun-sugar",
+      "name": {
+        "en": "Spun sugar",
+        "ua": "Виготовлення цукрових ниток"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "candying",
+      "name": {
+        "en": "Candying fruit",
+        "ua": "Цукатування фруктів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "praline-making",
+      "name": {
+        "en": "Making praline",
+        "ua": "Приготування праліне"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.sugar"
+    },
+    {
+      "id": "melting-chocolate",
+      "name": {
+        "en": "Melting chocolate",
+        "ua": "Розтоплювання шоколаду"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "tempering-chocolate",
+      "name": {
+        "en": "Tempering chocolate",
+        "ua": "Темперування шоколаду"
+      },
+      "aliases": {
+        "en": [
+          "chocolate tempering"
+        ],
+        "ua": [
+          "темперування"
+        ]
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "seeding-chocolate",
+      "name": {
+        "en": "Seeding chocolate",
+        "ua": "Темперування шоколаду методом посіву"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "tabling-chocolate",
+      "name": {
+        "en": "Tabling chocolate",
+        "ua": "Темперування шоколаду на мармурі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "ganache-emulsification",
+      "name": {
+        "en": "Ganache emulsification",
+        "ua": "Емульгування ганашу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "dipping-in-chocolate",
+      "name": {
+        "en": "Dipping in chocolate",
+        "ua": "Занурення в шоколад"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "molding-chocolate",
+      "name": {
+        "en": "Molding chocolate",
+        "ua": "Формування шоколаду у формах"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "confectionery",
+      "subcategoryId": "confectionery.chocolate"
+    },
+    {
+      "id": "soft-boiling-eggs",
+      "name": {
+        "en": "Soft-boiling eggs",
+        "ua": "Варіння яєць некруто"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "hard-boiling-eggs",
+      "name": {
+        "en": "Hard-boiling eggs",
+        "ua": "Варіння яєць круто"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "poaching-eggs",
+      "name": {
+        "en": "Poaching eggs",
+        "ua": "Припускання яєць без шкаралупи"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "scrambling-eggs",
+      "name": {
+        "en": "Scrambling eggs",
+        "ua": "Приготування яєчні-бовтанки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "omelet-folding",
+      "name": {
+        "en": "Omelet folding",
+        "ua": "Згортання омлету"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "separating-eggs",
+      "name": {
+        "en": "Separating egg whites and yolks",
+        "ua": "Відокремлення білків від жовтків"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "whipping-meringue",
+      "name": {
+        "en": "Whipping meringue",
+        "ua": "Збивання меренги"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "french-meringue",
+      "name": {
+        "en": "French meringue method",
+        "ua": "Французький метод меренги"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "swiss-meringue",
+      "name": {
+        "en": "Swiss meringue method",
+        "ua": "Швейцарський метод меренги"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "italian-meringue",
+      "name": {
+        "en": "Italian meringue method",
+        "ua": "Італійський метод меренги"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.eggs"
+    },
+    {
+      "id": "tempering-eggs",
+      "name": {
+        "en": "Tempering eggs with hot liquid",
+        "ua": "Темперування яєць гарячою рідиною"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "custard-stirring",
+      "name": {
+        "en": "Stirred custard cooking",
+        "ua": "Приготування заварного крему з помішуванням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "baked-custard",
+      "name": {
+        "en": "Baked custard cooking",
+        "ua": "Запікання заварного крему"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "scalding-milk",
+      "name": {
+        "en": "Scalding milk",
+        "ua": "Нагрівання молока майже до кипіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "whipping-cream",
+      "name": {
+        "en": "Whipping cream",
+        "ua": "Збивання вершків"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "churning-ice-cream",
+      "name": {
+        "en": "Churning ice cream",
+        "ua": "Збивання морозива з охолодженням"
+      },
+      "aliases": {
+        "en": [
+          "ice cream churning"
+        ],
+        "ua": [
+          "фризерування"
+        ]
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "no-churn-freezing",
+      "name": {
+        "en": "No-churn ice cream method",
+        "ua": "Заморожування морозива без фризера"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "clarifying-butter",
+      "name": {
+        "en": "Clarifying butter",
+        "ua": "Очищення вершкового масла від молочних домішок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "making-ghee",
+      "name": {
+        "en": "Making ghee",
+        "ua": "Приготування топленого масла гхі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "making-paneer",
+      "name": {
+        "en": "Paneer acid coagulation",
+        "ua": "Кислотне згортання молока для паніру"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "straining-yogurt",
+      "name": {
+        "en": "Straining yogurt",
+        "ua": "Відціджування йогурту"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "eggs",
+      "subcategoryId": "eggs.dairy"
+    },
+    {
+      "id": "lacto-fermentation",
+      "name": {
+        "en": "Lacto-fermentation",
+        "ua": "Молочнокисла ферментація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "vegetable-fermentation",
+      "name": {
+        "en": "Vegetable fermentation",
+        "ua": "Ферментація овочів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "sourdough-fermentation",
+      "name": {
+        "en": "Sourdough fermentation",
+        "ua": "Заквасочне бродіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "yogurt-culturing",
+      "name": {
+        "en": "Culturing yogurt",
+        "ua": "Заквашування йогурту"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "kefir-culturing",
+      "name": {
+        "en": "Culturing kefir",
+        "ua": "Заквашування кефіру"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "koji-cultivation",
+      "name": {
+        "en": "Koji cultivation",
+        "ua": "Вирощування кодзі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "miso-fermentation",
+      "name": {
+        "en": "Miso fermentation",
+        "ua": "Ферментація місо"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "soy-sauce-fermentation",
+      "name": {
+        "en": "Soy sauce fermentation",
+        "ua": "Ферментація соєвого соусу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "vinegar-fermentation",
+      "name": {
+        "en": "Vinegar fermentation",
+        "ua": "Оцтовокисла ферментація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "kombucha-fermentation",
+      "name": {
+        "en": "Kombucha fermentation",
+        "ua": "Ферментація комбучі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "tempeh-fermentation",
+      "name": {
+        "en": "Tempeh fermentation",
+        "ua": "Ферментація темпе"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "natto-fermentation",
+      "name": {
+        "en": "Natto fermentation",
+        "ua": "Ферментація натто"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.cultures"
+    },
+    {
+      "id": "alcoholic-fermentation",
+      "name": {
+        "en": "Alcoholic fermentation",
+        "ua": "Спиртове бродіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.other-ferments"
+    },
+    {
+      "id": "malolactic-fermentation",
+      "name": {
+        "en": "Malolactic fermentation",
+        "ua": "Яблучно-молочна ферментація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.other-ferments"
+    },
+    {
+      "id": "mixed-grain-fermentation",
+      "name": {
+        "en": "Mixed-grain fermentation",
+        "ua": "Змішане зернове бродіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.other-ferments"
+    },
+    {
+      "id": "fermented-fish-sauce-making",
+      "name": {
+        "en": "Fermenting fish sauce",
+        "ua": "Ферментація рибного соусу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.other-ferments"
+    },
+    {
+      "id": "fermented-shrimp-paste-making",
+      "name": {
+        "en": "Fermenting shrimp paste",
+        "ua": "Ферментація креветкової пасти"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "fermentation",
+      "subcategoryId": "fermentation.other-ferments"
+    },
+    {
+      "id": "vinegar-pickling",
+      "name": {
+        "en": "Vinegar pickling",
+        "ua": "Оцтове маринування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "refrigerator-pickling",
+      "name": {
+        "en": "Refrigerator pickling",
+        "ua": "Швидке маринування для холодильника"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "brine-pickling",
+      "name": {
+        "en": "Brine pickling",
+        "ua": "Маринування в розсолі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "salt-curing",
+      "name": {
+        "en": "Salt curing",
+        "ua": "Сольове в’ялення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "sugar-curing",
+      "name": {
+        "en": "Sugar curing",
+        "ua": "Цукрове консервування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "dry-curing",
+      "name": {
+        "en": "Dry curing",
+        "ua": "Сухе в’ялення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "wet-curing",
+      "name": {
+        "en": "Wet curing",
+        "ua": "Мокре в’ялення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "confit-preservation",
+      "name": {
+        "en": "Confit preservation",
+        "ua": "Консервування в жирі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.acid"
+    },
+    {
+      "id": "air-drying",
+      "name": {
+        "en": "Air drying",
+        "ua": "Повітряне сушіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "sun-drying",
+      "name": {
+        "en": "Sun drying",
+        "ua": "Сушіння на сонці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "oven-drying",
+      "name": {
+        "en": "Oven drying",
+        "ua": "Сушіння в духовці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "dehydrator-drying",
+      "name": {
+        "en": "Dehydrator drying",
+        "ua": "Сушіння в дегідраторі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "freeze-drying",
+      "name": {
+        "en": "Freeze drying",
+        "ua": "Сублімаційне сушіння"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "freezing-food",
+      "name": {
+        "en": "Freezing food",
+        "ua": "Заморожування продуктів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "flash-freezing",
+      "name": {
+        "en": "Flash freezing",
+        "ua": "Швидке заморожування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.drying"
+    },
+    {
+      "id": "water-bath-canning",
+      "name": {
+        "en": "Boiling-water-bath canning",
+        "ua": "Консервування на киплячій водяній бані"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.canning"
+    },
+    {
+      "id": "pressure-canning",
+      "name": {
+        "en": "Pressure canning",
+        "ua": "Консервування під тиском"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.canning"
+    },
+    {
+      "id": "steam-canning",
+      "name": {
+        "en": "Atmospheric steam canning",
+        "ua": "Консервування атмосферною парою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.canning"
+    },
+    {
+      "id": "hot-filling",
+      "name": {
+        "en": "Hot filling",
+        "ua": "Гаряче фасування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.canning"
+    },
+    {
+      "id": "pasteurizing",
+      "name": {
+        "en": "Pasteurizing",
+        "ua": "Пастеризація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "preservation",
+      "subcategoryId": "preservation.canning"
+    },
+    {
+      "id": "velveting",
+      "name": {
+        "en": "Velveting",
+        "ua": "Вельветування м’яса"
+      },
+      "aliases": {
+        "en": [
+          "shang jiang"
+        ],
+        "ua": [
+          "вельветинг"
+        ]
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "water-velveting",
+      "name": {
+        "en": "Water velveting",
+        "ua": "Вельветування у воді"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "oil-velveting",
+      "name": {
+        "en": "Oil velveting",
+        "ua": "Вельветування в олії"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "shaoxing-flaming",
+      "name": {
+        "en": "Wok wine deglazing",
+        "ua": "Деглазування вока кулінарним вином"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "red-cooking",
+      "name": {
+        "en": "Chinese red cooking",
+        "ua": "Китайське червоне тушкування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "claypot-rice-crusting",
+      "name": {
+        "en": "Claypot rice crusting",
+        "ua": "Створення хрусткої рисової скоринки в горщику"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "japanese-nimono",
+      "name": {
+        "en": "Nimono simmering",
+        "ua": "Японське варіння німоно"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "japanese-tataki",
+      "name": {
+        "en": "Tataki searing",
+        "ua": "Швидке обпалювання татакі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "japanese-yakimono",
+      "name": {
+        "en": "Yakimono grilling",
+        "ua": "Японське грилювання якімоно"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "japanese-tsukudani",
+      "name": {
+        "en": "Tsukudani reduction",
+        "ua": "Японське уварювання цукудані"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "korean-banchan-muchim",
+      "name": {
+        "en": "Muchim seasoning and mixing",
+        "ua": "Корейське приправляння та змішування мучім"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "korean-jangajji",
+      "name": {
+        "en": "Jangajji pickling",
+        "ua": "Корейське маринування чанаджі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.east-asian"
+    },
+    {
+      "id": "tadka",
+      "name": {
+        "en": "Tadka spice tempering",
+        "ua": "Тадка — гартування спецій у жирі"
+      },
+      "aliases": {
+        "en": [
+          "chaunk",
+          "chhonk",
+          "baghaar",
+          "tempering spices"
+        ],
+        "ua": [
+          "чаунк",
+          "чонк",
+          "багар"
+        ]
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "bhunao",
+      "name": {
+        "en": "Bhunao cooking",
+        "ua": "Бхунао — обсмажування та уварювання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "bhuna",
+      "name": {
+        "en": "Bhuna reduction",
+        "ua": "Бхуна — уварювання масали з обсмажуванням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "dum-pukht",
+      "name": {
+        "en": "Dum pukht sealed-pot cooking",
+        "ua": "Дум-пухт — повільне приготування в запечатаному посуді"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "dhungar",
+      "name": {
+        "en": "Dhungar smoke infusion",
+        "ua": "Дхунгар — ароматизація димом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "phulka-puffing",
+      "name": {
+        "en": "Phulka puffing over flame",
+        "ua": "Надування коржа пхулка над вогнем"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "papad-roasting",
+      "name": {
+        "en": "Papad roasting",
+        "ua": "Підсмажування пападу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.south-asian"
+    },
+    {
+      "id": "coconut-milk-reduction",
+      "name": {
+        "en": "Coconut milk reduction",
+        "ua": "Уварювання кокосового молока"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.southeast-asian"
+    },
+    {
+      "id": "coconut-cream-cracking",
+      "name": {
+        "en": "Cracking coconut cream",
+        "ua": "Відділення кокосової олії з вершків нагріванням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.southeast-asian"
+    },
+    {
+      "id": "banana-leaf-steaming",
+      "name": {
+        "en": "Banana-leaf steaming",
+        "ua": "Приготування на парі в банановому листі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.southeast-asian"
+    },
+    {
+      "id": "banana-leaf-grilling",
+      "name": {
+        "en": "Banana-leaf grilling",
+        "ua": "Грилювання в банановому листі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.southeast-asian"
+    },
+    {
+      "id": "stone-mortar-chili-pounding",
+      "name": {
+        "en": "Pounding chili paste in a stone mortar",
+        "ua": "Розтирання чилі-пасти в кам’яній ступці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.southeast-asian"
+    },
+    {
+      "id": "nixtamalization",
+      "name": {
+        "en": "Nixtamalization",
+        "ua": "Нікстамалізація кукурудзи"
+      },
+      "aliases": {
+        "en": [
+          "nixtamalisation"
+        ],
+        "ua": [
+          "ніштамалізація"
+        ]
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "comal-toasting",
+      "name": {
+        "en": "Comal toasting",
+        "ua": "Підсмажування на комалі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "tatemar",
+      "name": {
+        "en": "Tatemar charring",
+        "ua": "Татемар — обпалювання овочів і чилі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "masa-pressing",
+      "name": {
+        "en": "Pressing masa",
+        "ua": "Пресування маси для тортильї"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "tamale-wrapping",
+      "name": {
+        "en": "Tamale wrapping",
+        "ua": "Загортання тамалів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "barbacoa-pit-cooking",
+      "name": {
+        "en": "Barbacoa pit cooking",
+        "ua": "Приготування барбакоа в земляній печі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "pibil-pit-cooking",
+      "name": {
+        "en": "Pibil pit cooking",
+        "ua": "Приготування пібіль у земляній печі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "jerk-smoking",
+      "name": {
+        "en": "Jerk smoking and grilling",
+        "ua": "Ямайське копчення та грилювання джерк"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "cajun-dark-roux",
+      "name": {
+        "en": "Cajun dark roux",
+        "ua": "Каджунське приготування темного ру"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.american"
+    },
+    {
+      "id": "injera-fermentation",
+      "name": {
+        "en": "Injera batter fermentation",
+        "ua": "Ферментація тіста для інджери"
+      },
+      "aliases": {
+        "en": [
+          "teff batter fermentation"
+        ],
+        "ua": [
+          "бродіння тіста для інджери"
+        ]
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "injera-griddle-baking",
+      "name": {
+        "en": "Injera griddle baking",
+        "ua": "Випікання інджери на плиті"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "couscous-steaming",
+      "name": {
+        "en": "Couscous steaming",
+        "ua": "Приготування кускусу на парі"
+      },
+      "aliases": {
+        "en": [
+          "steaming couscous"
+        ],
+        "ua": [
+          "варіння кускусу на парі"
+        ]
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "slow-tagine-reduction",
+      "name": {
+        "en": "Slow tagine reduction",
+        "ua": "Повільне уварювання в тажині"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "smen-aging",
+      "name": {
+        "en": "Smen aging",
+        "ua": "Витримування ферментованого масла смен"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "hand-rolling-couscous",
+      "name": {
+        "en": "Hand-rolling couscous",
+        "ua": "Ручне формування кускусу"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "international",
+      "subcategoryId": "international.african"
+    },
+    {
+      "id": "sous-vide",
+      "name": {
+        "en": "Sous vide cooking",
+        "ua": "Приготування су-від"
+      },
+      "aliases": {
+        "en": [
+          "sous vide",
+          "vacuum low-temperature cooking"
+        ],
+        "ua": [
+          "су від"
+        ]
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "low-temperature-water-bath",
+      "name": {
+        "en": "Precision water-bath cooking",
+        "ua": "Приготування у водяній бані з точною температурою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "reverse-spherification",
+      "name": {
+        "en": "Reverse spherification",
+        "ua": "Зворотна сферифікація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "spherification",
+      "name": {
+        "en": "Spherification",
+        "ua": "Сферифікація"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "gelification",
+      "name": {
+        "en": "Gelification",
+        "ua": "Гелеутворення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "siphon-foaming",
+      "name": {
+        "en": "Siphon foaming",
+        "ua": "Створення піни кулінарним сифоном"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "vacuum-infusion",
+      "name": {
+        "en": "Vacuum infusion",
+        "ua": "Вакуумна інфузія"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "vacuum-compression",
+      "name": {
+        "en": "Vacuum compression",
+        "ua": "Вакуумне ущільнення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "centrifugal-clarification",
+      "name": {
+        "en": "Centrifugal clarification",
+        "ua": "Центрифужне освітлення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "rotary-evaporation",
+      "name": {
+        "en": "Rotary evaporation",
+        "ua": "Роторне випаровування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.precise"
+    },
+    {
+      "id": "liquid-nitrogen-freezing",
+      "name": {
+        "en": "Liquid nitrogen freezing",
+        "ua": "Заморожування рідким азотом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.modern-cold"
+    },
+    {
+      "id": "cryogenic-powdering",
+      "name": {
+        "en": "Cryogenic powdering",
+        "ua": "Кріогенне подрібнення на порошок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.modern-cold"
+    },
+    {
+      "id": "deconstructed-plating",
+      "name": {
+        "en": "Deconstructed plating",
+        "ua": "Деконструйована подача"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.modern-cold"
+    },
+    {
+      "id": "edible-film-forming",
+      "name": {
+        "en": "Edible film forming",
+        "ua": "Створення їстівної плівки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "modern",
+      "subcategoryId": "modern.modern-cold"
+    },
+    {
+      "id": "basting",
+      "name": {
+        "en": "Basting",
+        "ua": "Поливання соком під час приготування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "glazing",
+      "name": {
+        "en": "Glazing",
+        "ua": "Глазурування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "lacquering",
+      "name": {
+        "en": "Lacquering",
+        "ua": "Багаторазове покриття глазур’ю"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "brushing-with-glaze",
+      "name": {
+        "en": "Brushing with glaze",
+        "ua": "Нанесення глазурі пензликом"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "torch-finishing",
+      "name": {
+        "en": "Torch finishing",
+        "ua": "Фінішне обпалювання пальником"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "bruleeing",
+      "name": {
+        "en": "Brûlée caramelizing",
+        "ua": "Карамелізація верхнього шару пальником"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "finishing-with-acid",
+      "name": {
+        "en": "Finishing with acid",
+        "ua": "Фінальне підкислення страви"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "finishing-with-herbs",
+      "name": {
+        "en": "Finishing with fresh herbs",
+        "ua": "Фінальне додавання зелені"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "garnishing",
+      "name": {
+        "en": "Garnishing",
+        "ua": "Гарнірування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.finishing"
+    },
+    {
+      "id": "plating",
+      "name": {
+        "en": "Plating",
+        "ua": "Викладання страви на тарілку"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "quenelle-forming",
+      "name": {
+        "en": "Forming a quenelle",
+        "ua": "Формування кнелі ложками"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "molding-food",
+      "name": {
+        "en": "Molding food",
+        "ua": "Формування страв у формах"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "ring-molding",
+      "name": {
+        "en": "Ring molding",
+        "ua": "Формування кулінарним кільцем"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "layered-assembly",
+      "name": {
+        "en": "Layered assembly",
+        "ua": "Пошарове складання страви"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "stuffing-vegetables",
+      "name": {
+        "en": "Stuffing vegetables",
+        "ua": "Фарширування овочів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "rolling-stuffed-food",
+      "name": {
+        "en": "Rolling stuffed food",
+        "ua": "Згортання рулетів із начинкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "carving-roast",
+      "name": {
+        "en": "Carving a roast",
+        "ua": "Нарізання запеченого м’яса для подачі"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "resting-before-carving",
+      "name": {
+        "en": "Resting before carving",
+        "ua": "Витримування перед нарізанням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "service",
+      "subcategoryId": "service.plating"
+    },
+    {
+      "id": "mixing",
+      "name": {
+        "en": "Mixing",
+        "ua": "Змішування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "stirring",
+      "name": {
+        "en": "Stirring",
+        "ua": "Помішування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "whisking",
+      "name": {
+        "en": "Whisking",
+        "ua": "Збивання вінчиком"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "beating",
+      "name": {
+        "en": "Beating",
+        "ua": "Інтенсивне збивання"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "folding-in",
+      "name": {
+        "en": "Folding in",
+        "ua": "Обережне вмішування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "creaming",
+      "name": {
+        "en": "Creaming",
+        "ua": "Розтирання до кремової консистенції"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "tossing",
+      "name": {
+        "en": "Tossing",
+        "ua": "Перемішування підкиданням"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "shaking",
+      "name": {
+        "en": "Shaking",
+        "ua": "Струшування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "shaking-in-jar",
+      "name": {
+        "en": "Shaking in a jar",
+        "ua": "Змішування струшуванням у банці"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "whipping",
+      "name": {
+        "en": "Whipping",
+        "ua": "Збивання до повітряної маси"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "food-processing",
+      "name": {
+        "en": "Food processing in a machine",
+        "ua": "Подрібнення в кухонному комбайні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "pulsing",
+      "name": {
+        "en": "Pulsing",
+        "ua": "Імпульсне подрібнення"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.mixing"
+    },
+    {
+      "id": "draining",
+      "name": {
+        "en": "Draining",
+        "ua": "Відціджування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "colander-straining",
+      "name": {
+        "en": "Straining through a colander",
+        "ua": "Відціджування через друшляк"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "filtering",
+      "name": {
+        "en": "Filtering",
+        "ua": "Фільтрування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "pressing",
+      "name": {
+        "en": "Pressing",
+        "ua": "Пресування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "squeezing-out-moisture",
+      "name": {
+        "en": "Squeezing out moisture",
+        "ua": "Відтискання рідини"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "patting-dry",
+      "name": {
+        "en": "Patting dry",
+        "ua": "Промокання до сухості"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "skimming-fat",
+      "name": {
+        "en": "Skimming fat",
+        "ua": "Збирання жиру з поверхні"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "decanting",
+      "name": {
+        "en": "Decanting",
+        "ua": "Зливання рідини з осаду"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "separating-layers",
+      "name": {
+        "en": "Separating layers",
+        "ua": "Розділення шарів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.separation"
+    },
+    {
+      "id": "portioning",
+      "name": {
+        "en": "Portioning",
+        "ua": "Поділ на порції"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "scooping",
+      "name": {
+        "en": "Scooping",
+        "ua": "Набирання порцій ложкою"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "spreading",
+      "name": {
+        "en": "Spreading",
+        "ua": "Намазування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "pressing-flat",
+      "name": {
+        "en": "Pressing flat",
+        "ua": "Розплющування"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "rolling-into-balls",
+      "name": {
+        "en": "Rolling into balls",
+        "ua": "Формування кульок"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "rolling-into-logs",
+      "name": {
+        "en": "Rolling into logs",
+        "ua": "Формування валиків"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "braiding-dough",
+      "name": {
+        "en": "Braiding dough",
+        "ua": "Плетіння тіста"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "threading-skewers",
+      "name": {
+        "en": "Threading skewers",
+        "ua": "Нанизування на шпажки"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    },
+    {
+      "id": "tying-rolls",
+      "name": {
+        "en": "Tying stuffed rolls",
+        "ua": "Перев’язування рулетів"
+      },
+      "aliases": {
+        "en": [],
+        "ua": []
+      },
+      "categoryId": "mixing",
+      "subcategoryId": "mixing.forming"
+    }
+  ]
+}

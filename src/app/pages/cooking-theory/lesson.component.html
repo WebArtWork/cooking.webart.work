@@ -1,34 +1,37 @@
 @let lesson = theory();
 <article class="cook-prose cooking-reader">
-	<a class="cooking-back" routerLink="/theories">← {{ 'All cooking theories' | t }}</a>
 	<h1>{{ pick(lesson.title, language()) }}</h1>
-	<p class="text-mute">{{ 'Theory {number} of 330' | t: { number: lesson.id } }}</p>
-	<section aria-labelledby="short-title">
-		<h2 id="short-title">{{ 'In short' | t }}</h2>
-		<p class="cooking-short"><app-cooking-text [text]="body().short" /></p>
-	</section>
-	<div class="cooking-reader-tools">
-		<button
-			class="ds-btn ds-btn-primary"
-			type="button"
-			[attr.aria-expanded]="expanded()"
-			aria-controls="full-theory"
-			(click)="toggle()"
-		>
-			{{ (expanded() ? 'Show short version' : 'Read full theory') | t }}
-		</button>
-		<button class="ds-btn ds-btn-outline" type="button" (click)="print()">
-			{{ (expanded() ? 'Print full theory' : 'Print short theory') | t }}
-		</button>
-	</div>
-	<div id="full-theory" [hidden]="!expanded()">
-		@for (section of body().sections; track $index) {
-			<section>
-				<h2>{{ section.title }}</h2>
-				<p><app-cooking-text [text]="section.text" /></p>
-			</section>
-		}
-	</div>
+	<p class="text-mute">{{ 'Theory {number} of 288' | t: { number: lesson.id } }}</p>
+	@for (section of content(); track $index) {
+		<section>
+			<h2>{{ section.title }}</h2>
+			<p><app-cooking-text [text]="section.text" /></p>
+		</section>
+	}
+	@if (techniques().length) {
+		<section class="cooking-techniques" aria-labelledby="techniques-title">
+			<h2 id="techniques-title">{{ 'Cooking techniques' | t }}</h2>
+			<ul class="cook-chips">
+				@for (technique of techniques(); track technique[0]) {
+					<li>{{ language() === 'ua' ? technique[2] : technique[1] }}</li>
+				}
+			</ul>
+		</section>
+	}
+	@if (exercises(); as practice) {
+		<section class="cooking-practice-cta" aria-labelledby="practice-cta-title">
+			<h2 id="practice-cta-title">{{ 'Practice' | t }}</h2>
+			<p>
+				{{ '{count} exercise|{count} exercises' | t: { count: practice.count } }}
+				@if (progress().answered) {
+					· {{ '{correct} of {total} correct' | t: { correct: progress().correct, total: practice.count } }}
+				}
+			</p>
+			<a class="ds-btn ds-btn-primary" [routerLink]="['/practices', lesson.slug]">{{
+				(progress().answered ? 'Practice again' : 'Start practice') | t
+			}}</a>
+		</section>
+	}
 	<section class="cooking-sources">
 		<h2>{{ 'Sources' | t }}</h2>
 		<ul>
@@ -48,7 +51,7 @@
 			[attr.aria-pressed]="studied()"
 			(click)="study.toggle(lesson.slug)"
 		>
-			{{ (studied() ? 'Studied — undo' : 'Mark as studied') | t }}</button
+			{{ (studied() ? 'Undo studied mark' : 'Mark as studied') | t }}</button
 		><span class="sr-only" role="status">{{
 			(studied() ? 'Marked as studied' : 'Not marked as studied') | t
 		}}</span>

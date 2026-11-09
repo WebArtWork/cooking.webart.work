@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 199,
+    "title": {
+      "en": "Custards, Pastry Cream, and Egg Thickening",
+      "ua": "Заварні креми та загущення яйцями"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/blog/2018/05/17/meringue-rules"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-199-01",
+      "theoryId": 199,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why can custard become grainy if heated too strongly?",
+        "ua": "Чому заварний крем стає зернистим через надмірний нагрів?"
+      },
+      "explanation": {
+        "en": "Controlled coagulation thickens custard; excessive heat creates curds.",
+        "ua": "Контрольоване зсідання загущує крем, а надмірний нагрів утворює грудочки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "All water immediately freezes",
+            "ua": "Уся вода миттєво замерзає"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Sugar becomes pure starch",
+            "ua": "Цукор перетворюється на чистий крохмаль"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Egg proteins coagulate into separate curds",
+            "ua": "Яєчні білки зсідаються в окремі грудочки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-199-02",
+      "theoryId": 199,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Some custards use starch as well as eggs to improve thickening stability.",
+        "ua": "Деякі заварні креми використовують крохмаль разом із яйцями для стабільнішого загущення."
+      },
+      "explanation": {
+        "en": "Starch gelatinization can assist thickening and heat tolerance in appropriate formulas.",
+        "ua": "Клейстеризація крохмалю може допомогти загущенню та стійкості до нагрівання у відповідних рецептурах."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-199-03",
+      "theoryId": 199,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match custard components to main roles.",
+        "ua": "Поєднайте складники заварного крему з головними функціями."
+      },
+      "explanation": {
+        "en": "Ingredients can stabilize the desired soft gel in different ways.",
+        "ua": "Складники по-різному стабілізують бажану ніжну структуру."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Egg yolks",
+            "ua": "Яєчні жовтки"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Milk or cream",
+            "ua": "Молоко чи вершки"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Starch when included",
+            "ua": "Крохмаль за наявності"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Protein thickening and emulsification",
+            "ua": "Білкове загущення та емульгування"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Additional thickening via gelatinization",
+            "ua": "Додаткове загущення завдяки клейстеризації"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Provides liquid and dairy flavor",
+            "ua": "Додає рідину та молочний смак"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-199-04",
+      "theoryId": 199,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You are making a stirred custard and see the first thickening. What matters next?",
+        "ua": "Готуєте крем із перемішуванням і помічаєте перше загущення. Що важливо далі?"
+      },
+      "explanation": {
+        "en": "Egg thickening is sensitive to time and temperature; safe handling also matters.",
+        "ua": "Яєчне загущення чутливе до часу й температури, як і безпечність поводження."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Increase to uncontrolled hard boiling",
+            "ua": "Перейти до неконтрольованого бурхливого кипіння"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Control heat and monitor the formula’s target texture and safe process",
+            "ua": "Контролювати нагрів, потрібну текстуру та безпечність процесу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Leave a hot dairy custard unattended overnight",
+            "ua": "Залишити гарячий молочний крем без нагляду на ніч"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-199-05",
+      "theoryId": 199,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practice is unsafe for a custard containing eggs and dairy?",
+        "ua": "Яка дія небезпечна для крему з яйцями та молоком?"
+      },
+      "explanation": {
+        "en": "Perishable egg-and-dairy foods require time-temperature controls.",
+        "ua": "Швидкопсувні страви з яйцями та молоком потребують контролю часу й температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Leave it for many hours at an unmonitored warm temperature",
+            "ua": "Залишати її багато годин за неконтрольованої теплої температури"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cool perishable filling promptly for storage",
+            "ua": "Своєчасно охолоджувати начинку для зберігання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use clean equipment",
+            "ua": "Використовувати чисте обладнання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

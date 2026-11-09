@@ -1,10 +1,10 @@
 {
   "id": 4,
-  "slug": "004-understanding-and-reading-recipes",
+  "slug": "004-reading-and-understanding-recipes",
   "group": "001",
   "title": {
-    "en": "Understanding and Reading Recipes",
-    "ua": "Розуміння та читання рецептів"
+    "en": "Reading and Understanding Recipes",
+    "ua": "Читання та розуміння рецептів"
   },
   "en": {
     "short": "A recipe is a process specification containing ingredients, quantities, techniques, timing, and expected results. Reading it completely before cooking reveals dependencies and prevents avoidable mistakes.",
@@ -15,7 +15,7 @@
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Pay attention to verbs and qualifiers: “simmer” is not a rolling boil; “fold” is gentler than vigorous mixing. Cooking times describe conditions, not guarantees—pan size, ingredient temperature and oven performance change outcomes."
+        "text": "Pay attention to verbs and qualifiers: “simmer” is not a rolling boil; “fold” is gentler than vigorous mixing. Cooking times describe conditions, not guarantees: pan size, ingredient temperature and oven performance change outcomes."
       },
       {
         "title": "How to apply it",
@@ -28,15 +28,11 @@
       {
         "title": "Common mistakes and limitations",
         "text": "Common mistakes include starting without seeing an overnight rest, interpreting “medium-high” as a universal temperature, overlooking an ingredient divided between steps, and trusting the stated duration more than actual doneness."
-      },
-      {
-        "title": "Related theories",
-        "text": "003, 005, 008."
       }
     ]
   },
   "ua": {
-    "short": "Рецепт — це опис процесу з інгредієнтами, кількостями, техніками, часом і очікуваним результатом. Повне прочитання перед початком допомагає побачити залежності між кроками та уникнути помилок.",
+    "short": "Рецепт є описом процесу з інгредієнтами, кількостями, техніками, часом і очікуваним результатом. Повне прочитання перед початком допомагає побачити залежності між кроками та уникнути помилок.",
     "sections": [
       {
         "title": "Суть",
@@ -44,7 +40,7 @@
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Звертайте увагу на дієслова та уточнення: «томити на слабкому кипінні» не означає інтенсивно кип’ятити, а «обережно вмішати» — не те саме, що збивати. Час залежить від посуду, початкової температури продукту й особливостей духовки."
+        "text": "Звертайте увагу на дієслова та уточнення: «томити на слабкому кипінні» не означає інтенсивно кип’ятити, а «обережно вмішати» означає не те саме, що збивати. Час залежить від посуду, початкової температури продукту й особливостей духовки."
       },
       {
         "title": "Як застосовувати",
@@ -56,18 +52,15 @@
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Типові помилки — не помітити нічне витримування, вважати «середньо-сильний вогонь» універсальною температурою, пропустити повторне використання інгредієнта або сліпо довіряти хвилинам замість перевірки готовності."
-      },
-      {
-        "title": "Пов’язані теорії",
-        "text": "003, 005, 008."
+        "text": "Типові помилки: не помітити нічне витримування, вважати «середньо-сильний вогонь» універсальною температурою, пропустити повторне використання інгредієнта або сліпо довіряти хвилинам замість перевірки готовності."
       }
     ]
   },
   "related": [
     3,
-    5,
-    8
+    7,
+    262,
+    275
   ],
   "referenceTitle": "References / Джерела",
   "references": [

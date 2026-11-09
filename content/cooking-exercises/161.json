@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 161,
+    "title": {
+      "en": "Stocks vs. Broths and Flavor Extraction",
+      "ua": "Бульйони та відвари: відмінності й екстракція смаку"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program",
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-161-01",
+      "theoryId": 161,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the main reason stocks made from connective-tissue-rich bones may gel when chilled?",
+        "ua": "Чому бульйон із кісток, багатих на сполучну тканину, може застигати після охолодження?"
+      },
+      "explanation": {
+        "en": "Heat and time extract gelatin from collagen-rich materials.",
+        "ua": "Нагрівання й час дозволяють отримати желатин зі складників, багатих на колаген."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Vegetables become sugar glass",
+            "ua": "Овочі перетворюються на цукрове скло"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Gelatin extracted from collagen forms a network",
+            "ua": "Желатин, отриманий із колагену, утворює сітку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "All salt crystallizes into a solid block",
+            "ua": "Уся сіль кристалізується в суцільний блок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-161-02",
+      "theoryId": 161,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Every stock is necessarily made without any meat.",
+        "ua": "Будь-який бульйон обов’язково готують зовсім без м’яса."
+      },
+      "explanation": {
+        "en": "Stock/broth terminology varies; both may include bones, meat, vegetables and aromatics.",
+        "ua": "Назви «stock» і «broth» використовують по-різному; обидва можуть містити кістки, м’ясо, овочі та прянощі."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-161-03",
+      "theoryId": 161,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match stock ingredients or conditions with effects.",
+        "ua": "Поєднайте складники та умови варіння бульйону з наслідками."
+      },
+      "explanation": {
+        "en": "Extraction depends on ingredients, temperature, time and movement.",
+        "ua": "Екстракція залежить від складників, температури, часу й руху рідини."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Collagen-rich bones",
+            "ua": "Кістки, багаті на колаген"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Herbs and vegetables",
+            "ua": "Трави й овочі"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Vigorous boiling with agitation",
+            "ua": "Бурхливе кипіння з перемішуванням"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Greater potential gelatin body",
+            "ua": "Більше потенційного желатинового насичення"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Cloudiness and suspended particles",
+            "ua": "Каламутність і завислі частинки"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Aromatic flavor compounds",
+            "ua": "Ароматичні смакові сполуки"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-161-04",
+      "theoryId": 161,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want a savory but relatively light vegetable broth. Which approach is most suitable?",
+        "ua": "Потрібен ароматний, але відносно легкий овочевий бульйон. Який підхід кращий?"
+      },
+      "explanation": {
+        "en": "Vegetable aromatics often extract relatively quickly and may become bitter with overcooking.",
+        "ua": "Аромати овочів часто вивільняються швидко та можуть гірчити після надто тривалого варіння."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Boil vegetables for many hours until all flavors turn harsh",
+            "ua": "Бурхливо варити овочі багато годин до різкого смаку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use fresh aromatics and extract gently, then strain",
+            "ua": "Взяти свіжі ароматичні овочі, делікатно варити та процідити"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use burnt scraps as the dominant ingredient",
+            "ua": "Зробити підгорілі обрізки головним компонентом"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-161-05",
+      "theoryId": 161,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which stock handling practice is unsafe?",
+        "ua": "Який спосіб поводження з готовим бульйоном небезпечний?"
+      },
+      "explanation": {
+        "en": "Large volumes cool slowly and must be rapidly cooled under appropriate time-temperature controls.",
+        "ua": "Великі об’єми остигають повільно й потребують швидкого охолодження за належними режимами."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Refrigerate promptly",
+            "ua": "Швидко поставити в холодильник"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Leave a large hot pot on the counter overnight",
+            "ua": "Залишити велику гарячу каструлю на столі до ранку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Divide large volumes into shallow containers to chill",
+            "ua": "Розділити великий об’єм у неглибокі ємності для охолодження"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

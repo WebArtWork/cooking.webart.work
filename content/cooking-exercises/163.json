@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 163,
+    "title": {
+      "en": "Vegetable, Mushroom, and Fish Stocks",
+      "ua": "Овочеві, грибні та рибні бульйони"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program",
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-163-01",
+      "theoryId": 163,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why is a long all-day simmer often unnecessary for a delicate fish stock?",
+        "ua": "Чому для ніжного рибного бульйону зазвичай не потрібне багатогодинне томління?"
+      },
+      "explanation": {
+        "en": "Fish and vegetable stocks often need shorter extractions than large meat-bone stocks.",
+        "ua": "Рибні й овочеві бульйони часто потребують коротшої екстракції, ніж кісткові м’ясні."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Delicate aromas extract relatively quickly and extended cooking may make flavors harsh",
+            "ua": "Ніжні аромати виділяються швидко, а надмірне варіння може зробити смак різким"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Fish stocks cannot be strained",
+            "ua": "Рибні бульйони не можна проціджувати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Fish bones have no flavor compounds",
+            "ua": "Рибні кістки не мають смакових речовин"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-163-02",
+      "theoryId": 163,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A vegetarian mushroom stock may develop umami without adding animal bones.",
+        "ua": "Вегетаріанський грибний бульйон може мати насичений умамі без тваринних кісток."
+      },
+      "explanation": {
+        "en": "Mushrooms contain compounds that contribute savory taste.",
+        "ua": "Гриби містять сполуки, які забезпечують насичений смак умамі."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-163-03",
+      "theoryId": 163,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match stock type to its best application.",
+        "ua": "Поєднайте тип бульйону з доречним використанням."
+      },
+      "explanation": {
+        "en": "Use an appropriate stock so its flavor supports rather than dominates a dish.",
+        "ua": "Обирайте відповідний бульйон, щоб його смак підтримував страву, а не домінував."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Vegetable stock",
+            "ua": "Овочевий бульйон"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Mushroom stock",
+            "ua": "Грибний бульйон"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Fish stock",
+            "ua": "Рибний бульйон"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Fish soup or seafood sauce",
+            "ua": "Рибний суп або соус до морепродуктів"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Savory risotto or sauce",
+            "ua": "Насичене ризото чи соус"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Plant-based soup base",
+            "ua": "Основа рослинного супу"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-163-04",
+      "theoryId": 163,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A vegetarian guest needs umami in a soup. What is an appropriate stock choice?",
+        "ua": "Вегетаріанському гостю потрібен суп із виразним умамі. Який бульйон доречний?"
+      },
+      "explanation": {
+        "en": "Mushrooms can provide savory depth without animal ingredients.",
+        "ua": "Гриби надають насиченості без тваринних інгредієнтів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Fish stock without telling the guest",
+            "ua": "Рибний бульйон без попередження гостя"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Mushroom stock from safe edible mushrooms",
+            "ua": "Грибний бульйон із безпечних їстівних грибів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Beef stock disguised as vegetable stock",
+            "ua": "Яловичий бульйон, названий овочевим"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-163-05",
+      "theoryId": 163,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practice should be avoided when making mushroom stock?",
+        "ua": "Чого слід уникати під час приготування грибного бульйону?"
+      },
+      "explanation": {
+        "en": "Cooking does not reliably neutralize every mushroom toxin.",
+        "ua": "Нагрівання не знешкоджує надійно всі грибні токсини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Wash or clean mushrooms appropriately",
+            "ua": "Належно очищати гриби"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use identified culinary mushrooms",
+            "ua": "Використовувати визначені їстівні гриби"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use unidentified wild mushrooms because boiling makes them safe",
+            "ua": "Використовувати невідомі дикі гриби, бо варіння нібито робить їх безпечними"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 123,
+    "title": {
+      "en": "Milk Proteins, Heating, and Curdling",
+      "ua": "Молочні білки, нагрівання та зсідання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://dev-annex.exploratorium.edu/cooking/icooks/06-16-03.html",
+    "https://annex.exploratorium.edu/cooking/eggs/gentle.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-123-01",
+      "theoryId": 123,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why can milk scorch on the bottom of a very hot pot?",
+        "ua": "Чому молоко може пригоряти на дні дуже гарячої каструлі?"
+      },
+      "explanation": {
+        "en": "Whey proteins and milk solids can deposit on the hot surface and scorch.",
+        "ua": "Сироваткові білки та сухі речовини молока можуть осідати на гарячому дні й пригорати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Sensitive milk proteins adhere and overheat",
+            "ua": "Чутливі молочні білки прилипають і перегріваються"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Milk contains only pure water",
+            "ua": "Молоко містить лише воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The fat becomes table salt",
+            "ua": "Жир перетворюється на кухонну сіль"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-123-02",
+      "theoryId": 123,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "High heat and added acid can encourage milk proteins to aggregate or curdle.",
+        "ua": "Сильний нагрів і додана кислота можуть сприяти зсіданню молочних білків."
+      },
+      "explanation": {
+        "en": "Protein stability changes with both temperature and pH.",
+        "ua": "Стабільність білків залежить від температури й pH."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-123-03",
+      "theoryId": 123,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match milk observations to likely mechanisms.",
+        "ua": "Поєднайте ознаки молока з імовірними процесами."
+      },
+      "explanation": {
+        "en": "Heat and acidity influence milk protein behavior.",
+        "ua": "Тепло та кислотність змінюють поведінку молочних білків."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Bottom scorches",
+            "ua": "Молоко пригорає на дні"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Lemon causes clumps",
+            "ua": "Лимон утворює грудочки"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Gentle stirring while heating",
+            "ua": "Обережне помішування"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Reduces hot spots",
+            "ua": "Зменшує локальний перегрів"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Acid-driven protein aggregation",
+            "ua": "Кислотна агрегація білків"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Localized overheating",
+            "ua": "Локальний перегрів"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-123-04",
+      "theoryId": 123,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A milk-based soup repeatedly sticks and burns. What change helps?",
+        "ua": "Молочний суп постійно прилипає й пригорає. Що допоможе?"
+      },
+      "explanation": {
+        "en": "Moderate heating and mixing reduce scorching risks.",
+        "ua": "Помірний нагрів і перемішування знижують ризик пригорання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lower heat, use a heavy pan and stir",
+            "ua": "Зменшити нагрів, взяти посуд із товстим дном і помішувати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use maximum heat without stirring",
+            "ua": "Вмикати максимальний нагрів без перемішування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add raw flour at the last second",
+            "ua": "В останню мить додати сире борошно"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-123-05",
+      "theoryId": 123,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which statement about curdled milk is incorrect?",
+        "ua": "Яке твердження про зсіле молоко неправильне?"
+      },
+      "explanation": {
+        "en": "Intentional acid coagulation makes cheese; unwanted curdling can also arise from heat and acidity.",
+        "ua": "Цілеспрямоване зсідання кислотою застосовують у сироробстві, а випадкове може бути спричинене нагрівом і кислотою."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Acidity can change casein behavior",
+            "ua": "Кислотність може змінювати поведінку казеїну"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Overheating can damage texture",
+            "ua": "Перегрів може зіпсувати текстуру"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "All curdling always proves microbial spoilage",
+            "ua": "Будь-яке зсідання завжди доводить мікробне псування"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

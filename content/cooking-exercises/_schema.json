@@ -1,0 +1,552 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cooking.webart.work/schemas/exercises-v1.schema.json",
+  "title": "Cooking theory exercises — bilingual v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "curriculum",
+    "theory",
+    "languageCodes",
+    "referenceRegion",
+    "sources",
+    "exercises"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "curriculum": {
+      "const": "revised-288"
+    },
+    "theory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 288
+        },
+        "title": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "ua"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 2
+            },
+            "ua": {
+              "type": "string",
+              "minLength": 2
+            }
+          }
+        }
+      }
+    },
+    "languageCodes": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "const": "en"
+        },
+        {
+          "const": "ua"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "referenceRegion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "ua"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 2
+        },
+        "ua": {
+          "type": "string",
+          "minLength": 2
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/exercise"
+      }
+    }
+  },
+  "$defs": {
+    "exercise": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "theoryId",
+        "type",
+        "difficulty",
+        "safetyCritical",
+        "question",
+        "explanation",
+        "answer"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^cooking-[0-9]{3}-[0-9]{2}$"
+        },
+        "theoryId": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 288
+        },
+        "type": {
+          "enum": [
+            "single_choice",
+            "multiple_choice",
+            "true_false",
+            "sequence",
+            "matching",
+            "calculation",
+            "find_mistake",
+            "decision_scenario"
+          ]
+        },
+        "difficulty": {
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        "safetyCritical": {
+          "type": "boolean"
+        },
+        "question": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "ua"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 2
+            },
+            "ua": {
+              "type": "string",
+              "minLength": 2
+            }
+          }
+        },
+        "explanation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "ua"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 2
+            },
+            "ua": {
+              "type": "string",
+              "minLength": 2
+            }
+          }
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z]$"
+              },
+              "text": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "en",
+                  "ua"
+                ],
+                "properties": {
+                  "en": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "ua": {
+                    "type": "string",
+                    "minLength": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^s[0-9]+$"
+              },
+              "text": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "en",
+                  "ua"
+                ],
+                "properties": {
+                  "en": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "ua": {
+                    "type": "string",
+                    "minLength": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "leftItems": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[lr][0-9]+$"
+              },
+              "text": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "en",
+                  "ua"
+                ],
+                "properties": {
+                  "en": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "ua": {
+                    "type": "string",
+                    "minLength": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rightItems": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[lr][0-9]+$"
+              },
+              "text": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "en",
+                  "ua"
+                ],
+                "properties": {
+                  "en": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "ua": {
+                    "type": "string",
+                    "minLength": 2
+                  }
+                }
+              }
+            }
+          }
+        },
+        "numericInput": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "unit",
+            "unitLabel",
+            "allowDecimals"
+          ],
+          "properties": {
+            "unit": {
+              "type": "string"
+            },
+            "unitLabel": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "en",
+                "ua"
+              ],
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 2
+                },
+                "ua": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              }
+            },
+            "allowDecimals": {
+              "type": "boolean"
+            }
+          }
+        },
+        "answer": {
+          "type": "object"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "single_choice",
+                  "multiple_choice",
+                  "find_mistake",
+                  "decision_scenario"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "options"
+            ],
+            "properties": {
+              "answer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "optionIds"
+                ],
+                "properties": {
+                  "optionIds": {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "true_false"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "answer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "sequence"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "steps"
+            ],
+            "properties": {
+              "answer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "order"
+                ],
+                "properties": {
+                  "order": {
+                    "type": "array",
+                    "minItems": 3,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "matching"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "leftItems",
+              "rightItems"
+            ],
+            "properties": {
+              "answer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pairs"
+                ],
+                "properties": {
+                  "pairs": {
+                    "type": "array",
+                    "minItems": 3,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "leftId",
+                        "rightId"
+                      ],
+                      "properties": {
+                        "leftId": {
+                          "type": "string"
+                        },
+                        "rightId": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "calculation"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "numericInput"
+            ],
+            "properties": {
+              "answer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "tolerance",
+                  "unit"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "tolerance": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

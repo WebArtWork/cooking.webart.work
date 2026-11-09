@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 206,
+    "title": {
+      "en": "Baking Troubleshooting and Formula Accuracy",
+      "ua": "Діагностика помилок випічки та точність рецептур"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-206-01",
+      "theoryId": 206,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why is weighing flour usually more reproducible than measuring by cup?",
+        "ua": "Чому зважування борошна зазвичай точніше за вимірювання чашками?"
+      },
+      "explanation": {
+        "en": "Mass measurements reduce variability in formula ratios.",
+        "ua": "Вимірювання за масою зменшує варіативність пропорцій."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Volume changes with packing and scooping",
+            "ua": "Об’єм залежить від ущільнення й способу набирання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Flour always weighs zero",
+            "ua": "Борошно завжди має нульову масу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A scale changes flour chemistry",
+            "ua": "Ваги змінюють хімічний склад борошна"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-206-02",
+      "theoryId": 206,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A cake’s dense crumb can have several causes, including mixing, leavening, and oven conditions.",
+        "ua": "Щільний м’якуш кексу може мати кілька причин: змішування, розпушування та умови духовки."
+      },
+      "explanation": {
+        "en": "Diagnosis should examine several plausible variables.",
+        "ua": "Діагностика має враховувати кілька можливих змінних."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-206-03",
+      "theoryId": 206,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match baking defects to possible causes.",
+        "ua": "Поєднайте дефекти випічки з можливими причинами."
+      },
+      "explanation": {
+        "en": "A defect is a clue, not an absolute diagnosis.",
+        "ua": "Дефект — це підказка, а не безумовний діагноз."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Tunnels in muffins",
+            "ua": "Тунелі в мафінах"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Cake center sinks",
+            "ua": "Середина кексу осідає"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Dry loaf",
+            "ua": "Сухий хліб"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Under-set structure or formulation imbalance",
+            "ua": "Недостатньо закріплена структура чи порушені пропорції"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Excess baking or unsuitable moisture balance",
+            "ua": "Надмірне випікання чи неправильний баланс вологи"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Excess mixing",
+            "ua": "Надмірне перемішування"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-206-04",
+      "theoryId": 206,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe fails repeatedly, but you change five ingredients at once. What is a better testing strategy?",
+        "ua": "Рецепт постійно не вдається, але ви змінюєте п’ять інгредієнтів одночасно. Як краще тестувати?"
+      },
+      "explanation": {
+        "en": "Controlled changes make cause and effect easier to interpret.",
+        "ua": "Контрольовані зміни допомагають визначити причину та наслідок."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Never weigh ingredients",
+            "ua": "Ніколи не зважувати інгредієнти"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Change everything without notes",
+            "ua": "Змінювати все без записів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Change one controlled variable at a time and record results",
+            "ua": "Змінювати одну контрольовану змінну та записувати результати"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-206-05",
+      "theoryId": 206,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A cake recipe needs 350 g flour per batch. How many grams for three equal batches?",
+        "ua": "На одну партію кексу потрібно 350 г борошна. Скільки для трьох однакових партій?"
+      },
+      "explanation": {
+        "en": "350 × 3 = 1,050 g.",
+        "ua": "350 × 3 = 1050 г."
+      },
+      "numericInput": {
+        "unit": "g",
+        "unitLabel": {
+          "en": "grams",
+          "ua": "грамів"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 1050,
+        "tolerance": 0,
+        "unit": "g"
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 55,
+    "title": {
+      "en": "Caramelization",
+      "ua": "Карамелізація"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://teachersinstitute.yale.edu/curriculum/units/2020/2/20.02.03/2",
+    "https://asbe.org/article/caramelization/",
+    "https://asbe.org/article/baking/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-055-01",
+      "theoryId": 55,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "How does caramelization differ from Maillard browning?",
+        "ua": "Чим карамелізація відрізняється від реакції Майяра?"
+      },
+      "explanation": {
+        "en": "Heating sugars creates brown products and complex caramel flavors through sugar chemistry.",
+        "ua": "Нагрівання цукрів утворює коричневі сполуки й складні карамельні аромати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "It mainly transforms heated sugars without requiring amino compounds",
+            "ua": "Це переважно перетворення нагрітих цукрів без потреби в аміносполуках"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "It requires animal protein in every case",
+            "ua": "Вона завжди потребує тваринного білка"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It can only happen in ice",
+            "ua": "Вона можлива лише в льоді"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-055-02",
+      "theoryId": 55,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All sugars caramelize at one identical temperature regardless of conditions.",
+        "ua": "Усі цукри карамелізуються за тієї самої температури незалежно від умов."
+      },
+      "explanation": {
+        "en": "Sugar composition and reaction conditions change browning behavior.",
+        "ua": "Склад цукру та умови реакції змінюють характер підрум’янення."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-055-03",
+      "theoryId": 55,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match caramel states to sensory qualities.",
+        "ua": "Поєднайте стадії карамелі з відчуттями."
+      },
+      "explanation": {
+        "en": "Color and aroma evolve as sugar reactions continue.",
+        "ua": "Колір і аромат змінюються в міру перетворення цукру."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Pale melted syrup",
+            "ua": "Світлий розплавлений сироп"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Amber caramel",
+            "ua": "Бурштинова карамель"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Blackened sugar",
+            "ua": "Почорнілий цукор"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Harsh burnt bitterness",
+            "ua": "Різка гіркота підгорілого"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Developed toasted sweet aroma",
+            "ua": "Виразний підсмажено-солодкий аромат"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Little developed caramel flavor",
+            "ua": "Слабко виражений карамельний смак"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-055-04",
+      "theoryId": 55,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a simplified sugar-caramelization progression.",
+        "ua": "Упорядкуйте спрощену послідовність карамелізації цукру."
+      },
+      "explanation": {
+        "en": "The desired stage should be stopped before burning.",
+        "ua": "Процес слід завершити на потрібній стадії до підгоряння."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Caramel aromas and amber color develop",
+            "ua": "Утворюються карамельні аромати та бурштиновий колір"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Sugar heats and melts or dissolves in syrup",
+            "ua": "Цукор нагрівається й плавиться або розчиняється в сиропі"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Further overheating causes dark bitter products",
+            "ua": "Подальший перегрів призводить до темних гірких сполук"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-055-05",
+      "theoryId": 55,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A caramel turns nearly black and smells acrid. Best choice?",
+        "ua": "Карамель стала майже чорною та має різкий запах. Що зробити?"
+      },
+      "explanation": {
+        "en": "Burnt sugar cannot reliably be restored to the flavor of properly amber caramel.",
+        "ua": "Підгорілому цукру неможливо надійно повернути смак правильної бурштинової карамелі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Serve it as an ideal caramel",
+            "ua": "Подати як ідеальну карамель"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stop heating; restart if it has burned",
+            "ua": "Припинити нагрівання; якщо підгоріла — зробити заново"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add raw flour and keep burning it",
+            "ua": "Додати сире борошно й продовжити нагрів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

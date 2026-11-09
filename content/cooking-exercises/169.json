@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 169,
+    "title": {
+      "en": "Roux and Flour-Based Thickening",
+      "ua": "Ру та загущення борошном"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://www.ice.edu/blog/life-gluten-free-culinary-student-roux-day"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-169-01",
+      "theoryId": 169,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is a roux traditionally made from?",
+        "ua": "Із чого традиційно готують ру?"
+      },
+      "explanation": {
+        "en": "Cooking flour in fat distributes starch and develops flavor before liquid is added.",
+        "ua": "Прогрівання борошна в жирі розподіляє крохмаль і формує смак до додавання рідини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Flour cooked with fat",
+            "ua": "Борошно, прогріте з жиром"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Raw water and salt only",
+            "ua": "Лише сира вода й сіль"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whipped egg white and ice",
+            "ua": "Збитий білок і лід"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-169-02",
+      "theoryId": 169,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Very dark roux generally thickens more strongly per gram of flour than white roux.",
+        "ua": "Дуже темне ру зазвичай загущує сильніше на грам борошна, ніж світле ру."
+      },
+      "explanation": {
+        "en": "Longer browning breaks down starch and reduces thickening power.",
+        "ua": "Тривале підрум’янення розщеплює крохмаль та зменшує здатність загущувати."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-169-03",
+      "theoryId": 169,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match roux stage to a characteristic.",
+        "ua": "Поєднайте ступені приготування ру з ознаками."
+      },
+      "explanation": {
+        "en": "The longer flour browns, the more its flavor changes and thickening capacity falls.",
+        "ua": "Чим довше підрум’янюється борошно, тим більше змінюється смак і зменшується здатність загущувати."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "White roux",
+            "ua": "Світле ру"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Blond roux",
+            "ua": "Золотисте ру"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Dark roux",
+            "ua": "Темне ру"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Deep flavor but reduced thickening strength",
+            "ua": "Глибший смак, але слабше загущення"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Slightly nutty aroma",
+            "ua": "Легкий горіховий аромат"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Pale and relatively strong thickening",
+            "ua": "Світле й відносно сильне загущення"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-169-04",
+      "theoryId": 169,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You need a pale béchamel for a gratin. Which roux is a good starting choice?",
+        "ua": "Для гратену потрібен світлий бешамель. Яке ру доречне?"
+      },
+      "explanation": {
+        "en": "A pale roux supports color and smooth milk-based thickening.",
+        "ua": "Світле ру забезпечує відповідний колір і рівне загущення молока."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Nearly black burnt roux",
+            "ua": "Майже чорне підгоріле ру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "White or lightly cooked roux",
+            "ua": "Світле або недовго прогріте ру"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "No flour or thickener of any kind",
+            "ua": "Зовсім без борошна чи загусника"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-169-05",
+      "theoryId": 169,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which roux instruction is unreliable?",
+        "ua": "Яка вказівка щодо ру ненадійна?"
+      },
+      "explanation": {
+        "en": "Browning changes starch function; adjust a formula to the selected stage.",
+        "ua": "Підрум’янення змінює властивості крохмалю; рецептуру треба коригувати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Assume dark roux thickens exactly as much as white roux",
+            "ua": "Вважати, що темне ру загущує так само сильно, як світле"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Measure flour and fat by mass when consistency matters",
+            "ua": "Зважувати борошно та жир для стабільного результату"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cook off raw-flour flavor",
+            "ua": "Прогріти борошно, щоб зник сирий присмак"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-169-06",
+      "theoryId": 169,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A simple roux uses equal masses of butter and flour. With 75 g flour, how many grams of butter are needed?",
+        "ua": "Для простого ру беруть рівні маси масла й борошна. Якщо борошна 75 г, скільки потрібно грамів масла?"
+      },
+      "explanation": {
+        "en": "Equal masses mean 75 g flour + 75 g butter.",
+        "ua": "Рівні маси означають 75 г борошна та 75 г масла."
+      },
+      "numericInput": {
+        "unit": "g",
+        "unitLabel": {
+          "en": "grams",
+          "ua": "грамів"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 75,
+        "tolerance": 0,
+        "unit": "g"
+      }
+    }
+  ]
+}

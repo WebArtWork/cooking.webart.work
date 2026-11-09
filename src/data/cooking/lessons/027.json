@@ -1,13 +1,13 @@
 {
   "id": 27,
-  "slug": "027-shelf-life-expiration-dates-and-food-spoilage",
-  "group": "016",
+  "slug": "027-leftovers-date-marking-and-shelf-life",
+  "group": "012",
   "title": {
-    "en": "Shelf Life, Expiration Dates, and Food Spoilage",
-    "ua": "Терміни придатності та псування продуктів"
+    "en": "Leftovers, Date Marking, and Shelf Life",
+    "ua": "Залишки їжі, маркування дат та терміни придатності"
   },
   "en": {
-    "short": "Shelf life describes how long food remains suitable under stated storage conditions. Quality dates, mandatory safety dates, and visible signs of spoilage should not be confused.",
+    "short": "Managing leftovers requires prompt cooling, protective containers, clear date labels, and realistic shelf-life limits. A date or pleasant smell alone cannot establish whether food is safe to eat.",
     "sections": [
       {
         "title": "Core idea",
@@ -30,13 +30,13 @@
         "text": "Never taste suspected spoiled food to test safety. Cutting off visible mold is not a universal solution; soft foods may have unseen contamination. Do not interpret “best before” as permission to ignore unsafe storage."
       },
       {
-        "title": "Related theories",
-        "text": "016, 026, 253, 254."
+        "title": "Additional application",
+        "text": "Date labels are not universally equivalent: a “best before” quality date differs from a legally mandated use-by safety date where applicable. Under US consumer guidance most properly refrigerated cooked leftovers are used within 3–4 days, but exact limits vary by product and jurisdiction."
       }
     ]
   },
   "ua": {
-    "short": "Термін придатності описує, як довго продукт залишається придатним за визначених умов. Дату оптимальної якості, обов’язкову дату безпечного споживання та видимі ознаки псування не можна ототожнювати.",
+    "short": "Керування залишками їжі потребує своєчасного охолодження, закритого пакування, зрозумілих дат і обґрунтованих термінів зберігання. Самі по собі дата чи приємний запах не доводять безпечності продукту.",
     "sections": [
       {
         "title": "Суть",
@@ -59,19 +59,20 @@
         "text": "Не пробуйте підозрілу їжу «на смак для перевірки». Зрізання плісняви не завжди допомагає: у м’яких продуктах забруднення може бути непомітним. Дата якості не скасовує правил безпечного зберігання."
       },
       {
-        "title": "Пов’язані теорії",
-        "text": "016, 026, 253, 254."
+        "title": "Додаткове застосування",
+        "text": "Дати на етикетках означають різне: позначення «краще спожити до» стосується передусім якості, тоді як дата «вжити до» може бути вимогою безпечності. За побутовими рекомендаціями США більшість правильно охолоджених готових залишків використовують протягом 3–4 днів, але конкретні терміни залежать від продукту й країни."
       }
     ]
   },
   "related": [
-    16,
+    20,
+    25,
     26,
-    253,
-    254
+    219
   ],
   "referenceTitle": "References / Джерела",
   "references": [
+    "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
     "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely/",
     "https://ask.fsis.usda.gov/article/Is-the-dating-of-shelf-stable-foods-required-by-federal-law"
   ]

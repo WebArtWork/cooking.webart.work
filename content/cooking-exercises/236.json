@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 236,
+    "title": {
+      "en": "Food Allergies vs. Intolerances",
+      "ua": "Харчова алергія та харчова непереносимість"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-236-01",
+      "theoryId": 236,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which condition involves the immune system and can cause anaphylaxis?",
+        "ua": "Який стан пов’язаний з імунною системою та може спричиняти анафілаксію?"
+      },
+      "explanation": {
+        "en": "Food allergy is an immune response; intolerances have other mechanisms.",
+        "ua": "Харчова алергія є імунною реакцією; непереносимості мають інші механізми."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lactose intolerance",
+            "ua": "Непереносимість лактози"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Food allergy",
+            "ua": "Харчова алергія"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Normal digestion",
+            "ua": "Нормальне травлення"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-236-02",
+      "theoryId": 236,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A tiny amount of an allergen is always safe if a dish looks allergen-free.",
+        "ua": "Крихітна кількість алергену завжди безпечна, якщо страва виглядає так, ніби не містить алергену."
+      },
+      "explanation": {
+        "en": "Even trace exposure can matter for some people; prevent cross-contact and follow allergy plans.",
+        "ua": "Навіть слідові кількості можуть бути небезпечними для деяких людей; запобігайте перехресному контакту та дотримуйтеся плану безпечності."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-236-03",
+      "theoryId": 236,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match food-related conditions to their key feature.",
+        "ua": "Поєднайте харчові стани з ключовою ознакою."
+      },
+      "explanation": {
+        "en": "Similar gastrointestinal complaints do not make allergy and intolerance equivalent.",
+        "ua": "Подібні скарги на травлення не роблять алергію та непереносимість тотожними."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Food allergy",
+            "ua": "Харчова алергія"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Lactose intolerance",
+            "ua": "Непереносимість лактози"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Allergen cross-contact",
+            "ua": "Перехресний контакт з алергеном"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Unintentional allergen transfer",
+            "ua": "Ненавмисне перенесення алергену"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Immune-mediated reaction",
+            "ua": "Імунна реакція"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Difficulty digesting lactose",
+            "ua": "Ускладнене перетравлення лактози"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-236-04",
+      "theoryId": 236,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A customer reports a severe sesame allergy. What should kitchen staff do?",
+        "ua": "Гість повідомляє про сильну алергію на кунжут. Що має зробити персонал кухні?"
+      },
+      "explanation": {
+        "en": "Severe allergy service requires verified ingredients and prevention of cross-contact.",
+        "ua": "Обслуговування гостя з тяжкою алергією потребує перевіреного складу та запобігання перехресному контакту."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Confirm ingredients and cross-contact controls, and communicate limitations clearly",
+            "ua": "Перевірити склад і контроль перехресного контакту та чітко повідомити про обмеження"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Remove visible seeds but keep contaminated sauce",
+            "ua": "Прибрати видимі зерна, залишивши забруднений соус"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Guarantee safety without checking ingredients",
+            "ua": "Гарантувати безпечність без перевірки інгредієнтів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-236-05",
+      "theoryId": 236,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which allergy-handling action is dangerous?",
+        "ua": "Яка дія під час роботи з харчовою алергією небезпечна?"
+      },
+      "explanation": {
+        "en": "Cooking does not reliably eliminate all allergenic proteins.",
+        "ua": "Приготування не гарантує знищення всіх алергенних білків."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use cleaned equipment and separate utensils where needed",
+            "ua": "За потреби використовувати очищене обладнання та окремий інвентар"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Check allergen declarations",
+            "ua": "Перевірити інформацію про алергени"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume heating destroys every allergen",
+            "ua": "Вважати, що нагрівання знищує всі алергени"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-236-06",
+      "theoryId": 236,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which actions help prevent allergen cross-contact?",
+        "ua": "Які дії допомагають запобігати перехресному контакту з алергенами?"
+      },
+      "explanation": {
+        "en": "Removing visible allergen pieces is not sufficient when cross-contact occurred.",
+        "ua": "Прибрати лише видимі частинки алергену недостатньо, якщо був перехресний контакт."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Communicate allergies to kitchen staff",
+            "ua": "Повідомляти кухню про алергії"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Confirm complete ingredient lists",
+            "ua": "Перевірити повний склад інгредієнтів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove only visible nut pieces from a contaminated dish",
+            "ua": "Прибирати лише видимі шматочки горіхів із забрудненої страви"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Prevent shared-utensil contamination",
+            "ua": "Уникати забруднення через спільний інвентар"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

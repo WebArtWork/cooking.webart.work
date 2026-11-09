@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 26,
+    "title": {
+      "en": "Reheating and Hot Holding",
+      "ua": "Повторне розігрівання та гаряче зберігання страв"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://ask.fsis.usda.gov/article/What-methods-of-reheating-food-are-safe"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-026-01",
+      "theoryId": 26,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Under US consumer guidance, to what internal temperature should leftovers generally be reheated?",
+        "ua": "До якої внутрішньої температури за домашніми рекомендаціями США зазвичай слід розігрівати залишки їжі?"
+      },
+      "explanation": {
+        "en": "US consumer guidance recommends 74°C (165°F) for leftovers.",
+        "ua": "Домашні рекомендації США визначають 74°C (165°F) для залишків готової їжі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "74°C (165°F)",
+            "ua": "74°C (165°F)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "40°C (104°F)",
+            "ua": "40°C (104°F)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "55°C (131°F)",
+            "ua": "55°C (131°F)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Any temperature if the food smells good",
+            "ua": "Будь-якої, якщо запах приємний"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-026-02",
+      "theoryId": 26,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which actions improve microwave reheating safety?",
+        "ua": "Які дії роблять розігрівання в мікрохвильовці безпечнішим?"
+      },
+      "explanation": {
+        "en": "Microwaves may heat unevenly; stirring, standing, and measuring address cold spots.",
+        "ua": "Мікрохвилі нагрівають нерівномірно; перемішування, витримування й вимірювання допомагають усунути холодні зони."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Stir or rotate where suitable",
+            "ua": "Перемішувати або повертати, де доречно"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Allow specified standing time",
+            "ua": "Дотримуватися вказаного часу витримування після нагріву"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Measure the internal temperature",
+            "ua": "Вимірювати внутрішню температуру"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Ignore cold spots",
+            "ua": "Ігнорувати холодні ділянки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-026-03",
+      "theoryId": 26,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Hot holding and reheating are identical processes with identical goals.",
+        "ua": "Гаряче зберігання та повторне розігрівання — однакові процеси з однаковою метою."
+      },
+      "explanation": {
+        "en": "Reheating brings food up to a safe endpoint; hot holding maintains a safe temperature afterward.",
+        "ua": "Розігрівання доводить їжу до безпечної температури; гаряче зберігання підтримує її після цього."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-026-04",
+      "theoryId": 26,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Match each process to the purpose.",
+        "ua": "Поєднайте процес із його призначенням."
+      },
+      "explanation": {
+        "en": "These are separate safety steps and must be assessed separately.",
+        "ua": "Це різні етапи безпечності, які потрібно контролювати окремо."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Reheating",
+            "ua": "Повторне розігрівання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Hot holding",
+            "ua": "Гаряче зберігання"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Temperature probing",
+            "ua": "Контроль термометром"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Verify internal heat rather than guess",
+            "ua": "Перевірити температуру всередині, а не здогадуватися"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Maintain a safe serving temperature",
+            "ua": "Підтримувати безпечну температуру подачі"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Raise cooked food to the required endpoint",
+            "ua": "Підняти температуру готової їжі до потрібного рівня"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-026-05",
+      "theoryId": 26,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which reheating practice is unsafe?",
+        "ua": "Яка дія під час розігрівання є небезпечною?"
+      },
+      "explanation": {
+        "en": "Cold spots can persist even when the edge is hot.",
+        "ua": "У середині можуть залишатися холодні ділянки, хоча край уже гарячий."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Check the center of a dense casserole",
+            "ua": "Перевіряти середину густої запіканки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stir soup during heating",
+            "ua": "Перемішувати суп під час нагрівання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume a steaming edge proves the cold center is safe",
+            "ua": "Вважати, що пара з краю доводить безпечність холодної середини"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Bring soups and gravies to a boil under FDA home guidance",
+            "ua": "Доводити супи й підливи до кипіння за домашніми настановами FDA"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-026-06",
+      "theoryId": 26,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A leftover casserole reads 62°C in the middle. Under US home guidance, what next?",
+        "ua": "Залишки запіканки мають 62°C усередині. Що робити за домашніми правилами США?"
+      },
+      "explanation": {
+        "en": "The checked center has not reached the standard US reheating target.",
+        "ua": "Перевірена середина ще не досягла стандартної температури розігрівання США."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Continue reheating until the center reaches 74°C",
+            "ua": "Продовжити нагрівання до 74°C у середині"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve because 62°C feels warm",
+            "ua": "Подати, бо 62°C — це тепло"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Stir cold sauce into it and serve",
+            "ua": "Додати холодний соус і подати"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Leave it on the counter to finish heating",
+            "ua": "Лишити на столі для завершення нагрівання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 4,
+    "title": {
+      "en": "Reading and Understanding Recipes",
+      "ua": "Читання та розуміння рецептів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.nist.gov/pml/owm/nist-metric-recipes-sp-1290",
+    "https://www.cacfp.org/2024/05/07/culinary-basics-mise-en-place/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-004-01",
+      "theoryId": 4,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What should be checked before beginning a recipe?",
+        "ua": "Що потрібно перевірити до початку роботи за рецептом?"
+      },
+      "explanation": {
+        "en": "Reading the full recipe prevents missing an overnight step or a needed tool.",
+        "ua": "Повне прочитання рецепта допомагає не пропустити нічний етап або необхідний інструмент."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only the dish photograph",
+            "ua": "Лише фото страви"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Yield, ingredient units, steps, and required equipment",
+            "ua": "Вихід страви, одиниці інгредієнтів, кроки та обладнання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only the final garnish",
+            "ua": "Лише фінальне оздоблення"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The number of social-media likes",
+            "ua": "Кількість вподобань у соцмережах"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-004-02",
+      "theoryId": 4,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the recipe notation to its meaning.",
+        "ua": "Поєднайте запис у рецепті з його значенням."
+      },
+      "explanation": {
+        "en": "Instruction verbs specify technique, while yield specifies quantity.",
+        "ua": "Дієслова позначають техніку, а вихід — кількість."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Yield",
+            "ua": "Вихід"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Preheat",
+            "ua": "Попередньо нагріти"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Fold in",
+            "ua": "Обережно вмішати"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Combine gently to preserve air",
+            "ua": "Обережно з’єднати, зберігаючи повітря"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Reach target heat before loading food",
+            "ua": "Досягти потрібної температури до закладання продукту"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Total finished amount or servings",
+            "ua": "Загальна кількість готової страви чи порцій"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-004-03",
+      "theoryId": 4,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the first steps before baking a cake.",
+        "ua": "Розташуйте перші дії перед випіканням торта."
+      },
+      "explanation": {
+        "en": "A complete read-through reveals long rests or missing ingredients before mixing begins.",
+        "ua": "Повне ознайомлення з рецептом виявляє тривале вистоювання або відсутні продукти до змішування."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Confirm equipment, time, and ingredient availability",
+            "ua": "Перевірити обладнання, час і наявність продуктів"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Read all ingredients and instructions",
+            "ua": "Прочитати весь перелік інгредієнтів та інструкції"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Measure ingredients and preheat as directed",
+            "ua": "Відміряти інгредієнти й розігріти духовку за рецептом"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-004-04",
+      "theoryId": 4,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe calls for 300 g of flour but you will make half the batch. How many grams do you need?",
+        "ua": "Рецепт потребує 300 г борошна, але ви готуєте половину порції. Скільки грамів потрібно?"
+      },
+      "explanation": {
+        "en": "Multiply every ingredient by 0.5; 300 × 0.5 = 150 g.",
+        "ua": "Помножте кожен інгредієнт на 0,5; 300 × 0,5 = 150 г."
+      },
+      "numericInput": {
+        "unit": "g",
+        "allowDecimals": false,
+        "unitLabel": {
+          "en": "grams",
+          "ua": "грамів"
+        }
+      },
+      "answer": {
+        "value": 150,
+        "tolerance": 0,
+        "unit": "g"
+      }
+    },
+    {
+      "id": "cooking-004-05",
+      "theoryId": 4,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "The recipe says “rest overnight.” You have 30 minutes. What is the best first decision?",
+        "ua": "У рецепті зазначено «витримати протягом ночі», а у вас 30 хвилин. Яке перше рішення найкраще?"
+      },
+      "explanation": {
+        "en": "Preparation/rest time is part of the recipe logic and may not be safely or effectively skipped.",
+        "ua": "Час підготовки/витримування є частиною технології рецепта, тому його не завжди можна пропустити."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ignore the instruction",
+            "ua": "Ігнорувати крок"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Choose another suitable recipe or plan for the long rest",
+            "ua": "Обрати інший відповідний рецепт або запланувати тривалий відпочинок"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add extra salt instead",
+            "ua": "Натомість додати більше солі"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Increase heat without checking why the rest is needed",
+            "ua": "Підвищити нагрів без перевірки мети витримування"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

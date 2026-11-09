@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "locale": [
+    "en",
+    "ua"
+  ],
+  "ingredientCount": 1599,
+  "categoryCount": 23,
+  "subcategoryCount": 95,
+  "categoryCounts": {
+    "vegetables": 155,
+    "fruits": 103,
+    "herbs": 43,
+    "spices": 107,
+    "grains": 85,
+    "legumes": 49,
+    "nuts": 41,
+    "fungi": 45,
+    "meat": 83,
+    "poultry": 34,
+    "fish": 83,
+    "seafood": 38,
+    "dairy": 91,
+    "fats": 44,
+    "baking": 91,
+    "sugars": 74,
+    "sauces": 121,
+    "pickles": 34,
+    "cured": 38,
+    "liquids": 59,
+    "regional": 86,
+    "breads": 52,
+    "pantry": 43
+  },
+  "files": [
+    "ingredients.json",
+    "taxonomy.json",
+    "ingredients.csv",
+    "ingredients.md",
+    "units.json",
+    "ingredient.schema.json",
+    "allergen_reference.json",
+    "sources.json",
+    "README.md"
+  ]
+}

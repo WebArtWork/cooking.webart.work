@@ -1,78 +1,84 @@
 {
   "id": 48,
-  "slug": "048-heat-convection",
-  "group": "046",
+  "slug": "048-steam-and-latent-heat",
+  "group": "043",
   "title": {
-    "en": "Heat Convection",
-    "ua": "Конвекція"
+    "en": "Steam and Latent Heat",
+    "ua": "Пара та прихована теплота"
   },
   "en": {
-    "short": "Convection moves heat through flowing liquids or gases. It explains how simmering water circulates around vegetables and how a fan oven distributes hot air.",
+    "short": "Steam transfers substantial energy when it condenses on cooler food. This makes steaming efficient but also creates serious scalding risk when hot vessels are opened.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Natural convection appears when warmer, less dense fluid rises and cooler fluid sinks. Forced convection uses a fan, pump, or stirring to increase fluid movement. The same food may cook differently in still air, moving air, simmering water, and vigorously boiling water."
+        "text": "At ordinary pressure, turning liquid water at about 100°C into vapor takes roughly 2,260 kJ per kilogram, in addition to the energy used to heat the water. When steam touches cooler food and condenses, much of that latent heat is released at the surface."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Heat reaches the food surface from the surrounding fluid, then conduction carries it inward. Faster flow often improves surface heat transfer, but cannot eliminate internal temperature gradients. A convection oven can dry exposed surfaces more quickly than a still-air oven."
+        "text": "Condensation can provide efficient surface heating, but steam must circulate and the center still warms through conduction. Steam temperature and boiling temperature also depend on pressure. Condensed moisture can prevent a crispy exterior unless followed by dry-heat finishing."
       },
       {
         "title": "How to apply it",
-        "text": "Stir soups periodically to redistribute heat; leave space between trays or pieces in a fan oven so air can circulate. Use gentler convection for delicate foods that can break apart or dry excessively."
+        "text": "Arrange food in a steamer without sealing every opening; bring water to the correct simmer, close the lid carefully, and avoid letting the water boil dry. Open the lid away from your face and hands to prevent steam burns."
       },
       {
         "title": "Practical example",
-        "text": "Roasted vegetables placed on a tightly packed tray steam in trapped moisture, while vegetables spaced apart in a fan oven receive more circulating dry heat and can brown better."
+        "text": "Broccoli florets can become tender while retaining a relatively bright color when steamed briefly. The moist environment heats them without direct immersion, though nutrient retention depends on time and handling."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "A fan does not guarantee equal temperature in every position or reduce required time by a fixed percentage. Learn the appliance’s behavior and check readiness rather than blindly applying a conversion."
+        "text": "Boiling and steaming are not interchangeable for every food, and a cloud of vapor is not a direct reading of temperature. Steam burns can be serious because condensing vapor releases additional energy onto skin."
+      },
+      {
+        "title": "Why steam differs from air",
+        "text": "Water requires energy to turn into vapor without an accompanying temperature rise at the phase-change point. When that vapor condenses on food, it releases latent heat as well as sensible heat. Keep a safe distance from the path of escaping steam."
       },
       {
         "title": "Related theories",
-        "text": "046, 047, 049, 054."
+        "text": "044, 047."
       }
     ]
   },
   "ua": {
-    "short": "Конвекція переносить тепло потоками рідини або газу. Саме вона пояснює рух води навколо овочів під час варіння та розподіл гарячого повітря в духовці з вентилятором.",
+    "short": "Пара передає значну кількість енергії під час конденсації на холоднішому продукті. Завдяки цьому приготування парою ефективне, але відкривання гарячого посуду може спричинити опіки.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Природна конвекція виникає, коли тепліша й менш щільна рідина піднімається, а холодніша опускається. Примусова конвекція створюється вентилятором, насосом або перемішуванням. Один і той самий продукт нагрівається по-різному в нерухомому повітрі, потоці повітря, воді зі слабким чи сильним кипінням."
+        "text": "За звичайного тиску перетворення води температурою близько 100°C на пару потребує приблизно 2260 кДж на кілограм, окрім енергії попереднього нагрівання. Коли пара торкається холоднішої їжі й конденсується, значна частина цієї прихованої теплоти передається її поверхні."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Потік середовища підводить тепло до поверхні їжі, а далі воно поширюється всередину завдяки теплопровідності. Активніший рух зазвичай покращує теплообмін на поверхні, але не усуває градієнт температур у середині. Духовка з вентилятором може швидше висушувати відкриті поверхні."
+        "text": "Конденсація забезпечує інтенсивне нагрівання поверхні, але пара повинна циркулювати, а центр прогрівається завдяки теплопровідності. Температура пари й кипіння залежать від тиску. Конденсат зволожує поверхню, тому для хрусткої скоринки може знадобитися завершення сухим жаром."
       },
       {
         "title": "Як застосовувати",
-        "text": "Періодично перемішуйте супи для вирівнювання температури; залишайте проміжки між деками й шматками у конвекційній духовці, щоб повітря могло циркулювати. Для делікатних продуктів обирайте слабшу циркуляцію, щоб вони не розвалилися або не пересохли."
+        "text": "Розміщуйте продукти в пароварці так, щоб не перекрити всі отвори; підтримуйте потрібне кипіння води, акуратно закрийте кришку й не допускайте повного википання. Відкривайте кришку від себе, захищаючи обличчя та руки від опіків парою."
       },
       {
         "title": "Практичний приклад",
-        "text": "Овочі, щільно складені на деко, частіше паряться у власній волозі; овочі з проміжками в конвекційній духовці краще обдуваються гарячим повітрям і можуть сильніше підрум’янитися."
+        "text": "Суцвіття броколі можуть швидко розм’якшитися й зберегти відносно яскравий колір під час короткого приготування на парі. Вологе середовище нагріває їх без занурення у воду, хоча збереження поживних речовин залежить від тривалості та обробки."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Вентилятор не гарантує однакової температури в усіх точках духовки та не зменшує час на фіксований відсоток. Вивчайте особливості приладу й перевіряйте готовність, а не покладайтеся на універсальні поправки."
+        "text": "Варіння у воді й на парі не взаємозамінні для будь-якої страви, а видима хмара пари не є точним показником температури. Опіки парою особливо небезпечні, адже конденсація віддає додаткову енергію шкірі."
+      },
+      {
+        "title": "Чим пара відрізняється від повітря",
+        "text": "Для перетворення води на пару потрібна енергія, хоча температура під час фазового переходу не зростає. Коли пара конденсується на продукті, вона віддає приховану й чутливу теплоту. Не нахиляйтеся над струменем пари під час відкривання кришки."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "046, 047, 049, 054."
+        "text": "044, 047."
       }
     ]
   },
   "related": [
-    46,
-    47,
-    49,
-    54
+    44,
+    47
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
-    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/",
+    "https://www.usgs.gov/water-science-school/science/vapor-pressure-and-water"
   ]
 }

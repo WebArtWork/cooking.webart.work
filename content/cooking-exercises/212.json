@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 212,
+    "title": {
+      "en": "Acetic Acid Fermentation and Vinegar",
+      "ua": "Оцтовокисле бродіння та оцет"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://www.mda.state.mn.us/acidified-foods"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-212-01",
+      "theoryId": 212,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which microbial group commonly oxidizes ethanol to acetic acid in vinegar production?",
+        "ua": "Які мікроорганізми зазвичай окиснюють етанол до оцтової кислоти під час виробництва оцту?"
+      },
+      "explanation": {
+        "en": "Acetic acid bacteria use oxygen to convert ethanol into acetic acid.",
+        "ua": "Оцтовокислі бактерії використовують кисень, перетворюючи етанол на оцтову кислоту."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lactic acid bacteria exclusively",
+            "ua": "Виключно молочнокислі бактерії"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Acetic acid bacteria",
+            "ua": "Оцтовокислі бактерії"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Baker’s yeast alone",
+            "ua": "Лише хлібопекарські дріжджі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-212-02",
+      "theoryId": 212,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Acetic acid fermentation normally needs a supply of oxygen.",
+        "ua": "Для оцтовокислого бродіння зазвичай потрібен доступ кисню."
+      },
+      "explanation": {
+        "en": "The main acetic acid bacteria carry out aerobic ethanol oxidation.",
+        "ua": "Основні оцтовокислі бактерії окиснюють етанол в аеробних умовах."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-212-03",
+      "theoryId": 212,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match vinegar-production terms to descriptions.",
+        "ua": "Поєднайте терміни виготовлення оцту з поясненнями."
+      },
+      "explanation": {
+        "en": "Vinegar production requires appropriate organisms, substrate, and oxygen.",
+        "ua": "Виробництво оцту потребує належних мікроорганізмів, субстрату та кисню."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Ethanol",
+            "ua": "Етанол"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Oxygen",
+            "ua": "Кисень"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Acetic acid",
+            "ua": "Оцтова кислота"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Starting substrate for acetic acid bacteria",
+            "ua": "Вихідний субстрат для оцтовокислих бактерій"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Responsible for typical vinegar acidity",
+            "ua": "Визначає характерну кислотність оцту"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Supports aerobic oxidation",
+            "ua": "Забезпечує аеробне окиснення"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-212-04",
+      "theoryId": 212,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "You want shelf-stable pickles. Can untested homemade vinegar of unknown acidity replace standardized vinegar in a tested canning recipe?",
+        "ua": "Ви хочете консервувати огірки для зберігання без холодильника. Чи можна замінити стандартизований оцет із перевіреного рецепта домашнім оцтом невідомої кислотності?"
+      },
+      "explanation": {
+        "en": "Unknown acid strength can invalidate the safety assumptions of the preservation process.",
+        "ua": "Невідома концентрація кислоти може порушити умови безпечності консервування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Yes; any sour smell proves safe acidity",
+            "ua": "Так; кислий запах гарантує безпечну кислотність"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "No; use vinegar of the specified acidity in a tested recipe",
+            "ua": "Ні; потрібен оцет зазначеної кислотності та перевірений рецепт"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Yes; color is sufficient to determine acidity",
+            "ua": "Так; для визначення кислотності вистачить кольору"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-212-05",
+      "theoryId": 212,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practice is a mistaken assumption about vinegar?",
+        "ua": "Яке твердження про оцет є помилковим?"
+      },
+      "explanation": {
+        "en": "Vinegar products differ, and preservation requires known acidity.",
+        "ua": "Оцти відрізняються, а для консервування потрібна відома кислотність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "All vinegars have identical acidity regardless of source",
+            "ua": "Усі види оцту мають однакову кислотність незалежно від походження"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Acidity affects preservation",
+            "ua": "Кислотність впливає на консервування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vinegar flavor can vary with raw materials",
+            "ua": "Смак оцту залежить від сировини"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 19,
+    "title": {
+      "en": "Receiving and Inspecting Food Ingredients",
+      "ua": "Приймання та перевірка харчових продуктів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-019-01",
+      "theoryId": 19,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What should be checked when receiving a chilled perishable food?",
+        "ua": "Що треба перевіряти під час приймання охолодженого швидкопсувного продукту?"
+      },
+      "explanation": {
+        "en": "Receiving is a key point to reject unsafe or poorly handled deliveries.",
+        "ua": "Приймання — важливий етап для відхилення небезпечних або неправильно доставлених продуктів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Delivery temperature, packaging, condition, and traceability",
+            "ua": "Температуру доставки, пакування, стан та простежуваність"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only the color of delivery truck",
+            "ua": "Лише колір машини доставки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only the price on the invoice",
+            "ua": "Лише ціну в накладній"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Only whether the courier is smiling",
+            "ua": "Лише настрій кур’єра"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-019-02",
+      "theoryId": 19,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which observations justify investigating or rejecting a delivery?",
+        "ua": "Які ознаки потребують перевірки або відхилення поставки?"
+      },
+      "explanation": {
+        "en": "Inspection should consider temperature abuse, packaging, and source.",
+        "ua": "Під час приймання оцінюють температурні порушення, пакування й походження."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Broken package with signs of contamination",
+            "ua": "Пошкоджене пакування з ознаками забруднення"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unsafe temperature for a refrigerated product",
+            "ua": "Небезпечна температура охолодженого продукту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Unknown supplier or missing required traceability",
+            "ua": "Невідомий постачальник або відсутність потрібної простежуваності"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Intact packaging and verified safe delivery temperature",
+            "ua": "Ціле пакування та підтверджена безпечна температура"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-019-03",
+      "theoryId": 19,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Arrange the basic receiving workflow.",
+        "ua": "Розташуйте базовий алгоритм приймання товару."
+      },
+      "explanation": {
+        "en": "Quick inspection plus prompt storage limits avoidable exposure.",
+        "ua": "Швидка перевірка та своєчасне зберігання зменшують небезпечний вплив умов довкілля."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Check temperature, condition, and packaging",
+            "ua": "Перевірити температуру, стан та пакування"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Move accepted perishables promptly to correct storage",
+            "ua": "Швидко перемістити прийняті швидкопсувні продукти на належне зберігання"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Check delivery source and required documents",
+            "ua": "Перевірити постачальника та необхідні документи"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Accept and record or reject questionable items",
+            "ua": "Прийняти й зафіксувати або відхилити сумнівні продукти"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-019-04",
+      "theoryId": 19,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which receiving practice is unsafe?",
+        "ua": "Яка практика приймання є небезпечною?"
+      },
+      "explanation": {
+        "en": "Leaking packages can contaminate other products and surfaces.",
+        "ua": "Пакування, що протікає, може забруднити інші продукти й поверхні."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Check lot or expiry markings",
+            "ua": "Перевіряти партію або маркування терміну"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Accept leaking raw-poultry packs because they are discounted",
+            "ua": "Приймати пакети із сирою птицею, що протікають, лише через знижку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Record a rejected shipment",
+            "ua": "Фіксувати відхилену поставку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use calibrated measuring tools where needed",
+            "ua": "Використовувати відкалібровані засоби контролю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-019-05",
+      "theoryId": 19,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A refrigerated delivery arrives unusually warm. What is the correct response?",
+        "ua": "Партія охолоджених продуктів прибула надто теплою. Як діяти?"
+      },
+      "explanation": {
+        "en": "Cold storage after delivery does not undo earlier unsafe exposure.",
+        "ua": "Охолодження після доставки не скасовує наслідків попереднього небезпечного зберігання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Record readings and follow rejection/hold-and-assess procedure",
+            "ua": "Зафіксувати показники й дотриматися процедури відхилення або ізоляції та оцінки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Place it in a freezer and call it safe",
+            "ua": "Покласти в морозилку й вважати безпечним"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Hide the reading",
+            "ua": "Приховати показник"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Mix it with cold food",
+            "ua": "Змішати з холодними продуктами"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

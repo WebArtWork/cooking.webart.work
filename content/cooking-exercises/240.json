@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 240,
+    "title": {
+      "en": "Classical French Culinary Techniques",
+      "ua": "Техніки класичної французької кухні"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ciachef.edu/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-240-01",
+      "theoryId": 240,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does the French culinary term mise en place describe?",
+        "ua": "Що означає французький кулінарний термін mise en place?"
+      },
+      "explanation": {
+        "en": "Mise en place improves timing, consistency, and workflow.",
+        "ua": "Мізанплас покращує час виконання, сталість результату та робочий процес."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Preparing and organizing ingredients and equipment before cooking",
+            "ua": "Підготовку та організацію інгредієнтів і обладнання перед приготуванням"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serving every dish cold",
+            "ua": "Подачу всіх страв холодними"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cooking without a recipe or plan",
+            "ua": "Приготування без рецепта й плану"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-240-02",
+      "theoryId": 240,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A classical roux is made by cooking flour with fat as a sauce-thickening base.",
+        "ua": "Класичне ру готують із борошна та жиру, щоб створити основу для загущення соусу."
+      },
+      "explanation": {
+        "en": "The degree of cooking changes flavor and thickening properties.",
+        "ua": "Ступінь обсмажування змінює аромат і загущувальні властивості."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-240-03",
+      "theoryId": 240,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match classical French techniques to their descriptions.",
+        "ua": "Поєднайте класичні французькі техніки з поясненнями."
+      },
+      "explanation": {
+        "en": "These techniques form a vocabulary for predictable cooking decisions.",
+        "ua": "Ці техніки створюють основу для передбачуваних кулінарних рішень."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Sauté",
+            "ua": "Соте"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Braise",
+            "ua": "Брезування"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Deglaze",
+            "ua": "Деглазування"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Use liquid to dissolve flavorful pan deposits",
+            "ua": "Рідиною розчиняти ароматні частинки на дні сковороди"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Cook gently with limited liquid in a covered vessel",
+            "ua": "Повільно готувати з невеликою кількістю рідини в закритому посуді"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Cook quickly with a little fat",
+            "ua": "Швидко готувати з невеликою кількістю жиру"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-240-04",
+      "theoryId": 240,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "After searing meat, brown deposits remain in the pan. You want to build a pan sauce. What is the next logical technique?",
+        "ua": "Після обсмажування м’яса на сковороді залишилися коричневі частинки. Ви хочете зробити соус. Яка техніка доречна?"
+      },
+      "explanation": {
+        "en": "Deglazing captures soluble browning flavors for a sauce; avoid using burnt deposits.",
+        "ua": "Деглазування використовує ароматні продукти підрум’янення для соусу; підгорілі залишки не слід використовувати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard every deposit without tasting",
+            "ua": "Викинути всі частинки без оцінювання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add dry flour to an unheated pan and stop",
+            "ua": "Додати сухе борошно на холодну сковороду й зупинитися"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Deglaze with appropriate liquid and reduce as needed",
+            "ua": "Деглазувати відповідною рідиною та за потреби уварити"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-240-05",
+      "theoryId": 240,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the basic workflow for a simple French-style pan sauce.",
+        "ua": "Упорядкуйте основні етапи приготування простого соусу на основі соків зі сковороди."
+      },
+      "explanation": {
+        "en": "Browning deposits are transformed into a balanced sauce through deglazing and reduction.",
+        "ua": "Частинки підрум’янення перетворюються на збалансований соус завдяки деглазуванню та уварюванню."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Assess remaining fond and remove excess fat if needed",
+            "ua": "Оцінити залишки на сковороді та за потреби прибрати зайвий жир"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Reduce, adjust seasoning, and finish the sauce",
+            "ua": "Уварити, скоригувати смак і завершити соус"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Sear the main ingredient and remove it to rest",
+            "ua": "Обсмажити основний продукт і відкласти відпочивати"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Deglaze with a suitable liquid",
+            "ua": "Деглазувати відповідною рідиною"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-240-06",
+      "theoryId": 240,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which terms are core classical kitchen concepts?",
+        "ua": "Які поняття належать до основ класичної кулінарії?"
+      },
+      "explanation": {
+        "en": "Preparation, aromatic bases, and thickening methods are common classical foundations.",
+        "ua": "Підготовка, ароматичні основи та методи загущення є поширеними класичними засадами."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mise en place",
+            "ua": "Мізанплас"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Roux",
+            "ua": "Ру"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Mirepoix",
+            "ua": "Мірпуа"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Random unmanaged timing",
+            "ua": "Випадковий неконтрольований таймінг"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

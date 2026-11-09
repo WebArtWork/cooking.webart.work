@@ -1,82 +1,88 @@
 {
   "id": 90,
-  "slug": "090-selecting-cooking-methods-by-ingredient-properties",
-  "group": "066",
+  "slug": "090-water-bath-cooking-bain-marie",
+  "group": "070",
   "title": {
-    "en": "Selecting Cooking Methods by Ingredient Properties",
-    "ua": "Вибір методу приготування за властивостями продукту"
+    "en": "Water Bath Cooking (Bain-Marie)",
+    "ua": "Приготування на водяній бані"
   },
   "en": {
-    "short": "Good cooks select a method according to the ingredient’s structure, moisture, thickness, connective tissue, starch, and desired texture. The same vegetable or cut of meat can produce very different results through roasting, steaming, boiling, or braising.",
+    "short": "A bain-marie moderates heat by surrounding a container with warm water. It helps prepare delicate custards, cheesecakes, and sauces that might overheat with direct heat.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Cooking is a matching problem: a tender fish fillet usually benefits from shorter, gentler heating than a collagen-rich beef shank, and a watery zucchini behaves differently from a dense potato. Desired results also matter: browning requires a dry enough surface, while a moist texture may favor steam or liquid."
+        "text": "One container holds food while another holds heated water; the inner container may be set into a roasting tray or suspended above a saucepan. The water acts as a thermal buffer between the heat source and a delicate mixture. For some applications the inner bowl touches hot water; for others it is warmed mainly by steam."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "A method controls the balance between heat rate, water transfer, and physical change. High surface temperatures favor Maillard browning; long moist heat can soften connective tissue and plant cell walls. Thickness slows heating of the center, so cut size and doneness measurement must shape the plan alongside surface appearance."
+        "text": "Water has substantial heat capacity and moves heat around the container by convection, smoothing sudden temperature changes. At ordinary atmospheric pressure, a boiling water bath cannot exceed water’s boiling point as a liquid, but the metal vessel may be hotter above the waterline. A bain-marie can slow coagulation and prevent localized curdling, though it does not guarantee a safe final temperature."
       },
       {
         "title": "How to apply it",
-        "text": "First identify ingredient composition and size; then define the target texture, color, and serving time. Choose a heat source and moisture level, estimate whether preliminary searing, blanching, or marinating is useful, and set a way to check doneness. For meat and other risk foods, incorporate safe internal temperatures and handling limits rather than relying solely on texture."
+        "text": "For baked custards, place individual ramekins in a deep pan and add hot water partway up their sides. Bake gently until the centers are just set, then remove from the bath so carryover heat does not overcook them. For chocolate or sauce, maintain gentle heat and keep water or steam from splashing into sensitive mixtures. Use oven gloves and avoid spilling hot water."
       },
       {
         "title": "Practical example",
-        "text": "For carrots, steaming preserves a fresh, firm bite while slow roasting promotes browning and sweetness. For beef shank, long covered cooking allows connective tissue to soften, whereas a quick pan sear may leave the interior tough. Both examples show why one technique cannot fit every outcome."
+        "text": "A crème brûlée custard heats more evenly in ramekins surrounded by water than it would directly against a hot metal baking tray. The edges are less likely to overcook before the center sets; final doneness still needs visual or temperature checking."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Avoid rigid rules such as “all vegetables should be boiled” or “sear every piece of meat.” Oven temperatures, product size, water content, acidity, fat and personal preference modify results. A good method is not necessarily the fastest one; it is the one that meets texture, flavor, nutrition, and safety goals."
+        "text": "A water bath is not a disinfecting step or a guarantee against foodborne illness. Boiling the surrounding water aggressively can still ruin custard. Do not confuse a water bath for gentle cooking with sous-vide, where a pouch is immersed in precisely controlled circulating water."
+      },
+      {
+        "title": "Two configurations",
+        "text": "A bowl above simmering water allows gentle stirring of chocolate or egg sauces; a baking dish in a larger water-filled pan provides more uniform oven heat for custards. Prevent boiling water from entering the food, and check safe cooking temperatures when an egg-based dish requires them."
       },
       {
         "title": "Related theories",
-        "text": "045, 046, 056, 069, 079, 082, 151."
+        "text": "043, 044, 048, 082, 089."
       }
     ]
   },
   "ua": {
-    "short": "Правильний метод приготування залежить від структури продукту, кількості води, товщини, сполучної тканини, крохмалю та бажаної текстури. Той самий інгредієнт може дати зовсім різний результат після запікання, варіння, парового приготування чи тушкування.",
+    "short": "Водяна баня пом’якшує нагрівання, оточуючи посуд теплою водою. Вона підходить для ніжних кремів, чизкейків і соусів, які можуть перегрітися від прямого жару.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Важливо зіставити властивості й ціль. Ніжне рибне філе часто потребує коротшого й делікатнішого нагрівання, ніж яловича гомілка з колагеном; соковитий кабачок поводиться інакше, ніж щільна картопля. Якщо потрібна скоринка, поверхню слід підсушити, а для ніжної вологої текстури краще підійде пара або рідина."
+        "text": "Одна ємність містить продукт, інша містить гарячу воду. Внутрішню форму можна поставити у глибоке деко або розмістити над каструлею. Вода працює як тепловий буфер між джерелом нагрівання та чутливою сумішшю. В одних випадках посуд контактує з водою, в інших його переважно нагріває пара."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Кожен метод задає швидкість нагрівання, перенесення вологи та фізичні перетворення. Висока температура сухої поверхні сприяє реакції Майяра, а довге вологе нагрівання розм’якшує сполучну тканину й клітинні стінки. Товщина уповільнює прогрівання середини, тому розмір шматка важливий не менше, ніж колір скоринки."
+        "text": "Вода має велику теплоємність, а конвекція розподіляє тепло навколо форми, згладжуючи різкі перепади температури. За звичайного тиску кипляча рідка вода не перевищує власної температури кипіння, хоча стінки металевого посуду над рівнем води можуть бути гарячішими. Так менша ймовірність локального згортання білка, але безпечну готовність усе одно потрібно перевіряти."
       },
       {
         "title": "Як застосовувати",
-        "text": "Спершу оцініть склад і розмір продукту, визначте бажані колір, текстуру й час подавання. Оберіть джерело тепла та кількість вологи, вирішіть, чи потрібне попереднє обсмажування, бланшування або маринування. Встановіть спосіб перевірки готовності. Для м’яса й інших ризикових продуктів обов’язково враховуйте безпечні внутрішні температури."
+        "text": "Для запеченого крему поставте порційні формочки у глибоке деко й налийте гарячу воду приблизно до частини їхньої висоти. Готуйте помірно, доки центр злегка загусне; тоді обережно вийміть форми з води. Для шоколаду чи соусу уникайте надмірного кипіння та потрапляння крапель води всередину. Захищайте руки від гарячого посуду."
       },
       {
         "title": "Практичний приклад",
-        "text": "Моркву можна приготувати парою, зберігши пружність і свіжий смак, або повільно запекти для рум’яної поверхні й солодших ноток. Яловича гомілка після тривалого тушкування розм’якшується, а швидке обсмажування саме по собі залишить її жорсткою."
+        "text": "Крем-брюле у формочках на водяній бані прогрівається рівномірніше, ніж просто на гарячому деку. Краї менше пересихають до моменту готовності центру, але готовність усе одно оцінюють за консистенцією або термометром."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не варто керуватися правилами на кшталт «усі овочі треба варити» чи «кожне м’ясо треба обсмажити». Результат змінюють товщина, кислотність, жирність, вологість і посуд. Найкращий метод — не завжди найшвидший, а той, що відповідає цілям смаку, текстури, поживності й безпечності."
+        "text": "Водяна баня не знезаражує їжу сама по собі. Бурхливе кипіння води все одно може зіпсувати яєчний крем. Не плутайте такий спосіб із су-від, де продукт у пакеті перебуває у точно контрольованій циркуляційній воді."
+      },
+      {
+        "title": "Дві конфігурації",
+        "text": "Миска над водою, що ледь кипить, підходить для делікатного прогрівання шоколаду чи яєчних соусів; форма всередині більшого дека з водою допомагає рівномірно випікати заварні десерти. Не допускайте потрапляння води у страву й перевіряйте безпечну готовність яєчних сумішей за потреби."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "045, 046, 056, 069, 079, 082, 151."
+        "text": "043, 044, 048, 082, 089."
       }
     ]
   },
   "related": [
-    45,
-    46,
-    56,
-    69,
-    79,
+    43,
+    44,
+    48,
     82,
-    151
+    89
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.rouxbe.com/rouxbe/cooking-courses/steaming-stewing-braising",
     "https://rouxbe.com/cooking-courses/culinary-foundations-rouxbe",
+    "https://www.britannica.com/topic/bain-marie",
     "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
   ]
 }

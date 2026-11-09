@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 15,
+    "title": {
+      "en": "Cleaning, Sanitizing, and Disinfection",
+      "ua": "Очищення, санітарна обробка та дезінфекція"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.fda.gov/files/food/published/FDA-FoodCode2022-FullDocument-01182023_0.pdf",
+    "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-015-01",
+      "theoryId": 15,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What is the primary difference between cleaning and sanitizing?",
+        "ua": "Яка головна відмінність між очищенням і санітарною обробкою?"
+      },
+      "explanation": {
+        "en": "Removing food debris is usually necessary before effective sanitizing.",
+        "ua": "Для ефективної санітарної обробки зазвичай потрібно спочатку прибрати рештки їжі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Cleaning removes soil; sanitizing reduces microorganisms to appropriate levels",
+            "ua": "Очищення прибирає бруд; санітарна обробка зменшує кількість мікроорганізмів до належного рівня"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cleaning is always done with bleach only",
+            "ua": "Очищення завжди виконують лише відбілювачем"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Sanitizing replaces removal of grease",
+            "ua": "Санітарна обробка замінює видалення жиру"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "They mean exactly the same operation",
+            "ua": "Це абсолютно однакові операції"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-015-02",
+      "theoryId": 15,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order a general wash–rinse–sanitize–air-dry workflow for food-contact utensils.",
+        "ua": "Розташуйте стандартну послідовність миття, ополіскування, санітарної обробки та висушування інвентарю."
+      },
+      "explanation": {
+        "en": "Sanitizers work as intended only on properly cleaned surfaces and at the specified concentration/contact time.",
+        "ua": "Засіб працює належно на очищеній поверхні за вказаних концентрації та часу контакту."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Rinse off detergent",
+            "ua": "Змити мийний засіб"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Allow appropriate air drying",
+            "ua": "Дати висохнути належним способом"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Remove food scraps and wash with detergent",
+            "ua": "Прибрати рештки й вимити з мийним засобом"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Apply approved food-contact sanitizer correctly",
+            "ua": "Застосувати дозволений засіб для санітарної обробки згідно з інструкцією"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-015-03",
+      "theoryId": 15,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which details matter when using a sanitizer?",
+        "ua": "Які параметри важливі під час використання засобу для санітарної обробки?"
+      },
+      "explanation": {
+        "en": "Chemical mixtures may release dangerous gases; follow labeled directions and local requirements.",
+        "ua": "Змішування засобів може виділяти небезпечні гази; дотримуйтеся інструкцій і місцевих вимог."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Manufacturer-approved concentration",
+            "ua": "Концентрація за інструкцією виробника"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Required contact time",
+            "ua": "Необхідний час контакту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Suitability for food-contact surfaces",
+            "ua": "Придатність для поверхонь, що контактують із їжею"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Mixing arbitrary chemicals for stronger results",
+            "ua": "Довільне змішування хімічних засобів для посилення дії"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-015-04",
+      "theoryId": 15,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which cleaning practice is unsafe?",
+        "ua": "Яка практика прибирання є небезпечною?"
+      },
+      "explanation": {
+        "en": "Bleach mixed with acids can release hazardous chlorine gas.",
+        "ua": "Суміш хлорного відбілювача з кислотами може виділяти небезпечний газ хлор."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep cleaning products labeled",
+            "ua": "Зберігати мийні засоби з етикетками"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Store chemicals separately from ingredients",
+            "ua": "Зберігати хімію окремо від інгредієнтів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Mix bleach with an acidic cleaner",
+            "ua": "Змішувати хлорний відбілювач із кислотним мийним засобом"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use cleaning equipment designed for its purpose",
+            "ua": "Використовувати інвентар за призначенням"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-015-05",
+      "theoryId": 15,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A visually clean cutting board is necessarily sanitized.",
+        "ua": "Обробна дошка, що виглядає чистою, обов’язково пройшла санітарну обробку."
+      },
+      "explanation": {
+        "en": "Visible cleanliness does not confirm a validated microbial reduction.",
+        "ua": "Видима чистота не підтверджує належного зниження мікробного забруднення."
+      },
+      "answer": {
+        "value": false
+      }
+    }
+  ]
+}

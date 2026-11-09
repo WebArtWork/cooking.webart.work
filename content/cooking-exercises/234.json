@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 234,
+    "title": {
+      "en": "Balanced Meals and Dietary Patterns",
+      "ua": "Збалансовані страви та моделі харчування"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "https://www.nal.usda.gov/programs/fnic"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-234-01",
+      "theoryId": 234,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which principle is central to a balanced dietary pattern?",
+        "ua": "Який принцип є основою збалансованого харчування?"
+      },
+      "explanation": {
+        "en": "Healthy dietary patterns emphasize varied nutritious foods and suitable quantities.",
+        "ua": "Здорове харчування передбачає різні поживні продукти у відповідній кількості."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "As much sugar as possible",
+            "ua": "Якомога більше цукру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Variety, adequacy, moderation, and balance",
+            "ua": "Різноманітність, достатність, помірність та збалансованість"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only one food group at every meal",
+            "ua": "Лише одна група продуктів у кожному прийомі їжі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-234-02",
+      "theoryId": 234,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "One balanced lunch guarantees a balanced diet for the entire month.",
+        "ua": "Один збалансований обід гарантує збалансований раціон на цілий місяць."
+      },
+      "explanation": {
+        "en": "Overall dietary pattern and consistency matter across days and weeks.",
+        "ua": "Важливий загальний раціон та його сталість протягом днів і тижнів."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-234-03",
+      "theoryId": 234,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match balanced-meal elements to their main contribution.",
+        "ua": "Поєднайте складники збалансованої страви з основною користю."
+      },
+      "explanation": {
+        "en": "Food groups complement one another in a varied meal.",
+        "ua": "Групи продуктів взаємно доповнюють одна одну в різноманітній страві."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Vegetables and fruit",
+            "ua": "Овочі та фрукти"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Legumes or fish",
+            "ua": "Бобові або риба"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Whole grains",
+            "ua": "Цільнозернові продукти"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Useful sources of protein",
+            "ua": "Корисні джерела білка"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Complex carbohydrates and fiber",
+            "ua": "Складні вуглеводи та клітковина"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Fiber and diverse micronutrients",
+            "ua": "Клітковина та різноманітні мікронутрієнти"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-234-04",
+      "theoryId": 234,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A lunch consists only of white bread and sweet soda. What is the most useful broad improvement?",
+        "ua": "Обід складається лише з білого хліба й солодкої газованої води. Яке загальне покращення найкорисніше?"
+      },
+      "explanation": {
+        "en": "Improving diversity and moderating free sugars better supports balanced eating.",
+        "ua": "Більша різноманітність і помірність вільних цукрів краще підтримують збалансоване харчування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Add more soda only",
+            "ua": "Додати лише більше газованої води"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add vegetables and a suitable protein source; choose water or an unsweetened drink",
+            "ua": "Додати овочі й відповідне джерело білка; обрати воду або несолодкий напій"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove all food and replace it with seasoning",
+            "ua": "Забрати всю їжу та замінити приправами"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-234-05",
+      "theoryId": 234,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which habits support a balanced dietary pattern?",
+        "ua": "Які звички підтримують збалансований раціон?"
+      },
+      "explanation": {
+        "en": "Balance is broader than a single nutrient or meal.",
+        "ua": "Збалансованість ширша за один нутрієнт чи прийом їжі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Avoid all vegetables",
+            "ua": "Повністю уникати овочів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Consider portion sizes",
+            "ua": "Зважати на розмір порцій"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Eat a variety of plant foods",
+            "ua": "Споживати різні рослинні продукти"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Choose suitable protein sources",
+            "ua": "Обирати належні джерела білка"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    }
+  ]
+}

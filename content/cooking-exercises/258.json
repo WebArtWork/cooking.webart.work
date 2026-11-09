@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 258,
+    "title": {
+      "en": "Culinary Foams and Aeration",
+      "ua": "Кулінарні піни та аерація"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633557/",
+    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-physics",
+    "https://pll.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-physics",
+    "https://pll.harvard.edu/course/science-and-cooking"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-258-01",
+      "theoryId": 258,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What defines a culinary foam?",
+        "ua": "Що визначає кулінарну піну?"
+      },
+      "explanation": {
+        "en": "Foam quality depends on bubble size, gas retention and stabilizing interfaces.",
+        "ua": "Якість піни залежить від розміру бульбашок, утримання газу та стабілізації меж поділу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Gas bubbles dispersed in a liquid or soft solid phase",
+            "ua": "Бульбашки газу, розподілені в рідкій або м’якій твердій фазі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Oil dissolved into pure metal",
+            "ua": "Олія, розчинена в чистому металі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "All water transformed into sugar",
+            "ua": "Уся вода, перетворена на цукор"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-258-02",
+      "theoryId": 258,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All foams are permanently stable once bubbles have formed.",
+        "ua": "Усі піни назавжди стабільні після утворення бульбашок."
+      },
+      "explanation": {
+        "en": "Drainage, coalescence and collapse can destabilize foams over time.",
+        "ua": "Стікання рідини, злиття бульбашок і осідання можуть руйнувати піну з часом."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-258-03",
+      "theoryId": 258,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match foam-related terms to the process.",
+        "ua": "Поєднайте терміни піноутворення з процесами."
+      },
+      "explanation": {
+        "en": "Stable foams require a compatible formulation and handling.",
+        "ua": "Стабільні піни потребують відповідної рецептури та правильної обробки."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Aeration",
+            "ua": "Аерація"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Drainage",
+            "ua": "Стікання рідини"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Interface stabilizer",
+            "ua": "Стабілізатор межі фаз"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Liquid leaves bubble films",
+            "ua": "Рідина виходить із плівок між бульбашками"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Helps prevent bubbles from merging",
+            "ua": "Допомагає запобігти злиттю бульбашок"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Introducing gas into food",
+            "ua": "Введення газу в продукт"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-258-04",
+      "theoryId": 258,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A culinary foam collapses immediately after whipping. Which change is most reasonable to test?",
+        "ua": "Кулінарна піна одразу осідає після збивання. Що варто випробувати?"
+      },
+      "explanation": {
+        "en": "Foam stability reflects both chemistry and mechanical processing.",
+        "ua": "Стабільність піни залежить і від хімії, і від механічної обробки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Adjust a suitable stabilizer, concentration or whipping conditions in small trials",
+            "ua": "У малих пробах скоригувати стабілізатор, концентрацію або умови збивання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume whipping longer always solves every foam",
+            "ua": "Вважати, що довше збивання завжди допомагає"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Stop recording results entirely",
+            "ua": "Перестати фіксувати результати"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-258-05",
+      "theoryId": 258,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which factors can influence foam structure?",
+        "ua": "Які чинники можуть впливати на структуру піни?"
+      },
+      "explanation": {
+        "en": "Bubble interfaces and processing conditions control foam behavior.",
+        "ua": "Межі бульбашок та умови обробки визначають поведінку піни."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Bubble size",
+            "ua": "Розмір бульбашок"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Protein or surfactant concentration",
+            "ua": "Концентрація білка чи поверхнево-активної речовини"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A claim that all foams are identical",
+            "ua": "Твердження, що всі піни однакові"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Temperature and handling",
+            "ua": "Температура й обробка"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

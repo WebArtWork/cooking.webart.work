@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 125,
+    "title": {
+      "en": "Cheese Melting and Texture",
+      "ua": "Плавлення сиру та його текстура"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://dev-annex.exploratorium.edu/cooking/icooks/12-29-03.html",
+    "https://dev-annex.exploratorium.edu/cooking/icooks/06-16-03.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-125-01",
+      "theoryId": 125,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What causes a cheese sauce to become oily when overheated?",
+        "ua": "Чому сирний соус може ставати маслянистим під час перегрівання?"
+      },
+      "explanation": {
+        "en": "Excess heat can separate the fat and water phases of a cheese mixture.",
+        "ua": "Надмірний нагрів може розділити жирову та водну фази сирної суміші."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The protein network tightens and separates fat",
+            "ua": "Білкова сітка стискається та відділяє жир"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The salt changes into steam",
+            "ua": "Сіль перетворюється на пару"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The cheese gains extra water by itself",
+            "ua": "Сир самостійно набирає додаткову воду"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-125-02",
+      "theoryId": 125,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All cheeses melt equally smoothly at the same temperature.",
+        "ua": "Усі сири плавляться однаково гладко за тієї самої температури."
+      },
+      "explanation": {
+        "en": "Moisture, protein structure, acidity and aging change melting properties.",
+        "ua": "Вміст вологи, білкова структура, кислотність і витримування змінюють плавлення."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-125-03",
+      "theoryId": 125,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match a cheese property to its melting behavior.",
+        "ua": "Поєднайте властивість сиру з поведінкою при плавленні."
+      },
+      "explanation": {
+        "en": "Cheese types contain different protein-water-fat matrices.",
+        "ua": "Різні сири мають різні білково-водно-жирові структури."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Higher moisture",
+            "ua": "Більший вміст вологи"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Very dry aged cheese",
+            "ua": "Дуже сухий витриманий сир"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Excessive heat",
+            "ua": "Надмірний нагрів"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Risk of oily separation",
+            "ua": "Ризик відокремлення жиру"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "May melt less uniformly",
+            "ua": "Може плавитися менш рівномірно"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Often softens more readily",
+            "ua": "Часто легше розм’якшується"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-125-04",
+      "theoryId": 125,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Grated cheese clumps into strands in boiling sauce. What should you try?",
+        "ua": "Тертий сир збивається в нитки в киплячому соусі. Що спробувати?"
+      },
+      "explanation": {
+        "en": "Gentle heating gives more control over a smooth sauce.",
+        "ua": "Делікатне нагрівання допомагає отримати гладкий соус."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Reduce heat and incorporate gradually while stirring",
+            "ua": "Зменшити жар і поступово вмішувати сир"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Boil harder for ten minutes",
+            "ua": "Кип’ятити ще сильніше десять хвилин"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add dry cheese in a large unmixed lump",
+            "ua": "Додати весь сухий сир грудкою без перемішування"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-125-05",
+      "theoryId": 125,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which claim about cheese melting is false?",
+        "ua": "Яке твердження про плавлення сиру хибне?"
+      },
+      "explanation": {
+        "en": "Overheating often increases separation, rather than preventing it.",
+        "ua": "Перегрів часто посилює розшарування, а не запобігає йому."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Heat affects protein structure",
+            "ua": "Нагрів змінює структуру білка"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Moisture affects flow",
+            "ua": "Волога впливає на текучість"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Maximum heat always prevents oil separation",
+            "ua": "Максимальна температура завжди запобігає відокремленню жиру"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-125-06",
+      "theoryId": 125,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which factors can affect whether a cheese melts smoothly?",
+        "ua": "Що впливає на рівномірне плавлення сиру?"
+      },
+      "explanation": {
+        "en": "Melt behavior depends on composition and heat, not plating color.",
+        "ua": "Плавлення залежить від складу й нагрівання, а не від кольору тарілки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Water content",
+            "ua": "Вміст води"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Protein network and acidity",
+            "ua": "Білкова мережа та кислотність"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Heating method",
+            "ua": "Спосіб нагрівання"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The color of the serving plate",
+            "ua": "Колір тарілки для подачі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

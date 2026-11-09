@@ -5,11 +5,15 @@
 	"scripts": {
 		"start": "ng serve",
 		"build": "ng build --configuration=production && node tools/licenses/copy-licenses.mjs",
-		"build:seo": "npm run theories:import && npm run build && node tools/seo/generate-static-seo.mjs && node tools/theory/verify-cooking.mjs --built",
-		"theories:import:business-archive": "node tools/theory/import-theories.mjs",
-		"practices:import:business-archive": "node tools/practice/import-practices.mjs",
+		"build:seo": "npm run theories:import && npm run exercises:import && npm run ingredients:import && npm run techniques:import && npm run build && node tools/seo/generate-static-seo.mjs && node tools/theory/verify-cooking.mjs --built && node tools/practice/verify-exercises.mjs && node tools/ingredients/verify-ingredients.mjs && node tools/techniques/verify-techniques.mjs",
 		"theories:import": "node tools/theory/import-cooking.mjs",
-		"check:content": "node tools/theory/verify-cooking.mjs"
+		"check:content": "node tools/theory/verify-cooking.mjs",
+		"exercises:import": "node tools/practice/import-exercises.mjs",
+		"check:exercises": "node tools/practice/verify-exercises.mjs",
+		"ingredients:import": "node tools/ingredients/import-ingredients.mjs",
+		"check:ingredients": "node tools/ingredients/verify-ingredients.mjs",
+		"techniques:import": "node tools/techniques/import-techniques.mjs",
+		"check:techniques": "node tools/techniques/verify-techniques.mjs"
 	},
 	"dependencies": {
 		"@angular/common": "22.2.5",

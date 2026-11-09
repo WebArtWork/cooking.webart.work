@@ -1,0 +1,330 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 68,
+    "title": {
+      "en": "Flavor Pairing, Contrast, and Harmony",
+      "ua": "Поєднання смаків, контраст та гармонія"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/32466920/",
+    "https://pubmed.ncbi.nlm.nih.gov/22355711/",
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/meal-planning/understanding-tastes-and-food-flavors"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-068-01",
+      "theoryId": 68,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which pairing demonstrates a deliberate texture contrast?",
+        "ua": "Яке поєднання демонструє навмисний контраст текстур?"
+      },
+      "explanation": {
+        "en": "Crunch contrasts with a smooth base and makes each component more distinct.",
+        "ua": "Хрусткість контрастує з гладкою основою та підкреслює компоненти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Creamy purée with toasted seeds",
+            "ua": "Кремове пюре з підсмаженим насінням"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Two identical smooth purées",
+            "ua": "Два однакові гладкі пюре"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only water with water",
+            "ua": "Лише вода з водою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-068-02",
+      "theoryId": 68,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Two ingredients sharing an aroma molecule are guaranteed to taste good together.",
+        "ua": "Якщо два інгредієнти мають спільну ароматичну молекулу, вони гарантовано добре поєднуються."
+      },
+      "explanation": {
+        "en": "Pairing depends on proportions, context, taste, texture and culture, not just shared molecules.",
+        "ua": "Поєднання залежить від пропорцій, контексту, смаку, текстури й культури, а не лише від спільних молекул."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-068-03",
+      "theoryId": 68,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the design principle to an example.",
+        "ua": "Поєднайте принцип створення страви з прикладом."
+      },
+      "explanation": {
+        "en": "Good dishes use interaction of taste, texture and aroma.",
+        "ua": "Вдалі страви враховують взаємодію смаку, текстури та аромату."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Contrast",
+            "ua": "Контраст"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Harmony",
+            "ua": "Гармонія"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Balance",
+            "ua": "Баланс"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Measured salt and acid in a dressing",
+            "ua": "Вивірені сіль і кислота в заправці"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Herbs supporting a delicate vegetable soup",
+            "ua": "Зелень, що підкреслює делікатний овочевий суп"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Acidic pickles beside rich pâté",
+            "ua": "Кислі мариновані овочі до жирного паштету"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-068-04",
+      "theoryId": 68,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A creamy pumpkin soup feels monotonous. Which garnish adds useful contrast?",
+        "ua": "Кремовий гарбузовий суп здається одноманітним. Яка добавка створить контраст?"
+      },
+      "explanation": {
+        "en": "Crunch and acidity contrast with sweet, smooth soup.",
+        "ua": "Хрусткість і кислота врівноважують солодкий гладкий суп."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Toasted pumpkin seeds and a small acidic accent",
+            "ua": "Підсмажене гарбузове насіння й трохи кислоти"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only more cream",
+            "ua": "Лише ще вершки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "More pureed pumpkin without seasoning",
+            "ua": "Ще трохи неприправленого гарбузового пюре"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-068-05",
+      "theoryId": 68,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which recipe-development assumption is weak?",
+        "ua": "Яке припущення під час розробки рецепта є хибним?"
+      },
+      "explanation": {
+        "en": "Proportion strongly influences whether a combination feels balanced.",
+        "ua": "Пропорції суттєво впливають на збалансованість поєднання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Taste the components together",
+            "ua": "Скуштувати компоненти разом"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Consider texture alongside aroma",
+            "ua": "Враховувати текстуру поряд з ароматом"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Ignore portion size because a good pairing works at any ratio",
+            "ua": "Ігнорувати пропорції, бо вдала пара працює за будь-якого співвідношення"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-068-06",
+      "theoryId": 68,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which dimensions matter when evaluating a food pairing?",
+        "ua": "Які складові важливі для оцінювання поєднання продуктів?"
+      },
+      "explanation": {
+        "en": "Pairing emerges from multiple sensory and cultural dimensions.",
+        "ua": "Поєднання залежить від багатьох сенсорних та культурних чинників."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Taste and aroma",
+            "ua": "Смак і аромат"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Texture and temperature",
+            "ua": "Текстура й температура"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Portion ratios and culinary context",
+            "ua": "Пропорції та кулінарний контекст"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Only shared aroma molecule counts",
+            "ua": "Лише кількість спільних ароматичних молекул"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-068-07",
+      "theoryId": 68,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A dressing contains 120 mL oil and 40 mL vinegar. What is the numerical oil-to-vinegar ratio?",
+        "ua": "Заправка містить 120 мл олії та 40 мл оцту. Яке числове співвідношення олії до оцту?"
+      },
+      "explanation": {
+        "en": "120 ÷ 40 = 3, so the ratio is 3:1.",
+        "ua": "120 ÷ 40 = 3, отже співвідношення 3:1."
+      },
+      "numericInput": {
+        "unit": "ratio",
+        "unitLabel": {
+          "en": "ratio",
+          "ua": "співвідношення"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 3,
+        "tolerance": 0,
+        "unit": "ratio"
+      }
+    }
+  ]
+}

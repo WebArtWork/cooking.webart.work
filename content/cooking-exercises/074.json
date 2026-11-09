@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 74,
+    "title": {
+      "en": "Breading and Batter Coatings",
+      "ua": "Панірування та покриття кляром"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://library.culinary.edu/c.php?g=1428601&p=10664824",
+    "https://www.cdc.gov/food-safety/foods/chicken.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-074-01",
+      "theoryId": 74,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the traditional three-stage breading order?",
+        "ua": "Який класичний порядок триступеневого панірування?"
+      },
+      "explanation": {
+        "en": "Flour dries the surface, egg helps adhesion, crumbs form the outer crust.",
+        "ua": "Борошно підсушує поверхню, яйце допомагає зчепленню, а сухарі утворюють скоринку."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Flour → egg → breadcrumbs",
+            "ua": "Борошно → яйце → сухарі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Breadcrumbs → oil → flour",
+            "ua": "Сухарі → олія → борошно"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Egg → breadcrumbs → flour",
+            "ua": "Яйце → сухарі → борошно"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-074-02",
+      "theoryId": 74,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A wet, heavily dripping ingredient can prevent breading from adhering evenly.",
+        "ua": "Мокрий продукт, з якого стікає вода, може заважати рівномірному прилипанню панірування."
+      },
+      "explanation": {
+        "en": "Surface water interferes with coating and may cause oil splatter.",
+        "ua": "Волога заважає покриттю та може спричиняти розбризкування олії."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-074-03",
+      "theoryId": 74,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each coating component to its function.",
+        "ua": "Поєднайте компонент панірування з його функцією."
+      },
+      "explanation": {
+        "en": "The staged layers work together during frying.",
+        "ua": "Шари послідовно виконують різні функції під час смаження."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Flour",
+            "ua": "Борошно"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Beaten egg",
+            "ua": "Збите яйце"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Breadcrumbs",
+            "ua": "Панірувальні сухарі"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Form textured outer crust",
+            "ua": "Утворити текстуровану зовнішню скоринку"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Help the crumbs stick",
+            "ua": "Допомогти сухарям прилипнути"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Provide a dry base",
+            "ua": "Створити суху основу"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-074-04",
+      "theoryId": 74,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the coating steps for a breaded fish fillet.",
+        "ua": "Упорядкуйте етапи панірування рибного філе."
+      },
+      "explanation": {
+        "en": "A dry base and staged coating improve adhesion.",
+        "ua": "Підсушена основа й послідовні шари покращують прилипання."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Coat lightly with flour, then egg",
+            "ua": "Злегка обкачати в борошні, потім у яйці"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Pat the fillet reasonably dry",
+            "ua": "Промокнути філе від зайвої вологи"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Apply breadcrumbs and cook appropriately",
+            "ua": "Покрити сухарями та приготувати належним чином"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-074-05",
+      "theoryId": 74,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which breading habit increases cross-contamination?",
+        "ua": "Яка звичка під час панірування підвищує ризик перехресного забруднення?"
+      },
+      "explanation": {
+        "en": "Raw-poultry contact can contaminate egg wash with pathogens.",
+        "ua": "Контакт із сирою птицею може забруднити яєчну суміш патогенами."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep raw and cooked utensils separate",
+            "ua": "Тримати інструменти для сирого й готового окремо"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Discard egg wash that contacted raw poultry",
+            "ua": "Викинути яєчну суміш, яка контактувала із сирою птицею"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Reuse raw-chicken egg wash as an uncooked dressing",
+            "ua": "Використати суміш після сирої курятини як сиру заправку"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

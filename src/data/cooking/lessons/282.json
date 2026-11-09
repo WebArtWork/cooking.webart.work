@@ -1,79 +1,90 @@
 {
   "id": 282,
-  "slug": "282-african-culinary-traditions-and-staple-foods",
-  "group": "271",
+  "slug": "282-food-cost-and-recipe-cost-calculation",
+  "group": "277",
   "title": {
-    "en": "African Culinary Traditions and Staple Foods",
-    "ua": "Африканські кулінарні традиції та основні продукти"
+    "en": "Food Cost and Recipe Cost Calculation",
+    "ua": "Собівартість продуктів та розрахунок вартості страв"
   },
   "en": {
-    "short": "African foodways include many distinct regional traditions shaped by local crops, climate, history, and community practice. Studying staple grains, tubers, legumes, sauces, and fermentation helps cooks understand specific dishes without treating the continent as one cuisine.",
+    "short": "Food cost calculation estimates the ingredient expense required to produce a recipe and one sellable serving. It supports pricing, purchasing, and waste control, but ingredient cost alone is not the same as a restaurant’s total operating cost or profit.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Food traditions often center on a staple combined with a soup, stew, relish, or sauce. Staples differ widely: teff in parts of Ethiopia and Eritrea, millet and sorghum across several regions, cassava in parts of Central and West Africa, and rice in many coastal areas."
+        "text": "Cost each ingredient in the form actually consumed in the recipe. Distinguish AP (as purchased) weight and cost from EP (edible portion) after trimming, cooking loss, or draining. Include oils, garnishes, condiments, and sub-recipes rather than counting only the expensive protein."
       },
       {
-        "title": "Scientific / practical principles",
-        "text": "Grinding, soaking, fermenting, steaming, and simmering transform tough or starchy ingredients into different textures. Attiéké from Côte d’Ivoire uses processed cassava that is fermented and steamed; the production knowledge is a living cultural practice."
+        "title": "Calculation",
+        "text": "Recipe ingredient cost = sum of quantities consumed × cost per applicable unit. Food cost per portion = total recipe ingredient cost ÷ number of sellable portions. Food-cost percentage = food cost per portion ÷ selling price × 100%. These definitions must use consistent currency and tax treatment."
       },
       {
         "title": "How to apply it",
-        "text": "Choose one region and one documented dish before selecting ingredients. Learn which grain or tuber supplies structure, how the sauce contributes moisture and flavor, and which preparation steps must be followed safely."
+        "text": "Weigh yields from repeated prep batches, build a cost card with units and source prices, recalculate after supplier or portion changes, and review planned versus actual usage. Keep packaging, labor, energy, rent, tax, and delivery commissions in separate total-cost analysis even if the chosen managerial method allocates them elsewhere."
       },
       {
         "title": "Practical example",
-        "text": "Compare the texture of cooked millet with a carefully sourced attiéké product. Record grain size, moisture, acidity, accompaniments, and why the same sauce behaves differently with each staple."
+        "text": "A batch of vegetable soup costs 480 UAH in ingredients and yields 12 sellable portions. Ingredient food cost is 40 UAH per portion. At a menu selling price of 160 UAH, ingredient food-cost percentage is 40 ÷ 160 × 100 = 25%. This does not imply a 75% net profit margin."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Never describe an ingredient as universally African. Cassava can contain cyanogenic compounds and requires appropriate processing; do not substitute raw cassava into a traditional fermented preparation."
+        "text": "Do not divide by the number of portions you hoped to make when the real yield was smaller. Do not overlook discarded trim, failed batches, or fluctuating purchase costs. A low food-cost percentage can still coexist with a loss-making menu item after labor and overhead."
       },
       {
         "title": "Related theories",
-        "text": "121, 130, 226, 273, 285."
+        "text": "007, 191, 273, 281, 283, 284."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "If 2 kg of whole carrots cost 80 UAH and trimming leaves 1.6 kg edible carrots, the ingredient cost per edible kg is 50 UAH, not 40 UAH. Cost a four-portion dish including actual oil, garnishes and measured cooking yield."
       }
     ]
   },
   "ua": {
-    "short": "Кулінарні традиції Африки різноманітні та залежать від місцевих культур, клімату, історії й спільнот. Вивчення круп, бульбоплодів, бобових, соусів і ферментації допомагає зрозуміти конкретні страви, не зводячи континент до однієї кухні.",
+    "short": "Розрахунок собівартості страв визначає витрати на інгредієнти для рецепта й однієї порції. Він допомагає встановлювати ціни, планувати закупівлі та скорочувати втрати, але вартість інгредієнтів не дорівнює всім витратам ресторану чи його прибутку.",
     "sections": [
       {
         "title": "Головна ідея",
-        "text": "Часто основу трапези складає круп’яна або крохмалиста страва з супом, рагу, соусом чи приправою. Основні продукти різняться: теф у частині Ефіопії та Еритреї, просо і сорго в низці регіонів, маніок у Західній і Центральній Африці, рис — у багатьох прибережних місцевостях."
+        "text": "Оцінюйте вартість кожного інгредієнта в тому вигляді, у якому його фактично використовують у рецепті. Розрізняйте закуплену масу (AP) та їстівний вихід (EP) після очищення, теплової обробки чи зливання рідини. Ураховуйте олію, декор, приправи й напівфабрикати, а не тільки основний дорогий продукт."
       },
       {
-        "title": "Наукові та практичні принципи",
-        "text": "Подрібнення, замочування, ферментація, приготування на парі та тушкування змінюють текстуру зернових і бульбоплодів. Аттьєке з Кот-д’Івуару готують із відповідно обробленого, ферментованого й пропареного маніоку; це також культурна традиція."
+        "title": "Розрахунок",
+        "text": "Вартість рецепта = сума витрачених кількостей × вартість відповідної одиниці кожного продукту. Собівартість інгредієнтів порції = вартість рецепта ÷ кількість придатних до продажу порцій. Food-cost % = собівартість інгредієнтів порції ÷ ціну продажу × 100%. Валюта та підхід до податків мають бути узгодженими."
       },
       {
         "title": "Як застосовувати",
-        "text": "Спочатку оберіть конкретний регіон і задокументовану страву. З’ясуйте, який продукт формує основу, що додає соус і які етапи потребують обов’язкового дотримання правил безпеки."
+        "text": "Зважуйте вихід кількох партій, ведіть калькуляційну картку з одиницями й закупівельними цінами та перераховуйте її після зміни постачальника або розміру порції. Порівнюйте заплановані й фактичні витрати. Упаковку, працю, енергію, оренду, податки та комісії доставки аналізуйте окремо в повній собівартості."
       },
       {
         "title": "Практичний приклад",
-        "text": "Порівняйте варене просо з готовим аттьєке від надійного виробника. Оцініть розмір частинок, вологість, кислотність та те, як одна підлива взаємодіє з різними основами."
+        "text": "Партія овочевого супу коштувала 480 грн за інгредієнтами та дала 12 порцій. Вартість продуктів на порцію становить 40 грн. За ціни в меню 160 грн food-cost становить 40 ÷ 160 × 100 = 25%. Це не означає, що чистий прибуток дорівнює 75%."
       },
       {
         "title": "Поширені помилки та обмеження",
-        "text": "Не називайте один інгредієнт типовим для всієї Африки. Маніок може містити ціаногенні сполуки, тому потребує належної обробки; сирий маніок не замінює правильно підготовлену ферментовану основу."
+        "text": "Не діліть витрати на заплановані порції, якщо фактично вийшло менше. Ураховуйте відходи, невдалі партії та коливання цін. Низький food-cost не гарантує прибутковості після витрат на персонал та утримання закладу."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "121, 130, 226, 273, 285."
+        "text": "007, 191, 273, 281, 283, 284."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Якщо 2 кг неочищеної моркви коштують 80 грн, а після очищення залишається 1,6 кг, ціна їстівного кілограма дорівнює 50 грн, а не 40 грн. Розрахуйте собівартість страви на чотири порції з фактичними витратами олії, декору й урахуванням виходу після теплової обробки."
       }
     ]
   },
   "related": [
-    121,
-    130,
-    226,
+    7,
+    191,
     273,
-    285
+    281,
+    283,
+    284
   ],
   "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://ich.unesco.org/en/RL/skills-related-to-attieke-production-in-cote-d-ivoire-02086",
-    "https://courier.unesco.org/en/articles/food-and-intangible-heritage-flavourful-relationship"
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://foodbuyingguide.fns.usda.gov/appendix/downloadfbg",
+    "https://www.restaurant.org/education-and-resources/resource-library/restaurateurs-use-tech-to-manage-inventory%2C-save-money/",
+    "https://textbooks.restaurant.org/"
   ]
 }

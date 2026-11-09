@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 162,
+    "title": {
+      "en": "White and Brown Stock Preparation",
+      "ua": "Приготування світлих і темних бульйонів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program",
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-162-01",
+      "theoryId": 162,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which preparation is most characteristic of a brown stock?",
+        "ua": "Що найхарактерніше для приготування темного бульйону?"
+      },
+      "explanation": {
+        "en": "Roasting produces browned aromas and color before extraction in water.",
+        "ua": "Запікання створює підрум’янені аромати та колір ще до екстракції у воді."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Roast bones and often aromatics before simmering",
+            "ua": "Попередньо обсмажити або запекти кістки й часто овочі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Avoid all browning and color",
+            "ua": "Уникати будь-якого підрум’янення"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add cold whipped cream as the main liquid",
+            "ua": "Використати холодні збиті вершки як основну рідину"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-162-02",
+      "theoryId": 162,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A white stock is usually prepared to minimize roasted color and flavor.",
+        "ua": "Світлий бульйон зазвичай готують так, щоб мінімізувати підсмажений колір та аромат."
+      },
+      "explanation": {
+        "en": "White stock uses unroasted ingredients and gentle extraction.",
+        "ua": "Для світлого бульйону використовують необсмажені складники та делікатну екстракцію."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-162-03",
+      "theoryId": 162,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match stock actions with outcomes.",
+        "ua": "Поєднайте дії під час приготування бульйону з результатами."
+      },
+      "explanation": {
+        "en": "Stock style comes from early preparation and subsequent extraction.",
+        "ua": "Тип бульйону залежить від попередньої обробки та подальшої екстракції."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Roast bones",
+            "ua": "Запекти кістки"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Skim foam",
+            "ua": "Зняти піну"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Gentle simmer",
+            "ua": "Повільне томління"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Adds browned flavor and color",
+            "ua": "Додає підсмажений смак і колір"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Supports controlled extraction",
+            "ua": "Сприяє контрольованій екстракції"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Removes floating particles",
+            "ua": "Видаляє частинки з поверхні"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-162-04",
+      "theoryId": 162,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A sauce needs deep roasted character. Which stock foundation is the better starting point?",
+        "ua": "Соусу потрібен глибокий підсмажений смак. Яку основу краще обрати?"
+      },
+      "explanation": {
+        "en": "Brown stock already contains the roasted notes typical of deep brown sauces.",
+        "ua": "Темний бульйон уже має підсмажені ноти, властиві насиченим темним соусам."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Brown stock made with properly roasted bones",
+            "ua": "Темний бульйон із належно запечених кісток"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Plain cold water alone",
+            "ua": "Лише холодну воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Unroasted pale stock with no browned ingredients",
+            "ua": "Світлий бульйон без обсмажених складників"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-162-05",
+      "theoryId": 162,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which statement about brown-stock roasting is incorrect?",
+        "ua": "Яке твердження про запікання для темного бульйону неправильне?"
+      },
+      "explanation": {
+        "en": "Burnt flavors are difficult to remove after extraction.",
+        "ua": "Підгорілі аромати важко прибрати після екстракції."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Excessive burning causes bitterness",
+            "ua": "Надмірне підгоряння спричиняє гіркоту"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Burnt black bones guarantee a more refined stock",
+            "ua": "Почорнілі підгорілі кістки гарантують вишуканіший бульйон"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Roasting produces Maillard flavor",
+            "ua": "Запікання створює аромати реакції Майяра"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-162-06",
+      "theoryId": 162,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a simple brown-stock preparation.",
+        "ua": "Упорядкуйте базове приготування темного бульйону."
+      },
+      "explanation": {
+        "en": "Roasting comes before extraction; cooling follows straining.",
+        "ua": "Запікання передує екстракції; після проціджування потрібно охолодити."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Transfer ingredients and deglaze roasting tray",
+            "ua": "Перекласти інгредієнти й деглазувати деко"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Skim, strain and cool promptly",
+            "ua": "Зняти піну, процідити та швидко охолодити"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Roast the bones and aromatics",
+            "ua": "Запекти кістки й ароматичні овочі"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Cover with water and bring to gentle simmer",
+            "ua": "Залити водою та довести до слабкого кипіння"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

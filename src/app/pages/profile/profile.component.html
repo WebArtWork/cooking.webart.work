@@ -27,6 +27,46 @@
 		</div>
 	</div>
 
+	<section class="ds-card gap-3 p-4" aria-labelledby="rank-title">
+		<h2 id="rank-title" class="m-0! font-semibold">{{ 'Your cooking rank' | t }}</h2>
+		<div class="flex items-center gap-3">
+			<span class="text-3xl text-primary"><app-icon [name]="level().rank.icon" /></span>
+			<div>
+				<p class="m-0! font-semibold">{{ level().rank.name | t }}</p>
+				<p class="text-sm text-mute">{{ '{points} points' | t: { points: points() } }}</p>
+			</div>
+		</div>
+		<div
+			class="cook-rank-progress"
+			role="progressbar"
+			[attr.aria-valuenow]="points()"
+			[attr.aria-valuemin]="level().rank.min"
+			[attr.aria-valuemax]="level().next?.min ?? points()"
+			[attr.aria-label]="'Cooking points' | t"
+		>
+			<span [style.width.%]="level().progress * 100"></span>
+		</div>
+		<p class="text-sm text-mute">
+			@if (level().next; as next) {
+				{{ 'Next rank: {rank} at {points} points' | t: { rank: (next.name | t), points: next.min } }}
+			} @else {
+				{{ 'Top rank reached' | t }}
+			}
+		</p>
+		<ul class="cook-rank-list" [attr.aria-label]="'Ranks' | t">
+			@for (rank of ranks; track rank.min; let i = $index) {
+				<li [attr.aria-current]="i === level().index ? 'true' : null" [class.is-locked]="i > level().index">
+					<span class="text-xl"><app-icon [name]="rank.icon" /></span>
+					<span>{{ rank.name | t }}</span>
+					<span>{{ rank.min }}</span>
+				</li>
+			}
+		</ul>
+		<p class="text-sm text-mute">
+			{{ 'Each lesson marked as studied gives {count} points.' | t: { count: perLesson } }}
+		</p>
+	</section>
+
 	@if (isGuest()) {
 		<section class="ds-card gap-3 p-4" aria-labelledby="guest-title">
 			<h2 id="guest-title" class="m-0! font-semibold">{{ 'Keep your progress' | t }}</h2>

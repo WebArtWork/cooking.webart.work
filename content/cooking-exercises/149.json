@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 149,
+    "title": {
+      "en": "Shrimp and Crustacean Cooking",
+      "ua": "Приготування креветок та ракоподібних"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "https://www.foodsafety.gov/blog/safe-selection-and-handling-fish-and-shellfish",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-149-01",
+      "theoryId": 149,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What is a common sign that cooked shrimp have reached their recommended opaque appearance?",
+        "ua": "Яка поширена ознака належної непрозорої текстури готових креветок?"
+      },
+      "explanation": {
+        "en": "FDA advises cooking shrimp until flesh is firm, pearly and opaque.",
+        "ua": "FDA радить готувати креветки до щільного, перламутрового й непрозорого м’яса."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Flesh turns pearly and opaque",
+            "ua": "М’ясо стає перламутровим і непрозорим"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Flesh stays translucent and raw",
+            "ua": "М’ясо залишається прозорим і сирим"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Shells must become black",
+            "ua": "Панцирі обов’язково чорніють"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-149-02",
+      "theoryId": 149,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Overcooked shrimp can become tough or rubbery.",
+        "ua": "Переготовлені креветки можуть ставати жорсткими й гумовими."
+      },
+      "explanation": {
+        "en": "Excess heating contracts muscle proteins and reduces water retention.",
+        "ua": "Надмірний нагрів скорочує м’язові білки та зменшує утримання води."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-149-03",
+      "theoryId": 149,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match crustacean observations to actions.",
+        "ua": "Поєднайте ознаки ракоподібних із діями."
+      },
+      "explanation": {
+        "en": "Texture and odor checks complement safe sourcing and handling.",
+        "ua": "Оцінка текстури й запаху доповнює безпечне походження та зберігання."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Translucent raw shrimp",
+            "ua": "Прозорі сирі креветки"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Pearly opaque shrimp",
+            "ua": "Перламутрові непрозорі креветки"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Ammonia odor",
+            "ua": "Аміачний запах"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Reject the seafood",
+            "ua": "Відмовитися від морепродукту"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Typical cooked appearance",
+            "ua": "Типовий вигляд готової креветки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Cook appropriately",
+            "ua": "Належно приготувати"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-149-04",
+      "theoryId": 149,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Shrimp smell strongly of ammonia when unpacked. What should you do?",
+        "ua": "Креветки сильно пахнуть аміаком після розпакування. Що робити?"
+      },
+      "explanation": {
+        "en": "An ammonia odor is a spoilage warning and should not be masked.",
+        "ua": "Аміачний запах є ознакою можливого псування, його не слід маскувати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard or reject the shrimp",
+            "ua": "Викинути креветки або відмовитися від покупки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add lemon to hide the smell",
+            "ua": "Додати лимон для маскування запаху"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cook longer until the smell disappears",
+            "ua": "Готувати довше, доки запах зникне"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-149-05",
+      "theoryId": 149,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which shrimp safety claim is wrong?",
+        "ua": "Яке твердження про безпечність креветок хибне?"
+      },
+      "explanation": {
+        "en": "Seasoning cannot reverse seafood spoilage.",
+        "ua": "Приправи не усувають псування морепродуктів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep raw seafood cold",
+            "ua": "Зберігати сирі морепродукти охолодженими"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Prevent raw-to-cooked cross-contamination",
+            "ua": "Не допускати забруднення готових страв сирими"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "An off odor can always be removed safely with spices",
+            "ua": "Будь-який сторонній запах можна безпечно прибрати спеціями"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

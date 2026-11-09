@@ -1,0 +1,877 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "vegetables",
+      "name": {
+        "en": "Vegetables",
+        "ua": "Овочі"
+      },
+      "subcategories": [
+        {
+          "id": "vegetables.ready",
+          "name": {
+            "en": "Mixed and frozen vegetables",
+            "ua": "Овочеві суміші та заморожені овочі"
+          }
+        },
+        {
+          "id": "vegetables.roots",
+          "name": {
+            "en": "Roots and tubers",
+            "ua": "Коренеплоди та бульби"
+          }
+        },
+        {
+          "id": "vegetables.alliums",
+          "name": {
+            "en": "Alliums and aromatic vegetables",
+            "ua": "Цибулеві та ароматичні овочі"
+          }
+        },
+        {
+          "id": "vegetables.brassicas",
+          "name": {
+            "en": "Cabbages and crucifers",
+            "ua": "Капустяні овочі"
+          }
+        },
+        {
+          "id": "vegetables.leafy",
+          "name": {
+            "en": "Leafy greens and salads",
+            "ua": "Листові овочі та салати"
+          }
+        },
+        {
+          "id": "vegetables.nightshades",
+          "name": {
+            "en": "Tomatoes, peppers and nightshades",
+            "ua": "Томати, перці та пасльонові"
+          }
+        },
+        {
+          "id": "vegetables.cucurbits",
+          "name": {
+            "en": "Squash, cucumbers and gourds",
+            "ua": "Гарбузові та огіркові"
+          }
+        },
+        {
+          "id": "vegetables.pods",
+          "name": {
+            "en": "Pods, shoots and stalks",
+            "ua": "Стручкові овочі, пагони та стебла"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fruits",
+      "name": {
+        "en": "Fruits and berries",
+        "ua": "Фрукти та ягоди"
+      },
+      "subcategories": [
+        {
+          "id": "fruits.mixes",
+          "name": {
+            "en": "Frozen fruit and berry mixes",
+            "ua": "Заморожені фрукти та ягідні суміші"
+          }
+        },
+        {
+          "id": "fruits.pome",
+          "name": {
+            "en": "Pome and stone fruits",
+            "ua": "Зерняткові та кісточкові фрукти"
+          }
+        },
+        {
+          "id": "fruits.berries",
+          "name": {
+            "en": "Berries and small fruits",
+            "ua": "Ягоди та дрібні фрукти"
+          }
+        },
+        {
+          "id": "fruits.gourds",
+          "name": {
+            "en": "Melons and tropical fruits",
+            "ua": "Баштанні та тропічні фрукти"
+          }
+        },
+        {
+          "id": "fruits.citrus",
+          "name": {
+            "en": "Citrus fruits",
+            "ua": "Цитрусові"
+          }
+        },
+        {
+          "id": "fruits.dried",
+          "name": {
+            "en": "Dried fruits",
+            "ua": "Сухофрукти"
+          }
+        }
+      ]
+    },
+    {
+      "id": "herbs",
+      "name": {
+        "en": "Fresh herbs and aromatics",
+        "ua": "Свіжі трави та ароматична зелень"
+      },
+      "subcategories": [
+        {
+          "id": "herbs.soft",
+          "name": {
+            "en": "Tender herbs",
+            "ua": "Ніжні трави"
+          }
+        },
+        {
+          "id": "herbs.woody",
+          "name": {
+            "en": "Woody herbs and leaves",
+            "ua": "Дерев'янисті трави та листя"
+          }
+        },
+        {
+          "id": "herbs.aromaticroots",
+          "name": {
+            "en": "Aromatic roots and stems",
+            "ua": "Ароматичні кореневища та стебла"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spices",
+      "name": {
+        "en": "Spices and dry seasonings",
+        "ua": "Спеції та сухі приправи"
+      },
+      "subcategories": [
+        {
+          "id": "spices.seeds",
+          "name": {
+            "en": "Whole seeds and berries",
+            "ua": "Ціле насіння та ягоди спецій"
+          }
+        },
+        {
+          "id": "spices.ground",
+          "name": {
+            "en": "Ground spices and powders",
+            "ua": "Мелені спеції та порошки"
+          }
+        },
+        {
+          "id": "spices.driedherbs",
+          "name": {
+            "en": "Dried herbs and leaves",
+            "ua": "Сушені трави та листя"
+          }
+        },
+        {
+          "id": "spices.blends",
+          "name": {
+            "en": "Spice and seasoning blends",
+            "ua": "Суміші спецій та приправ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grains",
+      "name": {
+        "en": "Grains, cereals and pasta",
+        "ua": "Зернові, крупи та паста"
+      },
+      "subcategories": [
+        {
+          "id": "grains.wholegrains",
+          "name": {
+            "en": "Whole grains and cereals",
+            "ua": "Цільне зерно та злаки"
+          }
+        },
+        {
+          "id": "grains.rice",
+          "name": {
+            "en": "Rice varieties",
+            "ua": "Сорти рису"
+          }
+        },
+        {
+          "id": "grains.pasta",
+          "name": {
+            "en": "Pasta and noodles",
+            "ua": "Макаронні вироби та локшина"
+          }
+        }
+      ]
+    },
+    {
+      "id": "legumes",
+      "name": {
+        "en": "Beans, legumes and soy",
+        "ua": "Бобові та соєві продукти"
+      },
+      "subcategories": [
+        {
+          "id": "legumes.beans",
+          "name": {
+            "en": "Beans and peas",
+            "ua": "Квасоля та горох"
+          }
+        },
+        {
+          "id": "legumes.lentils",
+          "name": {
+            "en": "Lentils",
+            "ua": "Сочевиця"
+          }
+        },
+        {
+          "id": "legumes.soy",
+          "name": {
+            "en": "Soy and legume derivatives",
+            "ua": "Соя та похідні бобові продукти"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nuts",
+      "name": {
+        "en": "Nuts, seeds and nut products",
+        "ua": "Горіхи, насіння та горіхові продукти"
+      },
+      "subcategories": [
+        {
+          "id": "nuts.nuts",
+          "name": {
+            "en": "Tree nuts and peanuts",
+            "ua": "Деревні горіхи та арахіс"
+          }
+        },
+        {
+          "id": "nuts.seeds",
+          "name": {
+            "en": "Edible seeds",
+            "ua": "Їстівне насіння"
+          }
+        },
+        {
+          "id": "nuts.butters",
+          "name": {
+            "en": "Nut and seed pastes",
+            "ua": "Горіхові та насіннєві пасти"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fungi",
+      "name": {
+        "en": "Mushrooms, truffles and sea vegetables",
+        "ua": "Гриби, трюфелі та морські рослини"
+      },
+      "subcategories": [
+        {
+          "id": "fungi.mixes",
+          "name": {
+            "en": "Mushroom mixes",
+            "ua": "Грибні суміші"
+          }
+        },
+        {
+          "id": "fungi.mushrooms",
+          "name": {
+            "en": "Fresh mushrooms",
+            "ua": "Свіжі гриби"
+          }
+        },
+        {
+          "id": "fungi.driedmushrooms",
+          "name": {
+            "en": "Dried and preserved mushrooms",
+            "ua": "Сушені та консервовані гриби"
+          }
+        },
+        {
+          "id": "fungi.seaweed",
+          "name": {
+            "en": "Seaweed and marine plants",
+            "ua": "Водорості та морські рослини"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": {
+        "en": "Meat and offal",
+        "ua": "М'ясо та субпродукти"
+      },
+      "subcategories": [
+        {
+          "id": "meat.generic",
+          "name": {
+            "en": "General and mixed meats",
+            "ua": "Основні види м’яса та змішаний фарш"
+          }
+        },
+        {
+          "id": "meat.beef",
+          "name": {
+            "en": "Beef and veal",
+            "ua": "Яловичина та телятина"
+          }
+        },
+        {
+          "id": "meat.pork",
+          "name": {
+            "en": "Pork",
+            "ua": "Свинина"
+          }
+        },
+        {
+          "id": "meat.lamb",
+          "name": {
+            "en": "Lamb, mutton and goat",
+            "ua": "Ягнятина, баранина та козлятина"
+          }
+        },
+        {
+          "id": "meat.other",
+          "name": {
+            "en": "Other red meats and game",
+            "ua": "Інше червоне м'ясо та дичина"
+          }
+        },
+        {
+          "id": "meat.offal",
+          "name": {
+            "en": "Offal and organ meats",
+            "ua": "Субпродукти та органи"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poultry",
+      "name": {
+        "en": "Poultry and game birds",
+        "ua": "Птиця та перната дичина"
+      },
+      "subcategories": [
+        {
+          "id": "poultry.generic",
+          "name": {
+            "en": "General poultry",
+            "ua": "Основні види птиці"
+          }
+        },
+        {
+          "id": "poultry.chicken",
+          "name": {
+            "en": "Chicken",
+            "ua": "Курятина"
+          }
+        },
+        {
+          "id": "poultry.turkey",
+          "name": {
+            "en": "Turkey",
+            "ua": "Індичатина"
+          }
+        },
+        {
+          "id": "poultry.otherbirds",
+          "name": {
+            "en": "Duck, goose and game birds",
+            "ua": "Качка, гуска та перната дичина"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": {
+        "en": "Fish, roe and fish products",
+        "ua": "Риба, ікра та рибні продукти"
+      },
+      "subcategories": [
+        {
+          "id": "fish.generic",
+          "name": {
+            "en": "Generic fish",
+            "ua": "Загальна категорія риби"
+          }
+        },
+        {
+          "id": "fish.freshwater",
+          "name": {
+            "en": "Freshwater fish",
+            "ua": "Прісноводна риба"
+          }
+        },
+        {
+          "id": "fish.marine",
+          "name": {
+            "en": "Saltwater fish",
+            "ua": "Морська риба"
+          }
+        },
+        {
+          "id": "fish.preserved",
+          "name": {
+            "en": "Cured and canned fish",
+            "ua": "Солона, копчена та консервована риба"
+          }
+        },
+        {
+          "id": "fish.roe",
+          "name": {
+            "en": "Roe and fish preparations",
+            "ua": "Ікра та рибні заготовки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "name": {
+        "en": "Shellfish and other seafood",
+        "ua": "Молюски, ракоподібні та інші морепродукти"
+      },
+      "subcategories": [
+        {
+          "id": "seafood.mixes",
+          "name": {
+            "en": "Seafood mixes",
+            "ua": "Суміші морепродуктів"
+          }
+        },
+        {
+          "id": "seafood.crustaceans",
+          "name": {
+            "en": "Crustaceans",
+            "ua": "Ракоподібні"
+          }
+        },
+        {
+          "id": "seafood.bivalves",
+          "name": {
+            "en": "Bivalves",
+            "ua": "Двостулкові молюски"
+          }
+        },
+        {
+          "id": "seafood.cephalopods",
+          "name": {
+            "en": "Cephalopods and other molluscs",
+            "ua": "Головоногі та інші молюски"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": {
+        "en": "Dairy, eggs and dairy alternatives",
+        "ua": "Молочні продукти, яйця та альтернативи"
+      },
+      "subcategories": [
+        {
+          "id": "dairy.milk",
+          "name": {
+            "en": "Milk and cream",
+            "ua": "Молоко та вершки"
+          }
+        },
+        {
+          "id": "dairy.fermented",
+          "name": {
+            "en": "Yogurt and cultured dairy",
+            "ua": "Йогурти та кисломолочні продукти"
+          }
+        },
+        {
+          "id": "dairy.cheese",
+          "name": {
+            "en": "Cheeses",
+            "ua": "Сири"
+          }
+        },
+        {
+          "id": "dairy.eggs",
+          "name": {
+            "en": "Eggs and egg products",
+            "ua": "Яйця та яєчні продукти"
+          }
+        },
+        {
+          "id": "dairy.alternatives",
+          "name": {
+            "en": "Plant-based milks and cream",
+            "ua": "Рослинне молоко та вершки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fats",
+      "name": {
+        "en": "Oils and cooking fats",
+        "ua": "Олії та кулінарні жири"
+      },
+      "subcategories": [
+        {
+          "id": "fats.plant",
+          "name": {
+            "en": "Plant oils",
+            "ua": "Рослинні олії"
+          }
+        },
+        {
+          "id": "fats.animal",
+          "name": {
+            "en": "Animal fats and solid fats",
+            "ua": "Тваринні та тверді жири"
+          }
+        }
+      ]
+    },
+    {
+      "id": "baking",
+      "name": {
+        "en": "Flours, starches and baking aids",
+        "ua": "Борошно, крохмалі та пекарські інгредієнти"
+      },
+      "subcategories": [
+        {
+          "id": "baking.flours",
+          "name": {
+            "en": "Wheat and gluten flours",
+            "ua": "Пшеничне та глютеновмісне борошно"
+          }
+        },
+        {
+          "id": "baking.nongluten",
+          "name": {
+            "en": "Gluten-free flours",
+            "ua": "Безглютенове борошно"
+          }
+        },
+        {
+          "id": "baking.starches",
+          "name": {
+            "en": "Starches and binders",
+            "ua": "Крохмалі та зв'язувальні речовини"
+          }
+        },
+        {
+          "id": "baking.leavening",
+          "name": {
+            "en": "Leavening and dough improvers",
+            "ua": "Розпушувачі та поліпшувачі тіста"
+          }
+        },
+        {
+          "id": "baking.otherbaking",
+          "name": {
+            "en": "Other baking components",
+            "ua": "Інші інгредієнти для випічки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sugars",
+      "name": {
+        "en": "Sugars, chocolate and confectionery",
+        "ua": "Цукри, шоколад та кондитерські інгредієнти"
+      },
+      "subcategories": [
+        {
+          "id": "sugars.sugars",
+          "name": {
+            "en": "Sugars and syrups",
+            "ua": "Цукор та сиропи"
+          }
+        },
+        {
+          "id": "sugars.sweeteners",
+          "name": {
+            "en": "Non-sugar sweeteners",
+            "ua": "Нецукрові підсолоджувачі"
+          }
+        },
+        {
+          "id": "sugars.chocolate",
+          "name": {
+            "en": "Cocoa and chocolate",
+            "ua": "Какао та шоколад"
+          }
+        },
+        {
+          "id": "sugars.flavorings",
+          "name": {
+            "en": "Sweet flavorings and inclusions",
+            "ua": "Солодкі ароматизатори та добавки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": {
+        "en": "Sauces, condiments and pastes",
+        "ua": "Соуси, приправи та пасти"
+      },
+      "subcategories": [
+        {
+          "id": "sauces.vinegar",
+          "name": {
+            "en": "Vinegars and acidic condiments",
+            "ua": "Оцет та кислі приправи"
+          }
+        },
+        {
+          "id": "sauces.salts",
+          "name": {
+            "en": "Salts and savory enhancers",
+            "ua": "Сіль та підсилювачі смаку"
+          }
+        },
+        {
+          "id": "sauces.asian",
+          "name": {
+            "en": "Asian sauces and pastes",
+            "ua": "Азійські соуси та пасти"
+          }
+        },
+        {
+          "id": "sauces.european",
+          "name": {
+            "en": "European and Mediterranean condiments",
+            "ua": "Європейські та середземноморські соуси"
+          }
+        },
+        {
+          "id": "sauces.americas",
+          "name": {
+            "en": "Americas and Caribbean condiments",
+            "ua": "Соуси та приправи Америки й Карибів"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pickles",
+      "name": {
+        "en": "Fermented and pickled ingredients",
+        "ua": "Ферментовані та мариновані продукти"
+      },
+      "subcategories": [
+        {
+          "id": "pickles.vegetables",
+          "name": {
+            "en": "Pickled vegetables and fruits",
+            "ua": "Мариновані овочі та фрукти"
+          }
+        },
+        {
+          "id": "pickles.olives",
+          "name": {
+            "en": "Olives and capers",
+            "ua": "Оливки та каперси"
+          }
+        },
+        {
+          "id": "pickles.fermented",
+          "name": {
+            "en": "Fermented specialties",
+            "ua": "Ферментовані делікатеси"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cured",
+      "name": {
+        "en": "Cured meats, sausages and meat products",
+        "ua": "В'ялене м'ясо, ковбаси та м'ясні вироби"
+      },
+      "subcategories": [
+        {
+          "id": "cured.sausages",
+          "name": {
+            "en": "Sausages and ground meat products",
+            "ua": "Ковбаси та вироби з фаршу"
+          }
+        },
+        {
+          "id": "cured.cured",
+          "name": {
+            "en": "Bacon, ham and cured cuts",
+            "ua": "Бекон, шинка та в'ялене м'ясо"
+          }
+        }
+      ]
+    },
+    {
+      "id": "liquids",
+      "name": {
+        "en": "Cooking liquids, stocks and beverages",
+        "ua": "Кулінарні рідини, бульйони та напої"
+      },
+      "subcategories": [
+        {
+          "id": "liquids.waters",
+          "name": {
+            "en": "Water and stocks",
+            "ua": "Вода та бульйони"
+          }
+        },
+        {
+          "id": "liquids.juice",
+          "name": {
+            "en": "Juices and fruit liquids",
+            "ua": "Соки та фруктові рідини"
+          }
+        },
+        {
+          "id": "liquids.tea",
+          "name": {
+            "en": "Tea, coffee and infusions",
+            "ua": "Чай, кава та настої"
+          }
+        },
+        {
+          "id": "liquids.fermentedbeverages",
+          "name": {
+            "en": "Fermented beverages for recipes",
+            "ua": "Ферментовані напої для рецептів"
+          }
+        }
+      ]
+    },
+    {
+      "id": "regional",
+      "name": {
+        "en": "Regional specialty ingredients",
+        "ua": "Регіональні спеціалізовані інгредієнти"
+      },
+      "subcategories": [
+        {
+          "id": "regional.ukrainian",
+          "name": {
+            "en": "Ukrainian and Eastern European staples",
+            "ua": "Українські та східноєвропейські продукти"
+          }
+        },
+        {
+          "id": "regional.mediterranean",
+          "name": {
+            "en": "Mediterranean specialty ingredients",
+            "ua": "Середземноморські спеціалізовані продукти"
+          }
+        },
+        {
+          "id": "regional.african",
+          "name": {
+            "en": "African specialty ingredients",
+            "ua": "Африканські спеціалізовані продукти"
+          }
+        },
+        {
+          "id": "regional.eastasia",
+          "name": {
+            "en": "East Asian specialty ingredients",
+            "ua": "Східноазійські спеціалізовані продукти"
+          }
+        },
+        {
+          "id": "regional.americas",
+          "name": {
+            "en": "Latin American specialty ingredients",
+            "ua": "Латиноамериканські спеціалізовані продукти"
+          }
+        },
+        {
+          "id": "regional.indian",
+          "name": {
+            "en": "South Asian specialty ingredients",
+            "ua": "Південноазійські спеціалізовані продукти"
+          }
+        }
+      ]
+    },
+    {
+      "id": "breads",
+      "name": {
+        "en": "Bread, baked goods and prepared dough",
+        "ua": "Хліб, хлібобулочні вироби та готове тісто"
+      },
+      "subcategories": [
+        {
+          "id": "breads.loaves",
+          "name": {
+            "en": "Breads and loaves",
+            "ua": "Хліб та буханці"
+          }
+        },
+        {
+          "id": "breads.smallbreads",
+          "name": {
+            "en": "Rolls, buns and pastries",
+            "ua": "Булочки, бублики та випічка"
+          }
+        },
+        {
+          "id": "breads.filled",
+          "name": {
+            "en": "Dumplings and prepared pasta",
+            "ua": "Пельмені, вареники та паста з начинкою"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pantry",
+      "name": {
+        "en": "Canned, jarred and pantry staples",
+        "ua": "Консервовані та фасовані продукти"
+      },
+      "subcategories": [
+        {
+          "id": "pantry.cannedvegetables",
+          "name": {
+            "en": "Canned vegetables and legumes",
+            "ua": "Консервовані овочі та бобові"
+          }
+        },
+        {
+          "id": "pantry.fruitpreserves",
+          "name": {
+            "en": "Canned fruit and fruit products",
+            "ua": "Консервовані фрукти та фруктові продукти"
+          }
+        },
+        {
+          "id": "pantry.miscpantry",
+          "name": {
+            "en": "Other ready pantry ingredients",
+            "ua": "Інші готові продукти"
+          }
+        }
+      ]
+    }
+  ]
+}
