@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 262,
+    "title": {
+      "en": "Recipe Structure and Ingredient Roles",
+      "ua": "Структура рецепта та функції інгредієнтів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/32466920/",
+    "https://www.cacfp.org/2024/07/02/recipe-standardization-guide/",
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-262-01",
+      "theoryId": 262,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which information is essential for a reproducible recipe?",
+        "ua": "Яка інформація потрібна для відтворюваного рецепта?"
+      },
+      "explanation": {
+        "en": "A recipe is a production specification, not only an ingredient list.",
+        "ua": "Рецепт — це виробнича інструкція, а не лише перелік продуктів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only the total price of groceries",
+            "ua": "Лише загальна вартість продуктів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only a photograph and an imaginative name",
+            "ua": "Лише фотографія та вигадлива назва"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Ingredient amounts, preparation states, steps, yield and doneness cues",
+            "ua": "Кількості й стан інгредієнтів, етапи, вихід та ознаки готовності"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-262-02",
+      "theoryId": 262,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Replacing an egg in cake batter is always only a flavor substitution.",
+        "ua": "Заміна яйця в тісті для кексу завжди стосується лише смаку."
+      },
+      "explanation": {
+        "en": "Eggs can add binding, aeration, emulsification and moisture.",
+        "ua": "Яйця можуть забезпечувати зв’язування, аерацію, емульгування та вологу."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-262-03",
+      "theoryId": 262,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match recipe components to their purpose.",
+        "ua": "Поєднайте складники рецепта з їхньою метою."
+      },
+      "explanation": {
+        "en": "Ambiguous instructions prevent dependable execution.",
+        "ua": "Неоднозначні інструкції заважають стабільному результату."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Yield",
+            "ua": "Вихід"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Preparation state",
+            "ua": "Стан підготовки"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Doneness cue",
+            "ua": "Ознака готовності"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Clarifies chopped, peeled or drained ingredients",
+            "ua": "Уточнює нарізані, очищені чи відціджені інгредієнти"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Observable target for deciding when to stop cooking",
+            "ua": "Спостережуваний критерій завершення приготування"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Expected amount of finished food",
+            "ua": "Очікувана кількість готової їжі"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-262-04",
+      "theoryId": 262,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe says “add two carrots” without size or preparation state. How should it be improved?",
+        "ua": "Рецепт говорить «додати дві морквини» без розміру та стану підготовки. Як його покращити?"
+      },
+      "explanation": {
+        "en": "Mass and cut style reduce variation in cooking time and output.",
+        "ua": "Маса та спосіб нарізання зменшують розбіжності в часі приготування й виході."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Replace the ingredient with “some orange food”",
+            "ua": "Замінити інгредієнт на «щось помаранчеве»"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Remove all preparation instructions",
+            "ua": "Прибрати всі інструкції з підготовки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Specify approximate prepared weight and cut size",
+            "ua": "Указати приблизну підготовлену масу й розмір нарізання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-262-05",
+      "theoryId": 262,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which functions can ingredients perform in recipes?",
+        "ua": "Які функції можуть виконувати інгредієнти в рецептах?"
+      },
+      "explanation": {
+        "en": "Ingredients often have more than one role at the same time.",
+        "ua": "Інгредієнти часто мають кілька функцій одночасно."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Moisture and texture",
+            "ua": "Вологість та текстура"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Flavor and aroma",
+            "ua": "Смак та аромат"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Structure and binding",
+            "ua": "Структура та зв’язування"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Only decoration, never chemical function",
+            "ua": "Лише декор, а не хімічна функція"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c",
+          "b",
+          "a"
+        ]
+      }
+    }
+  ]
+}

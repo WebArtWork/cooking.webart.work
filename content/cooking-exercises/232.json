@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 232,
+    "title": {
+      "en": "Nutrient Retention During Cooking",
+      "ua": "Збереження поживних речовин під час приготування"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations.aspx"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-232-01",
+      "theoryId": 232,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which technique can reduce loss of some water-soluble vitamins from vegetables?",
+        "ua": "Який спосіб може зменшити втрату деяких водорозчинних вітамінів з овочів?"
+      },
+      "explanation": {
+        "en": "Less leaching and shorter heat exposure can help retain some sensitive nutrients.",
+        "ua": "Менше вимивання у воду й коротша теплова обробка можуть зберегти частину чутливих нутрієнтів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Boiling for hours then discarding the water",
+            "ua": "Варіння протягом годин із подальшим зливанням води"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Repeatedly reheating until soft",
+            "ua": "Багаторазове розігрівання до розм’якшення"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Brief steaming instead of prolonged boiling in lots of water",
+            "ua": "Коротке приготування на парі замість тривалого варіння у великій кількості води"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-232-02",
+      "theoryId": 232,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Cooking always reduces the bioavailability of every nutrient.",
+        "ua": "Приготування завжди зменшує біодоступність усіх поживних речовин."
+      },
+      "explanation": {
+        "en": "Cooking can reduce some nutrients while improving accessibility of others.",
+        "ua": "Приготування може зменшувати вміст одних речовин і покращувати доступність інших."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-232-03",
+      "theoryId": 232,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match cooking effects to nutrient outcomes.",
+        "ua": "Поєднайте впливи приготування з наслідками для нутрієнтів."
+      },
+      "explanation": {
+        "en": "Nutrient retention is method- and nutrient-specific.",
+        "ua": "Збереження поживних речовин залежить від методу й конкретного нутрієнта."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Long boiling with water discarded",
+            "ua": "Тривале варіння зі зливанням води"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Heating tomatoes",
+            "ua": "Нагрівання томатів"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Short steaming",
+            "ua": "Коротке приготування на парі"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Can reduce nutrient leaching",
+            "ua": "Може зменшувати вимивання нутрієнтів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Can leach water-soluble nutrients",
+            "ua": "Може вимивати водорозчинні речовини"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Can improve accessibility of some carotenoids",
+            "ua": "Може підвищувати доступність деяких каротиноїдів"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-232-04",
+      "theoryId": 232,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You are cooking broccoli for a nutrient-conscious menu. Which method is a reasonable first test?",
+        "ua": "Ви готуєте броколі для меню з увагою до харчової цінності. Який спосіб варто спробувати насамперед?"
+      },
+      "explanation": {
+        "en": "Appropriate short cooking can balance palatability and retention of some vitamins.",
+        "ua": "Належна коротка обробка може поєднувати смак і збереження частини вітамінів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Brief steaming to a pleasant texture",
+            "ua": "Коротко приготувати на парі до приємної текстури"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Cook repeatedly until it loses all structure",
+            "ua": "Нагрівати багаторазово до повної втрати структури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Boil for an hour and discard all liquid",
+            "ua": "Варити годину й злити всю рідину"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-232-05",
+      "theoryId": 232,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a simple nutrient-retention comparison experiment.",
+        "ua": "Упорядкуйте простий дослід порівняння збереження поживних речовин."
+      },
+      "explanation": {
+        "en": "Observable texture is not a direct laboratory measurement of vitamins.",
+        "ua": "Видима текстура не є лабораторним вимірюванням вмісту вітамінів."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Choose two controlled cooking methods",
+            "ua": "Обрати два контрольовані способи приготування"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Compare results without claiming direct vitamin measurements",
+            "ua": "Порівняти результат, не заявляючи про безпосереднє вимірювання вітамінів"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Select equal portions of one vegetable",
+            "ua": "Відібрати однакові порції одного овочу"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Record time, water use, and visible changes",
+            "ua": "Записати час, кількість води та видимі зміни"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

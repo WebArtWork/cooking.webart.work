@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 151,
+    "title": {
+      "en": "Squid, Octopus, and Cephalopod Texture",
+      "ua": "Кальмари, восьминоги та текстура головоногих молюсків"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "https://www.foodsafety.gov/blog/safe-selection-and-handling-fish-and-shellfish"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-151-01",
+      "theoryId": 151,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why can squid become rubbery after prolonged moderate cooking?",
+        "ua": "Чому кальмар може ставати гумовим після тривалого помірного нагрівання?"
+      },
+      "explanation": {
+        "en": "Time and temperature jointly change protein contraction, moisture, and tenderness.",
+        "ua": "Час і температура разом впливають на скорочення білків, вологу та ніжність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Its proteins remain completely unchanged by heat",
+            "ua": "Його білки зовсім не змінюються під час нагрівання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Muscle proteins contract and lose water before sufficient connective-tissue softening",
+            "ua": "М’язові білки стискаються й втрачають воду до достатнього розм’якшення сполучної тканини"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It always absorbs extra starch from the pan",
+            "ua": "Він завжди поглинає крохмаль зі сковороди"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-151-02",
+      "theoryId": 151,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Thin squid rings and thick octopus arms always need identical cooking times.",
+        "ua": "Тонкі кільця кальмара та товсті щупальця восьминога завжди потребують однакового часу приготування."
+      },
+      "explanation": {
+        "en": "Thickness and connective-tissue structure change heating and tenderization.",
+        "ua": "Товщина та будова сполучної тканини змінюють прогрівання й розм’якшення."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-151-03",
+      "theoryId": 151,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each cephalopod cooking situation to its best principle.",
+        "ua": "Поєднайте ситуацію приготування головоногих із відповідним принципом."
+      },
+      "explanation": {
+        "en": "Different geometries and culinary goals require different cooking plans.",
+        "ua": "Різна товщина та кулінарні цілі потребують різних планів приготування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Thin squid rings",
+            "ua": "Тонкі кільця кальмара"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Thick octopus arm",
+            "ua": "Товсте щупальце восьминога"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Seafood safety",
+            "ua": "Безпечність морепродуктів"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Verify approved temperature and handling controls",
+            "ua": "Перевірити нормативні температури та умови поводження"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "May need longer controlled moist cooking",
+            "ua": "Може потребувати тривалого контрольованого вологого нагрівання"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Brief controlled cooking",
+            "ua": "Коротке контрольоване приготування"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-151-04",
+      "theoryId": 151,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Squid rings are steaming in their own moisture instead of browning. What helps?",
+        "ua": "Кільця кальмара виділяють воду й паруються замість підрум’янення. Що допоможе?"
+      },
+      "explanation": {
+        "en": "Surface moisture and crowding lower contact temperature and inhibit browning.",
+        "ua": "Волога на поверхні та переповнення сковороди знижують температуру контакту й заважають підрум’яненню."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Leave wet rings standing on the hot pan without control",
+            "ua": "Залишити мокрі кільця на гарячій сковороді без контролю"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Crowd more squid into the same pan",
+            "ua": "Покласти ще більше кальмарів на ту саму сковороду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Dry the rings, use a properly heated pan, and cook small batches",
+            "ua": "Обсушити кільця, добре розігріти сковороду й готувати невеликими партіями"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-151-05",
+      "theoryId": 151,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which cephalopod instruction is incorrect?",
+        "ua": "Яка порада щодо головоногих неправильна?"
+      },
+      "explanation": {
+        "en": "Texture alone cannot establish microbiological safety.",
+        "ua": "Сама текстура не підтверджує мікробіологічної безпечності."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Control both time and temperature",
+            "ua": "Контролювати час і температуру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Identify the cut and its thickness",
+            "ua": "Визначити тип частини та її товщину"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use rubbery texture as proof that seafood is pathogen-free",
+            "ua": "Вважати гумову текстуру доказом відсутності патогенів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

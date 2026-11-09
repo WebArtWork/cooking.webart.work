@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 20,
+    "title": {
+      "en": "Refrigeration and Storage Temperature Control",
+      "ua": "Охолодження та температурний контроль зберігання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "https://www.cdc.gov/food-safety/prevention/",
+    "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-020-01",
+      "theoryId": 20,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What refrigerator temperature does US home guidance recommend?",
+        "ua": "Яку температуру холодильника рекомендують для дому настанови США?"
+      },
+      "explanation": {
+        "en": "A refrigerator thermometer confirms that perishable food stays in a suitably cold environment.",
+        "ua": "Термометр холодильника підтверджує належну низьку температуру зберігання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4°C (40°F) or below",
+            "ua": "4°C (40°F) або нижче"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "12°C",
+            "ua": "12°C"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "20°C",
+            "ua": "20°C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "45°C",
+            "ua": "45°C"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-020-02",
+      "theoryId": 20,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which storage practices are helpful?",
+        "ua": "Які практики зберігання є належними?"
+      },
+      "explanation": {
+        "en": "Proper cold temperature, placement, and air flow support safety.",
+        "ua": "Належна температура, розміщення й рух повітря підтримують безпечність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use a fridge thermometer",
+            "ua": "Користуватися термометром холодильника"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Keep raw poultry in a leak-proof container below ready-to-eat foods",
+            "ua": "Тримати сиру птицю в герметичному контейнері нижче готової їжі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Allow air circulation rather than overstuffing",
+            "ua": "Не переповнювати холодильник, забезпечуючи циркуляцію повітря"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Leave the door ajar overnight",
+            "ua": "Лишати дверцята прочиненими на ніч"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-020-03",
+      "theoryId": 20,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Freezing reliably destroys all harmful foodborne microorganisms.",
+        "ua": "Заморожування гарантовано знищує всі небезпечні харчові мікроорганізми."
+      },
+      "explanation": {
+        "en": "Freezing halts or slows growth but many organisms survive and can multiply after thawing.",
+        "ua": "Заморожування зупиняє або уповільнює ріст, але багато мікроорганізмів виживають і можуть розмножуватися після відтавання."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-020-04",
+      "theoryId": 20,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Match the storage condition to its main purpose.",
+        "ua": "Поєднайте умови зберігання з основною метою."
+      },
+      "explanation": {
+        "en": "Cold storage is only one part of safe handling.",
+        "ua": "Холодильне зберігання — лише одна складова безпечної роботи з їжею."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Refrigeration",
+            "ua": "Охолодження"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Freezing",
+            "ua": "Заморожування"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Leak-proof raw meat container",
+            "ua": "Герметичний контейнер для сирого м’яса"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Limit dripping and cross-contamination",
+            "ua": "Обмежувати протікання та перехресне забруднення"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Longer preservation by freezing water",
+            "ua": "Довше збереження через замерзання води"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Slow microbial growth",
+            "ua": "Сповільнювати ріст мікроорганізмів"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-020-05",
+      "theoryId": 20,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A refrigerator thermometer reads 9°C. By how many degrees must it cool to reach 4°C?",
+        "ua": "Термометр холодильника показує 9°C. На скільки градусів потрібно знизити температуру до 4°C?"
+      },
+      "explanation": {
+        "en": "9 − 4 = 5°C; verify actual safe temperature after adjustment.",
+        "ua": "9 − 4 = 5°C; після налаштування перевірте фактичну безпечну температуру."
+      },
+      "numericInput": {
+        "unit": "°C",
+        "allowDecimals": false,
+        "unitLabel": {
+          "en": "degrees Celsius",
+          "ua": "градусів Цельсія"
+        }
+      },
+      "answer": {
+        "value": 5,
+        "tolerance": 0,
+        "unit": "°C"
+      }
+    },
+    {
+      "id": "cooking-020-06",
+      "theoryId": 20,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Raw poultry is stored above a ready-to-eat cake. What is the correct change?",
+        "ua": "Сира птиця зберігається над готовим тортом. Що змінити?"
+      },
+      "explanation": {
+        "en": "Separation prevents raw juices from dripping onto finished food.",
+        "ua": "Роздільне зберігання запобігає потраплянню соків сирого м’яса на готову їжу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Put poultry in a sealed tray below ready-to-eat foods",
+            "ua": "Поставити птицю в герметичному лотку нижче готових продуктів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Keep as it is if cold enough",
+            "ua": "Залишити, якщо достатньо холодно"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wrap the cake in a paper napkin only",
+            "ua": "Загорнути торт лише у паперову серветку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Increase fridge temperature",
+            "ua": "Підвищити температуру холодильника"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 227,
+    "title": {
+      "en": "Macronutrients: Proteins, Fats, and Carbohydrates",
+      "ua": "Макронутрієнти: білки, жири та вуглеводи"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.nal.usda.gov/programs/fnic",
+    "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-227-01",
+      "theoryId": 227,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which macronutrient generally provides about 9 kcal per gram?",
+        "ua": "Який макронутрієнт зазвичай дає приблизно 9 ккал на грам?"
+      },
+      "explanation": {
+        "en": "Typical food-energy factors are 9 kcal/g for fat and 4 kcal/g for protein or available carbohydrates.",
+        "ua": "Типові енергетичні коефіцієнти: 9 ккал/г для жиру та 4 ккал/г для білка або засвоюваних вуглеводів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Available carbohydrate",
+            "ua": "Засвоювані вуглеводи"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Fat",
+            "ua": "Жир"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Protein",
+            "ua": "Білок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-227-02",
+      "theoryId": 227,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Protein and carbohydrate both commonly contribute approximately 4 kcal per gram.",
+        "ua": "Білок і вуглеводи зазвичай дають приблизно по 4 ккал на грам."
+      },
+      "explanation": {
+        "en": "These are standard approximations for nutrition calculations.",
+        "ua": "Це стандартні наближені значення для розрахунків харчової цінності."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-227-03",
+      "theoryId": 227,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match macronutrients to their primary functions.",
+        "ua": "Поєднайте макронутрієнти з основними функціями."
+      },
+      "explanation": {
+        "en": "All three macronutrients contribute to normal physiology in different ways.",
+        "ua": "Усі три макронутрієнти виконують різні функції в організмі."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Protein",
+            "ua": "Білок"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Fat",
+            "ua": "Жир"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Carbohydrates",
+            "ua": "Вуглеводи"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Energy storage and absorption of fat-soluble vitamins",
+            "ua": "Запасання енергії та засвоєння жиророзчинних вітамінів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Tissue maintenance and enzymes",
+            "ua": "Підтримка тканин та ферменти"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Common source of metabolic energy",
+            "ua": "Поширене джерело метаболічної енергії"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-227-04",
+      "theoryId": 227,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A meal contains 20 g protein, 30 g available carbohydrate, and 10 g fat. What is the approximate total energy?",
+        "ua": "Страва містить 20 г білка, 30 г засвоюваних вуглеводів та 10 г жиру. Яка приблизна енергетична цінність?"
+      },
+      "explanation": {
+        "en": "20×4 + 30×4 + 10×9 = 290 kcal.",
+        "ua": "20×4 + 30×4 + 10×9 = 290 ккал."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "290 kcal",
+            "ua": "290 ккал"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "410 kcal",
+            "ua": "410 ккал"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "200 kcal",
+            "ua": "200 ккал"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-227-05",
+      "theoryId": 227,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "How many kcal are provided by 15 g of fat using 9 kcal per gram?",
+        "ua": "Скільки ккал дають 15 г жиру за коефіцієнтом 9 ккал/г?"
+      },
+      "explanation": {
+        "en": "15 × 9 = 135 kcal.",
+        "ua": "15 × 9 = 135 ккал."
+      },
+      "numericInput": {
+        "unit": "kcal",
+        "unitLabel": {
+          "en": "kilocalories",
+          "ua": "кілокалорій"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 135,
+        "tolerance": 0,
+        "unit": "kcal"
+      }
+    }
+  ]
+}

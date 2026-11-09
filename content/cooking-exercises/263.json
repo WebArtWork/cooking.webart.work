@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 263,
+    "title": {
+      "en": "Flavor Pairing and Dish Composition",
+      "ua": "Поєднання смаків та композиція страви"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/32466920/",
+    "https://pubmed.ncbi.nlm.nih.gov/22355711/",
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-263-01",
+      "theoryId": 263,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the best way to evaluate a proposed flavor pairing?",
+        "ua": "Як найкраще оцінити запропоноване поєднання смаків?"
+      },
+      "explanation": {
+        "en": "Molecular similarity alone does not prove sensory compatibility.",
+        "ua": "Схожість молекул сама по собі не доводить сенсорну сумісність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Choose only ingredients of the same color",
+            "ua": "Обирати лише інгредієнти однакового кольору"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume shared aroma molecules guarantee a good result",
+            "ua": "Вважати, що спільні ароматичні молекули гарантують добрий результат"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Taste the pairing in a real dish while considering context and balance",
+            "ua": "Скуштувати поєднання в реальній страві, враховуючи контекст і баланс"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-263-02",
+      "theoryId": 263,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Crunchy, creamy and acidic elements can provide useful contrast in the same dish.",
+        "ua": "Хрусткі, кремові та кислі елементи можуть створювати вдалий контраст у тій самій страві."
+      },
+      "explanation": {
+        "en": "Balance includes textures, aroma and temperature as well as basic tastes.",
+        "ua": "Баланс охоплює текстури, аромат і температуру поряд з основними смаками."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-263-03",
+      "theoryId": 263,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match dish elements with sensory roles.",
+        "ua": "Поєднайте елементи страви з сенсорними ролями."
+      },
+      "explanation": {
+        "en": "Complementary contrasts are often useful if the main ingredient remains recognizable.",
+        "ua": "Контрастні доповнення часто вдалі, якщо головний продукт зберігає свою виразність."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Pickled vegetable",
+            "ua": "Маринований овоч"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Toasted seeds",
+            "ua": "Підсмажене насіння"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Creamy purée",
+            "ua": "Кремове пюре"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Crunch and roasted aroma",
+            "ua": "Хрускіт та аромат обсмажування"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Smoothness and body",
+            "ua": "Однорідність і густина"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Acidity and sharpness",
+            "ua": "Кислотність та виразність"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-263-04",
+      "theoryId": 263,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A delicate fish dish is overwhelmed by a very smoky sauce. What is a sensible adjustment?",
+        "ua": "Ніжну рибну страву заглушує надто копчений соус. Що доречно зробити?"
+      },
+      "explanation": {
+        "en": "A supporting component should not unintentionally hide the main flavor.",
+        "ua": "Допоміжний елемент не має випадково приховувати головний смак."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Cover the fish in sugar without tasting",
+            "ua": "Засипати рибу цукром без дегустації"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add more smoky sauce",
+            "ua": "Додати ще більше копченого соусу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Reduce sauce intensity and rebalance the plate",
+            "ua": "Зменшити інтенсивність соусу та перебалансувати тарілку"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-263-05",
+      "theoryId": 263,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which dimensions matter in dish composition?",
+        "ua": "Які виміри важливі для композиції страви?"
+      },
+      "explanation": {
+        "en": "Taste testing evaluates the finished experience, not a simplified rule.",
+        "ua": "Дегустація оцінює цілісний результат, а не спрощене правило."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Flavor intensity",
+            "ua": "Інтенсивність смаку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serving temperature",
+            "ua": "Температура подачі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Texture contrast",
+            "ua": "Контраст текстур"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "An automatic claim that shared molecules ensure harmony",
+            "ua": "Автоматичне твердження, що спільні молекули забезпечують гармонію"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "c",
+          "b"
+        ]
+      }
+    }
+  ]
+}

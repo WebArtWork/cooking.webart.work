@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 237,
+    "title": {
+      "en": "Gluten-Free Diets and Celiac Disease",
+      "ua": "Безглютенове харчування та целіакія"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/nutrition-education-resources-materials/gluten-and-food-labeling"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-237-01",
+      "theoryId": 237,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which grains must people with celiac disease generally avoid unless specially processed according to applicable standards?",
+        "ua": "Яких злаків зазвичай слід уникати людям із целіакією, якщо їх не оброблено відповідно до чинних стандартів?"
+      },
+      "explanation": {
+        "en": "Wheat, barley and rye naturally contain gluten proteins problematic for celiac disease.",
+        "ua": "Пшениця, ячмінь і жито природно містять білки глютену, небезпечні при целіакії."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only lentils",
+            "ua": "Лише сочевиці"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Rice, corn, and quinoa",
+            "ua": "Рису, кукурудзи та кіноа"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wheat, barley, and rye",
+            "ua": "Пшениці, ячменю та жита"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-237-02",
+      "theoryId": 237,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A food made without wheat is automatically safe for celiac disease even if barley is included.",
+        "ua": "Їжа без пшениці автоматично безпечна при целіакії, навіть якщо містить ячмінь."
+      },
+      "explanation": {
+        "en": "Barley and rye also contain gluten; cross-contact is another concern.",
+        "ua": "Ячмінь і жито теж містять глютен; ризик становить і перехресний контакт."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-237-03",
+      "theoryId": 237,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match gluten-free kitchen terms to their implications.",
+        "ua": "Поєднайте терміни безглютенової кухні з їхніми наслідками."
+      },
+      "explanation": {
+        "en": "Ingredient selection and contamination prevention both matter.",
+        "ua": "Важливі і вибір складників, і запобігання забрудненню."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Celiac disease",
+            "ua": "Целіакія"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Gluten cross-contact",
+            "ua": "Перехресний контакт із глютеном"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Certified or properly labeled product",
+            "ua": "Сертифікований чи належно маркований продукт"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Can occur through shared surfaces or tools",
+            "ua": "Може відбутися через спільні поверхні чи інструменти"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Offers evidence for meeting applicable gluten-free standards",
+            "ua": "Дає підтвердження відповідності чинним нормам безглютеновості"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Immune-mediated disorder triggered by gluten",
+            "ua": "Імунозалежне захворювання, пов’язане з глютеном"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-237-04",
+      "theoryId": 237,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A guest with celiac disease orders gluten-free toast. Your kitchen uses one shared toaster with regular wheat bread. What is the best response?",
+        "ua": "Гість із целіакією замовляє безглютеновий тост. У кухні один тостер для звичайного пшеничного хліба. Як краще діяти?"
+      },
+      "explanation": {
+        "en": "Shared equipment can cause gluten cross-contact even if crumbs are not obvious.",
+        "ua": "Спільне обладнання може спричиняти перехресний контакт із глютеном навіть без видимих крихт."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Toast it in the shared toaster without checking",
+            "ua": "Підсмажити в спільному тостері без перевірки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Brush off visible crumbs and guarantee zero gluten",
+            "ua": "Змести видимі крихти й гарантувати відсутність глютену"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use a dedicated safe method and clearly explain any limitations",
+            "ua": "Використати окремий безпечний спосіб та чітко повідомити про обмеження"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-237-05",
+      "theoryId": 237,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which statement about the US gluten-free label is incorrect?",
+        "ua": "Яке твердження про американське маркування gluten-free неправильне?"
+      },
+      "explanation": {
+        "en": "FDA requires less than 20 ppm for foods making the regulated US gluten-free claim, among other conditions.",
+        "ua": "FDA вимагає менше ніж 20 ppm для відповідного маркування у США разом з іншими умовами."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The US threshold is less than 20 ppm gluten under the rule",
+            "ua": "Поріг у США за цим правилом — менше ніж 20 ppm глютену"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Any food with 100 ppm gluten may be labeled gluten-free under the FDA rule",
+            "ua": "Будь-який продукт зі 100 ppm глютену може мати позначку gluten-free за правилами FDA"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The FDA rule addresses gluten levels in labeled foods",
+            "ua": "Правило FDA визначає вимоги до вмісту глютену в маркованих продуктах"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

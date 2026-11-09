@@ -1,80 +1,91 @@
 {
   "id": 279,
-  "slug": "279-japanese-cuisine-and-umami-balance",
-  "group": "271",
+  "slug": "279-batch-cooking-and-production-planning",
+  "group": "277",
   "title": {
-    "en": "Japanese Cuisine and Umami Balance",
-    "ua": "Японська кухня та баланс умамі"
+    "en": "Batch Cooking and Production Planning",
+    "ua": "Приготування партіями та виробниче планування"
   },
   "en": {
-    "short": "Japanese culinary traditions often emphasize seasonality, careful cutting, broth extraction and balanced seasoning. Dashi illustrates how several umami-rich ingredients produce depth without heavy reductions or intense fat.",
+    "short": "Production planning translates expected demand into ingredient quantities, batch sizes, equipment schedules, and staffing needs. Batch cooking may improve consistency and efficiency, but large batches create extra temperature-control and quality challenges.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Washoku refers to traditional Japanese dietary culture, including practices of preparing and sharing seasonal food. It is diverse across regions and occasions. Dashi, rice, fermented seasonings and careful plating are instructive examples, not an exhaustive description."
+        "text": "Estimate portions from realistic forecasts, not maximum seating alone. Divide output into batches that match pan size, burner power, preparation time, holding capacity, and service rhythm."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Kombu contains glutamate; dried bonito contains inosinate; dried shiitake contains guanylate. Combining complementary umami compounds can make broth taste fuller than using one component alone. Unlike long-simmered bone stock, many dashi styles emphasize short extraction with controlled heat."
+        "text": "Crowded pans reduce browning, large volumes heat and cool slowly, and prolonged holding can soften vegetables or dry proteins. Yield calculations should account for trimming and cooking loss."
       },
       {
         "title": "How to apply it",
-        "text": "Prepare a kombu-based broth and an appropriate kombu-plus-bonito version. Taste them separately before adding soy sauce or miso. Keep extraction conditions consistent so differences are attributable to the ingredients."
+        "text": "Estimate demand by service period, calculate as-purchased and usable quantities, build a production sheet, schedule batches, prepare correct holding equipment, and set quality and safety checkpoints. Record leftovers to refine forecasts."
       },
       {
         "title": "Practical example",
-        "text": "Soak kombu in water, warm gently and remove it at the appropriate stage; add bonito flakes to hot liquid, then strain. Compare the final broth with kombu-only stock and discuss flavor depth, salt and clarity."
+        "text": "A kitchen expects 60 servings of stew over lunch. Instead of one oversized pot that cools poorly, it chooses manageable preparation and service batches with verified holding and rapid-cooling capacity for any surplus."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Umami is not synonymous with “salty,” and excess soy sauce can conceal subtle dashi. Raw-fish dishes require additional parasite and hygiene controls; Japanese cuisine is not equivalent to sushi alone. UNESCO inscribed washoku in 2013."
+        "text": "Doubling a recipe without checking pot capacity can cause overflow or uneven cooking. Large quantities cannot be left to cool slowly at room temperature; use validated cooling procedures."
       },
       {
         "title": "Related theories",
-        "text": "096, 097, 181, 238, 179."
+        "text": "007, 020, 025, 273, 277, 278, 284."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "Using hypothetical sales of 18, 35, and 25 portions in three lunch hours, propose two prep batches rather than cooking all 78 servings at once. Record the trigger to start batch two, required hot holding, and the plan for safely cooling any surplus."
       }
     ]
   },
   "ua": {
-    "short": "Японські кулінарні традиції приділяють увагу сезонності, точному нарізанню, отриманню бульйонів та збалансованим приправам. Даші показує, як із кількох багатих на умамі інгредієнтів створюють глибокий смак.",
+    "short": "Планування виробництва перетворює очікуваний попит на кількість інгредієнтів, розміри партій, графік обладнання та потребу в персоналі. Приготування партіями покращує організацію, але великі обсяги ускладнюють контроль температури й якості.",
     "sections": [
       {
-        "title": "Суть",
-        "text": "Вашоку — традиційна японська культура харчування, що включає приготування та спільне споживання сезонних страв. Вона різниться за регіонами й нагодами. Даші, рис, ферментовані приправи та оформлення — важливі приклади, але не повний опис."
+        "title": "Головна ідея",
+        "text": "Розраховуйте порції за реалістичним попитом, а не лише кількістю місць у залі. Розділяйте обсяг на партії, які відповідають розмірам посуду, потужності нагріву, часу підготовки та темпу видачі."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Комбу містить глутамат, сушені пластівці боніто — інозинат, сушені шиїтаке — гуанілат. Поєднання цих сполук може посилювати відчуття умамі. На відміну від довго вареного кісткового бульйону, для багатьох видів даші характерне нетривале витягання смаку з контролем нагрівання."
+        "text": "Переповнення сковороди заважає підрум’яненню, великі об’єми повільно нагріваються й охолоджуються, довге очікування псує текстуру овочів і м’яса. Вихід потрібно рахувати з втратами."
       },
       {
         "title": "Як застосовувати",
-        "text": "Приготуйте бульйон із комбу та варіант комбу з боніто. Спробуйте їх окремо до додавання соєвого соусу чи місо. Збережіть однакові умови, щоб різницю можна було пов’язати зі складниками."
+        "text": "Прогнозуйте попит за проміжками часу, розраховуйте закуплену й їстівну масу, створюйте виробничий лист, плануйте партії та перевірки температур. Записуйте залишки для точнішого прогнозу."
       },
       {
         "title": "Практичний приклад",
-        "text": "Замочіть комбу, обережно нагрійте воду й вчасно вийміть водорість; додайте боніто до гарячої рідини й процідіть. Порівняйте з настоєм лише на комбу."
+        "text": "Кухня очікує 60 порцій рагу на обід. Замість однієї надто великої каструлі обирає керовані партії з перевіреним режимом гарячого зберігання та швидкого охолодження надлишків."
       },
       {
-        "title": "Поширені помилки й обмеження",
-        "text": "Умамі — не те саме, що солоність; надлишок соєвого соусу приховає тонкі відтінки. Сира риба потребує окремого контролю паразитів та гігієни. Японська кухня не обмежується суші; UNESCO внесла вашоку до списку спадщини у 2013 році."
+        "title": "Поширені помилки та обмеження",
+        "text": "Просте подвоєння рецепта без перевірки посуду створює ризик переливу чи нерівномірного прогрівання. Великі обсяги не можна залишати повільно охолоджуватися за кімнатної температури."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "096, 097, 181, 238, 179."
+        "text": "007, 020, 025, 273, 277, 278, 284."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Для умовних продажів 18, 35 і 25 порцій за три обідні години сплануйте дві виробничі партії замість одночасного приготування всіх 78. Запишіть умову запуску другої партії, режим гарячого зберігання та план безпечного охолодження надлишків."
       }
     ]
   },
   "related": [
-    96,
-    97,
-    181,
-    238,
-    179
+    7,
+    20,
+    25,
+    273,
+    277,
+    278,
+    284
   ],
-  "referenceTitle": "References / Джерела",
+  "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869",
-    "https://www.maff.go.jp/e/policies/market/washoku-world-challenge/en/learning_03.html",
-    "https://japan-food.jetro.go.jp/en/japanesecuisine/119.html"
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.cacfp.org/2024/07/02/recipe-standardization-guide/",
+    "https://www.fda.gov/food/fda-food-code/food-code-2026"
   ]
 }

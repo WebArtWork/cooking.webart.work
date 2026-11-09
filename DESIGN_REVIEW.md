@@ -6,18 +6,17 @@ Editorial Warm light and Chocolate & Cream dark (Sonic Lofi palette), adapted to
 
 ## Content release
 
-330 unchanged Markdown originals, 660 language versions, 3960 detailed sections and all supplied related numbers/source URLs are preserved. The catalog groups the original sequence into 21 topics. Each lesson is lazy loaded and has a prerendered English route, with Ukrainian content selected by the language preference. Related/adjacent navigation resets the full-reading disclosure for the next lesson. Study marks persist on the device. Individual and aggregate print views retain the short/full distinction and source links.
+288 unchanged Markdown originals, 576 language versions, 3860 detailed sections and all supplied related numbers/source URLs are preserved. The catalog groups the original sequence into 22 topics. Each lesson is lazy loaded and has a prerendered English route, with Ukrainian content selected by the language preference. Related/adjacent navigation resets the full-reading disclosure for the next lesson. Study marks persist on the device. Individual and aggregate print views retain the short/full distinction and source links.
 
-The prior Business content and pre-existing uncommitted practice files are retained as archive material. Cooking's public routes do not expose those lessons. Existing practice-loader changes were preserved.
+The prior Business content has been removed from the working tree (it remains in git history).
 
 ## Validation
 
-- Source hashes, sequence, bilingual short text, six full sections per language, related ranges, group coverage and source URLs checked.
-- All 330 prerendered lessons checked for every English short/full paragraph, title, canonical and generic social image.
-- Production build: 336 static routes; initial bundle 457.91 kB, below the existing 500 kB warning budget.
-- Catalog and representative lessons (001, 137 and 330) rendered in both themes at 390, 1440 and 1728 pixels.
+- Source hashes, sequence, bilingual short text, five to nine full sections per language, related ranges, group coverage and source URLs checked.
+- All 288 prerendered lessons checked for every English short/full paragraph, title, canonical and generic social image.
+- Production build: 294 static routes; initial bundle 457.91 kB, below the 520 kB warning budget.
+- Catalog and representative lessons (001, 137 and 288) rendered in both themes at 390, 1440 and 1728 pixels.
 - Browser checks cover search and empty state, URL persistence, topic filtering, related/adjacent navigation, disclosure behavior, device study marks, printing and Ukrainian persistence.
-- Aggregate print checks compare all 330 short/full theories in both languages against the imported data and verify black-on-white print styling.
 - Better Design principles, comprehension and rendered spacing review applied to new lesson controls. Supplied educational prose is preserved rather than rewritten to satisfy interface-copy heuristics.
 
 ## Limits

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 253,
+    "title": {
+      "en": "Mexican Cooking Principles",
+      "ua": "Принципи мексиканської кухні"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400?RL=00400"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-253-01",
+      "theoryId": 253,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does nixtamalization of maize typically involve?",
+        "ua": "Що зазвичай передбачає нікстамалізація кукурудзи?"
+      },
+      "explanation": {
+        "en": "Alkaline processing alters maize properties and supports traditional masa preparation.",
+        "ua": "Лужна обробка змінює властивості кукурудзи та використовується для традиційної маси."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Freezing dry kernels and grinding them immediately",
+            "ua": "Заморожування сухого зерна з негайним помелом"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Adding refined sugar to uncooked flour",
+            "ua": "Додавання рафінованого цукру до сирого борошна"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Alkaline cooking/soaking and subsequent processing",
+            "ua": "Лужне варіння або замочування з подальшою обробкою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-253-02",
+      "theoryId": 253,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Traditional Mexican cuisine is based solely on tacos with one filling.",
+        "ua": "Традиційна мексиканська кухня складається лише з тако з однією начинкою."
+      },
+      "explanation": {
+        "en": "Maize, beans, chilies, nixtamalization and regional techniques form a much richer cultural system.",
+        "ua": "Кукурудза, квасоля, чилі, нікстамалізація та регіональні техніки утворюють значно ширшу культуру."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-253-03",
+      "theoryId": 253,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match traditional elements with their significance.",
+        "ua": "Поєднайте традиційні елементи з їхнім значенням."
+      },
+      "explanation": {
+        "en": "Equipment and processing techniques are part of culinary heritage.",
+        "ua": "Обладнання та способи обробки є частиною кулінарної спадщини."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Masa",
+            "ua": "Маса"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Molcajete",
+            "ua": "Молькахете"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Chili peppers",
+            "ua": "Перець чилі"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Stone mortar for grinding ingredients",
+            "ua": "Кам’яна ступка для подрібнення"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Provide diverse aromas and heat",
+            "ua": "Дають різні аромати та гостроту"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Dough made from processed maize",
+            "ua": "Тісто з обробленої кукурудзи"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-253-04",
+      "theoryId": 253,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want tortillas that call for nixtamalized masa. Which flour is the correct starting point?",
+        "ua": "Для тортильї потрібна нікстамалізована маса. Яке борошно обрати?"
+      },
+      "explanation": {
+        "en": "Ordinary cornmeal does not necessarily behave like nixtamalized masa.",
+        "ua": "Звичайна кукурудзяна крупа не обов’язково поводиться як нікстамалізована маса."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Proper masa harina or correctly prepared fresh masa",
+            "ua": "Належну маса харіна або правильно приготовану свіжу масу"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Raw dried maize kernels added whole to dough",
+            "ua": "Цілі сухі зерна сирої кукурудзи, додані в тісто"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Regular wheat flour with cocoa",
+            "ua": "Звичайне пшеничне борошно з какао"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-253-05",
+      "theoryId": 253,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which subjects belong in a serious introduction to Mexican culinary traditions?",
+        "ua": "Які теми варто включити до серйозного вступу в мексиканські кулінарні традиції?"
+      },
+      "explanation": {
+        "en": "UNESCO describes an integrated culture, not just a list of popular dishes.",
+        "ua": "ЮНЕСКО описує цілісну культуру, а не лише перелік популярних страв."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Regional salsas and chilies",
+            "ua": "Регіональні сальси та чилі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Corn and bean cultivation traditions",
+            "ua": "Традиції вирощування кукурудзи та квасолі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Nixtamalization",
+            "ua": "Нікстамалізація"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Claiming that all Mexican dishes are extremely spicy",
+            "ua": "Твердження, що всі мексиканські страви надзвичайно гострі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c",
+          "a",
+          "b"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 89,
+    "title": {
+      "en": "Sous-Vide and Time-Temperature Cooking",
+      "ua": "Су-від та приготування з контролем часу й температури"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.foodauthority.nsw.gov.au/retail/cafes-restaurants-and-retail-outlets/cooking-sous-vide-food-businesses",
+    "https://www.fda.gov/food/fda-food-code/food-code-2022",
+    "https://www.nal.usda.gov/research-tools/food-safety-research-projects/investigation-and-determination-safe-guidelines-sous",
+    "https://www.qld.gov.au/health/staying-healthy/food-pantry/food-safety-for-consumers/potentially-hazardous-foods-processes/sous-vide"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-089-01",
+      "theoryId": 89,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why does sous-vide safety depend on both temperature and time?",
+        "ua": "Чому безпечність су-від залежить і від температури, і від часу?"
+      },
+      "explanation": {
+        "en": "Lower temperatures require appropriate validated holding times after the food center reaches target.",
+        "ua": "Нижчі температури потребують підтвердженої тривалості витримки після прогрівання середини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Microbial inactivation depends on the validated time–temperature history",
+            "ua": "Інактивація мікроорганізмів залежить від підтвердженого поєднання часу й температури"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only bath color matters",
+            "ua": "Значення має лише колір води"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vacuum packaging sterilizes food",
+            "ua": "Вакуумне пакування стерилізує їжу"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-089-02",
+      "theoryId": 89,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Vacuum sealing by itself destroys all foodborne pathogens.",
+        "ua": "Саме вакуумування знищує всі харчові патогени."
+      },
+      "explanation": {
+        "en": "Reduced oxygen does not sterilize food and introduces additional storage considerations.",
+        "ua": "Низький вміст кисню не стерилізує їжу й вимагає додаткового контролю зберігання."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-089-03",
+      "theoryId": 89,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the sous-vide control to its function.",
+        "ua": "Поєднайте параметр су-від із функцією."
+      },
+      "explanation": {
+        "en": "Bath control, heat penetration and holding time must all be considered.",
+        "ua": "Потрібно враховувати температуру води, прогрівання середини й витримку."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Circulator",
+            "ua": "Термостат із циркуляцією"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Product thickness",
+            "ua": "Товщина продукту"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Validated hold time",
+            "ua": "Підтверджена витримка"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Deliver planned microbial reduction",
+            "ua": "Забезпечити заплановане зниження кількості мікроорганізмів"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Influence center heating time",
+            "ua": "Впливати на час прогрівання середини"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Maintain a stable bath temperature",
+            "ua": "Підтримувати стабільну температуру води"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-089-04",
+      "theoryId": 89,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order the safe planning steps for a sous-vide dish.",
+        "ua": "Упорядкуйте кроки безпечного планування страви су-від."
+      },
+      "explanation": {
+        "en": "The bath setpoint alone does not prove the center received enough lethality.",
+        "ua": "Саме задана температура води не доводить, що середина отримала достатню теплову обробку."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Account for thickness and time needed for the center to heat",
+            "ua": "Врахувати товщину й час прогрівання середини"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Choose a validated time–temperature process for the exact food",
+            "ua": "Обрати перевірений режим часу й температури для конкретного продукту"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Cook and serve or chill/store under a validated safe protocol",
+            "ua": "Приготувати й подати або охолодити та зберігати за перевіреним безпечним протоколом"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-089-05",
+      "theoryId": 89,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which sous-vide assumption is unsafe?",
+        "ua": "Яке припущення про су-від небезпечне?"
+      },
+      "explanation": {
+        "en": "Safety depends on food type, heating time, holding time and subsequent handling.",
+        "ua": "Безпечність залежить від виду продукту, нагрівання, витримки та подальшого поводження."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use a suitable food-safe pouch",
+            "ua": "Використовувати пакет, придатний для харчових продуктів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Measure or account for product thickness",
+            "ua": "Виміряти чи врахувати товщину продукту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Any food held at 50°C for any duration is automatically safe",
+            "ua": "Будь-який продукт за 50°C протягом будь-якого часу автоматично безпечний"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-089-06",
+      "theoryId": 89,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which variables matter when planning a validated sous-vide cooking process?",
+        "ua": "Які змінні важливі при плануванні перевіреного процесу су-від?"
+      },
+      "explanation": {
+        "en": "Microbial control requires an appropriate full time-temperature and handling process.",
+        "ua": "Контроль мікроорганізмів потребує належного повного режиму часу, температури та поводження."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Food type and thickness",
+            "ua": "Вид і товщина продукту"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Actual time for center to reach temperature",
+            "ua": "Час прогрівання середини до потрібної температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Validated hold time and handling after cooking",
+            "ua": "Підтверджений час витримки та дії після приготування"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Vacuum packaging replaces all heating requirements",
+            "ua": "Вакуумування замінює всі вимоги до нагрівання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

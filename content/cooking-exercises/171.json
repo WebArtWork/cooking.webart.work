@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 171,
+    "title": {
+      "en": "Tomato-Based Sauces",
+      "ua": "Соуси на основі томатів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/canning",
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-171-01",
+      "theoryId": 171,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why might a tomato sauce taste sweeter after some simmering even without added sugar?",
+        "ua": "Чому томатний соус може здаватися солодшим після томління навіть без доданого цукру?"
+      },
+      "explanation": {
+        "en": "Reduction concentrates solids while cooked aromatics can soften perceived acidity.",
+        "ua": "Уварювання концентрує тверді речовини, а приготовані ароматичні овочі можуть пом’якшити сприйняття кислоти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Water reduction and softened aromatics concentrate and balance flavor",
+            "ua": "Випаровування води й розм’якшення ароматичних овочів концентрують і врівноважують смак"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "All tomato solids evaporate before water",
+            "ua": "Усі тверді речовини томатів випаровуються раніше за воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Heating turns all tomato acid into table sugar",
+            "ua": "Нагрівання перетворює всю томатну кислоту на цукор"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-171-02",
+      "theoryId": 171,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All tomatoes have the same acidity, moisture and natural sweetness.",
+        "ua": "Усі томати мають однакову кислотність, вологість та природну солодкість."
+      },
+      "explanation": {
+        "en": "Cultivar, ripeness and processing change sauce behavior.",
+        "ua": "Сорт, стиглість та обробка змінюють властивості соусу."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-171-03",
+      "theoryId": 171,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match tomato-sauce defects with likely causes.",
+        "ua": "Поєднайте недоліки томатного соусу з імовірними причинами."
+      },
+      "explanation": {
+        "en": "Control reduction and seasoning according to the tomatoes used.",
+        "ua": "Контролюйте уварювання та приправляння відповідно до вибраних томатів."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Excessively watery",
+            "ua": "Надто водянистий"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Bitter burned bottom",
+            "ua": "Гіркий пригорілий присмак"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Too sharp and acidic",
+            "ua": "Надто різкий і кислий"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Insufficient reduction",
+            "ua": "Недостатнє уварювання"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Acidity is out of balance",
+            "ua": "Неврівноважена кислотність"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Scorching from excess heat",
+            "ua": "Пригорання через надмірний нагрів"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-171-04",
+      "theoryId": 171,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A tomato sauce tastes harshly acidic but is already thick. What is a sensible response?",
+        "ua": "Томатний соус різко кислий, але вже густий. Що доречно зробити?"
+      },
+      "explanation": {
+        "en": "Adjust flavor rather than simply evaporating more water.",
+        "ua": "Коригуйте смак замість подальшого випаровування води."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Taste, balance with aromatics or a modest sweetness adjustment",
+            "ua": "Скуштувати, збалансувати ароматичними овочами чи помірною солодкістю"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Boil until completely dry",
+            "ua": "Уварити досуха"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume every sauce needs a large amount of baking soda",
+            "ua": "Вважати, що кожному соусу потрібно багато соди"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-171-05",
+      "theoryId": 171,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which tomato-sauce storage assumption is unsafe?",
+        "ua": "Яке припущення щодо зберігання томатного соусу небезпечне?"
+      },
+      "explanation": {
+        "en": "Tomato pH varies; shelf-stable preservation requires a validated acidification and processing recipe.",
+        "ua": "pH томатів відрізняється; консервування без холодильника потребує перевіреного рецепта підкислення та обробки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Refrigerate cooked sauce promptly",
+            "ua": "Швидко охолодити готовий соус у холодильнику"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume any homemade tomato sauce is safe in a sealed room-temperature jar",
+            "ua": "Вважати будь-який домашній томатний соус безпечним у закритій банці за кімнатної температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use tested processing for shelf-stable canning",
+            "ua": "Для консервування застосовувати перевірену технологію"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-171-06",
+      "theoryId": 171,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which steps can improve a watery tomato sauce without hiding spoilage?",
+        "ua": "Які дії можуть покращити водянистий томатний соус, не маскуючи псування?"
+      },
+      "explanation": {
+        "en": "Reduction changes flavor concentration; uncontrolled room-temperature holding is unsafe.",
+        "ua": "Уварювання змінює концентрацію смаку; неконтрольоване зберігання за кімнатної температури небезпечне."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Adjust seasoning after reduction",
+            "ua": "Коригувати приправи після уварювання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Leave sauce uncovered at room temperature overnight",
+            "ua": "Залишити відкритий соус на столі до ранку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Simmer to reduce moisture with controlled heat",
+            "ua": "Делікатно уварити для випаровування води"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use thicker tomato purée or more tomato solids",
+            "ua": "Використати густіше томатне пюре чи більше томатної м’якоті"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
+    }
+  ]
+}

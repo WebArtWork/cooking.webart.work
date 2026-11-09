@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 166,
+    "title": {
+      "en": "Stock Clarification and Consommé",
+      "ua": "Освітлення бульйону та консоме"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program",
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-166-01",
+      "theoryId": 166,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does a traditional egg-white clarification raft do in consommé?",
+        "ua": "Яку роль відіграє «шапка» з білка під час освітлення консоме?"
+      },
+      "explanation": {
+        "en": "A protein raft can capture clouding solids as a liquid is clarified.",
+        "ua": "Білкова «шапка» може захоплювати частинки, що роблять рідину каламутною."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Creates all flavor entirely from sugar",
+            "ua": "Створює весь смак лише з цукру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Turns water into oil",
+            "ua": "Перетворює воду на олію"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Coagulates and traps small suspended particles",
+            "ua": "Зсідається й захоплює дрібні завислі частинки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-166-02",
+      "theoryId": 166,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Once the clarification raft has formed, aggressive stirring will usually improve the result.",
+        "ua": "Після утворення білкової «шапки» сильне перемішування зазвичай покращує результат."
+      },
+      "explanation": {
+        "en": "Breaking the raft can release trapped particles back into the liquid.",
+        "ua": "Руйнування «шапки» може повернути захоплені частинки в рідину."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-166-03",
+      "theoryId": 166,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match consommé operations to outcomes.",
+        "ua": "Поєднайте операції освітлення консоме з результатами."
+      },
+      "explanation": {
+        "en": "The objective is clarification without re-suspending the captured material.",
+        "ua": "Мета — освітлити рідину, не повертаючи затримані частинки."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Coagulating egg whites",
+            "ua": "Зсідання білків"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Gentle heating",
+            "ua": "Делікатне нагрівання"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Careful straining",
+            "ua": "Обережне проціджування"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Protect the formed raft",
+            "ua": "Зберегти сформовану «шапку»"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Trap suspended particles",
+            "ua": "Захопити завислі частинки"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Separate clear liquid from solids",
+            "ua": "Відокремити прозору рідину від частинок"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-166-04",
+      "theoryId": 166,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "The consommé raft is forming and the liquid begins boiling hard. What is appropriate?",
+        "ua": "У консоме формується білкова «шапка», а рідина починає сильно кипіти. Що робити?"
+      },
+      "explanation": {
+        "en": "High turbulence breaks the raft and reduces clarity.",
+        "ua": "Сильний рух руйнує «шапку» та зменшує прозорість."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Reduce heat to a gentle level and avoid disturbing the raft",
+            "ua": "Зменшити нагрів і не руйнувати «шапку»"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add flour to make the consommé opaque",
+            "ua": "Додати борошно, щоб зробити консоме непрозорим"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whisk vigorously through the raft",
+            "ua": "Енергійно збити суміш крізь «шапку»"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-166-05",
+      "theoryId": 166,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which consommé belief is false?",
+        "ua": "Яке твердження про консоме хибне?"
+      },
+      "explanation": {
+        "en": "Removing particles cannot reliably undo bad flavors or make unsafe stock safe.",
+        "ua": "Видалення частинок не виправляє надійно поганий смак і не робить небезпечний бульйон безпечним."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Clarification improves visual clarity",
+            "ua": "Освітлення покращує прозорість"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Clarification automatically fixes a burnt or spoiled stock",
+            "ua": "Освітлення автоматично виправляє підгорілий або зіпсований бульйон"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Stock flavor quality matters before clarifying",
+            "ua": "Якість смаку бульйону важлива ще до освітлення"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-166-06",
+      "theoryId": 166,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Put the simplified consommé clarification steps in order.",
+        "ua": "Упорядкуйте спрощені кроки освітлення консоме."
+      },
+      "explanation": {
+        "en": "A stable raft works only when it is allowed to form and remain largely undisturbed.",
+        "ua": "Стабільна білкова «шапка» працює, якщо її правильно сформувати й не руйнувати."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Combine with the clarification mixture",
+            "ua": "Поєднати зі сумішшю для освітлення"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Ladle and strain clear liquid without disturbing solids",
+            "ua": "Обережно відібрати та процідити прозору рідину"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Prepare a flavorful, safe stock",
+            "ua": "Підготувати смачний і безпечний бульйон"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Heat gently to form a raft",
+            "ua": "Обережно нагріти до утворення «шапки»"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

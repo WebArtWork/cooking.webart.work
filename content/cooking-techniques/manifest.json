@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "locale": [
+    "en",
+    "ua"
+  ],
+  "techniqueCount": 508,
+  "categoryCount": 24,
+  "subcategoryCount": 57,
+  "categoryCounts": {
+    "workflow": 16,
+    "knife": 33,
+    "produce": 29,
+    "proteins": 26,
+    "seasoning": 20,
+    "dryheat": 25,
+    "directheat": 19,
+    "frying": 20,
+    "wetheat": 16,
+    "steaming": 12,
+    "combined": 11,
+    "grains": 16,
+    "stocks": 15,
+    "sauces": 24,
+    "dough": 30,
+    "baking": 20,
+    "confectionery": 17,
+    "eggs": 21,
+    "fermentation": 17,
+    "preservation": 20,
+    "international": 39,
+    "modern": 14,
+    "service": 18,
+    "mixing": 30
+  },
+  "files": [
+    "techniques.json",
+    "taxonomy.json",
+    "techniques.csv",
+    "techniques.md",
+    "technique.schema.json",
+    "safety_reference.json",
+    "sources.json",
+    "README.md"
+  ]
+}

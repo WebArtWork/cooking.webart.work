@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 265,
+    "title": {
+      "en": "Functional Ingredient Replacements",
+      "ua": "Функціональні замінники інгредієнтів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide",
+    "https://www.foodallergy.org/resources/avoiding-cross-contact"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-265-01",
+      "theoryId": 265,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why can a flaxseed gel replace some egg-binding functions in certain recipes?",
+        "ua": "Чому лляний гель може замінити деякі зв’язувальні функції яйця в окремих рецептах?"
+      },
+      "explanation": {
+        "en": "A substitute may replace one function without replicating every egg function.",
+        "ua": "Замінник може відтворювати одну функцію яйця, але не всі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "It develops an identical egg-protein foam",
+            "ua": "Воно утворює піну, ідентичну яєчному білку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Hydrated flaxseed forms a viscous mixture that can help bind components",
+            "ua": "Гідратоване насіння льону утворює в’язку суміш, що може зв’язувати компоненти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It guarantees identical results in every pastry",
+            "ua": "Воно гарантує однаковий результат у будь-якій випічці"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-265-02",
+      "theoryId": 265,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Aquafaba may foam in some preparations, but its performance depends on the formulation.",
+        "ua": "Аквафаба може утворювати піну в деяких рецептурах, але її ефективність залежить від складу."
+      },
+      "explanation": {
+        "en": "Concentration, sugar and processing conditions affect foam stability.",
+        "ua": "Концентрація, цукор та умови збивання впливають на стабільність піни."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-265-03",
+      "theoryId": 265,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match replacement ingredients with potential culinary functions.",
+        "ua": "Поєднайте замінники з можливими функціями."
+      },
+      "explanation": {
+        "en": "No replacement replicates all functional properties universally.",
+        "ua": "Жоден замінник не відтворює всі властивості універсально."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Ground flaxseed plus water",
+            "ua": "Мелений льон із водою"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Aquafaba",
+            "ua": "Аквафаба"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Starch slurry",
+            "ua": "Крохмальна суспензія"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Potential foam-forming liquid",
+            "ua": "Рідина, здатна утворювати піну"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Thickening when heated appropriately",
+            "ua": "Загущення за відповідного нагрівання"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Viscous binding in selected batters",
+            "ua": "В’язке зв’язування в деяких видах тіста"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-265-04",
+      "theoryId": 265,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A vegan cake without eggs crumbles when sliced. What should be tested?",
+        "ua": "Веганський кекс без яєць кришиться під час нарізання. Що варто випробувати?"
+      },
+      "explanation": {
+        "en": "A binder must be evaluated together with the formula’s water and structure.",
+        "ua": "Зв’язувальний компонент потрібно оцінювати разом із вмістом води та структурою рецептури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Assume the ingredient name alone guarantees success",
+            "ua": "Вважати, що сама назва інгредієнта гарантує успіх"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Remove all liquid and binders",
+            "ua": "Прибрати всю рідину й зв’язувальні компоненти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Test a suitable binder and revise hydration in small batches",
+            "ua": "Випробувати відповідний зв’язувальний компонент і скоригувати гідратацію в малих партіях"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-265-05",
+      "theoryId": 265,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which functions may need replacing when removing eggs from a recipe?",
+        "ua": "Які функції може знадобитися замінити при вилученні яєць із рецепта?"
+      },
+      "explanation": {
+        "en": "Different recipes rely on different subsets of egg functions.",
+        "ua": "Різні рецепти спираються на різні функції яйця."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only color, never structure",
+            "ua": "Лише колір, а не структуру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Emulsification",
+            "ua": "Емульгування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Binding",
+            "ua": "Зв’язування"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Aeration",
+            "ua": "Аерація"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c",
+          "d",
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-265-06",
+      "theoryId": 265,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A developer replaces eggs in a meringue recipe. Which assumption is the mistake?",
+        "ua": "Розробник замінює яйця в рецепті меренги. Яке припущення є помилковим?"
+      },
+      "explanation": {
+        "en": "Binding and foaming are different functional requirements.",
+        "ua": "Зв’язування та піноутворення — різні функціональні вимоги."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Check whether the substitute can form stable foam",
+            "ua": "Перевірити, чи замінник утворює стабільну піну"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Test sugar concentration and whipping conditions",
+            "ua": "Випробувати концентрацію цукру та умови збивання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume a flaxseed binder automatically whips like egg whites",
+            "ua": "Вважати, що лляний зв’язувальний компонент автоматично збивається як яєчний білок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

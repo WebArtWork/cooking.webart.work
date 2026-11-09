@@ -1,79 +1,87 @@
 {
   "id": 264,
-  "slug": "264-reading-nutrition-labels",
-  "group": "256",
+  "slug": "264-ingredient-substitution-principles",
+  "group": "262",
   "title": {
-    "en": "Reading Nutrition Labels",
-    "ua": "Читання маркування харчової цінності"
+    "en": "Ingredient Substitution Principles",
+    "ua": "Принципи заміни інгредієнтів"
   },
   "en": {
-    "short": "Nutrition labels provide standardized information about servings, energy and selected nutrients. Learning to read them helps compare packaged ingredients and construct more accurate recipe calculations.",
+    "short": "A sensible substitution starts by identifying what an ingredient does in a particular recipe. Replacements must be assessed for taste, water content, texture, cooking behavior, and possible allergens rather than chosen solely by appearance.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "First identify whether values apply to 100 g, 100 ml or a stated serving. Then check servings per package, calories, saturated fat, sodium, sugars, fiber, protein and declared micronutrients."
+        "text": "Separate an ingredient’s identity from its function. In soup, cream adds richness and body; in whipped dessert, it must also trap air. The same replacement may work in one dish but fail in another."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "On US Nutrition Facts panels, % Daily Value (%DV) indicates how much one serving contributes to an established reference: 5% DV or less is considered low, 20% or more high. This is a US labeling convention, not a personal nutrient prescription; labeling rules differ between jurisdictions."
+        "text": "Changes in moisture, protein, fat, acidity, starch, and sugar alter heat transfer and structure. For example, replacing fresh tomato with concentrated paste changes water content and intensity, not merely tomato flavor."
       },
       {
         "title": "How to apply it",
-        "text": "Compare equivalent weights or servings; multiply labeled nutrients by the amount actually used, and account for cooking yield. Review ingredient lists and allergens as a separate step because a nutrition panel alone does not establish safety."
+        "text": "Write the missing ingredient’s roles and constraints. Select a substitute, estimate changes in liquid and seasoning, test a small batch, and document whether texture, color, and cooking time remain acceptable."
       },
       {
         "title": "Practical example",
-        "text": "A sauce shows 600 mg sodium per 100 g. Using 25 g contributes approximately 150 mg sodium. If the product instead labels per 15-g serving, recalculate before entering its values into a recipe builder."
+        "text": "Replace 200 g of fresh spinach in a cooked filling with frozen spinach only after thawing and squeezing it; otherwise excess water may make the pastry soggy."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Do not treat “low fat” as inherently nutritious, ignore serving size, mistake sodium mass for salt mass, or assume US %DV is the legally required format in Ukraine."
+        "text": "Volume-for-volume swaps are often unreliable. Check packaged foods for allergens and cross-contact; never assume plant-based automatically means free of milk, soy, nuts, or gluten."
+      },
+      {
+        "title": "Applied practice for this topic",
+        "text": "A substitution matrix can compare each candidate by water content, fat, acidity, sweetness, protein and allergen profile. Substituting Greek yogurt for sour cream in a cold dip may be straightforward, but heating, curdling and saltiness can change the result."
       },
       {
         "title": "Related theories",
-        "text": "009, 262, 265, 266, 314."
+        "text": "005, 128, 265, 266."
       }
     ]
   },
   "ua": {
-    "short": "Маркування харчової цінності містить відомості про порції, енергію та поживні речовини. Уміння читати етикетки допомагає порівнювати продукти й точніше розраховувати рецепти.",
+    "short": "Розумна заміна інгредієнта починається з визначення його ролі в конкретному рецепті. Замінник оцінюють за смаком, вологістю, текстурою, поведінкою під час нагрівання та можливими алергенами, а не лише за зовнішньою схожістю.",
     "sections": [
       {
-        "title": "Суть",
-        "text": "Спершу визначте основу розрахунку: 100 г, 100 мл або зазначена порція. Далі перевірте кількість порцій у пакуванні, енергію, насичені жири, натрій, цукри, волокна, білок і вказані мікронутрієнти."
+        "title": "Головна ідея",
+        "text": "Відокремлюйте назву інгредієнта від його функції. У супі вершки дають жирність і густину, а у збитому десерті ще й утримують повітря. Тому одна заміна не працюватиме однаково в усіх стравах."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "На етикетках США показник %DV відображає частку добової довідкової величини для порції: 5% або менше вважають низьким значенням, 20% і більше — високим. Це американська система маркування, а не індивідуальна норма; вимоги в Україні та ЄС інші."
+        "text": "Співвідношення вологи, білків, жирів, кислот, крохмалю та цукру визначає структуру й нагрівання. Томатна паста замість свіжих томатів змінює також густину та інтенсивність смаку."
       },
       {
         "title": "Як застосовувати",
-        "text": "Порівнюйте однакову масу продуктів, множте показники на фактично використану кількість і враховуйте вихід готової страви. Окремо читайте склад та алергени: таблиця нутрієнтів не замінює цих даних."
+        "text": "Запишіть, для чого потрібен відсутній продукт, і його критичні властивості. Виберіть альтернативу, перераховуйте рідину й приправи, перевіряйте маленьку порцію та фіксуйте зміни."
       },
       {
         "title": "Практичний приклад",
-        "text": "Якщо соус містить 600 мг натрію на 100 г, у 25 г буде приблизно 150 мг. Коли виробник указує цифри для порції 15 г, спершу перерахуйте основу."
+        "text": "Замінюючи 200 г свіжого шпинату замороженим для начинки, розморозьте його й відіжміть воду, інакше випічка може розмокнути."
       },
       {
-        "title": "Поширені помилки й обмеження",
-        "text": "Не сприймайте позначку «знежирений» як доказ загальної корисності, не ігноруйте розмір порції, не плутайте масу натрію з масою солі й не переносіть американські норми маркування на український ринок."
+        "title": "Поширені помилки та обмеження",
+        "text": "Однаковий об’єм не означає однакову масу чи функціональність. Перевіряйте алергени; рослинний продукт може містити сою, горіхи, глютен або сліди молока."
+      },
+      {
+        "title": "Практичне застосування теми",
+        "text": "Матриця замінників може порівнювати вологість, жирність, кислотність, солодкість, білок та алергени. Грецький йогурт іноді легко замінює сметану в холодному соусі, але нагрівання, зсідання та солоність можуть змінити результат."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "009, 262, 265, 266, 314."
+        "text": "005, 128, 265, 266."
       }
     ]
   },
   "related": [
-    9,
-    262,
+    5,
+    128,
     265,
-    266,
-    314
+    266
   ],
-  "referenceTitle": "References / Джерела",
+  "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
-    "https://fdc.nal.usda.gov/"
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide",
+    "https://www.foodallergy.org/resources/avoiding-cross-contact",
+    "https://www.rouxbe.com/knowledge-base/3495"
   ]
 }

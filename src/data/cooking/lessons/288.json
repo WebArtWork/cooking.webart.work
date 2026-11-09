@@ -1,79 +1,91 @@
 {
   "id": 288,
-  "slug": "288-protein-denaturation",
-  "group": "286",
+  "slug": "288-kitchen-communication-and-team-coordination",
+  "group": "277",
   "title": {
-    "en": "Protein Denaturation",
-    "ua": "Денатурація білків"
+    "en": "Kitchen Communication and Team Coordination",
+    "ua": "Комунікація та командна робота на кухні"
   },
   "en": {
-    "short": "Denaturation changes how proteins are folded and how their molecules interact. Heat, acid, mechanical agitation, and some other conditions can alter texture, from firm egg whites to curdled milk or tender fish.",
+    "short": "Kitchen communication coordinates orders, preparation times, safety warnings, and service priorities across stations. Clear short messages, explicit acknowledgement, and defined roles reduce omissions and help dishes reach the guest together and safely.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Proteins have specific folded structures stabilized by molecular interactions. Denaturation disrupts aspects of that structure; aggregation or coagulation may follow, but these processes should not be treated as identical."
+        "text": "A kitchen is a coordinated process with shared dependencies: a grill station may need 12 minutes, vegetables 5, and final plating 2. If everyone begins at the wrong time, food sits and quality declines. Communication should make order status, timing, and responsibility observable."
       },
       {
-        "title": "Scientific / practical principles",
-        "text": "Different proteins respond differently to temperature, salt, pH, and duration. Egg proteins can form networks as they heat; dairy proteins may curdle under acid or heat; acid-treated seafood may appear cooked without becoming microbiologically safe."
+        "title": "Operational principles",
+        "text": "Use a consistent order identifier, table, item, modification, allergen notice, and target dispatch time. A call-and-response or read-back confirms high-risk instructions. The pass or expediter should know what is “fired,” “working,” “ready,” delayed, or held, and staff need an agreed escalation path for errors."
       },
       {
         "title": "How to apply it",
-        "text": "Control heat gently for custard and scrambled eggs; add acidic ingredients at the intended stage; monitor actual food temperature when safety matters. Stop heating when the required texture is reached rather than assuming higher heat is faster and equivalent."
+        "text": "Brief the team before service on specials, unavailable ingredients, expected volume, equipment issues, and allergy protocols. During service, communicate delays immediately, confirm unclear tickets, and keep raw/ready-to-eat workflows separated. After service, review missed calls and fix process causes."
       },
       {
         "title": "Practical example",
-        "text": "Heat two equal egg mixtures over gentle and strong heat, stirring similarly. Compare the size of curds, moisture separation, firmness, and how easy the mixtures are to control."
+        "text": "Ticket 42 includes grilled chicken, roasted potatoes, and an explicitly noted milk allergy. The expediter confirms the allergy with all stations and follows the established allergen procedure rather than assuming a sauce is safe. The cook calls out a grill delay early so sides are finished to the new target time."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Denaturation does not always mean complete cooking, irreversible change, or microbial destruction. A firm texture and opaque color are unreliable standalone safety tests for raw animal foods."
+        "text": "Shouting more loudly is not the same as transferring accurate information. Verbal instructions without read-back may be lost in noise. Allergy-safe service depends on verified ingredients, utensils, surfaces, and procedures, not merely announcing “allergy.” Software tickets help, but cannot replace trained people and escalation."
       },
       {
         "title": "Related theories",
-        "text": "137, 143, 178, 220, 289."
+        "text": "003, 014, 017, 277, 278, 286."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "Simulate a missing-ingredient and allergen-alert scenario during a ten-order rush. Practice short calls with read-back, assign a replacement decision-maker, pause affected dishes, update the expediter and record a brief after-service improvement."
       }
     ]
   },
   "ua": {
-    "short": "Денатурація змінює просторову структуру білків та їхню взаємодію. Нагрівання, кислота, механічне збивання й інші чинники впливають на текстуру — від пружного яєчного білка до зсідання молока чи зміни структури риби.",
+    "short": "Комунікація кухонної команди узгоджує замовлення, час приготування, попередження про небезпеки та пріоритети між робочими станціями. Короткі точні повідомлення, підтвердження їх отримання й чіткі ролі зменшують помилки та допомагають подавати страви вчасно й безпечно.",
     "sections": [
       {
         "title": "Головна ідея",
-        "text": "Білки мають певну просторову форму, яку підтримують міжмолекулярні взаємодії. Денатурація порушує частину цієї структури; далі може відбуватися агрегація або коагуляція, але це не тотожні поняття."
+        "text": "Кухня працює як узгоджений процес із взаємними залежностями: грилю може знадобитися 12 хвилин, овочам знадобиться 5, а фінальному оформленню знадобиться 2. Якщо почати все невчасно, продукти чекатимуть і втратять якість. Стан замовлення, відповідальний та час мають бути зрозумілі всім."
       },
       {
-        "title": "Наукові та практичні принципи",
-        "text": "Різні білки неоднаково реагують на температуру, сіль, pH та час. Під час нагрівання яєчні білки формують сітку; молочні можуть зсідатися від кислоти чи тепла; оброблена кислотою риба може мати вигляд готової, залишаючись потенційно небезпечною."
+        "title": "Принципи організації",
+        "text": "Використовуйте єдиний номер замовлення, стіл, назви страв, зміни до рецепта, повідомлення про алергени й цільовий час подачі. Для критичних інструкцій потрібне повторне підтвердження. Працівник на видачі має бачити, які позиції почали готувати, виконують, завершили, затримали чи поставили на паузу."
       },
       {
         "title": "Як застосовувати",
-        "text": "Готуйте заварні креми та яєчню на помірному жарі, вводьте кислоти на потрібному етапі, а для безпечності вимірюйте температуру продукту. Зупиняйте нагрівання, коли досягнуто бажаної текстури."
+        "text": "Перед зміною обговоріть спеціальні страви, відсутні продукти, очікуваний потік гостей, проблеми з обладнанням та протоколи алергенів. Під час сервісу відразу повідомляйте про затримки й уточнюйте незрозумілі замовлення, не порушуючи розділення сирих і готових продуктів. Після зміни аналізуйте причини комунікаційних збоїв."
       },
       {
         "title": "Практичний приклад",
-        "text": "Приготуйте дві однакові яєчні суміші на слабкому й сильному нагріві, перемішуючи однаково. Порівняйте розмір згустків, виділення вологи, твердість та зручність контролю."
+        "text": "У замовленні №42 є курка-гриль, печена картопля й чітко зазначена алергія на молоко. Координатор підтверджує попередження кожній станції та запускає встановлений протокол, а не просто сподівається, що соус безпечний. Кухар заздалегідь повідомляє про затримку гриля, щоб гарнір подали одночасно."
       },
       {
         "title": "Поширені помилки та обмеження",
-        "text": "Денатурація не завжди означає повну кулінарну готовність, незворотність або знищення мікроорганізмів. Непрозорий колір і пружність не замінюють правила безпечного приготування."
+        "text": "Гучність не гарантує точності передачі інформації. Усне повідомлення без підтвердження легко загубиться у шумі. Безпечна робота з алергенами вимагає перевірених складників, інвентарю, поверхонь і процедур, а не лише слова «алергія». Електронні замовлення допомагають, але не замінюють навчання персоналу."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "137, 143, 178, 220, 289."
+        "text": "003, 014, 017, 277, 278, 286."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Змоделюйте відсутність інгредієнта й повідомлення про алерген під час одночасного виконання десяти замовлень. Відпрацюйте короткі команди з повторним підтвердженням, призначте відповідального за заміну, призупиніть відповідні страви, повідомте експедитора й зафіксуйте одне покращення після зміни."
       }
     ]
   },
   "related": [
-    137,
-    143,
-    178,
-    220,
-    289
+    3,
+    14,
+    17,
+    277,
+    278,
+    286
   ],
   "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-chemistry",
-    "https://asbe.org/article/baking/"
+    "https://www.ciachef.edu/blog/kitchen-brigade-chef-hierarchy/",
+    "https://www.foodallergy.org/resources/steps-safe-kitchen-0",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.restaurant.org/education-and-resources/"
   ]
 }

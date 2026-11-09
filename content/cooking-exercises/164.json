@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 164,
+    "title": {
+      "en": "Stock Clarity, Skimming, and Impurity Removal",
+      "ua": "Прозорість бульйону та видалення піни й домішок"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/losangeles/career-programs/plant-based-culinary-arts-associate-degree-program",
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-164-01",
+      "theoryId": 164,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the main reason to skim the foam from a gently simmering stock?",
+        "ua": "Навіщо знімати піну з бульйону під час слабкого кипіння?"
+      },
+      "explanation": {
+        "en": "Skimming removes particulates that may cloud the finished stock.",
+        "ua": "Зняття піни прибирає частинки, які можуть робити готовий бульйон каламутним."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Increase its sugar content",
+            "ua": "Збільшити вміст цукру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Remove coagulated proteins and floating impurities",
+            "ua": "Видалити згорнуті білки та частинки з поверхні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Make all salt evaporate",
+            "ua": "Випарувати всю сіль"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-164-02",
+      "theoryId": 164,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Vigorous stirring and rolling boiling usually improve the clarity of a stock.",
+        "ua": "Бурхливе кипіння та енергійне перемішування зазвичай покращують прозорість бульйону."
+      },
+      "explanation": {
+        "en": "Strong turbulence suspends particles and can emulsify fat into the liquid.",
+        "ua": "Сильний рух рідини підіймає частинки та може емульгувати жир."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-164-03",
+      "theoryId": 164,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match clarity tools to their purposes.",
+        "ua": "Поєднайте прийоми освітлення з їхніми функціями."
+      },
+      "explanation": {
+        "en": "Clarity depends on controlling particles at several stages.",
+        "ua": "Прозорість залежить від контролю частинок на кількох етапах."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Skimming",
+            "ua": "Зняття піни"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Fine straining",
+            "ua": "Дрібне проціджування"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Gentle simmer",
+            "ua": "Слабке кипіння"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Removes floating foam",
+            "ua": "Прибирає піну з поверхні"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Reduces turbulence",
+            "ua": "Зменшує турбулентність"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Captures remaining particles",
+            "ua": "Затримує залишкові частинки"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-164-04",
+      "theoryId": 164,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your stock is bubbling violently and cloudy. What should you change?",
+        "ua": "Бульйон сильно кипить і став каламутним. Що змінити?"
+      },
+      "explanation": {
+        "en": "Less agitation and appropriate removal of solids improve clarity.",
+        "ua": "Менший рух рідини та видалення частинок покращують прозорість."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Beat the stock rapidly with a mixer",
+            "ua": "Енергійно збити бульйон міксером"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add raw flour to disguise cloudiness",
+            "ua": "Додати сире борошно, щоб приховати каламутність"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Reduce to a gentle simmer, skim and strain appropriately",
+            "ua": "Зменшити нагрів до слабкого кипіння, зняти піну й процідити"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-164-05",
+      "theoryId": 164,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which claim about clear stock is wrong?",
+        "ua": "Яке твердження про прозорий бульйон неправильне?"
+      },
+      "explanation": {
+        "en": "Visual clarity and microbial safety are independent properties.",
+        "ua": "Візуальна прозорість і мікробіологічна безпечність — різні властивості."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Skimming helps visual clarity",
+            "ua": "Зняття піни покращує прозорість"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Clear appearance guarantees the stock is pathogen-free",
+            "ua": "Прозорий вигляд гарантує відсутність патогенів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Straining helps remove suspended solids",
+            "ua": "Проціджування видаляє завислі частинки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

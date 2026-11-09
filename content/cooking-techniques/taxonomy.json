@@ -1,0 +1,620 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "workflow",
+      "name": {
+        "en": "Kitchen workflow and temperature control",
+        "ua": "Організація роботи та контроль температури"
+      },
+      "subcategories": [
+        {
+          "id": "workflow.preparation",
+          "name": {
+            "en": "Setup and preparation",
+            "ua": "Організація підготовки"
+          }
+        },
+        {
+          "id": "workflow.temperature",
+          "name": {
+            "en": "Cooling and temperature management",
+            "ua": "Охолодження й температурний контроль"
+          }
+        }
+      ]
+    },
+    {
+      "id": "knife",
+      "name": {
+        "en": "Knife cuts and shaping",
+        "ua": "Нарізання та формування"
+      },
+      "subcategories": [
+        {
+          "id": "knife.basic-cuts",
+          "name": {
+            "en": "Basic cuts",
+            "ua": "Основні види нарізання"
+          }
+        },
+        {
+          "id": "knife.classical-cuts",
+          "name": {
+            "en": "Classical and precision cuts",
+            "ua": "Класична й точна нарізка"
+          }
+        },
+        {
+          "id": "knife.special-shaping",
+          "name": {
+            "en": "Specialized cuts and forming",
+            "ua": "Спеціальна нарізка та формування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "produce",
+      "name": {
+        "en": "Vegetable, fruit and aromatics preparation",
+        "ua": "Підготовка овочів, фруктів та ароматичних інгредієнтів"
+      },
+      "subcategories": [
+        {
+          "id": "produce.cleaning",
+          "name": {
+            "en": "Cleaning, peeling and trimming",
+            "ua": "Очищення, чищення та обрізання"
+          }
+        },
+        {
+          "id": "produce.processing",
+          "name": {
+            "en": "Grating, crushing and extracting",
+            "ua": "Тертя, розтирання та добування"
+          }
+        },
+        {
+          "id": "produce.plant-preparation",
+          "name": {
+            "en": "Special produce treatments",
+            "ua": "Спеціальна підготовка рослинних продуктів"
+          }
+        }
+      ]
+    },
+    {
+      "id": "proteins",
+      "name": {
+        "en": "Meat, poultry, fish and seafood preparation",
+        "ua": "Підготовка м’яса, птиці, риби та морепродуктів"
+      },
+      "subcategories": [
+        {
+          "id": "proteins.meat",
+          "name": {
+            "en": "Meat and poultry preparation",
+            "ua": "Підготовка м’яса та птиці"
+          }
+        },
+        {
+          "id": "proteins.fish",
+          "name": {
+            "en": "Fish and shellfish preparation",
+            "ua": "Підготовка риби та молюсків"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "name": {
+        "en": "Seasoning, marinating and coating",
+        "ua": "Приправляння, маринування та панірування"
+      },
+      "subcategories": [
+        {
+          "id": "seasoning.seasoning",
+          "name": {
+            "en": "Seasoning and aromatic treatment",
+            "ua": "Приправляння та розкриття аромату"
+          }
+        },
+        {
+          "id": "seasoning.coating",
+          "name": {
+            "en": "Coating and breading",
+            "ua": "Покриття та панірування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dryheat",
+      "name": {
+        "en": "Oven and dry-heat cooking",
+        "ua": "Приготування сухим жаром у духовці"
+      },
+      "subcategories": [
+        {
+          "id": "dryheat.oven",
+          "name": {
+            "en": "Oven heat methods",
+            "ua": "Методи запікання"
+          }
+        },
+        {
+          "id": "dryheat.surface",
+          "name": {
+            "en": "Browning and surface heat",
+            "ua": "Підрум’янювання та поверхневий жар"
+          }
+        },
+        {
+          "id": "dryheat.appliances",
+          "name": {
+            "en": "Appliance and special oven methods",
+            "ua": "Приготування у кухонних приладах"
+          }
+        }
+      ]
+    },
+    {
+      "id": "directheat",
+      "name": {
+        "en": "Grilling, fire and smoke cooking",
+        "ua": "Грилювання, вогонь та дим"
+      },
+      "subcategories": [
+        {
+          "id": "directheat.grilling",
+          "name": {
+            "en": "Direct and indirect grilling",
+            "ua": "Пряме й непряме грилювання"
+          }
+        },
+        {
+          "id": "directheat.smoke",
+          "name": {
+            "en": "Smoking and ember methods",
+            "ua": "Копчення та приготування на жаринах"
+          }
+        }
+      ]
+    },
+    {
+      "id": "frying",
+      "name": {
+        "en": "Pan, wok and oil cooking",
+        "ua": "Смаження на пательні, у вокові та в олії"
+      },
+      "subcategories": [
+        {
+          "id": "frying.pan",
+          "name": {
+            "en": "Pan cooking",
+            "ua": "Смаження на пательні"
+          }
+        },
+        {
+          "id": "frying.oil",
+          "name": {
+            "en": "Deep and specialty frying",
+            "ua": "Фритюр та спеціальні види смаження"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wetheat",
+      "name": {
+        "en": "Boiling, poaching and liquid cooking",
+        "ua": "Варіння, припускання та приготування в рідині"
+      },
+      "subcategories": [
+        {
+          "id": "wetheat.water",
+          "name": {
+            "en": "Basic wet-heat methods",
+            "ua": "Основні методи вологого нагрівання"
+          }
+        },
+        {
+          "id": "wetheat.special-liquid",
+          "name": {
+            "en": "Special liquid techniques",
+            "ua": "Спеціальні методи приготування в рідині"
+          }
+        }
+      ]
+    },
+    {
+      "id": "steaming",
+      "name": {
+        "en": "Steaming, wrapping and pressure",
+        "ua": "Приготування на парі, у згортках і під тиском"
+      },
+      "subcategories": [
+        {
+          "id": "steaming.steam",
+          "name": {
+            "en": "Steaming methods",
+            "ua": "Способи приготування на парі"
+          }
+        },
+        {
+          "id": "steaming.covered",
+          "name": {
+            "en": "Wrapped and enclosed cooking",
+            "ua": "Приготування у згортках і закритому посуді"
+          }
+        }
+      ]
+    },
+    {
+      "id": "combined",
+      "name": {
+        "en": "Braising, stewing and slow cooking",
+        "ua": "Тушкування, рагування та повільне приготування"
+      },
+      "subcategories": [
+        {
+          "id": "combined.combined",
+          "name": {
+            "en": "Combination cooking",
+            "ua": "Комбіноване приготування"
+          }
+        },
+        {
+          "id": "combined.slow",
+          "name": {
+            "en": "Gentle long cooking",
+            "ua": "Тривале повільне приготування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grains",
+      "name": {
+        "en": "Grains, legumes, noodles and starches",
+        "ua": "Крупи, бобові, локшина та крохмалі"
+      },
+      "subcategories": [
+        {
+          "id": "grains.grains",
+          "name": {
+            "en": "Grain and rice methods",
+            "ua": "Методи приготування зернових і рису"
+          }
+        },
+        {
+          "id": "grains.legumes",
+          "name": {
+            "en": "Legumes and starch work",
+            "ua": "Бобові та крохмалі"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stocks",
+      "name": {
+        "en": "Stocks, broths and extraction",
+        "ua": "Бульйони, відвари та екстракція"
+      },
+      "subcategories": [
+        {
+          "id": "stocks.stockmaking",
+          "name": {
+            "en": "Stocks and clarifying",
+            "ua": "Приготування та освітлення бульйонів"
+          }
+        },
+        {
+          "id": "stocks.extraction",
+          "name": {
+            "en": "Infusions and extraction",
+            "ua": "Настоювання та екстракція"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": {
+        "en": "Sauces, emulsions and thickening",
+        "ua": "Соуси, емульсії та загущення"
+      },
+      "subcategories": [
+        {
+          "id": "sauces.sauce",
+          "name": {
+            "en": "Sauce development and texture",
+            "ua": "Приготування соусів і робота з текстурою"
+          }
+        },
+        {
+          "id": "sauces.emulsions",
+          "name": {
+            "en": "Emulsions and aeration",
+            "ua": "Емульсії та насичення повітрям"
+          }
+        },
+        {
+          "id": "sauces.thickeners",
+          "name": {
+            "en": "Thickening and binding",
+            "ua": "Загущення та зв’язування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dough",
+      "name": {
+        "en": "Bread, dough and pastry preparation",
+        "ua": "Хліб, тісто та підготовка випічки"
+      },
+      "subcategories": [
+        {
+          "id": "dough.mixing",
+          "name": {
+            "en": "Dough mixing and gluten development",
+            "ua": "Замішування тіста та розвиток клейковини"
+          }
+        },
+        {
+          "id": "dough.pastry-dough",
+          "name": {
+            "en": "Pastry and flatbread shaping",
+            "ua": "Листкове тісто й формування коржів"
+          }
+        }
+      ]
+    },
+    {
+      "id": "baking",
+      "name": {
+        "en": "Cake, cookie and dessert mixing",
+        "ua": "Приготування тіста для тортів, печива й десертів"
+      },
+      "subcategories": [
+        {
+          "id": "baking.batters",
+          "name": {
+            "en": "Batter and cake mixing methods",
+            "ua": "Методи змішування рідкого та бісквітного тіста"
+          }
+        },
+        {
+          "id": "baking.cake-finishing",
+          "name": {
+            "en": "Baked dessert finishing",
+            "ua": "Завершення й складання десертів"
+          }
+        }
+      ]
+    },
+    {
+      "id": "confectionery",
+      "name": {
+        "en": "Sugar and confectionery techniques",
+        "ua": "Цукрові та кондитерські техніки"
+      },
+      "subcategories": [
+        {
+          "id": "confectionery.sugar",
+          "name": {
+            "en": "Sugar work",
+            "ua": "Робота з цукром"
+          }
+        },
+        {
+          "id": "confectionery.chocolate",
+          "name": {
+            "en": "Chocolate work",
+            "ua": "Робота з шоколадом"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": {
+        "en": "Eggs, dairy and cultured preparations",
+        "ua": "Яйця, молочні продукти та ферментовані основи"
+      },
+      "subcategories": [
+        {
+          "id": "eggs.eggs",
+          "name": {
+            "en": "Egg preparation and cooking",
+            "ua": "Приготування яєць"
+          }
+        },
+        {
+          "id": "eggs.dairy",
+          "name": {
+            "en": "Dairy and custard techniques",
+            "ua": "Молочні та заварні техніки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fermentation",
+      "name": {
+        "en": "Food fermentation and cultured processes",
+        "ua": "Ферментація та культуральні процеси"
+      },
+      "subcategories": [
+        {
+          "id": "fermentation.cultures",
+          "name": {
+            "en": "Bacterial and mixed fermentation",
+            "ua": "Бактеріальна та змішана ферментація"
+          }
+        },
+        {
+          "id": "fermentation.other-ferments",
+          "name": {
+            "en": "Other traditional fermentations",
+            "ua": "Інші традиційні ферментації"
+          }
+        }
+      ]
+    },
+    {
+      "id": "preservation",
+      "name": {
+        "en": "Preservation, curing and drying",
+        "ua": "Консервування, засолювання та сушіння"
+      },
+      "subcategories": [
+        {
+          "id": "preservation.acid",
+          "name": {
+            "en": "Pickling and curing",
+            "ua": "Маринування та засолювання"
+          }
+        },
+        {
+          "id": "preservation.drying",
+          "name": {
+            "en": "Dehydration and freezing",
+            "ua": "Сушіння та заморожування"
+          }
+        },
+        {
+          "id": "preservation.canning",
+          "name": {
+            "en": "Canning and jar processing",
+            "ua": "Стерилізація та консервування в банках"
+          }
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "name": {
+        "en": "Regional and traditional specialty techniques",
+        "ua": "Регіональні та традиційні спеціальні техніки"
+      },
+      "subcategories": [
+        {
+          "id": "international.east-asian",
+          "name": {
+            "en": "East Asian techniques",
+            "ua": "Східноазійські техніки"
+          }
+        },
+        {
+          "id": "international.south-asian",
+          "name": {
+            "en": "South Asian techniques",
+            "ua": "Південноазійські техніки"
+          }
+        },
+        {
+          "id": "international.southeast-asian",
+          "name": {
+            "en": "Southeast Asian techniques",
+            "ua": "Південносхідноазійські техніки"
+          }
+        },
+        {
+          "id": "international.american",
+          "name": {
+            "en": "Indigenous and American techniques",
+            "ua": "Корінні та американські техніки"
+          }
+        },
+        {
+          "id": "international.african",
+          "name": {
+            "en": "African and Middle Eastern techniques",
+            "ua": "Африканські та близькосхідні техніки"
+          }
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "name": {
+        "en": "Precision and modern culinary techniques",
+        "ua": "Точні й сучасні кулінарні техніки"
+      },
+      "subcategories": [
+        {
+          "id": "modern.precise",
+          "name": {
+            "en": "Precision temperature and extraction",
+            "ua": "Точний температурний контроль та екстракція"
+          }
+        },
+        {
+          "id": "modern.modern-cold",
+          "name": {
+            "en": "Modern cooling and structuring",
+            "ua": "Сучасне охолодження та структурування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "name": {
+        "en": "Assembly, finishing and presentation",
+        "ua": "Складання, завершення та подача"
+      },
+      "subcategories": [
+        {
+          "id": "service.finishing",
+          "name": {
+            "en": "Finishing and surface treatment",
+            "ua": "Фінішні операції та обробка поверхні"
+          }
+        },
+        {
+          "id": "service.plating",
+          "name": {
+            "en": "Assembly and plating",
+            "ua": "Складання та сервірування"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mixing",
+      "name": {
+        "en": "Mixing, separating and general handling",
+        "ua": "Змішування, відділення та загальна обробка"
+      },
+      "subcategories": [
+        {
+          "id": "mixing.mixing",
+          "name": {
+            "en": "Basic mixing techniques",
+            "ua": "Основні техніки змішування"
+          }
+        },
+        {
+          "id": "mixing.separation",
+          "name": {
+            "en": "Separating, draining and pressing",
+            "ua": "Відділення, стікання та пресування"
+          }
+        },
+        {
+          "id": "mixing.forming",
+          "name": {
+            "en": "General shaping and portioning",
+            "ua": "Загальне формування та порціонування"
+          }
+        }
+      ]
+    }
+  ]
+}

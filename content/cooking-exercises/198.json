@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 198,
+    "title": {
+      "en": "Choux Pastry and Steam Expansion",
+      "ua": "Заварне тісто та розширення пари"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-198-01",
+      "theoryId": 198,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What mainly causes choux pastry to puff dramatically in the oven?",
+        "ua": "Що переважно спричиняє значне збільшення заварного тіста в духовці?"
+      },
+      "explanation": {
+        "en": "Water vapor inflates the batter before the cooked structure sets.",
+        "ua": "Водяна пара надуває тісто до того, як закріпиться приготовлена структура."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A required teaspoon of yeast in every recipe",
+            "ua": "Обов’язкова чайна ложка дріжджів у кожному рецепті"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Steam expansion inside a setting shell",
+            "ua": "Розширення пари всередині оболонки, що закріплюється"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The color of parchment paper",
+            "ua": "Колір пергаменту"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-198-02",
+      "theoryId": 198,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Opening the oven very early may cause under-set choux shells to collapse.",
+        "ua": "Надто раннє відкривання духовки може призвести до осідання ще не закріплених заварних оболонок."
+      },
+      "explanation": {
+        "en": "The structure must set enough to hold its shape.",
+        "ua": "Структура має достатньо закріпитися, щоб утримувати форму."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-198-03",
+      "theoryId": 198,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match choux steps to their purpose.",
+        "ua": "Поєднайте етапи заварного тіста з метою."
+      },
+      "explanation": {
+        "en": "Panade, eggs, steam and drying all influence choux rise.",
+        "ua": "Панада, яйця, пара та підсушування впливають на підйом заварного тіста."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Cook flour with hot liquid",
+            "ua": "Заварити борошно в гарячій рідині"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Add eggs after cooling somewhat",
+            "ua": "Додати яйця після часткового охолодження"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Bake until the shell is set and dried",
+            "ua": "Випікати до закріплення й підсушування оболонки"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Adjust viscosity without scrambling eggs",
+            "ua": "Налаштувати густоту без зсідання яєць"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Support a hollow stable pastry",
+            "ua": "Сформувати порожнистий стійкий виріб"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Create a starch-rich panade",
+            "ua": "Створити крохмальну основу — панаду"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-198-04",
+      "theoryId": 198,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Choux puffs collapse after removal and feel wet inside. What should you investigate?",
+        "ua": "Заварні тістечка осідають після виймання й вологі всередині. Що перевірити?"
+      },
+      "explanation": {
+        "en": "A wet, under-set interior cannot reliably support the puffed shell.",
+        "ua": "Волога й недопечена внутрішня структура не втримує підняту оболонку."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Whether eggs are an optional garnish",
+            "ua": "Чи яйця — необов’язкова прикраса"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whether all pastry must be frozen raw",
+            "ua": "Чи кожну випічку слід заморожувати сирою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Insufficient baking and drying of the shell",
+            "ua": "Недостатнє пропікання та підсушування оболонки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-198-05",
+      "theoryId": 198,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Sequence the main steps for choux pastry.",
+        "ua": "Упорядкуйте головні етапи заварного тіста."
+      },
+      "explanation": {
+        "en": "Egg incorporation follows cooking the flour mixture, not precedes it.",
+        "ua": "Яйця додають після заварювання борошняної маси, а не до нього."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Cook flour into a panade",
+            "ua": "Заварити борошно до панади"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Pipe and bake until set",
+            "ua": "Відсадити та випекти до готової структури"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring water, fat and salt to a simmer",
+            "ua": "Нагріти воду, жир та сіль до слабкого кипіння"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Cool slightly and incorporate eggs",
+            "ua": "Трохи охолодити й вмішати яйця"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

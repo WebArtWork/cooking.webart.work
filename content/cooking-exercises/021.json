@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 21,
+    "title": {
+      "en": "Safe Handling of Raw Meat, Poultry, and Seafood",
+      "ua": "Безпечна робота із сирим м’ясом, птицею та морепродуктами"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+    "https://www.cdc.gov/food-safety/signs-symptoms/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-021-01",
+      "theoryId": 21,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "What is the safest routine for raw poultry before cooking?",
+        "ua": "Яка найбезпечніша звична дія із сирою птицею до приготування?"
+      },
+      "explanation": {
+        "en": "Cold holding, separation, and no splashing reduce the spread of pathogens.",
+        "ua": "Охолодження, розділення й уникання бризок зменшують поширення патогенів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep cold, separate from ready-to-eat foods, and avoid washing",
+            "ua": "Тримати охолодженою окремо від готової їжі та не промивати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Rinse forcefully under the faucet",
+            "ua": "Сильно промивати під краном"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Leave on the counter all afternoon",
+            "ua": "Залишити на столі до вечора"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Taste a small raw piece",
+            "ua": "Скуштувати невеликий сирий шматок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-021-02",
+      "theoryId": 21,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practices reduce risks from raw meat and seafood?",
+        "ua": "Які дії знижують ризики від сирого м’яса й морепродуктів?"
+      },
+      "explanation": {
+        "en": "Safe handling requires separation, hygiene, and temperature control.",
+        "ua": "Безпечна обробка потребує розділення, гігієни та температурного контролю."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Separate utensils for raw and ready-to-eat food",
+            "ua": "Окремі інструменти для сирих і готових продуктів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Refrigerate while waiting to cook",
+            "ua": "Тримати в холодильнику до приготування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wash hands after touching raw food",
+            "ua": "Мити руки після контакту із сирими продуктами"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Reuse raw-meat cutting liquid as a cold dressing",
+            "ua": "Використовувати рідину після сирого м’яса як холодну заправку"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-021-03",
+      "theoryId": 21,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order a safe process for preparing raw chicken and then a salad.",
+        "ua": "Розташуйте безпечні кроки підготовки курятини й подальшого салату."
+      },
+      "explanation": {
+        "en": "The cleaning step must interrupt the raw-to-ready-to-eat route.",
+        "ua": "Очищення має перервати перенесення забруднення із сирих продуктів на готові."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Handle raw chicken with dedicated clean tools",
+            "ua": "Підготувати сиру курятину окремими чистими інструментами"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Prepare ready-to-eat salad with clean tools",
+            "ua": "Готувати салат чистими інструментами"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Keep chicken refrigerated until its preparation",
+            "ua": "Тримати курятину охолодженою до підготовки"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Wash hands and clean/sanitize affected surfaces",
+            "ua": "Вимити руки та очистити/обробити забруднені поверхні"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-021-04",
+      "theoryId": 21,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Seafood that smells fresh is automatically free from harmful bacteria or parasites.",
+        "ua": "Морепродукти з приємним свіжим запахом автоматично не містять шкідливих бактерій чи паразитів."
+      },
+      "explanation": {
+        "en": "Smell is not a reliable microbial safety test.",
+        "ua": "Запах не є надійним тестом мікробіологічної безпечності."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-021-05",
+      "theoryId": 21,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which raw-food handling action is a mistake?",
+        "ua": "Яка дія із сирими продуктами неправильна?"
+      },
+      "explanation": {
+        "en": "A contaminated knife can carry pathogens to ready-to-eat bread.",
+        "ua": "Забруднений ніж може переносити патогени на готовий до споживання хліб."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep raw poultry in a tray",
+            "ua": "Тримати сиру птицю в лотку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Wash hands after handling raw meat",
+            "ua": "Мити руки після сирого м’яса"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Slice bread with the knife just used on raw fish",
+            "ua": "Нарізати хліб ножем, яким щойно різали сиру рибу"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use a thermometer for safe cooking",
+            "ua": "Користуватися термометром для безпечного приготування"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-021-06",
+      "theoryId": 21,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Chicken juice splashes onto sliced tomatoes meant for raw service. What is the safest response?",
+        "ua": "Сік курятини потрапив на нарізані помідори для подачі сирими. Яка дія найбезпечніша?"
+      },
+      "explanation": {
+        "en": "Produce contaminated by raw poultry juice should not be offered raw.",
+        "ua": "Овочі, забруднені соком сирої птиці, не слід подавати сирими."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard the contaminated tomatoes and sanitize surfaces",
+            "ua": "Утилізувати забруднені помідори та обробити поверхні"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve them after a quick rinse",
+            "ua": "Подати після швидкого ополіскування"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Hide them under herbs",
+            "ua": "Прикрити зеленню"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Add lemon juice and assume safe",
+            "ua": "Додати лимонний сік і вважати безпечними"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

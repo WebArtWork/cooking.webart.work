@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 281,
+    "title": {
+      "en": "Ingredient Purchasing and Quality Control",
+      "ua": "Закупівля інгредієнтів та контроль якості"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.restaurant.org/education-and-resources/resource-library/restaurateurs-use-tech-to-manage-inventory%2C-save-money/",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-281-01",
+      "theoryId": 281,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What should a food purchasing specification include?",
+        "ua": "Що має містити специфікація закупівлі продуктів?"
+      },
+      "explanation": {
+        "en": "Clear criteria help verify deliveries against the intended food quality and safety needs.",
+        "ua": "Чіткі критерії допомагають перевірити поставки на відповідність якості та вимогам безпеки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only the supplier’s logo",
+            "ua": "Лише логотип постачальника"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Product grade, quantity, delivery condition and acceptance criteria",
+            "ua": "Ґатунок, кількість, умови доставки та критерії приймання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only the name of the chef",
+            "ua": "Лише ім’я шефа"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-281-02",
+      "theoryId": 281,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A lower unit price guarantees lower cost per usable kilogram.",
+        "ua": "Нижча ціна за кілограм завжди гарантує нижчу ціну придатного до використання кілограма."
+      },
+      "explanation": {
+        "en": "Usable yield and trimming loss may change the effective ingredient cost.",
+        "ua": "Їстівний вихід та втрати під час очищення можуть змінити фактичну вартість інгредієнта."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-281-03",
+      "theoryId": 281,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match purchasing checks to the problem they address.",
+        "ua": "Поєднайте перевірки закупівель із проблемами, які вони виявляють."
+      },
+      "explanation": {
+        "en": "Receiving tests, specification and usable yield work together.",
+        "ua": "Перевірка поставки, специфікація та їстівний вихід взаємодоповнюються."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Receiving temperature",
+            "ua": "Температура під час приймання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Purchase specification",
+            "ua": "Специфікація закупівлі"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Yield test",
+            "ua": "Перевірка виходу"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Defines accepted product size and grade",
+            "ua": "Визначає прийнятні розмір та ґатунок"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Estimates usable product from bought mass",
+            "ua": "Оцінює придатну масу із закупленої"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Detects potentially unsafe delivery conditions",
+            "ua": "Виявляє потенційно небезпечні умови доставки"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-281-04",
+      "theoryId": 281,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Supplier A delivers carrots at 30 UAH/kg with 60% usable yield; B delivers at 36 UAH/kg with 90% usable yield. What matters when choosing?",
+        "ua": "Постачальник A продає моркву по 30 грн/кг із виходом 60%; B — по 36 грн/кг із виходом 90%. Що важливо порівняти?"
+      },
+      "explanation": {
+        "en": "Effective costs are 50 versus 40 UAH per usable kg; quality and consistency also matter.",
+        "ua": "Фактична вартість становить 50 проти 40 грн за придатний кг; якість і стабільність також важливі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ignore product quality completely",
+            "ua": "Повністю ігнорувати якість продукту"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Choose A by sticker price alone",
+            "ua": "Вибрати A лише за ціною на етикетці"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Compare cost per usable kilogram, quality and delivery reliability",
+            "ua": "Порівняти вартість придатного кілограма, якість і надійність поставки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-281-05",
+      "theoryId": 281,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which are useful criteria for accepting a supplier delivery?",
+        "ua": "Які критерії корисні для приймання поставки?"
+      },
+      "explanation": {
+        "en": "Receiving requires evidence of quality, integrity and traceability.",
+        "ua": "Приймання потребує підтвердження якості, цілісності й простежуваності."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A promise to remove labels after receiving",
+            "ua": "Обіцянка прибрати маркування після приймання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Product quality against specification",
+            "ua": "Якість відносно специфікації"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Traceable lot and date information",
+            "ua": "Простежуваність партії та дати"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Packaging and temperature condition",
+            "ua": "Стан пакування й температура"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "d",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-281-06",
+      "theoryId": 281,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A 10 kg vegetable case costs 420 UAH and gives 7 kg of usable vegetables. What is the cost per usable kilogram in UAH?",
+        "ua": "Ящик овочів масою 10 кг коштує 420 грн і дає 7 кг придатних овочів. Яка вартість одного придатного кілограма в гривнях?"
+      },
+      "explanation": {
+        "en": "420 ÷ 7 = 60 UAH per usable kilogram.",
+        "ua": "420 ÷ 7 = 60 грн за придатний кілограм."
+      },
+      "numericInput": {
+        "unit": "uah",
+        "unitLabel": {
+          "en": "Ukrainian hryvnias",
+          "ua": "гривень"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 60,
+        "tolerance": 0,
+        "unit": "uah"
+      }
+    }
+  ]
+}

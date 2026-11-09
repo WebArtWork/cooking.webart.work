@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 140,
+    "title": {
+      "en": "Poultry Anatomy and White vs. Dark Meat",
+      "ua": "Будова птиці та відмінності білого й темного м’яса"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-140-01",
+      "theoryId": 140,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why does chicken thigh often tolerate longer cooking than breast without becoming as dry?",
+        "ua": "Чому куряче стегно часто переносить довше приготування, ніж грудка, не пересихаючи так сильно?"
+      },
+      "explanation": {
+        "en": "Dark meat typically contains more myoglobin, fat and connective tissue than breast meat.",
+        "ua": "Темне м’ясо зазвичай містить більше міоглобіну, жиру й сполучної тканини, ніж грудка."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "More connective tissue and intramuscular fat affect texture",
+            "ua": "Більше сполучної тканини й внутрішньом’язового жиру впливає на текстуру"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Thigh meat contains no proteins",
+            "ua": "У стегні немає білків"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Breast meat is made of starch",
+            "ua": "Грудка складається з крохмалю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-140-02",
+      "theoryId": 140,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "All chicken pieces share the same US consumer minimum safe internal temperature: 74°C.",
+        "ua": "Для всіх частин курки мінімальна безпечна температура за побутовими нормами США — 74°C."
+      },
+      "explanation": {
+        "en": "US consumer guidance sets 165°F (74°C) for poultry, including breast, thigh and ground poultry.",
+        "ua": "Побутові рекомендації США встановлюють для птиці, зокрема грудки, стегна й фаршу, 165°F (74°C)."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-140-03",
+      "theoryId": 140,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match poultry anatomy with culinary properties.",
+        "ua": "Поєднайте частини птиці з кулінарними властивостями."
+      },
+      "explanation": {
+        "en": "Different muscle use, pigments and fat levels affect cooking.",
+        "ua": "Різне навантаження м’язів, пігменти й жир впливають на приготування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Breast",
+            "ua": "Грудка"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Thigh",
+            "ua": "Стегно"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Skin",
+            "ua": "Шкіра"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Can render fat and crisp",
+            "ua": "Може витоплювати жир і ставати хрусткою"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Darker and often fattier meat",
+            "ua": "Темніше й часто жирніше м’ясо"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Lean white meat",
+            "ua": "Пісне біле м’ясо"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-140-04",
+      "theoryId": 140,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Chicken breast is dry while the thighs are juicy. How should you improve the next batch?",
+        "ua": "Грудка суха, а стегна соковиті. Як покращити наступну партію?"
+      },
+      "explanation": {
+        "en": "Different geometry and composition call for piece-by-piece control.",
+        "ua": "Різна товщина та склад потребують окремого контролю."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Monitor different pieces individually with a thermometer",
+            "ua": "Перевіряти різні частини окремо термометром"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume all pieces heat at identical rates",
+            "ua": "Вважати, що всі частини нагріваються однаково"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Always roast breast much longer than thighs",
+            "ua": "Завжди запікати грудку значно довше за стегна"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-140-05",
+      "theoryId": 140,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which statement about poultry is false?",
+        "ua": "Яке твердження про птицю хибне?"
+      },
+      "explanation": {
+        "en": "Color does not reliably establish safe internal temperature.",
+        "ua": "Колір не доводить належної внутрішньої температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dark meat has more myoglobin",
+            "ua": "Темне м’ясо містить більше міоглобіну"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Poultry requires proper sanitary handling",
+            "ua": "Птиця потребує належної гігієни"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Pink-to-white color alone establishes safe cooking",
+            "ua": "Колір від рожевого до білого сам доводить безпечність"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

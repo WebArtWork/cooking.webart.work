@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 136,
+    "title": {
+      "en": "Meat Doneness and Internal Temperature",
+      "ua": "Ступені просмаження м’яса та внутрішня температура"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.seriouseats.com/meat-cooking-rules-busted-12036560",
+    "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-136-01",
+      "theoryId": 136,
+      "type": "single_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Under standard US consumer guidance, what minimum internal temperature and rest are recommended for a whole-muscle beef steak?",
+        "ua": "Які мінімальна температура та відпочинок рекомендовані для цілого яловичого стейка в побутових настановах США?"
+      },
+      "explanation": {
+        "en": "FoodSafety.gov lists 63°C (145°F) with a 3-minute rest for whole cuts of beef.",
+        "ua": "FoodSafety.gov встановлює для цілих шматків яловичини 63°C (145°F) із відпочинком 3 хвилини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "63°C and 3 minutes resting",
+            "ua": "63°C та 3 хвилини відпочинку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "45°C and no resting",
+            "ua": "45°C без відпочинку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only a brown surface is needed",
+            "ua": "Потрібна лише рум’яна поверхня"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-136-02",
+      "theoryId": 136,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "The color of beef juices is a reliable substitute for a calibrated meat thermometer.",
+        "ua": "Колір м’ясного соку надійно замінює перевірений кулінарний термометр."
+      },
+      "explanation": {
+        "en": "Visual cues alone cannot verify the center has reached a safe time-temperature condition.",
+        "ua": "Лише візуальні ознаки не доводять належної температури й часу в центрі."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-136-03",
+      "theoryId": 136,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match foods to standard US consumer minimum temperatures.",
+        "ua": "Поєднайте продукти з мінімальними температурами за побутовими настановами США."
+      },
+      "explanation": {
+        "en": "US consumer temperature targets vary by product type and processing.",
+        "ua": "У побутових настановах США температури залежать від виду продукту та його обробки."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Whole beef steak with 3-minute rest",
+            "ua": "Цілий яловичий стейк із 3-хвилинним відпочинком"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Ground beef",
+            "ua": "Яловичий фарш"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Chicken breast",
+            "ua": "Куряча грудка"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "74°C",
+            "ua": "74°C"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "71°C",
+            "ua": "71°C"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "63°C",
+            "ua": "63°C"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-136-04",
+      "theoryId": 136,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Your ground-beef burger reads 65°C at the center under US household guidance. What should you do?",
+        "ua": "Температура яловичого бургера з фаршу в центрі 65°C. Що робити за побутовими рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "Ground meat requires 71°C (160°F) in standard US consumer guidance.",
+        "ua": "За побутовими рекомендаціями США фарш має досягти 71°C (160°F)."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Continue cooking to at least 71°C",
+            "ua": "Продовжити приготування щонайменше до 71°C"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve because the outside is dark",
+            "ua": "Подати, бо зовні темний"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Measure only the plate temperature",
+            "ua": "Міряти лише температуру тарілки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-136-05",
+      "theoryId": 136,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which food-safety statement is incorrect?",
+        "ua": "Яке твердження про безпечність неправильне?"
+      },
+      "explanation": {
+        "en": "Poultry, ground meat and whole cuts have different US consumer thresholds.",
+        "ua": "Для птиці, фаршу та цілих шматків у США діють різні побутові пороги."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use the thickest part for a thermometer check",
+            "ua": "Міряти в найтовстішій частині"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Avoid touching bone with the thermometer probe",
+            "ua": "Не торкатися кістки щупом"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "All meats are safe at the same temperature without regard to type",
+            "ua": "Будь-яке м’ясо безпечне за однієї температури незалежно від виду"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-136-06",
+      "theoryId": 136,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Select true statements about US home meat temperature guidance.",
+        "ua": "Оберіть правильні твердження про побутові температурні рекомендації США."
+      },
+      "explanation": {
+        "en": "These are FoodSafety.gov US consumer values; local professional food codes can differ.",
+        "ua": "Це побутові значення FoodSafety.gov для США; професійні місцеві правила можуть відрізнятися."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ground beef: at least 71°C",
+            "ua": "Яловичий фарш: щонайменше 71°C"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Poultry: at least 74°C",
+            "ua": "Птиця: щонайменше 74°C"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Whole beef steak: at least 63°C plus 3-minute rest",
+            "ua": "Цілий яловичий стейк: щонайменше 63°C та 3 хвилини відпочинку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "A crust guarantees any required core temperature",
+            "ua": "Скоринка гарантує будь-яку необхідну температуру центру"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

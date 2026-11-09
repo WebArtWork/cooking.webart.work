@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 189,
+    "title": {
+      "en": "Scoring, Oven Spring, and Steam",
+      "ua": "Надрізання, підйом тіста в духовці та пара"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/blog/2023/08/31/proofing-bread"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-189-01",
+      "theoryId": 189,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why do bakers score many free-form loaves before baking?",
+        "ua": "Навіщо перед випіканням надрізають багато видів подового хліба?"
+      },
+      "explanation": {
+        "en": "Scores create preferred expansion points during oven spring.",
+        "ua": "Надрізи створюють місця контрольованого розширення під час підйому в духовці."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Prevent all moisture from leaving forever",
+            "ua": "Назавжди зупинити втрату вологи"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add extra yeast to the interior",
+            "ua": "Додати дріжджів усередину"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Guide expansion along controlled cuts",
+            "ua": "Спрямувати розширення тіста вздовж надрізів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-189-02",
+      "theoryId": 189,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Steam early in baking can delay surface setting and support oven spring.",
+        "ua": "Пара на початку випікання може затримувати закріплення поверхні й допомагати підйому хліба."
+      },
+      "explanation": {
+        "en": "A humid oven environment helps keep the crust flexible initially.",
+        "ua": "Вологе середовище спершу допомагає скоринці залишатися гнучкою."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-189-03",
+      "theoryId": 189,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match bread-baking elements with their roles.",
+        "ua": "Поєднайте елементи випікання хліба з їхніми ролями."
+      },
+      "explanation": {
+        "en": "Scoring, steam and oven spring are connected but distinct.",
+        "ua": "Надрізи, пара та підйом пов’язані, але не тотожні."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Scoring",
+            "ua": "Надрізання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Early baking steam",
+            "ua": "Пара на початку випікання"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Oven spring",
+            "ua": "Підйом у духовці"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Rapid initial dough expansion",
+            "ua": "Швидке початкове розширення тіста"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Delays premature crust setting",
+            "ua": "Затримує передчасне закріплення скоринки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Directs expansion",
+            "ua": "Спрямовує розширення"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-189-04",
+      "theoryId": 189,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A loaf bursts unpredictably on the side despite otherwise good proofing. What is worth checking?",
+        "ua": "Хліб хаотично розривається збоку попри нормальне вистоювання. Що перевірити?"
+      },
+      "explanation": {
+        "en": "Uncontrolled expansion can reflect scoring and crust-setting conditions.",
+        "ua": "Неконтрольоване розширення може залежати від надрізів і формування скоринки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Only the color of the oven rack",
+            "ua": "Лише колір решітки духовки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whether the dough contains enough table sugar to burn",
+            "ua": "Чи досить цукру для підгоряння"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Scoring depth, placement and oven-steam conditions",
+            "ua": "Глибину та місце надрізів і наявність пари"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-189-05",
+      "theoryId": 189,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which advice about baking steam is unsafe?",
+        "ua": "Яка порада щодо пари під час випікання небезпечна?"
+      },
+      "explanation": {
+        "en": "Sudden temperature shock may damage oven glass, and steam causes burns.",
+        "ua": "Різкий перепад температур може пошкодити скло духовки, а пара спричиняє опіки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Throw water onto an unapproved hot glass oven door",
+            "ua": "Лити воду на гарячі скляні дверцята, якщо виробник цього не дозволяє"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use a safe steam-capable oven procedure",
+            "ua": "Використовувати безпечну технологію подавання пари, передбачену духовкою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Protect hands when releasing hot steam",
+            "ua": "Захищати руки від гарячої пари"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

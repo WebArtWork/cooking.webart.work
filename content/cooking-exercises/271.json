@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 271,
+    "title": {
+      "en": "Iterative Recipe Improvement",
+      "ua": "Ітеративне вдосконалення рецептів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn",
+    "https://www.cacfp.org/2024/07/02/recipe-standardization-guide/",
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-271-01",
+      "theoryId": 271,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What makes an iterative recipe trial scientifically useful?",
+        "ua": "Що робить ітеративне випробування рецепта науково корисним?"
+      },
+      "explanation": {
+        "en": "Controlled comparisons make it possible to attribute changes in taste or texture to a tested variable.",
+        "ua": "Контрольоване порівняння дає змогу пов’язати зміну смаку чи текстури з випробуваним чинником."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Judge only the appearance of the plate",
+            "ua": "Оцінювати лише вигляд страви"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Change every ingredient at once",
+            "ua": "Змінювати всі інгредієнти одночасно"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Change one important variable while keeping the others controlled",
+            "ua": "Змінювати один важливий параметр, контролюючи решту"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-271-02",
+      "theoryId": 271,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A recipe version that one taster prefers is automatically the best version for all customers.",
+        "ua": "Версія рецепта, що сподобалася одному дегустатору, автоматично найкраща для всіх гостей."
+      },
+      "explanation": {
+        "en": "Different diners have different preferences; use target criteria and multiple tasters when relevant.",
+        "ua": "Смаки гостей відрізняються; важливі цільові критерії та, за потреби, кілька дегустаторів."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-271-03",
+      "theoryId": 271,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match trial records to what they tell the developer.",
+        "ua": "Поєднайте записи випробування з тим, яку інформацію вони дають."
+      },
+      "explanation": {
+        "en": "A useful iteration links a recorded change to a defined quality outcome.",
+        "ua": "Корисна ітерація пов’язує записану зміну з визначеним результатом якості."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Baseline batch",
+            "ua": "Базова партія"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Variable log",
+            "ua": "Журнал змінних"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Sensory scorecard",
+            "ua": "Картка дегустації"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Shows exactly what changed",
+            "ua": "Показує, що саме змінилося"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Captures repeatable quality criteria",
+            "ua": "Фіксує відтворювані критерії якості"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Reference for comparison",
+            "ua": "Еталон для порівняння"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-271-04",
+      "theoryId": 271,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Roast potatoes are pale, but the cook also wants to test crispness. Which next trial is most informative?",
+        "ua": "Запечена картопля бліда, але кухар також хоче перевірити хрусткість. Яка наступна спроба найінформативніша?"
+      },
+      "explanation": {
+        "en": "Changing one main factor lets you interpret the outcome.",
+        "ua": "Зміна одного головного чинника дозволяє пояснити результат."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep the cut and ingredients fixed while testing one oven temperature change",
+            "ua": "Зберегти розмір і склад, змінивши лише температуру духовки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stop measuring any results",
+            "ua": "Перестати вимірювати результати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Change the oil, cut size, oven temperature and potato variety together",
+            "ua": "Одразу змінити олію, розмір шматків, температуру та сорт картоплі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-271-05",
+      "theoryId": 271,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "What belongs in a controlled recipe trial?",
+        "ua": "Що має бути в контрольованому випробуванні рецепта?"
+      },
+      "explanation": {
+        "en": "Document conditions, version changes and quality; safety requirements remain fixed.",
+        "ua": "Фіксуйте умови, зміни версій та якість; вимоги безпеки залишаються незмінними."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Assign version identifiers",
+            "ua": "Присвоїти версіям позначення"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Record ingredient masses and method",
+            "ua": "Записати маси інгредієнтів та спосіб"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Define crispness or flavor criteria before tasting",
+            "ua": "Заздалегідь визначити критерії хрусткості чи смаку"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Ignore safe cooking requirements to compare faster",
+            "ua": "Ігнорувати вимоги безпеки заради швидшого порівняння"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "a",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-271-06",
+      "theoryId": 271,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Arrange a useful recipe improvement cycle.",
+        "ua": "Упорядкуйте корисний цикл покращення рецепта."
+      },
+      "explanation": {
+        "en": "The sequence preserves traceability from goal to tested outcome.",
+        "ua": "Така послідовність забезпечує простежуваність від мети до результату."
+      },
+      "steps": [
+        {
+          "id": "s4",
+          "text": {
+            "en": "Compare results and decide what to retain",
+            "ua": "Порівняти результати й вирішити, що залишити"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Define a measurable quality goal",
+            "ua": "Визначити вимірювану ціль якості"
+          }
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Record the baseline recipe and result",
+            "ua": "Записати базовий рецепт та результат"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Run one controlled change",
+            "ua": "Випробувати одну контрольовану зміну"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

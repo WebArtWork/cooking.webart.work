@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 66,
+    "title": {
+      "en": "Pungency, Chili Heat, and Cooling Sensations",
+      "ua": "Пекучість, гострота перцю та охолоджувальні відчуття"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.udel.edu/canr/cooperative-extension/fact-sheets/using-herbs-and-spices/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK26945/",
+    "https://app.ckbk.com/reference/food00011c08s001e002se005/flavor-families-pungent-chemicals"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-066-01",
+      "theoryId": 66,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What causes the burning sensation of chili peppers?",
+        "ua": "Що викликає пекуче відчуття від перцю чилі?"
+      },
+      "explanation": {
+        "en": "Capsaicinoids activate sensory receptors rather than a basic taste receptor.",
+        "ua": "Капсаїциноїди діють на сенсорні рецептори, а не на рецептори основних смаків."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Capsaicinoids activating heat-sensitive receptors",
+            "ua": "Капсаїциноїди, що активують теплочутливі рецептори"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only food acidity",
+            "ua": "Виключно кислотність продукту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Gluten in the pepper",
+            "ua": "Клейковина перцю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-066-02",
+      "theoryId": 66,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Chili pungency is one of the five standard basic tastes.",
+        "ua": "Пекучість чилі входить до п’яти основних смаків."
+      },
+      "explanation": {
+        "en": "Pungency is chemesthetic sensation, distinct from sweet, sour, salty, bitter and umami.",
+        "ua": "Пекучість належить до хеместезії, окремо від солодкого, кислого, солоного, гіркого та умамі."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-066-03",
+      "theoryId": 66,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match a sensation to a common compound or source.",
+        "ua": "Поєднайте відчуття з характерним джерелом."
+      },
+      "explanation": {
+        "en": "Different molecules act on different sensory pathways.",
+        "ua": "Різні молекули впливають на різні сенсорні шляхи."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Chili heat",
+            "ua": "Пекучість чилі"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Mint cooling",
+            "ua": "Охолодження м’яти"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Black pepper pungency",
+            "ua": "Пекучість чорного перцю"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Piperine",
+            "ua": "Піперин"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Menthol",
+            "ua": "Ментол"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Capsaicin",
+            "ua": "Капсаїцин"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-066-04",
+      "theoryId": 66,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A chili sauce is much hotter than planned. What is a sound approach?",
+        "ua": "Соус чилі вийшов значно гострішим за задум. Що доцільно зробити?"
+      },
+      "explanation": {
+        "en": "Dilution reduces capsaicinoid concentration; sweetness or fat only modifies perception.",
+        "ua": "Розбавлення знижує концентрацію капсаїциноїдів; солодкість чи жир лише змінюють сприйняття."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dilute the sauce with compatible mild ingredients",
+            "ua": "Розбавити сумісними негострими інгредієнтами"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add another handful of chili flakes",
+            "ua": "Додати ще жменю пластівців чилі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume boiling destroys all capsaicin",
+            "ua": "Вважати, що кипіння повністю руйнує капсаїцин"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-066-05",
+      "theoryId": 66,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which explanation of cooling sensations is wrong?",
+        "ua": "Яке пояснення охолоджувальних відчуттів хибне?"
+      },
+      "explanation": {
+        "en": "Menthol modulates cold-sensitive receptors without freezing tissue.",
+        "ua": "Ментол впливає на холодочутливі рецептори, не заморожуючи тканини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Menthol can produce a cooling sensation",
+            "ua": "Ментол може викликати відчуття прохолоди"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pungency is not the same as food temperature",
+            "ua": "Пекучість не тотожна температурі їжі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Mint physically freezes the mouth tissues",
+            "ua": "М’ята фізично заморожує тканини рота"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

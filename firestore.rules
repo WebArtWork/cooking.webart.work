@@ -1,6 +1,6 @@
 rules_version = '2';
 
-// Business. Everything is denied unless a rule below allows it.
+// Cooking. Everything is denied unless a rule below allows it.
 // Deploy with: npm run rules
 service cloud.firestore {
 	match /databases/{database}/documents {

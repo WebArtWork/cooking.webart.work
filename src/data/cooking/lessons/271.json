@@ -1,79 +1,88 @@
 {
   "id": 271,
-  "slug": "271-classical-french-culinary-principles",
-  "group": "271",
+  "slug": "271-iterative-recipe-improvement",
+  "group": "262",
   "title": {
-    "en": "Classical French Culinary Principles",
-    "ua": "Принципи класичної французької кухні"
+    "en": "Iterative Recipe Improvement",
+    "ua": "Ітеративне вдосконалення рецептів"
   },
   "en": {
-    "short": "Classical French cuisine formalized many techniques used in professional kitchens, including stocks, sauces, sautéing and precise preparation. Learning these principles gives cooks a shared technical language rather than a single fixed set of recipes.",
+    "short": "Iterative recipe improvement uses measured trials to make a dish better step by step. The goal is not endless adjustment but a controlled process that identifies which changes caused an improvement.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "French culinary education emphasizes mise en place, control of heat, stocks as flavor foundations, sauce construction, correct cuts and coordinated service. Historical codification is associated with professional chefs including Auguste Escoffier, but the traditions evolved over generations."
+        "text": "Establish a baseline version and define an objective such as crispness, lower salt, improved appearance, or shorter service time. Change only a limited number of factors per trial."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Mirepoix builds aromatic depth through vegetables; deglazing recovers flavorful pan deposits; roux thickens liquids with cooked flour and fat; reductions concentrate dissolved flavors. These are techniques that can be learned and adapted without copying a restaurant menu."
+        "text": "Repeated tests reveal trade-offs: higher heat may improve browning but increase overcooking, while more liquid may improve tenderness but dilute flavor. Outcomes need both measurements and structured tasting."
       },
       {
         "title": "How to apply it",
-        "text": "Practice a vegetable stock, a light roux-based sauce and a pan sauce in separate exercises. Taste each before and after reduction; measure texture rather than relying on a fixed clock time."
+        "text": "Give each version a code (v1, v2), record the exact change, prepare comparable samples, and score predefined criteria. Keep successful changes, discard failures, and retest combinations only after individual factors are understood."
       },
       {
         "title": "Practical example",
-        "text": "Sear mushrooms until browned, remove them, deglaze the pan with a suitable stock, reduce briefly and finish the sauce with a small amount of butter. Record how evaporation and emulsification change the sauce."
+        "text": "For roasted potatoes, first test parboiling time, then oil quantity, then oven temperature while keeping potato size constant. Record color, exterior crispness, and interior texture."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "“Classical” is not the same as superior to every regional cuisine. Heavy reduction can make stocks excessively salty, and raw meat handling still requires modern hygiene. UNESCO recognizes the French gastronomic meal as a cultural social practice, not a rulebook for all French dishes."
+        "text": "Modifying five variables at once hides causes. A favorite version from one taster may not suit the target audience; safety limits are not variables to relax."
       },
       {
         "title": "Related theories",
-        "text": "003, 183, 188, 189, 192."
+        "text": "261, 266, 270, 272, 275."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "Prepare two coded potato-roasting trials while holding potato variety, mass, and cut size constant. Change only the pre-boil duration, photograph both results, compare crispness after five minutes, and log the preferred version with its limitations."
       }
     ]
   },
   "ua": {
-    "short": "Класична французька кухня систематизувала багато професійних технік: бульйони, соуси, пасерування та точну підготовку продуктів. Ці принципи формують спільну кулінарну мову, а не лише набір незмінних рецептів.",
+    "short": "Ітеративне вдосконалення рецепта використовує вимірювані проби для поступового покращення страви. Мета не в нескінченних правках, а у виявленні змін, які справді дали кращий результат.",
     "sections": [
       {
-        "title": "Суть",
-        "text": "Французька кулінарна школа приділяє увагу мізанплас, контролю тепла, бульйонам як смаковій основі, побудові соусів, точному нарізанню та організації подачі. Систематизацію пов’язують, зокрема, з Огюстом Ескоф’є, однак традиції формувалися поколіннями."
+        "title": "Головна ідея",
+        "text": "Створіть базову версію й конкретну ціль: хрусткість, менший вміст солі, кращий вигляд або швидшу подачу. За одну спробу змінюйте небагато параметрів."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Мірпуа створює ароматичну основу з овочів; деглазування розчиняє смачні часточки зі сковороди; ру загущує рідину обсмаженою сумішшю борошна й жиру; уварювання концентрує смак. Це універсальні техніки, а не тільки рецепти французьких ресторанів."
+        "text": "Тести показують компроміси: вища температура покращує підрум’янення, але може пересушити страву; більше рідини пом’якшує продукт, але розбавляє смак. Потрібні і вимірювання, і дегустація."
       },
       {
         "title": "Як застосовувати",
-        "text": "Окремо потренуйте овочевий бульйон, соус на основі ру та соус зі сковороди. Пробуйте до й після уварювання, оцінюйте консистенцію замість сліпого дотримання таймера."
+        "text": "Позначайте версії як v1, v2 тощо, фіксуйте точні зміни, готуйте порівнювані зразки та оцінюйте за заданими критеріями. Успішні зміни залишайте, невдалі відкидайте."
       },
       {
         "title": "Практичний приклад",
-        "text": "Обсмажте гриби до скоринки, перекладіть їх, влийте на сковороду бульйон, трохи уваріть і завершіть соус невеликою кількістю масла. Порівняйте густину до та після."
+        "text": "Для печеної картоплі окремо перевірте час попереднього відварювання, кількість олії та температуру духовки. Розмір шматочків залишайте однаковим."
       },
       {
-        "title": "Поширені помилки й обмеження",
-        "text": "«Класична» не означає краща за всі інші кухні. Сильне уварювання може пересолити страву, а поводження з м’ясом має відповідати сучасним нормам безпеки. UNESCO описує французьку гастрономічну трапезу як соціальну культурну практику."
+        "title": "Поширені помилки та обмеження",
+        "text": "Одночасна зміна п’яти чинників не показує причини. Смак одного дегустатора не представляє всіх гостей; вимоги безпеки не можна послаблювати заради експерименту."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "003, 183, 188, 189, 192."
+        "text": "261, 266, 270, 272, 275."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Приготуйте два позначені варіанти запеченої картоплі з однаковими сортом, масою та нарізанням. Змініть лише тривалість попереднього відварювання, сфотографуйте результат, порівняйте хрусткість через п’ять хвилин і запишіть переваги та обмеження кожної версії."
       }
     ]
   },
   "related": [
-    3,
-    183,
-    188,
-    189,
-    192
+    261,
+    266,
+    270,
+    272,
+    275
   ],
-  "referenceTitle": "References / Джерела",
+  "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://ich.unesco.org/en/RL/gastronomic-meal-of-the-french-2010-00437",
-    "https://www.ciachef.edu/"
+    "https://www.kingarthurbaking.com/learn",
+    "https://www.cacfp.org/2024/07/02/recipe-standardization-guide/",
+    "https://www.kingarthurbaking.com/recipes/resources/recipe-success-guide"
   ]
 }

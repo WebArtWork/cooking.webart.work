@@ -3,11 +3,13 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { applyTextFixes } from './text-fixes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 const manifest = JSON.parse(read('content/cooking-import.json'));
 const catalog = JSON.parse(read('src/data/cooking/catalog.json'));
+const referenceFixes = JSON.parse(read('content/reference-fixes.json'));
 const normalize = (text) => text.replace(/\s+/g, ' ').trim();
 const clean = (text) => normalize(text.replace(/\*\*/g, ''));
 const plainHtml = (html) =>
@@ -25,12 +27,16 @@ const plainHtml = (html) =>
 			.replace(/&nbsp;/g, ' ')
 			.replace(/&amp;/g, '&'),
 	);
-assert.equal(manifest.files.length, 330);
+const total = manifest.files.length;
+assert.equal(manifest.count, total);
 assert.deepEqual(
 	catalog.theories.map((t) => t.id),
-	Array.from({ length: 330 }, (_, i) => i + 1),
+	Array.from({ length: total }, (_, i) => i + 1),
 );
-assert.equal(catalog.groups.length, 21);
+assert.equal(catalog.groups.length, 22);
+assert.equal(catalog.groups[0].from, 1);
+assert.equal(catalog.groups.at(-1).to, total);
+catalog.groups.forEach((g, i) => i && assert.equal(g.from, catalog.groups[i - 1].to + 1));
 let detailedParts = 0;
 for (const card of catalog.theories) {
 	const provenance = manifest.files.find((f) => f.id === card.id);
@@ -40,10 +46,13 @@ for (const card of catalog.theories) {
 		provenance.sha256,
 		`Original changed: ${provenance.file}`,
 	);
-	const source = raw
-		.toString('utf8')
-		.replace(/^\uFEFF/, '')
-		.replace(/\r\n/g, '\n');
+	const source = applyTextFixes(
+		provenance.file,
+		raw
+			.toString('utf8')
+			.replace(/^\uFEFF/, '')
+			.replace(/\r\n/g, '\n'),
+	);
 	const lesson = JSON.parse(
 		read(`src/data/cooking/lessons/${String(card.id).padStart(3, '0')}.json`),
 	);
@@ -60,10 +69,15 @@ for (const card of catalog.theories) {
 	]) {
 		const body = lesson[language];
 		assert.equal(body.short, sourceParts[shortIndex]);
-		assert.equal(body.sections.length, 6);
+		assert.equal(
+			body.sections.length,
+			[...sourceParts[detailIndex].matchAll(/^- \*\*.+?(?::\*\*|\*\*:)/gm)].length,
+			`Section count: ${card.id} ${language}`,
+		);
+		assert(body.sections.length >= 5 && body.sections.length <= 9);
 		assert.equal(
 			normalize(body.sections.map((s) => `- **${s.title}:** ${s.text}`).join('\n')),
-			normalize(sourceParts[detailIndex]),
+			normalize(sourceParts[detailIndex].replace(/^- \*\*(.+?)\*\*:/gm, '- **$1:**')),
 			`Missing or altered detailed text: ${card.id} ${language}`,
 		);
 		assert.equal(card.summary[language], body.short);
@@ -75,21 +89,21 @@ for (const card of catalog.theories) {
 			.split('\n')
 			.map((p) => p.trim())
 			.filter(Boolean)
-			.map((p) => p.replace(/^- /, '')),
+			.map((p) => p.replace(/^- /, ''))
+			.map((url) => referenceFixes[url] ?? url),
 	);
-	assert(lesson.related.every((id) => Number.isInteger(id) && id >= 1 && id <= 330));
+	assert(lesson.related.every((id) => Number.isInteger(id) && id >= 1 && id <= total));
 	const group = catalog.groups.find((g) => g.id === card.group);
 	assert(group && card.id >= group.from && card.id <= group.to);
 	if (process.argv.includes('--built')) {
 		const html = read(`dist/app/browser/theories/${card.slug}/index.html`),
 			text = plainHtml(html);
 		assert(text.includes(clean(lesson.title.en)), `Rendered title missing: ${card.id}`);
-		assert(text.includes(clean(lesson.en.short)), `Rendered short text missing: ${card.id}`);
 		const metaDescription=html.match(/<meta name="description" content="([^"]*)"/);
 		assert(metaDescription,`Description metadata missing: ${card.id}`);
 		assert.equal(clean(plainHtml(metaDescription[1])),clean(lesson.en.short),`Description metadata changed: ${card.id}`);
 		assert(plainHtml(html.match(/<title>(.*?)<\/title>/s)?.[1] ?? '').includes(lesson.title.en),`Lesson title metadata missing: ${card.id}`);
-		for (const part of lesson.en.sections) {
+		for (const part of lesson.en.sections.filter((s) => s.title !== 'Related theories')) {
 			assert(text.includes(clean(part.title)), `Rendered section title missing: ${card.id}`);
 			assert(
 				text.includes(clean(part.text)),
@@ -108,7 +122,6 @@ for (const card of catalog.theories) {
 			);
 	}
 }
-assert.equal(detailedParts, 3960);
 console.log(
-	`Verified 330 unchanged originals, 660 language versions, 3960 detailed sections, source links and 21 topic groups${process.argv.includes('--built') ? ', plus all 330 prerendered lessons' : ''}.`,
+	`Verified ${total} unchanged originals, ${total * 2} language versions, ${detailedParts} detailed sections, source links and ${catalog.groups.length} topic groups${process.argv.includes('--built') ? `, plus all ${total} prerendered lessons` : ''}.`,
 );

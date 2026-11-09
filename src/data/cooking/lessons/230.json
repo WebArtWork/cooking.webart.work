@@ -1,80 +1,85 @@
 {
   "id": 230,
-  "slug": "230-salt-concentration-in-fermentation",
-  "group": "226",
+  "slug": "230-saturated-unsaturated-and-trans-fats",
+  "group": "227",
   "title": {
-    "en": "Salt Concentration in Fermentation",
-    "ua": "Концентрація солі під час ферментації"
+    "en": "Saturated, Unsaturated, and Trans Fats",
+    "ua": "Насичені, ненасичені та трансжири"
   },
   "en": {
-    "short": "Salt controls water movement, texture and competition among microbes in many vegetable ferments. Too little salt may favor spoilage; too much can slow useful fermentation and leave the food overly salty.",
+    "short": "Dietary fats differ in fatty-acid structure, physical behavior and long-term health implications. Unsaturated fats are generally preferred to saturated fats in a healthy diet, while industrial trans fats should be avoided.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Salt draws water from plant tissue by osmosis, creating a brine and changing cell texture. It also alters water availability for microorganisms and can favor salt-tolerant lactic-acid bacteria over some competing species. Different food sizes, initial moisture and recipe styles require different concentrations."
+        "text": "Saturated fatty acids lack carbon–carbon double bonds; monounsaturated fats have one and polyunsaturated fats have more than one. Industrial trans fats can form during partial hydrogenation, which changes the geometry and behavior of fatty acids. Many foods contain mixtures, not a single pure fat type."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "For dry-salted shredded vegetables, percentage by weight is often convenient: salt % = salt mass / vegetable mass × 100. For wet brines, always clarify whether the percentage refers to water mass or the total water-plus-salt solution. A concentration used for cabbage cannot be assumed suitable for whole cucumbers or fish."
+        "text": "Fat structure influences melting, oxidation and culinary texture. Butter and coconut oil contain relatively more saturated fat; olive, rapeseed/canola and many seed oils supply unsaturated fat. Essential omega-6 linoleic and omega-3 alpha-linolenic acids must be obtained from food. A fat’s smoke point is not a complete health metric."
       },
       {
         "title": "How to apply it",
-        "text": "Follow a tested recipe and weigh salt instead of relying on spoon volume. For an illustrative mass calculation, 20 g salt per 1,000 g vegetables equals 2% relative to vegetable mass; this is mathematics, not a universal fermentation recipe. Keep all solids submerged and track acidity."
+        "text": "When practical, replace some butter or lard in savory cooking with suitable unsaturated oils. For baking, consider that replacing solid fat with liquid oil changes aeration and pastry texture. Read labels for partially hydrogenated oils and consider overall dietary variety."
       },
       {
         "title": "Practical example",
-        "text": "Calculate the salt mass for 750 g cabbage at a hypothetical 2% vegetable-mass ratio: 15 g. Then find the actual tested recipe’s ratio and compare rather than assuming that all foods use 2%."
+        "text": "Compare a vegetable dish made with butter to the same dish made with olive oil. Describe changes in flavor, mouthfeel and fatty-acid profile without claiming the two versions have identical baking properties."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Adding less salt for dietary reasons can change both fermentation kinetics and preservation. Salt concentration is only one safety barrier; it does not replace correct temperature, time and pH."
+        "text": "Confusing “trans fat free” with automatically nutritious; treating all saturated fat foods as equivalent; inferring oil safety from only smoke point; ignoring that repeatedly overheating any oil degrades quality."
+      },
+      {
+        "title": "Additional application to this theory",
+        "text": "Fat categories are defined by fatty-acid bonds, not whether a fat is liquid at room temperature. Trans fats can also occur naturally in small amounts; industrially produced trans fats are a major target for elimination in dietary policy."
       },
       {
         "title": "Related theories",
-        "text": "008, 091, 228, 231, 235, 243."
+        "text": "127, 227, 239."
       }
     ]
   },
   "ua": {
-    "short": "Сіль регулює переміщення води, текстуру та конкуренцію між мікроорганізмами під час квашення овочів. Її нестача може сприяти псуванню, а надлишок — сповільнити потрібне бродіння та пересолити продукт.",
+    "short": "Харчові жири різняться будовою жирних кислот, фізичними властивостями та впливом на здоров’я. У збалансованому харчуванні ненасичені жири зазвичай кращі за насичені, а промислових трансжирів слід уникати.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Завдяки осмосу сіль витягує воду з рослинних тканин, утворює розсіл і змінює пружність клітин. Вона впливає на доступність води для мікроорганізмів і може сприяти солестійким молочнокислим бактеріям порівняно з частиною конкурентів. Розмір овочів, вологість та рецептура вимагають різних концентрацій."
+        "text": "Насичені жирні кислоти не мають подвійних зв’язків між атомами вуглецю, мононенасичені мають один, поліненасичені мають більше одного. Промислові трансжири можуть утворюватися під час часткової гідрогенізації. Більшість харчових жирів є сумішами різних кислот."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Для нашаткованих овочів зручно рахувати масову частку: сіль, % = маса солі / маса овочів × 100. Для розсолу потрібно уточнювати, чи відсоток рахується від маси води, чи від усієї маси розчину. Концентрацію для капусти не можна автоматично переносити на цілі огірки або рибу."
+        "text": "Будова впливає на плавлення, окиснення й текстуру їжі. Вершкове масло та кокосова олія містять відносно більше насичених жирів, а оливкова, ріпакова та багато олій із насіння містять більше ненасичених. Незамінні лінолева омега-6 та альфа-ліноленова омега-3 кислоти мають надходити з їжею. Температура димлення не є повною оцінкою корисності жиру."
       },
       {
         "title": "Як застосовувати",
-        "text": "Дотримуйтеся перевіреного рецепта та зважуйте сіль, а не відміряйте ложками. Для прикладу, 20 г солі на 1 000 г овочів — це 2% від маси овочів; це лише математичний приклад, а не універсальний рецепт квашення. Тримайте сировину під розсолом і контролюйте кислотність."
+        "text": "У солоних стравах за можливості замінюйте частину вершкового масла чи смальцю оліями з ненасиченими кислотами. У випічці враховуйте, що рідка олія не завжди заміняє твердий жир без зміни структури. Перевіряйте склад на частково гідрогенізовані олії."
       },
       {
         "title": "Практичний приклад",
-        "text": "Обчисліть масу солі для 750 г капусти за умовного співвідношення 2% від маси овочів: 15 г. Потім перевірте реальний рекомендований відсоток у перевіреному рецепті, не вважаючи 2% правилом для всього."
+        "text": "Порівняйте овочеву страву з вершковим маслом і з оливковою олією. Опишіть різницю смаку, відчуття жиру та профілю жирних кислот, не очікуючи однакового результату в будь-якій випічці."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Зменшення солі через дієту може змінити не лише смак, а й перебіг ферментації та зберігання. Концентрація солі — лише один із захисних чинників; вона не замінює температури, часу й pH."
+        "text": "Позначення «без трансжирів» не робить продукт автоматично корисним. Не прирівнюйте всі джерела насичених жирів і не оцінюйте олію лише за точкою димлення; багаторазове перегрівання погіршує її якість."
+      },
+      {
+        "title": "Додаткове застосування до теми",
+        "text": "Групи жирів визначають за хімічними зв’язками жирних кислот, а не лише за тим, чи є жир рідким за кімнатної температури. Невеликі кількості трансжирів можуть мати природне походження; обмеження промислово утворених трансжирів є важливою метою харчової політики."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "008, 091, 228, 231, 235, 243."
+        "text": "127, 227, 239."
       }
     ]
   },
   "related": [
-    8,
-    91,
-    228,
-    231,
-    235,
-    243
+    127,
+    227,
+    239
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
-    "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut"
+    "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "https://www.who.int/publications/i/item/9789240073630"
   ]
 }

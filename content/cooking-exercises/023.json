@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 23,
+    "title": {
+      "en": "Safe Internal Cooking Temperatures",
+      "ua": "Безпечні внутрішні температури приготування"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "https://extension.umn.edu/food/preparing/cooking-at-home"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-023-01",
+      "theoryId": 23,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Under US home-cooking guidance, what minimum internal temperature applies to poultry?",
+        "ua": "Яка мінімальна внутрішня температура птиці за домашніми рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "US guidance specifies 165°F (74°C) for poultry, measured with a food thermometer.",
+        "ua": "У США для птиці рекомендовано 165°F (74°C), виміряні харчовим термометром."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "63°C (145°F)",
+            "ua": "63°C (145°F)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "71°C (160°F)",
+            "ua": "71°C (160°F)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "74°C (165°F)",
+            "ua": "74°C (165°F)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "50°C (122°F)",
+            "ua": "50°C (122°F)"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-023-02",
+      "theoryId": 23,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Under US home-cooking guidance, what temperature applies to ground beef?",
+        "ua": "Яка температура рекомендована для яловичого фаршу в домашніх настановах США?"
+      },
+      "explanation": {
+        "en": "Ground meat requires a higher standard endpoint than intact steaks under US guidance.",
+        "ua": "Для фаршу в США встановлено вищу стандартну температуру, ніж для цілих стейків."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "71°C (160°F)",
+            "ua": "71°C (160°F)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "45°C (113°F)",
+            "ua": "45°C (113°F)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "55°C (131°F)",
+            "ua": "55°C (131°F)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "100°C (212°F)",
+            "ua": "100°C (212°F)"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-023-03",
+      "theoryId": 23,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Match US home-cooking minimums to foods.",
+        "ua": "Поєднайте продукти з мінімальними температурами за домашніми рекомендаціями США."
+      },
+      "explanation": {
+        "en": "Temperature and required rest time depend on the food category.",
+        "ua": "Температура та необхідний час відпочинку залежать від типу продукту."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Poultry",
+            "ua": "Птиця"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Ground beef",
+            "ua": "Яловичий фарш"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Whole beef steak with 3-minute rest",
+            "ua": "Цілий яловичий стейк із відпочинком 3 хвилини"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "63°C / 145°F",
+            "ua": "63°C / 145°F"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "71°C / 160°F",
+            "ua": "71°C / 160°F"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "74°C / 165°F",
+            "ua": "74°C / 165°F"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-023-04",
+      "theoryId": 23,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A browned hamburger exterior guarantees the ground beef reached 71°C.",
+        "ua": "Рум’яна поверхня бургера гарантує, що фарш досяг 71°C."
+      },
+      "explanation": {
+        "en": "Color is not a reliable substitute for a food thermometer.",
+        "ua": "Колір не замінює вимірювання харчовим термометром."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-023-05",
+      "theoryId": 23,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which method cannot establish a safe internal temperature?",
+        "ua": "Який метод не дозволяє встановити безпечну внутрішню температуру?"
+      },
+      "explanation": {
+        "en": "Time and color alone cannot prove the coldest part reached the target.",
+        "ua": "Час і колір самі по собі не доводять, що найхолодніша частина досягла потрібної температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Insert a clean food thermometer into the thickest part",
+            "ua": "Вставити чистий термометр у найтовщу частину"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Check more than one point in an irregularly shaped roast",
+            "ua": "Перевірити кілька точок у нерівномірному шматку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume the food is safe solely because the timer rang",
+            "ua": "Вважати їжу безпечною лише тому, що продзвенів таймер"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Avoid bones when taking a representative reading",
+            "ua": "Уникати кістки під час вимірювання температури в м’ясі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-023-06",
+      "theoryId": 23,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A chicken thigh reads 70°C internally. What should you do under US standard home guidance?",
+        "ua": "Куряче стегно має внутрішню температуру 70°C. Що робити за звичайними домашніми рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "The standard endpoint for poultry is 74°C (165°F).",
+        "ua": "Стандартна температура готовності птиці — 74°C (165°F)."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Continue cooking and check for at least 74°C",
+            "ua": "Продовжити приготування та перевірити досягнення щонайменше 74°C"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve immediately",
+            "ua": "Одразу подати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Rinse it with water",
+            "ua": "Промити водою"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cover with sauce and serve",
+            "ua": "Залити соусом та подати"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-023-07",
+      "theoryId": 23,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Your chicken reads 68°C; the standard US target is 74°C. What is the numerical difference in degrees Celsius?",
+        "ua": "Температура курятини 68°C; стандартна ціль США — 74°C. Яка різниця в градусах Цельсія?"
+      },
+      "explanation": {
+        "en": "74 − 68 = 6°C. This arithmetic does not predict the cooking time needed.",
+        "ua": "74 − 68 = 6°C. Цей розрахунок не визначає, скільки часу знадобиться для нагрівання."
+      },
+      "numericInput": {
+        "unit": "°C",
+        "allowDecimals": false,
+        "unitLabel": {
+          "en": "degrees Celsius",
+          "ua": "градусів Цельсія"
+        }
+      },
+      "answer": {
+        "value": 6,
+        "tolerance": 0,
+        "unit": "°C"
+      }
+    }
+  ]
+}

@@ -1,78 +1,70 @@
 {
   "id": 16,
-  "slug": "016-foodborne-illnesses-and-biological-hazards",
-  "group": "016",
+  "slug": "016-cross-contamination-prevention",
+  "group": "012",
   "title": {
-    "en": "Foodborne Illnesses and Biological Hazards",
-    "ua": "Харчові захворювання та біологічні небезпеки"
+    "en": "Cross-Contamination Prevention",
+    "ua": "Запобігання перехресному забрудненню"
   },
   "en": {
-    "short": "Foodborne illness can result from harmful microorganisms or their toxins in food. Learning how contamination, growth, survival, and exposure occur helps cooks prevent illness instead of judging safety by appearance.",
+    "short": "Cross-contamination occurs when harmful microorganisms or other hazards move from one food, surface, or tool to another. Separating raw ingredients from ready-to-eat food is central to kitchen safety.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Biological food hazards include pathogenic bacteria, viruses, parasites and certain harmful fungi. Some illnesses result from infection after swallowing a pathogen, while others are caused by toxins already present in the food. Chemical allergens and physical foreign objects are different categories of hazards."
+        "text": "Raw poultry, meat, seafood, unwashed produce, hands and utensils can carry contaminants. Transfer may happen directly between foods or indirectly through cutting boards, knives, taps, cloths and refrigerator drips."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Risk depends on the organism, initial contamination, available moisture, food acidity, temperature and exposure time. Cooking reduces many pathogens but may not remove heat-stable toxins; cooling or reheating cannot reliably repair every earlier safety failure."
+        "text": "Microbes are invisible and a clean-looking surface may still carry them. Heat often destroys pathogens in foods that will be cooked thoroughly, but contaminated salad or cooked food may never receive another killing step. Allergen cross-contact is a separate hazard addressed in lesson 028."
       },
       {
         "title": "How to apply it",
-        "text": "Apply the prevention sequence: clean hands and surfaces, separate raw from ready-to-eat ingredients, cook to appropriate internal targets, and refrigerate promptly. Use safe water, check product handling histories, and keep an eye on vulnerable diners."
+        "text": "Assign clean boards and utensils for raw proteins and ready-to-eat ingredients, or wash and sanitize between tasks. Wash hands when switching jobs, store raw meat in leakproof containers below ready-to-eat foods, and use clean plates for cooked meat."
       },
       {
         "title": "Practical example",
-        "text": "Cooked rice held warm for too long can permit growth of Bacillus cereus; some toxins associated with this organism are heat resistant. The safer approach is rapid cooling and appropriate cold storage, not simply boiling the rice again."
+        "text": "A cook cuts raw chicken, then chops parsley for an uncooked garnish on the same unwashed board. Organisms from the chicken can be transferred directly to the garnish even if the chicken is later cooked safely."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "A normal smell or color is not evidence that a food is free of pathogens. Do not taste food to test its safety, and never assume that one cooking or reheating step can undo an extended period of unsafe holding."
-      },
-      {
-        "title": "Related theories",
-        "text": "017, 018, 020."
+        "text": "Color-coded boards help organize work but do not replace washing. Do not rinse raw poultry in the sink: splashes spread microbes. Never assume wiping a knife on a towel makes it safe for salad preparation."
       }
     ]
   },
   "ua": {
-    "short": "Харчові захворювання можуть виникати через небезпечні мікроорганізми або їхні токсини в їжі. Знання шляхів забруднення, росту, виживання та потрапляння збудників до організму допомагає запобігати хворобам.",
+    "short": "Перехресне забруднення виникає, коли небезпечні мікроорганізми чи інші чинники переходять з одного продукту, поверхні або інструмента на інший. Розділення сирих продуктів і готової до споживання їжі є базовим правилом безпечної кухні.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Біологічні небезпеки охоплюють патогенні бактерії, віруси, паразитів та деякі небезпечні гриби. Частина захворювань виникає через зараження збудником, інші — через токсини, уже наявні в їжі. Алергени й сторонні предмети належать до інших груп небезпек."
+        "text": "Сира птиця, м’ясо, риба, немиті овочі, руки й інвентар можуть переносити забруднення. Воно переходить безпосередньо між продуктами або через дошки, ножі, крани, рушники та краплі з упаковок у холодильнику."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Ризик залежить від мікроорганізму, початкового забруднення, доступної вологи, кислотності продукту, температури й тривалості перебування в небезпечних умовах. Нагрівання знищує чимало збудників, але не всі термостійкі токсини; повторне кип’ятіння не виправляє кожне порушення безпечності."
+        "text": "Мікробів не видно неозброєним оком, тож на вигляд чиста поверхня не обов’язково безпечна. Подальше належне приготування може знищити патогени в сирому м’ясі, але салат чи вже готову страву більше не прогріватимуть. Контакт з алергенами є окремим ризиком у темі 028."
       },
       {
         "title": "Як застосовувати",
-        "text": "Дотримуйтеся послідовності профілактики: чисті руки й поверхні, розділення сирих та готових продуктів, достатня внутрішня температура та своєчасне охолодження. Використовуйте безпечну воду й враховуйте особливі ризики для вразливих людей."
+        "text": "Використовуйте окремі чисті дошки й інструменти для сирих білкових продуктів та готової їжі або мийте й санітарно обробляйте їх між операціями. Мийте руки, зберігайте сире м’ясо герметично нижче готових страв, подавайте приготоване на чистий посуд."
       },
       {
         "title": "Практичний приклад",
-        "text": "Якщо готовий рис надто довго стоїть теплим, це сприяє розвитку Bacillus cereus; деякі пов’язані з ним токсини термостійкі. Надійніший захист — швидко охолодити рис і правильно зберігати, а не просто повторно прокип’ятити."
+        "text": "Кухар нарізав сиру курку, а потім без миття дошки порізав петрушку для готової страви. Патогени можуть потрапити на зелень, навіть якщо курятину потім правильно приготує."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Нормальний запах чи колір не підтверджує відсутності збудників. Не куштуйте їжу для перевірки безпечності й не вважайте, що одне повторне нагрівання компенсує тривале неправильне зберігання."
-      },
-      {
-        "title": "Пов’язані теорії",
-        "text": "017, 018, 020."
+        "text": "Кольорові дошки допомагають організувати роботу, але не замінюють миття. Не промивайте сиру курятину в раковині: бризки розносять мікроби. Протирання ножа рушником також не гарантує його чистоти."
       }
     ]
   },
   "related": [
+    15,
     17,
-    18,
-    20
+    21,
+    34
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/",
-    "https://www.cdc.gov/food-safety/data-research/facts-stats/",
-    "https://www.foodsafety.gov/food-poisoning/bacteria-and-viruses"
+    "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
   ]
 }

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 202,
+    "title": {
+      "en": "Sugar Syrups, Temperature Stages, and Caramel",
+      "ua": "Цукрові сиропи, температурні стадії та карамель"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.kingarthurbaking.com/learn/bread",
+    "https://www.kingarthurbaking.com/pro/reference/bakers-percentage"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-202-01",
+      "theoryId": 202,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What makes boiling sugar syrup reach a higher concentration as cooking continues?",
+        "ua": "Чому концентрація цукрового сиропу збільшується за тривалішого кипіння?"
+      },
+      "explanation": {
+        "en": "Evaporation increases dissolved sugar concentration and changes syrup behavior.",
+        "ua": "Випаровування збільшує концентрацію розчиненого цукру та змінює властивості сиропу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The pot generates extra sugar from metal",
+            "ua": "Каструля утворює цукор із металу"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Water evaporates while most sugar stays",
+            "ua": "Вода випаровується, а більша частина цукру залишається"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Sugar turns into pure oxygen",
+            "ua": "Цукор перетворюється на чистий кисень"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-202-02",
+      "theoryId": 202,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Hot sugar syrup can cause severe burns and should be handled with care.",
+        "ua": "Гарячий цукровий сироп може спричинити тяжкі опіки й потребує обережного поводження."
+      },
+      "explanation": {
+        "en": "Concentrated syrup can adhere to skin and carry substantial heat.",
+        "ua": "Концентрований сироп прилипає до шкіри й переносить значну кількість тепла."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-202-03",
+      "theoryId": 202,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match syrup or sugar processes with characteristics.",
+        "ua": "Поєднайте процеси роботи з цукром із характеристиками."
+      },
+      "explanation": {
+        "en": "Concentration, thermal reactions and crystallization are different processes.",
+        "ua": "Концентрування, теплові реакції й кристалізація — різні процеси."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Water evaporation",
+            "ua": "Випаровування води"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Caramelization",
+            "ua": "Карамелізація"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Crystallization",
+            "ua": "Кристалізація"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Heat-driven sugar flavor and color changes",
+            "ua": "Теплові зміни смаку й кольору цукру"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Increases syrup concentration",
+            "ua": "Підвищує концентрацію сиропу"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Sugar forms solid crystals",
+            "ua": "Цукор утворює тверді кристали"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-202-04",
+      "theoryId": 202,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You need reproducible syrup consistency for candy. What tool helps most?",
+        "ua": "Для цукерок потрібна відтворювана консистенція сиропу. Який інструмент найкорисніший?"
+      },
+      "explanation": {
+        "en": "Temperature provides a useful indication of concentration in a defined syrup system.",
+        "ua": "Температура є корисним показником концентрації у визначеній системі сиропу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A calibrated suitable candy thermometer",
+            "ua": "Справний відповідний кондитерський термометр"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The pot color without any other observation",
+            "ua": "Лише колір каструлі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A wall clock as the only measurement",
+            "ua": "Лише настінний годинник"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-202-05",
+      "theoryId": 202,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which behavior is dangerous around hot caramel?",
+        "ua": "Яка дія небезпечна під час роботи з гарячою карамеллю?"
+      },
+      "explanation": {
+        "en": "Caramel can be far hotter than boiling water and cause severe burns.",
+        "ua": "Карамель може бути набагато гарячішою за окріп і спричиняти сильні опіки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep hands clear of splashes",
+            "ua": "Тримати руки подалі від бризок"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Taste boiling caramel directly with a finger",
+            "ua": "Куштувати киплячу карамель пальцем"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use heat-resistant equipment",
+            "ua": "Користуватися термостійким обладнанням"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

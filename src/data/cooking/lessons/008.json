@@ -1,77 +1,78 @@
 {
   "id": 8,
-  "slug": "008-recipe-ratios-and-proportions",
+  "slug": "008-cooking-workflow-and-time-management",
   "group": "001",
   "title": {
-    "en": "Recipe Ratios and Proportions",
-    "ua": "Співвідношення та пропорції в рецептах"
+    "en": "Cooking Workflow and Time Management",
+    "ua": "Послідовність приготування та керування часом"
   },
   "en": {
-    "short": "Ratios describe the relationship between ingredient quantities rather than fixed amounts. Learning them makes it easier to scale recipes, compare formulations, and create reliable variations.",
+    "short": "Kitchen workflow is the sequence and timing of preparation, heating, resting, and serving. By coordinating active and unattended work, cooks can deliver several components together without sacrificing quality or food safety.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "A ratio such as 2:1 means two equal units of one ingredient for one of another. It is meaningful only when the units and ingredient states are defined; flour-to-water ratios measured by mass behave differently from the same numbers measured by volume."
+        "text": "Cooking consists of dependent operations: bread dough must ferment before baking, a pan must heat before searing, and food requiring chilling needs adequate cooling time. These dependencies form a workflow rather than an arbitrary list."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "The scaling factor is target servings divided by original servings. Multiplying every relevant quantity by that factor preserves a basic ratio, but heating rate, evaporation, seasoning impact and vessel geometry often do not scale linearly."
+        "text": "The longest or least flexible task often determines the schedule. Some steps can run in parallel, but an unattended pan, unsafe cooling, or overloaded workspace creates risk. A task is complete only when its quality and safety checks pass."
       },
       {
         "title": "How to apply it",
-        "text": "Convert ingredients to grams where possible. Identify structural ingredients that must stay proportional, then adjust seasonings, water or cooking time after a test batch. For baker’s percentages, flour is conventionally treated as 100%."
+        "text": "Work backward from serving time. Identify active and passive steps, required equipment and critical points; start long operations early, coordinate shared burners, and leave time for resting and cleanup."
       },
       {
         "title": "Practical example",
-        "text": "A bread formula with 500 g flour and 350 g water has 70% hydration by flour mass. Doubling the dough requires 1,000 g flour and 700 g water if all other conditions remain comparable."
+        "text": "For roast chicken with rice and salad, start preheating and chicken preparation first, begin rice while the chicken cooks, wash salad vegetables separately, and dress salad near serving time. Check chicken with a thermometer."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Do not compare cup measurements as though they were grams or expect doubling the batch to double the required cooking time. Ratios provide a starting framework, not a substitute for observing the actual mixture."
+        "text": "Poor sequencing causes cold sides, overcooked proteins, or raw vegetables contaminating cooked food. Do not schedule multiple tasks that all require continuous attention during the same few minutes."
       },
       {
-        "title": "Related theories",
-        "text": "007, 009, 210."
+        "title": "Additional application",
+        "text": "Separate active work (chopping, stirring, tasting) from passive time (marinating, baking, chilling). Begin the longest dependent task first, schedule safe cooling, and plan a finishing window so each component is ready close to service. A timeline should show tasks that can overlap and tasks that cannot."
       }
     ]
   },
   "ua": {
-    "short": "Співвідношення описують пропорції інгредієнтів, а не лише конкретні кількості. Їх розуміння допомагає масштабувати рецепти, порівнювати рецептури та створювати передбачувані варіації.",
+    "short": "Кухонний процес охоплює послідовність і час підготовки, нагрівання, відпочинку та подачі страв. Узгодження активних і пасивних етапів дає змогу вчасно завершити всі компоненти без втрати якості та безпечності.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Співвідношення 2:1 означає дві однакові одиниці одного компонента на одну одиницю іншого. Воно має сенс лише за чітких одиниць вимірювання та стану продуктів: пропорція борошна й води за масою відрізняється від тієї самої пропорції за об’ємом."
+        "text": "Готування складається із залежних операцій: тісто має піднятися перед випіканням, сковорода має нагрітися перед обсмажуванням, а продукти для зберігання потребують належного охолодження. Це робочий процес, а не довільний список кроків."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Коефіцієнт масштабування дорівнює бажаній кількості порцій, поділеній на початкову. Множення кількостей зберігає основне співвідношення, але швидкість нагрівання, випаровування, вплив спецій і геометрія посуду часто змінюються нелінійно."
+        "text": "Найтриваліша або найменш гнучка операція часто визначає розклад. Частину дій можна виконувати паралельно, але без нагляду за сковородою, правильного охолодження та вільної робочої зони виникають ризики. Завершення етапу перевіряють за якістю й безпечністю."
       },
       {
         "title": "Як застосовувати",
-        "text": "За можливості переводьте інгредієнти в грами. Зберігайте пропорції структурних компонентів, а кількість приправ, рідини й час уточнюйте пробним приготуванням. У пекарських відсотках маса борошна зазвичай становить 100%."
+        "text": "Плануйте у зворотному напрямку від часу подачі. Позначте активні та пасивні операції, потрібний інвентар і критичні точки; довгі процеси починайте першими, узгоджуйте використання конфорок і залишайте час на відпочинок страв та прибирання."
       },
       {
         "title": "Практичний приклад",
-        "text": "У рецептурі з 500 г борошна та 350 г води гідратація становить 70% від маси борошна. Для подвійної кількості тіста знадобиться 1 000 г борошна та 700 г води за порівнюваних умов."
+        "text": "Для курки з рисом і салатом спочатку розігрійте духовку та підготуйте птицю, а поки вона печеться, приготуйте рис, окремо помийте овочі, а заправку до салату додайте безпосередньо перед подачею. Готовність курки перевірте термометром."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не прирівнюйте склянки до грамів і не вважайте, що подвійна порція готуватиметься рівно вдвічі довше. Пропорції дають основу, але стан суміші потрібно спостерігати."
+        "text": "Погана послідовність призводить до холодних гарнірів, пересушених білкових продуктів або забруднення готової їжі сирими. Не ставте одночасно надто багато завдань, що вимагають безперервної уваги."
       },
       {
-        "title": "Пов’язані теорії",
-        "text": "007, 009, 210."
+        "title": "Додаткове застосування",
+        "text": "Розділяйте активну роботу (нарізання, помішування, дегустацію) та пасивний час (маринування, запікання, охолодження). Розпочинайте з найдовшого залежного процесу, заплануйте безпечне охолодження й фінальні дії перед подачею. У графіку позначайте, які завдання можна виконувати паралельно, а які можна виконувати лише послідовно."
       }
     ]
   },
   "related": [
-    7,
-    9,
-    210
+    3,
+    4,
+    278,
+    279
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.nist.gov/pml/owm/nist-metric-recipes-sp-1290",
-    "https://www.ciachef.edu/online-resources/"
+    "https://www.cacfp.org/2024/05/07/culinary-basics-mise-en-place/",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
   ]
 }

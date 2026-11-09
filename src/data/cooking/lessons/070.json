@@ -1,80 +1,87 @@
 {
   "id": 70,
-  "slug": "070-roasting-vs-baking",
-  "group": "066",
+  "slug": "070-pan-preheating-and-temperature-control",
+  "group": "070",
   "title": {
-    "en": "Roasting vs. Baking",
-    "ua": "Відмінності між запіканням та випіканням"
+    "en": "Pan Preheating and Temperature Control",
+    "ua": "Попереднє нагрівання сковороди та контроль температури"
   },
   "en": {
-    "short": "Roasting and baking both cook food with oven heat. “Roasting” usually emphasizes browning of meat or vegetables, while “baking” commonly emphasizes setting and developing the structure of doughs, batters, and enclosed dishes; the categories overlap.",
+    "short": "Pan temperature changes browning, sticking, evaporation, and cooking speed. Preheating should suit the pan material, heat source, oil, and ingredient.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Neither technique is defined by one fixed temperature. A potato can be baked whole or roasted in pieces; a casserole can be baked until set and browned. The more useful distinction is often the desired transformation: developing a surface crust versus stabilizing an internal crumb, custard, or other structure."
+        "text": "The burner warms the pan, and contact transfers heat into the food. A heavy skillet generally cools less when food is added but may respond slowly to adjustments; a thin pan changes temperature quickly and may develop hot spots. Neither material nor pan weight alone guarantees even heating."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Both methods combine convection, radiation, and conduction through a pan. Dough rises as gases expand and proteins or starches set; vegetables lose surface moisture and develop roast aromas. Fan-assisted oven settings may produce faster exterior heating, but “convection roast” and “convection bake” labels are manufacturer-dependent."
+        "text": "Water at the food surface initially limits local temperature as it evaporates. Only after sufficient surface drying can browning accelerate. Preheating the pan, spreading food in one layer, and matching food mass to pan area help manage the energy balance. The number on a burner dial is not a temperature reading."
       },
       {
         "title": "How to apply it",
-        "text": "When adapting a recipe, preserve its objective: a cake needs an even rise and controlled crumb, while roast potatoes need dry surfaces and space. Use appropriate pan shapes and rack positions. Avoid automatically switching to maximum convection for fragile batters; follow tested times and adjust only after observing your oven."
+        "text": "Choose a pan large enough for the batch. Warm it according to its material and the manufacturer’s instructions, add an appropriate amount of cooking fat, and listen for a steady sizzle. If smoke develops or browning runs ahead of cooking, reduce heat or briefly remove the pan. Avoid overheating nonstick coatings."
       },
       {
         "title": "Practical example",
-        "text": "A whole potato baked in its skin softens through, while potato wedges roasted across a sheet pan develop more exposed browned edges. The same starting ingredient illustrates how cut size and surface conditions matter more than the label alone."
+        "text": "Two identical portions of sliced mushrooms behave differently: crowded in a small pan they release liquid and steam, whereas a larger pan allows that liquid to evaporate and their surfaces to brown. Cooking in two batches can be faster than fighting a wet, crowded pan."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "It is misleading to claim that roasting always uses a higher temperature than baking or that one always requires a fan. Cooking terminology varies across cuisines and manufacturers, so explain the actual heat, moisture, and texture goals in a recipe."
+        "text": "A smoking pan is not a goal; smoke may signal degrading oil. A water-droplet test is unreliable across pan coatings and food types. Do not assume “high heat” is suitable for butter, delicate fish, or an empty nonstick pan. Use a thermometer when a recipe requires a measured temperature."
+      },
+      {
+        "title": "Preheat safely",
+        "text": "A stainless-steel or cast-iron pan and a nonstick pan need different handling. Avoid prolonged empty high-heat preheating of nonstick cookware; follow its manufacturer. Watch the oil for movement and smell but do not wait for smoking as a universal signal, and reduce the heat if garlic or coatings darken too quickly."
       },
       {
         "title": "Related theories",
-        "text": "013, 047, 048, 069, 211."
+        "text": "043, 044, 072, 073."
       }
     ]
   },
   "ua": {
-    "short": "І запікання, і випікання використовують тепло духовки. Запіканням частіше називають приготування м’яса та овочів із рум’яною поверхнею, а випіканням — формування структури тіста, бісквіту чи інших виробів. Водночас ці поняття частково перетинаються.",
+    "short": "Температура сковороди впливає на скоринку, прилипання, випаровування та швидкість приготування. Нагрівання потрібно підбирати до матеріалу посуду, плити, жиру й продукту.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Жоден метод не має власної незмінної температури. Картоплину можна випекти цілою або запекти шматочками; запіканка може одночасно ущільнюватися й рум’янитися. Корисніше дивитися на мету: формування скоринки чи закріплення внутрішньої структури м’якушки, крему або тіста."
+        "text": "Конфорка нагріває сковороду, а тепло переходить до продукту через контакт. Масивний посуд зазвичай менше охолоджується після додавання їжі, проте повільніше реагує на зменшення нагріву; тонкий посуд швидко змінює температуру й інколи утворює гарячі зони. Сам матеріал не гарантує рівномірного нагрівання."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "В обох випадках працюють конвекція, випромінювання та теплопровідність від форми. Тісто піднімається завдяки розширенню газів, а білки й крохмаль фіксують структуру; овочі підсихають та набувають ароматів. Режими «конвекційне запікання» і «конвекційне випікання» залежать від конструкції виробника."
+        "text": "Поки з поверхні продукту активно випаровується вода, температура мокрих ділянок обмежена; після підсихання підрум’янення прискорюється. Допомагають попередній нагрів, розміщення продуктів одним шаром і розумне співвідношення площі сковороди та маси їжі. Положення ручки конфорки не показує точну температуру."
       },
       {
         "title": "Як застосовувати",
-        "text": "Під час адаптації рецепта зважайте на ціль. Бісквіту потрібен рівномірний підйом, а картоплі — суха поверхня та вільний простір. Підбирайте форму й рівень дека відповідно. Не застосовуйте максимальну конвекцію до ніжного рідкого тіста без потреби; орієнтуйтеся на перевірену рецептуру й поведінку конкретної духовки."
+        "text": "Підберіть сковороду під обсяг порції. Нагрівайте її з урахуванням матеріалу та інструкції виробника, додайте відповідний жир і орієнтуйтеся на стабільне шипіння. Якщо жир димить або скоринка темніє надто швидко, зменште вогонь чи ненадовго зніміть посуд. Не перегрівайте антипригарні покриття."
       },
       {
         "title": "Практичний приклад",
-        "text": "Ціла картоплина, випечена в шкірці, добре розм’якшується всередині; картопляні часточки, запечені на деку, утворюють більше рум’яних граней. Приклад показує, як розмір шматків і площа поверхні впливають сильніше, ніж сама назва методу."
+        "text": "На тісній сковороді печериці виділяють воду й радше тушкуються; у просторому посуді ця волога швидше випаровується, тож гриби підрум’янюються. Часто краще приготувати дві невеликі партії, ніж одночасно переповнити посуд."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Неправильно стверджувати, що запікання завжди гарячіше за випікання або що для одного обов’язковий вентилятор. У різних кухнях і виробників терміни означають дещо різні режими, тому в рецепті потрібно пояснювати реальну температуру, вологість і бажану текстуру."
+        "text": "Дим не є ознакою правильної температури: інколи він свідчить про руйнування олії. Тест із краплею води працює неоднаково для різних поверхонь. Не вмикайте максимальний нагрів без потреби, особливо з вершковим маслом, ніжною рибою чи порожньою антипригарною сковородою."
+      },
+      {
+        "title": "Безпечне нагрівання",
+        "text": "Нержавіюча, чавунна та антипригарна сковороди потребують різного підходу. Не перегрівайте порожній антипригарний посуд; дотримуйтеся інструкції виробника. Стежте за текучістю та запахом олії, але не вважайте дим обов’язковим сигналом готовності; зменшуйте нагрівання, якщо часник чи панірування темніють надто швидко."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "013, 047, 048, 069, 211."
+        "text": "043, 044, 072, 073."
       }
     ]
   },
   "related": [
-    13,
-    47,
-    48,
-    69,
-    211
+    43,
+    44,
+    72,
+    73
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/techniques/healthy-cooking-methods",
-    "https://www.kingarthurbaking.com/blog/2015/02/15/convection-conundrum",
-    "https://www.kitchenaid.com/pinch-of-help/major-appliances/convection-roast-vs-convection-bake.html"
+    "https://www.eatright.org/food/food-preparation/cooking-tips/culinary-lingo",
+    "https://annex.exploratorium.edu/cooking/meat/activity-maillard.html",
+    "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_212_04.html"
   ]
 }

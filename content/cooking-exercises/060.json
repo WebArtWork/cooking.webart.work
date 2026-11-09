@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 60,
+    "title": {
+      "en": "Acidity and Sourness Balance",
+      "ua": "Кислотність та баланс кислого смаку"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/meal-planning/understanding-tastes-and-food-flavors",
+    "https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/",
+    "https://www.fda.gov/food/fda-food-code/food-code-2022"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-060-01",
+      "theoryId": 60,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why can a small amount of lemon juice improve a rich lentil soup?",
+        "ua": "Чому трохи лимонного соку може покращити насичений сочевичний суп?"
+      },
+      "explanation": {
+        "en": "Balancing acid can sharpen perceived flavor without changing all ingredients.",
+        "ua": "Балансування кислоти може підкреслити смак без зміни всіх інгредієнтів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Sour contrast can add brightness against richness",
+            "ua": "Кислий контраст додає свіжості на тлі насиченості"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Acid removes all fat instantly",
+            "ua": "Кислота миттєво прибирає весь жир"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lemon always makes food sweeter",
+            "ua": "Лимон завжди робить їжу солодшою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-060-02",
+      "theoryId": 60,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Two sauces with the same pH must taste exactly equally sour.",
+        "ua": "Два соуси з однаковим pH обов’язково мають однаковий кислий смак."
+      },
+      "explanation": {
+        "en": "Acid type, buffering, sugar, and aroma all influence sourness perception.",
+        "ua": "Тип кислоти, буферність, цукор та аромат впливають на сприйняття кислоти."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-060-03",
+      "theoryId": 60,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match acidic additions to typical culinary roles.",
+        "ua": "Поєднайте кислі інгредієнти з кулінарною роллю."
+      },
+      "explanation": {
+        "en": "Different acids also contribute different aromas and textures.",
+        "ua": "Різні кислоти також надають різні аромати та текстуру."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Lemon juice",
+            "ua": "Лимонний сік"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Wine vinegar",
+            "ua": "Винний оцет"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Yogurt",
+            "ua": "Йогурт"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Creamy tang and body",
+            "ua": "Кремова кислинка та густина"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Acidic salad dressing base",
+            "ua": "Кисла основа салатної заправки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Bright finishing acidity",
+            "ua": "Яскрава кислота наприкінці"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-060-04",
+      "theoryId": 60,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a controlled acidity adjustment in a rich stew.",
+        "ua": "Упорядкуйте контрольоване коригування кислотності насиченого рагу."
+      },
+      "explanation": {
+        "en": "Testing a small portion prevents accidentally making the entire dish too sour.",
+        "ua": "Проба на малій порції допомагає не перекислити всю страву."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Add a small amount of suitable acid to the sample",
+            "ua": "Додати трохи відповідної кислоти в пробну порцію"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Taste a small sample and assess richness",
+            "ua": "Скуштувати невелику порцію й оцінити насиченість"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Taste again and adjust whole stew only if improved",
+            "ua": "Скуштувати знову й змінювати всю страву лише за кращого результату"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-060-05",
+      "theoryId": 60,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A salad dressing tastes painfully sharp. What is the best first test?",
+        "ua": "Салатна заправка має надто різкий кислий смак. Що спочатку спробувати?"
+      },
+      "explanation": {
+        "en": "Balance is judged through controlled tasting, not by blindly increasing acid.",
+        "ua": "Баланс оцінюють контрольованою дегустацією, а не бездумним збільшенням кислоти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Adjust a sample with some oil or other balancing ingredient and retaste",
+            "ua": "Збалансувати пробну порцію олією чи іншим відповідним компонентом і знову скуштувати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add even more vinegar without tasting",
+            "ua": "Без дегустації додати ще оцту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add raw poultry to neutralize acid",
+            "ua": "Додати сиру птицю для нейтралізації кислоти"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-060-06",
+      "theoryId": 60,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which variables can change perceived sourness?",
+        "ua": "Які чинники можуть змінювати відчуття кислоти?"
+      },
+      "explanation": {
+        "en": "Perceived sourness depends on more than just the pH number.",
+        "ua": "Сприйняття кислого залежить не лише від значення pH."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Type of food acid",
+            "ua": "Вид харчової кислоти"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Sugar and other flavor components",
+            "ua": "Цукор та інші смакові компоненти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Buffering capacity of the mixture",
+            "ua": "Буферність суміші"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The color of the saucepan handle",
+            "ua": "Колір руків’я каструлі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

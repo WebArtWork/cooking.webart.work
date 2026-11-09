@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 135,
+    "title": {
+      "en": "Meat Searing and Surface Moisture Control",
+      "ua": "Обсмажування м’яса та контроль поверхневої вологи"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.seriouseats.com/meat-cooking-rules-busted-12036560",
+    "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-135-01",
+      "theoryId": 135,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why should meat surfaces be patted dry before strong searing?",
+        "ua": "Навіщо обсушувати поверхню м’яса перед інтенсивним обсмажуванням?"
+      },
+      "explanation": {
+        "en": "Excess water holds the surface near boiling temperature until it evaporates, delaying Maillard browning.",
+        "ua": "Надлишок води утримує поверхню поблизу температури кипіння й затримує реакцію Майяра."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Less surface water must evaporate before browning",
+            "ua": "Менше поверхневої води треба випарувати до підрум’янення"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Water turns instantly into fat",
+            "ua": "Вода миттєво стає жиром"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Drying permanently seals meat pores",
+            "ua": "Обсушування назавжди закриває пори м’яса"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-135-02",
+      "theoryId": 135,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Searing creates an impermeable crust that stops all juice loss.",
+        "ua": "Обсмажування створює непроникну скоринку, яка повністю зупиняє втрату соку."
+      },
+      "explanation": {
+        "en": "Searing builds flavor and color; it does not seal in juices.",
+        "ua": "Обсмажування формує аромат і колір, але не «запечатує» соки."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-135-03",
+      "theoryId": 135,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match searing conditions to outcomes.",
+        "ua": "Поєднайте умови обсмажування з наслідками."
+      },
+      "explanation": {
+        "en": "Control surface moisture and heat for browning.",
+        "ua": "Для скоринки контролюють поверхневу вологу та жар."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Dry meat surface",
+            "ua": "Суха поверхня м’яса"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Overcrowded pan",
+            "ua": "Переповнена сковорода"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Appropriate hot pan",
+            "ua": "Належно розігріта сковорода"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "More effective crust formation",
+            "ua": "Краще утворення скоринки"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Steaming and slower browning",
+            "ua": "Парування та повільніше підрум’янення"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Faster browning potential",
+            "ua": "Швидше підрум’янення"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-135-04",
+      "theoryId": 135,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Steaks are gray and release water in a crowded pan. What is the best adjustment?",
+        "ua": "Стейки сірі та виділяють воду на переповненій сковороді. Як покращити результат?"
+      },
+      "explanation": {
+        "en": "Uncrowded hot contact surfaces evaporate water more effectively and brown better.",
+        "ua": "За меншої кількості продуктів гаряча поверхня швидше випаровує воду та рум’янить."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dry surfaces and cook fewer pieces per batch",
+            "ua": "Обсушити м’ясо та смажити меншими партіями"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add more cold water",
+            "ua": "Долити більше холодної води"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Pack steaks even closer",
+            "ua": "Скласти стейки ще щільніше"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-135-05",
+      "theoryId": 135,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which searing statement is false?",
+        "ua": "Яке твердження про обсмажування хибне?"
+      },
+      "explanation": {
+        "en": "Internal safety requires an appropriate core-temperature check.",
+        "ua": "Безпечність середини потребує належної перевірки внутрішньої температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Surface dryness helps browning",
+            "ua": "Сухість поверхні сприяє підрум’яненню"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Heat affects crust development",
+            "ua": "Жар впливає на скоринку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A dark crust proves the middle is safely cooked",
+            "ua": "Темна скоринка доводить безпечну готовність середини"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

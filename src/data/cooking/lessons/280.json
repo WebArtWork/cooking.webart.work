@@ -1,80 +1,92 @@
 {
   "id": 280,
-  "slug": "280-korean-fermentation-and-flavor-systems",
-  "group": "271",
+  "slug": "280-fifo-fefo-and-inventory-rotation",
+  "group": "277",
   "title": {
-    "en": "Korean Fermentation and Flavor Systems",
-    "ua": "Корейська ферментація та смакові системи"
+    "en": "FIFO, FEFO, and Inventory Rotation",
+    "ua": "FIFO, FEFO та ротація складських запасів"
   },
   "en": {
-    "short": "Korean culinary traditions use fermented vegetable and soybean preparations to build layered salty, sour, spicy and savory flavors. Kimchi and jang provide clear examples of how fermentation, seasoning and meal composition work together.",
+    "short": "First-in, first-out (FIFO) is a stock-rotation method that normally uses earlier received ingredients before newer ones. Together with expiry-date checks, traceable labels, and suitable storage, it reduces avoidable spoilage and protects consistent kitchen production.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Korean food cultures include rice, soups, grilled dishes, numerous banchan side dishes, kimchi and fermented seasoning pastes known as jang. Regional and household variations are extensive; there is no single required level of spice."
+        "text": "Record when each lot enters the kitchen and make it easy to retrieve the oldest appropriate stock. FIFO follows arrival order; FEFO (first-expired, first-out) follows the earliest use-by date. When dates differ, safety and the applicable date limits override an automatic FIFO choice."
       },
       {
-        "title": "Scientific / practical principles",
-        "text": "Kimchi develops acidity and complex flavor through controlled microbial fermentation. Jang includes fermented soy preparations such as doenjang and ganjang; gochujang combines fermented ingredients with chili and other components. Salt concentration, time, temperature and proper hygiene affect fermentation and safety."
+        "title": "Operational principles",
+        "text": "Mark each container with an ingredient name, receiving or preparation date, relevant use-by date, and batch identifier when available. Put older eligible stock in front of or above newly delivered stock while preserving correct raw-versus-ready-to-eat segregation and temperature control. A shelf label is not permission to extend a legal or manufacturer shelf life."
       },
       {
         "title": "How to apply it",
-        "text": "Learn to use a small amount of kimchi or fermented paste as a flavor component, adjusting salt at the end. For actual home fermentation, follow an established validated process rather than improvising salt or room-temperature storage."
+        "text": "At receiving, inspect packaging, date codes, and temperatures; reject unsuitable deliveries. Move older stock forward, put new stock behind it, review items approaching their dates before planning tomorrow’s prep, and document discarded stock. Audit refrigerated, frozen, and dry stores separately."
       },
       {
         "title": "Practical example",
-        "text": "Cook plain rice and serve it with sautéed mushrooms and a modest amount of verified prepared kimchi or doenjang-based sauce. Compare the dish before and after adding fermented seasoning; note acidity, umami and salt together."
+        "text": "A restaurant receives 8 kg of carrots on Monday and another 10 kg on Thursday. Both deliveries are suitable and the Monday lot expires first, so Monday’s carrots are used first. If Thursday’s lot has an earlier use-by date, check and prioritize by that date instead."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Not all Korean dishes are fiery, and “fermented” does not automatically mean safe or probiotic. Shellfish or fish products may be hidden in kimchi seasonings; soy, wheat and sesame can also be allergens. UNESCO inscribed kimjang in 2013 and jang-making in 2024."
+        "text": "Do not place newly delivered raw poultry above ready-to-eat food simply to make FIFO convenient. Do not use visibly spoiled, temperature-abused, recalled, or expired stock because it is the oldest. A date label and smell test cannot establish microbiological safety."
       },
       {
         "title": "Related theories",
-        "text": "091, 101, 228, 230, 235, 237."
+        "text": "019, 020, 027, 219, 279, 281, 287."
+      },
+      {
+        "title": "Hands-on exercise",
+        "text": "A Monday delivery expires Friday, while a Wednesday delivery expires Thursday. Decide whether FIFO or FEFO governs use, label the lots and explain why neither rule permits using spoiled, recalled, or temperature-abused stock."
       }
     ]
   },
   "ua": {
-    "short": "Корейські кулінарні традиції використовують ферментовані овочі та соєві продукти для створення солоних, кислих, гострих і насичених смаків. Кімчі та чан добре демонструють взаємодію ферментації, приправ і структури трапези.",
+    "short": "FIFO (першим надійшло, першим використано) є способом ротації запасів, за якого раніше отримані продукти зазвичай використовують перед новими. Разом із контролем термінів придатності, маркуванням і правильним зберіганням це допомагає зменшити псування продуктів та підтримувати стабільну роботу кухні.",
     "sections": [
       {
-        "title": "Суть",
-        "text": "Корейські кулінарні традиції охоплюють рис, супи, страви на грилі, різні закуски панчхан, кімчі та ферментовані соєві приправи чан. Існують численні регіональні й родинні версії, тому гострота не обов’язкова для кожної страви."
+        "title": "Головна ідея",
+        "text": "Фіксуйте надходження кожної партії та розміщуйте запаси так, щоб першими було зручно брати старіші придатні продукти. FIFO орієнтується на дату надходження, а FEFO (першим закінчується термін, першим використовується) орієнтується на найближчу кінцеву дату використання. Вимоги безпеки та терміни придатності мають пріоритет над простою черговістю."
       },
       {
-        "title": "Наукові та практичні принципи",
-        "text": "У кімчі під час контрольованої мікробної ферментації формуються кислотність і складний аромат. До чан належать ферментовані соєві продукти, зокрема твенджан і канджан; кочуджан містить ферментовані компоненти, чилі та інші складники. Сіль, температура, тривалість і гігієна впливають на результат і безпеку."
+        "title": "Принципи організації",
+        "text": "Позначайте назву продукту, дату надходження або приготування, дату використання та, за наявності, номер партії. Нові продукти ставте позаду старих, не порушуючи температурного режиму й розділення сирих продуктів та готової їжі. Маркування не подовжує дозволений строк зберігання."
       },
       {
         "title": "Як застосовувати",
-        "text": "Навчіться використовувати невелику кількість кімчі чи пасти як смакову основу, досолюючи наприкінці. Для домашньої ферментації дотримуйтеся перевірених технологій, не вигадуйте довільні пропорції солі та умови зберігання."
+        "text": "Під час приймання перевіряйте упаковку, терміни та температурні умови; невідповідні поставки відхиляйте. Переставляйте старіші запаси вперед, плануйте заготовки з урахуванням найближчих дат використання й реєструйте списання. Окремо перевіряйте холодильники, морозильники та сухий склад."
       },
       {
         "title": "Практичний приклад",
-        "text": "Подайте рис із підсмаженими грибами й невеликою кількістю готового кімчі або соусу з твенджану. Порівняйте страву до й після додавання ферментованої приправи: як разом змінюються кислота, умамі й солоність."
+        "text": "Заклад отримав 8 кг моркви в понеділок і ще 10 кг у четвер. Якщо обидві партії придатні, а в понеділкової строк закінчується раніше, її використовують першою. Якщо в четвергової партії коротший строк, порядок коригують за FEFO."
       },
       {
-        "title": "Поширені помилки й обмеження",
-        "text": "Не всі корейські страви дуже гострі, а ферментація не гарантує безпеки чи пробіотичних властивостей. У кімчі можуть бути рибні або молюскові інгредієнти; соя, пшениця та кунжут теж можливі алергени. UNESCO визнала кімджан у 2013 році, виготовлення чан — у 2024 році."
+        "title": "Поширені помилки та обмеження",
+        "text": "Не можна ставити сиру птицю над готовою їжею лише заради ротації. Найстарішу партію не використовують, якщо вона зіпсована, зберігалася неправильно, відкликана або втратила придатність. Запах чи етикетка не доводять мікробіологічної безпечності."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "091, 101, 228, 230, 235, 237."
+        "text": "019, 020, 027, 219, 279, 281, 287."
+      },
+      {
+        "title": "Практична вправа",
+        "text": "Партія з понеділка придатна до п’ятниці, а партія із середи придатна лише до четверга. Виберіть FIFO чи FEFO, промаркуйте партії й поясніть, чому жоден метод не дозволяє використовувати зіпсовану, відкликану або неправильно збережену сировину."
       }
     ]
   },
   "related": [
-    91,
-    101,
-    228,
-    230,
-    235,
-    237
+    19,
+    20,
+    27,
+    219,
+    279,
+    281,
+    287
   ],
-  "referenceTitle": "References / Джерела",
+  "referenceTitle": "Sources / Джерела",
   "references": [
-    "https://ich.unesco.org/en/RL/kimjang-00881",
-    "https://ich.unesco.org/en/RL/knowledge-beliefs-and-practices-related-to-jang-making-in-the-republic-of-korea-01975"
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://www.epa.gov/sustainable-management-food/resources-assessing-wasted-food",
+    "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.epa.gov/sustainable-management-food/prevent-wasted-food-through-source-reduction"
   ]
 }

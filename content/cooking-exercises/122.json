@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 122,
+    "title": {
+      "en": "Eggs as Foaming, Binding, and Emulsifying Agents",
+      "ua": "Яйця як піноутворювачі, зв’язувальні компоненти та емульгатори"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/assuring-safety-eggs-and-menu-and-deli-items-made-raw-shell-eggs",
+    "https://annex.exploratorium.edu/cooking/icooks/article_5-03.html",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-122-01",
+      "theoryId": 122,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which egg component is most important for stabilizing a mayonnaise emulsion?",
+        "ua": "Який компонент яйця найважливіший для стабілізації емульсії майонезу?"
+      },
+      "explanation": {
+        "en": "Yolk emulsifiers help disperse oil droplets in the aqueous phase.",
+        "ua": "Емульгатори жовтка допомагають розподіляти краплі олії у водній фазі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Yolk with emulsifying phospholipids",
+            "ua": "Жовток з емульгувальними фосфоліпідами"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Eggshell minerals alone",
+            "ua": "Лише мінерали шкаралупи"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The air above the bowl",
+            "ua": "Повітря над мискою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-122-02",
+      "theoryId": 122,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Beaten egg whites can hold air bubbles that expand light batters.",
+        "ua": "Збиті яєчні білки можуть утримувати бульбашки повітря й полегшувати тісто."
+      },
+      "explanation": {
+        "en": "Unfolded proteins surround bubbles and stabilize foams.",
+        "ua": "Розгорнуті білкові молекули оточують бульбашки та стабілізують піну."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-122-03",
+      "theoryId": 122,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match egg functions to examples.",
+        "ua": "Поєднайте функції яєць із прикладами."
+      },
+      "explanation": {
+        "en": "Different egg proteins and yolk lipids provide complementary functions.",
+        "ua": "Білки й ліпіди жовтка забезпечують різні кулінарні функції."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Foaming",
+            "ua": "Піноутворення"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Binding",
+            "ua": "Зв’язування"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Emulsifying",
+            "ua": "Емульгування"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Mayonnaise",
+            "ua": "Майонез"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Meatball mixture",
+            "ua": "Фарш для фрикадельок"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Meringue",
+            "ua": "Меренга"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-122-04",
+      "theoryId": 122,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A sauce made with raw egg will not be cooked thoroughly. What egg choice reduces Salmonella risk?",
+        "ua": "Соус із сирим яйцем не проходитиме достатньої термообробки. Який вибір знижує ризик сальмонели?"
+      },
+      "explanation": {
+        "en": "Pasteurized products are recommended for uncooked egg preparations.",
+        "ua": "Для страв із сирих яєць рекомендовано пастеризовані продукти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Pasteurized egg product",
+            "ua": "Пастеризований яєчний продукт"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unpasteurized cracked eggs",
+            "ua": "Непастеризовані яйця з тріснутою шкаралупою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Unrefrigerated shell eggs",
+            "ua": "Яйця, що довго стояли без холодильника"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-122-05",
+      "theoryId": 122,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which claim about egg functions is false?",
+        "ua": "Яке твердження про функції яєць хибне?"
+      },
+      "explanation": {
+        "en": "Heating egg proteins thickens custards; the shell is not an edible thickening agent.",
+        "ua": "Крем густішає завдяки нагріванню білків яйця, а не шкаралупі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Egg white can foam",
+            "ua": "Яєчний білок може збиватися в піну"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Yolk can emulsify",
+            "ua": "Жовток може утворювати емульсії"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Eggshell is the main edible thickener in custard",
+            "ua": "Шкаралупа — головний їстівний загусник крему"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-122-06",
+      "theoryId": 122,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Select the culinary functions that eggs can provide.",
+        "ua": "Оберіть кулінарні функції, які можуть виконувати яйця."
+      },
+      "explanation": {
+        "en": "Different egg constituents support binding, foaming and emulsification.",
+        "ua": "Різні складники яйця забезпечують зв’язування, піну та емульгування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Bind a meat mixture",
+            "ua": "Зв’язувати м’ясну масу"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stabilize an oil-water emulsion",
+            "ua": "Стабілізувати емульсію олії та води"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Generate foam for meringue",
+            "ua": "Утворювати піну для меренги"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Sterilize raw chicken by touching it",
+            "ua": "Стерилізувати сиру курятину дотиком"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

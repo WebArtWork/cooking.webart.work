@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 174,
+    "title": {
+      "en": "Butter Sauces and Emulsion Control",
+      "ua": "Масляні соуси та контроль емульсій"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://www.seriouseats.com/how-to-fix-a-broken-sauce",
+    "https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/assuring-safety-eggs-and-menu-and-deli-items-made-raw-shell-eggs"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-174-01",
+      "theoryId": 174,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why is cold butter added gradually to a warm beurre blanc reduction?",
+        "ua": "Чому холодне масло додають поступово до теплої основи для бер-блан?"
+      },
+      "explanation": {
+        "en": "Gradual addition with moderate heat helps control droplet formation.",
+        "ua": "Поступове додавання за помірного нагріву допомагає контролювати утворення крапель жиру."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "To guarantee no moisture remains in the sauce",
+            "ua": "Щоб у соусі гарантовано не лишилося вологи"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "To disperse butterfat into a stable water-based emulsion",
+            "ua": "Щоб розподілити жир масла у відносно стабільній емульсії на водній основі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "To turn the acid into starch",
+            "ua": "Щоб перетворити кислоту на крохмаль"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-174-02",
+      "theoryId": 174,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Boiling a delicate butter emulsion hard can cause it to split.",
+        "ua": "Бурхливе кип’ятіння ніжної масляної емульсії може спричинити розшарування."
+      },
+      "explanation": {
+        "en": "Excess heat destabilizes dispersed butterfat.",
+        "ua": "Надмірне нагрівання дестабілізує розподілений жир."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-174-03",
+      "theoryId": 174,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match butter-sauce techniques to purposes.",
+        "ua": "Поєднайте техніки масляних соусів з їхньою метою."
+      },
+      "explanation": {
+        "en": "A butter emulsion needs both fat and sufficient aqueous phase.",
+        "ua": "Масляній емульсії потрібні і жир, і достатня водна фаза."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Cold butter cubes",
+            "ua": "Кубики холодного масла"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Warm acidic liquid",
+            "ua": "Тепла кисла рідина"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Whisk or swirl gently",
+            "ua": "Обережно збивати чи обертати"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": {
+            "en": "Help gradual emulsion formation",
+            "ua": "Допомагають поступово створити емульсію"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Disperses butterfat droplets",
+            "ua": "Розподіляє краплі жиру"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Provides an aqueous base",
+            "ua": "Забезпечує водну основу"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-174-04",
+      "theoryId": 174,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A mounted pan sauce starts separating into an oily layer. What often helps?",
+        "ua": "Соус, завершений маслом, починає розшаровуватися з появою олійного шару. Що часто допомагає?"
+      },
+      "explanation": {
+        "en": "Additional aqueous phase and agitation can restore a broken butter emulsion.",
+        "ua": "Додаткова водна фаза й перемішування можуть відновити масляну емульсію."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Add much more butter without liquid",
+            "ua": "Додати значно більше масла без рідини"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Boil violently to force the oil back",
+            "ua": "Бурхливо кип’ятити, щоб повернути жир"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove from high heat and whisk in a small amount of warm water",
+            "ua": "Зняти з сильного нагріву та збити з невеликою кількістю теплої води"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-174-05",
+      "theoryId": 174,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which butter-sauce claim is wrong?",
+        "ua": "Яке твердження про масляні соуси неправильне?"
+      },
+      "explanation": {
+        "en": "Clarified butter is mostly fat; beurre blanc is a dispersed fat-in-water sauce.",
+        "ua": "Очищене масло складається переважно з жиру; бер-блан — соус із краплями жиру у водній фазі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Beurre blanc is an emulsion",
+            "ua": "Бер-блан є емульсією"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whole butter contains fat and water",
+            "ua": "Вершкове масло містить жир і воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Clarified butter is the same mixture as a stable beurre blanc",
+            "ua": "Очищене масло — це така сама суміш, як стабільний бер-блан"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-174-06",
+      "theoryId": 174,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which practices help prevent a beurre blanc from splitting?",
+        "ua": "Які дії допомагають запобігти розшаруванню бер-блан?"
+      },
+      "explanation": {
+        "en": "Successful emulsion needs moderate heat, dispersed fat and water.",
+        "ua": "Стабільній емульсії потрібні помірний нагрів, розподілений жир і вода."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Avoid vigorous boiling",
+            "ua": "Уникати бурхливого кипіння"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Preserve enough liquid in the reduction",
+            "ua": "Зберігати достатньо рідини в основі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add cold butter gradually",
+            "ua": "Поступово додавати холодне масло"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Boil until the sauce is only pure fat",
+            "ua": "Кип’ятити, доки соус не стане чистим жиром"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

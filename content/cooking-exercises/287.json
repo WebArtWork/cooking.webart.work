@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 287,
+    "title": {
+      "en": "Sustainable Kitchen Practices and Waste Management",
+      "ua": "Сталі кухонні практики та керування відходами"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://www.epa.gov/sustainable-management-food/resources-assessing-wasted-food",
+    "https://www.epa.gov/sustainable-management-food/prevent-wasted-food-through-source-reduction",
+    "https://www.epa.gov/sustainable-management-food/tools-preventing-and-diverting-wasted-food",
+    "https://wedocs.unep.org/items/dbe2cd4c-8384-4636-8359-5847f42b9711"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-287-01",
+      "theoryId": 287,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is usually the highest-priority step in food waste management?",
+        "ua": "Який крок зазвичай має найвищий пріоритет у поводженні з харчовими відходами?"
+      },
+      "explanation": {
+        "en": "Source reduction saves the resources already used to produce, transport and cook food.",
+        "ua": "Запобігання відходам заощаджує ресурси, вже витрачені на вирощування, доставку та приготування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard all trimmings without measurement",
+            "ua": "Викидати всі обрізки без вимірювання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Prevent avoidable food waste before it occurs",
+            "ua": "Запобігати зайвим харчовим відходам до їх появи"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Rely exclusively on landfill disposal",
+            "ua": "Покладатися лише на захоронення на полігоні"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-287-02",
+      "theoryId": 287,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Tracking how much food is discarded by station can help identify preventable loss.",
+        "ua": "Облік кількості їжі, що викидається кожною станцією, може допомогти виявити втрати, яких можна уникнути."
+      },
+      "explanation": {
+        "en": "Station-level waste data can identify overproduction, trimming and plate-return patterns.",
+        "ua": "Облік за станціями показує надвиробництво, втрати під час підготовки та повернення з тарілок."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-287-03",
+      "theoryId": 287,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match sustainability measures to their targets.",
+        "ua": "Поєднайте сталі практики з їхніми цілями."
+      },
+      "explanation": {
+        "en": "Measurement and prevention are more actionable than slogans alone.",
+        "ua": "Вимірювання та профілактика дієвіші за самі гасла."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Waste log",
+            "ua": "Журнал відходів"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Batch planning",
+            "ua": "Планування партій"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Equipment maintenance",
+            "ua": "Обслуговування обладнання"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Reduces unnecessary cooking",
+            "ua": "Зменшує непотрібне приготування"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Can reduce avoidable energy and water use",
+            "ua": "Може зменшувати зайві витрати енергії та води"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Quantifies discarded food types and causes",
+            "ua": "Вимірює види та причини харчових відходів"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-287-04",
+      "theoryId": 287,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A restaurant consistently discards unsold prepared rice. What should it investigate first?",
+        "ua": "Ресторан постійно викидає непроданий приготований рис. Що слід перевірити насамперед?"
+      },
+      "explanation": {
+        "en": "Demand-matched batching can reduce waste while respecting safe cooked-rice handling.",
+        "ua": "Партії відповідно до попиту зменшують відходи без порушення безпеки готового рису."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Compare demand, batch sizes, safe holding and service-time forecasts",
+            "ua": "Порівняти попит, розмір партій, безпечне зберігання та прогнози часу подачі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Leave rice overnight at room temperature for reuse",
+            "ua": "Залишати рис на ніч за кімнатної температури для повторного використання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Ignore the problem because rice is cheap",
+            "ua": "Ігнорувати проблему, бо рис дешевий"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-287-05",
+      "theoryId": 287,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which actions support sustainable kitchen operations?",
+        "ua": "Які дії підтримують сталі практики кухні?"
+      },
+      "explanation": {
+        "en": "Waste and energy reduction must remain compatible with food safety.",
+        "ua": "Зменшення відходів та енергоспоживання має залишатися сумісним із харчовою безпекою."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Maintain refrigeration seals and equipment",
+            "ua": "Доглядати за ущільнювачами холодильників і обладнанням"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Track plate and prep waste separately",
+            "ua": "Окремо обліковувати залишки з тарілок і втрати підготовки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Review portion sizes based on actual returns",
+            "ua": "Переглядати розміри порцій за фактичними поверненнями"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Repurpose spoiled food because composting is costly",
+            "ua": "Використовувати зіпсовану їжу, бо компостування коштує грошей"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "a",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-287-06",
+      "theoryId": 287,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A kitchen reduces food waste from 50 kg per week to 35 kg per week. What percentage reduction is this?",
+        "ua": "Кухня зменшила харчові відходи з 50 кг до 35 кг на тиждень. Який відсоток скорочення?"
+      },
+      "explanation": {
+        "en": "(50 − 35) ÷ 50 × 100 = 30%.",
+        "ua": "Скорочення: (50 − 35) ÷ 50 × 100 = 30%."
+      },
+      "numericInput": {
+        "unit": "%",
+        "unitLabel": {
+          "en": "percent",
+          "ua": "відсотків"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 30,
+        "tolerance": 0,
+        "unit": "%"
+      }
+    }
+  ]
+}

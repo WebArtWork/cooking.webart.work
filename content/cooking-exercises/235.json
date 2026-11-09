@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 235,
+    "title": {
+      "en": "Reading Nutrition Labels",
+      "ua": "Читання маркування харчової цінності"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+    "https://www.nal.usda.gov/programs/fnic"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-235-01",
+      "theoryId": 235,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "On a nutrition label, what does “per serving” mean?",
+        "ua": "Що означає «на порцію» на етикетці харчової цінності?"
+      },
+      "explanation": {
+        "en": "Always check the serving reference before comparing amounts.",
+        "ua": "Перед порівнянням показників завжди перевіряйте розмір порції."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Values apply to any amount eaten",
+            "ua": "Показники стосуються будь-якої з’їденої кількості"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Values are always for 100 kg",
+            "ua": "Показники завжди подано на 100 кг"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Values apply to the stated serving amount",
+            "ua": "Показники стосуються зазначеного розміру порції"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-235-02",
+      "theoryId": 235,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "If a package has two servings, eating the full package may double the listed per-serving amounts.",
+        "ua": "Якщо упаковка містить дві порції, споживання всієї упаковки може подвоїти показники, зазначені на порцію."
+      },
+      "explanation": {
+        "en": "Multiply by servings consumed, provided the label is per serving.",
+        "ua": "Помножте на кількість спожитих порцій, якщо показники подані на порцію."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-235-03",
+      "theoryId": 235,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match nutrition-label terms to what they report.",
+        "ua": "Поєднайте елементи харчового маркування з тим, що вони показують."
+      },
+      "explanation": {
+        "en": "Label values make sense only with the stated serving reference and region-specific format.",
+        "ua": "Показники етикетки треба розглядати разом із зазначеною порцією та вимогами відповідної країни."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Serving size",
+            "ua": "Розмір порції"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Sodium",
+            "ua": "Натрій"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Added sugars",
+            "ua": "Додані цукри"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Sugars added during processing or preparation",
+            "ua": "Цукри, додані під час виробництва чи приготування"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Reference quantity of food",
+            "ua": "Орієнтовна кількість продукту"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Amount of sodium in the reference quantity",
+            "ua": "Кількість натрію у визначеній кількості"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-235-04",
+      "theoryId": 235,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A snack label lists 180 kcal per serving with 2 servings per packet. You eat the entire packet. How many kcal is that?",
+        "ua": "Етикетка снека вказує 180 ккал на порцію та 2 порції в упаковці. Ви з’їли всю упаковку. Скільки це ккал?"
+      },
+      "explanation": {
+        "en": "180 × 2 = 360 kcal for the packet.",
+        "ua": "180 × 2 = 360 ккал на упаковку."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "90 kcal",
+            "ua": "90 ккал"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "180 kcal",
+            "ua": "180 ккал"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "360 kcal",
+            "ua": "360 ккал"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-235-05",
+      "theoryId": 235,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A product contains 650 mg sodium per serving. You eat two servings. How many mg sodium did you consume?",
+        "ua": "Продукт містить 650 мг натрію на порцію. Ви з’їли дві порції. Скільки мг натрію спожито?"
+      },
+      "explanation": {
+        "en": "650 × 2 = 1,300 mg sodium.",
+        "ua": "650 × 2 = 1300 мг натрію."
+      },
+      "numericInput": {
+        "unit": "mg",
+        "unitLabel": {
+          "en": "milligrams",
+          "ua": "міліграмів"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 1300,
+        "tolerance": 0,
+        "unit": "mg"
+      }
+    }
+  ]
+}

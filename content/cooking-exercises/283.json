@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 283,
+    "title": {
+      "en": "Menu Engineering and Profitability",
+      "ua": "Меню-інжиніринг та прибутковість"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://ecommons.cornell.edu/bitstreams/56f1b36d-beb8-42fb-aeea-9fdb59be6c29/download",
+    "https://www.sciencedirect.com/science/article/pii/S0278431920300566",
+    "https://www.restaurant.org/education-and-resources/resource-library/restaurateurs-use-tech-to-manage-inventory%2C-save-money/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-283-01",
+      "theoryId": 283,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What are the two traditional axes of a menu engineering matrix?",
+        "ua": "Які дві класичні осі матриці меню-інжинірингу?"
+      },
+      "explanation": {
+        "en": "Menu engineering studies demand and the contribution made by each sale.",
+        "ua": "Меню-інжиніринг аналізує попит та внесок кожного продажу в покриття витрат і прибуток."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Item popularity and contribution margin",
+            "ua": "Популярність страви та маржинальний дохід"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Recipe age and number of spices",
+            "ua": "Вік рецепта та кількість спецій"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Plate diameter and kitchen temperature",
+            "ua": "Діаметр тарілки та температура кухні"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-283-02",
+      "theoryId": 283,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A high-selling item always has a high contribution margin per sale.",
+        "ua": "Страва з великими продажами завжди має високий маржинальний дохід з одиниці."
+      },
+      "explanation": {
+        "en": "Popularity and per-item margin are independent dimensions and should be measured separately.",
+        "ua": "Популярність і маржа на одиницю — різні показники, які оцінюють окремо."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-283-03",
+      "theoryId": 283,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the four classic menu-engineering categories to their patterns.",
+        "ua": "Поєднайте чотири класичні категорії меню-інжинірингу з їхніми ознаками."
+      },
+      "explanation": {
+        "en": "The standard matrix combines high/low popularity with high/low contribution margin.",
+        "ua": "Стандартна матриця поєднує високу/низьку популярність із високим/низьким маржинальним доходом."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Star",
+            "ua": "Зірка"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Puzzle",
+            "ua": "Загадка"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Plowhorse",
+            "ua": "Робоча конячка"
+          }
+        },
+        {
+          "id": "l4",
+          "text": {
+            "en": "Dog",
+            "ua": "Аутсайдер"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Low popularity and high contribution margin",
+            "ua": "Низька популярність і високий маржинальний дохід"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "High popularity and low contribution margin",
+            "ua": "Висока популярність і низький маржинальний дохід"
+          }
+        },
+        {
+          "id": "r4",
+          "text": {
+            "en": "Low popularity and low contribution margin",
+            "ua": "Низька популярність і низький маржинальний дохід"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "High popularity and high contribution margin",
+            "ua": "Висока популярність і високий маржинальний дохід"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          },
+          {
+            "leftId": "l4",
+            "rightId": "r4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-283-04",
+      "theoryId": 283,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A dish is popular but has a low margin. What is a sensible analysis before removing it?",
+        "ua": "Страва популярна, але має низьку маржу. Що варто проаналізувати перед вилученням?"
+      },
+      "explanation": {
+        "en": "A high-volume lower-margin item may still matter to revenue and guest preferences.",
+        "ua": "Популярна страва з меншою маржею може бути важливою для виручки й уподобань гостей."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Review price, portion cost, substitution and customer demand",
+            "ua": "Переглянути ціну, собівартість порції, заміни й попит"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Increase garnish cost without measuring results",
+            "ua": "Збільшити вартість гарніру без вимірювання результатів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove it without checking sales impact",
+            "ua": "Прибрати без аналізу впливу на продажі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-283-05",
+      "theoryId": 283,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which data are necessary for meaningful menu engineering?",
+        "ua": "Які дані потрібні для змістовного меню-інжинірингу?"
+      },
+      "explanation": {
+        "en": "Menu classifications depend on comparable sales volume and contribution data.",
+        "ua": "Категорії меню залежать від порівнюваних продажів і даних про маржинальний дохід."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Selling price and variable costs",
+            "ua": "Ціна продажу та змінні витрати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only the chef’s favorite menu color",
+            "ua": "Лише улюблений колір меню шефа"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Units sold by menu item",
+            "ua": "Кількість продажів кожної страви"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Comparable observation period",
+            "ua": "Порівнюваний період спостереження"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c",
+          "a",
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "cooking-283-06",
+      "theoryId": 283,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A dish sells for 250 UAH and directly variable costs are 90 UAH. What is its contribution margin per sale, in UAH?",
+        "ua": "Страва продається за 250 грн, а безпосередні змінні витрати становлять 90 грн. Який маржинальний дохід на продаж у гривнях?"
+      },
+      "explanation": {
+        "en": "250 − 90 = 160 UAH per sale.",
+        "ua": "250 − 90 = 160 грн на продаж."
+      },
+      "numericInput": {
+        "unit": "uah",
+        "unitLabel": {
+          "en": "Ukrainian hryvnias",
+          "ua": "гривень"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 160,
+        "tolerance": 0,
+        "unit": "uah"
+      }
+    },
+    {
+      "id": "cooking-283-07",
+      "theoryId": 283,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which menu-engineering statement is an analytical mistake?",
+        "ua": "Яке твердження про меню-інжиніринг є аналітичною помилкою?"
+      },
+      "explanation": {
+        "en": "Menu price is not contribution margin; expenses and demand matter.",
+        "ua": "Ціна продажу — не маржинальний дохід; важливі витрати й попит."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Compare items in comparable categories and periods",
+            "ua": "Порівнювати страви в подібних категоріях і періодах"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use contribution margin and demand together",
+            "ua": "Разом враховувати маржинальний дохід і попит"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume the dish with the highest listed price is always most profitable",
+            "ua": "Вважати, що страва з найвищою ціною завжди найприбутковіша"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

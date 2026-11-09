@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 121,
+    "title": {
+      "en": "Fried and Poached Eggs",
+      "ua": "Смажені яйця та яйця пашот"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/assuring-safety-eggs-and-menu-and-deli-items-made-raw-shell-eggs",
+    "https://annex.exploratorium.edu/cooking/icooks/article_5-03.html",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-121-01",
+      "theoryId": 121,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the main difference in how fried and poached eggs receive heat?",
+        "ua": "У чому головна різниця нагрівання смаженого яйця та яйця пашот?"
+      },
+      "explanation": {
+        "en": "A pan transfers heat mainly by contact, whereas surrounding water transfers heat by convection.",
+        "ua": "Сковорода передає тепло через контакт, а гаряча вода — завдяки конвекції."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Frying uses a hot pan; poaching uses hot water",
+            "ua": "Смаження використовує сковороду, пашот — гарячу воду"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Both must be cooked in deep oil",
+            "ua": "Обидва готують лише у фритюрі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Poaching uses dry hot air only",
+            "ua": "Пашот готують лише сухим гарячим повітрям"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-121-02",
+      "theoryId": 121,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A browned underside proves that an unpasteurized egg yolk is microbiologically safe.",
+        "ua": "Рум’яне дно доводить, що жовток непастеризованого яйця мікробіологічно безпечний."
+      },
+      "explanation": {
+        "en": "Surface browning does not confirm the yolk is fully cooked; US consumer guidance advises firm whites and yolks.",
+        "ua": "Підрум’янення не підтверджує готовності жовтка; побутові рекомендації США радять готувати білок і жовток до щільності."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-121-03",
+      "theoryId": 121,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match egg techniques to their heat effect.",
+        "ua": "Поєднайте техніки з їхнім впливом на нагрівання."
+      },
+      "explanation": {
+        "en": "Egg shape and doneness depend on heat intensity and transfer path.",
+        "ua": "Форма та готовність яйця залежать від інтенсивності й способу передачі тепла."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Cover fried egg",
+            "ua": "Накрити смажене яйце"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Gently simmer for poaching",
+            "ua": "Ледь кип’ятити воду для пашот"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Use very high pan heat",
+            "ua": "Сильно нагріти сковороду"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Edges may brown before yolk firms",
+            "ua": "Краї рум’яняться раніше за готовність жовтка"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Water moves without tearing the white",
+            "ua": "Вода рухається без розривання білка"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Steam helps heat the upper side",
+            "ua": "Пара прогріває верхню поверхню"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-121-04",
+      "theoryId": 121,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A guest needs an egg dish without a runny yolk. What is the best approach?",
+        "ua": "Гостю потрібна страва з яйця без рідкого жовтка. Що робити?"
+      },
+      "explanation": {
+        "en": "Fully setting both parts meets the stated preference and US basic consumer safety guidance.",
+        "ua": "Повне зсідання обох частин відповідає замовленню та базовим побутовим рекомендаціям США."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Cook until both the white and yolk are firm",
+            "ua": "Готувати до щільності білка й жовтка"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Brown only the underside quickly",
+            "ua": "Швидко підрум’янити лише дно"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Serve raw egg in cold water",
+            "ua": "Подати сире яйце в холодній воді"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-121-05",
+      "theoryId": 121,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which poaching instruction is least useful?",
+        "ua": "Яка вказівка для пашот найменш доречна?"
+      },
+      "explanation": {
+        "en": "Vigorous boiling breaks the white apart; gentle water movement preserves shape.",
+        "ua": "Сильне кипіння розриває білок, а легкий рух води зберігає форму."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Crack an egg into a cup first",
+            "ua": "Спершу розбити яйце в чашку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Lower it close to gently simmering water",
+            "ua": "Обережно опустити в ледь киплячу воду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Boil violently so the white scatters",
+            "ua": "Бурхливо кип’ятити, щоб білок розлетівся"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-121-06",
+      "theoryId": 121,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which actions help make fried eggs safer under standard US home guidance?",
+        "ua": "Які дії допомагають безпечніше готувати смажені яйця за побутовими рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "Firm cooking, hygiene and pasteurized eggs for undercooked applications all reduce risk.",
+        "ua": "Достатнє приготування, гігієна й пастеризовані яйця для недоготовлених страв зменшують ризик."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Cook white and yolk until firm",
+            "ua": "Готувати білок і жовток до щільного стану"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use clean tools and surfaces",
+            "ua": "Використовувати чисті інструменти й поверхні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume a brown edge means a safe yolk",
+            "ua": "Вважати рум’яний край доказом безпечного жовтка"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use pasteurized eggs for recipes intentionally served undercooked",
+            "ua": "Використовувати пастеризовані яйця для страв із недостатнім прогріванням"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

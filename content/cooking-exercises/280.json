@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 280,
+    "title": {
+      "en": "FIFO, FEFO, and Inventory Rotation",
+      "ua": "FIFO, FEFO та ротація складських запасів"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://www.epa.gov/sustainable-management-food/resources-assessing-wasted-food",
+    "https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/food-waste-management",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.epa.gov/sustainable-management-food/prevent-wasted-food-through-source-reduction"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-280-01",
+      "theoryId": 280,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the difference between FIFO and FEFO?",
+        "ua": "У чому відмінність між FIFO та FEFO?"
+      },
+      "explanation": {
+        "en": "FEFO is especially useful when expiry order differs from receiving order.",
+        "ua": "FEFO особливо корисний, коли порядок завершення терміну придатності не збігається з надходженням."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "FIFO means most expensive first; FEFO means cheapest first",
+            "ua": "FIFO означає найдорожче спочатку, FEFO — найдешевше"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "FIFO prioritizes first received; FEFO prioritizes earliest expiry",
+            "ua": "FIFO надає пріоритет першому надходженню, FEFO — найближчому терміну придатності"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Both always ignore expiration dates",
+            "ua": "Обидва завжди ігнорують терміни придатності"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-280-02",
+      "theoryId": 280,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "FEFO means an expired or spoiled product may still be used if it was received recently.",
+        "ua": "FEFO означає, що прострочений чи зіпсований продукт можна використати, якщо його нещодавно привезли."
+      },
+      "explanation": {
+        "en": "Rotation does not override rejection, discard or safety requirements.",
+        "ua": "Ротація не скасовує відбракування, утилізацію та вимоги безпеки."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-280-03",
+      "theoryId": 280,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match inventory terms to their meanings.",
+        "ua": "Поєднайте складські терміни з їхнім значенням."
+      },
+      "explanation": {
+        "en": "Rotation and traceability serve related but distinct purposes.",
+        "ua": "Ротація та простежуваність мають пов’язані, але різні цілі."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "FIFO",
+            "ua": "FIFO"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "FEFO",
+            "ua": "FEFO"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Lot tracking",
+            "ua": "Облік партій"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "First expiring, first out",
+            "ua": "Раніше спливає термін — раніше використовується"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Identifies the origin of a stock batch",
+            "ua": "Визначає походження партії запасів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "First in, first out",
+            "ua": "Першим надійшло — першим використовується"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-280-04",
+      "theoryId": 280,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Milk received Monday expires Friday; milk received Tuesday expires Thursday. Which should be used first if both are still safe?",
+        "ua": "Молоко, отримане в понеділок, придатне до п’ятниці; отримане у вівторок — до четверга. Яке використати першим, якщо обидва безпечні?"
+      },
+      "explanation": {
+        "en": "FEFO prioritizes the earlier expiry date, subject to applicable food-safety requirements.",
+        "ua": "FEFO віддає перевагу ранішому терміну придатності за умови дотримання вимог безпеки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mix both lots to avoid recording the dates",
+            "ua": "Змішати обидві партії, щоб не записувати дати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Monday delivery because FIFO is always legally mandatory",
+            "ua": "Понеділкову поставку, бо FIFO завжди обов’язковий за законом"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Tuesday delivery, following earlier expiry under FEFO",
+            "ua": "Вівторкову поставку за FEFO через раніший термін придатності"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-280-05",
+      "theoryId": 280,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which inventory practices improve stock control?",
+        "ua": "Які практики покращують контроль запасів?"
+      },
+      "explanation": {
+        "en": "Reliable rotation needs dates, suitable storage and traceability.",
+        "ua": "Надійна ротація потребує дат, належного зберігання та простежуваності."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Label receiving and expiry dates",
+            "ua": "Маркувати дати надходження та придатності"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use clear rotation rules and record lots",
+            "ua": "Застосовувати чіткі правила ротації й обліковувати партії"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Inspect storage conditions regularly",
+            "ua": "Регулярно перевіряти умови зберігання"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Remove labels to make shelves look cleaner",
+            "ua": "Знімати етикетки задля охайного вигляду полиць"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "c",
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-280-06",
+      "theoryId": 280,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which inventory action is clearly unsafe?",
+        "ua": "Яка складська дія явно небезпечна?"
+      },
+      "explanation": {
+        "en": "Rotation cannot legitimize expired or spoiled foods.",
+        "ua": "Ротація не робить прострочені або зіпсовані продукти придатними."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard a clearly spoiled item even when it is next under FIFO",
+            "ua": "Утилізувати явно зіпсований продукт, навіть якщо за FIFO він наступний"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Relabel an expired product with a new future date to keep it in rotation",
+            "ua": "Перемаркувати прострочений продукт новою майбутньою датою, щоб залишити в обігу"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Check a batch against its expiry date",
+            "ua": "Звірити партію з датою придатності"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

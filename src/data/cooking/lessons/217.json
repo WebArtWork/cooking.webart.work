@@ -1,81 +1,86 @@
 {
   "id": 217,
-  "slug": "217-laminated-dough-and-butter-layers",
-  "group": "211",
+  "slug": "217-water-activity-salt-and-sugar-preservation",
+  "group": "217",
   "title": {
-    "en": "Laminated Dough and Butter Layers",
-    "ua": "Листкове тісто та шари вершкового масла"
+    "en": "Water Activity, Salt, and Sugar Preservation",
+    "ua": "Активність води та консервування сіллю й цукром"
   },
   "en": {
-    "short": "Lamination repeatedly rolls and folds layers of dough around a sheet of butter to create flaky pastry. Temperature and the similar flexibility of butter and dough are critical to keeping the layers separate.",
+    "short": "Water activity measures how much water is available for microbes, while added salt, sugar, and drying can reduce that availability. These hurdles can improve preservation but do not replace a validated food-specific process.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Classic puff pastry uses dough and butter without yeast, while croissant dough includes yeast. In both, alternating layers are created by folding; during baking, moisture becomes steam and pushes layers apart. Solid fat acts as a separator, while dough starch and proteins set the sheets."
+        "text": "Water activity is the ratio of water-vapor pressure above a food to that above pure water at the same temperature; it ranges from 0 to 1. Fresh produce often has high a_w, whereas crackers or sufficiently dried fruit have lower values. Two foods with equal moisture percentage may have different a_w because their water is bound differently."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "If the butter melts into dough, distinct layers disappear; if butter is extremely cold and brittle, it breaks into fragments. Chilling between turns relaxes gluten and limits melting, but dough should remain pliable enough to roll without cracking."
+        "text": "Most bacteria require relatively high a_w to grow, while certain yeasts and molds tolerate drier environments. Salt and sugar bind water; drying removes some of it. Acidity, temperature, packaging and processing work together with a_w: low a_w does not neutralize toxins already present or guarantee that every microbe has been killed."
       },
       {
         "title": "How to apply it",
-        "text": "Prepare a rectangular dough sheet and a cool, malleable butter block. Enclose the butter, roll evenly, fold as the formula specifies, and chill when the package warms or resists stretching. Keep an accurate count of turns; bake only after appropriate resting and shaping."
+        "text": "Choose a validated dehydration or preservation procedure rather than guessing based on surface dryness. For product development, have water activity measured using a suitable instrument and, where required, a qualified laboratory; consult local regulations before treating a homemade food as shelf-stable."
       },
       {
         "title": "Practical example",
-        "text": "Bake a sheet of correctly laminated puff pastry beside a piece whose butter was kneaded completely into the dough. Compare lift and visible layers."
+        "text": "Compare crisp biscuits and moist cake. Both contain flour, but biscuits normally have lower available water and a different storage profile. A classroom simulation can rank foods by likely water availability without claiming that appearance measures a_w."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "More folds are not always better; too many can smear the layers. Avoid proofing croissants so warm that butter melts, and use an oven suitable for the selected pastry formula."
+        "text": "Confusing moisture content with activity; assuming added salt makes meat shelf-stable; using arbitrary a_w thresholds without considering pathogens and formulation. A home kitchen cannot reliably determine a_w by touching or tasting food."
+      },
+      {
+        "title": "Additional application to this theory",
+        "text": "Sugar-preserved jam, salted fish, and fully dried crackers have very different water activities and hazards; a taste of sweetness or saltiness cannot establish shelf stability. Use a tested process and, for commercial or novel products, validated measurements."
       },
       {
         "title": "Related theories",
-        "text": "047, 053, 149, 197, 204, 208."
+        "text": "218, 221, 225, 226."
       }
     ]
   },
   "ua": {
-    "short": "Ламінування — це послідовне розкачування та складання тіста із шарами вершкового масла для створення листкової структури. Вирішальними є температура та подібна пластичність масла й тіста.",
+    "short": "Активність води показує доступність вологи для мікроорганізмів, а сіль, цукор і сушіння можуть її зменшувати. Ці чинники допомагають консервувати продукти, але не замінюють перевірену технологію для конкретної їжі.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Класичне листкове тісто роблять без дріжджів, а круасанне — із дріжджами. В обох випадках складання утворює чергування шарів. Під час випікання вода перетворюється на пару й розділяє їх; жир допомагає зберегти межі, а крохмаль і білки закріплюють структуру."
+        "text": "Активність води є відношенням тиску водяної пари над продуктом до тиску над чистою водою за тієї самої температури; показник лежить між 0 і 1. Свіжі продукти зазвичай мають високе a_w, а сухе печиво нижче. Два продукти з однаковою вологістю можуть мати різну активність води через відмінне зв’язування молекул."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Якщо масло розтане й змішається з тістом, шари зникнуть; надто холодне й крихке масло розламається. Охолодження між складаннями розслаблює клейковину та запобігає таненню, однак маса повинна залишатися достатньо пластичною."
+        "text": "Більшості бактерій потрібна відносно висока активність води, але деякі дріжджі й плісняві гриби витримують сухіші умови. Сіль і цукор зв’язують воду, сушіння видаляє її частину. На безпечність також впливають кислотність, температура, пакування та технологічна обробка; низьке a_w не знешкоджує вже наявні токсини."
       },
       {
         "title": "Як застосовувати",
-        "text": "Зробіть прямокутний пласт тіста й прохолодний пластичний блок масла. Загорніть масло в тісто, рівномірно розкачайте, складіть за рецептом і охолодіть, коли маса нагріється чи почне чинити опір. Порахуйте складання та дайте тісту відпочити перед формуванням."
+        "text": "Для сушіння й консервування беріть перевірені технологічні інструкції, а не орієнтуйтеся на сухість поверхні. Під час створення продукту активність води визначають спеціальним приладом, за потреби в лабораторії; можливість зберігати продукт без холодильника встановлюють окремо."
       },
       {
         "title": "Практичний приклад",
-        "text": "Спечіть два пласти: правильно ламінований та той, у який масло повністю вмішали. Порівняйте висоту та видимість шарів."
+        "text": "Порівняйте хрустке печиво й вологий кекс. Обидва містять борошно, але зазвичай відрізняються доступністю води та вимогами до зберігання. У симуляторі можна передбачати відносну активність води, не видаючи зовнішній вигляд за її вимірювання."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Більша кількість складань не завжди краща: шари можуть зливатися. Не вистоюйте круасани за температури, коли масло тане, і дотримуйтеся режиму випікання конкретного рецепта."
+        "text": "Не плутайте загальну вологість і a_w; не вважайте, що додавання солі робить м’ясо безпечним без холодильника. За смаком або на дотик активність води надійно не визначити."
+      },
+      {
+        "title": "Додаткове застосування до теми",
+        "text": "Варення з цукром, солона риба та сухі крекери відрізняються активністю води й потенційними небезпеками; солодкий чи солоний смак не підтверджує придатності до зберігання без холодильника. Користуйтеся перевіреною технологією, а для нових або комерційних продуктів використовуйте валідовані вимірювання."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "047, 053, 149, 197, 204, 208."
+        "text": "218, 221, 225, 226."
       }
     ]
   },
   "related": [
-    47,
-    53,
-    149,
-    197,
-    204,
-    208
+    218,
+    221,
+    225,
+    226
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.kingarthurbaking.com/blog/2013/08/02/puff-pastry-layer-it-like-the-pros",
-    "https://www.kingarthurbaking.com/blog/2020/08/31/why-does-butter-temperature-matter-in-pastry",
-    "https://www.kingarthurbaking.com/recipes/classic-puff-pastry-pate-feuilletee-recipe"
+    "https://extension.umn.edu/food/selling-and-distributing/cottage-food/testing-water-activity-in-cottage-foods",
+    "https://www.ucanr.edu/program/uc-master-food-preserver-program/article/water-activity-and-its-role-food-preservation"
   ]
 }

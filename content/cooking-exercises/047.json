@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 47,
+    "title": {
+      "en": "Boiling Point, Evaporation, and Altitude",
+      "ua": "Температура кипіння, випаровування та вплив висоти"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.usgs.gov/water-science-school/science/facts-about-water",
+    "https://www.usgs.gov/water-science-school/science/vapor-pressure-and-water"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-047-01",
+      "theoryId": 47,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What generally happens to water’s boiling temperature at high altitude?",
+        "ua": "Що зазвичай відбувається з температурою кипіння води у високогір’ї?"
+      },
+      "explanation": {
+        "en": "A lower ambient pressure lowers the saturation boiling temperature.",
+        "ua": "Нижчий атмосферний тиск знижує температуру кипіння."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "It decreases as atmospheric pressure falls",
+            "ua": "Вона знижується зі зменшенням атмосферного тиску"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "It always increases above 150°C",
+            "ua": "Вона завжди перевищує 150°C"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "It is independent of pressure",
+            "ua": "Вона не залежить від тиску"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-047-02",
+      "theoryId": 47,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Water can evaporate below its boiling temperature.",
+        "ua": "Вода може випаровуватися за температури нижчої за точку кипіння."
+      },
+      "explanation": {
+        "en": "Evaporation occurs at the liquid surface at many temperatures.",
+        "ua": "Випаровування може відбуватися з поверхні рідини за різних температур."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-047-03",
+      "theoryId": 47,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match conditions to effects on cooking.",
+        "ua": "Поєднайте умови з впливом на приготування."
+      },
+      "explanation": {
+        "en": "Pressure and exposed surface change boiling and evaporation behavior.",
+        "ua": "Тиск і площа відкритої поверхні впливають на кипіння та випаровування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "High altitude",
+            "ua": "Високогір’я"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Wide uncovered pan",
+            "ua": "Широка відкрита сковорода"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Tightly fitting lid",
+            "ua": "Щільна кришка"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Less loss of moisture from pot",
+            "ua": "Менша втрата вологи з каструлі"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Faster reduction by evaporation",
+            "ua": "Швидше уварювання через випаровування"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Lower boiling temperature of water",
+            "ua": "Нижча температура кипіння води"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-047-04",
+      "theoryId": 47,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a deliberate sauce reduction.",
+        "ua": "Упорядкуйте свідоме уварювання соусу."
+      },
+      "explanation": {
+        "en": "Solutes become more concentrated as water leaves, including salt.",
+        "ua": "Розчинені речовини, зокрема сіль, концентруються під час випаровування."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Simmer uncovered while monitoring consistency",
+            "ua": "Томити без кришки, контролюючи густину"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Measure starting volume and taste",
+            "ua": "Виміряти початковий об’єм і скуштувати"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Stop at target and adjust seasoning",
+            "ua": "Зупинитися за потрібної консистенції та скоригувати смак"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-047-05",
+      "theoryId": 47,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A sauce reduces from 750 mL to 500 mL. How many mL of liquid were lost?",
+        "ua": "Соус уварився із 750 мл до 500 мл. Скільки мл рідини випарувалося?"
+      },
+      "explanation": {
+        "en": "750 − 500 = 250 mL lost, assuming no additions or spills.",
+        "ua": "750 − 500 = 250 мл втрачено, якщо нічого не додавали й не розливали."
+      },
+      "numericInput": {
+        "unit": "mL",
+        "allowDecimals": false,
+        "unitLabel": {
+          "en": "milliliters",
+          "ua": "мілілітрів"
+        }
+      },
+      "answer": {
+        "value": 250,
+        "tolerance": 0,
+        "unit": "mL"
+      }
+    },
+    {
+      "id": "cooking-047-06",
+      "theoryId": 47,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which changes tend to speed reduction of a sauce?",
+        "ua": "Які зміни зазвичай прискорюють уварювання соусу?"
+      },
+      "explanation": {
+        "en": "Reduction is largely water evaporation; open surface and energy input matter.",
+        "ua": "Уварювання переважно залежить від випаровування води; важливі відкритість поверхні та підведення тепла."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Remove the lid",
+            "ua": "Зняти кришку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Increase exposed surface area",
+            "ua": "Збільшити площу відкритої поверхні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use an appropriate stronger simmer while avoiding scorching",
+            "ua": "Підтримувати інтенсивніше помірне кипіння без підгоряння"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Close the pot airtight",
+            "ua": "Герметично закрити каструлю"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

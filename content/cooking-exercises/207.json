@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 207,
+    "title": {
+      "en": "Fermentation Microorganisms and Metabolic Pathways",
+      "ua": "Мікроорганізми ферментації та шляхи обміну речовин"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://extension.usu.edu/preserve-the-harvest/fermented-yogurt"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-207-01",
+      "theoryId": 207,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is a common end product of lactic acid bacterial fermentation?",
+        "ua": "Який типовий продукт молочнокислого бродіння бактерій?"
+      },
+      "explanation": {
+        "en": "Lactic acid bacteria metabolize available carbohydrates and acidify suitable foods.",
+        "ua": "Молочнокислі бактерії переробляють доступні вуглеводи та підкислюють відповідні продукти."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Pure metallic iron",
+            "ua": "Чисте металеве залізо"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "All food converted into oxygen",
+            "ua": "Перетворення всієї їжі на кисень"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lactic acid",
+            "ua": "Молочна кислота"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-207-02",
+      "theoryId": 207,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All fermentations use the exact same microorganisms and yield identical products.",
+        "ua": "Усі види бродіння використовують однакові мікроорганізми й дають тотожні продукти."
+      },
+      "explanation": {
+        "en": "Microbial pathways differ: yeast, lactic and acetic acid fermentation have different outcomes.",
+        "ua": "Мікробні шляхи різняться: дріжджове, молочнокисле й оцтовокисле бродіння дають різні результати."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-207-03",
+      "theoryId": 207,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match fermentation types to principal products.",
+        "ua": "Поєднайте види бродіння з основними продуктами."
+      },
+      "explanation": {
+        "en": "Biological pathways determine product flavor and acidity.",
+        "ua": "Біологічні процеси визначають смак і кислотність продукту."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Yeast alcoholic fermentation",
+            "ua": "Дріжджове спиртове бродіння"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Lactic fermentation",
+            "ua": "Молочнокисле бродіння"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Acetic acid bacteria in vinegar production",
+            "ua": "Оцтовокислі бактерії у виробництві оцту"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Lactic acid and acidification",
+            "ua": "Молочна кислота й підкислення"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Acetic acid from ethanol oxidation",
+            "ua": "Оцтова кислота внаслідок окиснення етанолу"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Ethanol and carbon dioxide",
+            "ua": "Етанол і вуглекислий газ"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-207-04",
+      "theoryId": 207,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A beginner assumes every bubbling jar is automatically safe fermentation. What should you explain?",
+        "ua": "Початківець вважає, що будь-яка банка з бульбашками автоматично безпечна. Що пояснити?"
+      },
+      "explanation": {
+        "en": "Bubbling does not establish safe pH or absence of contamination.",
+        "ua": "Бульбашки не підтверджують безпечний pH або відсутність забруднення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Any odor proves all pathogens are absent",
+            "ua": "Будь-який запах гарантує відсутність патогенів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Gas alone cannot verify safety; use a tested process and controls",
+            "ua": "Газ сам собою не доводить безпечність; потрібні перевірені рецептура й контроль"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Bubbles sterilize food",
+            "ua": "Бульбашки стерилізують їжу"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-207-05",
+      "theoryId": 207,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which factors can influence fermentation outcomes?",
+        "ua": "Які чинники можуть впливати на результати ферментації?"
+      },
+      "explanation": {
+        "en": "Microbes, substrate and environment jointly determine fermentation.",
+        "ua": "Мікроорганізми, субстрат і середовище разом визначають ферментацію."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Available fermentable substrate",
+            "ua": "Наявність субстрату для бродіння"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Temperature and oxygen conditions",
+            "ua": "Температура й умови доступу кисню"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The jar label font",
+            "ua": "Шрифт етикетки банки"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Microorganism species and starter activity",
+            "ua": "Вид мікроорганізмів та активність закваски"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

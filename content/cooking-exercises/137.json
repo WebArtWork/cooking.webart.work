@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 137,
+    "title": {
+      "en": "Roasting Large Meat Cuts",
+      "ua": "Запікання великих шматків м’яса"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "https://www.seriouseats.com/meat-cooking-rules-busted-12036560",
+    "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-137-01",
+      "theoryId": 137,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What makes a thermometer especially useful when roasting a large joint?",
+        "ua": "Чому термометр особливо корисний під час запікання великого шматка м’яса?"
+      },
+      "explanation": {
+        "en": "Temperature gradients make color and timing poor substitutes for actual core measurement.",
+        "ua": "Через температурний градієнт колір і час не замінюють вимірювання в центрі."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The center heats more slowly than the surface",
+            "ua": "Центр нагрівається повільніше за поверхню"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Large joints have no internal temperature",
+            "ua": "Великі шматки не мають внутрішньої температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Surface color always tells the center temperature",
+            "ua": "Колір поверхні завжди вказує температуру центру"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-137-02",
+      "theoryId": 137,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Carryover cooking can raise core temperature after a roast leaves the oven.",
+        "ua": "Після виймання печені з духовки температура всередині може ще підвищуватися."
+      },
+      "explanation": {
+        "en": "Heat stored in the hotter outer layers continues to flow inward.",
+        "ua": "Тепло з гарячіших зовнішніх шарів продовжує рухатися всередину."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-137-03",
+      "theoryId": 137,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match roasting variables to effects.",
+        "ua": "Поєднайте параметри запікання з наслідками."
+      },
+      "explanation": {
+        "en": "Roast size, measurement and resting affect the final result.",
+        "ua": "Розмір, вимірювання й відпочинок визначають результат."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Larger thickness",
+            "ua": "Більша товщина"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Thermometer in thickest part",
+            "ua": "Термометр у найтовстішій частині"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Rest after roasting",
+            "ua": "Відпочинок після запікання"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Allows carryover and more stable slicing",
+            "ua": "Дає час для доготування та стабільнішого нарізання"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Verifies core doneness",
+            "ua": "Перевіряє готовність усередині"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Slower heating of center",
+            "ua": "Повільніше прогрівання центру"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-137-04",
+      "theoryId": 137,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order a basic roast workflow.",
+        "ua": "Упорядкуйте основні кроки запікання великого шматка."
+      },
+      "explanation": {
+        "en": "The end point should be confirmed by temperature, not appearance alone.",
+        "ua": "Готовність підтверджують температурою, а не лише виглядом."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Roast and check thickest-point temperature",
+            "ua": "Запікати й перевіряти температуру в найтовстішій частині"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Preheat oven and prepare the joint",
+            "ua": "Розігріти духовку та підготувати м’ясо"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Apply required safe rest before carving",
+            "ua": "Дати м’ясу необхідний безпечний відпочинок перед нарізанням"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-137-05",
+      "theoryId": 137,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which roasting advice is unreliable?",
+        "ua": "Яка порада щодо запікання ненадійна?"
+      },
+      "explanation": {
+        "en": "Oven calibration, shape and initial temperature alter cooking times.",
+        "ua": "Температура духовки, форма та початкова температура змінюють час приготування."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Consider the cut and thickness",
+            "ua": "Враховувати вид і товщину шматка"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Check core temperature",
+            "ua": "Перевіряти температуру всередині"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use only minutes per kilogram with no temperature check",
+            "ua": "Покладатися лише на хвилини на кілограм без термометра"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

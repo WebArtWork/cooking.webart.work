@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 9,
+    "title": {
+      "en": "Essential Kitchen Tools and Their Uses",
+      "ua": "Основні кухонні інструменти та їх використання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ciachef.edu/online-resources/",
+    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/",
+    "https://extension.umn.edu/food/preparing/cooking-at-home",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-009-01",
+      "theoryId": 9,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the tool to its best purpose.",
+        "ua": "Поєднайте інструмент із його основним призначенням."
+      },
+      "explanation": {
+        "en": "Choose tools for measurable functions, not appearance.",
+        "ua": "Вибирайте інструмент за конкретною функцією, а не за виглядом."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Instant-read thermometer",
+            "ua": "Термометр швидкого вимірювання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Fine-mesh sieve",
+            "ua": "Сито з дрібною сіткою"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Kitchen scale",
+            "ua": "Кухонні ваги"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Measuring ingredient mass",
+            "ua": "Вимірювання маси інгредієнтів"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Straining fine solids",
+            "ua": "Проціджування дрібних часточок"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Checking internal food temperature",
+            "ua": "Перевірка внутрішньої температури продукту"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-009-02",
+      "theoryId": 9,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which tool gives the most reliable measurement of chicken doneness?",
+        "ua": "Який інструмент найнадійніше показує готовність курятини?"
+      },
+      "explanation": {
+        "en": "Only an appropriate temperature measurement checks the required internal endpoint.",
+        "ua": "Лише належне вимірювання температури показує досягнення потрібної внутрішньої температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Kitchen timer only",
+            "ua": "Лише кухонний таймер"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Food thermometer",
+            "ua": "Харчовий термометр"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A photograph",
+            "ua": "Фотографія"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "A wooden spoon",
+            "ua": "Дерев’яна ложка"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-009-03",
+      "theoryId": 9,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You need to make a smooth vegetable purée. Which tool fits best?",
+        "ua": "Потрібно отримати однорідне овочеве пюре. Який інструмент найкращий?"
+      },
+      "explanation": {
+        "en": "A blender disperses cooked vegetables into a smooth texture; take care with hot liquids.",
+        "ua": "Блендер подрібнює приготовані овочі до однорідності; з гарячими рідинами потрібна обережність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Blender or immersion blender, used safely",
+            "ua": "Блендер або занурювальний блендер за належного використання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Meat thermometer",
+            "ua": "Термометр для м’яса"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Can opener only",
+            "ua": "Лише консервний ніж"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Whisk alone for hard raw vegetables",
+            "ua": "Лише вінчик для твердих сирих овочів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-009-04",
+      "theoryId": 9,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which tool-use decision is unsafe?",
+        "ua": "Яке рішення щодо інструментів є небезпечним?"
+      },
+      "explanation": {
+        "en": "Disconnect equipment before reaching near blades; use the proper cleaning procedure.",
+        "ua": "Від’єднуйте обладнання від живлення перед роботою біля лез і дотримуйтеся правил чищення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use a stable cutting board",
+            "ua": "Користуватися стійкою дошкою"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Insert fingers near spinning blender blades",
+            "ua": "Підносити пальці до лез блендера, що обертаються"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Use oven mitts on hot handles",
+            "ua": "Використовувати прихватки для гарячих ручок"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Read equipment instructions",
+            "ua": "Читати інструкцію до обладнання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-009-05",
+      "theoryId": 9,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A whisk and a scale are interchangeable because both measure ingredients.",
+        "ua": "Вінчик і ваги взаємозамінні, бо обидва вимірюють інгредієнти."
+      },
+      "explanation": {
+        "en": "A whisk mixes and aerates; a scale measures mass.",
+        "ua": "Вінчик змішує та насичує повітрям; ваги вимірюють масу."
+      },
+      "answer": {
+        "value": false
+      }
+    }
+  ]
+}

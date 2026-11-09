@@ -1,79 +1,87 @@
 {
   "id": 216,
-  "slug": "216-muffin-mixing-method",
-  "group": "211",
+  "slug": "216-fermentation-safety-spoilage-and-troubleshooting",
+  "group": "207",
   "title": {
-    "en": "Muffin Mixing Method",
-    "ua": "Метод змішування тіста для мафінів"
+    "en": "Fermentation Safety, Spoilage, and Troubleshooting",
+    "ua": "Безпечність ферментації, псування та діагностика проблем"
   },
   "en": {
-    "short": "The muffin method combines wet and dry ingredients separately, then mixes them together only briefly. It produces tender quick breads by limiting gluten development while preserving gas cells.",
+    "short": "Troubleshooting fermented foods means investigating time, temperature, ingredients, cultures, acidity and hygiene in a systematic way. Some defects affect only flavor or texture, while others signal a food-safety failure requiring disposal.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Flour, salt, sugar and chemical leaveners are mixed in one bowl; eggs, milk and oil or melted cooled butter in another. Once combined, water hydrates gluten-forming proteins and leaveners begin to react. Stop mixing when the dry flour disappears; small lumps are often normal."
+        "text": "A slow ferment can result from cold temperature, inactive starter, excess salt or an unsuitable substrate. Mushy vegetables can follow overly warm fermentation, incorrect salt or poor raw materials. Uneven acidification can occur when ingredients are not submerged or mixed as the recipe requires. Each symptom has multiple possible causes."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Overmixing aligns gluten strands and can produce a rubbery crumb and long tunnels. Double-acting powder can still release gas in the oven, but prolonged resting can change consistency and leavening. Heavily mixed muffin batter behaves more like elastic dough."
+        "text": "Warning signs include fuzzy colored mold, putrefactive odors, unexplained discoloration or texture outside the validated process. A white surface film can sometimes be yeast, but visual identification is unreliable; when safety is uncertain, discard. Never taste questionable food to determine whether it is safe; cooking or scraping off mold is not a guaranteed rescue."
       },
       {
         "title": "How to apply it",
-        "text": "Prepare and preheat the pan first. Fold wet into dry with a spatula for the fewest strokes needed; portion evenly, then bake promptly per recipe. Heavy berries or nuts may be folded in near the end."
+        "text": "Keep a batch sheet listing ingredients by weight, culture source, vessel, date, temperature and measured pH where applicable. Compare deviations to the tested method, document probable causes and change only one controlled variable in the next safe batch. If a process requires safety parameters you cannot measure, do not perform it."
       },
       {
         "title": "Practical example",
-        "text": "Prepare identical muffin batters. Mix one until barely combined; beat the other for two extra minutes. Compare the height, crumb toughness and vertical tunnels."
+        "text": "A simulated vegetable ferment log shows temperature increasing from 21 to 30 °C and soft texture developing. Identify the likely process deviation and the safe decision; do not attempt to salvage a suspect real batch."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Not all muffins use the classic muffin method—some recipes intentionally cream fat or rest batter. Never transfer mixing advice from yeasted bread directly to quick breads."
+        "text": "Never rely on taste, gas bubbles or pH alone to exclude every hazard. For long-term shelf storage, low-acid protein fermentations or food sold to others, validated process and applicable regulations are indispensable."
+      },
+      {
+        "title": "Additional application to this theory",
+        "text": "Monitoring pH can help verify acidification in some vegetable ferments, but pH alone cannot rule out every hazard in protein-rich foods or unknown cultures. Document source of starter, salt mass, vessel, temperature, time, and appropriate measurements, and discard suspect product."
       },
       {
         "title": "Related theories",
-        "text": "197, 211, 212, 213, 214."
+        "text": "208, 209, 215, 218."
       }
     ]
   },
   "ua": {
-    "short": "Метод приготування мафінів передбачає окреме змішування сухих і рідких компонентів та їхнє коротке поєднання. Таке тісто дає ніжну випічку, бо обмежує розвиток клейковини й зберігає бульбашки газу.",
+    "short": "Діагностика ферментованих продуктів є системною перевіркою часу, температури, складу, культур, кислотності та гігієни. Деякі вади змінюють лише смак чи текстуру, інші означають порушення безпеки й потребують утилізації.",
     "sections": [
       {
         "title": "Суть",
-        "text": "В одній мисці з’єднують борошно, сіль, цукор і розпушувачі, в іншій — яйця, молоко й олію або охолоджене розтоплене масло. Після з’єднання вода зволожує білки борошна й активує розпушувачі. Зупиніться, коли не залишиться сухого борошна; невеликі грудочки допустимі."
+        "text": "Повільне бродіння може виникнути через холод, неактивну закваску, забагато солі чи непридатну сировину. Розм’якшення овочів спричиняють надмірне тепло, неправильна сіль або погана якість продуктів. Нерівномірна кислотність виникає, коли інгредієнти не занурені в розсіл чи неправильно перемішані. Одна ознака часто має кілька причин."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Надмірне перемішування розвиває клейковину й може спричинити гумову текстуру та довгі порожнини в м’якушці. Розпушувач подвійної дії виділяє частину газу в духовці, але тривалий відпочинок теж змінює тісто. Занадто вимішана маса стає пружною, як хлібне тісто."
+        "text": "Тривожні ознаки: пухнаста кольорова пліснява, запах гниття, незрозуміла зміна кольору або текстури поза межами перевіреного процесу. Біла плівка іноді буває дріжджовою, але надійно визначити її на око важко; за сумнівів продукт викидають. Не куштуйте підозрілу їжу для перевірки та не вважайте проварювання чи зняття плісняви надійним порятунком."
       },
       {
         "title": "Як застосовувати",
-        "text": "Спершу підготуйте форми та прогрійте духовку. Додайте рідкі компоненти до сухих і перемішайте лопаткою мінімальну кількість разів; розкладіть однакові порції й випікайте за рецептом. Ягоди або горіхи введіть наприкінці."
+        "text": "Ведіть журнал: маси інгредієнтів, походження закваски, тара, дата, температура та виміряний pH за потреби. Порівнюйте відхилення з перевіреною технологією, записуйте ймовірні причини та змінюйте по одній контрольованій змінній у наступній безпечній партії. Якщо немає змоги виміряти обов’язкові параметри, не запускайте процес."
       },
       {
         "title": "Практичний приклад",
-        "text": "Зробіть два однакові тіста: одне змішайте лише до об’єднання, друге інтенсивно перемішуйте ще дві хвилини. Порівняйте висоту, жорсткість і видовжені порожнини."
+        "text": "В умовному журналі квашення температура зросла з 21 до 30 °C, а овочі стали м’якими. Визначте можливе відхилення та безпечне рішення, не намагаючись урятувати підозрілу справжню партію."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не всі мафіни готують класичним методом: деякі рецепти передбачають збивання масла або відпочинок тіста. Не переносіть правила вимішування дріжджового хліба на швидку випічку."
+        "text": "Не покладайтеся лише на смак, бульбашки чи pH для виключення всіх загроз. Для тривалого зберігання без холодильника, ферментації низькокислотної білкової сировини та комерційного продажу необхідні перевірені технології й дотримання вимог законодавства."
+      },
+      {
+        "title": "Додаткове застосування до теми",
+        "text": "Контроль pH допомагає перевіряти підкислення деяких овочевих ферментів, але сам по собі не виключає всіх небезпек білкових продуктів або невідомих культур. Фіксуйте джерело закваски, масу солі, посуд, температуру, час і необхідні вимірювання, а підозрілий продукт утилізуйте."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "197, 211, 212, 213, 214."
+        "text": "208, 209, 215, 218."
       }
     ]
   },
   "related": [
-    197,
-    211,
-    212,
-    213,
-    214
+    208,
+    209,
+    215,
+    218
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.kingarthurbaking.com/recipes/mix-and-match-basic-muffins-recipe",
-    "https://www.kingarthurbaking.com/blog/2017/04/28/cake-mixing-methods"
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://extension.colostate.edu/resource/understanding-and-making-kombucha/",
+    "https://nchfp.uga.edu/how/ferment/recipes/sauerkraut"
   ]
 }

@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { TPipe } from '../../feature/i18n/t.pipe';
 @Component({
-	imports: [RouterLink, TPipe],
+	imports: [TPipe],
 	template: `<article class="cook-prose">
 		<h1>{{ 'Licenses and credits' | t }}</h1>
 		<p>
@@ -31,7 +30,6 @@ import { TPipe } from '../../feature/i18n/t.pipe';
 					| t
 			}}
 		</p>
-		<a routerLink="/">{{ 'Back to Cooking' | t }}</a>
 	</article>`,
 })
 export class CreditsComponent {}

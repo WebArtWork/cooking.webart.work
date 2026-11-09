@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 218,
+    "title": {
+      "en": "Pickling, Acidification, and pH Control",
+      "ua": "Маринування, підкислення та контроль pH"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.mda.state.mn.us/acidified-foods",
+    "https://nchfp.uga.edu/how/can/general-canning-information/recommended-canners/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-218-01",
+      "theoryId": 218,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which pH range is more acidic?",
+        "ua": "Яке значення pH відповідає вищій кислотності?"
+      },
+      "explanation": {
+        "en": "Lower pH indicates greater acidity.",
+        "ua": "Нижче значення pH означає вищу кислотність."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "pH 8.0",
+            "ua": "pH 8,0"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "pH 3.5",
+            "ua": "pH 3,5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "pH 6.5",
+            "ua": "pH 6,5"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-218-02",
+      "theoryId": 218,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Adding a splash of vinegar always makes any recipe shelf-stable.",
+        "ua": "Додавання невеликої кількості оцту завжди робить будь-яку страву придатною до зберігання без холодильника."
+      },
+      "explanation": {
+        "en": "Final equilibrium pH, formulation, and a tested process matter.",
+        "ua": "Важливі кінцевий рівноважний pH, рецептура та перевірений процес."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-218-03",
+      "theoryId": 218,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match pickling concepts with definitions.",
+        "ua": "Поєднайте поняття маринування з визначеннями."
+      },
+      "explanation": {
+        "en": "Safe acidification depends on the finished product, not just the added liquid.",
+        "ua": "Безпечне підкислення залежить від готового продукту, а не лише від доданої рідини."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "pH",
+            "ua": "pH"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Equilibrium pH",
+            "ua": "Рівноважний pH"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Standardized vinegar",
+            "ua": "Стандартизований оцет"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Acid ingredient of known concentration",
+            "ua": "Кислий інгредієнт відомої концентрації"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Acidity after the product equilibrates",
+            "ua": "Кислотність після встановлення рівноваги в продукті"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "A logarithmic measure of acidity",
+            "ua": "Логарифмічна міра кислотності"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-218-04",
+      "theoryId": 218,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A vegetable pickle recipe calls for vinegar of a specified acidity. What should you do?",
+        "ua": "Рецепт маринованих овочів вказує оцет певної кислотності. Як діяти?"
+      },
+      "explanation": {
+        "en": "Changing acid concentration can invalidate a tested preservation recipe.",
+        "ua": "Зміна концентрації кислоти може порушити безпечність перевіреного рецепта."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use the specified vinegar and tested processing method",
+            "ua": "Взяти оцет зазначеної кислотності й перевірений метод обробки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Substitute plain water for half the vinegar",
+            "ua": "Замінити половину оцту водою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Dilute the vinegar arbitrarily",
+            "ua": "Розбавити оцет довільно"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-218-05",
+      "theoryId": 218,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which factors matter when evaluating acidified foods?",
+        "ua": "Які чинники важливі для оцінювання підкислених продуктів?"
+      },
+      "explanation": {
+        "en": "A safety determination cannot rely on sour taste alone.",
+        "ua": "Безпечність не визначають лише за кислим смаком."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Finished equilibrium pH",
+            "ua": "Кінцевий рівноважний pH"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whether the label is colorful",
+            "ua": "Яскравість етикетки"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Tested recipe and processing",
+            "ua": "Перевірені рецептура й обробка"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Ingredient-to-acid ratio",
+            "ua": "Співвідношення інгредієнтів та кислоти"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
+    }
+  ]
+}

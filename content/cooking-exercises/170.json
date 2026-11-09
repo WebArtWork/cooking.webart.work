@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 170,
+    "title": {
+      "en": "Classical Mother Sauces",
+      "ua": "Класичні базові соуси"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.ice.edu/blog/lessons-15-19-classic-contemporary-sauces",
+    "https://www.ice.edu/blog/life-gluten-free-culinary-student-roux-day"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-170-01",
+      "theoryId": 170,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which classical mother sauce combines milk and roux?",
+        "ua": "Який класичний базовий соус поєднує молоко та ру?"
+      },
+      "explanation": {
+        "en": "Béchamel is milk thickened with a cooked flour-and-fat mixture.",
+        "ua": "Бешамель — це молоко, загущене прогрітим борошном із жиром."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Tomato sauce",
+            "ua": "Томатний соус"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Béchamel",
+            "ua": "Бешамель"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Hollandaise",
+            "ua": "Голландський соус"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-170-02",
+      "theoryId": 170,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All five classical mother sauces use the same thickening mechanism.",
+        "ua": "Усі п’ять класичних базових соусів використовують однаковий механізм загущення."
+      },
+      "explanation": {
+        "en": "Roux-based sauces, tomato sauces and yolk emulsions rely on different processes.",
+        "ua": "Соуси на ру, томатні соуси та емульсії з жовтком мають різні механізми."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-170-03",
+      "theoryId": 170,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match mother sauces with a defining base.",
+        "ua": "Поєднайте базові соуси з їхніми основами."
+      },
+      "explanation": {
+        "en": "The classical framework groups sauces by their liquid, method and texture-building system.",
+        "ua": "Класична система групує соуси за рідиною, методом і способом формування текстури."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Béchamel",
+            "ua": "Бешамель"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Velouté",
+            "ua": "Велюте"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Hollandaise",
+            "ua": "Голландський соус"
+          }
+        },
+        {
+          "id": "l4",
+          "text": {
+            "en": "Espagnole",
+            "ua": "Еспаньйоль"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Light stock and roux",
+            "ua": "Світлий бульйон та ру"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Yolk-butter emulsion",
+            "ua": "Емульсія з жовтка та масла"
+          }
+        },
+        {
+          "id": "r4",
+          "text": {
+            "en": "Brown-stock sauce foundation",
+            "ua": "Основа на темному бульйоні"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Milk and roux",
+            "ua": "Молоко та ру"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          },
+          {
+            "leftId": "l4",
+            "rightId": "r4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-170-04",
+      "theoryId": 170,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You want a light stock-based sauce for chicken, thickened with roux. Which mother sauce matches?",
+        "ua": "Потрібен соус до курки на світлому бульйоні, загущений ру. Який базовий соус підходить?"
+      },
+      "explanation": {
+        "en": "Velouté traditionally thickens a light stock with roux.",
+        "ua": "Велюте традиційно загущує світлий бульйон за допомогою ру."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Velouté",
+            "ua": "Велюте"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Tomato sauce",
+            "ua": "Томатний соус"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Hollandaise",
+            "ua": "Голландський соус"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-170-05",
+      "theoryId": 170,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which claim about classical mother sauces is wrong?",
+        "ua": "Яке твердження про класичні базові соуси неправильне?"
+      },
+      "explanation": {
+        "en": "Hollandaise especially needs gentle emulsion control, unlike roux-thickened sauces.",
+        "ua": "Голландський соус особливо потребує делікатного контролю емульсії, на відміну від соусів на ру."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Their ingredients and methods differ",
+            "ua": "Їхні складники та методи різняться"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "They must all be boiled hard to the same temperature",
+            "ua": "Усі треба бурхливо кип’ятити до однакової температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They offer transferable technique families",
+            "ua": "Вони дають універсальні групи технік"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 32,
+    "title": {
+      "en": "Knife Grip, Claw Technique, and Safe Cutting",
+      "ua": "Тримання ножа, техніка «кіготь» та безпечне нарізання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ice.edu/blog/knife-skills-video",
+    "https://turf.spes.vt.edu/content/pubs_ext_vt_edu/en/FST/FST-268/FST-268.html",
+    "https://homegrown.extension.ncsu.edu/2019/08/10/how-to-cut-with-a-chefs-knife/",
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cutting/knife-skills-101/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-032-01",
+      "theoryId": 32,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "How should the hand holding food be positioned during slicing?",
+        "ua": "Як тримати руку, що утримує продукт під час нарізання?"
+      },
+      "explanation": {
+        "en": "A claw grip keeps fingertips away from the blade path.",
+        "ua": "Хват «кіготь» відводить кінчики пальців від траєкторії леза."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Fingertips extended toward the edge",
+            "ua": "Витягнути пальці до крайки"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Fingers curled in a claw with thumb tucked behind",
+            "ua": "Зігнути пальці «кігтем», сховавши великий палець"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Palm under the blade",
+            "ua": "Тримати долоню під лезом"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-032-02",
+      "theoryId": 32,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Trying to catch a falling knife is safer than letting it fall.",
+        "ua": "Ловити ніж, який падає, безпечніше, ніж дозволити йому впасти."
+      },
+      "explanation": {
+        "en": "Step aside and let the knife fall; never catch it.",
+        "ua": "Відступіть і дайте ножу впасти; ніколи не ловіть його."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-032-03",
+      "theoryId": 32,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each practice with the safety benefit.",
+        "ua": "Поєднайте прийом із його перевагою для безпеки."
+      },
+      "explanation": {
+        "en": "Knife control and ingredient stability reduce accidental slips.",
+        "ua": "Контроль ножа та стійкість продукту знижують ризик зісковзування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Pinch grip",
+            "ua": "Щипковий хват"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Claw grip",
+            "ua": "Хват «кіготь»"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Flat side of a vegetable down",
+            "ua": "Плаский бік овоча донизу"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Stable support on the board",
+            "ua": "Стійке положення на дошці"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Protecting fingertips",
+            "ua": "Захист кінчиків пальців"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Better blade control",
+            "ua": "Кращий контроль леза"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-032-04",
+      "theoryId": 32,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Arrange a safe setup before chopping a round onion.",
+        "ua": "Упорядкуйте безпечну підготовку круглої цибулини до нарізання."
+      },
+      "explanation": {
+        "en": "Stable board and food should come before cutting.",
+        "ua": "Дошка й продукт мають бути стійкими до початку нарізання."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Create a flat support surface on the onion",
+            "ua": "Створити пласку опорну поверхню на цибулині"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Stabilize a clean cutting board",
+            "ua": "Закріпити чисту обробну дошку"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Use a claw grip and make controlled cuts",
+            "ua": "Використати хват «кіготь» та контрольовані рухи"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-032-05",
+      "theoryId": 32,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A carrot rolls as you start slicing. What should you do?",
+        "ua": "Морква котиться під час нарізання. Що слід зробити?"
+      },
+      "explanation": {
+        "en": "Creating a stable flat base limits rolling and reduces injury risk.",
+        "ua": "Пласка опора запобігає перекочуванню й знижує ризик порізів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Cut faster to finish sooner",
+            "ua": "Різати швидше, щоб скоріше закінчити"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Slice off a small flat side and put that side on the board",
+            "ua": "Зрізати невеличкий плаский бік і покласти ним на дошку"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Hold it in your palm",
+            "ua": "Тримати моркву в долоні"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-032-06",
+      "theoryId": 32,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which actions reduce injury risk during chopping?",
+        "ua": "Які дії знижують ризик травми під час нарізання?"
+      },
+      "explanation": {
+        "en": "Stable surfaces, controlled grips, and not catching falling knives are core safety practices.",
+        "ua": "Стійкі поверхні, правильний хват та відмова від ловіння ножа є базовими правилами безпеки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Secure the board against slipping",
+            "ua": "Закріпити дошку від ковзання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Keep fingertips curled behind knuckles",
+            "ua": "Тримати кінчики пальців зігнутими за кісточками"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Try to catch a falling knife",
+            "ua": "Намагатися впіймати ніж, що падає"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Stabilize round vegetables with a flat base",
+            "ua": "Стабілізувати круглі овочі пласкою опорою"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

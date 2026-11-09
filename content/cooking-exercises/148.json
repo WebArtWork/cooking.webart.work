@@ -1,0 +1,330 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 148,
+    "title": {
+      "en": "Fish Doneness and Temperature Control",
+      "ua": "Готовність риби та контроль температури"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+    "https://www.foodsafety.gov/blog/safe-selection-and-handling-fish-and-shellfish",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-148-01",
+      "theoryId": 148,
+      "type": "single_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Under US consumer guidance, what is the recommended minimum internal temperature for finfish?",
+        "ua": "Яка мінімальна внутрішня температура для риби за побутовими рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "FoodSafety.gov gives 63°C / 145°F for finfish, or appropriate opaque-and-flaking signs when no thermometer is available.",
+        "ua": "FoodSafety.gov рекомендує для риби 63°C / 145°F або відповідні ознаки непрозорості й розділення волокон, якщо термометра немає."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "63°C (145°F)",
+            "ua": "63°C (145°F)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "40°C (104°F)",
+            "ua": "40°C (104°F)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only room temperature",
+            "ua": "Лише кімнатна температура"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-148-02",
+      "theoryId": 148,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A thin fish tail and a thick center always reach safe doneness simultaneously.",
+        "ua": "Тонкий хвіст риби й товста середина завжди досягають готовності одночасно."
+      },
+      "explanation": {
+        "en": "Different thicknesses create different temperature histories.",
+        "ua": "Різна товщина спричиняє різний прогрів."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-148-03",
+      "theoryId": 148,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match fish-temperature checks to results.",
+        "ua": "Поєднайте температурні перевірки риби з результатами."
+      },
+      "explanation": {
+        "en": "Use thickness and reliable checks for safe results.",
+        "ua": "Для безпечного результату враховують товщину й надійні перевірки."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Thermometer in thickest part",
+            "ua": "Термометр у найтовстішій частині"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Thin tail end",
+            "ua": "Тонкий хвостовий кінець"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Opaque, flaking flesh",
+            "ua": "Непрозоре м’ясо, що розділяється"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Useful visual indicator when thermometer unavailable",
+            "ua": "Корисний зовнішній показник за відсутності термометра"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Often heats more quickly",
+            "ua": "Часто прогрівається швидше"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Core temperature reading",
+            "ua": "Температура всередині"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-148-04",
+      "theoryId": 148,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A thick fish fillet reads 57°C in its center. What should you do under US consumer guidelines?",
+        "ua": "У центрі товстого філе 57°C. Що робити за побутовими рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "A 57°C core is below the US standard consumer minimum for fish.",
+        "ua": "57°C усередині менше за стандартну мінімальну температуру риби у США."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Continue until the recommended 63°C",
+            "ua": "Готувати далі до рекомендованих 63°C"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve based on a browned edge alone",
+            "ua": "Подати лише через рум’яний край"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Chill then serve raw without safety review",
+            "ua": "Охолодити й подати сирим без оцінки безпеки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-148-05",
+      "theoryId": 148,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which fish-doneness claim is unsafe?",
+        "ua": "Яке твердження про готовність риби небезпечне?"
+      },
+      "explanation": {
+        "en": "Surface color does not reliably prove core doneness.",
+        "ua": "Колір поверхні не доводить готовності центру."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Thickness influences cooking time",
+            "ua": "Товщина впливає на час приготування"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A thermometer can check the core",
+            "ua": "Термометр може перевірити центр"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Surface browning always guarantees safe core temperature",
+            "ua": "Рум’яна поверхня завжди гарантує безпечну температуру всередині"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-148-06",
+      "theoryId": 148,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practices support reliable fish doneness checks?",
+        "ua": "Які дії допомагають надійно перевіряти готовність риби?"
+      },
+      "explanation": {
+        "en": "Temperature, thickness and safe targets matter more than surface color.",
+        "ua": "Температура, товщина та безпечні пороги важливіші за колір поверхні."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Measure in the thickest part",
+            "ua": "Міряти в найтовстішій частині"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use the applicable safe target",
+            "ua": "Дотримуватися відповідної безпечної температури"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Understand that thin ends heat earlier",
+            "ua": "Розуміти, що тонкі краї прогріваються раніше"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Trust the crust color alone",
+            "ua": "Довіряти лише кольору скоринки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-148-07",
+      "theoryId": 148,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A fish core reads 57°C and the referenced US consumer target is 63°C. How many more degrees Celsius does it need to reach the target?",
+        "ua": "У центрі риби 57°C, а вказана побутова ціль США — 63°C. На скільки градусів Цельсія потрібно підвищити температуру?"
+      },
+      "explanation": {
+        "en": "63 − 57 = 6°C. This is the difference, not a prediction of heating time.",
+        "ua": "63 − 57 = 6°C. Це різниця температур, а не прогноз часу нагрівання."
+      },
+      "numericInput": {
+        "unit": "C",
+        "unitLabel": {
+          "en": "degrees Celsius",
+          "ua": "градусів Цельсія"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 6,
+        "tolerance": 0,
+        "unit": "C"
+      }
+    }
+  ]
+}

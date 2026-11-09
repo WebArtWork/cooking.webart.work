@@ -1,78 +1,84 @@
 {
   "id": 47,
-  "slug": "047-heat-conduction",
-  "group": "046",
+  "slug": "047-boiling-point-evaporation-and-altitude",
+  "group": "043",
   "title": {
-    "en": "Heat Conduction",
-    "ua": "Теплопровідність"
+    "en": "Boiling Point, Evaporation, and Altitude",
+    "ua": "Температура кипіння, випаровування та вплив висоти"
   },
   "en": {
-    "short": "Conduction transfers thermal energy through contact between neighboring particles. In cooking, it moves heat from a hot pan into food and from a food’s hot surface toward its cooler center.",
+    "short": "Boiling depends on pressure, while evaporation can occur well below boiling. Understanding the difference explains reduction, simmering, and why foods may cook more slowly at high altitude.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "The transfer rate depends on the temperature difference, contact area, material conductivity, and distance heat must travel. Good contact is crucial: an uneven steak touching the pan at only a few points browns differently from one making broad, even contact."
+        "text": "At standard atmospheric pressure, pure water boils near 100°C; this value changes with elevation and dissolved substances. A gentle simmer and a rolling boil can have similar bulk liquid temperatures, but different fluid movement, surface disruption, and evaporation rates."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "The one-dimensional Fourier-law model expresses conductive heat flow as proportional to conductivity k, area A, and temperature gradient ΔT/L. Food is heterogeneous and may lose water or change structure, so kitchen heat flow is rarely perfectly steady."
+        "text": "Evaporation requires substantial energy, cooling wet surfaces as water escapes. During open boiling, extra burner power often speeds vapor production rather than significantly increasing liquid temperature. Reducing a sauce thickens it because water leaves while most dissolved solids remain."
       },
       {
         "title": "How to apply it",
-        "text": "Preheat the pan enough for the chosen food; dry moist surfaces where browning is desired; arrange items in a single layer and avoid excessive pan crowding. Use a thermometer for thick items because their centers lag behind the surface."
+        "text": "Use a lid when preserving volume or reducing energy loss; uncover or use a wider pan when concentration is desired. Lower a rolling boil to a simmer for delicate proteins and stocks. Measure liquid reduction by volume or desired consistency, not only elapsed time."
       },
       {
         "title": "Practical example",
-        "text": "A thin pancake rapidly conducts heat from a griddle through its small thickness. A thick potato needs substantially longer for its center to heat, even when the exterior receives similar heat."
+        "text": "A tomato sauce reduced uncovered from 600 mL to about 400 mL becomes more concentrated in salt, sugar, acids, and other dissolved components. Taste and adjust seasoning at the end."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Conduction is not the only mechanism: convection and radiation can act simultaneously. Avoid assuming that pan material or a single surface reading determines the temperature throughout food."
+        "text": "Never assume a harder boil makes water much hotter in an open pot. Stir thick sauces to prevent bottom scorching, and avoid adding salt aggressively before a large reduction."
+      },
+      {
+        "title": "Altitude and pressure",
+        "text": "At normal sea-level pressure pure water boils near 100°C, but at higher elevations it boils at lower temperatures. Increasing burner output makes a stronger boil, not a higher equilibrium boiling temperature in an open pot; a properly operated pressure cooker changes the pressure and therefore the boiling point."
       },
       {
         "title": "Related theories",
-        "text": "046, 048, 051, 057."
+        "text": "043, 048."
       }
     ]
   },
   "ua": {
-    "short": "Теплопровідність передає теплову енергію через взаємодію сусідніх частинок. На кухні вона переносить тепло від сковороди до продукту та від гарячої поверхні шматка до його холоднішої середини.",
+    "short": "Температура кипіння залежить від тиску, а випаровування відбувається й без кипіння. Це пояснює уварювання, слабке кипіння та повільніше приготування у високогір’ї.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Швидкість передавання залежить від різниці температур, площі контакту, теплопровідності матеріалу та відстані, яку має пройти тепло. Контакт важливий: нерівний стейк, що торкається сковороди лише в кількох місцях, підрум’янюється інакше, ніж плаский шматок із широкою площею дотику."
+        "text": "За нормального атмосферного тиску чиста вода кипить приблизно за 100°C; значення змінюється з висотою та розчиненими речовинами. Слабке й бурхливе кипіння можуть мати майже однакову температуру основної маси рідини, але відрізнятися рухом потоків, інтенсивністю бульбашок і втратами води."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "У спрощеному законі Фур’є потік тепла пропорційний теплопровідності k, площі A та температурному градієнту ΔT/L. Продукти неоднорідні, втрачають воду й змінюють структуру, тому реальний потік тепла на кухні рідко буває сталим."
+        "text": "Випаровування потребує значної енергії й охолоджує вологі поверхні під час виходу води. Коли рідина кипить у відкритому посуді, додаткова потужність переважно прискорює утворення пари, а не суттєво підвищує температуру. Під час уварювання соус густішає, бо вода виходить, а більшість розчинених речовин залишається."
       },
       {
         "title": "Як застосовувати",
-        "text": "Розігрійте сковороду відповідно до продукту; для утворення скоринки приберіть зайву вологу з поверхні. Розташовуйте шматки одним шаром і не переповнюйте посуд. У товстих продуктах перевіряйте центр термометром, адже він нагрівається із запізненням."
+        "text": "Накривайте посуд кришкою, якщо потрібно зберегти об’єм і зменшити втрати енергії; знімайте її або використовуйте ширшу посудину для уварювання. Для делікатних білкових продуктів і бульйонів знижуйте бурхливе кипіння до слабкого. Контролюйте уварювання за об’ємом або консистенцією, а не лише за хвилинами."
       },
       {
         "title": "Практичний приклад",
-        "text": "Тонкий млинець швидко отримує тепло від поверхні сковороди по всій товщині. Товстій картоплині потрібно значно більше часу, щоб прогріти середину, навіть якщо зовнішня поверхня нагрівається так само."
+        "text": "Томатний соус, уварений без кришки приблизно з 600 до 400 мл, матиме вищу концентрацію солі, цукру, кислот та інших розчинених речовин. Остаточне приправляння краще виконувати наприкінці."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Теплопровідність не єдиний механізм: водночас працюють конвекція та випромінювання. Не варто вважати, що матеріал сковороди або одне вимірювання поверхні визначає температуру всередині продукту."
+        "text": "Не припускайте, що бурхливіше кипіння робить воду значно гарячішою у відкритій каструлі. Густі соуси перемішуйте, щоб не підгорали на дні, і не додавайте забагато солі до тривалого уварювання."
+      },
+      {
+        "title": "Висота й тиск",
+        "text": "На рівні моря чиста вода зазвичай кипить близько 100°C, а в горах кипить за нижчої температури. Збільшення потужності відкритої конфорки посилює кипіння, але не піднімає сталу температуру киплячої води; скороварка змінює тиск і тому змінює температуру кипіння."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "046, 048, 051, 057."
+        "text": "043, 048."
       }
     ]
   },
   "related": [
-    46,
-    48,
-    51,
-    57
+    43,
+    48
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
-    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+    "https://www.usgs.gov/water-science-school/science/facts-about-water",
+    "https://www.usgs.gov/water-science-school/science/vapor-pressure-and-water"
   ]
 }

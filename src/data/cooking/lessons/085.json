@@ -1,81 +1,87 @@
 {
   "id": 85,
-  "slug": "085-pressure-cooking",
-  "group": "066",
+  "slug": "085-braising",
+  "group": "070",
   "title": {
-    "en": "Pressure Cooking",
-    "ua": "Приготування під тиском"
+    "en": "Braising",
+    "ua": "Тушкування з невеликою кількістю рідини"
   },
   "en": {
-    "short": "Pressure cooking heats food with pressurized steam and liquid inside a sealed cooker. Because water can reach temperatures above its normal atmospheric boiling point, many dishes tenderize substantially faster.",
+    "short": "Braising combines initial browning with sustained cooking in a covered pot and a modest amount of liquid. It is especially useful for tougher meat cuts and hearty vegetables.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "A pressure cooker uses a locking lid, gasket, pressure regulation, and safety valves. Depending on its design, it may be an electric multicooker or a stovetop vessel. Pressure cooking is not the same as pressure canning: safe shelf-stable preservation requires approved canning equipment and tested schedules."
+        "text": "A braise usually starts with a larger item such as beef chuck, pork shoulder, cabbage wedges, or leeks. The food cooks slowly in a covered pot with a shallow pool of stock, water, wine, or sauce. Although searing commonly adds flavor, browning is optional and not a defining safety step."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "At higher pressure, the boiling point of water increases, so wet cooking can take place above approximately 100°C at sea level. The exact temperature depends on the appliance and operating pressure; the contents still need time to heat through. Pressure affects boiling rather than replacing the physics of heat diffusion inside a thick piece."
+        "text": "Heat and time soften plant cell walls and transform collagen in suitable meat cuts into gelatin. A tight lid reduces evaporation and makes the air inside humid; the cooking liquid transfers energy and dissolves flavors. A rolling boil can tighten muscle fibers and dry portions above the liquid, so a gentle simmer or low oven is usually preferable."
       },
       {
         "title": "How to apply it",
-        "text": "Inspect seals and vents, keep within the manufacturer’s minimum liquid and maximum fill limits, and lock the lid correctly. Choose a validated recipe, allow pressure to build, and begin timing when the specified pressure is reached. Release pressure using the method the recipe requires, keeping hands and face away from steam; open only after pressure has completely fallen."
+        "text": "Season and, if desired, brown the ingredient; cook aromatic vegetables in the same pot. Deglaze, add liquid partway up the food, cover, and cook gently until a fork meets little resistance. Turn if necessary, check liquid level, and reduce or strain the braising liquid into a sauce. Verify safe internal temperature for meat before serving."
       },
       {
         "title": "Practical example",
-        "text": "Chickpeas or a beef stew may cook much faster in a pressure cooker than in an ordinary pot. Firm vegetables may need a shorter pressure phase or be added later, because fast tenderization can otherwise make them mushy."
+        "text": "Brown chunks of beef chuck, soften onion and carrot, add stock and tomato, then cover and cook slowly. After sufficient time, the connective tissue softens; use the cooking liquid as a rich sauce. Braised cabbage wedges follow a similar structure but usually finish much sooner."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Never force a pressurized lid, block a vent, or use untested amounts of thick foamy ingredients. The displayed countdown may exclude warm-up and depressurizing time. A pressure cooker is not automatically a safe pressure canner; consult tested home-canning guidance and equipment specifications for preservation."
+        "text": "Do not confuse braising with deep boiling: excessive liquid changes the texture and final sauce. Tough cuts need tenderness testing, not just a fixed timer; lean tender cuts may dry out during long braises. Low-temperature cooking is not automatically safe: use appropriate time-and-temperature controls and prompt cooling."
+      },
+      {
+        "title": "Control the liquid",
+        "text": "The food need not be fully submerged; exposed surfaces and liquid create different flavors. A covered pot limits moisture loss, while collagen-rich cuts require enough time to become tender. Browning adds flavor but safe internal doneness remains a separate requirement."
       },
       {
         "title": "Related theories",
-        "text": "052, 060, 076, 082, 084, 246."
+        "text": "052, 072, 081, 086."
       }
     ]
   },
   "ua": {
-    "short": "Приготування під тиском використовує гарячу рідину та пару в герметично закритому посуді. Вода може нагріватися вище звичайної температури кипіння, тому багато продуктів розм’якшуються значно швидше.",
+    "short": "Тушкування з невеликою кількістю рідини поєднує попереднє обсмажування та тривале приготування під кришкою. Метод особливо підходить для жорстких частин м’яса й щільних овочів.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Скороварка має кришку з блокуванням, ущільнювач, регулятор тиску та захисні клапани. Вона може бути електричною або встановлюватися на плиту. Приготування під тиском і консервування під тиском — різні завдання: для довготривалого зберігання потрібне дозволене обладнання й перевірені режими."
+        "text": "Зазвичай беруть відносно великий шматок: яловичу лопатку, свинячу плечову частину, часточки капусти або порей. На дні посуду є небагато бульйону, води чи соусу, а решта продукту нагрівається у вологому середовищі. Попереднє обсмажування додає аромату, але не є обов’язковою умовою методу."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "За підвищеного тиску температура кипіння води зростає, тому вологе приготування можливе за температури понад приблизно 100 °C на рівні моря. Точне значення залежить від приладу та тиску. При цьому серцевина великого шматка все одно прогрівається поступово: тиск не скасовує теплопередачі всередині продукту."
+        "text": "Тривале помірне нагрівання розм’якшує рослинні клітинні стінки та сприяє переходу колагену відповідних м’ясних частин у желатин. Кришка зменшує випаровування, а рідина переносить тепло й збирає смакові речовини. Бурхливе кипіння може пересушувати частини м’яса над рідиною, тому краще слабке кипіння або невисока температура духовки."
       },
       {
         "title": "Як застосовувати",
-        "text": "Перед роботою перевірте ущільнення й клапани, дотримуйтеся мінімальної кількості рідини та максимальної позначки наповнення. Беріть перевірений рецепт, запускайте відлік після досягнення потрібного тиску. Скидайте тиск зазначеним способом, відводячи руки й обличчя від пари; відкривайте лише після повного зниження тиску."
+        "text": "Посоліть продукт, за потреби підрум’яньте й приготуйте ароматичні овочі в тому самому посуді. Додайте рідину приблизно до частини висоти продукту, накрийте та готуйте повільно до м’якості. За потреби перевертайте, стежте за рівнем рідини, а наприкінці уваріть її для соусу. Безпечність м’яса перевіряйте термометром."
       },
       {
         "title": "Практичний приклад",
-        "text": "Нут або рагу з яловичини можуть приготуватися в скороварці значно швидше, ніж у звичайній каструлі. Ніжні овочі часто потребують окремого короткого етапу, інакше вони розваряться."
+        "text": "Шматки яловичої лопатки підрум’янюють, додають цибулю, моркву, бульйон і трохи томатів, потім довго готують під кришкою. З часом жорсткі волокна стають м’якшими, а рідина перетворюється на основу соусу. Капусту готують подібно, але значно швидше."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Ніколи не намагайтеся силоміць відкрити посуд під тиском і не перекривайте клапани. Час, показаний на екрані, може не включати нагнітання й скидання тиску. Не використовуйте звичайну скороварку для домашнього консервування без підтвердженої придатності та перевіреної технології."
+        "text": "Надлишок рідини перетворює тушкування на варіння й змінює консистенцію соусу. Для жорстких частин м’яса перевіряйте м’якість, а не лише хвилини за годинником; пісні ніжні шматки під час довгого тушкування можуть висохнути. Повільність не гарантує безпечності без температурного контролю."
+      },
+      {
+        "title": "Контроль рідини",
+        "text": "Продукт не обов’язково занурювати повністю; частини над рідиною й під нею формують різні відтінки смаку. Кришка обмежує втрату вологи, а колагеновим частинам потрібен достатній час для розм’якшення. Скоринка додає аромату, але безпечна температура готовності контролюється окремо."
       },
       {
         "title": "Пов’язані теорії",
-        "text": "052, 060, 076, 082, 084, 246."
+        "text": "052, 072, 081, 086."
       }
     ]
   },
   "related": [
     52,
-    60,
-    76,
-    82,
-    84,
-    246
+    72,
+    81,
+    86
   ],
   "referenceTitle": "References / Джерела",
   "references": [
+    "https://www.rouxbe.com/rouxbe/cooking-courses/steaming-stewing-braising",
     "https://rouxbe.com/cooking-courses/culinary-foundations-rouxbe",
-    "https://nchfp.uga.edu/how/can/general-information/pressure-canners/",
-    "https://www.fda.gov/food/fda-food-code/food-code-2022"
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
   ]
 }

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 117,
+    "title": {
+      "en": "Egg Anatomy and Culinary Functions",
+      "ua": "Будова яйця та його кулінарні функції"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources include international culinary references and US, UK, Canadian, Australian and New Zealand consumer food-safety guidance. Specific national requirements do not automatically apply to Ukrainian food businesses.",
+    "ua": "Джерела охоплюють міжнародні кулінарні матеріали та рекомендації з безпеки продуктів США, Великої Британії, Канади, Австралії й Нової Зеландії. Національні норми інших країн не є автоматично вимогами для закладів харчування України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+    "https://extension.illinois.edu/eggs-structure",
+    "https://www.incredibleegg.org/egg-handling-storage-tips/",
+    "https://www.fda.gov/food/people-risk-foodborne-illness/cooking-food-safety-moms-be"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-117-01",
+      "theoryId": 117,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which egg component contains most of the egg fat?",
+        "ua": "Яка частина яйця містить більшу частину його жиру?"
+      },
+      "explanation": {
+        "en": "The yolk is rich in lipids and emulsifying compounds.",
+        "ua": "Жовток багатий на ліпіди й емульгувальні речовини."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Yolk",
+            "ua": "Жовток"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "White",
+            "ua": "Білок"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Shell",
+            "ua": "Шкаралупа"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-117-02",
+      "theoryId": 117,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Egg white is rich in proteins and contains very little fat.",
+        "ua": "Яєчний білок багатий на білки та містить дуже мало жиру."
+      },
+      "explanation": {
+        "en": "Albumen is mostly water and proteins.",
+        "ua": "Яєчний білок складається переважно з води та білків."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-117-03",
+      "theoryId": 117,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match egg parts to culinary roles.",
+        "ua": "Поєднайте частини яйця з їхніми кулінарними функціями."
+      },
+      "explanation": {
+        "en": "The different components provide distinct culinary functions.",
+        "ua": "Різні компоненти яйця виконують різні кулінарні функції."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Egg white",
+            "ua": "Яєчний білок"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Egg yolk",
+            "ua": "Яєчний жовток"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Eggshell",
+            "ua": "Яєчна шкаралупа"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Physical protective barrier",
+            "ua": "Фізичний захисний бар’єр"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Emulsifying mayonnaise",
+            "ua": "Емульгування майонезу"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Foaming in meringue",
+            "ua": "Утворення піни в мерензі"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-117-04",
+      "theoryId": 117,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "You need to make mayonnaise with raw egg flavor but want to reduce Salmonella risk. What is a better choice?",
+        "ua": "Вам потрібно приготувати майонез із сирими яйцями, але зменшити ризик сальмонели. Що краще обрати?"
+      },
+      "explanation": {
+        "en": "Pasteurized egg products reduce risk when eggs are not fully cooked.",
+        "ua": "Пастеризовані яєчні продукти знижують ризик, якщо яйця не проходять повну теплову обробку."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use pasteurized eggs or pasteurized egg product",
+            "ua": "Використати пастеризовані яйця чи яєчний продукт"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use cracked unpasteurized eggs left warm",
+            "ua": "Взяти тріснуті непастеризовані яйця, що стояли в теплі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assume lemon flavor alone guarantees safety",
+            "ua": "Вважати, що сам лимонний смак гарантує безпеку"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-117-05",
+      "theoryId": 117,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which belief about eggs is wrong?",
+        "ua": "Яке твердження про яйця хибне?"
+      },
+      "explanation": {
+        "en": "Intact shells do not guarantee absence of Salmonella inside an egg.",
+        "ua": "Неушкоджена шкаралупа не гарантує відсутності сальмонели всередині яйця."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Yolks can support emulsions",
+            "ua": "Жовтки допомагають утворювати емульсії"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Whites form foams",
+            "ua": "Білки утворюють піни"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "An intact clean-looking shell guarantees the egg has no Salmonella",
+            "ua": "Ціла чиста шкаралупа гарантує відсутність сальмонели"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-117-06",
+      "theoryId": 117,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which egg-related practices reduce food-safety risks?",
+        "ua": "Які практики зменшують ризики під час роботи з яйцями?"
+      },
+      "explanation": {
+        "en": "Pasteurization, hygiene and controlled storage help reduce risk.",
+        "ua": "Пастеризація, гігієна та належне зберігання зменшують ризик."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Choose pasteurized eggs for uncooked sauces",
+            "ua": "Для соусів без нагріву обирати пастеризовані яйця"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Wash equipment after handling raw eggs",
+            "ua": "Мити інструменти після сирих яєць"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Store cracked eggs at room temperature for days",
+            "ua": "Зберігати тріснуті яйця днями при кімнатній температурі"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Refrigerate eggs according to applicable guidance",
+            "ua": "Зберігати яйця охолодженими за відповідними правилами"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    }
+  ]
+}

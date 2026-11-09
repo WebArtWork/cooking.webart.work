@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 43,
+    "title": {
+      "en": "Heat, Temperature, and Thermal Energy",
+      "ua": "Теплота, температура та теплова енергія"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-043-01",
+      "theoryId": 43,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What does temperature measure?",
+        "ua": "Що вимірює температура?"
+      },
+      "explanation": {
+        "en": "A large and small pot can reach the same temperature with different total energy.",
+        "ua": "Велика та мала каструлі можуть мати однакову температуру й різну повну енергію."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Thermal state, not total energy stored in the portion",
+            "ua": "Тепловий стан, а не всю енергію порції"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Mass of food",
+            "ua": "Масу їжі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Exact amount of water in soup",
+            "ua": "Точну кількість води в супі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-043-02",
+      "theoryId": 43,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Two pots of water at 60°C must contain the same total thermal energy regardless of mass.",
+        "ua": "Дві каструлі води при 60°C обов’язково мають однакову теплову енергію незалежно від маси."
+      },
+      "explanation": {
+        "en": "Energy needed to heat water depends strongly on its mass and temperature change.",
+        "ua": "Енергія нагрівання залежить від маси води й зміни температури."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-043-03",
+      "theoryId": 43,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match physical quantities to typical units.",
+        "ua": "Поєднайте фізичні величини з одиницями."
+      },
+      "explanation": {
+        "en": "Heat energy and temperature are different physical quantities.",
+        "ua": "Теплова енергія та температура — різні фізичні величини."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Temperature",
+            "ua": "Температура"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Energy",
+            "ua": "Енергія"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Specific heat capacity",
+            "ua": "Питома теплоємність"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Joules per kilogram per degree",
+            "ua": "Джоулі на кілограм на градус"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Joules",
+            "ua": "Джоулі"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Degrees Celsius",
+            "ua": "Градуси Цельсія"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-043-04",
+      "theoryId": 43,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Idealized: heat 1 kg of water by 20°C at 4.18 kJ/(kg·°C). How many kJ are required?",
+        "ua": "Ідеалізовано: нагріти 1 кг води на 20°C за теплоємності 4,18 кДж/(кг·°C). Скільки кДж потрібно?"
+      },
+      "explanation": {
+        "en": "Q = m × c × ΔT = 1 × 4.18 × 20 = 83.6 kJ, excluding heat losses.",
+        "ua": "Q = m × c × ΔT = 1 × 4,18 × 20 = 83,6 кДж без теплових втрат."
+      },
+      "numericInput": {
+        "unit": "kJ",
+        "allowDecimals": true,
+        "unitLabel": {
+          "en": "kilojoules",
+          "ua": "кілоджоулів"
+        }
+      },
+      "answer": {
+        "value": 83.6,
+        "tolerance": 0,
+        "unit": "kJ"
+      }
+    },
+    {
+      "id": "cooking-043-05",
+      "theoryId": 43,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You double the amount of cold soup in the same pot but want the same final temperature. What changes?",
+        "ua": "Ви подвоїли кількість холодного супу в тій самій каструлі, але хочете ту саму кінцеву температуру. Що зміниться?"
+      },
+      "explanation": {
+        "en": "More mass at the same temperature rise requires more energy, all else equal.",
+        "ua": "Більша маса за тієї ж зміни температури потребує більше енергії за інших рівних умов."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Usually more total energy and heating time are needed",
+            "ua": "Зазвичай потрібні більші енерговитрати й час нагрівання"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The final target temperature must double",
+            "ua": "Кінцева температура має подвоїтися"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "No extra heating is needed",
+            "ua": "Додаткове нагрівання не потрібне"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-043-06",
+      "theoryId": 43,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which factors affect energy needed to heat a food portion?",
+        "ua": "Які чинники впливають на енергію, потрібну для нагрівання порції?"
+      },
+      "explanation": {
+        "en": "The simple Q = m × c × ΔT model includes mass, specific heat and temperature change.",
+        "ua": "Проста модель Q = m × c × ΔT містить масу, питому теплоємність і зміну температури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mass of food",
+            "ua": "Маса продукту"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Specific heat capacity",
+            "ua": "Питома теплоємність"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Target temperature change",
+            "ua": "Бажана зміна температури"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The spelling of its name",
+            "ua": "Написання назви продукту"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

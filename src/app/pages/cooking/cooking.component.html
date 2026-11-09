@@ -12,7 +12,7 @@
 				'Explore the curriculum' | t
 			}}</a>
 			<p class="text-sm">
-				{{ '330 theories · English and Ukrainian · Short and detailed versions' | t }}
+				{{ '288 theories · English and Ukrainian · Short and detailed versions' | t }}
 			</p>
 		</div>
 		<figure>
@@ -90,85 +90,9 @@
 			}
 		</ol>
 	</section>
-} @else if (mode === 'practices') {
-	<section class="cook-page" aria-labelledby="practice-title">
-		<h1 id="practice-title">{{ 'Practice with a purpose' | t }}</h1>
-		<p>
-			{{
-				'Cooking practice exercises are being prepared. In the meantime, explore the theories behind kitchen techniques and ingredients.'
-					| t
-			}}
-		</p>
-		<ul class="cook-curriculum">
-			<li>
-				<div>
-					<h2>{{ 'Make the right choice' | t }}</h2>
-					<p>
-						{{
-							'Identify ingredients, choose equipment and spot preparation mistakes.'
-								| t
-						}}
-					</p>
-				</div>
-			</li>
-			<li>
-				<div>
-					<h2>{{ 'Think through a recipe' | t }}</h2>
-					<p>
-						{{
-							'Adjust proportions, compare substitutions and plan the order of preparation.'
-								| t
-						}}
-					</p>
-				</div>
-			</li>
-			<li>
-				<div>
-					<h2>{{ 'Take it to your kitchen' | t }}</h2>
-					<p>
-						{{
-							'Practical challenges will help you try the techniques for yourself.'
-								| t
-						}}
-					</p>
-				</div>
-			</li>
-		</ul>
-		<a class="ds-btn ds-btn-primary mt-8" routerLink="/theories">{{
-			'Explore the curriculum' | t
-		}}</a>
-	</section>
-} @else if (mode === 'about') {
-	<article class="cook-prose">
-		<h1>{{ 'A school for everyday cooking' | t }}</h1>
-		<p>
-			{{
-				'Cooking brings culinary techniques, ingredients and food science into one learning space.'
-					| t
-			}}
-		</p>
-		<h2>{{ 'Understand, then experiment' | t }}</h2>
-		<p>
-			{{
-				'Each theory combines a short explanation with detailed principles, practical examples and sources. Practice exercises will follow in a future release.'
-					| t
-			}}
-		</p>
-		<h2>{{ 'Built one course at a time' | t }}</h2>
-		<p>
-			{{
-					'Explore 330 cooking theories now. Recipes, practical exercises, challenges and the virtual kitchen will follow in future releases.'
-					| t
-			}}
-		</p>
-		<a class="ds-btn ds-btn-primary" routerLink="/theories">{{
-			'See the learning plan' | t
-		}}</a>
-	</article>
 } @else {
 	<section class="cook-page">
 		<h1>{{ 'Page not found' | t }}</h1>
 		<p>{{ 'Find your way back to Cooking.' | t }}</p>
-		<a class="ds-btn ds-btn-primary mt-8" routerLink="/">{{ 'Back to Cooking' | t }}</a>
 	</section>
 }

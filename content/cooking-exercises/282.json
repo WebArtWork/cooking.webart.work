@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 282,
+    "title": {
+      "en": "Food Cost and Recipe Cost Calculation",
+      "ua": "Собівартість продуктів та розрахунок вартості страв"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary training uses cited educational sources. Safety procedures must follow applicable local food-service requirements; references to the US FDA Food Code are not automatically Ukrainian legal requirements.",
+    "ua": "Навчальні матеріали спираються на наведені джерела. Заходи безпеки мають відповідати чинним місцевим вимогам до закладів харчування; посилання на Кодекс харчової безпеки FDA США не є автоматично вимогами законодавства України."
+  },
+  "sources": [
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://foodbuyingguide.fns.usda.gov/appendix/downloadfbg",
+    "https://www.restaurant.org/education-and-resources/resource-library/restaurateurs-use-tech-to-manage-inventory%2C-save-money/",
+    "https://textbooks.restaurant.org/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-282-01",
+      "theoryId": 282,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which formula gives ingredient food cost per portion?",
+        "ua": "Яка формула обчислює собівартість інгредієнтів на порцію?"
+      },
+      "explanation": {
+        "en": "Portion food cost relates measured ingredient spend to the actual finished yield.",
+        "ua": "Собівартість порції співвідносить витрати на інгредієнти з фактичним виходом страви."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Menu price multiplied by number of servers",
+            "ua": "Ціна меню, помножена на кількість офіціантів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Total ingredient cost divided by actual portions yielded",
+            "ua": "Загальна вартість інгредієнтів, поділена на фактичну кількість порцій"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Total delivery weight divided by menu price",
+            "ua": "Загальна маса поставки, поділена на ціну меню"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-282-02",
+      "theoryId": 282,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Food cost percentage and contribution margin are exactly the same metric.",
+        "ua": "Відсоток собівартості продуктів і маржинальний дохід — абсолютно однаковий показник."
+      },
+      "explanation": {
+        "en": "Food-cost percentage divides food cost by sales price; contribution margin subtracts variable cost from price.",
+        "ua": "Відсоток собівартості ділить витрати на продукти на ціну продажу; маржинальний дохід віднімає змінні витрати від ціни."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-282-03",
+      "theoryId": 282,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match costing concepts to their calculations.",
+        "ua": "Поєднайте поняття собівартості з розрахунками."
+      },
+      "explanation": {
+        "en": "Use the right denominator and defined cost components for each metric.",
+        "ua": "Для кожного показника використовуйте правильний знаменник і визначені витрати."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Food cost per portion",
+            "ua": "Собівартість продуктів на порцію"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Food cost percentage",
+            "ua": "Відсоток собівартості продуктів"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Contribution margin",
+            "ua": "Маржинальний дохід"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Food cost divided by selling price × 100",
+            "ua": "Собівартість продуктів, поділена на ціну продажу × 100"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Selling price minus relevant variable cost",
+            "ua": "Ціна продажу мінус відповідні змінні витрати"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Ingredient cost divided by portions produced",
+            "ua": "Вартість інгредієнтів, поділена на кількість порцій"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-282-04",
+      "theoryId": 282,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Recipe ingredient prices rise, but the menu price stays the same. What is the likely immediate effect?",
+        "ua": "Ціни інгредієнтів зросли, але ціна страви в меню не змінилася. Який імовірний безпосередній ефект?"
+      },
+      "explanation": {
+        "en": "Higher ingredient expense raises the cost ratio at a fixed selling price.",
+        "ua": "Вищі витрати на продукти збільшують їхню частку за незмінної ціни продажу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Food cost percentage rises and food-only margin shrinks",
+            "ua": "Відсоток собівартості зростає, а маржа після продуктових витрат скорочується"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ingredient yields become irrelevant",
+            "ua": "Їстівний вихід стає неважливим"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Food cost percentage falls automatically",
+            "ua": "Відсоток собівартості автоматично знижується"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-282-05",
+      "theoryId": 282,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which items matter for accurate recipe costing?",
+        "ua": "Що важливо враховувати для точного розрахунку собівартості рецепта?"
+      },
+      "explanation": {
+        "en": "Measured yields make purchasing costs meaningful at the serving level.",
+        "ua": "Виміряний вихід дозволяє правильно розподілити закупівельні витрати на порції."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ingredient prices and quantities",
+            "ua": "Ціни та кількості інгредієнтів"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assuming waste is always zero",
+            "ua": "Припущення, що відходів ніколи немає"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Trim and cooking yields",
+            "ua": "Втрати під час очищення й теплової обробки"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Actual number of saleable portions",
+            "ua": "Фактичну кількість придатних до продажу порцій"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "cooking-282-06",
+      "theoryId": 282,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Ingredients for 12 saleable portions cost 720 UAH. What is the ingredient cost per portion, in UAH?",
+        "ua": "Інгредієнти для 12 порцій, придатних до продажу, коштують 720 грн. Яка собівартість інгредієнтів однієї порції у гривнях?"
+      },
+      "explanation": {
+        "en": "720 ÷ 12 = 60 UAH per portion.",
+        "ua": "720 ÷ 12 = 60 грн за порцію."
+      },
+      "numericInput": {
+        "unit": "uah",
+        "unitLabel": {
+          "en": "Ukrainian hryvnias",
+          "ua": "гривень"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 60,
+        "tolerance": 0,
+        "unit": "uah"
+      }
+    },
+    {
+      "id": "cooking-282-07",
+      "theoryId": 282,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A dish sells for 200 UAH and its food ingredients cost 50 UAH. What is food cost percentage?",
+        "ua": "Страва продається за 200 грн, а її інгредієнти коштують 50 грн. Який відсоток собівартості продуктів?"
+      },
+      "explanation": {
+        "en": "50 ÷ 200 × 100 = 25%.",
+        "ua": "Частка собівартості: 50 ÷ 200 × 100 = 25%."
+      },
+      "numericInput": {
+        "unit": "%",
+        "unitLabel": {
+          "en": "percent",
+          "ua": "відсотків"
+        },
+        "allowDecimals": false
+      },
+      "answer": {
+        "value": 25,
+        "tolerance": 0,
+        "unit": "%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 101,
+    "title": {
+      "en": "Fruit Ripening, Sweetness, and Acidity",
+      "ua": "Дозрівання фруктів, солодкість та кислотність"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources include international culinary references and US, UK, Canadian, Australian and New Zealand consumer food-safety guidance. Specific national requirements do not automatically apply to Ukrainian food businesses.",
+    "ua": "Джерела охоплюють міжнародні кулінарні матеріали та рекомендації з безпеки продуктів США, Великої Британії, Канади, Австралії й Нової Зеландії. Національні норми інших країн не є автоматично вимогами для закладів харчування України."
+  },
+  "sources": [
+    "https://extension.psu.edu/keeping-produce-fresh-best-practices-for-producers",
+    "https://food.unl.edu/article/how-prevent-cut-fruit-turning-brown/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3847065/",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-101-01",
+      "theoryId": 101,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What typically happens to starch in many fruits as they ripen?",
+        "ua": "Що зазвичай відбувається з крохмалем у багатьох фруктах під час дозрівання?"
+      },
+      "explanation": {
+        "en": "Ripening processes may convert stored starch to soluble sugars, although fruit species differ.",
+        "ua": "Під час дозрівання запасний крохмаль може перетворюватися на розчинні цукри, але різні види плодів поводяться по-різному."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Some starch converts to sugars",
+            "ua": "Частина крохмалю перетворюється на цукри"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Every sugar converts into protein",
+            "ua": "Увесь цукор перетворюється на білок"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "All water disappears",
+            "ua": "Уся вода зникає"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-101-02",
+      "theoryId": 101,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A fruit’s sweetness depends only on its sugar content, never on acidity.",
+        "ua": "Солодкість фрукта залежить тільки від цукру, а не від кислотності."
+      },
+      "explanation": {
+        "en": "Acid and aroma strongly influence perceived sweetness.",
+        "ua": "Кислоти й аромат сильно впливають на сприйняття солодкості."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-101-03",
+      "theoryId": 101,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match the fruit property to its cooking implication.",
+        "ua": "Поєднайте властивість фрукта з наслідком для приготування."
+      },
+      "explanation": {
+        "en": "Ripeness, acidity and natural pectin affect flavor and consistency.",
+        "ua": "Стиглість, кислотність і природний пектин визначають смак та консистенцію."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "High acidity",
+            "ua": "Висока кислотність"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Higher ripeness",
+            "ua": "Вища стиглість"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "High pectin content",
+            "ua": "Багато пектину"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Can help form fruit gels",
+            "ua": "Може допомагати утворювати фруктові гелі"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Often softer texture",
+            "ua": "Часто м’якша текстура"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Tart balance in a compote",
+            "ua": "Кислий баланс компоту"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-101-04",
+      "theoryId": 101,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A ripe berry sauce tastes too sour. What should you try first?",
+        "ua": "Соус зі стиглих ягід надто кислий. Що спробувати насамперед?"
+      },
+      "explanation": {
+        "en": "Controlled sweetening balances perceived tartness without assuming acid has vanished.",
+        "ua": "Поступове підсолодження врівноважує кислий смак, не видаляючи кислоту."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Add sweetener gradually and taste again",
+            "ua": "Поступово додавати підсолоджувач та куштувати"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Add vinegar until it tastes sweeter",
+            "ua": "Додавати оцет, доки не стане солодшим"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Add raw flour without heating",
+            "ua": "Додати сире борошно без нагрівання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-101-05",
+      "theoryId": 101,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which statement about fruit ripening is false?",
+        "ua": "Яке твердження про дозрівання фруктів хибне?"
+      },
+      "explanation": {
+        "en": "Climacteric and non-climacteric fruits respond differently after harvest.",
+        "ua": "Клімактеричні й неклімактеричні плоди по-різному змінюються після збирання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ripening can change aroma",
+            "ua": "Дозрівання змінює аромат"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ripening can soften tissue",
+            "ua": "Дозрівання може розм’якшувати тканину"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Every fruit keeps ripening identically after harvest",
+            "ua": "Кожен фрукт однаково дозріває після збирання"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

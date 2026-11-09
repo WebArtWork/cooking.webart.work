@@ -4,12 +4,15 @@ import { PreferencesComponent } from '../../components/preferences/preferences.c
 import { AuthService, userPhoto } from '../../feature/auth/auth.service';
 import { I18nService } from '../../feature/i18n/i18n.service';
 import { TPipe } from '../../feature/i18n/t.pipe';
+import { IconComponent } from '../../components/icon/icon.component';
+import { COOKING_RANKS, POINTS_PER_LESSON } from '../../feature/cooking/points';
+import { CookingPointsService } from '../../feature/cooking/points.service';
 
 const SILENT_ERROR_CODES = new Set(['auth/popup-closed-by-user', 'auth/cancelled-popup-request']);
 
 /** Who you are (a guest or a Google account), how far you got, the appearance and language, and the account. */
 @Component({
-	imports: [PreferencesComponent, RouterLink, TPipe],
+	imports: [IconComponent, PreferencesComponent, RouterLink, TPipe],
 	templateUrl: './profile.component.html',
 })
 export class ProfileComponent {
@@ -18,6 +21,11 @@ export class ProfileComponent {
 	private readonly _i18n = inject(I18nService);
 
 	protected readonly user = this._auth.user;
+	private readonly _points = inject(CookingPointsService);
+	protected readonly points = this._points.points;
+	protected readonly level = this._points.level;
+	protected readonly ranks = COOKING_RANKS;
+	protected readonly perLesson = POINTS_PER_LESSON;
 	protected readonly photo = computed(() => userPhoto(this.user()));
 	protected readonly isGuest = this._auth.isGuest;
 	protected readonly pending = signal(false);

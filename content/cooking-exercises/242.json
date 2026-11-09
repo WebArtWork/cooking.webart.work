@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 242,
+    "title": {
+      "en": "Ukrainian Culinary Traditions",
+      "ua": "Українські кулінарні традиції"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://ich.unesco.org/en/USL/culture-of-ukrainian-borscht-cooking-01852",
+    "https://ich.unesco.org/en/news/culture-of-ukrainian-borscht-cooking-inscribed-on-the-list-of-intangible-cultural-heritage-in-need-of-urgent-safeguarding-13412"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-242-01",
+      "theoryId": 242,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What makes Ukrainian borscht cooking a living culinary tradition rather than one fixed formula?",
+        "ua": "Чому приготування українського борщу є живою кулінарною традицією, а не одним незмінним рецептом?"
+      },
+      "explanation": {
+        "en": "UNESCO recognizes the culture of Ukrainian borscht cooking, which includes multiple variants and transmission of knowledge.",
+        "ua": "ЮНЕСКО визнає культуру приготування українського борщу, що охоплює різні варіанти та передавання знань."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Exclusive use of industrial seasoning mixes",
+            "ua": "Виняткове використання промислових сумішей приправ"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Regional and family variations, practices and occasions",
+            "ua": "Регіональні й родинні варіанти, практики та нагоди"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A mandatory list of exactly ten ingredients",
+            "ua": "Обов’язковий перелік рівно з десяти інгредієнтів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-242-02",
+      "theoryId": 242,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All Ukrainian households prepare varenyky with the same dough and filling.",
+        "ua": "Усі українські родини готують вареники з однакового тіста та начинки."
+      },
+      "explanation": {
+        "en": "Dough, fillings and serving styles change by locality, household and season.",
+        "ua": "Тісто, начинки та подача відрізняються за місцевістю, родиною та сезоном."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-242-03",
+      "theoryId": 242,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match Ukrainian preparations to their key techniques.",
+        "ua": "Поєднайте українські страви з основними техніками."
+      },
+      "explanation": {
+        "en": "These methods are adaptable, with regional and household differences.",
+        "ua": "Ці способи можна адаптувати відповідно до регіональних і родинних відмінностей."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Varenyky",
+            "ua": "Вареники"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Borscht",
+            "ua": "Борщ"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Syrnyky",
+            "ua": "Сирники"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Build and balance a vegetable-rich broth",
+            "ua": "Створити й збалансувати овочевий бульйон"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Shape and pan-cook a curd-based mixture",
+            "ua": "Сформувати й обсмажити суміш із кисломолочного сиру"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Form and gently cook filled dough",
+            "ua": "Сформувати та делікатно зварити тісто з начинкою"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-242-04",
+      "theoryId": 242,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "You need to explain borscht to a learner from another country. Which description is best?",
+        "ua": "Потрібно пояснити борщ учневі з іншої країни. Який опис найкращий?"
+      },
+      "explanation": {
+        "en": "Teach the culinary method and cultural context, avoiding rigid stereotypes.",
+        "ua": "Пояснюйте техніку та культурний контекст, не нав’язуючи жорстких стереотипів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "All versions without beans are invalid",
+            "ua": "Усі варіанти без квасолі неправильні"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A Ukrainian tradition with diverse local forms and common beet-based examples",
+            "ua": "Українська традиція з різними місцевими формами та поширеними варіантами на основі буряка"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "A fixed commercial recipe invented recently",
+            "ua": "Нещодавно створений незмінний комерційний рецепт"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-242-05",
+      "theoryId": 242,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which practices help preserve and study Ukrainian food traditions?",
+        "ua": "Які практики допомагають зберігати та досліджувати українські кулінарні традиції?"
+      },
+      "explanation": {
+        "en": "Culinary heritage includes skills, relationships and adaptation.",
+        "ua": "Кулінарна спадщина охоплює навички, взаємозв’язки та адаптацію."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Practice dough, broth and fermentation techniques",
+            "ua": "Практикувати роботу з тістом, бульйонами та ферментацією"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Document family versions and context",
+            "ua": "Документувати родинні варіанти та їхній контекст"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Study seasonal local produce",
+            "ua": "Вивчати сезонні місцеві продукти"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Reject all regional differences",
+            "ua": "Відкидати всі регіональні відмінності"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "c",
+          "a"
+        ]
+      }
+    }
+  ]
+}

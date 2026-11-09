@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 255,
+    "title": {
+      "en": "North American Barbecue and Regional Cooking",
+      "ua": "Північноамериканське барбекю та регіональна кухня"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary theory uses cited educational sources. Safety procedures must comply with applicable local food-service rules; US food-safety references do not automatically establish Ukrainian legal requirements.",
+    "ua": "Теорії кулінарії спираються на наведені навчальні джерела. Заходи безпеки мають відповідати чинним місцевим нормам громадського харчування; рекомендації США не є автоматично правовими вимогами України."
+  },
+  "sources": [
+    "https://www.pbs.org/video/where-did-american-bbq-really-come-from-nvrycu/",
+    "https://www.americanhistory.si.edu/explore/exhibitions/food/online/resetting-table/backyard-cookout/pits-patios",
+    "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-255-01",
+      "theoryId": 255,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "In low-and-slow barbecue, why is time alone insufficient to decide when a large cut is ready?",
+        "ua": "Чому під час тривалого барбекю самого часу недостатньо, щоб визначити готовність великого шматка?"
+      },
+      "explanation": {
+        "en": "A thermometer and texture assessment are more reliable than timing alone.",
+        "ua": "Термометр і оцінка текстури надійніші за сам лише час."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Every cut becomes safe after exactly 30 minutes",
+            "ua": "Кожен шматок стає безпечним рівно за 30 хвилин"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A dark exterior proves every center is safe",
+            "ua": "Темна скоринка доводить безпечність будь-якої середини"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cut thickness, collagen changes and safe internal temperature also matter",
+            "ua": "Товщина шматка, зміни колагену та безпечна внутрішня температура також важливі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-255-02",
+      "theoryId": 255,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "All North American barbecue is cooked in the same way with the same fuel.",
+        "ua": "Усе північноамериканське барбекю готують однаково й на тому самому паливі."
+      },
+      "explanation": {
+        "en": "Fuel, smoke, sauces, meats and cooking methods vary by region.",
+        "ua": "Паливо, дим, соуси, види м’яса та способи приготування різняться за регіонами."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-255-03",
+      "theoryId": 255,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match barbecue concepts with their function.",
+        "ua": "Поєднайте поняття барбекю з функцією."
+      },
+      "explanation": {
+        "en": "Tenderness, flavor and microbial safety require different checks.",
+        "ua": "Ніжність, смак і мікробіологічну безпечність перевіряють по-різному."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Indirect heat",
+            "ua": "Непряме нагрівання"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Smoke",
+            "ua": "Дим"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Resting",
+            "ua": "Відпочинок м’яса"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Provides aroma and surface compounds",
+            "ua": "Надає аромат і речовини поверхневого шару"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Allows temperature and moisture redistribution",
+            "ua": "Допомагає перерозподілу температури та вологи"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Limits direct scorching in long cooks",
+            "ua": "Обмежує пряме підгоряння при тривалому приготуванні"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-255-04",
+      "theoryId": 255,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A large smoked poultry piece looks brown outside. How should its doneness be verified?",
+        "ua": "Великий шматок копченої птиці зовні коричневий. Як перевірити готовність?"
+      },
+      "explanation": {
+        "en": "Exterior color does not establish a safe center temperature.",
+        "ua": "Колір поверхні не підтверджує безпечну внутрішню температуру."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Measure the thickest part with a clean food thermometer",
+            "ua": "Виміряти температуру найтовстішої частини чистим харчовим термометром"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume all smoked meat can be served raw inside",
+            "ua": "Вважати, що будь-яке копчене м’ясо можна подавати сирим усередині"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Judge only by smoke color",
+            "ua": "Орієнтуватися лише на колір диму"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-255-05",
+      "theoryId": 255,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which variables affect barbecue results?",
+        "ua": "Які чинники впливають на результат барбекю?"
+      },
+      "explanation": {
+        "en": "Cooking process, cut and safety must be assessed independently.",
+        "ua": "Процес, частину туші та безпечність слід оцінювати окремо."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Heat placement and airflow",
+            "ua": "Розташування жару й потік повітря"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The assumption that smoke sterilizes all foods",
+            "ua": "Припущення, що дим стерилізує всі продукти"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Internal temperature and rest",
+            "ua": "Внутрішня температура та відпочинок"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Meat cut and connective tissue",
+            "ua": "Частина туші та сполучна тканина"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "d",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-255-06",
+      "theoryId": 255,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a basic safe barbecue workflow for a large cut.",
+        "ua": "Упорядкуйте базовий безпечний процес барбекю для великого шматка."
+      },
+      "explanation": {
+        "en": "Safe doneness is established by an appropriate method, not color alone.",
+        "ua": "Безпечність готовності визначають належним методом, а не лише кольором."
+      },
+      "steps": [
+        {
+          "id": "s4",
+          "text": {
+            "en": "Rest, portion and serve safely",
+            "ua": "Дати відпочити, нарізати й безпечно подати"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Prepare the cooking equipment and food safely",
+            "ua": "Безпечно підготувати обладнання та продукти"
+          }
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Cook with controlled heat and monitor internal temperature",
+            "ua": "Готувати на контрольованому жарі та вимірювати внутрішню температуру"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Confirm safe doneness and intended texture",
+            "ua": "Перевірити безпечну готовність та потрібну текстуру"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

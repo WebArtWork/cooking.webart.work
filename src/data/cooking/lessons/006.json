@@ -1,77 +1,78 @@
 {
   "id": 6,
-  "slug": "006-time-management-and-parallel-cooking",
+  "slug": "006-weights-volumes-and-unit-conversions",
   "group": "001",
   "title": {
-    "en": "Time Management and Parallel Cooking",
-    "ua": "Керування часом та паралельне приготування"
+    "en": "Weights, Volumes, and Unit Conversions",
+    "ua": "Вага, об’єм та перетворення одиниць вимірювання"
   },
   "en": {
-    "short": "Time management in cooking separates hands-on work from unattended heating, resting, and chilling. Coordinating these intervals helps serve several components at their best quality without losing control of safety.",
+    "short": "Measuring by weight, volume, and temperature requires understanding different units and the difference between accurate and repeatable measurements. Consistent conversions and properly used equipment make recipes reproducible, especially in baking and food safety.",
     "sections": [
       {
         "title": "Core idea",
-        "text": "Elapsed time is not the same as labor time. A dish may require 50 minutes in the oven but only 10 minutes of preparation; another needs constant stirring for 15 minutes. Good scheduling accounts for attention as well as duration."
+        "text": "Grams and kilograms describe mass; milliliters and liters describe volume. The relation between mass and volume depends on density, so 100 ml of oil does not weigh exactly 100 g, and a cup of flour is not equivalent to a cup of water by mass."
       },
       {
         "title": "Scientific / practical principles",
-        "text": "Tasks are constrained by people, burners, oven space, clean surfaces and ingredients. Parallel work succeeds when one operation can safely proceed while another is performed; too much concurrency raises error rates."
+        "text": "Useful exact metric conversions are 1 kg = 1,000 g and 1 L = 1,000 ml. Fahrenheit converts to Celsius by subtracting 32 and multiplying by 5/9; Celsius converts to Fahrenheit by multiplying by 9/5 and adding 32."
       },
       {
         "title": "How to apply it",
-        "text": "Build a simple timeline: task, start, estimated finish, active attention, equipment and last-minute actions. Put temperature checks and cooling deadlines on the schedule. Add a buffer for variable doneness and unexpected delays."
+        "text": "Use a digital scale for flour, salt, sugar and other precise ingredients. Tare the container between additions, select a measuring jug for liquids, and verify which type of “cup,” tablespoon or teaspoon a source recipe assumes."
       },
       {
         "title": "Practical example",
-        "text": "If potatoes need 35 minutes of roasting and fish needs 12 minutes, begin potatoes first; prepare fish and vegetables during the initial roast. Start the fish later so both are ready for service."
+        "text": "An oven set to 180°C is about 356°F, commonly rounded to 350°F in recipes. However, 250 ml of flour cannot be converted to grams without accounting for packing and the flour type."
       },
       {
         "title": "Common mistakes and limitations",
-        "text": "Do not leave frying or high-heat cooking unattended to gain a few minutes. Do not use a timer as proof of safe cooking, and avoid leaving perishable ingredients on the counter while working on another task."
+        "text": "The most frequent errors are using volume as mass, mixing metric and US customary cups, neglecting a tare operation, and rounding tiny quantities such as leavening agents too aggressively."
       },
       {
-        "title": "Related theories",
-        "text": "005, 014, 020."
+        "title": "Additional application",
+        "text": "Accuracy means closeness to the intended measurement; precision means repeatability. A scale reading 101 g every time is precise but inaccurate if the true mass is 100 g. Calibrate equipment when needed, zero the container, and record whether measurements refer to raw or cooked food."
       }
     ]
   },
   "ua": {
-    "short": "Керування часом у кулінарії розділяє активну роботу, нагрівання без постійного втручання, відпочинок та охолодження. Узгодження цих етапів допомагає вчасно подавати різні компоненти й не нехтувати безпечністю.",
+    "short": "Для вимірювання маси, об’єму й температури потрібні різні одиниці та розуміння похибок. Правильне перетворення величин і налаштовані інструменти допомагають відтворювати рецепти, особливо у випічці та контролі безпечності.",
     "sections": [
       {
         "title": "Суть",
-        "text": "Загальна тривалість не дорівнює часу активної роботи. Страва може пектися 50 хвилин, але вимагати лише 10 хвилин підготовки; інша потребує постійного помішування протягом 15 хвилин. Планування має враховувати не тільки час, а й увагу кухаря."
+        "text": "Грами та кілограми вимірюють масу, а мілілітри й літри вимірюють об’єм. Зв’язок між ними залежить від густини: 100 мл олії не важать точно 100 г, а склянка борошна й склянка води мають різну масу."
       },
       {
         "title": "Наукові та практичні принципи",
-        "text": "Кількість одночасних завдань обмежують люди, конфорки, об’єм духовки, чисті поверхні та наявні продукти. Паралельна робота ефективна, коли одна операція може безпечно тривати під час виконання іншої."
+        "text": "Точні метричні перетворення: 1 кг = 1 000 г, 1 л = 1 000 мл. Для перетворення Фаренгейтів на Цельсії відніміть 32 і помножте на 5/9; для зворотного перетворення помножте на 9/5 і додайте 32."
       },
       {
         "title": "Як застосовувати",
-        "text": "Складіть короткий графік: операція, початок, очікуване завершення, потрібна увага, обладнання та фінальні дії. Передбачте перевірку температури, строки охолодження та резерв на можливі затримки."
+        "text": "Для борошна, солі, цукру та інших точних компонентів користуйтеся електронними вагами. Обнуляйте вагу тари між додаваннями, рідини за потреби міряйте мірним посудом і уточнюйте, яку саме «склянку» мав на увазі автор."
       },
       {
         "title": "Практичний приклад",
-        "text": "Якщо картопля запікається 35 хвилин, а риба готується 12, спершу почніть із картоплі. У цей час підготуйте рибу й овочі, а рибу поставте пізніше, щоб усе було готове до подачі."
+        "text": "Температура 180°C приблизно дорівнює 356°F; у рецептах її часто округлюють до 350°F. Натомість 250 мл борошна не можна коректно перевести в грами без знання його щільності та способу наповнення."
       },
       {
         "title": "Поширені помилки й обмеження",
-        "text": "Не залишайте фритюр або інтенсивне смаження без нагляду задля економії часу. Таймер не доводить безпечної готовності, а швидкопсувні продукти не слід тримати на столі, поки виконуєте інші завдання."
+        "text": "Часті помилки: прирівнювати об’єм до маси, змішувати метричні та американські міри, забувати обнулити тару та надмірно округлювати малі дози розпушувачів."
       },
       {
-        "title": "Пов’язані теорії",
-        "text": "005, 014, 020."
+        "title": "Додаткове застосування",
+        "text": "Точність щодо істинного значення означає близькість до потрібної величини, а повторюваність означає стабільність показників. Ваги, які завжди показують 101 г замість справжніх 100 г, повторювані, але мають похибку. За потреби перевіряйте калібрування, обнуляйте тару та уточнюйте, чи масу вказано для сирого або готового продукту."
       }
     ]
   },
   "related": [
-    5,
-    14,
-    20
+    7,
+    9,
+    266,
+    273
   ],
   "referenceTitle": "References / Джерела",
   "references": [
-    "https://www.cacfp.org/2024/05/07/culinary-basics-mise-en-place/",
-    "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food/"
+    "https://www.nist.gov/pml/owm/nist-metric-recipes-sp-1290",
+    "https://extension.umn.edu/food/preparing/cooking-at-home"
   ]
 }

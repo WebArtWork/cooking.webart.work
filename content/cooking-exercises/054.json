@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 54,
+    "title": {
+      "en": "Maillard Reaction",
+      "ua": "Реакція Майяра"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://teachersinstitute.yale.edu/curriculum/units/2020/2/20.02.03/2",
+    "https://asbe.org/article/baking/",
+    "https://harvardonline.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-chemistry"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-054-01",
+      "theoryId": 54,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which reactive ingredients are central to Maillard browning?",
+        "ua": "Які реагенти є основними для реакції Майяра?"
+      },
+      "explanation": {
+        "en": "Maillard browning creates diverse aromas from reactions involving sugars and amino compounds.",
+        "ua": "Реакція Майяра утворює різноманітні аромати завдяки взаємодії цукрів та аміносполук."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Reducing sugars and amino groups",
+            "ua": "Відновлювальні цукри й аміногрупи"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Only salt and water",
+            "ua": "Лише сіль і вода"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only pure sugar without amino compounds",
+            "ua": "Лише чистий цукор без аміносполук"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-054-02",
+      "theoryId": 54,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Maillard browning and caramelization are identical chemical processes.",
+        "ua": "Реакція Майяра й карамелізація — однакові хімічні процеси."
+      },
+      "explanation": {
+        "en": "Caramelization involves sugar chemistry, while Maillard also needs amino groups.",
+        "ua": "Карамелізація пов’язана з перетвореннями цукрів; для Майяра потрібні також аміногрупи."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-054-03",
+      "theoryId": 54,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match conditions to Maillard browning effects.",
+        "ua": "Поєднайте умови з впливом на реакцію Майяра."
+      },
+      "explanation": {
+        "en": "Heat, moisture, pH, and composition all influence Maillard products.",
+        "ua": "Тепло, волога, pH та склад впливають на продукти реакції Майяра."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Wet, crowded pan",
+            "ua": "Мокра переповнена сковорода"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Dry, hot surface",
+            "ua": "Суха гаряча поверхня"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Too much heat for too long",
+            "ua": "Надмірний тривалий нагрів"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Potential burnt or acrid flavors",
+            "ua": "Можливі горілі та гіркі присмаки"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Browning proceeds more readily",
+            "ua": "Підрум’янення відбувається активніше"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Steam slows surface browning",
+            "ua": "Пара уповільнює підрум’янення поверхні"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-054-04",
+      "theoryId": 54,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the conditions leading to a roast crust.",
+        "ua": "Упорядкуйте умови формування скоринки під час запікання."
+      },
+      "explanation": {
+        "en": "Dryer surfaces often brown more efficiently than wet ones.",
+        "ua": "Сухіша поверхня зазвичай рум’яниться ефективніше за вологу."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Surface can reach higher dry-heat temperature",
+            "ua": "Поверхня може нагрітися до вищої температури сухого жару"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Surface moisture decreases",
+            "ua": "Поверхнева волога зменшується"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Maillard browning develops roasted aromas and color",
+            "ua": "Реакція Майяра утворює рум’яний колір і смажений аромат"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-054-05",
+      "theoryId": 54,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your mushrooms are pale after pan-frying. What adjustment favors Maillard browning?",
+        "ua": "Після смаження гриби залишаються блідими. Що сприяє реакції Майяра?"
+      },
+      "explanation": {
+        "en": "Excess moisture and crowding delay higher surface temperatures.",
+        "ua": "Надмірна волога та тіснота затримують підвищення температури поверхні."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Spread into smaller batches on a sufficiently hot pan",
+            "ua": "Смажити меншими партіями на достатньо гарячій сковороді"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Continuously pour water into the pan",
+            "ua": "Постійно доливати воду на сковороду"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cover tightly and avoid evaporation",
+            "ua": "Щільно накрити й уникати випаровування"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-054-06",
+      "theoryId": 54,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which factors commonly influence Maillard browning?",
+        "ua": "Які чинники зазвичай впливають на реакцію Майяра?"
+      },
+      "explanation": {
+        "en": "Moisture, temperature, time and reactant composition all matter.",
+        "ua": "Вологість, температура, час та склад реагентів мають значення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Surface moisture",
+            "ua": "Вологість поверхні"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Temperature and time",
+            "ua": "Температура та час"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Food amino groups and reducing sugars",
+            "ua": "Аміногрупи та відновлювальні цукри в продукті"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Pan handle color alone",
+            "ua": "Лише колір руків’я сковороди"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

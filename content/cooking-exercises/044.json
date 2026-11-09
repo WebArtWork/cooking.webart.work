@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 44,
+    "title": {
+      "en": "Conduction, Convection, and Radiation",
+      "ua": "Теплопровідність, конвекція та випромінювання"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://teachersinstitute.yale.edu/curriculum/units/2020/2/20.02.03/2",
+    "https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/energy-basics/",
+    "https://dbauer.physics.ucla.edu/5b/02-specific-heat-and-phase-changes/"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-044-01",
+      "theoryId": 44,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which mechanism transfers heat from a hot pan directly into food touching it?",
+        "ua": "Який механізм переносить тепло від гарячої сковороди до продукту, що її торкається?"
+      },
+      "explanation": {
+        "en": "Direct material contact transfers energy by conduction.",
+        "ua": "За безпосереднього контакту енергія передається теплопровідністю."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Conduction",
+            "ua": "Теплопровідність"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Thermal radiation only",
+            "ua": "Лише теплове випромінювання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Fermentation",
+            "ua": "Ферментація"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-044-02",
+      "theoryId": 44,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "A fan-assisted oven relies partly on forced convection.",
+        "ua": "Духовка з вентилятором частково використовує примусову конвекцію."
+      },
+      "explanation": {
+        "en": "Moving hot air changes heat transfer around food.",
+        "ua": "Рух гарячого повітря змінює теплообмін довкола продукту."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-044-03",
+      "theoryId": 44,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match each heat transfer mechanism to an example.",
+        "ua": "Поєднайте механізм теплопередавання з прикладом."
+      },
+      "explanation": {
+        "en": "Most cooking systems combine several forms of heat transfer.",
+        "ua": "Більшість кухонних систем поєднує кілька видів теплопередавання."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Conduction",
+            "ua": "Теплопровідність"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Convection",
+            "ua": "Конвекція"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Radiation",
+            "ua": "Випромінювання"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Glowing broiler heating surface",
+            "ua": "Розпечений верхній нагрівач прогріває поверхню"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Hot air moved by oven fan",
+            "ua": "Гаряче повітря рухається вентилятором духовки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Pan touching steak",
+            "ua": "Сковорода контактує зі стейком"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-044-04",
+      "theoryId": 44,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order events when a pan-seared potato slice heats.",
+        "ua": "Упорядкуйте етапи нагрівання скибки картоплі на сковороді."
+      },
+      "explanation": {
+        "en": "Heat transfer continues inside the food after its surface warms.",
+        "ua": "Після нагрівання поверхні тепло продовжує проходити всередину продукту."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "The hot pan transfers energy into the slice surface",
+            "ua": "Гаряча сковорода передає енергію поверхні скибки"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "The burner transfers energy to the pan",
+            "ua": "Конфорка передає енергію сковороді"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Heat moves inward toward the slice center",
+            "ua": "Тепло поширюється до середини скибки"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-044-05",
+      "theoryId": 44,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Your roasted vegetables brown unevenly in a still-air oven. What can help?",
+        "ua": "Овочі запікаються нерівномірно в духовці без обдування. Що може допомогти?"
+      },
+      "explanation": {
+        "en": "Air circulation and tray position affect convective heating and browning.",
+        "ua": "Рух повітря та розташування дека впливають на конвективне нагрівання й підрум’янення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use the appropriate convection fan setting and rotate trays if needed",
+            "ua": "За потреби використати конвекційний режим і переставляти дека"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pack all vegetables into a heap",
+            "ua": "Скласти всі овочі щільною купою"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Turn off every heat source immediately",
+            "ua": "Одразу вимкнути всі джерела тепла"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-044-06",
+      "theoryId": 44,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which are examples of heat transfer in cooking?",
+        "ua": "Що є прикладами теплопередавання під час готування?"
+      },
+      "explanation": {
+        "en": "Conduction, convection, and radiation can operate simultaneously in kitchens.",
+        "ua": "Теплопровідність, конвекція та випромінювання можуть діяти одночасно."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Hot pan contacting food",
+            "ua": "Гаряча сковорода контактує з продуктом"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Hot circulating oven air",
+            "ua": "Гаряче повітря циркулює в духовці"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Infrared heating from a glowing element",
+            "ua": "Інфрачервоне нагрівання від розпеченого елемента"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "A recipe title printed in a book",
+            "ua": "Назва рецепта, надрукована в книзі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

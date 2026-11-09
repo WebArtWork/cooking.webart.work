@@ -143,6 +143,63 @@ html[data-mode='dark'] {
 .cook-account button {
 	min-height: 44px;
 }
+.cook-account a.cook-points {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding-inline: 12px;
+	border: 1px solid var(--border);
+	border-radius: var(--radius-btn);
+	font-size: 15px;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	text-decoration: none;
+	color: var(--foreground);
+}
+.cook-points app-icon {
+	color: var(--primary);
+}
+.cook-print-btn {
+	width: 44px;
+	padding: 12px !important;
+}
+.cook-rank-progress {
+	height: 8px;
+	border-radius: 999px;
+	background: var(--muted);
+	overflow: hidden;
+}
+.cook-rank-progress > span {
+	display: block;
+	height: 100%;
+	background: var(--primary);
+}
+.cook-rank-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8px;
+	padding: 0;
+	list-style: none;
+}
+.cook-rank-list li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	padding: 12px 4px;
+	text-align: center;
+	font-size: 12px;
+	color: var(--muted-foreground);
+	border: 1px solid var(--border);
+	border-radius: 12px;
+}
+.cook-rank-list li[aria-current='true'] {
+	border-color: var(--primary);
+	color: var(--foreground);
+}
+.cook-rank-list li.is-locked {
+	opacity: 0.55;
+}
 .cook-hero {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -264,6 +321,13 @@ html[data-mode='dark'] {
 	flex-wrap: wrap;
 	gap: 16px;
 }
+.cook-account-icon,
+.cook-tabbar,
+.cook-pagename,
+.cook-filter-btn,
+.cook-filter-panel {
+	display: none;
+}
 .cook-footer a {
 	display: inline-flex;
 	align-items: center;
@@ -326,7 +390,7 @@ html[data-mode='dark'] {
 }
 @media (max-width: 767px) {
 	.cook-shell {
-		padding-inline: 20px;
+		padding-inline: 24px;
 	}
 	.cook-header .cook-shell {
 		flex-wrap: wrap;
@@ -337,16 +401,109 @@ html[data-mode='dark'] {
 		font-size: 24px;
 	}
 	.cook-nav {
-		order: 3;
-		width: 100%;
-		justify-content: center;
-		gap: 0;
+		display: none;
 	}
-	.cook-nav a {
-		padding-inline: 16px;
+	.cook-hide-mobile {
+		display: none;
+	}
+	.cook-pagename {
+		display: block;
+		flex: 1;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-family: var(--font-display, inherit);
+		font-size: 20px;
+	}
+	.cook-account {
+		gap: 4px;
+	}
+	.cook-account a.cook-points {
+		padding-inline: 10px;
+		gap: 6px;
+	}
+	.cook-header .cook-shell {
+		flex-wrap: nowrap;
+		min-height: 64px;
+		padding-block: 8px;
+	}
+	.cook-filter-btn {
+		display: inline-flex;
+		width: 44px;
+		padding: 12px !important;
+		position: relative;
+	}
+	.cook-filter-btn.is-active::after {
+		content: '';
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: var(--primary);
+	}
+	.cook-filter-panel {
+		display: block;
+		padding-block: 8px 16px;
+		border-top: 1px solid var(--border);
+	}
+	.cook-tabbar {
+		display: block;
+		position: fixed;
+		inset-inline: 0;
+		bottom: 0;
+		z-index: 30;
+		border-top: 1px solid var(--border);
+		background: var(--background);
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+	.cook-tabbar ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		max-width: 448px;
+		margin-inline: auto;
+		padding: 0;
+		list-style: none;
+	}
+	.cook-tabbar a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2px;
+		height: 56px;
+		font-size: 12px;
+		font-weight: 500;
+		text-decoration: none;
+		color: var(--muted-foreground);
+	}
+	.cook-tabbar a[aria-current='page'] {
+		color: var(--primary);
+		font-weight: 600;
+	}
+	#main {
+		padding-bottom: calc(72px + env(safe-area-inset-bottom));
 	}
 	.cook-account a {
 		padding-inline: 12px;
+	}
+	.cook-account a:has(.cook-account-icon) {
+		width: 44px;
+		justify-content: center;
+		padding-inline: 0;
+	}
+	.cook-account-icon {
+		display: inline-flex;
+	}
+	.cook-account-text {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
 	}
 	.cook-hero {
 		grid-template-columns: 1fr;
@@ -374,6 +531,9 @@ html[data-mode='dark'] {
 		padding-block: 32px;
 	}
 }
+.cooking-sheet {
+	display: none;
+}
 @media print {
 	html[data-mode],
 	body,
@@ -381,10 +541,25 @@ html[data-mode='dark'] {
 		background: white !important;
 		color: black !important;
 	}
+	.splash,
 	.cook-header,
 	.cook-footer,
+	.cook-tabbar,
 	.ds-btn,
 	.cook-account {
 		display: none !important;
+	}
+	.cook-printing main#main {
+		display: none !important;
+	}
+	.cooking-sheet {
+		display: block;
+	}
+}
+
+/* on the narrowest phones the logo gives way to the page name in the top bar */
+@media (max-width: 399px) {
+	.cook-brand-compact img {
+		display: none;
 	}
 }

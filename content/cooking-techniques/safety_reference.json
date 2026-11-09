@@ -1,0 +1,77 @@
+{
+  "informationalOnly": true,
+  "warning": {
+    "en": "Not a recipe or safety certification. These non-exhaustive flags identify methods needing extra attention.",
+    "ua": "Не є рецептом або гарантією безпеки. Неповні позначки вказують на методи, що потребують особливої уваги."
+  },
+  "groups": [
+    {
+      "id": "temperature-sensitive",
+      "techniqueIds": [
+        "acid-curing-seafood",
+        "sous-vide",
+        "low-temperature-water-bath",
+        "hot-smoking",
+        "cold-smoking",
+        "vacuum-infusion",
+        "vacuum-compression",
+        "pressure-cooking",
+        "pressure-frying",
+        "thawing-in-refrigerator",
+        "cold-water-thawing"
+      ],
+      "note": {
+        "en": "Use validated food-safe time/temperature instructions and appropriate equipment; vacuum packaging and low-temperature cooking need additional control.",
+        "ua": "Дотримуйтеся перевірених режимів часу й температури та використовуйте відповідне обладнання; вакуумне пакування й низькотемпературне приготування потребують додаткового контролю."
+      }
+    },
+    {
+      "id": "preservation-critical",
+      "techniqueIds": [
+        "lacto-fermentation",
+        "vegetable-fermentation",
+        "miso-fermentation",
+        "soy-sauce-fermentation",
+        "fermented-fish-sauce-making",
+        "fermented-shrimp-paste-making",
+        "salt-curing",
+        "sugar-curing",
+        "dry-curing",
+        "wet-curing",
+        "confit-preservation",
+        "sun-drying",
+        "air-drying",
+        "dehydrator-drying",
+        "water-bath-canning",
+        "pressure-canning",
+        "steam-canning",
+        "hot-filling",
+        "pasteurizing",
+        "vinegar-pickling",
+        "brine-pickling",
+        "refrigerator-pickling"
+      ],
+      "note": {
+        "en": "This is a vocabulary catalog, not a safe preservation recipe. Follow a validated product-specific process, including salt/acid level, time, temperature, pressure and storage requirements.",
+        "ua": "Це каталог термінів, а не інструкція з безпечного консервування. Використовуйте перевірені рецептури з вимогами до солі, кислотності, часу, температури, тиску та зберігання."
+      }
+    },
+    {
+      "id": "equipment-hazard",
+      "techniqueIds": [
+        "flambeing",
+        "pressure-frying",
+        "liquid-nitrogen-freezing",
+        "cryogenic-powdering",
+        "rotary-evaporation",
+        "torch-finishing",
+        "open-fire-roasting",
+        "pit-roasting"
+      ],
+      "note": {
+        "en": "Specialized equipment or fire/cryogenic handling may be required; follow qualified operator guidance.",
+        "ua": "Може знадобитися спеціальне обладнання або робота з полум’ям чи кріогенними речовинами; дотримуйтеся професійних інструкцій."
+      }
+    }
+  ]
+}

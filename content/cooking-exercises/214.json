@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 214,
+    "title": {
+      "en": "Fermented Legumes and Traditional Protein Foods",
+      "ua": "Ферментовані бобові та традиційні білкові продукти"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+    "https://www.mda.state.mn.us/acidified-foods"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-214-01",
+      "theoryId": 214,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is a characteristic microorganism used for traditional tempeh?",
+        "ua": "Які мікроорганізми характерні для традиційного темпе?"
+      },
+      "explanation": {
+        "en": "Tempeh uses selected Rhizopus cultures that bind cooked legumes into a cake.",
+        "ua": "Для темпе використовують відібрані культури Rhizopus, що поєднують приготовані бобові в щільний пласт."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Rhizopus starter mold",
+            "ua": "Закваска з грибів роду Rhizopus"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unidentified wild mold",
+            "ua": "Невідома дика пліснява"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Only baker’s yeast",
+            "ua": "Лише хлібопекарські дріжджі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-214-02",
+      "theoryId": 214,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Fermented legumes are always safe to eat raw merely because fermentation occurred.",
+        "ua": "Ферментовані бобові завжди безпечно їсти сирими лише тому, що відбулася ферментація."
+      },
+      "explanation": {
+        "en": "Safety depends on product, culture, process, storage, and any required cooking.",
+        "ua": "Безпечність залежить від продукту, культури, процесу, зберігання та необхідної теплової обробки."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-214-03",
+      "theoryId": 214,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match fermented legume foods to their primary transformation.",
+        "ua": "Поєднайте ферментовані бобові продукти з основним процесом."
+      },
+      "explanation": {
+        "en": "Different cultures lead to distinct textures and flavor profiles.",
+        "ua": "Різні культури утворюють відмінні текстури та смаки."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Tempeh",
+            "ua": "Темпе"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Natto",
+            "ua": "Натто"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Miso",
+            "ua": "Місо"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r2",
+          "text": {
+            "en": "Bacterial fermentation creates a sticky texture",
+            "ua": "Бактеріальне бродіння створює тягучу текстуру"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Selected mold binds beans into a cake",
+            "ua": "Відібрана грибкова культура зв’язує боби в пласт"
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "en": "Enzyme-driven development of a salty savory paste",
+            "ua": "Ферментативне формування солоної пасти насиченого смаку"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-214-04",
+      "theoryId": 214,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A beginner has cooked soybeans and wants to make tempeh. What should they choose?",
+        "ua": "Новачок приготував сою й хоче зробити темпе. Що слід обрати?"
+      },
+      "explanation": {
+        "en": "Inoculation with a proper food culture is important for predictable, safe fermentation.",
+        "ua": "Використання належної харчової культури важливе для передбачуваної та безпечної ферментації."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A verified food-grade Rhizopus starter and controlled procedure",
+            "ua": "Перевірену харчову культуру Rhizopus та контрольований процес"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unknown mold collected outdoors",
+            "ua": "Невідому плісняву, зібрану надворі"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "No starter, sanitation, or temperature control",
+            "ua": "Відсутність закваски, гігієни та контролю температури"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-214-05",
+      "theoryId": 214,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order the broad stages of a verified tempeh process.",
+        "ua": "Упорядкуйте загальні етапи перевіреного процесу приготування темпе."
+      },
+      "explanation": {
+        "en": "Each stage prepares the substrate for safe, controlled mold growth.",
+        "ua": "Кожен етап готує субстрат до безпечного контрольованого росту грибкової культури."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Cool and drain as the tested procedure directs",
+            "ua": "Охолодити та обсушити за перевіреною процедурою"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Incubate with controlled conditions",
+            "ua": "Ферментувати в контрольованих умовах"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Prepare and cook the beans",
+            "ua": "Підготувати та зварити боби"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Inoculate with food-grade starter",
+            "ua": "Внести харчову закваску"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    }
+  ]
+}

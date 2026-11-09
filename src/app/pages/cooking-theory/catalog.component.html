@@ -1,48 +1,18 @@
 <section class="cook-page" aria-labelledby="theories-title">
-	<h1 id="theories-title">{{ 'Cooking theories' | t }}</h1>
-	<p>
+	<h1 id="theories-title" class="cooking-head">{{ 'Cooking theories' | t }}</h1>
+	<p class="cooking-head">
 		{{
-			'Explore 330 lessons in English and Ukrainian. Start with a short explanation, then read the full theory.'
+			'Explore 288 lessons in English and Ukrainian. Start with a short explanation, then read the full theory.'
 				| t
 		}}
 	</p>
-	<div class="cooking-search">
-		<label
-			><span>{{ 'Search lessons' | t }}</span
-			><input
-				class="ds-input"
-				type="search"
-				[value]="query()"
-				[placeholder]="'Title, number or keyword' | t"
-				(input)="updateQuery($any($event.target).value)"
-		/></label>
-		<label
-			><span>{{ 'Topic' | t }}</span
-			><select
-				class="ds-input"
-				[value]="group()"
-				(change)="updateGroup($any($event.target).value)"
-			>
-				<option value="">{{ 'All topics' | t }}</option>
-				@for (item of groups; track item.id) {
-					<option [value]="item.id">{{ pick(item.title, language()) }}</option>
-				}
-			</select></label
-		>
-	</div>
-	<div class="cooking-list-tools">
-		<p role="status">{{ '{count} of 330 lessons' | t: { count: count() } }}</p>
-		<nav [attr.aria-label]="'Print all theories' | t">
-			<a class="ds-btn ds-btn-outline" routerLink="/theories/print/short">{{
-				'Print short theories' | t
-			}}</a
-			><a class="ds-btn ds-btn-outline" routerLink="/theories/print/full">{{
-				'Print full theories' | t
-			}}</a>
-		</nav>
-	</div>
+	<app-cooking-controls class="cooking-controls" />
 	@for (item of results(); track item.id; let first = $first) {
-		<details class="cooking-topic" [open]="first || !!query() || !!group()">
+		<details
+			class="cooking-topic"
+			[open]="isOpen(item.id, first)"
+			(toggle)="toggled(item.id, $any($event.target).open)"
+		>
 			<summary>
 				<span>{{ pick(item.title, language()) }}</span
 				><span class="cooking-topic-count">{{ item.lessons.length }}</span>
@@ -50,7 +20,7 @@
 			<ol class="cooking-lesson-list">
 				@for (lesson of item.lessons; track lesson.id) {
 					<li>
-						<span class="cook-number">{{ lesson.id.toString().padStart(3, '0') }}</span>
+						<span class="cook-number">{{ lesson.id }}</span>
 						<div>
 							<h2>
 								<a [routerLink]="['/theories', lesson.slug]">{{
@@ -70,7 +40,7 @@
 		<div class="ds-card cooking-empty">
 			<h2>{{ 'No lessons found' | t }}</h2>
 			<p>{{ 'Try another word or clear your filters.' | t }}</p>
-			<button class="ds-btn ds-btn-primary" type="button" (click)="clear()">
+			<button class="ds-btn ds-btn-primary" type="button" (click)="filters.clear()">
 				{{ 'Clear filters' | t }}
 			</button>
 		</div>

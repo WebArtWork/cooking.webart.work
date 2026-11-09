@@ -1,0 +1,324 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 12,
+    "title": {
+      "en": "Biological, Chemical, and Physical Food Hazards",
+      "ua": "Біологічні, хімічні та фізичні харчові небезпеки"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+    "https://www.fda.gov/food/fda-food-code/food-code-2026",
+    "https://www.who.int/publications/i/item/9789241594639"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-012-01",
+      "theoryId": 12,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Classify each example of a food hazard.",
+        "ua": "Класифікуйте кожний приклад харчової небезпеки."
+      },
+      "explanation": {
+        "en": "Hazard categories require different prevention and control methods.",
+        "ua": "Різні категорії небезпек потребують різних заходів профілактики та контролю."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Salmonella in raw poultry",
+            "ua": "Сальмонела в сирій птиці"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Cleaning detergent in soup",
+            "ua": "Мийний засіб у супі"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Broken glass in a salad",
+            "ua": "Уламок скла в салаті"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Physical",
+            "ua": "Фізична"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Chemical",
+            "ua": "Хімічна"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Biological",
+            "ua": "Біологічна"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-012-02",
+      "theoryId": 12,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which hazard is least likely to be removed by ordinary cooking?",
+        "ua": "Яку небезпеку звичайне приготування найменше здатне усунути?"
+      },
+      "explanation": {
+        "en": "Heat cannot remove a foreign object. A contaminated batch may need to be discarded.",
+        "ua": "Термообробка не видаляє сторонній предмет. Забруднену партію інколи потрібно утилізувати."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Surviving viable bacteria",
+            "ua": "Живі бактерії, що можуть вижити"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "A shard of glass",
+            "ua": "Уламок скла"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Some heat-sensitive microorganisms",
+            "ua": "Деякі термочутливі мікроорганізми"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "A parasite sensitive to approved heat treatment",
+            "ua": "Паразит, чутливий до належної термообробки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-012-03",
+      "theoryId": 12,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which actions help prevent chemical contamination?",
+        "ua": "Які дії запобігають хімічному забрудненню?"
+      },
+      "explanation": {
+        "en": "Separation, labeling, and controlled use reduce chemical exposure.",
+        "ua": "Роздільне зберігання, маркування та контрольоване використання зменшують хімічні ризики."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Store cleaners away from food",
+            "ua": "Зберігати мийні засоби окремо від їжі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Label chemicals clearly",
+            "ua": "Чітко маркувати хімічні речовини"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Pour sanitizer into an unlabeled seasoning bottle",
+            "ua": "Перелити дезінфектант у непідписану пляшку від приправи"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use food-safe equipment as directed",
+            "ua": "Використовувати харчове обладнання за призначенням"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "cooking-012-04",
+      "theoryId": 12,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which response fails to control a physical hazard?",
+        "ua": "Яка реакція не усуває фізичну небезпеку?"
+      },
+      "explanation": {
+        "en": "One found shard does not prove other fragments are absent.",
+        "ua": "Один знайдений уламок не доводить, що інших немає."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Stop using a chipped blender blade",
+            "ua": "Припинити використовувати пошкоджене лезо блендера"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Inspect nearby food and equipment",
+            "ua": "Перевірити продукти й обладнання"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Remove one visible glass chip and serve the entire batch",
+            "ua": "Вийняти один видимий уламок скла й подати всю партію"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Discard food where contamination cannot be excluded",
+            "ua": "Утилізувати їжу, де забруднення неможливо виключити"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-012-05",
+      "theoryId": 12,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A food allergen can create a serious hazard without spoiling food.",
+        "ua": "Харчовий алерген може спричинити серйозну небезпеку без псування продукту."
+      },
+      "explanation": {
+        "en": "Allergen traces may cause severe reactions in sensitized people; smell and appearance cannot establish safety.",
+        "ua": "Сліди алергену можуть викликати тяжкі реакції; вигляд і запах не доводять безпечності."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-012-06",
+      "theoryId": 12,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A glass jar shatters over a prepared salad. What is the best action?",
+        "ua": "Скляна банка розбилася над готовим салатом. Яка дія найкраща?"
+      },
+      "explanation": {
+        "en": "Tiny fragments can be invisible; heat and blending do not make glass contamination safe.",
+        "ua": "Дрібні уламки можуть бути непомітними; нагрівання чи подрібнення не робить таку їжу безпечною."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard the possibly contaminated salad and clean the area",
+            "ua": "Утилізувати потенційно забруднений салат і прибрати місце"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pick out large pieces and serve",
+            "ua": "Вийняти великі уламки й подати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Blend the salad smooth",
+            "ua": "Подрібнити салат блендером"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Boil the salad for five minutes",
+            "ua": "Кип’ятити салат п’ять хвилин"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

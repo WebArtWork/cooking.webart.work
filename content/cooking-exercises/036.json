@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 36,
+    "title": {
+      "en": "Julienne, Batonnet, and Brunoise",
+      "ua": "Жульєн, батонне та брюнуаз"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.ciaconsulting.org/wp-content/uploads/2026/02/Best-of-Boot-Camp-World-Tour-v.120-CP.pdf",
+    "https://hr.uky.edu/work-life-and-well-being/nutrition/food-preparation/knife-skills"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-036-01",
+      "theoryId": 36,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which cut is typically thicker: batonnet or julienne?",
+        "ua": "Який вид нарізання зазвичай товщий: батонне чи жульєн?"
+      },
+      "explanation": {
+        "en": "Batonnet is a thicker rectangular stick, julienne a finer stick.",
+        "ua": "Батонне — товщий брусочок, жульєн — тонша смужка."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Batonnet",
+            "ua": "Батонне"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Julienne",
+            "ua": "Жульєн"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They are always identical",
+            "ua": "Вони завжди однакові"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-036-02",
+      "theoryId": 36,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Brunoise is typically made by finely dicing narrow strips.",
+        "ua": "Брюнуаз зазвичай отримують, дрібно нарізаючи вузькі смужки кубиками."
+      },
+      "explanation": {
+        "en": "Cross-cutting fine julienne yields small uniform cubes.",
+        "ua": "Поперечне нарізання тонкого жульєну дає дрібні однакові кубики."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-036-03",
+      "theoryId": 36,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match cut names to shapes.",
+        "ua": "Поєднайте назви нарізання з формами."
+      },
+      "explanation": {
+        "en": "These classical cuts form a progression from slabs to strips to dice.",
+        "ua": "Ці класичні нарізання утворюють послідовність від пластин до смужок і кубиків."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Julienne",
+            "ua": "Жульєн"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Batonnet",
+            "ua": "Батонне"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Brunoise",
+            "ua": "Брюнуаз"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Very fine dice",
+            "ua": "Дуже дрібні кубики"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Thicker sticks",
+            "ua": "Товстіші брусочки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Fine matchsticks",
+            "ua": "Тонкі смужки-соломка"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-036-04",
+      "theoryId": 36,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order the steps to produce brunoise from a carrot.",
+        "ua": "Розташуйте кроки створення брюнуаз із моркви."
+      },
+      "explanation": {
+        "en": "Brunoise is a fine dice derived from consistent fine strips.",
+        "ua": "Брюнуаз — дрібні кубики, отримані з однакових тонких смужок."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Cut fine slabs and julienne strips",
+            "ua": "Нарізати тонкі пластини та жульєн"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Stabilize and square the carrot section",
+            "ua": "Стабілізувати й вирівняти шматок моркви"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Cut strips crosswise into tiny cubes",
+            "ua": "Нарізати смужки поперек дрібними кубиками"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-036-05",
+      "theoryId": 36,
+      "type": "calculation",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "A batonnet is about 6 mm wide. What is the approximate width of a 3 mm julienne in mm?",
+        "ua": "Батонне має ширину близько 6 мм. Яка приблизна ширина жульєну, якщо вона становить 3 мм?"
+      },
+      "explanation": {
+        "en": "The named example uses a 3 mm julienne; training cut dimensions may vary by school.",
+        "ua": "У прикладі жульєн має 3 мм; навчальні стандарти різних шкіл можуть відрізнятися."
+      },
+      "numericInput": {
+        "unit": "mm",
+        "allowDecimals": false,
+        "unitLabel": {
+          "en": "millimeters",
+          "ua": "міліметрів"
+        }
+      },
+      "answer": {
+        "value": 3,
+        "tolerance": 0,
+        "unit": "mm"
+      }
+    }
+  ]
+}

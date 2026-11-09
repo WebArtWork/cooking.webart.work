@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 78,
+    "title": {
+      "en": "Grilling and Broiling",
+      "ua": "Грилювання та приготування під верхнім нагрівом"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/techniques/healthy-cooking-methods",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet?redirect=true",
+    "https://www.bfr.bund.de/en/service/frequently-asked-questions/topic/selected-questions-and-answers-about-barbecuing/",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-078-01",
+      "theoryId": 78,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "What is the principal difference between broiling and most outdoor grilling?",
+        "ua": "Яка головна відмінність між приготуванням під верхнім нагрівом і звичайним грилюванням?"
+      },
+      "explanation": {
+        "en": "Broilers provide intense overhead radiant heat, while grills commonly heat food from below.",
+        "ua": "Верхній гриль діє інтенсивним променистим теплом згори, а звичайний гриль часто нагріває знизу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Broiling typically applies strong heat from above",
+            "ua": "Верхній гриль зазвичай подає сильний жар згори"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Broiling happens only in boiling water",
+            "ua": "Верхній гриль працює лише в киплячій воді"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Outdoor grilling can never produce smoke",
+            "ua": "Зовнішній гриль ніколи не утворює диму"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-078-02",
+      "theoryId": 78,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Flare-ups from dripping fat can char food unexpectedly.",
+        "ua": "Спалахи від крапель жиру можуть неочікувано обвуглити їжу."
+      },
+      "explanation": {
+        "en": "Dripping fat can ignite; control flames and use appropriate zones.",
+        "ua": "Жир, що капає, може спалахувати; контролюйте полум’я та використовуйте зони жару."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-078-03",
+      "theoryId": 78,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match grilling concepts to their practical use.",
+        "ua": "Поєднайте поняття грилювання з практичним застосуванням."
+      },
+      "explanation": {
+        "en": "Different heat zones improve control over browning and internal cooking.",
+        "ua": "Різні зони жару дозволяють контролювати скоринку й внутрішню готовність."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Direct heat",
+            "ua": "Прямий жар"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Indirect heat",
+            "ua": "Непрямий жар"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Resting zone",
+            "ua": "Зона без інтенсивного жару"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Move food away from flare-ups",
+            "ua": "Відсунути продукт від спалахів"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Gentler heating for thick cuts",
+            "ua": "Делікатніше нагрівання товстих шматків"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Fast surface browning",
+            "ua": "Швидке підрум’янення поверхні"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-078-04",
+      "theoryId": 78,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Chicken skin is charring on the grill while the inside is still undercooked. What should you do?",
+        "ua": "Куряча шкіра обвуглюється на грилі, але всередині м’ясо ще сирувате. Що робити?"
+      },
+      "explanation": {
+        "en": "Indirect heat helps finish thick food without burning its exterior; poultry needs a verified safe core.",
+        "ua": "Непрямий жар доготовлює товстий шматок без підгоряння; для птиці потрібна перевірена безпечна температура всередині."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Move to indirect heat and cook until the center reaches a safe endpoint",
+            "ua": "Перемістити на непрямий жар і готувати до безпечної внутрішньої температури"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Serve it because the skin is dark",
+            "ua": "Подати, бо шкіра темна"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Increase direct flames",
+            "ua": "Посилити пряме полум’я"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-078-05",
+      "theoryId": 78,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which grilling habit is unsafe?",
+        "ua": "Яка практика грилювання небезпечна?"
+      },
+      "explanation": {
+        "en": "Contact with raw chicken juices can recontaminate cooked food.",
+        "ua": "Контакт із соком сирої курятини може повторно забруднити готову їжу."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Keep raw and cooked food utensils separate",
+            "ua": "Відокремлювати інструменти для сирого й готового"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Verify meat with a thermometer",
+            "ua": "Перевіряти м’ясо термометром"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Put finished chicken back on the raw-chicken plate",
+            "ua": "Покласти готову курятину на тарілку після сирої"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-078-06",
+      "theoryId": 78,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which practices are suitable for safely grilling poultry?",
+        "ua": "Які практики підходять для безпечного грилювання птиці?"
+      },
+      "explanation": {
+        "en": "Poultry requires safe internal cooking and prevention of cross-contamination.",
+        "ua": "Птицю потрібно безпечно прогрівати всередині та уникати перехресного забруднення."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Use indirect heat to finish thick cuts when needed",
+            "ua": "За потреби доготувати товсті шматки на непрямому жарі"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Check core temperature with a food thermometer",
+            "ua": "Перевірити середину харчовим термометром"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Separate raw and cooked utensils",
+            "ua": "Розділити інструменти для сирого й готового"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use brown skin as the only safety check",
+            "ua": "Вважати коричневу шкіру єдиною перевіркою безпеки"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    }
+  ]
+}

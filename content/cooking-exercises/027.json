@@ -1,0 +1,299 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 27,
+    "title": {
+      "en": "Leftovers, Date Marking, and Shelf Life",
+      "ua": "Залишки їжі, маркування дат та терміни придатності"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+    "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely/",
+    "https://ask.fsis.usda.gov/article/Is-the-dating-of-shelf-stable-foods-required-by-federal-law"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-027-01",
+      "theoryId": 27,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "How long can many cooked leftovers generally be refrigerated under US home guidance?",
+        "ua": "Скільки зазвичай можна зберігати більшість готових залишків їжі в холодильнику за побутовими рекомендаціями США?"
+      },
+      "explanation": {
+        "en": "Many cooked leftovers are recommended for use within 3–4 refrigerated days; check food-specific guidance.",
+        "ua": "Більшість готових залишків радять використати протягом 3–4 днів у холодильнику; перевіряйте рекомендації для конкретного продукту."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3–4 days",
+            "ua": "3–4 дні"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3–4 weeks",
+            "ua": "3–4 тижні"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "As long as they smell fine",
+            "ua": "Доки добре пахнуть"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Exactly 30 days",
+            "ua": "Рівно 30 днів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-027-02",
+      "theoryId": 27,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which information makes stored leftovers easier to manage safely?",
+        "ua": "Які відомості допомагають безпечно контролювати залишки їжі?"
+      },
+      "explanation": {
+        "en": "Labels support traceability and safe stock rotation.",
+        "ua": "Маркування підтримує простежуваність і безпечну ротацію запасів."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Preparation date",
+            "ua": "Дата приготування"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Product identity",
+            "ua": "Назва продукту"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Relevant use-by/discard date under applicable procedure",
+            "ua": "Дата використання/утилізації за відповідними правилами"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Only a decorative emoji",
+            "ua": "Лише декоративний емодзі"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-027-03",
+      "theoryId": 27,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "A “best by” quality date on every packaged food always means it becomes dangerous at midnight on that day.",
+        "ua": "Дата «найкраще спожити до» на кожному пакованому продукті завжди означає небезпеку опівночі цього дня."
+      },
+      "explanation": {
+        "en": "Quality dates and legally defined safety/use-by dates are different; context and local labeling rules matter.",
+        "ua": "Дата оптимальної якості й визначена законодавством дата безпечного споживання — не одне й те саме; важливі контекст і місцеві правила."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-027-04",
+      "theoryId": 27,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Order safe handling of a new batch of cooked leftovers.",
+        "ua": "Упорядкуйте безпечну роботу з новою партією залишків готової їжі."
+      },
+      "explanation": {
+        "en": "Timely cooling, storage, and labeling work together.",
+        "ua": "Своєчасне охолодження, зберігання й маркування діють разом."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Transfer to suitable food containers",
+            "ua": "Перекласти у відповідні харчові контейнери"
+          }
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Refrigerate and use within the applicable safe period",
+            "ua": "Зберігати в холодильнику й використати в належний безпечний термін"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Cool promptly using an effective method",
+            "ua": "Оперативно охолодити належним методом"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Label contents and preparation date",
+            "ua": "Позначити назву й дату приготування"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    },
+    {
+      "id": "cooking-027-05",
+      "theoryId": 27,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which leftover-storage practice is unsafe?",
+        "ua": "Яка практика зберігання залишків є небезпечною?"
+      },
+      "explanation": {
+        "en": "Cooked rice can be hazardous when held warm for prolonged periods, even if it looks normal.",
+        "ua": "Варений рис може бути небезпечним після тривалого теплого зберігання, навіть без видимих ознак."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Date the container",
+            "ua": "Позначати дату на контейнері"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Refrigerate promptly",
+            "ua": "Швидко охолоджувати"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Keep cooked rice at room temperature until next evening",
+            "ua": "Тримати варений рис за кімнатної температури до наступного вечора"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Use a clean covered container",
+            "ua": "Користуватися чистим накритим контейнером"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "cooking-027-06",
+      "theoryId": 27,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "You discover an unlabeled cooked chicken dish and cannot establish its storage history. What is safest?",
+        "ua": "Ви знайшли непідписану страву з курятини й не можете з’ясувати умови зберігання. Що найбезпечніше?"
+      },
+      "explanation": {
+        "en": "Unknown time and temperature history cannot be reliably checked by taste.",
+        "ua": "Невідому історію часу й температури неможливо надійно перевірити смаком."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Discard it when safe history cannot be verified",
+            "ua": "Утилізувати, якщо неможливо підтвердити безпечні умови"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Assume it was cooked yesterday",
+            "ua": "Припустити, що її приготували вчора"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Taste a small piece to test it",
+            "ua": "Скуштувати трохи для перевірки"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Change its label to today",
+            "ua": "Написати на етикетці сьогоднішню дату"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 225,
+    "title": {
+      "en": "Meat Curing, Smoking, and Preservation",
+      "ua": "Соління, в’ялення, копчення та консервування м’яса"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Culinary references and United States consumer food-safety guidance are used. Temperatures explicitly marked as US consumer guidance are not automatically binding Ukrainian food-service rules. Follow current local requirements.",
+    "ua": "Використано кулінарні джерела та побутові рекомендації США щодо безпечності харчових продуктів. Температури, зазначені як американські побутові настанови, не є автоматично обов’язковими нормами для закладів харчування України. Дотримуйтесь актуальних місцевих вимог."
+  },
+  "sources": [
+    "https://ask.fsis.usda.gov/article/Do-you-need-a-thermometer-when-smoking-meat",
+    "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-225-01",
+      "theoryId": 225,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Why are curing and smoking not interchangeable with validated heat treatment?",
+        "ua": "Чому соління та копчення не замінюють перевірену теплову обробку?"
+      },
+      "explanation": {
+        "en": "Safety depends on a verified combination of treatment, time, temperature, and formulation.",
+        "ua": "Безпечність залежить від перевіреної комбінації обробки, часу, температури та рецептури."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "They use different mechanisms and may not eliminate pathogens",
+            "ua": "Вони діють через інші механізми й можуть не усунути патогени"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Salt automatically sterilizes every meat product",
+            "ua": "Сіль автоматично стерилізує будь-яке м’ясо"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Smoke always raises food above a safe core temperature",
+            "ua": "Дим завжди нагріває продукт до безпечної внутрішньої температури"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-225-02",
+      "theoryId": 225,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": true,
+      "question": {
+        "en": "Curing salts containing nitrite can be measured by eye rather than by a tested recipe.",
+        "ua": "Посолочні суміші з нітритом можна дозувати на око замість перевіреної рецептури."
+      },
+      "explanation": {
+        "en": "Improper curing-salt dosing can be hazardous; use tested recipes and precise weighing.",
+        "ua": "Неправильне дозування нітритних сумішей небезпечне; потрібні перевірені рецептури та точне зважування."
+      },
+      "answer": {
+        "value": false
+      }
+    },
+    {
+      "id": "cooking-225-03",
+      "theoryId": 225,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match meat-preservation methods to their main functions.",
+        "ua": "Поєднайте способи збереження м’яса з їхньою основною дією."
+      },
+      "explanation": {
+        "en": "A finished product may require several barriers, not a single technique.",
+        "ua": "Готовому продукту можуть бути потрібні кілька захисних чинників, а не один метод."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Salt curing",
+            "ua": "Соління"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Smoking",
+            "ua": "Копчення"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Validated heat treatment",
+            "ua": "Перевірена теплова обробка"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Controls specified pathogen hazards",
+            "ua": "Контролює визначені патогенні небезпеки"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Alters water availability",
+            "ua": "Змінює доступність води"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Adds smoke aroma and surface effects",
+            "ua": "Додає аромат диму та впливає на поверхню"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-225-04",
+      "theoryId": 225,
+      "type": "decision_scenario",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "A recipe for cured meat calls for a specific amount of curing salt. Your scale cannot measure it accurately. What should you do?",
+        "ua": "Рецепт в’яленого м’яса потребує точної кількості посолочної суміші, але ваги не можуть її виміряти. Що робити?"
+      },
+      "explanation": {
+        "en": "Both underdosing and overdosing regulated curing ingredients can be hazardous.",
+        "ua": "І недостатня, і надмірна кількість регульованих інгредієнтів для посолу можуть бути небезпечними."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Estimate the amount by color",
+            "ua": "Оцінити кількість за кольором"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stop and obtain precise equipment or a verified alternative recipe",
+            "ua": "Зупинитися та знайти точні ваги або перевірену альтернативну рецептуру"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Double the quantity as a safety margin",
+            "ua": "Подвоїти кількість про всяк випадок"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "cooking-225-05",
+      "theoryId": 225,
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "safetyCritical": true,
+      "question": {
+        "en": "Which controls matter in a validated smoked-meat process?",
+        "ua": "Які параметри важливі в перевіреному процесі копчення м’яса?"
+      },
+      "explanation": {
+        "en": "A smoky appearance or flavor does not prove safe processing.",
+        "ua": "Копчений вигляд або смак не доводять безпечність обробки."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The wood color guarantees microbial safety",
+            "ua": "Колір деревини гарантує мікробіологічну безпечність"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Time and handling conditions",
+            "ua": "Час та умови поводження"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Precise curing-ingredient quantity if specified",
+            "ua": "Точна кількість посолочних інгредієнтів, якщо вони потрібні"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Internal temperature where required",
+            "ua": "Внутрішня температура, коли вона необхідна"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "revised-288",
+  "theory": {
+    "id": 76,
+    "title": {
+      "en": "Stir-Frying and Wok Techniques",
+      "ua": "Смаження з перемішуванням та техніки роботи з воком"
+    }
+  },
+  "languageCodes": [
+    "en",
+    "ua"
+  ],
+  "referenceRegion": {
+    "en": "Sources use international culinary education and US consumer/retail food-safety guidance. Numerical US limits are not automatically Ukrainian legal requirements.",
+    "ua": "Джерела спираються на кулінарну освіту та побутові/професійні рекомендації США. Числові норми США не є автоматично юридичними вимогами України."
+  },
+  "sources": [
+    "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/techniques/healthy-cooking-methods",
+    "https://www.eatright.org/food/food-preparation/cooking-tips/culinary-lingo",
+    "https://www.seriouseats.com/everything-you-can-do-with-a-wok"
+  ],
+  "exercises": [
+    {
+      "id": "cooking-076-01",
+      "theoryId": 76,
+      "type": "single_choice",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Why are stir-fry ingredients usually cut into small uniform pieces?",
+        "ua": "Чому для стір-фраю продукти зазвичай нарізають дрібними однаковими шматочками?"
+      },
+      "explanation": {
+        "en": "Uniform dimensions reduce variation in heating time.",
+        "ua": "Однакові розміри зменшують відмінності у швидкості нагрівання."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "To promote quick, even cooking",
+            "ua": "Для швидкого та рівномірного приготування"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "To eliminate the need for heat",
+            "ua": "Щоб не потрібен був нагрів"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "To guarantee equal flavors for all ingredients",
+            "ua": "Щоб гарантувати однаковий смак усіх інгредієнтів"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "cooking-076-02",
+      "theoryId": 76,
+      "type": "true_false",
+      "difficulty": "beginner",
+      "safetyCritical": false,
+      "question": {
+        "en": "Overcrowding a wok often causes steaming rather than rapid browning.",
+        "ua": "Переповнення вока часто призводить до пропарювання замість швидкого підрум’янення."
+      },
+      "explanation": {
+        "en": "Excess liquid and cold food can lower surface temperature.",
+        "ua": "Зайва рідина та холодні продукти можуть знижувати температуру поверхні."
+      },
+      "answer": {
+        "value": true
+      }
+    },
+    {
+      "id": "cooking-076-03",
+      "theoryId": 76,
+      "type": "matching",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Match a stir-fry technique to its purpose.",
+        "ua": "Поєднайте техніку стір-фраю з її призначенням."
+      },
+      "explanation": {
+        "en": "Preparation, batch size and timing matter in fast cooking.",
+        "ua": "Підготовка, розмір порцій і час додавання важливі для швидкого приготування."
+      },
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": {
+            "en": "Pre-cut all ingredients",
+            "ua": "Нарізати все заздалегідь"
+          }
+        },
+        {
+          "id": "l2",
+          "text": {
+            "en": "Cook in small batches",
+            "ua": "Готувати невеликими порціями"
+          }
+        },
+        {
+          "id": "l3",
+          "text": {
+            "en": "Add delicate greens near the end",
+            "ua": "Додати ніжну зелень наприкінці"
+          }
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r3",
+          "text": {
+            "en": "Avoid overcooking",
+            "ua": "Запобігти переварюванню"
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "en": "Maintain sufficient heat",
+            "ua": "Зберігати достатній нагрів"
+          }
+        },
+        {
+          "id": "r1",
+          "text": {
+            "en": "Keep pace with fast cooking",
+            "ua": "Встигати за швидким приготуванням"
+          }
+        }
+      ],
+      "answer": {
+        "pairs": [
+          {
+            "leftId": "l1",
+            "rightId": "r1"
+          },
+          {
+            "leftId": "l2",
+            "rightId": "r2"
+          },
+          {
+            "leftId": "l3",
+            "rightId": "r3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooking-076-04",
+      "theoryId": 76,
+      "type": "sequence",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Order a simple vegetable stir-fry workflow.",
+        "ua": "Розташуйте етапи простого овочевого стір-фраю."
+      },
+      "explanation": {
+        "en": "Ingredients enter according to their cooking time.",
+        "ua": "Інгредієнти додають з урахуванням часу їх приготування."
+      },
+      "steps": [
+        {
+          "id": "s2",
+          "text": {
+            "en": "Cook firm vegetables first in manageable batches",
+            "ua": "Спершу готувати тверді овочі невеликими порціями"
+          }
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Cut and organize ingredients before heating",
+            "ua": "Нарізати та розкласти інгредієнти до нагрівання"
+          }
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Add quick-cooking greens and sauce near the end",
+            "ua": "Наприкінці додати ніжну зелень і соус"
+          }
+        }
+      ],
+      "answer": {
+        "order": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    },
+    {
+      "id": "cooking-076-05",
+      "theoryId": 76,
+      "type": "find_mistake",
+      "difficulty": "intermediate",
+      "safetyCritical": false,
+      "question": {
+        "en": "Which approach weakens stir-fry results?",
+        "ua": "Який підхід погіршує результат стір-фраю?"
+      },
+      "explanation": {
+        "en": "High-heat cooking requires mise en place before the pan is ready.",
+        "ua": "Для готування на сильному жарі все слід підготувати заздалегідь."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Have the sauce mixed before starting",
+            "ua": "Змішати соус до початку"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Use pieces of similar thickness",
+            "ua": "Нарізати шматочки подібної товщини"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Begin chopping raw ingredients only after the wok is smoking",
+            "ua": "Починати різати сирі інгредієнти, коли вок уже сильно димить"
+          }
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}
