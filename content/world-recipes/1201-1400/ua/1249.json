@@ -1,0 +1,103 @@
+{
+  "id": "world-1249",
+  "title": "Риба есковіч",
+  "description": "Риба есковіч — страва кухні країни Ямайка з такими основними складниками: червоний луціан, сік лайма, морква, червоний солодкий перець. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 35 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 75,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 14 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно змішайте із заправкою, приправте до смаку й подавайте або трохи охолодіть за потреби.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

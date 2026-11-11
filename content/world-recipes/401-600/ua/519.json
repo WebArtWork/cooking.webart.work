@@ -1,0 +1,88 @@
+{
+  "id": "world-0519",
+  "title": "Фесенджан",
+  "description": "Традиційна страва кухні країни Іран. Основні складники: волоський горіх, жовта цибуля, куряче стегно, рис басматі. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Дрібно змеліть горіхи, коротко прогрійте з цибулею, а потім додайте воду до густого соусу.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 95 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pomegranate-molasses",
+          "amount": 190,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 25 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 390,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

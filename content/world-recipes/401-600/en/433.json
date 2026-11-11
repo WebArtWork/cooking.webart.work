@@ -1,0 +1,71 @@
+{
+  "id": "world-0433",
+  "title": "Fårikål",
+  "description": "A traditional dish from Norway, centered on lamb, white cabbage, potato. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Alternate large pieces of lamb and cabbage in a deep pot, seasoning each layer with salt and whole peppercorns.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-peppercorn",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 14,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 125 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 125,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 22 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

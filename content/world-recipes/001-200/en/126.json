@@ -1,0 +1,124 @@
+{
+  "id": "world-0126",
+  "title": "Kulebyaka",
+  "description": "A classic dish from Russia, featuring whole cow milk, chicken egg, salmon, white rice. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "RU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 70 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 560,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 210,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "salmon",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-rice",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "button-mushroom",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake in a preheated 180°C oven for about 35 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

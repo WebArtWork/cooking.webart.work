@@ -1,0 +1,82 @@
+{
+  "id": "world-0244",
+  "title": "Briam",
+  "description": "A traditional Greece dish made with potato, zucchini, eggplant, tomato. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zucchini",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "eggplant",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast in a preheated 190°C oven for about 65 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

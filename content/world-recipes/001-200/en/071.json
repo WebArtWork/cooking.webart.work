@@ -1,0 +1,83 @@
+{
+  "id": "world-0071",
+  "title": "Lecsó",
+  "description": "A classic dish from Hungary, featuring yellow onion, red bell pepper, tomato, chicken egg. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "HU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 20 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 570,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

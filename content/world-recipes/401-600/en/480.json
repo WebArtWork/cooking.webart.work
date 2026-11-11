@@ -1,0 +1,70 @@
+{
+  "id": "world-0480",
+  "title": "Shish Taouk",
+  "description": "A traditional dish from Lebanon, centered on chicken breast, plain yogurt, lemon juice, garlic. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 680,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Thread the prepared pieces onto skewers, leaving small gaps to ensure even cooking.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill over medium-high heat for about 17 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

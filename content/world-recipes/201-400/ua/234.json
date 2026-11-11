@@ -1,0 +1,92 @@
+{
+  "id": "world-0234",
+  "title": "Долмадес",
+  "description": "Традиційна страва кухні країни Греція. Основні інгредієнти: білий рис, жовта цибуля, кріп, м'ята. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "grape-leaves",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 42 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 42,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

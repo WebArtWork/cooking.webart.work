@@ -1,0 +1,112 @@
+{
+  "id": "world-0915",
+  "title": "Wonton Soup",
+  "description": "Wonton Soup is a China dish made with ground pork, shrimp, green onion, light soy sauce. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 16,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "wonton-wrappers",
+          "amount": 30,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 15 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shiitake-mushroom",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 10 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "toasted-sesame-oil",
+          "amount": 12,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

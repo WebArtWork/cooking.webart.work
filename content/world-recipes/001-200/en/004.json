@@ -1,0 +1,119 @@
+{
+  "id": "world-0004",
+  "title": "Solyanka",
+  "description": "A classic dish from Ukraine, featuring beef chuck, yellow onion, smoked ham, fermented cucumber. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 30 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 15 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-olives",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

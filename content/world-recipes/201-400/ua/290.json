@@ -1,0 +1,61 @@
+{
+  "id": "world-0290",
+  "title": "Качамак",
+  "description": "Традиційна страва кухні країни Чорногорія. Основні інгредієнти: кукурудзяна крупа дрібного помелу, домашній кисломолочний сир, сметана. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "ME",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "farmer-cheese",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

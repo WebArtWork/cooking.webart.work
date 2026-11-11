@@ -1,0 +1,119 @@
+{
+  "id": "world-0086",
+  "title": "Cozonac",
+  "description": "A classic dish from Romania, featuring whole cow milk, chicken egg, walnut, raisin. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "RO",
+  "servings": 10,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 85 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 85,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Divide and shape the dough as required. Place on a lined tray and proof for about 30 minutes while the oven heats.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake in a preheated 180°C oven for about 42 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

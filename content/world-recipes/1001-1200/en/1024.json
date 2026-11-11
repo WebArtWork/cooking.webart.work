@@ -1,0 +1,119 @@
+{
+  "id": "world-1024",
+  "title": "Banh Xeo",
+  "description": "Banh Xeo is a dish from Vietnam prepared with rice flour, coconut milk, pork belly, shrimp. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Pour a thin turmeric rice batter into a hot oiled pan, add already cooked pork and shrimp with bean sprouts, and cook until the bánh xèo crust is crisp; fold in half.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mung-bean-sprouts",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "lettuce",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

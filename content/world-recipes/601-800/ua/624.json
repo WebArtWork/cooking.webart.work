@@ -1,0 +1,111 @@
+{
+  "id": "world-0624",
+  "title": "Базін",
+  "description": "Базін — страва кухні країни Лівія зі складниками: перлова крупа, ячмінне борошно, ягнятина, томатна паста. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Домашній базін із доступного ячмінного борошна та баранячим соусом; текстура й подача можуть відрізнятися від традиційних.",
+  "regionId": "north-africa",
+  "countryCode": "LY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 20 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "pearl-barley",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Поступово всипайте ячмінне борошно в киплячу воду, енергійно вимішуючи до густого гладкого тіста; викладіть його гіркою на таріль.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "barley-flour",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 25 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть яйця приблизно 10 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,151 @@
+{
+  "id": "world-0830",
+  "title": "Hyderabadi Biryani",
+  "description": "Hyderabadi Biryani is a India dish made with chicken thigh, plain yogurt, ginger-garlic paste, lemon juice. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 120 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 830,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 32,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garam-masala",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 18 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 8 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cardamom-pods",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 5,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Build Hyderabad-style layered rice over the marinated chicken, cover tightly and cook over low heat; verify the chicken is cooked to 74°C before serving.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "mint",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Steam the prepared portions in a covered steamer over gently boiling water for about 43 minutes until completely cooked or set, then remove carefully.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 43,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Take off the heat and let the rice rest under a clean towel or lid for about 12 minutes before serving.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794260640000
+}

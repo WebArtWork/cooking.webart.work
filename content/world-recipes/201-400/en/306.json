@@ -1,0 +1,66 @@
+{
+  "id": "world-0306",
+  "title": "Banitsa",
+  "description": "A traditional Bulgaria dish made with feta, plain yogurt, chicken egg, phyllo pastry. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "BG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "feta",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 115,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake in a preheated 180°C oven for about 36 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 36,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

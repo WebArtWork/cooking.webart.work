@@ -1,0 +1,77 @@
+{
+  "id": "world-0819",
+  "title": "Ошіфіма",
+  "description": "Ошіфіма — страва кухні країни Намібія. Основні складники: кукурудзяна крупа дрібного помелу, арахісова паста. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "southern-africa",
+  "countryCode": "NA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Повільно всипте крупу в гарячу рідину; варіть на слабкому вогні приблизно 25 хвилин, помішуючи, щоб не пристала до дна.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 480,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

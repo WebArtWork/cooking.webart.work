@@ -1,0 +1,86 @@
+{
+  "id": "world-1259",
+  "title": "Bajan Cou-Cou",
+  "description": "Bajan Cou-Cou is a dish from Barbados featuring okra, cornmeal. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "BB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 17 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "okra",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 680,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gradually stir cornmeal into the hot okra liquid, whisking continuously so no lumps remain; cook to a thick, smooth cou-cou.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 680,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 13 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

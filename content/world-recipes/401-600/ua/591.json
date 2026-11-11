@@ -1,0 +1,83 @@
+{
+  "id": "world-0591",
+  "title": "Шорва",
+  "description": "Традиційна страва кухні країни Афганістан. Основні складники: ягнятина, жовта цибуля, часник, картопля. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "central-asia",
+  "countryCode": "AF",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 95 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 690,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "turnip",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 22,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

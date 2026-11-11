@@ -1,0 +1,103 @@
+{
+  "id": "world-0702",
+  "title": "Babenda",
+  "description": "Babenda is a Burkina Faso classic prepared with white rice, yellow onion, tomato, spinach. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "BF",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 25 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 30 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 460,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

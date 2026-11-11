@@ -1,0 +1,69 @@
+{
+  "id": "world-0369",
+  "title": "Rösti",
+  "description": "A traditional Switzerland dish made with potato, chives. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "CH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel and coarsely grate the listed vegetables; squeeze out excess moisture so the mixture will hold together.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 26 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "clarified-butter",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "chives",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

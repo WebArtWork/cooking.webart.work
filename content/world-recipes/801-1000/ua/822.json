@@ -1,0 +1,82 @@
+{
+  "id": "world-0822",
+  "title": "Сішвала",
+  "description": "Сішвала — страва кухні країни Есватіні. Основні складники: соргове борошно, кукурудзяна крупа дрібного помелу, сколотини. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "southern-africa",
+  "countryCode": "SZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Повільно всипте крупу в гарячу рідину; варіть на слабкому вогні приблизно 24 хвилин, помішуючи, щоб не пристала до дна.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornmeal",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "buttermilk",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

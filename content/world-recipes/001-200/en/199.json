@@ -1,0 +1,114 @@
+{
+  "id": "world-0199",
+  "title": "Paella Valenciana",
+  "description": "A classic dish from Spain, featuring chicken thigh, rabbit meat, green beans, tomato. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Brown the chicken and rabbit pieces thoroughly in olive oil in a wide paella pan.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rabbit-meat",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add green beans and grated tomato; soften, then briefly bloom paprika without burning it.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "green-beans",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Pour in the measured water with the saffron and butter beans; let the meat-and-vegetable broth simmer to develop flavor, then add rice. Cook without stirring for 17–20 minutes, allowing a thin socarrat to form at the base.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "bomba-rice",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "butter-beans",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Turn off the heat, cover loosely and let the rice rest 5 minutes before serving.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "rosemary",
+          "amount": 1,
+          "unit": "sprig"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

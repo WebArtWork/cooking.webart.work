@@ -1,0 +1,92 @@
+{
+  "id": "world-0565",
+  "title": "Dimlama",
+  "description": "A traditional dish from Uzbekistan, centered on lamb, potato, carrot, yellow onion. A measured home-kitchen version organized by cooking step.",
+  "regionId": "central-asia",
+  "countryCode": "UZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 100 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

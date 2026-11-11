@@ -1,0 +1,98 @@
+{
+  "id": "world-0799",
+  "title": "Chakalaka",
+  "description": "Chakalaka is a South Africa classic prepared with yellow onion, red bell pepper, scotch bonnet pepper, carrot. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "southern-africa",
+  "countryCode": "ZA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer vegetables until tender-crisp, stir in already-cooked canned beans and reduce to a thick spicy relish.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 19,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-white-beans",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

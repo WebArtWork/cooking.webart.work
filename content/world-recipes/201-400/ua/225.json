@@ -1,0 +1,96 @@
+{
+  "id": "world-0225",
+  "title": "Восьминіг лагарейру",
+  "description": "Традиційна страва кухні країни Португалія. Основні інгредієнти: восьминіг, лавровий лист, молода картопля, часник. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "PT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 55 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "octopus",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 1,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі рівномірно та запікайте при 200°C приблизно 35 хвилин до м’якості й легкої підпеченої скоринки.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "new-potato",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 105,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 15 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

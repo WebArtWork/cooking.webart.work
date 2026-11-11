@@ -1,0 +1,71 @@
+{
+  "id": "world-0312",
+  "title": "Тиквеник",
+  "description": "Традиційна страва кухні країни Болгарія. Основні інгредієнти: гарбуз, волоський горіх, тісто філо. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "BG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pumpkin",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 38 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 38,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,122 @@
+{
+  "id": "world-1150",
+  "title": "Tourtière",
+  "description": "Tourtière is a dish from Canada prepared with all-purpose flour, ground pork, ground beef, yellow onion. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 22 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 185,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-beef",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 16 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Layer the already prepared filling and base evenly in the baking dish or pan.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 42 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

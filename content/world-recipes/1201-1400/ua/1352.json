@@ -1,0 +1,85 @@
+{
+  "id": "world-1352",
+  "title": "Орнадо",
+  "description": "Орнадо — страва кухні країни Еквадор з такими основними складниками: свинячий окіст, часник, картопля, червона цибуля. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 90 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "pork-leg",
+          "amount": 1350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-beer",
+          "amount": 270,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте вже приправлені продукти в розігрітій духовці до м’якості та готовності, перевіряючи температуру м’яса термометром.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 175,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

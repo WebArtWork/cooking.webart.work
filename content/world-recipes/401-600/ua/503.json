@@ -1,0 +1,93 @@
+{
+  "id": "world-0503",
+  "title": "Мафту́ль",
+  "description": "Традиційна страва кухні країни Палестина. Основні складники: жовта цибуля, куряче стегно, консервований нут, помідор. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "PS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 40 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 22 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "pearl-couscous",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

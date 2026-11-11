@@ -1,0 +1,122 @@
+{
+  "id": "world-0142",
+  "title": "Долма",
+  "description": "Класична страва з Вірменія. Основні складники: виноградне листя, фарш з ягнятини, білий рис, жовта цибуля. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "AM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Відокремте й бланшуйте листя в гарячій воді приблизно 5 хвилин до гнучкості. Обсушіть і зріжте товсті прожилки.",
+      "techniqueIds": [
+        "blanching"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "grape-leaves",
+          "amount": 260,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-rice",
+          "amount": 155,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 65 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 680,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

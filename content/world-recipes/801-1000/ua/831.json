@@ -1,0 +1,118 @@
+{
+  "id": "world-0831",
+  "title": "Роган джош",
+  "description": "Роган джош — страва кухні країни Індія. Основні складники: лопатка ягняти, натуральний йогурт, жовта цибуля, імбирно-часникова паста. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 40 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kashmiri-chili-powder",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ghee",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 85 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 85,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 620,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-fennel",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

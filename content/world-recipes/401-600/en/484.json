@@ -1,0 +1,102 @@
+{
+  "id": "world-0484",
+  "title": "Hummus",
+  "description": "A traditional dish from Lebanon, centered on chickpeas, tahini, lemon juice, garlic. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried chickpeas in plenty of cool water for at least 8 hours, preferably in the refrigerator, then drain.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "chickpeas",
+          "amount": 260,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer soaked chickpeas in fresh water until extremely soft, about 90–105 minutes; drain, reserving some liquid.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 105,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Blend fully cooked chickpeas with tahini, lemon, garlic, salt and ice-cold water until exceptionally smooth and fluffy.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tahini",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,85 @@
+{
+  "id": "world-0236",
+  "title": "Souvlaki",
+  "description": "A traditional Greece dish made with pork loin, lemon juice, garlic, pita bread. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 30 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "pork-loin",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Thread the prepared pieces onto skewers, leaving small gaps to ensure even cooking.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill the skewered pork over medium-high heat, rotating until browned and the thickest pieces reach a safe internal temperature; serve in pita with tzatziki.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tzatziki",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

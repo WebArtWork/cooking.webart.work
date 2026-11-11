@@ -1,0 +1,75 @@
+{
+  "id": "world-0417",
+  "title": "Содовий хліб",
+  "description": "Традиційна страва кухні країни Ірландія. Основні складники: пшеничне борошно універсальне, цільнозернове пшеничне борошно, харчова сода, сколотини. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "IE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-wheat-flour",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-soda",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "buttermilk",
+          "amount": 500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 45 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

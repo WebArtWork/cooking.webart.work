@@ -1,0 +1,99 @@
+{
+  "id": "world-0351",
+  "title": "Фламкухен",
+  "description": "Традиційна страва кухні країни Німеччина. Основні інгредієнти: пшеничне борошно універсальне, інстантні дріжджі, крем-фреш, жовта цибуля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте й вимісіть м’яке дріжджове тісто. Накрийте та поставте в тепле місце до збільшення об’єму приблизно вдвічі — орієнтовно на 70 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "creme-fraiche",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bacon",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в добре розігрітій до 230–250°C духовці приблизно 14 хвилин до насичено-золотистої скоринки та готовності начинки.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

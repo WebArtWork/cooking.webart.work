@@ -1,0 +1,103 @@
+{
+  "id": "world-0807",
+  "title": "Дові",
+  "description": "Дові — страва кухні країни Зімбабве. Основні складники: куряче стегно, жовта цибуля, помідор, часник. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "southern-africa",
+  "countryCode": "ZW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

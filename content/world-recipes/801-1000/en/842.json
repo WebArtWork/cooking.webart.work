@@ -1,0 +1,107 @@
+{
+  "id": "world-0842",
+  "title": "Medu Vada",
+  "description": "Medu Vada is a India dish made with urad dal, serrano pepper, desiccated coconut, plain yogurt. This home-scale recipe assigns measured ingredients to the steps where they are used. Homemade coconut–yogurt accompaniment instead of prepared chutney.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the listed rice, grains or noodles in clean water for about 480 minutes as appropriate, then drain; grind rice and urad for batter if required by this dish.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "urad-dal",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cumin-seeds",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shape soaked-ground urad batter into rings with holes and fry in batches until golden, crisp outside and cooked within.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

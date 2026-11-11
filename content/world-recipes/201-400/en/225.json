@@ -1,0 +1,96 @@
+{
+  "id": "world-0225",
+  "title": "Polvo à Lagareiro",
+  "description": "A traditional Portugal dish made with octopus, bay leaf, new potato, garlic. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "PT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 55 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "octopus",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 1,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cut the vegetables evenly and roast at 200°C for about 35 minutes until tender and lightly charred.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "new-potato",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 105,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast in a preheated 190°C oven for about 15 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

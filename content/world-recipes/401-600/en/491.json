@@ -1,0 +1,101 @@
+{
+  "id": "world-0491",
+  "title": "Shakriyeh",
+  "description": "A traditional dish from Syria, centered on lamb, yellow onion, bay leaf, plain yogurt. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "SY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 10 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 680,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 75 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 18 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

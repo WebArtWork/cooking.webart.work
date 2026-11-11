@@ -1,0 +1,95 @@
+{
+  "id": "world-1413",
+  "title": "Файкакай",
+  "description": "Файкакай — тонганські крохмалисті кльоцки, які подають із теплим солодким кокосовим соусом; ця версія використовує маніокове борошно.",
+  "regionId": "oceania",
+  "countryCode": "TO",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте маніокове й пшеничне борошно із сіллю. Поступово додайте теплу воду, щоб отримати м’яке тісто, яке тримає форму.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 240,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Поділіть тісто на 18 невеликих округлих кльоцок. Доведіть воду в широкій каструлі до слабкого кипіння.",
+      "techniqueIds": [
+        "pre-shaping-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть кльоцки порціями 12–15 хвилин, доки вони не стануть пружними й повністю готовими всередині; відцідіть.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Томіть кокосові вершки з коричневим цукром 8–10 хвилин, помішуючи, до густого сиропу. Не допускайте пригорання.",
+      "techniqueIds": [
+        "sugar-syrup-cooking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 155,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Змішайте теплі кльоцки з кокосовим соусом і одразу подавайте.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

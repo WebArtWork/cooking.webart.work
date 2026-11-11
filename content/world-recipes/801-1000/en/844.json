@@ -1,0 +1,103 @@
+{
+  "id": "world-0844",
+  "title": "Aloo Gobi",
+  "description": "Aloo Gobi is a India dish made with yellow onion, ginger-garlic paste, potato, cauliflower. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 9 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cumin-seeds",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 25 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cauliflower",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

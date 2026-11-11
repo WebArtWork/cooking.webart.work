@@ -1,0 +1,122 @@
+{
+  "id": "world-0425",
+  "title": "Шведські м'ясні кульки",
+  "description": "Традиційна страва кухні країни Швеція. Основні складники: яловичий фарш, свинячий фарш, жовта цибуля, куряче яйце. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "SE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-pork",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 18 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Після смаження фрикадельок вмішайте борошно в жир на сковороді, додайте бульйон і вершки, уваріть до гладкої підливи.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Коротко проваріть брусницю з цукром до конфітюру й подайте поруч із фрикадельками, картоплею та вершковою підливою.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "lingonberry",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

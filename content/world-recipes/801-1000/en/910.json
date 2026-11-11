@@ -1,0 +1,101 @@
+{
+  "id": "world-0910",
+  "title": "Char Siu",
+  "description": "Char Siu is a China dish made with pork shoulder, hoisin sauce, light soy sauce, green onion. This home-scale recipe assigns measured ingredients to the steps where they are used. Use a fresh separate glaze; never brush cooked meat with uncooked poultry/meat marinade.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 360 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 360,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "hoisin-sauce",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chinese-five-spice",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast in a preheated 190°C oven for about 45 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Make a separate clean glaze from fresh soy sauce, water and honey; boil it briefly and brush only onto cooked pork.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

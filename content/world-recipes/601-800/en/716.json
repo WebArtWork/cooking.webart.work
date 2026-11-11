@@ -1,0 +1,92 @@
+{
+  "id": "world-0716",
+  "title": "Moambe Chicken",
+  "description": "Moambe Chicken is a Democratic Republic of the Congo classic prepared with chicken thigh, yellow onion, palm nut concentrate, tomato. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "central-africa",
+  "countryCode": "CD",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 50 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "palm-nut-concentrate",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,77 @@
+{
+  "id": "world-1364",
+  "title": "Патаконес",
+  "description": "Патаконес — страва кухні країни Колумбія з такими основними складниками: плантан. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 890,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 9 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 8 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

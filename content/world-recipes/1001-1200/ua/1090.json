@@ -1,0 +1,91 @@
+{
+  "id": "world-1090",
+  "title": "Бібінгка",
+  "description": "Бібінгка — страва кухні країни Філіппіни, яку готують із таких продуктів: рисове борошно, кокосове молоко, інстантні дріжджі, банановий лист. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Ферментуйте підготовлене чисте тісто приблизно 60 хвилин за помірної безпечної температури до появи бульбашок; зіпсовану чи запліснявілу масу викидайте.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 25 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cheddar-cheese",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

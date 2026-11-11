@@ -1,0 +1,124 @@
+{
+  "id": "world-1047",
+  "title": "Насі паданг",
+  "description": "Насі паданг — страва кухні країни Індонезія, яку готують із таких продуктів: рис жасмин, яловича лопатка, кокосове молоко, лемонграс. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Насі паданг — трапеза з рису та різних додатків, а не один усталений рецепт; тут приклад набору страв.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 25 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "jasmine-rice",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 125 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 125,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "green-beans",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть тарілку у стилі насі паданг із рису, готової яловичини в кокосовому соусі та овочів; у традиції зазвичай пропонують кілька окремих додатків.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

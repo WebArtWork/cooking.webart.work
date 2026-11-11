@@ -1,0 +1,86 @@
+{
+  "id": "world-0532",
+  "title": "Jareesh",
+  "description": "A traditional dish from Saudi Arabia, centered on yellow onion, bulgur, chicken thigh, plain yogurt. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "SA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 40 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "bulgur",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 450,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 20 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

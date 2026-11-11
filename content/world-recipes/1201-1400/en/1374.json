@@ -1,0 +1,79 @@
+{
+  "id": "world-1374",
+  "title": "Quesillo",
+  "description": "Quesillo is a dish from Venezuela featuring chicken egg, sweetened condensed milk, whole cow milk. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "VE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the listed ingredients over moderate heat, stirring only as needed, for about 9 minutes until amber and fragrant.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 530,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 6,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Place the caramel-lined custard mold into a hot water bath and bake at 160°C until the custard is cooked and just set.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Refrigerate the prepared mixture for about 180 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

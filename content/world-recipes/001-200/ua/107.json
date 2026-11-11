@@ -1,0 +1,83 @@
+{
+  "id": "world-0107",
+  "title": "Сірий горох зі шпиком",
+  "description": "Латвійська класична страва із сірого гороху та бекону, адаптована із сухим зеленим горохом через відсутність сірого в каталозі.",
+  "regionId": "eastern-europe",
+  "countryCode": "LV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте сухий горох і замочіть приблизно на 8 годин у холодильнику, потім злийте воду. Відварюйте у свіжій воді до м’якості, орієнтовно 60 хвилин. У рецепті використано сухий зелений горох, бо сірого немає в каталозі.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 540,
+      "ingredients": [
+        {
+          "ingredientId": "green-peas-dried",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

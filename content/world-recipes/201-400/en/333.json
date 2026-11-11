@@ -1,0 +1,76 @@
+{
+  "id": "world-0333",
+  "title": "Crème Brûlée",
+  "description": "A traditional France dish made with heavy cream, egg yolk. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Warm the vanilla bean in the cream to steaming, keeping it below a full boil to preserve its delicate aroma.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-bean",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk yolks with sugar and slowly temper with warm vanilla cream. Strain into ramekins in a hot-water bath; bake at 150°C for approximately 30–40 minutes until just set.",
+      "techniqueIds": [
+        "tempering-eggs",
+        "water-bath-baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 7,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 145,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Refrigerate the cooled baked custards for about 3 hours until properly cold and firm.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 175,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Immediately before serving, spread a very thin layer of sugar over the cold custards and caramelize with a kitchen blowtorch until crisp and golden.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

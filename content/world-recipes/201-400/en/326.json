@@ -1,0 +1,119 @@
+{
+  "id": "world-0326",
+  "title": "Hachis Parmentier",
+  "description": "A traditional France dish made with ground beef, yellow onion, carrot, tomato paste. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 10 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 570,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 20 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 2,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 23 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 1000,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Bake in a preheated 180°C oven for about 28 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

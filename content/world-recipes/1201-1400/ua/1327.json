@@ -1,0 +1,126 @@
+{
+  "id": "world-1327",
+  "title": "Перуанське севіче",
+  "description": "Перуанське севіче — страва кухні країни Перу з такими основними складниками: сібас, батат, солодка кукурудза, червона цибуля. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Адаптація для безпеки: рибу термічно готують перед цитрусовою заправкою; традиційне перуанське севіче зазвичай із сирої риби. Цитрус не замінює термічну обробку.",
+  "regionId": "south-america",
+  "countryCode": "PE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Для цієї термічно обробленої версії приготуйте рибу до 63°C чи повної непрозорості, потім швидко охолодіть перед лаймовою заправкою.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sea-bass",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 22 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-corn",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 170,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aji-amarillo-paste",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 22 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

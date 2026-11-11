@@ -1,0 +1,130 @@
+{
+  "id": "world-1127",
+  "title": "Jambalaya",
+  "description": "Jambalaya is a dish from United States prepared with chicken thigh, andouille sausage, yellow onion, celery stalk. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "andouille-sausage",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 7 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cajun-seasoning",
+          "amount": 16,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Rinse the rice, add the listed water, stock, coconut milk and aromatics as specified, cover and cook gently for about 26 minutes until tender and the liquid absorbs.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 6 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

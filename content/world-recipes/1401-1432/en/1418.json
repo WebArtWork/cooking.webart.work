@@ -1,0 +1,110 @@
+{
+  "id": "world-1418",
+  "title": "Tuluk",
+  "description": "Tuluk is a Vanuatu cassava parcel filled with seasoned meat and baked in banana leaves. This home version uses cassava flour dough rather than freshly grated cassava.",
+  "regionId": "oceania",
+  "countryCode": "VU",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Brown the ground pork in a skillet with onion and garlic until the meat reaches 71°C; stir in salt and set aside to cool slightly.",
+      "techniqueIds": [
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mix cassava flour with a little salt and warm coconut milk until a soft pliable dough forms; rest 5 minutes.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soften food-safe banana leaves. Flatten six discs of dough, put pork filling in the middle and enclose securely in dough and leaf.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange in a covered baking dish with a little water for steam; bake at 185°C for 45–55 minutes until the cassava dough has fully set and is cooked through.",
+      "techniqueIds": [
+        "steam-baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Rest 10 minutes and unwrap carefully; serve warm.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

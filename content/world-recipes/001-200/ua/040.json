@@ -1,0 +1,97 @@
+{
+  "id": "world-0040",
+  "title": "Копитка",
+  "description": "Класична страва з Польща. Основні складники: картопля, куряче яйце, пшеничне борошно універсальне, несолоне вершкове масло. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "PL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 7 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

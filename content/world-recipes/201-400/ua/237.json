@@ -1,0 +1,92 @@
+{
+  "id": "world-0237",
+  "title": "Гірос у піті",
+  "description": "Традиційна страва кухні країни Греція. Основні інгредієнти: куряче стегно, натуральний йогурт, лимонний сік, часник. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 50 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 27 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tzatziki",
+          "amount": 190,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,145 @@
+{
+  "id": "world-1252",
+  "title": "Даблс",
+  "description": "Даблс — страва кухні країни Тринідад і Тобаго з такими основними складниками: нут, жовта цибуля, часник, пшеничне борошно універсальне. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "TT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 360 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 360,
+      "ingredients": [
+        {
+          "ingredientId": "chickpeas",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 75 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Замісіть м’яке дріжджове тісто з куркумою й дайте йому піднятися. Розділіть на кульки: два смажені коржі бара мають залишатися гнучкими, а не хрусткими.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 16 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "На кожну порцію покладіть тепле карі з нуту між двома м’якими смаженими бара, додайте кислий тамаринд і кінзу.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

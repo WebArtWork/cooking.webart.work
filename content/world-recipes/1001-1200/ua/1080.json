@@ -1,0 +1,92 @@
+{
+  "id": "world-1080",
+  "title": "Лумпія шанхай",
+  "description": "Лумпія шанхай — страва кухні країни Філіппіни, яку готують із таких продуктів: свинячий фарш, морква, жовта цибуля, часник. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "spring-roll-wrappers",
+          "amount": 22,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 16 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-chili-sauce",
+          "amount": 120,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

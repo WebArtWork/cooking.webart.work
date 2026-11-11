@@ -1,0 +1,127 @@
+{
+  "id": "world-1165",
+  "title": "Червоне позоле",
+  "description": "Червоне позоле — страва кухні країни Мексика, яку готують із таких продуктів: ніштамалізована кукурудза, свиняча лопатка, жовта цибуля, часник. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 180 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "hominy",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 110 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 110,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 860,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "dried-guajillo-chilies",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dried-ancho-chilies",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 40 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "radish",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,134 @@
+{
+  "id": "world-0612",
+  "title": "Шахшуха",
+  "description": "Шахшуха — страва кухні країни Алжир зі складниками: ягнятина, жовта цибуля, помідор, томатна паста. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "north-africa",
+  "countryCode": "DZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 620,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 55 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 20 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "semolina-flour",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 225,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розкачайте манне тісто на тонкі коржі та приготуйте на сухій гарячій сковороді; розірвіть коржі на дрібні шматочки.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Перемішайте шматочки коржів із гарячою баранячо-нутовою підливою до просочення й додайте зелень.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 22,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

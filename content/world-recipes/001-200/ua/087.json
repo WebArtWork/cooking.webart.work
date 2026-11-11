@@ -1,0 +1,108 @@
+{
+  "id": "world-0087",
+  "title": "Салата де бьоф",
+  "description": "Класична страва з Румунія. Основні складники: картопля, морква, яловича лопатка, куряче яйце. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "RO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Відваріть яловичину до м’якості, а картоплю й моркву до готовності у зазначеній воді. Повністю остудіть і наріжте однаковими кубиками.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть яйця приблизно 9 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте відварену яловичину, овочі та квашені огірки, додайте відціджений консервований горошок і обережно перемішайте.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-green-peas",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно змішайте із заправкою, приправте до смаку й подавайте або трохи охолодіть за потреби.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

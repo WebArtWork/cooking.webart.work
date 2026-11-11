@@ -1,0 +1,119 @@
+{
+  "id": "world-0004",
+  "title": "Солянка",
+  "description": "Класична страва з Україна. Основні складники: яловича лопатка, жовта цибуля, копчена шинка, квашений огірок. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 30 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте зазначені складники до каструлі. Варіть за слабкого кипіння приблизно 15 хвилин до м’якості та готовності.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-olives",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

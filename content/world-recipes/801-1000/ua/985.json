@@ -1,0 +1,84 @@
+{
+  "id": "world-0985",
+  "title": "Бінсу",
+  "description": "Бінсу — страва кухні країни Південна Корея. Основні складники: цільне коров'яче молоко, згущене молоко з цукром, полуниця, рисові коржі мочі. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Швидкий бінсу з готовою солодкою пастою з червоної квасолі та крижаною стружкою.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 35 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нашаткуйте або розберіть готові компоненти на волокна й змішайте з зазначеними додатками.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Складіть готові приготовлені компоненти й зазначені додатки в посуді для подавання, підтримуючи гаряче гарячим, а холодне охолодженим.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "strawberry",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mochi-rice-cakes",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "red-bean-paste-anko",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

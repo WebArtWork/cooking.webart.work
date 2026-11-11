@@ -1,0 +1,110 @@
+{
+  "id": "world-0638",
+  "title": "Басбуса",
+  "description": "Басбуса — страва кухні країни Єгипет зі складниками: семоліна, натуральний йогурт, розпушувач тіста, кокосова стружка. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "north-africa",
+  "countryCode": "EG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "semolina-flour",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "almond",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 35 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зваріть легкий сироп із цукру, води й лимона; полийте ним гарячий манний пиріг для рівномірного просочення.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 170,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

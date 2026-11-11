@@ -1,0 +1,102 @@
+{
+  "id": "world-0492",
+  "title": "Фатте з нутом",
+  "description": "Традиційна страва кухні країни Сирія. Основні складники: піта, консервований нут, натуральний йогурт, тахіні. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "SY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Підсмажуйте зазначені складники на середньому вогні приблизно 6 хвилин, часто перевертаючи, щоб не підгоріли.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 10 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 220,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tahini",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pine-nut",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

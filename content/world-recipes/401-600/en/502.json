@@ -1,0 +1,101 @@
+{
+  "id": "world-0502",
+  "title": "Maqluba Palestinian Style",
+  "description": "A traditional dish from Palestine, centered on chicken thigh, yellow onion, white rice, eggplant. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "PS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 10 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "eggplant",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cauliflower",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 50 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 760,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Take off the heat and let the rice rest under a clean towel or lid for about 12 minutes before serving.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,77 @@
+{
+  "id": "world-0307",
+  "title": "Таратор",
+  "description": "Традиційна страва кухні країни Болгарія. Основні інгредієнти: огірок, натуральний йогурт, часник, кріп. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "BG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистьте й натріть овочі на грубій тертці; відіжміть зайву рідину, щоб маса тримала форму.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 460,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Змішайте відтиснутий тертий огірок із йогуртом, часником, кропом і подрібненими горіхами; за потреби розведіть крижаною водою до консистенції супу.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 45 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

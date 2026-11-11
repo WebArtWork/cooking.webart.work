@@ -23,7 +23,7 @@ const RELATED_TITLES = ['Related theories', 'Пов’язані теорії'];
 				@for (section of content(body.sections); track $index) {
 					<section>
 						<h3>{{ section.title }}</h3>
-						<p><app-cooking-text [text]="section.text" /></p>
+						<p><app-cooking-text [text]="section.text" [link]="false" /></p>
 					</section>
 				}
 			</article>

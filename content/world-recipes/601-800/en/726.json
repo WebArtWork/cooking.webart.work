@@ -1,0 +1,72 @@
+{
+  "id": "world-0726",
+  "title": "Fufu Gabonais",
+  "description": "Fufu Gabonais is a Gabon classic prepared with cassava flour, plantain flour, peanut sauce. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "central-africa",
+  "countryCode": "GA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 9 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 930,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly stir the grains into the simmering liquid; cook over low heat for about 21 minutes, stirring to prevent sticking.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 21,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plantain-flour",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 12 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

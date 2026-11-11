@@ -1,0 +1,81 @@
+{
+  "id": "world-0325",
+  "title": "Гратен дофінуа",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: картопля, часник, вершки високої жирності, цільне коров'яче молоко. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 670,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 68 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 68,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

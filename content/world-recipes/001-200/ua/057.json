@@ -1,0 +1,110 @@
+{
+  "id": "world-0057",
+  "title": "Фруктові кнедлики",
+  "description": "Класична страва з Чехія. Основні складники: куряче яйце, цільне коров'яче молоко, слива. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "CZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 20 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 190,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "plum",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Тонко розкачайте відпочиле тісто, виріжте кружальця, викладіть начинку в центр і ретельно заліпіть краї кожного вареника чи пельменя.",
+      "techniqueIds": [
+        "rolling-out-dough",
+        "pinching-dumplings"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 10 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

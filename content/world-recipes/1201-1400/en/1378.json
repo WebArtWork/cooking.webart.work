@@ -1,0 +1,102 @@
+{
+  "id": "world-1378",
+  "title": "Vori Vori",
+  "description": "Vori Vori is a dish from Paraguay featuring chicken thigh, yellow onion, carrot, cornmeal. This home-sized recipe records each ingredient at the step where it is used. Cornmeal stands in for Paraguayan cornflour/bespoke vorí mixture.",
+  "regionId": "south-america",
+  "countryCode": "PY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 48 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 48,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 160,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll the cornmeal-cheese mixture into small dumpling balls with damp hands, keeping them uniform for simmering in the soup.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 11,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cook dumplings in batches in gently boiling salted water for about 16 minutes, until they float and the filling is cooked through. Lift out with a slotted spoon.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 24,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

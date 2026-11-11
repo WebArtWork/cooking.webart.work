@@ -1,0 +1,118 @@
+{
+  "id": "world-0177",
+  "title": "Мінестроне",
+  "description": "Класична страва з Італія. Основні складники: жовта цибуля, морква, стебло селери, картопля. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Додайте зазначені складники до каструлі. Варіть за слабкого кипіння приблизно 30 хвилин до м’якості та готовності.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zucchini",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-beans",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-kidney-beans",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-stock",
+          "amount": 1200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "basil",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

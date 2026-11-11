@@ -1,0 +1,98 @@
+{
+  "id": "world-1185",
+  "title": "Frijoles Refritos",
+  "description": "Frijoles Refritos is a dish from Mexico prepared with pinto beans, yellow onion, garlic, queso fresco. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried beans in ample clean cold water for about 360 minutes, drain and discard the soaking water; cook fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 360,
+      "ingredients": [
+        {
+          "ingredientId": "pinto-beans",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "After soaking, drain the pinto beans and boil thoroughly in fresh water until tender; do not mash undercooked legumes.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "lard",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 10 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

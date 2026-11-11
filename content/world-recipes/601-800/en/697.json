@@ -1,0 +1,77 @@
+{
+  "id": "world-0697",
+  "title": "Akume",
+  "description": "Akume is a Togo classic prepared with cornmeal, cassava flour, peanut sauce. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "TG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 10 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly stir the grains into the simmering liquid; cook over low heat for about 24 minutes, stirring to prevent sticking.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

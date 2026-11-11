@@ -1,0 +1,131 @@
+{
+  "id": "world-0824",
+  "title": "Кісра з рагу",
+  "description": "Кісра з рагу — страва кухні країни Південний Судан. Основні складники: соргове борошно, інстантні дріжджі, ягнятина, жовта цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Коржики у стилі кисри з дріжджовим бродінням; традиційна природна закваска відрізняється.",
+  "regionId": "southern-africa",
+  "countryCode": "SS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 620,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Дайте тісту з сорго стати злегка кислуватим і пухирчастим у чистій накритій мисці; перевірте перед використанням та викиньте за ознак псування.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 480,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наливайте тонкий шар тіста на злегка змащену розігріту сковороду. Обсмажуйте з обох боків, приблизно 20 хвилин на партію, щоб отримати еластичні млинці.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 470,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

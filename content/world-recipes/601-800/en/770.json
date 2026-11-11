@@ -1,0 +1,94 @@
+{
+  "id": "world-0770",
+  "title": "Matoke",
+  "description": "Matoke is a Uganda classic prepared with plantain, banana leaf, peanut sauce. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Use green unripe cooking plantains to approximate East African matoke bananas, which are not separately listed.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "UG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 1000,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Steam the leaf-wrapped unripe cooking plantains until very tender, then remove leaves carefully before mashing.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 42,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 450,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 12 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

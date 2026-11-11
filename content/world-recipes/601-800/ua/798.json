@@ -1,0 +1,107 @@
+{
+  "id": "world-0798",
+  "title": "Потджикос",
+  "description": "Потджикос — страва кухні країни Південно-Африканська Республіка зі складниками: ягнятина, жовта цибуля, морква, картопля. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "southern-africa",
+  "countryCode": "ZA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 13 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-beans",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Залиште овочі окремими шарами поверх підрум’яненої баранини, влийте бульйон, накрийте й повільно тушкуйте без частого перемішування до м’якості.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 105,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dried-thyme",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

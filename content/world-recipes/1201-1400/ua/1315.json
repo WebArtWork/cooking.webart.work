@@ -1,0 +1,96 @@
+{
+  "id": "world-1315",
+  "title": "Чівіто",
+  "description": "Чівіто — страва кухні країни Уругвай з такими основними складниками: яловичий сирлойн, копчена шинка, куряче яйце, булочка. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "UY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть яйця приблизно 12 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "bread-roll",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

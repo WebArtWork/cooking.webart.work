@@ -1,0 +1,110 @@
+{
+  "id": "world-1237",
+  "title": "Солодка квасоля по-домініканськи",
+  "description": "Солодка квасоля по-домініканськи — страва кухні країни Домініканська Республіка з такими основними складниками: червона квасоля кідні, кокосове молоко, концентроване молоко без цукру, згущене молоко з цукром. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "DO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 450 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 450,
+      "ingredients": [
+        {
+          "ingredientId": "kidney-beans",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 95 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 22 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassia-cinnamon",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 17 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 65 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 65,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

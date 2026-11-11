@@ -1,0 +1,112 @@
+{
+  "id": "world-0024",
+  "title": "Pampushky with Garlic",
+  "description": "A classic dish from Ukraine, featuring garlic, dill, all-purpose flour, instant yeast. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 60 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Divide and shape the dough as required. Place on a lined tray and proof for about 25 minutes while the oven heats.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake in a preheated 180°C oven for about 18 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

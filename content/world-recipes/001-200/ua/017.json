@@ -1,0 +1,92 @@
+{
+  "id": "world-0017",
+  "title": "Січеники",
+  "description": "Класична страва з Україна. Основні складники: свинячий фарш, жовта цибуля, куряче яйце, часник. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "white-bread",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 15 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "dill",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

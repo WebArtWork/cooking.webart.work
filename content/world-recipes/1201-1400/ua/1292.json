@@ -1,0 +1,91 @@
+{
+  "id": "world-1292",
+  "title": "Пау ді кейжу",
+  "description": "Пау ді кейжу — страва кухні країни Бразилія з такими основними складниками: цільне коров'яче молоко, тапіоковий крохмаль, парміджано реджано, моцарела. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "BR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Поступово влийте гарячу молочно-олійну суміш до тапіокового крохмалю; остудіть до безпечної температури, додайте яйця та сир і обережно вимісіть.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 510,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розділіть і сформуйте підготовлене тісто чи масу на однакові порції, викладіть на деко з пергаментом або у форми, залишивши місце для збільшення об’єму.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте готове тісто з начинкою в добре розігрітій духовці при 230–250°C до хрусткої основи та готовності начинки.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

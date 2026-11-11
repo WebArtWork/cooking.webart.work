@@ -1,0 +1,97 @@
+{
+  "id": "world-0461",
+  "title": "Mercimek Çorbası",
+  "description": "A traditional dish from Türkiye, centered on yellow onion, carrot, tomato paste, red lentils. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "TR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 28 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "red-lentils",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

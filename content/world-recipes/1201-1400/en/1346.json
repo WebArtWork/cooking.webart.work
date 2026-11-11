@@ -1,0 +1,103 @@
+{
+  "id": "world-1346",
+  "title": "Fricasé Paceño",
+  "description": "Fricasé Paceño is a dish from Bolivia featuring pork shoulder, aji amarillo paste, garlic, yellow onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "BO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 55 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aji-amarillo-paste",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 95 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1050,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

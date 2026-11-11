@@ -1,0 +1,108 @@
+{
+  "id": "world-1170",
+  "title": "Сопес",
+  "description": "Сопес — страва кухні країни Мексика, яку готують із таких продуктів: маса харіна, консервована чорна квасоля, кесо фреско, салат латук. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Консервована чорна квасоля, розім’ята на сковороді, замінює готову пересмажену квасолю.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 15 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Прогрійте й розімніть злиту консервовану чорну квасолю з невеликою кількістю олії до густої намазки для сопес.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "canned-black-beans",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-salsa",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

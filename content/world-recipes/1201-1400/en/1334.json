@@ -1,0 +1,107 @@
+{
+  "id": "world-1334",
+  "title": "Rocoto Relleno",
+  "description": "Rocoto Relleno is a dish from Peru featuring rocoto pepper, ground beef, yellow onion, garlic. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "PE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 18 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "rocoto-pepper",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Hollow or prepare the vegetables, then fill with the prepared mixture without packing too tightly.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 35 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

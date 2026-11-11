@@ -1,0 +1,72 @@
+{
+  "id": "world-0510",
+  "title": "Джахнун",
+  "description": "Традиційна страва кухні країни Ізраїль. Основні складники: пшеничне борошно універсальне. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IL",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 15 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте щільно скручені й змащені маслом джахнуни під кришкою при 100–110°C всю ніч, близько 8 годин, до темно-бурштинового кольору.",
+      "techniqueIds": [
+        "low-and-slow-cooking"
+      ],
+      "durationMinutes": 480,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

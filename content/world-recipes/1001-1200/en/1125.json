@@ -1,0 +1,108 @@
+{
+  "id": "world-1125",
+  "title": "New England Lobster Roll",
+  "description": "New England Lobster Roll is a dish from United States prepared with lobster, celery stalk, green onion, mayonnaise. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 14 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lobster",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "hot-dog-bun",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

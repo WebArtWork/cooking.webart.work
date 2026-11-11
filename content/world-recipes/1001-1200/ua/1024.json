@@ -1,0 +1,119 @@
+{
+  "id": "world-1024",
+  "title": "Бань сео",
+  "description": "Бань сео — страва кухні країни В'єтнам, яку готують із таких продуктів: рисове борошно, кокосове молоко, свиняча грудинка, креветка. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте складники рідкого тіста до однорідності. Дайте суміші коротко відпочити, щоб борошно увібрало вологу.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Налийте тонкий шар рисового тіста з куркумою на гарячу змащену сковороду, додайте готові свинину, креветки й паростки, підсмажте до хрусткості та складіть навпіл.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mung-bean-sprouts",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "lettuce",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,102 @@
+{
+  "id": "world-0766",
+  "title": "Mishkaki",
+  "description": "Mishkaki is a Tanzania classic prepared with beef sirloin, garlic, ginger root, lemon juice. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "TZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 75 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 710,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Thread the prepared pieces onto skewers, leaving small gaps to ensure even cooking.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill over medium-high heat for about 18 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

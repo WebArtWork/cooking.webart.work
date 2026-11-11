@@ -1,0 +1,93 @@
+{
+  "id": "world-0922",
+  "title": "Яєчний суп",
+  "description": "Яєчний суп — страва кухні країни Китай. Основні складники: кукурудзяний крохмаль, куряче яйце, зелена цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 12 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1120,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 16,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-peppercorn",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 26,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 4 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "toasted-sesame-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

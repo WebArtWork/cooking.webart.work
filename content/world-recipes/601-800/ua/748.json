@@ -1,0 +1,120 @@
+{
+  "id": "world-0748",
+  "title": "Баріс іскуканіс",
+  "description": "Баріс іскуканіс — страва кухні країни Сомалі зі складниками: жовта цибуля, часник, корінь імбиру, рис басматі. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "SO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Змішайте рис із теплим жиром та ароматичними складниками й прогрівайте приблизно 5 хвилин, не підрум’янюючи.",
+      "techniqueIds": [
+        "sauteing",
+        "risotto-method"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ceylon-cinnamon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cardamom-pods",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 26 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зніміть із вогню та дайте рису відпочити під чистим рушником або кришкою приблизно 8 хвилин перед подаванням.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raisin",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

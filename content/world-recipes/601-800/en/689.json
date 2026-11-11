@@ -1,0 +1,87 @@
+{
+  "id": "world-0689",
+  "title": "Groundnut Stew",
+  "description": "Groundnut Stew is a Sierra Leone classic prepared with chicken thigh, yellow onion, peanut butter, tomato. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "SL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 11 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 660,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 55 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ginger-root",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

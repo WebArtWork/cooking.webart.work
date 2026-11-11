@@ -1,0 +1,152 @@
+{
+  "id": "world-0840",
+  "title": "Масала доса",
+  "description": "Масала доса — страва кухні країни Індія. Основні складники: рис для ідлі, урід дал, картопля, жовта цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис, крупи або локшину у чистій воді приблизно на 480 хвилин залежно від продукту, потім злийте; для тіста за потреби подрібніть рис і урад.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "idli-rice",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "urad-dal",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Ферментуйте подрібнену рисово-урудову основу в чистій накритій посудині до підйому й бульбашок; тривалість залежить від температури й активності закваски.",
+      "techniqueIds": [
+        "mixed-grain-fermentation"
+      ],
+      "durationMinutes": 720,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть зазначені складники у воді приблизно 15 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "mustard-seeds",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Розподіліть тонке коло ферментованого тіста на гарячій змащеній сковороді до хрусткості, викладіть картопляну масалу по центру й складіть.",
+      "techniqueIds": [
+        "griddle-cooking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,92 @@
+{
+  "id": "world-0965",
+  "title": "Дораякі",
+  "description": "Дораякі — страва кухні країни Японія. Основні складники: куряче яйце, цільне коров'яче молоко, пшеничне борошно універсальне, розпушувач тіста. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 125,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно вмішайте решту сухих або рідких складників лише до однорідності, не осаджуючи масу.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 18 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Складіть готові приготовлені компоненти й зазначені додатки в посуді для подавання, підтримуючи гаряче гарячим, а холодне охолодженим.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-bean-paste-anko",
+          "amount": 270,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

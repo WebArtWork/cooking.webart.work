@@ -1,0 +1,103 @@
+{
+  "id": "world-0349",
+  "title": "Гороховий суп по-німецьки",
+  "description": "Традиційна страва кухні країни Німеччина. Основні інгредієнти: зелений колотий горох, жовта цибуля, морква, стебло селери. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 80 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "green-split-peas",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1450,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bacon",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

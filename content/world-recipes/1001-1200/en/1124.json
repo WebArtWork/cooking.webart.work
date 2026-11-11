@@ -1,0 +1,113 @@
+{
+  "id": "world-1124",
+  "title": "Clam Chowder",
+  "description": "Clam Chowder is a dish from United States prepared with bacon, yellow onion, celery stalk, all-purpose flour. This is a home-scale version with measured ingredients in the individual steps where they are used. Fish stock replaces fresh clam liquor in the base; add clam cooking juices if available.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Melt the fat, stir in flour and cook gently for about 7 minutes, then whisk in liquid to create a smooth thickened sauce.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 20 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "clam",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

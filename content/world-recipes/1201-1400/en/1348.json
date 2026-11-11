@@ -1,0 +1,86 @@
+{
+  "id": "world-1348",
+  "title": "Cuñapé",
+  "description": "Cuñapé is a dish from Bolivia featuring whole cow milk, tapioca starch, queso fresco, chicken egg. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "BO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 10 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Divide and shape the prepared mixture or dough into even portions and arrange on a lined baking sheet or appropriate molds, leaving enough room for expansion.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the already topped dough in a fully preheated 230–250°C oven until the base is crisp and toppings are cooked.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

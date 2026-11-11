@@ -1,0 +1,97 @@
+{
+  "id": "world-0599",
+  "title": "Chicken Tagine with Preserved Lemon",
+  "description": "A traditional dish from Morocco, centered on chicken thigh, preserved lemons, garlic, yellow onion. A measured home-kitchen version organized by cooking step. Preserved lemons and green olives provide the characteristic bright-salty flavor of a Moroccan tagine.",
+  "regionId": "north-africa",
+  "countryCode": "MA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 55 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 880,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "preserved-lemons",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly braise the marinated chicken with onions, preserved lemon and olives in a covered tagine or heavy casserole, until the meat is tender and fully cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-olives",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

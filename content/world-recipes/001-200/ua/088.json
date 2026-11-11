@@ -1,0 +1,93 @@
+{
+  "id": "world-0088",
+  "title": "Зяма",
+  "description": "Класична страва з Молдова. Основні складники: куряче стегно, жовта цибуля, морква, корінь петрушки. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "MD",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 60 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley-root",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 14 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "egg-noodles",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

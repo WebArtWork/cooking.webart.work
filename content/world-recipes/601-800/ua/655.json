@@ -1,0 +1,116 @@
+{
+  "id": "world-0655",
+  "title": "Суп егусі",
+  "description": "Суп егусі — страва кухні країни Нігерія зі складниками: козлятина, жовта цибуля, річковий рак, перець скотч-боннет. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Шпинат замінює місцеву зелень; мелені зерна егусі, пальмова олія та раки зберігають характерну основу.",
+  "regionId": "west-africa",
+  "countryCode": "NG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "goat-meat",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 50 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "crayfish",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dawadawa",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розмішайте мелене егусі з невеликою кількістю води до густої пасти; покладіть невеликі порції в гарячий бульйон із пальмовою олією й дайте схопитися.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "ground-egusi",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 20 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

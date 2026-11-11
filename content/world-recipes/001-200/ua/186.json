@@ -1,0 +1,93 @@
+{
+  "id": "world-0186",
+  "title": "Сальтимбока по-римськи",
+  "description": "Класична страва з Італія. Основні складники: теляча відбивна, прошуто крудо, шавлія. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 8 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "veal-cutlet",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "prosciutto-crudo",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sage",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 7 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 160,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

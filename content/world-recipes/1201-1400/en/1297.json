@@ -1,0 +1,104 @@
+{
+  "id": "world-1297",
+  "title": "Tutu de Feijão",
+  "description": "Tutu de Feijão is a dish from Brazil featuring black beans, yellow onion, garlic, bacon. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "BR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried beans in ample clean cold water for about 400 minutes, drain and discard the soaking water; cook fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 400,
+      "ingredients": [
+        {
+          "ingredientId": "black-beans",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 100 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 9 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "bacon",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 12 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

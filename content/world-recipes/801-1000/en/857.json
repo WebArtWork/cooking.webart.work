@@ -1,0 +1,118 @@
+{
+  "id": "world-0857",
+  "title": "Rajma",
+  "description": "Rajma is a India dish made with kidney beans, yellow onion, tomato, ginger-garlic paste. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak dried legumes in plenty of cool water for 480 minutes, then drain and discard the soaking water. Cook them fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "kidney-beans",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "After discarding soaking water, boil kidney beans vigorously for at least 10 minutes and then simmer until thoroughly soft; never slow-cook uncooked kidney beans alone.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 28 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "garam-masala",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

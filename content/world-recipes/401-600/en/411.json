@@ -1,0 +1,134 @@
+{
+  "id": "world-0411",
+  "title": "Trifle",
+  "description": "A traditional dish from United Kingdom, centered on chicken egg, all-purpose flour, whole cow milk, egg yolk. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whip eggs with sugar to a thick, pale ribbon for the homemade sponge base.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently fold in the remaining dry or wet ingredients just until homogeneous, without deflating the mixture.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 105,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake the sponge at 180°C until set, then cool and cut into layers or cubes.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Gently heat the egg-yolk, milk and starch mixture while whisking into a thick custard; cool promptly.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Layer sponge with raspberry jam and fruit, spoon over the cooled custard and cover with whipped cream.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "raspberry-jam",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raspberry",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Whisk or whip the listed ingredients to a smooth, light consistency, then keep cool until needed.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 90 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

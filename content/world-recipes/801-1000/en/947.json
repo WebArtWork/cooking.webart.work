@@ -1,0 +1,98 @@
+{
+  "id": "world-0947",
+  "title": "Chicken Katsu",
+  "description": "Chicken Katsu is a Japan dish made with chicken breast, all-purpose flour, chicken egg, panko breadcrumbs. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat dry, then coat evenly with the listed breading or flour components; press lightly to help it adhere.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "panko-breadcrumbs",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 16 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 280,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "tonkatsu-sauce",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

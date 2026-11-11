@@ -1,0 +1,113 @@
+{
+  "id": "world-1079",
+  "title": "Pancit Bihon",
+  "description": "Pancit Bihon is a dish from Philippines prepared with rice vermicelli, garlic, yellow onion, ground pork. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the measured rice or noodles in clean cool water for about 12 minutes, then drain and proceed to the specified cooking step.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vermicelli",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-pork",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 10 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,72 @@
+{
+  "id": "world-0113",
+  "title": "Кров'яна ковбаса",
+  "description": "Запечена готова кров’яна ковбаса з кислуватим ягідним доповненням; робота із сирою кров’ю не потрібна.",
+  "regionId": "eastern-europe",
+  "countryCode": "EE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обережно підрум’яньте готову кров’яну ковбасу на смальці, не пошкоджуючи оболонку.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "blood-sausage",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Перекладіть у духовку при 190°C та повністю прогрійте; не використовуйте сиру кров’яну начинку без перевіреного рецепта.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Подавайте з квашеною капустою та коротко прогрітою брусницею із цукром.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lingonberry",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sauerkraut",
+          "amount": 260,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

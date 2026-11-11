@@ -1,0 +1,117 @@
+{
+  "id": "world-1175",
+  "title": "Чилі ен ногада",
+  "description": "Чилі ен ногада — страва кухні країни Мексика, яку готують із таких продуктів: перець поблано, свинячий фарш, жовта цибуля, яблуко. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі рівномірно та запікайте при 200°C приблизно 17 хвилин до м’якості й легкої підпеченої скоринки.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "poblano-pepper",
+          "amount": 8,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "apple",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pear",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підготуйте овочі, за потреби вийміть серцевину, і наповніть начинкою, не утрамбовуючи надто щільно.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cream-cheese",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pomegranate-arils",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

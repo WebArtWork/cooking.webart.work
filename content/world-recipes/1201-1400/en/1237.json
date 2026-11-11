@@ -1,0 +1,110 @@
+{
+  "id": "world-1237",
+  "title": "Habichuelas con Dulce",
+  "description": "Habichuelas con Dulce is a dish from Dominican Republic featuring kidney beans, coconut milk, evaporated milk, sweetened condensed milk. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "DO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried beans in ample clean cold water for about 450 minutes, drain and discard the soaking water; cook fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 450,
+      "ingredients": [
+        {
+          "ingredientId": "kidney-beans",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 95 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 22 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassia-cinnamon",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 17 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Refrigerate the prepared mixture for about 65 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 65,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,80 @@
+{
+  "id": "world-0498",
+  "title": "Zarb",
+  "description": "A traditional dish from Jordan, centered on lamb, plain yogurt, garlic, lemon juice. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "JO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast the sealed meat-and-vegetable parcels in a covered oven dish until the lamb is safely tender; traditional zarb cooks underground.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

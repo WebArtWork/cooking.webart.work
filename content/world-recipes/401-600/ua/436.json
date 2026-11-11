@@ -1,0 +1,87 @@
+{
+  "id": "world-0436",
+  "title": "Лютефіск",
+  "description": "Традиційна страва кухні країни Норвегія. Основні складники: сушена риба стокфіш, картопля, бекон. Домашній варіант із кількостями продуктів за етапами приготування. Лише вечеря з тріскою у стилі лютефіск. Для справжнього лютефіску потрібна готова промислово оброблена лугом риба, якої немає в каталозі; самостійно обробляти рибу лугом не слід.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Це не традиційний лютефіск. Вимочуйте сушену тріску кілька днів у холодильнику з частою зміною води за інструкцією виробника. Ніколи не обробляйте рибу лугом удома.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 4320,
+      "ingredients": [
+        {
+          "ingredientId": "dried-stockfish",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1400,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 8 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,86 @@
+{
+  "id": "world-0750",
+  "title": "Canjeero",
+  "description": "Canjeero is a Somalia classic prepared with all-purpose flour, sorghum flour, instant yeast. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "SO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 630,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cover the batter loosely and leave in a suitable warm, clean place for about 360 minutes to become bubbly and lightly tangy; do not refrigerate during active fermentation.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 360,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook canjeero in thin rounds over medium heat, mostly from one side, until bubbles open and the surface dries.",
+      "techniqueIds": [
+        "griddle-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

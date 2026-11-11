@@ -1,0 +1,98 @@
+{
+  "id": "world-0514",
+  "title": "Quzi",
+  "description": "A traditional dish from Iraq, centered on lamb, yellow onion, basmati rice, raisin. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IQ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 15 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 70,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 130 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 130,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 27 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "almond",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

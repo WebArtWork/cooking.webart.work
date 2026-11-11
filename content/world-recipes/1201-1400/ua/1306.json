@@ -1,0 +1,103 @@
+{
+  "id": "world-1306",
+  "title": "Емпанадас сальтеньяс",
+  "description": "Емпанадас сальтеньяс — страва кухні країни Аргентина з такими основними складниками: пшеничне борошно універсальне, яловичий фарш, жовта цибуля, куряче яйце. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 20 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-olives",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 17,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 35 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,87 @@
+{
+  "id": "world-0328",
+  "title": "Крок-месьє",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: білий хліб, копчена шинка, грюєр, діжонська гірчиця. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "white-bread",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gruyere",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розтопіть жир, вмішайте борошно й готуйте на малому вогні приблизно 7 хвилин, потім поступово влийте рідину, збиваючи до гладкого густого соусу.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 390,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 10 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "gruyere",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

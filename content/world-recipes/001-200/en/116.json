@@ -1,0 +1,103 @@
+{
+  "id": "world-0116",
+  "title": "Kiluvõileib",
+  "description": "A classic dish from Estonia, featuring rye bread, sprat, chicken egg, cucumber. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "EE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Toast these ingredients over medium heat for about 5 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "rye-bread",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 8 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "sprat",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Boil the eggs for about 9 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "dill",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

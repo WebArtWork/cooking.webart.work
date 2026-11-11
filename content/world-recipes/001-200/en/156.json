@@ -1,0 +1,107 @@
+{
+  "id": "world-0156",
+  "title": "Nidi di Rondine",
+  "description": "A classic dish from San Marino, featuring lasagna sheets, ricotta, spinach, prosciutto cotto. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "SM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 8 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "lasagna-sheets",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ricotta",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "spinach",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prosciutto-cotto",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Spread filling over the cooked pasta sheets, roll them up like a Swiss roll, cut crosswise into small spirals and stand them upright in the sauced baking dish.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "bechamel-sauce",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake until the rolled pasta nests are hot and bubbling and their tops lightly browned.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "basil",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

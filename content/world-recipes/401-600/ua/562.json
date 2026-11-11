@@ -1,0 +1,118 @@
+{
+  "id": "world-0562",
+  "title": "Лагман",
+  "description": "Традиційна страва кухні країни Узбекистан. Основні складники: пшеничне борошно універсальне, куряче яйце, яловича лопатка, жовта цибуля. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "central-asia",
+  "countryCode": "UZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 18 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте й обережно витягніть відпочиле тісто у довгі смуги локшини, злегка припудрюючи борошном.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 13 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 20 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Відваріть витягнуту свіжу локшину окремо у великій кількості підсоленої води до м’якості, розкладіть у миски й залийте м’ясо-овочевою підливою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

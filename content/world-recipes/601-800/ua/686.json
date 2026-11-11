@@ -1,0 +1,88 @@
+{
+  "id": "world-0686",
+  "title": "Фоніо з овочами",
+  "description": "Фоніо з овочами — страва кухні країни Гвінея зі складниками: фоніо, жовта цибуля, морква, цукіні. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "west-africa",
+  "countryCode": "GN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 18 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "fonio",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zucchini",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

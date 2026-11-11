@@ -1,0 +1,80 @@
+{
+  "id": "world-1035",
+  "title": "Banh Flan",
+  "description": "Banh Flan is a dish from Vietnam prepared with chicken egg, evaporated milk, sweetened condensed milk. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the listed ingredients over moderate heat, stirring only as needed, for about 8 minutes until amber and fragrant.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Set the caramel-lined flan mould in a larger baking dish of hot water and gently bake at 150–160°C until the custard is just set, about 40–50 minutes; chill before unmoulding.",
+      "techniqueIds": [
+        "water-bath-baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Refrigerate the prepared mixture for about 180 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

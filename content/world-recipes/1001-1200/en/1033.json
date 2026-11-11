@@ -1,0 +1,113 @@
+{
+  "id": "world-1033",
+  "title": "Goi Ga",
+  "description": "Goi Ga is a dish from Vietnam prepared with chicken breast, white cabbage, carrot, red onion. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 22 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shred or tear the cooked components, then fold together with the listed additions.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

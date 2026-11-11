@@ -1,0 +1,85 @@
+{
+  "id": "world-0406",
+  "title": "Welsh Rarebit",
+  "description": "A traditional dish from United Kingdom, centered on white bread, all-purpose flour, whole cow milk, cheddar cheese. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Toast these ingredients over medium heat for about 6 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "white-bread",
+          "amount": 8,
+          "unit": "slice"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Melt the fat, stir in flour and cook gently for about 5 minutes, then whisk in liquid to create a smooth thickened sauce.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 130,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cheddar-cheese",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "worcestershire-sauce",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Roast in a preheated 190°C oven for about 6 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

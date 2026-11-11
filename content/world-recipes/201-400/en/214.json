@@ -1,0 +1,94 @@
+{
+  "id": "world-0214",
+  "title": "Fideuà",
+  "description": "A traditional Spain dish made with shrimp, squid, garlic, tomato. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "squid",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 13 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "vermicelli-pasta",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,70 @@
+{
+  "id": "world-0310",
+  "title": "Кебапче",
+  "description": "Традиційна страва кухні країни Болгарія. Основні інгредієнти: свинячий фарш, жовта цибуля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "BG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 630,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 30 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 12 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

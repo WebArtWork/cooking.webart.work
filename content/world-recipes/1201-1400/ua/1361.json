@@ -1,0 +1,93 @@
+{
+  "id": "world-1361",
+  "title": "Арепа з яйцем",
+  "description": "Арепа з яйцем — страва кухні країни Колумбія з такими основними складниками: борошно для ареп, куряче яйце. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте кукурудзяне борошно із зазначеною водою й сіллю до м’якої цілісної маси, що не липне. Накрийте на приблизно 10 хвилин; таке безглютенове тісто не стає еластичним, як пшеничне.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "arepa-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 560,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 10 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Підготуйте овочі, за потреби вийміть серцевину, і наповніть начинкою, не утрамбовуючи надто щільно.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 10 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

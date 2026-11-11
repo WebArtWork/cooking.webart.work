@@ -1,0 +1,87 @@
+{
+  "id": "world-0279",
+  "title": "Ćevapi u Somunu",
+  "description": "Bosnian-style ćevapi served in pita rather than traditional somun bread, which is not cataloged.",
+  "regionId": "southern-europe",
+  "countryCode": "BA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Grill over medium-high heat for about 14 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

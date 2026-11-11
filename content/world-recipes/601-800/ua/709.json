@@ -1,0 +1,129 @@
+{
+  "id": "world-0709",
+  "title": "Тьєбуд'єн по-мавританськи",
+  "description": "Тьєбуд'єн по-мавританськи — страва кухні країни Мавританія зі складниками: тилапія, петрушка, часник, лимонний сік. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "west-africa",
+  "countryCode": "MR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 680,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 13 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "eggplant",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 26 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "broken-rice",
+          "amount": 370,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

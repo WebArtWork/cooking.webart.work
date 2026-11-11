@@ -1,0 +1,104 @@
+{
+  "id": "world-1215",
+  "title": "Гальйо пінто по-костариканськи",
+  "description": "Гальйо пінто по-костариканськи — страва кухні країни Коста-Рика з такими основними складниками: білий рис, жовта цибуля, зелений солодкий перець, часник. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "central-america",
+  "countryCode": "CR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 24 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 680,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 11 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "canned-black-beans",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 140,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "worcestershire-sauce",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,114 @@
+{
+  "id": "world-0901",
+  "title": "Масроші",
+  "description": "Масроші — страва кухні країни Мальдіви. Основні складники: пшеничне борошно універсальне, консервований тунець, кокосова стружка, жовта цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Консервований тунець замінює мальдівську копчену рибу; начинка буде м’якшою на смак.",
+  "regionId": "south-asia",
+  "countryCode": "MV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 17 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "canned-tuna",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 19 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 19,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

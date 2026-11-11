@@ -1,0 +1,111 @@
+{
+  "id": "world-0128",
+  "title": "Khachapuri Adjaruli",
+  "description": "Adjarian boat-shaped khachapuri with egg and butter; mozzarella and farmer cheese approximate regional Georgian cheeses unavailable in the catalog.",
+  "regionId": "eastern-europe",
+  "countryCode": "GE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 60 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 290,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "mozzarella",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "farmer-cheese",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Form four oval boats with high rims and a well for the cheese filling, then proof briefly.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the boats in a very hot oven until the crust is browned and cheese bubbling; crack an egg into each and return to the oven just until the whites set.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

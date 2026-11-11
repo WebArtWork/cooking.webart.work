@@ -1,0 +1,92 @@
+{
+  "id": "world-0154",
+  "title": "Lavangi Chicken",
+  "description": "A classic dish from Azerbaijan, featuring walnut, yellow onion, whole chicken, pomegranate arils. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "AZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pomegranate-molasses",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Hollow or prepare the vegetables, then fill with the prepared mixture without packing too tightly.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast in a preheated 190°C oven for about 65 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "pomegranate-arils",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

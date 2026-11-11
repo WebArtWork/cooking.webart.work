@@ -1,0 +1,108 @@
+{
+  "id": "world-1351",
+  "title": "Льяпінгачос",
+  "description": "Льяпінгачос — страва кухні країни Еквадор з такими основними складниками: картопля, кесо фреско, куряче яйце, зелена цибуля. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Злийте воду з готових продуктів і протягом приблизно 10 хвилин товчіть або розминайте теплими до густої гладкої еластичної маси; сформуйте порції вологими руками чи ложкою.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 16 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "avocado",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

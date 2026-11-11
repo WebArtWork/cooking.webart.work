@@ -1,0 +1,119 @@
+{
+  "id": "world-1197",
+  "title": "Рис із квасолею по-белізьки",
+  "description": "Рис із квасолею по-белізьки — страва кухні країни Беліз, яку готують із таких продуктів: червона квасоля кідні, жовта цибуля, часник, білий рис. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "central-america",
+  "countryCode": "BZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 330 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 330,
+      "ingredients": [
+        {
+          "ingredientId": "kidney-beans",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 95 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 38,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 25 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

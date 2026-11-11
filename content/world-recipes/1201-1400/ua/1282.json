@@ -1,0 +1,100 @@
+{
+  "id": "world-1282",
+  "title": "Тушкована солона риба з кнедликами",
+  "description": "Тушкована солона риба з кнедликами — страва кухні країни Сент-Кіттс і Невіс з такими основними складниками: солона тріска, жовта цибуля, помідор, зелений солодкий перець. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "KN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимочуйте солону тріску в холодній воді в холодильнику близько доби, кілька разів змінюючи воду. Злийте перед варінням; не вимочуйте рибу за кімнатної температури.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно доведіть підготовлені продукти до повної готовності в гарячій рідині з попередніх етапів.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 11 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 190,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 19 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 19,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

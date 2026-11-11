@@ -1,0 +1,96 @@
+{
+  "id": "world-0980",
+  "title": "Манду",
+  "description": "Манду — страва кухні країни Південна Корея. Основні складники: свинячий фарш, твердий тофу, кімчі, часник. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tofu-firm",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kimchi",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "dumpling-wrappers",
+          "amount": 34,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Покладіть підготовлені вироби на решітку пароварки над водою, що ледь кипить, накрийте й готуйте на парі приблизно 14 хвилин до повної готовності начинки.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

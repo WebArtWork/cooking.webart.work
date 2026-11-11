@@ -1,0 +1,113 @@
+{
+  "id": "world-0957",
+  "title": "Шабу-шабу",
+  "description": "Шабу-шабу — страва кухні країни Японія. Основні складники: комбу, яловичий сирлойн, пекінська капуста, шиїтаке. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 16 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "kombu",
+          "amount": 26,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 640,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "napa-cabbage",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shiitake-mushroom",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tofu-firm",
+          "amount": 240,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно готуйте підготовлений білковий продукт у гарячому бульйоні до повної готовності, перевіряючи серединку.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "ponzu-sauce",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tahini",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

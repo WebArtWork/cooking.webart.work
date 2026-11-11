@@ -1,0 +1,86 @@
+{
+  "id": "world-0180",
+  "title": "Парміджана з баклажанів",
+  "description": "Класична страва з Італія. Основні складники: баклажан, часник, базилік, моцарела. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі рівномірно та запікайте при 200°C приблизно 25 хвилин до м’якості й легкої підпеченої скоринки.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 75,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 18 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "basil",
+          "amount": 22,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "mozzarella",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 33 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 33,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

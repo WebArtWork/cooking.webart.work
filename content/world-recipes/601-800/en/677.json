@@ -1,0 +1,92 @@
+{
+  "id": "world-0677",
+  "title": "Sauce Graine",
+  "description": "Sauce Graine is a Côte d'Ivoire classic prepared with beef chuck, yellow onion, palm nut concentrate, tomato. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "CI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "palm-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 65 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "palm-nut-concentrate",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 880,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

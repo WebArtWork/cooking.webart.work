@@ -1,0 +1,102 @@
+{
+  "id": "world-0816",
+  "title": "Dikgobe",
+  "description": "Dikgobe is a Botswana dish made with black-eyed peas, sorghum, sweet corn. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "southern-africa",
+  "countryCode": "BW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak dried legumes in plenty of cool water for 480 minutes, then drain and discard the soaking water. Cook them fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "black-eyed-peas",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil the soaked cowpeas in fresh water until completely tender; discard soaking water.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook sorghum separately until tender before combining it with the beans and sweet corn.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "sorghum",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 16 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-corn",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 32,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

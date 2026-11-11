@@ -1,0 +1,70 @@
+{
+  "id": "world-0695",
+  "title": "Акасса",
+  "description": "Акасса — страва кухні країни Бенін зі складниками: кукурудзяна крупа дрібного помелу, хлібна закваска, арахісовий соус. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Каша у стилі акасса з кукурудзяного борошна та легкої йогуртової ферментації; справжня ферментована основа інша.",
+  "regionId": "west-africa",
+  "countryCode": "BJ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sourdough-starter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 480 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 480,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пропарте невеликі закриті порції ферментованої кукурудзяної маси в листі або формочках до повної готовності; подавайте теплими.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

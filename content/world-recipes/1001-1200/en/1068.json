@@ -1,0 +1,93 @@
+{
+  "id": "world-1068",
+  "title": "Bak Kut Teh",
+  "description": "Bak Kut Teh is a dish from Singapore prepared with pork ribs, garlic, dark soy sauce, light soy sauce. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "SG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 95 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "pork-ribs",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 8,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-white-pepper",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "star-anise",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 35 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "dark-soy-sauce",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shiitake-mushroom",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

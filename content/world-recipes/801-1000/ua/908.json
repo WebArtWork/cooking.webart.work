@@ -1,0 +1,113 @@
+{
+  "id": "world-0908",
+  "title": "Свинина подвійного приготування",
+  "description": "Свинина подвійного приготування — страва кухні країни Китай. Основні складники: свиняча грудинка, доубаньцзян, часник, зелена цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 38 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 38,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нашаткуйте або розберіть готові компоненти на волокна й змішайте з зазначеними додатками.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "doubanjiang",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 9 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

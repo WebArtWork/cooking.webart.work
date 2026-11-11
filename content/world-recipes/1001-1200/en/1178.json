@@ -1,0 +1,96 @@
+{
+  "id": "world-1178",
+  "title": "Mexican Ceviche",
+  "description": "Mexican Ceviche is a dish from Mexico prepared with tilapia, lime juice, tomato, red onion. This is a home-scale version with measured ingredients in the individual steps where they are used. Fully cooked fish rather than raw Mexican ceviche; citrus does not make raw fish reliably safe.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach the fish until the flesh is opaque and reaches 63°C; cool quickly before dressing with lime and vegetables.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 680,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Refrigerate the prepared mixture for about 30 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "avocado",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 8,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

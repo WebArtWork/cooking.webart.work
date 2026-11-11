@@ -1,0 +1,123 @@
+{
+  "id": "world-0864",
+  "title": "Nihari",
+  "description": "Nihari is a Pakistan dish made with beef shank, yellow onion, ginger-garlic paste, whole wheat flour. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "PK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 13 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "beef-shank",
+          "amount": 1050,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kashmiri-chili-powder",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 210 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 210,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "whole-wheat-flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garam-masala",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,93 @@
+{
+  "id": "world-0671",
+  "title": "Kelewele",
+  "description": "Kelewele is a Ghana classic prepared with plantain, ginger root, peanut. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "GH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 18 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

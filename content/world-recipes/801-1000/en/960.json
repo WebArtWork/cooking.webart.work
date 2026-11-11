@@ -1,0 +1,102 @@
+{
+  "id": "world-0960",
+  "title": "Chawanmushi",
+  "description": "Chawanmushi is a Japan dish made with chicken egg, light soy sauce, shiitake mushroom, shrimp. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dashi-stock",
+          "amount": 560,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mirin",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "shiitake-mushroom",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 9 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Strain the seasoned egg-and-dashi mixture into cups over small cooked filling pieces, cover and steam gently until softly set, not bubbled.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

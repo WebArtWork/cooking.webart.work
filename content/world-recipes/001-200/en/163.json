@@ -1,0 +1,72 @@
+{
+  "id": "world-0163",
+  "title": "Pasta alla Gricia",
+  "description": "A classic dish from Italy, featuring guanciale, rigatoni, pecorino romano. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 10 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "guanciale",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the pasta in generously salted boiling water for about 10 minutes until al dente; reserve a cup of its starchy water.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rigatoni",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Toss the cooked pasta with the sauce, adding a splash of reserved pasta water until everything is evenly coated.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "pecorino-romano",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

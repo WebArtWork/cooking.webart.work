@@ -1,0 +1,129 @@
+{
+  "id": "world-0376",
+  "title": "Ватерзой",
+  "description": "Традиційна страва кухні країни Бельгія. Основні інгредієнти: жовта цибуля, морква, стебло селери, чебрець. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "BE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 30 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 950,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 2,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 17 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 670,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Збийте жовтки з вершками та лимоном, темперуйте гарячим бульйоном і введіть у рагу поза вогнем; після загущення не кип’ятіть.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 175,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

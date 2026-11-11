@@ -1,0 +1,108 @@
+{
+  "id": "world-0818",
+  "title": "Potjiekos Namibian Style",
+  "description": "Potjiekos Namibian Style is a Namibia dish made with beef chuck, yellow onion, garlic, tomato. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "southern-africa",
+  "countryCode": "NA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 15 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 100 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,108 @@
+{
+  "id": "world-0374",
+  "title": "Moules-Frites",
+  "description": "A traditional Belgium dish made with potato, yellow onion, garlic, mussel. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "BE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 6 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 780,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fry drained, dried potato batons in hot oil until crisp and golden; keep warm while the mussels cook.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 5 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 240,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange the prepared food over gently boiling water or in a covered steamer. Steam for about 8 minutes until fully cooked; discard any bivalves that stay closed after cooking.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "mussel",
+          "amount": 1300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,71 @@
+{
+  "id": "world-0433",
+  "title": "Форікол",
+  "description": "Традиційна страва кухні країни Норвегія. Основні складники: ягнятина, білоголова капуста, картопля. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "У глибокій каструлі чергуйте великі шматки баранини й капусти, приправляючи кожен шар сіллю та цілим перцем.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-peppercorn",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 14,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 125 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 125,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 22 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

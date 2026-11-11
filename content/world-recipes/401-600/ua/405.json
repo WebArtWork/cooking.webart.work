@@ -1,0 +1,98 @@
+{
+  "id": "world-0405",
+  "title": "Каллен скінк",
+  "description": "Традиційна страва кухні країни Велика Британія. Основні складники: жовта цибуля, картопля, цільне коров'яче молоко, пікша. Домашній варіант із кількостями продуктів за етапами приготування. Замість традиційної копченої пікші використано свіжу пікшу та трохи копченої паприки.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 20 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 12 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "haddock",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

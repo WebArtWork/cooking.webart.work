@@ -1,0 +1,102 @@
+{
+  "id": "world-0329",
+  "title": "Крок-мадам",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: білий хліб, копчена шинка, грюєр, діжонська гірчиця. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-bread",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gruyere",
+          "amount": 205,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розтопіть жир, вмішайте борошно й готуйте на малому вогні приблизно 7 хвилин, потім поступово влийте рідину, збиваючи до гладкого густого соусу.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 380,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 9 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "gruyere",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 5 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

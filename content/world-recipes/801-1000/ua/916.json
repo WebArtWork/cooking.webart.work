@@ -1,0 +1,118 @@
+{
+  "id": "world-0916",
+  "title": "Локшина дань-дань",
+  "description": "Локшина дань-дань — страва кухні країни Китай. Основні складники: свинячий фарш, доубаньцзян, часник, тахіні. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "doubanjiang",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 17,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tahini",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "black-rice-vinegar",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chili-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sichuan-peppercorn",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "wheat-noodles",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Складіть готові приготовлені компоненти й зазначені додатки в посуді для подавання, підтримуючи гаряче гарячим, а холодне охолодженим.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

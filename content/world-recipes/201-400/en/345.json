@@ -1,0 +1,97 @@
+{
+  "id": "world-0345",
+  "title": "Kartoffelsalat",
+  "description": "A traditional Germany dish made with potato, bacon, yellow onion, white wine vinegar. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 22 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 9 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fold in the dressing ingredients, season to taste and serve, or chill briefly as appropriate.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-wine-vinegar",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 23,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

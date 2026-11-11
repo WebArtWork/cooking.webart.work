@@ -1,0 +1,123 @@
+{
+  "id": "world-0712",
+  "title": "Poulet DG",
+  "description": "Poulet DG is a Cameroon classic prepared with chicken thigh, garlic, ginger root, plantain. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "central-africa",
+  "countryCode": "CM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 25 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 820,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-white-pepper",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 17 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 75,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 13 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 270,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 24 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 380,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

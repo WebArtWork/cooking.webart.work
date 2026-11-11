@@ -1,0 +1,108 @@
+{
+  "id": "world-1389",
+  "title": "Colombo de Poulet",
+  "description": "Colombo de Poulet is a dish from French Guiana featuring chicken thigh, garlic, lime juice, yellow onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "GF",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 50 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 70,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "eggplant",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 45 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 460,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 430,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 27,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,96 @@
+{
+  "id": "world-0083",
+  "title": "Mititei",
+  "description": "A classic dish from Romania, featuring ground beef, garlic, baking soda, sweet paprika. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "RO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "baking-soda",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 45 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill over medium-high heat for about 15 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

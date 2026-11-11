@@ -1,0 +1,81 @@
+{
+  "id": "world-0528",
+  "title": "Mirza Ghasemi",
+  "description": "A traditional dish from Iran, centered on eggplant, garlic, tomato, chicken egg. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut the vegetables evenly and roast at 200°C for about 35 minutes until tender and lightly charred.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 730,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 9 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 10 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

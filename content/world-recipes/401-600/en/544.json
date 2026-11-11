@@ -1,0 +1,93 @@
+{
+  "id": "world-0544",
+  "title": "Mashuai",
+  "description": "A traditional dish from Oman, centered on sea bass, lemon juice, garlic, basmati rice. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "OM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 50 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "sea-bass",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast in a preheated 190°C oven for about 36 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 36,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 27 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

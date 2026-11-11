@@ -1,0 +1,101 @@
+{
+  "id": "world-0450",
+  "title": "Торт зі скіру",
+  "description": "Традиційна страва кухні країни Ісландія. Основні складники: скір, вершковий сир, лимонний сік, желатин у порошку. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "IS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть желатин у невеликій кількості холодної води, обережно розчиніть і змішайте зі скіром, крем-сиром, цукром і лимоном для начинки.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "skyr",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cream-cheese",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "gelatin-powder",
+          "amount": 14,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "graham-cracker-crumbs",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 240 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "blueberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

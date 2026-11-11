@@ -1,0 +1,92 @@
+{
+  "id": "world-0974",
+  "title": "Tteokbokki",
+  "description": "Tteokbokki is a South Korea dish made with gochujang, light soy sauce, tteokbokki rice cakes, fish cake. This home-scale recipe assigns measured ingredients to the steps where they are used. Rice cakes must soften thoroughly, with the spicy sauce clinging to each piece.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 10 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "dashi-stock",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "gochujang",
+          "amount": 105,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "gochugaru",
+          "amount": 14,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer Korean cylindrical rice cakes and fish cake in gochujang sauce until the rice cakes are soft and the sauce thickly coats them.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "tteokbokki-rice-cakes",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-cake",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

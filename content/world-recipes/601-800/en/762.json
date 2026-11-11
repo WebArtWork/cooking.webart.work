@@ -1,0 +1,94 @@
+{
+  "id": "world-0762",
+  "title": "Mandazi",
+  "description": "Mandazi is a Kenya classic prepared with all-purpose flour, coconut milk, instant yeast. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "KE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 65 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 22 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,90 @@
+{
+  "id": "world-0841",
+  "title": "Idli",
+  "description": "Idli is a India dish made with idli rice, urad dal, sambar powder. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the listed rice, grains or noodles in clean water for about 480 minutes as appropriate, then drain; grind rice and urad for batter if required by this dish.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "idli-rice",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "urad-dal",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Leave the mixed rice-and-legume batter loosely covered in a clean warm place for about 720 minutes until aerated and tangy. Fermentation times vary; avoid overheating.",
+      "techniqueIds": [
+        "mixed-grain-fermentation"
+      ],
+      "durationMinutes": 720,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pour fermented batter into lightly oiled idli molds and steam covered until fluffy and fully set, about 14–16 minutes.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "sambar-powder",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

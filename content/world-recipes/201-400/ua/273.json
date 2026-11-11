@@ -1,0 +1,104 @@
+{
+  "id": "world-0273",
+  "title": "Ідрійські жлікрофі",
+  "description": "Традиційна страва кухні країни Словенія. Основні інгредієнти: пшеничне борошно універсальне, куряче яйце, картопля, жовта цибуля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "SI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 24 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 115,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-marjoram",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Тонко розкачайте відпочиле тісто, виріжте кружальця, викладіть начинку в центр і ретельно заліпіть краї кожного вареника чи пельменя.",
+      "techniqueIds": [
+        "rolling-out-dough",
+        "pinching-dumplings"
+      ],
+      "durationMinutes": 22,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 9 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,108 @@
+{
+  "id": "world-1351",
+  "title": "Llapingachos",
+  "description": "Llapingachos is a dish from Ecuador featuring potato, queso fresco, chicken egg, green onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 25 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 10 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 16 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "avocado",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,102 @@
+{
+  "id": "world-0147",
+  "title": "Гата",
+  "description": "Класична страва з Вірменія. Основні складники: куряче яйце, вершки високої жирності, несолоне вершкове масло, білий цукор-пісок. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "AM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно вмішайте решту сухих або рідких складників лише до однорідності, не осаджуючи масу.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 4,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 30 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

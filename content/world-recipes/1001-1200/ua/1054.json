@@ -1,0 +1,108 @@
+{
+  "id": "world-1054",
+  "title": "Чар квай теоу",
+  "description": "Чар квай теоу — страва кухні країни Малайзія, яку готують із таких продуктів: рисова локшина, часник, креветка, копчена свиняча корейка. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Копчена корейка замінює китайську ковбасу лап чонг; бажано використовувати широку плоску рисову локшину.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис або локшину в чистій прохолодній воді близько 25 хвилин, злийте і переходьте до подальшого готування.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-pork-loin",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dark-soy-sauce",
+          "amount": 22,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mung-bean-sprouts",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chives",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 4 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

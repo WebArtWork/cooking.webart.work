@@ -1,0 +1,81 @@
+{
+  "id": "world-0282",
+  "title": "Туфахіє",
+  "description": "Традиційна страва кухні країни Боснія і Герцеговина. Основні інгредієнти: яблуко, волоський горіх, родзинки, вершки високої жирності. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "BA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 30 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "apple",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ceylon-cinnamon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "За потреби недовго охолодіть, прикрасьте зазначеними складниками й подавайте за потрібної температури.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 130,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

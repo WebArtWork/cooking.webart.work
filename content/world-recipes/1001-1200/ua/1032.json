@@ -1,0 +1,108 @@
+{
+  "id": "world-1032",
+  "title": "Ка кхо то",
+  "description": "Ка кхо то — страва кухні країни В'єтнам, яку готують із таких продуктів: цибуля шалот, часник, сом, рибний соус. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Нагрівайте зазначені складники на помірному вогні приблизно 7 хвилин до бурштинового кольору й аромату, помішуючи за потреби.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 48,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 7 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "shallot",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно тушкуйте нарізаного сома в карамельному соусі з рибним соусом і кокосовою водою до повної готовності, уваривши до блискучої глазурі.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "catfish",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 58,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

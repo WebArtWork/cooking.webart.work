@@ -1,0 +1,86 @@
+{
+  "id": "world-1114",
+  "title": "Tukir",
+  "description": "Tukir is a dish from Timor-Leste prepared with chicken thigh, garlic, lime juice, banana leaf. This is a home-scale version with measured ingredients in the individual steps where they are used. Traditional tukir is cooked inside bamboo; this uses banana-leaf parcels in the oven instead.",
+  "regionId": "southeast-asia",
+  "countryCode": "TL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 45 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 7,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Put the marinated chicken in clean food-safe banana-leaf parcels and roast them on a baking tray until the meat reaches 74°C; this replaces bamboo cooking.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

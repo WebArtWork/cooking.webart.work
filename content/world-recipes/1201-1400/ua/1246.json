@@ -1,0 +1,103 @@
+{
+  "id": "world-1246",
+  "title": "Рис із горохом",
+  "description": "Рис із горохом — страва кухні країни Ямайка з такими основними складниками: червона квасоля кідні, зелена цибуля, часник, чебрець. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 420 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 420,
+      "ingredients": [
+        {
+          "ingredientId": "kidney-beans",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 95 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1050,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 26 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

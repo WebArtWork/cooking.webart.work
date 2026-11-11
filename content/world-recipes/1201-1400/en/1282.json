@@ -1,0 +1,100 @@
+{
+  "id": "world-1282",
+  "title": "Stewed Saltfish with Dumplings",
+  "description": "Stewed Saltfish with Dumplings is a dish from Saint Kitts and Nevis featuring salt cod, yellow onion, tomato, green bell pepper. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "KN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak salt cod in cold water in the refrigerator for about 24 hours, changing the water several times. Drain before simmering; never soak salted fish at room temperature.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently cook the prepared contents in the simmering liquid from earlier steps until fully cooked and safe to eat.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 190,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cook dumplings in batches in gently boiling salted water for about 19 minutes, until they float and the filling is cooked through. Lift out with a slotted spoon.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 19,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

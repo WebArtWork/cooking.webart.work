@@ -1,0 +1,76 @@
+{
+  "id": "world-0380",
+  "title": "Belgian Fries",
+  "description": "A traditional Belgium dish made with potato, sea salt. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "BE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fry thick-cut potato batons first at 140–150°C until softened but pale. Drain and cool completely before the second fry.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 950,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 15 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fry the cooled potatoes again at 180–190°C until deeply golden and crisp; drain immediately.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "sea-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

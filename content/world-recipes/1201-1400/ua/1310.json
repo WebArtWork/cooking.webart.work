@@ -1,0 +1,82 @@
+{
+  "id": "world-1310",
+  "title": "Проволета",
+  "description": "Проволета — страва кухні країни Аргентина з такими основними складниками: проволоне, багет, помідор. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "provolone",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "baguette",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

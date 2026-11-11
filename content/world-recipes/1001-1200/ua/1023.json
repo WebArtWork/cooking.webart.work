@@ -1,0 +1,117 @@
+{
+  "id": "world-1023",
+  "title": "Бан мі з м'ясом",
+  "description": "Бан мі з м'ясом — страва кухні країни В'єтнам, яку готують із таких продуктів: свиняча корейка, рибний соус, часник, лемонграс. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Готова ліверна ковбаса замінює традиційний печінковий паштет у бань мі.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 45 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-loin",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pickled-daikon",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розріжте багети, намастіть тонким шаром майонезу та готової ліверної ковбаси, додайте повністю приготовану свинину й хрусткі овочі; подавайте свіжими.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "baguette",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "liver-sausage",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

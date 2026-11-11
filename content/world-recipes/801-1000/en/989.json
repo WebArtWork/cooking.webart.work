@@ -1,0 +1,114 @@
+{
+  "id": "world-0989",
+  "title": "Injo Gogi Bap",
+  "description": "Injo Gogi Bap is a North Korea dish made with textured soy protein, light soy sauce, garlic, yellow onion. This home-scale recipe assigns measured ingredients to the steps where they are used. Home adaptation using hydrated textured soy protein; traditionally prepared injo gogi has a different texture and shape.",
+  "regionId": "east-asia",
+  "countryCode": "KP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Hydrate dry textured soy protein in clean hot drinking water until supple, drain and squeeze thoroughly before seasoning.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "textured-soy-protein",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "gochugaru",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 14 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 175,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 24 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "calrose-rice",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 730,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "kimchi",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

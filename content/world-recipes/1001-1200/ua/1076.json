@@ -1,0 +1,108 @@
+{
+  "id": "world-1076",
+  "title": "Каре-каре",
+  "description": "Каре-каре — страва кухні країни Філіппіни, яку готують із таких продуктів: яловичий хвіст, жовта цибуля, баклажан, стручкова квасоля. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. У домашньому каре-каре використано доступні овочі й арахісову пасту замість меленого обсмаженого арахісу.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 85 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 85,
+      "ingredients": [
+        {
+          "ingredientId": "beef-oxtail",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 15 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-beans",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bok-choy",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rice-flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "annatto-seeds",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

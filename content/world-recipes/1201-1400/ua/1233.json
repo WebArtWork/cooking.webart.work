@@ -1,0 +1,118 @@
+{
+  "id": "world-1233",
+  "title": "Ла бандера домінікана",
+  "description": "Ла бандера домінікана — страва кухні країни Домініканська Республіка з такими основними складниками: білий рис, куряче стегно, помідор, жовта цибуля. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Це домашній набір з рису, квасолі та курки; плантан потрібно обсмажити перед подаванням.",
+  "regionId": "caribbean",
+  "countryCode": "DO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 22 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 620,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 33 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 33,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 18 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "canned-kidney-beans",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 70,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "avocado",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

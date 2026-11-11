@@ -1,0 +1,127 @@
+{
+  "id": "world-0795",
+  "title": "Боботі",
+  "description": "Боботі — страва кухні країни Південно-Африканська Республіка зі складниками: жовта цибуля, яловичий фарш, білий хліб, цільне коров'яче молоко. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "southern-africa",
+  "countryCode": "ZA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 11 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-beef",
+          "amount": 690,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-bread",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "apricot-jam",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Перекладіть пряний фарш у форму, залийте збитими яйцями з молоком, додайте лаврове листя й запікайте до повної готовності яєчної заливки.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 3,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 42 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

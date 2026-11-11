@@ -1,0 +1,72 @@
+{
+  "id": "world-0366",
+  "title": "Тюарґґаребль",
+  "description": "Традиційна страва кухні країни Ліхтенштейн. Основні інгредієнти: кукурудзяна крупа дрібного помелу, цільне коров'яче молоко. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "LI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 20 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

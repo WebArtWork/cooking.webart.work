@@ -1,0 +1,92 @@
+{
+  "id": "world-1366",
+  "title": "Buñuelos Colombianos",
+  "description": "Buñuelos Colombianos is a dish from Colombia featuring cornstarch, tapioca starch, queso fresco, chicken egg. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 16 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

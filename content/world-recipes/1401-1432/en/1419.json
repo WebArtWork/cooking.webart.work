@@ -1,0 +1,76 @@
+{
+  "id": "world-1419",
+  "title": "Poi with Coconut",
+  "description": "Solomon Islands-inspired starchy poi with coconut. This version makes a smooth cooked-taro purée; local poi recipes vary by island and root crop.",
+  "regionId": "oceania",
+  "countryCode": "SB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel purchased edible taro and boil in plenty of water until fully soft, 30–35 minutes. Drain thoroughly.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mash the hot cooked taro into a smooth, dense paste, adding a spoonful of hot water only if needed.",
+      "techniqueIds": [
+        "mashing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Warm coconut cream gently with a pinch of salt; stir most into the taro and reserve some to pour on top.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shape onto a platter, pour over remaining coconut cream and serve warm.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

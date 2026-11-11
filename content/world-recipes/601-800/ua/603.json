@@ -1,0 +1,139 @@
+{
+  "id": "world-0603",
+  "title": "Рфісса",
+  "description": "Рфісса — страва кухні країни Марокко зі складниками: куряче стегно, жовта цибуля, зелена сочевиця, пшеничне борошно універсальне. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Домашня рфісса на тонких коржах замість традиційного мсемену або тріду.",
+  "regionId": "north-africa",
+  "countryCode": "MA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 30 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 65 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "green-lentils",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-fenugreek",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимісіть просте тісто до еластичності й дайте відпочити; розділіть на кульки для тонких коржів рфісси.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 210,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розкачайте й обсмажте кожен тонкий корж на злегка змащеній маслом сковороді; порвіть на смужки.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Викладіть смужки коржів на таріль, зверху розмістіть гарячу курку й сочевицю, полийте духмяною підливою та подавайте до надмірного розмокання.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

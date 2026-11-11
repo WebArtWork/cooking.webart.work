@@ -1,0 +1,113 @@
+{
+  "id": "world-1285",
+  "title": "Домінікські коржики із солоною рибою",
+  "description": "Домінікські коржики із солоною рибою — страва кухні країни Домініка з такими основними складниками: пшеничне борошно універсальне, розпушувач тіста, солона тріска, жовта цибуля. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "DM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 16 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 270,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 16 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимочуйте солону тріску в холодній воді в холодильнику близько доби, кілька разів змінюючи воду. Злийте перед варінням; не вимочуйте рибу за кімнатної температури.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно доведіть підготовлені продукти до повної готовності в гарячій рідині з попередніх етапів.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,88 @@
+{
+  "id": "world-1405",
+  "title": "Руру",
+  "description": "Руру на Фіджі традиційно готують з листя таро, томленого в кокосовому молоці. Через відсутність листя таро в каталозі тут використано шпинат.",
+  "regionId": "oceania",
+  "countryCode": "FJ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Дрібно наріжте цибулю та часник і обсмажте в кокосовій олії до прозорості.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Ретельно промийте шпинат, грубо поріжте та додайте до сковороди; перемішуйте, поки зелень не зів’яне.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 450,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Влийте кокосове молоко, посоліть і тушкуйте на слабкому вогні 15–20 хвилин, щоб зелень розм’якшилася, а соус загус.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наприкінці додайте трохи соку лайма та подавайте з готовим таро або рисом.",
+      "techniqueIds": [
+        "finishing-with-acid"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,145 @@
+{
+  "id": "world-0886",
+  "title": "Рис із карі",
+  "description": "Рис із карі — страва кухні країни Шрі-Ланка. Основні складники: червоний рис, жовта цибуля, імбирно-часникова паста, свіже листя карі. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Додається швидка кокосова присипка замість окремо приготованого пол самболу.",
+  "regionId": "south-asia",
+  "countryCode": "LK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 25 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "red-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-curry-leaves",
+          "amount": 10,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 30 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 640,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 13,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "green-beans",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mustard-seeds",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

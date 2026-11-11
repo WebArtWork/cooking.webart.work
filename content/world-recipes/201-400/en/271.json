@@ -1,0 +1,57 @@
+{
+  "id": "world-0271",
+  "title": "Kranjska Klobasa",
+  "description": "A Slovenian-style cooked sausage serving made with catalog bratwurst; authentic Kranjska klobasa is not present in the catalog.",
+  "regionId": "southern-europe",
+  "countryCode": "SI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 16 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "bratwurst",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 1,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "horseradish-root",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

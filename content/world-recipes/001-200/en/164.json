@@ -1,0 +1,78 @@
+{
+  "id": "world-0164",
+  "title": "Spaghetti Aglio e Olio",
+  "description": "A classic dish from Italy, featuring garlic, spaghetti, parsley. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 4 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 75,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the pasta in generously salted boiling water for about 10 minutes until al dente; reserve a cup of its starchy water.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Toss the cooked pasta with the sauce, adding a splash of reserved pasta water until everything is evenly coated.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

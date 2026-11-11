@@ -1,0 +1,112 @@
+{
+  "id": "world-0075",
+  "title": "Dobos Torta",
+  "description": "A classic dish from Hungary, featuring chicken egg, heavy cream, unsalted butter, white granulated sugar. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "HU",
+  "servings": 12,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Beat the listed ingredients until pale and light; ensure butter and eggs are at room temperature when specified.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 215,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently fold in the remaining dry or wet ingredients just until homogeneous, without deflating the mixture.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 4,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake in a preheated 180°C oven for about 30 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Heat the listed ingredients over moderate heat, stirring only as needed, for about 12 minutes until amber and fragrant.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "dark-chocolate",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 140,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

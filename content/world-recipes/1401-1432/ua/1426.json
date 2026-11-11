@@ -1,0 +1,96 @@
+{
+  "id": "world-1426",
+  "title": "Фекей із пулаки",
+  "description": "Фекей із пулаки — тувалуанський пудинг із приготовленого та розтертого коренеплоду з кокосовими вершками. Тут замість гігантського болотного таро використано звичайне варене таро.",
+  "regionId": "oceania",
+  "countryCode": "TV",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть харчове таро, наріжте шматками й варіть у великій кількості води 30–40 хвилин до повної м’якості; злийте воду.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розімніть ще тепле таро з коричневим цукром і дрібкою солі до густої гладкої маси.",
+      "techniqueIds": [
+        "mashing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Коротко підігрійте бананове листя до гнучкості. Загорніть шість порцій пюре в листя.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте пакунки при 180°C приблизно 25 хвилин, щоб поверхня схопилася й злегка підрум’янилася; усередині маса вже приготовлена.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Підігрійте кокосові вершки з кокосовим цукром. Розгорніть пакунки й полийте кожну порцію теплим соусом.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

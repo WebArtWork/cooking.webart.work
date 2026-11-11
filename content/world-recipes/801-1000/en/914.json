@@ -1,0 +1,112 @@
+{
+  "id": "world-0914",
+  "title": "Jiaozi",
+  "description": "Jiaozi is a China dish made with all-purpose flour, ground pork, napa cabbage, green onion. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 18 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 215,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "napa-cabbage",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pinch the dumplings tightly and boil in batches until the pork filling is thoroughly cooked; split one to check.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "black-rice-vinegar",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

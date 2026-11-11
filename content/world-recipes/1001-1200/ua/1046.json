@@ -1,0 +1,108 @@
+{
+  "id": "world-1046",
+  "title": "Насі удук",
+  "description": "Насі удук — страва кухні країни Індонезія, яку готують із таких продуктів: рис жасмин, кокосове молоко, листя пандану, лемонграс. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 25 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "jasmine-rice",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "pandan-leaves",
+          "amount": 2,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть яйця приблизно 9 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 10 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "tofu-firm",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-salsa",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

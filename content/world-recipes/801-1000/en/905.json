@@ -1,0 +1,133 @@
+{
+  "id": "world-0905",
+  "title": "Mapo Tofu",
+  "description": "Mapo Tofu is a China dish made with tofu (silken), ground pork, doubanjiang, fermented black beans. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut silken tofu into even cubes and blanch briefly in hot water to firm the surface without breaking the pieces.",
+      "techniqueIds": [
+        "blanching"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "tofu-silken",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "doubanjiang",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fermented-black-beans",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 10 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 28,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sichuan-peppercorn",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 5 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 17,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

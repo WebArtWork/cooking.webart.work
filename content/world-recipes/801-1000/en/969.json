@@ -1,0 +1,87 @@
+{
+  "id": "world-0969",
+  "title": "Galbi",
+  "description": "Galbi is a South Korea dish made with beef short ribs, asian pear, light soy sauce, garlic. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 120 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "beef-short-ribs",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "asian-pear",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 95,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "toasted-sesame-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Grill over medium-high heat for about 22 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

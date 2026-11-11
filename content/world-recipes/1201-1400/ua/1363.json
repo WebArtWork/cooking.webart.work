@@ -1,0 +1,108 @@
+{
+  "id": "world-1363",
+  "title": "Тамалес толіменсес",
+  "description": "Тамалес толіменсес — страва кухні країни Колумбія з такими основними складниками: маса харіна, куряче стегно, картопля, морква. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте кукурудзяне борошно із зазначеною водою й сіллю до м’якої цілісної маси, що не липне. Накрийте на приблизно 10 хвилин; таке безглютенове тісто не стає еластичним, як пшеничне.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 28 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 620,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 9,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 90 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

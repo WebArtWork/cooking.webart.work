@@ -1,0 +1,86 @@
+{
+  "id": "world-0426",
+  "title": "Gravlax",
+  "description": "A traditional dish from Sweden, centered on salmon, sea salt, dill, lemon. A measured home-kitchen version organized by cooking step. Cured salmon is not cooked: use only fish supplied as suitable for raw consumption by a reputable vendor; curing does not eliminate foodborne hazards. Not suitable for vulnerable diners.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "SE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Use salmon sold for raw consumption. Remove pin bones, mix salt, sugar, dill and pepper and coat the fillet evenly. Keep the fish cold.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "salmon",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cover and cure the fish in the refrigerator at or below 4°C for 48 hours; turn it occasionally. Curing alone does not make ordinary raw fish safe.",
+      "techniqueIds": [
+        "dry-curing"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Brush away the excess cure and slice the chilled salmon thinly with a clean knife.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

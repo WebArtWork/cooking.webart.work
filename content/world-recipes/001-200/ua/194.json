@@ -1,0 +1,63 @@
+{
+  "id": "world-0194",
+  "title": "Дзабайоне",
+  "description": "Класична страва з Італія. Основні складники: яєчний жовток, малина, білий цукор-пісок, вино марсала. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте жовтки з цукром у жаростійкій мисці до світлої густої маси.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Поставте миску над ледь киплячою водою; постійно збиваючи, введіть марсалу й готуйте до пишного густого крему, добре прогрівши яєчну масу.",
+      "techniqueIds": [
+        "hot-water-bath",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "marsala-wine",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Подавайте тепле дзабайоне одразу, доповнивши ягодами.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raspberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

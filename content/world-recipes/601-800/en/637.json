@@ -1,0 +1,96 @@
+{
+  "id": "world-0637",
+  "title": "Umm Ali",
+  "description": "Umm Ali is a Egypt classic prepared with croissant, raisin, almond, desiccated coconut. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "north-africa",
+  "countryCode": "EG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "croissant",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "almond",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 115,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake the layered pastry and sweetened milk at 180°C until bubbling and lightly browned; serve warm.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

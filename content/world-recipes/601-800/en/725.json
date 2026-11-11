@@ -1,0 +1,82 @@
+{
+  "id": "world-0725",
+  "title": "Odika Chicken",
+  "description": "Odika Chicken is a Gabon classic prepared with chicken thigh, yellow onion, ground egusi, tomato. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Ground egusi approximates Gabonese odika (wild mango seed), which is not in the ingredient catalog.",
+  "regionId": "central-africa",
+  "countryCode": "GA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 45 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "ground-egusi",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,107 @@
+{
+  "id": "world-1203",
+  "title": "Польо чуко",
+  "description": "Польо чуко — страва кухні країни Гондурас з такими основними складниками: курячий окорочок, апельсиновий сік, часник, плантан. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "central-america",
+  "countryCode": "HN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 75 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-leg-quarter",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 20 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 15 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 130,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "hot-sauce",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

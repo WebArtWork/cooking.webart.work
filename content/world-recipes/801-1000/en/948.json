@@ -1,0 +1,133 @@
+{
+  "id": "world-0948",
+  "title": "Katsu Curry",
+  "description": "Katsu Curry is a Japan dish made with pork loin, all-purpose flour, chicken egg, panko breadcrumbs. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat dry, then coat evenly with the listed breading or flour components; press lightly to help it adhere.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "pork-loin",
+          "amount": 690,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "panko-breadcrumbs",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 17 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 9 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 280,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 18 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "japanese-curry-roux",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 760,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 23 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "jasmine-rice",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 770,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Arrange the prepared cooked components and listed toppings in a serving dish, keeping hot foods hot and chilled components cold until serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794260640000
+}

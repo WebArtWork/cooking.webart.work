@@ -1,0 +1,98 @@
+{
+  "id": "world-0738",
+  "title": "Shiro Wat",
+  "description": "Shiro Wat is a Ethiopia classic prepared with yellow onion, niter kibbeh, garlic, besan (gram flour). A measured home-style version, with ingredients assigned to the cooking steps where they are used. Toasted chickpea flour stands in for Ethiopian shiro flour blended with regional aromatics.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "ET",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 14 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "niter-kibbeh",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "berbere",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk chickpea flour gradually with cool water to a smooth slurry, then cook it with the spiced onion base; stir frequently to avoid lumps.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "besan-gram-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 490,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 18 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 380,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "injera",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

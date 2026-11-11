@@ -1,0 +1,90 @@
+{
+  "id": "world-0742",
+  "title": "Injera",
+  "description": "Injera is a Ethiopia classic prepared with teff flour, injera starter. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Injera made from teff flour with the cataloged injera starter and long active fermentation; sourness depends on starter activity.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "ET",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "teff-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 670,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "injera-starter",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Ferment the teff batter with the injera starter in a covered nonreactive vessel for roughly 48 hours, until distinctly bubbly and pleasantly sour. Discard if spoiled.",
+      "techniqueIds": [
+        "injera-fermentation"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Swirl a very thin layer of sour batter on a hot nonstick griddle; cover and cook ONLY from below until the porous top is dry, without flipping.",
+      "techniqueIds": [
+        "injera-griddle-baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

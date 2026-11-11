@@ -1,0 +1,98 @@
+{
+  "id": "world-0167",
+  "title": "Паста путанеска",
+  "description": "Класична страва з Італія. Основні складники: часник, філе анчоусів, каперси, чорні оливки. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 15 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "whole-peeled-tomatoes-canned",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "anchovy-fillets",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-olives",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть пасту в добре підсоленій киплячій воді приблизно 10 хвилин до стану аль денте; збережіть чашку крохмалистої води.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Змішайте готову пасту із соусом, додаючи потроху збережену воду з-під пасти, доки соус рівномірно вкриє її.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

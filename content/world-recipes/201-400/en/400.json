@@ -1,0 +1,111 @@
+{
+  "id": "world-0400",
+  "title": "Beef Wellington",
+  "description": "A traditional United Kingdom dish made with beef tenderloin, dijon mustard, button mushroom, shallot. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the beef fillet dry, season and sear in a very hot pan with olive oil until browned all over; cool and brush with mustard.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "beef-tenderloin",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook finely chopped mushrooms and shallots with butter until every trace of moisture evaporates and the duxelles is dry; cool completely.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "button-mushroom",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cover cooled beef with cold mushroom duxelles, wrap tightly in prosciutto and then in puff pastry; seal the edges underneath.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "prosciutto-crudo",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "puff-pastry",
+          "amount": 550,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Chill the tightly wrapped raw Wellington seam-side down for at least 30 minutes, to help the pastry hold its shape.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Brush the pastry with beaten egg and bake at 200°C until golden and the beef reaches a safe internal temperature measured at its center; rest briefly before slicing.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 37,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,105 @@
+{
+  "id": "world-1395",
+  "title": "Павлова",
+  "description": "Павлова — страва кухні країни Австралія з такими основними складниками: пастеризовані яєчні білки, білий оцет, кукурудзяний крохмаль, вершки для збивання. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "oceania",
+  "countryCode": "AU",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте пастеризовані білки до м’яких піків, поступово додайте цукор і збийте до стійкої блискучої меренги; обережно введіть оцет і крохмаль.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 14,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "На пергаменті сформуйте високе коло меренги з невеликим заглибленням у центрі; дріжджове вистоювання не потрібне.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте павлову при 110–120°C до хрусткої скоринки й м’якої серединки; остуджуйте у вимкненій духовці, щоб уникнути тріщин.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 85,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Повністю остудіть готову меренгу у вимкненій духовці з прочиненими дверцятами перед додаванням крему; саму основу не тримайте у холодильнику.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 70,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "whipping-cream",
+          "amount": 340,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "strawberry",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kiwi",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,113 @@
+{
+  "id": "world-1070",
+  "title": "Смажений пиріг із дайконом",
+  "description": "Смажений пиріг із дайконом — страва кухні країни Сінгапур, яку готують із таких продуктів: дайкон, рисове борошно, куряче яйце, часник. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Маринований дайкон замінює традиційний консервований редис. Страва — несолодкий корж із дайкону, а не морквяний десерт.",
+  "regionId": "southeast-asia",
+  "countryCode": "SG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистьте й натріть овочі на грубій тертці; відіжміть зайву рідину, щоб маса тримала форму.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "daikon",
+          "amount": 620,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 290,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пропарте тісто з дайкону й рисового борошна в неглибокій змащеній формі до застигання, остудіть і наріжте кубиками для обсмаження.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 18 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "pickled-daikon",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

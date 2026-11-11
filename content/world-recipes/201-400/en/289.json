@@ -1,0 +1,93 @@
+{
+  "id": "world-0289",
+  "title": "Vanilice",
+  "description": "A traditional Serbia dish made with chicken egg, all-purpose flour, walnut. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "RS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Beat the listed ingredients until pale and light; ensure butter and eggs are at room temperature when specified.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 4,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake in a preheated 180°C oven for about 14 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "apricot-jam",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

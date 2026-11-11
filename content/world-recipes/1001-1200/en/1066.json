@@ -1,0 +1,103 @@
+{
+  "id": "world-1066",
+  "title": "Black Pepper Crab",
+  "description": "Black Pepper Crab is a dish from Singapore prepared with blue crab, garlic, light soy sauce, oyster sauce. This is a home-scale version with measured ingredients in the individual steps where they are used. Blue crab replaces mud crab.",
+  "regionId": "southeast-asia",
+  "countryCode": "SG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 10 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "blue-crab",
+          "amount": 1150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 13 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 38,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "oyster-sauce",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

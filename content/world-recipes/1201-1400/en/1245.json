@@ -1,0 +1,118 @@
+{
+  "id": "world-1245",
+  "title": "Curry Goat",
+  "description": "Curry Goat is a dish from Jamaica featuring goat shoulder, garlic, yellow onion, scotch bonnet pepper. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 90 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "goat-shoulder",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-allspice",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 14 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 115 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 115,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 980,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 25 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,108 @@
+{
+  "id": "world-0087",
+  "title": "Salată de Boeuf",
+  "description": "A classic dish from Romania, featuring potato, carrot, beef chuck, chicken egg. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "RO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer beef until tender and potatoes and carrots until cooked, using the water provided. Cool all components completely, then dice them evenly.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil the eggs for about 9 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Dice the cooked beef, vegetables and pickles; add drained canned peas and mix gently.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-green-peas",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fold in the dressing ingredients, season to taste and serve, or chill briefly as appropriate.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

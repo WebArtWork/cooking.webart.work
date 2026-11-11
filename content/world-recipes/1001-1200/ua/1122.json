@@ -1,0 +1,86 @@
+{
+  "id": "world-1122",
+  "title": "Свинячі реберця барбекю",
+  "description": "Свинячі реберця барбекю — страва кухні країни Сполучені Штати Америки, яку готують із таких продуктів: свинячі ребра, соус барбекю, яблучний оцет. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Реберця з духовки та гриля, не повністю копчене барбекю.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 80 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "pork-ribs",
+          "amount": 1400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 13,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте реберця з приправами щільно накритими при 150–160°C близько 2,5–3 годин до м’якості; потім нанесіть соус барбекю й підрум’яньте на грилі.",
+      "techniqueIds": [
+        "low-temperature-roasting"
+      ],
+      "durationMinutes": 165,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 18 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "barbecue-sauce",
+          "amount": 220,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,101 @@
+{
+  "id": "world-1347",
+  "title": "Болівійський антікучо",
+  "description": "Болівійський антікучо — страва кухні країни Болівія з такими основними складниками: яловиче серце, паста ахі панка, часник, білий оцет. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "BO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 70 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "beef-heart",
+          "amount": 820,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aji-panca-paste",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нанизайте раніше замариновані шматочки на шпажки з невеликими проміжками для рівного прогрівання.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

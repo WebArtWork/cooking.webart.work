@@ -1,0 +1,108 @@
+{
+  "id": "world-0374",
+  "title": "Мідії з картоплею фрі",
+  "description": "Традиційна страва кухні країни Бельгія. Основні інгредієнти: картопля, жовта цибуля, часник, мідія. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "BE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 6 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 780,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсмажте відціджені й обсушені картопляні брусочки в гарячій олії до золотавої хрусткості; тримайте теплими, поки готуються мідії.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 5 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 240,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розмістіть підготовлені продукти над киплячою водою або в закритій пароварці. Готуйте на парі приблизно 8 хвилин до готовності; двостулкових молюсків, які не розкрилися, викиньте.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "mussel",
+          "amount": 1300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

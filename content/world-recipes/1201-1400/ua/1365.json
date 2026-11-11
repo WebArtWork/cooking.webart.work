@@ -1,0 +1,88 @@
+{
+  "id": "world-1365",
+  "title": "Рис із кокосом",
+  "description": "Рис із кокосом — страва кухні країни Колумбія з такими основними складниками: кокосова стружка, білий рис, кокосове молоко, родзинки. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Нагрівайте зазначені складники на помірному вогні приблизно 9 хвилин до бурштинового кольору й аромату, помішуючи за потреби.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Промийте рис, додайте зазначені воду, бульйон, кокосове молоко та прянощі, накрийте й готуйте приблизно 27 хвилин до м’якості та поглинання рідини.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Залиште готовий рис під кришкою на близько 10 хвилин, тоді розпушіть і подавайте.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raisin",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

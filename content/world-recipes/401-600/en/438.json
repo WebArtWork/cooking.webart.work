@@ -1,0 +1,75 @@
+{
+  "id": "world-0438",
+  "title": "Lefse",
+  "description": "A traditional dish from Norway, centered on potato, all-purpose flour, heavy cream. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 22 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 13 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,92 @@
+{
+  "id": "world-0420",
+  "title": "Frikadeller",
+  "description": "A traditional dish from Denmark, centered on ground pork, ground veal, yellow onion, chicken egg. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-veal",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 19 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 19,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

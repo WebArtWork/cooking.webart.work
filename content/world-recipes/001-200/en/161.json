@@ -1,0 +1,68 @@
+{
+  "id": "world-0161",
+  "title": "Pasta Cacio e Pepe",
+  "description": "A classic dish from Italy, featuring spaghetti, pecorino romano. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Crush the black pepper, warm it briefly in a wide pan with a little cooking water.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the pasta al dente, reserving at least a cup of starchy water.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 9,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Off the heat, vigorously toss pasta with finely grated Pecorino and small additions of reserved water until it emulsifies into a silky sauce.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "pecorino-romano",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

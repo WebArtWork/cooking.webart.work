@@ -1,0 +1,108 @@
+{
+  "id": "world-0102",
+  "title": "Šaltibarščiai",
+  "description": "A classic dish from Lithuania, featuring beetroot, kefir, cucumber, dill. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "LT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 35 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "beetroot",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 45 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "kefir",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Boil the eggs for about 9 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Fold in the dressing ingredients, season to taste and serve, or chill briefly as appropriate.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "sour-cream",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

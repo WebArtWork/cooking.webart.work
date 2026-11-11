@@ -1,0 +1,101 @@
+{
+  "id": "world-1362",
+  "title": "Лечона",
+  "description": "Лечона — страва кухні країни Колумбія з такими основними складниками: свиняча лопатка, часник, апельсиновий сік, білий рис. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Домашній невеликий рулет зі свинини з рисовою начинкою за мотивами лечони, а не ціле фаршироване порося.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 90 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Зваріть рис із бульйоном та горошком до м’якості, швидко охолодіть і використайте готову суміш для фарширування свинячого рулету.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "frozen-green-peas",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підготуйте овочі, за потреби вийміть серцевину, і наповніть начинкою, не утрамбовуючи надто щільно.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте вже приправлені продукти в розігрітій духовці до м’якості та готовності, перевіряючи температуру м’яса термометром.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

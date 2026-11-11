@@ -1,0 +1,108 @@
+{
+  "id": "world-1125",
+  "title": "Лобстер-рол по-новоанглійськи",
+  "description": "Лобстер-рол по-новоанглійськи — страва кухні країни Сполучені Штати Америки, яку готують із таких продуктів: лобстер, стебло селери, зелена цибуля, майонез. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 14 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lobster",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "celery-stalk",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "hot-dog-bun",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,70 @@
+{
+  "id": "world-1429",
+  "title": "Breadfruit with Coconut",
+  "description": "Marshall Islands-style breadfruit steamed until tender and served with warm coconut cream.",
+  "regionId": "oceania",
+  "countryCode": "MH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel and core a firm mature breadfruit. Cut flesh into even wedges.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "breadfruit",
+          "amount": 850,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Arrange breadfruit in a steamer and cook over boiling water 25–35 minutes until tender all the way through.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Warm coconut cream with a pinch of salt for 4–5 minutes without a hard boil.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spoon coconut cream over warm breadfruit wedges and serve.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,120 @@
+{
+  "id": "world-0794",
+  "title": "Коморський пілау",
+  "description": "Коморський пілау — страва кухні країни Коморські Острови зі складниками: жовта цибуля, часник, корінь імбиру, рис басматі. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "KM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Змішайте рис із теплим жиром та ароматичними складниками й прогрівайте приблизно 5 хвилин, не підрум’янюючи.",
+      "techniqueIds": [
+        "sauteing",
+        "risotto-method"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 28 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 470,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зніміть із вогню та дайте рису відпочити під чистим рушником або кришкою приблизно 9 хвилин перед подаванням.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 9,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raisin",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

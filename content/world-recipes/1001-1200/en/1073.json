@@ -1,0 +1,96 @@
+{
+  "id": "world-1073",
+  "title": "Pork Adobo",
+  "description": "Pork Adobo is a dish from Philippines prepared with pork shoulder, light soy sauce, white vinegar, garlic. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 45 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 8,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 3,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "black-peppercorn",
+          "amount": 8,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 75 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 370,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 9 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

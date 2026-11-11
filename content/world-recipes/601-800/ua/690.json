@@ -1,0 +1,85 @@
+{
+  "id": "world-0690",
+  "title": "Бінч акара",
+  "description": "Бінч акара — страва кухні країни Сьєрра-Леоне зі складниками: квасоля чорноочка, жовта цибуля, перець скотч-боннет. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "west-africa",
+  "countryCode": "SL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у великій кількості холодної води на 480 хвилин, після чого злийте й вилийте воду від замочування; за спеки тримайте в холодильнику.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "black-eyed-peas",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 160,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 18 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

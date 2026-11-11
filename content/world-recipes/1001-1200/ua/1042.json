@@ -1,0 +1,139 @@
+{
+  "id": "world-1042",
+  "title": "Сото аям",
+  "description": "Сото аям — страва кухні країни Індонезія, яку готують із таких продуктів: куряче стегно, лемонграс, цибуля шалот, часник. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 55 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 6 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "shallot",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 6 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vermicelli",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть яйця приблизно 9 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "bean-sprouts",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

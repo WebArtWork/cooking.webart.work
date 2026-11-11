@@ -1,0 +1,72 @@
+{
+  "id": "world-1184",
+  "title": "Pico de Gallo",
+  "description": "Pico de Gallo is a dish from Mexico prepared with tomato, white onion, serrano pepper, cilantro. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fold in the dressing ingredients, season to taste and serve, or chill briefly as appropriate.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Serve the dish at the intended temperature and garnish as needed with previously prepared ingredients.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

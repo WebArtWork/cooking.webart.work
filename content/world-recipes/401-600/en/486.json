@@ -1,0 +1,102 @@
+{
+  "id": "world-0486",
+  "title": "Fatteh",
+  "description": "A traditional dish from Lebanon, centered on pita bread, canned chickpeas, plain yogurt, tahini. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Toast these ingredients over medium heat for about 5 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 12 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 280,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tahini",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "pine-nut",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

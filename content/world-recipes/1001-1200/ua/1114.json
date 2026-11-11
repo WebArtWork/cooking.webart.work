@@ -1,0 +1,86 @@
+{
+  "id": "world-1114",
+  "title": "Тукір",
+  "description": "Тукір — страва кухні країни Тимор-Лешті, яку готують із таких продуктів: куряче стегно, часник, сік лайма, банановий лист. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Традиційний тукір готують у бамбуку; тут згортки з бананового листя запікають у духовці.",
+  "regionId": "southeast-asia",
+  "countryCode": "TL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 45 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 7,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Загорніть замариновану курку в чисте харчове бананове листя та запікайте на деку до 74°C усередині; це заміна готуванню в бамбуку.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

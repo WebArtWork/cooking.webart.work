@@ -1,0 +1,91 @@
+{
+  "id": "world-1147",
+  "title": "Печиво з шоколадною крихтою",
+  "description": "Печиво з шоколадною крихтою — страва кухні країни Сполучені Штати Америки, яку готують із таких продуктів: куряче яйце, пшеничне борошно універсальне, харчова сода. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 185,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно вмішайте решту сухих або рідких складників лише до однорідності, не осаджуючи масу.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 335,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-soda",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chocolate-chips",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 12 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

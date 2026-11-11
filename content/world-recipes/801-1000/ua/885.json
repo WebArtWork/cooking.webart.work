@@ -1,0 +1,103 @@
+{
+  "id": "world-0885",
+  "title": "Алу тама",
+  "description": "Алу тама — страва кухні країни Непал. Основні складники: жовта цибуля, часник, картопля, пагони бамбука. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Консервований нут замінює місцеві бобові; пагони бамбука мають бути промислово обробленими й придатними до вживання.",
+  "regionId": "south-asia",
+  "countryCode": "NP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 30 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bamboo-shoots",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 400,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

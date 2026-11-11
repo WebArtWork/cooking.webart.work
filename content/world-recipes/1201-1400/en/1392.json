@@ -1,0 +1,106 @@
+{
+  "id": "world-1392",
+  "title": "Chicken Parmigiana Australian Style",
+  "description": "Chicken Parmigiana Australian Style is a dish from Australia featuring chicken breast, all-purpose flour, chicken egg, breadcrumbs. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "oceania",
+  "countryCode": "AU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat dry, then coat evenly with the listed breading or flour components; press lightly to help it adhere.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 760,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 15 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Layer the previously prepared components evenly inside a baking dish, serving mold or plate appropriate to the recipe; smooth the surface and avoid mixing the layers.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 20 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 24,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

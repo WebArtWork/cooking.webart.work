@@ -54,6 +54,18 @@
 			}
 		</ol>
 	</section>
+	<section class="cook-section grid gap-8 md:grid-cols-2" aria-labelledby="glossary-title">
+		<div>
+			<h2 id="glossary-title">{{ 'Kitchen words, explained' | t }}</h2>
+			<p class="mt-3 text-mute">
+				{{ '289 terms for beginners, in English and Ukrainian. Tap a blue word to see what it means.' | t }}
+			</p>
+			<a class="ds-btn ds-btn-outline mt-6" routerLink="/glossary">{{ 'Open the glossary' | t }}</a>
+		</div>
+		<p class="leading-8">
+			<app-cooking-text [text]="glossarySample()" />
+		</p>
+	</section>
 	<section class="cook-section grid gap-8 md:grid-cols-2" aria-labelledby="approach-title">
 		<h2 id="approach-title">{{ 'Learn why it works.' | t }}</h2>
 		<div class="leading-8">

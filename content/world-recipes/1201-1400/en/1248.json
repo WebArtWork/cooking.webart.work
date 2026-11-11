@@ -1,0 +1,98 @@
+{
+  "id": "world-1248",
+  "title": "Jamaican Beef Patties",
+  "description": "Jamaican Beef Patties is a dish from Jamaica featuring all-purpose flour, ground beef, yellow onion, garlic. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 20 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 32 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 32,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,93 @@
+{
+  "id": "world-0278",
+  "title": "Begova Čorba",
+  "description": "A traditional Bosnia and Herzegovina dish made with chicken thigh, carrot, yellow onion, okra. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "BA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 60 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "okra",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

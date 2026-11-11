@@ -1,0 +1,119 @@
+{
+  "id": "world-0192",
+  "title": "Cannoli Siciliani",
+  "description": "A classic dish from Italy, featuring chicken egg, ricotta, pistachio. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 25 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 17,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 12 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Whisk or whip the listed ingredients to a smooth, light consistency, then keep cool until needed.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "ricotta",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 145,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dark-chocolate",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

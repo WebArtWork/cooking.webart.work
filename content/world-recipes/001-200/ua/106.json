@@ -1,0 +1,96 @@
+{
+  "id": "world-0106",
+  "title": "Шакотіс",
+  "description": "Домашня адаптація литовського шакотіса; для автентичної розгалуженої форми потрібен обертовий рожен.",
+  "regionId": "eastern-europe",
+  "countryCode": "LT",
+  "servings": 10,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно вмішайте решту сухих або рідких складників лише до однорідності, не осаджуючи масу.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Для домашньої адаптації шакотіса, який традиційно печуть на рожні, викладайте тісто кількома дуже тонкими шарами, підрум’янюючи кожен окремо. Повторіть із рештою тіста; характерна форма «дерева» при цьому не відтворюється.",
+      "techniqueIds": [
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 55 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

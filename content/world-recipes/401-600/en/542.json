@@ -1,0 +1,91 @@
+{
+  "id": "world-0542",
+  "title": "Shuwa",
+  "description": "A traditional dish from Oman, centered on lamb, garlic, lemon juice, banana leaf. A measured home-kitchen version organized by cooking step. Omani shuwa-inspired oven-roasted lamb wrapped in banana leaves; traditional underground pit cooking is not reproduced.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "OM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Wrap the lamb in banana leaves and foil, set in a covered roasting tray and slow-cook in the oven until tender; do not attempt an improvised underground pit.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 480,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

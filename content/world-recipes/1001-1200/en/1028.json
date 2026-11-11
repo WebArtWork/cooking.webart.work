@@ -1,0 +1,112 @@
+{
+  "id": "world-1028",
+  "title": "Cao Lau",
+  "description": "Cao Lau is a dish from Vietnam prepared with pork belly, light soy sauce, garlic, rice noodles. This is a home-scale version with measured ingredients in the individual steps where they are used. Ordinary rice noodles replace Hoi An specialty cao lầu noodles; the signature texture cannot be reproduced exactly.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 45 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "star-anise",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 65 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 9 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "lettuce",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mung-bean-sprouts",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 24,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

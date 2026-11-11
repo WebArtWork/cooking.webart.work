@@ -1,0 +1,88 @@
+{
+  "id": "world-0485",
+  "title": "Manakish",
+  "description": "A traditional dish from Lebanon, centered on all-purpose flour, instant yeast. A measured home-kitchen version organized by cooking step. Za’atar is approximated using dried thyme and sesame added at serving; the traditional spice blend is not cataloged.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 65 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mix dried thyme, olive oil and optionally sesame into a fragrant home-style za’atar topping.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "dried-thyme",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake in a thoroughly preheated 230–250°C oven for about 14 minutes until the crust is deeply golden and the filling is cooked.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,104 @@
+{
+  "id": "world-1004",
+  "title": "Червоне карі",
+  "description": "Червоне карі — страва кухні країни Таїланд, яку готують із таких продуктів: червона тайська паста карі, кокосові вершки, куряча грудка, кокосове молоко. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 5 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 22 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 470,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bamboo-shoots",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "makrut-lime-leaves",
+          "amount": 4,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "thai-basil",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

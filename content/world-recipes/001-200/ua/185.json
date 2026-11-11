@@ -1,0 +1,106 @@
+{
+  "id": "world-0185",
+  "title": "Вітелло тоннато",
+  "description": "Класична страва з Італія. Основні складники: телятина, жовта цибуля, морква, лавровий лист. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 70 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "veal",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 1,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "canned-tuna",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "anchovy-fillets",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 50 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "capers",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

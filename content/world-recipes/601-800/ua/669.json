@@ -1,0 +1,118 @@
+{
+  "id": "world-0669",
+  "title": "Фуфу з легким супом",
+  "description": "Фуфу з легким супом — страва кухні країни Гана зі складниками: ямс, плантан, жовта цибуля, помідор. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "west-africa",
+  "countryCode": "GH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 27 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "yam",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plantain",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Злийте воду з готових продуктів і протягом приблизно 12 хвилин товчіть або розминайте теплими до густої гладкої еластичної маси; сформуйте порції вологими руками чи ложкою.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 42 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 42,
+      "ingredients": [
+        {
+          "ingredientId": "goat-meat",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

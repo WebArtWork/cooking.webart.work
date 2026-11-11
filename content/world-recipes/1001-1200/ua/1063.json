@@ -1,0 +1,99 @@
+{
+  "id": "world-1063",
+  "title": "Куї сері мука",
+  "description": "Куї сері мука — страва кухні країни Малайзія, яку готують із таких продуктів: клейкий рис, кокосове молоко, куряче яйце, листя пандану. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис або локшину в чистій прохолодній воді близько 220 хвилин, злийте і переходьте до подальшого готування.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 220,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте підготовлені продукти у пароварці під кришкою близько 25 хвилин до повної готовності; використовуйте харчове листя й перевіряйте температуру білкових продуктів.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 145,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pandan-leaves",
+          "amount": 3,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вилийте проціджений панданно-кокосовий яєчний крем поверх уже пропареного липкого рису й обережно пропарте до повного застигання.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 90 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

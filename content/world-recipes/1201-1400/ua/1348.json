@@ -1,0 +1,86 @@
+{
+  "id": "world-1348",
+  "title": "Куньяпе",
+  "description": "Куньяпе — страва кухні країни Болівія з такими основними складниками: цільне коров'яче молоко, тапіоковий крохмаль, кесо фреско, куряче яйце. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "BO",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 10 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розділіть і сформуйте підготовлене тісто чи масу на однакові порції, викладіть на деко з пергаментом або у форми, залишивши місце для збільшення об’єму.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте готове тісто з начинкою в добре розігрітій духовці при 230–250°C до хрусткої основи та готовності начинки.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

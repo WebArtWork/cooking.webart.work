@@ -1,0 +1,106 @@
+{
+  "id": "world-1286",
+  "title": "Кеші єна",
+  "description": "Кеші єна — страва кухні країни Аруба й Кюрасао з такими основними складниками: яловичий фарш, жовта цибуля, часник, зелені оливки. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Запечена сирна запіканка наближає кеші єна; порожня сирна оболонка відсутня.",
+  "regionId": "caribbean",
+  "countryCode": "CW",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 165,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "green-olives",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "gouda",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підготуйте овочі, за потреби вийміть серцевину, і наповніть начинкою, не утрамбовуючи надто щільно.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 42 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 24,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,111 @@
+{
+  "id": "world-1174",
+  "title": "Chile Relleno",
+  "description": "Chile Relleno is a dish from Mexico prepared with poblano pepper, oaxaca cheese, egg white, egg yolk. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut the vegetables evenly and roast at 200°C for about 18 minutes until tender and lightly charred.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "poblano-pepper",
+          "amount": 8,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "oaxaca-cheese",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Hollow or prepare the vegetables, then fill with the prepared mixture without packing too tightly.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Whisk or whip the listed ingredients to a smooth, light consistency, then keep cool until needed.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "egg-white",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 18 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 160,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 10 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 125,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

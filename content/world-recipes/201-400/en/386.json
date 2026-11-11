@@ -1,0 +1,92 @@
+{
+  "id": "world-0386",
+  "title": "Poffertjes",
+  "description": "A traditional Netherlands dish made with all-purpose flour, whole cow milk, chicken egg, instant yeast. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NL",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 45 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 15 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

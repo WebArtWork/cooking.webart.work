@@ -1,0 +1,76 @@
+{
+  "id": "world-1419",
+  "title": "Пої з кокосом",
+  "description": "Пої з кокосом за мотивами кухні Соломонових Островів. Ця версія — пюре з вареного таро; місцеві способи приготування пої відрізняються залежно від острова й коренеплоду.",
+  "regionId": "oceania",
+  "countryCode": "SB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть придбане харчове таро й варіть у великій кількості води до повної м’якості 30–35 хвилин. Ретельно злийте воду.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розімніть гаряче приготовлене таро до гладкої густої пасти, за потреби додайте ложку гарячої води.",
+      "techniqueIds": [
+        "mashing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно підігрійте кокосові вершки з дрібкою солі; більшу частину вмішайте в таро, решту залиште для поливання.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть на блюдо, полийте рештою кокосових вершків і подавайте теплим.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

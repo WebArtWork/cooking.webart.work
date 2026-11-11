@@ -1,0 +1,70 @@
+{
+  "id": "world-0481",
+  "title": "Кафта",
+  "description": "Традиційна страва кухні країни Ліван. Основні складники: фарш з ягнятини, жовта цибуля, петрушка. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Зліпіть із баранячого фаршу рівні довгі ковбаски навколо широких шампурів; за потреби трохи охолодіть для стабільної форми.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 9,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 15 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

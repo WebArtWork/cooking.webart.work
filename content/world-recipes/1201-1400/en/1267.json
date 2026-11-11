@@ -1,0 +1,104 @@
+{
+  "id": "world-1267",
+  "title": "Arroz con Gandules",
+  "description": "Arroz con Gandules is a dish from Puerto Rico featuring yellow onion, garlic, green bell pepper, white rice. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "PR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 38,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Rinse the rice, add the listed water, stock, coconut milk and aromatics as specified, cover and cook gently for about 28 minutes until tender and the liquid absorbs.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pigeon-peas",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 770,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 23,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Let the cooked rice rest, covered, for about 10 minutes, then fluff and serve.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

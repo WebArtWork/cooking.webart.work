@@ -1,0 +1,77 @@
+{
+  "id": "world-0238",
+  "title": "Дзадзикі",
+  "description": "Традиційна страва кухні країни Греція. Основні інгредієнти: огірок, грецький йогурт, часник, кріп. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистьте й натріть овочі на грубій тертці; відіжміть зайву рідину, щоб маса тримала форму.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "greek-yogurt",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 25 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

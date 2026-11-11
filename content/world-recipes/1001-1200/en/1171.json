@@ -1,0 +1,143 @@
+{
+  "id": "world-1171",
+  "title": "Gorditas",
+  "description": "Gorditas is a dish from Mexico prepared with masa harina, canned black beans, pork shoulder, orange juice. This is a home-scale version with measured ingredients in the individual steps where they are used. Black beans and home-braised pork substitute for ready-made refried beans and carnitas.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 470,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 355,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 15 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 60,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 7 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "canned-black-beans",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 85 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 85,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Spread the prepared filling over the crepes, roll or fold them, and warm through if the filling requires it.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "oaxaca-cheese",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "salsa-verde-mexican",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

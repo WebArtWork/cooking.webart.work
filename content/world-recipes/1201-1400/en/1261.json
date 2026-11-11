@@ -1,0 +1,99 @@
+{
+  "id": "world-1261",
+  "title": "Macaroni Pie",
+  "description": "Macaroni Pie is a dish from Barbados featuring macaroni, all-purpose flour, whole cow milk, cheddar cheese. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "BB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the pasta in generously salted boiling water for about 12 minutes until al dente; reserve a cup of its starchy water.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "macaroni",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Melt the fat, stir in flour and cook gently for about 9 minutes, then whisk in liquid to create a smooth thickened sauce.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 640,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cheddar-cheese",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Layer the previously prepared components evenly inside a baking dish, serving mold or plate appropriate to the recipe; smooth the surface and avoid mixing the layers.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 33 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 33,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

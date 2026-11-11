@@ -1,0 +1,102 @@
+{
+  "id": "world-0706",
+  "title": "Cachupa",
+  "description": "Cachupa is a Cabo Verde classic prepared with hominy, black-eyed peas, white cabbage, chicken thigh. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "west-africa",
+  "countryCode": "CV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried beans or peas in plentiful cold water for 480 minutes, then drain and discard the soaking liquid; keep refrigerated in hot conditions.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "hominy",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-eyed-peas",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil soaked hominy and beans in fresh water until soft; this may take two hours or longer. If using dried kidney beans, boil vigorously at least 10 minutes before simmering.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 125,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 45 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-pork-loin",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

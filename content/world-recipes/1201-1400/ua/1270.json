@@ -1,0 +1,98 @@
+{
+  "id": "world-1270",
+  "title": "Пастелес",
+  "description": "Пастелес — страва кухні країни Пуерто-Рико з такими основними складниками: плантан, борошно із зелених бананів, маніок, паста ачіоте. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Бананове борошно та натертий маніок приблизно замінюють традиційну масу із зеленого банана і таро; текстура різниться.",
+  "regionId": "caribbean",
+  "countryCode": "PR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 18 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "plantain",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-banana-flour",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassava-root",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 10,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 90 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

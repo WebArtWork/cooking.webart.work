@@ -1,0 +1,77 @@
+{
+  "id": "world-0307",
+  "title": "Tarator",
+  "description": "A traditional Bulgaria dish made with cucumber, plain yogurt, garlic, dill. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "BG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel and coarsely grate the listed vegetables; squeeze out excess moisture so the mixture will hold together.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 460,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Stir grated, well-drained cucumber with yogurt, garlic, dill and chopped walnuts; thin with ice-cold water if needed to create a spoonable soup.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 45 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

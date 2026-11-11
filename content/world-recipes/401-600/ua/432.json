@@ -1,0 +1,124 @@
+{
+  "id": "world-0432",
+  "title": "Семла",
+  "description": "Традиційна страва кухні країни Швеція. Основні складники: пшеничне борошно універсальне, цільне коров'яче молоко, інстантні дріжджі, куряче яйце. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "SE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте й вимісіть м’яке дріжджове тісто. Накрийте та поставте в тепле місце до збільшення об’єму приблизно вдвічі — орієнтовно на 60 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 245,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Поділіть і сформуйте тісто відповідно до виробу. Викладіть на деко з пергаментом і залиште підходити приблизно на 12 хвилин, поки гріється духовка.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 16 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зріжте маленьку кришечку з кожної охолодженої булочки, трохи виберіть м’якуш, наповніть мигдально-цукровою пастою та вершками й поверніть кришечку.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "almond",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

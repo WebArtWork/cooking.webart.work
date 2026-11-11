@@ -1,0 +1,105 @@
+{
+  "id": "world-0205",
+  "title": "Croquetas de Jamón",
+  "description": "A traditional Spain dish made with all-purpose flour, whole cow milk, serrano ham, chicken egg. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Make a very thick béchamel by cooking butter and flour briefly and whisking in milk little by little. Continue stirring until it releases cleanly from the pan.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 550,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "serrano-ham",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Spread the ham béchamel in a shallow dish, cover its surface and chill thoroughly until firm enough to shape into croquettes.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pat dry, then coat evenly with the listed breading or flour components; press lightly to help it adhere.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 12 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 500,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

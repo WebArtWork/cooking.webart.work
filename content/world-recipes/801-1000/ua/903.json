@@ -1,0 +1,109 @@
+{
+  "id": "world-0903",
+  "title": "Гулга",
+  "description": "Гулга — страва кухні країни Мальдіви. Основні складники: пшеничне борошно універсальне, консервований тунець, кокосова стружка, червона цибуля. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Консервований тунець замінює мальдівську копчену рибу.",
+  "regionId": "south-asia",
+  "countryCode": "MV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 16 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "canned-tuna",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Смажте сформовані вироби невеликими партіями в олії температурою приблизно 170–175°C близько 17 хвилин до золотистості; викладіть на решітку.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,112 @@
+{
+  "id": "world-1168",
+  "title": "Cochinita Pibil",
+  "description": "Cochinita Pibil is a dish from Mexico prepared with pork shoulder, achiote paste, orange juice, lime juice. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 100 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 170,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 8,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast the already seasoned food in a preheated oven until tender and safely cooked, using a thermometer for meat or poultry.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 200,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shred or tear the cooked components, then fold together with the listed additions.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 12,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

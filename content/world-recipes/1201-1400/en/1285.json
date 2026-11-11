@@ -1,0 +1,113 @@
+{
+  "id": "world-1285",
+  "title": "Dominican Bakes and Saltfish",
+  "description": "Dominican Bakes and Saltfish is a dish from Dominica featuring all-purpose flour, baking powder, salt cod, yellow onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "DM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 16 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 270,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 16 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soak salt cod in cold water in the refrigerator for about 24 hours, changing the water several times. Drain before simmering; never soak salted fish at room temperature.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Gently cook the prepared contents in the simmering liquid from earlier steps until fully cooked and safe to eat.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

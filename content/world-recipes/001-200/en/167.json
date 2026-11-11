@@ -1,0 +1,98 @@
+{
+  "id": "world-0167",
+  "title": "Pasta alla Puttanesca",
+  "description": "A classic dish from Italy, featuring garlic, anchovy fillets, capers, black olives. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed sauce ingredients over medium-low heat for about 15 minutes until aromatic and slightly thickened.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "whole-peeled-tomatoes-canned",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "anchovy-fillets",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "black-olives",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the pasta in generously salted boiling water for about 10 minutes until al dente; reserve a cup of its starchy water.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Toss the cooked pasta with the sauce, adding a splash of reserved pasta water until everything is evenly coated.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

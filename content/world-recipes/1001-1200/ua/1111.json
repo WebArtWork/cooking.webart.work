@@ -1,0 +1,75 @@
+{
+  "id": "world-1111",
+  "title": "Келупіс",
+  "description": "Келупіс — страва кухні країни Бруней, яку готують із таких продуктів: клейкий рис, кокосове молоко, банановий лист. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "BN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис або локшину в чистій прохолодній воді близько 220 хвилин, злийте і переходьте до подальшого готування.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 220,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 270,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 8,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 50 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

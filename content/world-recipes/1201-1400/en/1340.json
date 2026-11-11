@@ -1,0 +1,114 @@
+{
+  "id": "world-1340",
+  "title": "Picarones",
+  "description": "Picarones is a dish from Peru featuring sweet potato, pumpkin, all-purpose flour, instant yeast. This home-sized recipe records each ingredient at the step where it is used. Dark brown sugar syrup substitutes for traditional chancaca/panela syrup.",
+  "regionId": "south-america",
+  "countryCode": "PE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 28 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Drain the cooked ingredients and pound or mash while warm for about 12 minutes until thick, elastic and smooth; shape into portions with wet hands or a spoon.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "anise-seeds",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 60 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "With wet hands shape dough into rings with a hole; fry in batches until golden, then coat in warm brown-sugar-anise syrup.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cook the listed sauce ingredients over medium-low heat for about 12 minutes until aromatic and slightly thickened.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "dark-brown-sugar",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cassia-cinnamon",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

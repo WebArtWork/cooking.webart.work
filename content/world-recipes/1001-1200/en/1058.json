@@ -1,0 +1,89 @@
+{
+  "id": "world-1058",
+  "title": "Roti Canai",
+  "description": "Roti Canai is a dish from Malaysia prepared with all-purpose flour, thai yellow curry paste, coconut milk. This is a home-scale version with measured ingredients in the individual steps where they are used. Serve the roti with a quick yellow-curry coconut sauce; canai traditionally requires repeatedly stretched laminated dough.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 25 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Rest the oiled dough, then repeatedly stretch each piece paper-thin, fold into layers and coil it loosely before flattening into roti canai.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 18 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "ghee",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cook the listed sauce ingredients over medium-low heat for about 9 minutes until aromatic and slightly thickened.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "thai-yellow-curry-paste",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 240,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

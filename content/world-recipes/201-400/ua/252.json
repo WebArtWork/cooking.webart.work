@@ -1,0 +1,86 @@
+{
+  "id": "world-0252",
+  "title": "Клефтіко по-кіпрськи",
+  "description": "Традиційна страва кухні країни Кіпр. Основні інгредієнти: лопатка ягняти, лимонний сік, часник, картопля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "CY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 150 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 155 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 155,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

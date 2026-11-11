@@ -1,0 +1,102 @@
+{
+  "id": "world-0277",
+  "title": "Боснійський лонац",
+  "description": "Традиційна страва кухні країни Боснія і Герцеговина. Основні інгредієнти: яловича лопатка, лопатка ягняти, жовта цибуля, морква. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "BA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 13 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-beans",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 105 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 105,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

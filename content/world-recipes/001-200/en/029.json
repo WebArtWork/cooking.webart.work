@@ -1,0 +1,97 @@
+{
+  "id": "world-0029",
+  "title": "Pliatsok",
+  "description": "A classic dish from Ukraine, featuring chicken egg, whole cow milk, walnut. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 10,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "strawberry-jam",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake in a preheated 180°C oven for about 35 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

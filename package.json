@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "ng serve",
 		"build": "ng build --configuration=production && node tools/licenses/copy-licenses.mjs",
-		"build:seo": "npm run theories:import && npm run exercises:import && npm run ingredients:import && npm run techniques:import && npm run build && node tools/seo/generate-static-seo.mjs && node tools/theory/verify-cooking.mjs --built && node tools/practice/verify-exercises.mjs && node tools/ingredients/verify-ingredients.mjs && node tools/techniques/verify-techniques.mjs",
+		"build:seo": "npm run theories:import && npm run exercises:import && npm run ingredients:import && npm run techniques:import && npm run recipes:import && npm run glossary:import && npm run build && node tools/seo/generate-static-seo.mjs && node tools/theory/verify-cooking.mjs --built && node tools/practice/verify-exercises.mjs && node tools/ingredients/verify-ingredients.mjs && node tools/techniques/verify-techniques.mjs && node tools/recipes/verify-recipes.mjs && node tools/glossary/verify-glossary.mjs",
 		"theories:import": "node tools/theory/import-cooking.mjs",
 		"check:content": "node tools/theory/verify-cooking.mjs",
 		"exercises:import": "node tools/practice/import-exercises.mjs",
@@ -13,7 +13,11 @@
 		"ingredients:import": "node tools/ingredients/import-ingredients.mjs",
 		"check:ingredients": "node tools/ingredients/verify-ingredients.mjs",
 		"techniques:import": "node tools/techniques/import-techniques.mjs",
-		"check:techniques": "node tools/techniques/verify-techniques.mjs"
+		"check:techniques": "node tools/techniques/verify-techniques.mjs",
+		"recipes:import": "node tools/recipes/import-recipes.mjs",
+		"check:recipes": "node tools/recipes/verify-recipes.mjs",
+		"glossary:import": "node tools/glossary/import-glossary.mjs",
+		"check:glossary": "node tools/glossary/verify-glossary.mjs"
 	},
 	"dependencies": {
 		"@angular/common": "22.2.5",

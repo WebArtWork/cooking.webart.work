@@ -1,0 +1,114 @@
+{
+  "id": "world-0176",
+  "title": "Тортеліні в бульйоні",
+  "description": "Класична страва з Італія. Основні складники: куряче яйце, свинячий фарш, прошуто крудо, парміджано реджано. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 25 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prosciutto-crudo",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Тонко розкачайте відпочиле тісто, виріжте кружальця, викладіть начинку в центр і ретельно заліпіть краї кожного вареника чи пельменя.",
+      "techniqueIds": [
+        "rolling-out-dough",
+        "pinching-dumplings"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 45 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 6 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

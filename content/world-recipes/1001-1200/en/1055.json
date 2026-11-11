@@ -1,0 +1,118 @@
+{
+  "id": "world-1055",
+  "title": "Laksa Penang",
+  "description": "Laksa Penang is a dish from Malaysia prepared with mackerel, lemongrass, galangal, tamarind pulp. This is a home-scale version with measured ingredients in the individual steps where they are used. Mackerel and available rice noodles replace some traditional Penang asam laksa variants.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 40 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "fish-stock",
+          "amount": 1100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mackerel",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tamarind-pulp",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 8 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "papaya",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

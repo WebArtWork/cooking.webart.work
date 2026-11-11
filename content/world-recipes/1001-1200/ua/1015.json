@@ -1,0 +1,96 @@
+{
+  "id": "world-1015",
+  "title": "Тайські рибні котлетки",
+  "description": "Тайські рибні котлетки — страва кухні країни Таїланд, яку готують із таких продуктів: тилапія, червона тайська паста карі, рибний соус, куряче яйце. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 58,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-beans",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "makrut-lime-leaves",
+          "amount": 4,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-chili-sauce",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

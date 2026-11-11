@@ -1,0 +1,100 @@
+{
+  "id": "world-0158",
+  "title": "Піца Маргарита",
+  "description": "Класична страва з Італія. Основні складники: свіжа моцарела, базилік, пшеничне борошно типу 00, інстантні дріжджі. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте й вимісіть м’яке дріжджове тісто. Накрийте та поставте в тепле місце до збільшення об’єму приблизно вдвічі — орієнтовно на 90 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "00-flour",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 330,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 11,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 4 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в добре розігрітій до 230–250°C духовці приблизно 10 хвилин до насичено-золотистої скоринки та готовності начинки.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "fresh-mozzarella",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basil",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

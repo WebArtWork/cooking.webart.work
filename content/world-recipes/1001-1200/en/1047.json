@@ -1,0 +1,124 @@
+{
+  "id": "world-1047",
+  "title": "Nasi Padang",
+  "description": "Nasi Padang is a dish from Indonesia prepared with jasmine rice, beef chuck, coconut milk, lemongrass. This is a home-scale version with measured ingredients in the individual steps where they are used. Nasi Padang is a varied meal of rice and multiple side dishes, not one fixed recipe; this is one example plate.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Rinse the rice, add the listed water, stock, coconut milk and aromatics as specified, cover and cook gently for about 25 minutes until tender and the liquid absorbs.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "jasmine-rice",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 125 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 125,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "green-beans",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Build one nasi Padang-style plate with rice and the fully cooked coconut beef and vegetables; regional nasi Padang normally offers several distinct side dishes.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

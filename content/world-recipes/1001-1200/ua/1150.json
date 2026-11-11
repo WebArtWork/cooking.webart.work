@@ -1,0 +1,122 @@
+{
+  "id": "world-1150",
+  "title": "Туртьєр",
+  "description": "Туртьєр — страва кухні країни Канада, яку готують із таких продуктів: пшеничне борошно універсальне, свинячий фарш, яловичий фарш, жовта цибуля. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 22 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 185,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 11 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-beef",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 16 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Рівномірно викладіть уже підготовлені основу й начинку шарами у форму чи на деко.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 42 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

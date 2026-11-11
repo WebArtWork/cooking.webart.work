@@ -1,0 +1,85 @@
+{
+  "id": "world-0114",
+  "title": "Десерт кама",
+  "description": "Класична страва з Естонія. Основні складники: нутове борошно, кефір, лохина. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "EE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте ячмінне, житнє, вівсяне та нутове борошно — спрощену суміш для кама.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "barley-flour",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rye-flour",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "oat-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chickpea-flour",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Прогрівайте суміш борошна на сухій сковороді на малому вогні, постійно помішуючи, до легкого підрум’янення й аромату. Повністю остудіть.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вмішайте підсмажене борошно в кефір із медом та подавайте з ягодами.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "kefir",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "За потреби недовго охолодіть, прикрасьте зазначеними складниками й подавайте за потрібної температури.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "blueberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

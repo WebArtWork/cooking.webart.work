@@ -1,0 +1,102 @@
+{
+  "id": "world-0513",
+  "title": "Dolma Iraqi Style",
+  "description": "A traditional dish from Iraq, centered on grape leaves, white rice, ground lamb, yellow onion. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IQ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Separate and blanch the leaves in hot water for about 8 minutes until pliable. Drain and trim thick ribs.",
+      "techniqueIds": [
+        "blanching"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "grape-leaves",
+          "amount": 45,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Hollow or prepare the vegetables, then fill with the prepared mixture without packing too tightly.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 60 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

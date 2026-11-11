@@ -1,0 +1,130 @@
+{
+  "id": "world-0200",
+  "title": "Paella de Marisco",
+  "description": "A classic dish from Spain, featuring yellow onion, garlic, tomato, bomba rice. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 75,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Spread rice evenly over the fragrant sofrito, pour in hot saffron fish stock and simmer without stirring until nearly tender, about 15–18 minutes.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "bomba-rice",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 1150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Arrange cleaned shrimp, squid, mussels and clams over the rice, cover briefly and cook until seafood is just done and all shells have opened; discard shellfish that remain closed after cooking.",
+      "techniqueIds": [
+        "steaming",
+        "simmering"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "squid",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mussel",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "clam",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Rest the paella off heat for 5 minutes, then garnish with lemon wedges and chopped parsley.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

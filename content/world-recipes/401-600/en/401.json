@@ -1,0 +1,112 @@
+{
+  "id": "world-0401",
+  "title": "Steak and Kidney Pie",
+  "description": "A traditional dish from United Kingdom, centered on beef chuck, beef kidney, yellow onion, button mushroom. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-kidney",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer the browned beef and kidney with the mushrooms, stock and flour until tender and the gravy thickens; cool the filling before enclosing in pastry.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 105,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "button-mushroom",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "shortcrust-pastry",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spoon cool filling into a pie dish, cover with the shortcrust lid, seal and cut a steam vent; brush with beaten egg.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Bake in a preheated 180°C oven for about 42 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

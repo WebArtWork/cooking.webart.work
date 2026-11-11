@@ -1,0 +1,85 @@
+{
+  "id": "world-0111",
+  "title": "Rupjmaizes Kārtojums",
+  "description": "A classic dish from Latvia, featuring rye bread, heavy cream, lingonberry. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "LV",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Toast these ingredients over medium heat for about 10 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rye-bread",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk or whip the listed ingredients to a smooth, light consistency, then keep cool until needed.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 4,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Crush the lingonberries lightly with sugar. Layer toasted rye crumbs, whipped cream and sweetened berries alternately in serving glasses.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "lingonberry",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Refrigerate briefly so the rye crumbs soften slightly while the layers keep their shape.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

@@ -1,0 +1,108 @@
+{
+  "id": "world-0647",
+  "title": "Тієре",
+  "description": "Тієре — страва кухні країни Сенегал зі складниками: пшоно, жовта цибуля, помідор, ягнятина. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Основа тьєре — пшоно; традиційно крупу вручну формують і часто пропарюють кілька разів.",
+  "regionId": "west-africa",
+  "countryCode": "SN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Пропарте промите пшоно до пухкої консистенції й розбийте грудочки, щоб крупа вбирала м’ясо-овочеву підливу.",
+      "techniqueIds": [
+        "basket-steaming"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "millet",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 510,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 40 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

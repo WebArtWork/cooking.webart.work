@@ -1,0 +1,89 @@
+{
+  "id": "world-1200",
+  "title": "Fry Jacks",
+  "description": "Fry Jacks is a dish from Belize prepared with all-purpose flour, baking powder. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "central-america",
+  "countryCode": "BZ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 22 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 16,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 9,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 15 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

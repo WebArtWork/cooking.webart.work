@@ -1,0 +1,86 @@
+{
+  "id": "world-0303",
+  "title": "Флія",
+  "description": "Традиційна страва кухні країни Косово. Основні інгредієнти: пшеничне борошно універсальне, куряче яйце, вершки високої жирності, сметана. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "XK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 17 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Збирайте чергуючи тонкі шари тіста й теплої вершкової заливки, підрум’янюючи кожен шар під верхнім нагрівом, як у традиційній флії; обережно повертайте форму.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 95 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 95,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,124 @@
+{
+  "id": "world-0987",
+  "title": "Pyongyang Naengmyeon",
+  "description": "Pyongyang Naengmyeon is a North Korea dish made with light soy sauce, soba noodles, chicken egg, asian pear. This home-scale recipe assigns measured ingredients to the steps where they are used. Japanese soba stands in for North Korean cold buckwheat noodles.",
+  "regionId": "east-asia",
+  "countryCode": "KP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 35 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 730,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 70 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 7 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "soba-noodles",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Boil the eggs for about 10 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Arrange the prepared cooked components and listed toppings in a serving dish, keeping hot foods hot and chilled components cold until serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "asian-pear",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

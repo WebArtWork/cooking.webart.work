@@ -1,0 +1,103 @@
+{
+  "id": "world-0338",
+  "title": "Croissants",
+  "description": "A traditional France dish made with all-purpose flour, whole cow milk, instant yeast, chicken egg. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 32 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 32,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 490,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Enclose cold butter in chilled dough, roll and fold the dough in thirds three times, chilling between folds; keep butter firm and layers intact.",
+      "techniqueIds": [
+        "laminating-dough",
+        "resting-dough"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 265,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll the laminated dough into a long rectangle, cut triangles, then roll each from base to tip to form croissants.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Proof the shaped croissants at cool room temperature until light and visibly expanded, about 90–110 minutes. Keep them below butter-melting temperature.",
+      "techniqueIds": [
+        "final-proofing"
+      ],
+      "durationMinutes": 110,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Brush the proofed croissants gently with egg wash; bake at 205–215°C for 18–22 minutes until the butter-rich layers are crisp and deeply golden.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 21,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

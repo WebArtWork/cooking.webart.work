@@ -1,0 +1,118 @@
+{
+  "id": "world-1260",
+  "title": "Пудинг енд саус",
+  "description": "Пудинг енд саус — страва кухні країни Барбадос з такими основними складниками: свиняча рулька на кістці, жовта цибуля, чебрець, батат. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Пудинг тут — пюре з батату, а саус — із рульки; традиційний пудинг часто роблять із приправленого тертого бульбоплоду в оболонці.",
+  "regionId": "caribbean",
+  "countryCode": "BB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 95 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "pork-knuckle",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Злийте воду з готових продуктів і протягом приблизно 10 хвилин товчіть або розминайте теплими до густої гладкої еластичної маси; сформуйте порції вологими руками чи ложкою.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-allspice",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 55 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Обережно змішайте із заправкою, приправте до смаку й подавайте або трохи охолодіть за потреби.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 90,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

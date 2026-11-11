@@ -1,0 +1,109 @@
+{
+  "id": "world-0563",
+  "title": "Manti",
+  "description": "A traditional dish from Uzbekistan, centered on all-purpose flour, chicken egg, ground lamb, yellow onion. A measured home-kitchen version organized by cooking step.",
+  "regionId": "central-asia",
+  "countryCode": "UZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 20 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll the rested dough thinly, cut rounds, place filling in the center and pinch each dumpling tightly closed.",
+      "techniqueIds": [
+        "rolling-out-dough",
+        "pinching-dumplings"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange Uzbek manty in an oiled steamer with space between parcels and steam about 35–40 minutes until the meat filling is fully cooked.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 38,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

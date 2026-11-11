@@ -1,0 +1,102 @@
+{
+  "id": "world-0867",
+  "title": "Чаплі-кебаб",
+  "description": "Чаплі-кебаб — страва кухні країни Пакистан. Основні складники: яловичий фарш, червона цибуля, помідор, сушені зерна граната. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "south-asia",
+  "countryCode": "PK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 740,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coriander-seeds",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pomegranate-seeds-dried",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 18 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 90,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 17,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

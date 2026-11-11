@@ -1,0 +1,113 @@
+{
+  "id": "world-1380",
+  "title": "Гаянський пеперпот",
+  "description": "Гаянський пеперпот — страва кухні країни Гаяна з такими основними складниками: яловича лопатка, жовта цибуля, часник, чебрець. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Касаріп, визначальний редукований сік гіркого маніоку, відсутній. Тамаринд із мелясою НЕ є рівноцінною заміною; це лише тушкована яловичина за мотивами пеперпоту.",
+  "regionId": "south-america",
+  "countryCode": "GY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 150 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "blackstrap-molasses",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassia-cinnamon",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 7,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Приправте м’яку тушковану яловичину до смаку й подавайте гарячою. Без касаріпу це лише адаптація за мотивами пеперпоту.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

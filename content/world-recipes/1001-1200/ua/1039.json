@@ -1,0 +1,96 @@
+{
+  "id": "world-1039",
+  "title": "Сате з курки",
+  "description": "Сате з курки — страва кухні країни Індонезія, яку готують із таких продуктів: куряче стегно, солодкий соєвий соус кечап маніс, часник, арахісова паста. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 75 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-soy-sauce-kecap-manis",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нанизайте раніше замариновані шматочки на шпажки з невеликими проміжками для рівного прогрівання.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 18 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 9 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

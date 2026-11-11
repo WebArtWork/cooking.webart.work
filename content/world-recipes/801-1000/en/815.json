@@ -1,0 +1,82 @@
+{
+  "id": "world-0815",
+  "title": "Bogobe",
+  "description": "Bogobe is a Botswana dish made with sorghum flour, cornmeal, buttermilk. This home-scale recipe assigns measured ingredients to the steps where they are used. A quick home bogobe made from sorghum and cornmeal; traditional sour versions ferment longer.",
+  "regionId": "southern-africa",
+  "countryCode": "BW",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 8 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly stir the grains into the simmering liquid; cook over low heat for about 28 minutes, stirring to prevent sticking.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornmeal",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "buttermilk",
+          "amount": 130,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,86 @@
+{
+  "id": "world-0781",
+  "title": "Мофо гасі",
+  "description": "Мофо гасі — страва кухні країни Мадагаскар зі складниками: рисове борошно, кокосове молоко, інстантні дріжджі, кокосова стружка. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "MG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 390,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нещільно накрийте тісто й залиште приблизно на 80 хвилин у чистому теплому місці до появи бульбашок і легкої кислинки; під час активного бродіння не ставте в холодильник.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 80,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 23 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

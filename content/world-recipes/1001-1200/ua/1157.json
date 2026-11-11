@@ -1,0 +1,127 @@
+{
+  "id": "world-1157",
+  "title": "Такос аль пастор",
+  "description": "Такос аль пастор — страва кухні країни Мексика, яку готують із таких продуктів: свиняча лопатка, сушений перець гуахільйо, сушений перець анчо, паста ачіоте. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Свинина за мотивами аль пастор без вертикального рожна; ананас і маринад чилі-ачіоте зберігають основу смаку.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 120 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-guajillo-chilies",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dried-ancho-chilies",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запечіть мариновану свинину з ананасом до безпечної готовності та карамелізованих країв, тоді тонко наріжте; домашня духовка не відтворює вертикальне рожен-тромпо.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "pineapple",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 15 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розберіть повністю приготоване м’ясо чистими виделками на тонкі волокна, видаливши кістки й жорсткі частини.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

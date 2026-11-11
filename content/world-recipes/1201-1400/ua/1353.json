@@ -1,0 +1,157 @@
+{
+  "id": "world-1353",
+  "title": "Фанеска",
+  "description": "Фанеска — страва кухні країни Еквадор з такими основними складниками: суха біла квасоля, солона тріска, жовта цибуля, часник. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Ситна фанеска спрощена з доступними бобами та кукурудзою; тріску потрібно вимочити й приготувати окремо.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у достатній кількості чистої холодної води на приблизно 420 хвилин, злийте її й повністю зваріть у свіжій воді.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 420,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-beans",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 90 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимочуйте солону тріску в холодній воді в холодильнику близько доби, кілька разів змінюючи воду. Злийте перед варінням; не вимочуйте рибу за кімнатної температури.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно доведіть підготовлені продукти до повної готовності в гарячій рідині з попередніх етапів.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "fish-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-corn",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Додайте розібрану на пластівці повністю готову вимочену тріску до супу з петрушкою й недовго прогрійте; не кладіть сиру солону рибу.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,89 @@
+{
+  "id": "world-1375",
+  "title": "Сопа парагвая",
+  "description": "Сопа парагвая — страва кухні країни Парагвай з такими основними складниками: жовта цибуля, кукурудзяна крупа дрібного помелу, цільне коров'яче молоко, кесо фреско. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "PY",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно викладіть підготовлені компоненти шарами у формі для запікання, подавання чи на тарілці відповідно до страви; вирівняйте поверхню, не змішуючи шари.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 47 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 47,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Подавайте страву за відповідної температури й прикрашайте раніше підготовленими складниками.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

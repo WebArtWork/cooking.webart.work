@@ -1,0 +1,118 @@
+{
+  "id": "world-0832",
+  "title": "Vindaloo",
+  "description": "Vindaloo is a India dish made with pork shoulder, white vinegar, ginger-garlic paste, yellow onion. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 120 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cayenne-pepper-powder",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 13 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 65 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

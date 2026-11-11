@@ -1,0 +1,80 @@
+{
+  "id": "world-1035",
+  "title": "В'єтнамський флан",
+  "description": "В'єтнамський флан — страва кухні країни В'єтнам, яку готують із таких продуктів: куряче яйце, концентроване молоко без цукру, згущене молоко з цукром. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Нагрівайте зазначені складники на помірному вогні приблизно 8 хвилин до бурштинового кольору й аромату, помішуючи за потреби.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте складники рідкого тіста до однорідності. Дайте суміші коротко відпочити, щоб борошно увібрало вологу.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поставте форму з карамеллю та фланом у більшу форму з гарячою водою й готуйте при 150–160°C приблизно 40–50 хвилин до ніжного застигання; охолодіть перед вийманням.",
+      "techniqueIds": [
+        "water-bath-baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 180 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

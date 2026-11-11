@@ -1,0 +1,113 @@
+{
+  "id": "world-0634",
+  "title": "Фатта",
+  "description": "Фатта — страва кухні країни Єгипет зі складниками: білий рис, піта, ягнятина, часник. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "north-africa",
+  "countryCode": "EG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 20 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 560,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 14 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 55 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 12 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 28,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Полийте підсмажений хліб гарячим часниково-оцтовим томатним соусом, додайте рис і ніжне м’ясо; зволожте бульйоном без надлишку рідини.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

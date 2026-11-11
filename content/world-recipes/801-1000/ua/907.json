@@ -1,0 +1,142 @@
+{
+  "id": "world-0907",
+  "title": "Свинина в кисло-солодкому соусі",
+  "description": "Свинина в кисло-солодкому соусі — страва кухні країни Китай. Основні складники: свиняча лопатка, світлий соєвий соус, кукурудзяний крохмаль, куряче яйце. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 20 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсушіть продукти й рівномірно запаніруйте їх у зазначених сухих складниках; злегка притисніть паніровку.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте паніровану свинину партіями до хрусткості й повної готовності, обсушіть перед змішуванням із соусом.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pineapple",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 8 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ketchup",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794260640000
+}

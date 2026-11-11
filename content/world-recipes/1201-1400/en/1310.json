@@ -1,0 +1,82 @@
+{
+  "id": "world-1310",
+  "title": "Provoleta",
+  "description": "Provoleta is a dish from Argentina featuring provolone, baguette, tomato. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 12 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "provolone",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Grill the marinated portions from the preceding steps, turning to cook evenly and checking the safe internal temperature.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "baguette",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

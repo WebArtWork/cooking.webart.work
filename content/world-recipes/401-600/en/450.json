@@ -1,0 +1,101 @@
+{
+  "id": "world-0450",
+  "title": "Skyr Cake",
+  "description": "A traditional dish from Iceland, centered on skyr, cream cheese, lemon juice, gelatin powder. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "IS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Bloom the gelatin in a little cold water; dissolve gently, then whisk with skyr, cream cheese, sugar and lemon to make the filling.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "skyr",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cream-cheese",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "gelatin-powder",
+          "amount": 14,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "graham-cracker-crumbs",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 240 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "blueberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

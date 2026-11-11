@@ -1,0 +1,110 @@
+{
+  "id": "world-1428",
+  "title": "Укаеб",
+  "description": "Палауське укаеб — крабова страва з насиченою кокосовою заправкою. Домашня версія запікає крабове м’ясо у формочках замість начинювання очищених панцирів.",
+  "regionId": "oceania",
+  "countryCode": "PW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Приготуйте очищених блакитних крабів на парі до повної готовності м’яса. Трохи остудіть і ретельно видаліть панцир та хрящі, отримавши близько 350 г м’яса.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "blue-crab",
+          "amount": 750,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсмажте дрібно нарізану цибулю, часник і чилі на олії до м’якості.",
+      "techniqueIds": [
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розмішайте крохмаль у холодних кокосових вершках, додайте готове крабове м’ясо й обсмажені овочі; посоліть.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 320,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розкладіть у чотири жаростійкі формочки й запікайте при 190°C 20 хвилин до загущення та активного булькання.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Збризніть соком лайма й посипте подрібненою зеленою цибулею; подавайте гарячим.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "spring-onion",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

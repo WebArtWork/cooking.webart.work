@@ -1,0 +1,100 @@
+{
+  "id": "world-0713",
+  "title": "Кокі",
+  "description": "Кокі — страва кухні країни Камерун зі складниками: квасоля чорноочка, перець скотч-боннет, жовта цибуля, банановий лист. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "central-africa",
+  "countryCode": "CM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть сухі бобові у великій кількості холодної води на 480 хвилин, після чого злийте й вилийте воду від замочування; за спеки тримайте в холодильнику.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "black-eyed-peas",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 860,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте замочений обсушений чорноокий горох із пальмовою олією, чилі й цибулею в густу гладку пасту; ретельно вимішайте для пухкості.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розкладіть пасту на чисте бананове листя, загорніть у щільні згортки та покладіть на решітку пароварки.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 4,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Покладіть порції в чистому харчовому листі у пароварку й готуйте над слабко киплячою водою близько 65 хвилин до повної готовності.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 65,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

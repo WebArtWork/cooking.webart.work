@@ -1,0 +1,98 @@
+{
+  "id": "world-0627",
+  "title": "Shorba Libiya",
+  "description": "Shorba Libiya is a Libya classic prepared with lamb, yellow onion, tomato paste, vermicelli pasta. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "north-africa",
+  "countryCode": "LY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 48 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 48,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vermicelli-pasta",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-chickpeas",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

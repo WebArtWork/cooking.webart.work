@@ -1,0 +1,123 @@
+{
+  "id": "world-0925",
+  "title": "Fish-Fragrant Eggplant",
+  "description": "Fish-Fragrant Eggplant is a China dish made with eggplant, garlic, doubanjiang, light soy sauce. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut the vegetables evenly and roast at 200°C for about 18 minutes until tender and lightly charred.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "doubanjiang",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 10 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "black-rice-vinegar",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 190,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 5 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 14,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

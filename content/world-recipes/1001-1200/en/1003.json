@@ -1,0 +1,109 @@
+{
+  "id": "world-1003",
+  "title": "Green Curry",
+  "description": "Green Curry is a dish from Thailand prepared with thai green curry paste, coconut cream, chicken thigh, coconut milk. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 4 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "thai-green-curry-paste",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 22 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thai-eggplant",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bamboo-shoots",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "makrut-lime-leaves",
+          "amount": 4,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "thai-basil",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

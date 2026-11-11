@@ -1,0 +1,113 @@
+{
+  "id": "world-1265",
+  "title": "Гуавовий даф",
+  "description": "Гуавовий даф — страва кухні країни Багамські Острови з такими основними складниками: пшеничне борошно універсальне, розпушувач тіста, цільне коров'яче молоко, гуава. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "BS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 18 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 210,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "guava",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 155,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Загорніть підготовлену начинку в обгортки або чисте харчове листя та закрийте краї, не розриваючи.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте добре загорнуте тісто з гуавою на рівномірній парі; перевірте середину, щоб борошняне тісто повністю приготувалося.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 52,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 8 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

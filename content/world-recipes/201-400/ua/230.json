@@ -1,0 +1,131 @@
+{
+  "id": "world-0230",
+  "title": "Мусака",
+  "description": "Традиційна страва кухні країни Греція. Основні інгредієнти: баклажан, картопля, фарш з ягнятини, жовта цибуля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "GR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі рівномірно та запікайте при 200°C приблизно 22 хвилин до м’якості й легкої підпеченої скоринки.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "eggplant",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 75,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 16 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розтопіть жир, вмішайте борошно й готуйте на малому вогні приблизно 10 хвилин, потім поступово влийте рідину, збиваючи до гладкого густого соусу.",
+      "techniqueIds": [
+        "roux-making"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 620,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть шарами підпечену картоплю, баклажани й м’ясне рагу з помідорами, рівномірно покрийте бешамелем.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Запікайте мусаку при 180°C близько 40 хвилин до кипіння та золотавої скоринки, дайте постояти 15 хвилин перед нарізанням.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

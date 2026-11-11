@@ -1,0 +1,123 @@
+{
+  "id": "world-0181",
+  "title": "Arancini",
+  "description": "A classic dish from Italy, featuring arborio rice, ground beef, yellow onion, mozzarella. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 18 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "arborio-rice",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir the egg and grated Parmesan into cooled cooked rice, then form balls around a spoonful of the cooled meat and mozzarella filling.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Roll the filled rice balls in flour and breadcrumbs, pressing lightly to seal the surface.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 185,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Deep-fry in batches at 175°C until uniformly golden and piping hot in the middle.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

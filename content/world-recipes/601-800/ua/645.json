@@ -1,0 +1,107 @@
+{
+  "id": "world-0645",
+  "title": "Курка яса",
+  "description": "Курка яса — страва кухні країни Сенегал зі складниками: куряче стегно, жовта цибуля, лимонний сік, діжонська гірчиця. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "west-africa",
+  "countryCode": "SN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Натріть курку нарізаною цибулею, лимонним соком, гірчицею й часником; маринуйте в холодильнику, потім відкладіть цибулю.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 12 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Повільно розм’якшіть мариновану цибулю й тушкуйте підрум’янену курку в кислуватому соусі до повної готовності.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

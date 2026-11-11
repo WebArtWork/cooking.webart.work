@@ -1,0 +1,107 @@
+{
+  "id": "world-0155",
+  "title": "Pakhlava Baku Style",
+  "description": "A classic dish from Azerbaijan, featuring walnut, white granulated sugar, ground cardamom, ground cinnamon. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "AZ",
+  "servings": 12,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Layer the prepared elements evenly in the baking dish, spreading filling right to the edges.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cut the assembled baklava into diamonds before baking. Bake until golden and crisp throughout.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 45,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Warm the honey-saffron syrup until dissolved and pour over the hot baked pastry; leave several hours to absorb before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.2,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

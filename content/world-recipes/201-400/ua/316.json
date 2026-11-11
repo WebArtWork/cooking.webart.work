@@ -1,0 +1,113 @@
+{
+  "id": "world-0316",
+  "title": "Беф бургіньйон",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: яловича лопатка, бекон, морква, жовта цибуля. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 15 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 820,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bacon",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "button-mushroom",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поверніть підрум’янену яловичину й бекон до овочів, влийте вино та бульйон, додайте лавровий лист і чебрець, накрийте й тушкуйте при 160°C приблизно 2,5 години до м’якості.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "dry-red-wine",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вийміть лавровий лист, спробуйте соус і за потреби уваріть його, наприкінці додайте подрібнену петрушку.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,86 @@
+{
+  "id": "world-1423",
+  "title": "Nauruan Coconut Fish",
+  "description": "A Nauru-style fish dish gently simmered in coconut milk, onion, ginger and lime.",
+  "regionId": "oceania",
+  "countryCode": "NR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat fish fillets dry and season lightly with salt.",
+      "techniqueIds": [
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Sauté thinly sliced onion and chopped ginger in oil until fragrant.",
+      "techniqueIds": [
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add coconut milk and bring to a gentle simmer. Slide in fish and poach covered about 10–12 minutes, until the thickest part reaches 63°C.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with lime juice, adjust seasoning and serve hot with rice or root vegetables.",
+      "techniqueIds": [
+        "finishing-with-acid"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

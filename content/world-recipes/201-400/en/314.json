@@ -1,0 +1,87 @@
+{
+  "id": "world-0314",
+  "title": "Stocafi",
+  "description": "A traditional Monaco dish made with salt cod, yellow onion, garlic, tomato. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "MC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Desalt the salt cod in the refrigerator for 24–48 hours, changing the water several times, then drain and cut into portions.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 290,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 24 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "black-olives",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

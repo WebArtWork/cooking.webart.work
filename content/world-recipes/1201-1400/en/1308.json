@@ -1,0 +1,118 @@
+{
+  "id": "world-1308",
+  "title": "Locro",
+  "description": "Locro is a dish from Argentina featuring dry white beans, beef shank, pork shoulder, fresh corn kernels. This home-sized recipe records each ingredient at the step where it is used. Fresh corn replaces traditional large hominy kernels in locro; this materially changes texture.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried beans in ample clean cold water for about 440 minutes, drain and discard the soaking water; cook fully in fresh water.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 440,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-beans",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 75 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 100 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "beef-shank",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-corn-kernels",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "butternut-squash",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 1350,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

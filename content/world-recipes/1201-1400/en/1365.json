@@ -1,0 +1,88 @@
+{
+  "id": "world-1365",
+  "title": "Arroz con Coco",
+  "description": "Arroz con Coco is a dish from Colombia featuring desiccated coconut, white rice, coconut milk, raisin. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "CO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the listed ingredients over moderate heat, stirring only as needed, for about 9 minutes until amber and fragrant.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Rinse the rice, add the listed water, stock, coconut milk and aromatics as specified, cover and cook gently for about 27 minutes until tender and the liquid absorbs.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Let the cooked rice rest, covered, for about 10 minutes, then fluff and serve.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raisin",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,97 @@
+{
+  "id": "world-1229",
+  "title": "Юка з соусом мохо",
+  "description": "Юка з соусом мохо — страва кухні країни Куба з такими основними складниками: маніок, часник, червона цибуля, сік лайма. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "CU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 28 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-root",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 9,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 95,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 85,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно перемішайте підготовлену заправку з овочами або готовими продуктами до рівномірного покриття.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

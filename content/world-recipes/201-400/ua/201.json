@@ -1,0 +1,65 @@
+{
+  "id": "world-0201",
+  "title": "Іспанська тортилья",
+  "description": "Традиційна страва кухні країни Іспанія. Основні інгредієнти: картопля, жовта цибуля, куряче яйце. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Повільно готуйте тонко нарізані картоплю та цибулю в оливковій олії на помірно слабкому вогні до м’якості без хрусткої скоринки. Злийте зайву олію.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 95,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Перекладіть яєчно-картопляну масу на злегка змащену сковороду, готуйте до схоплення низу, переверніть за допомогою тарілки й допечіть інший бік до безпечної готовності яєць.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

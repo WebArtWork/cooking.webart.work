@@ -1,0 +1,62 @@
+{
+  "id": "world-0291",
+  "title": "Cicvara",
+  "description": "A traditional Montenegro dish made with whole cow milk, cornmeal, farmer cheese. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "ME",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 12 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cornmeal",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Beat the listed ingredients until pale and light; ensure butter and eggs are at room temperature when specified.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "farmer-cheese",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

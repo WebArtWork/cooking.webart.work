@@ -1,0 +1,111 @@
+{
+  "id": "world-0272",
+  "title": "Jota",
+  "description": "A traditional Slovenia dish made with dry white beans, potato, bay leaf, yellow onion. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "SI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cover the ingredients with cold water and soak for about 720 minutes; keep fish in the refrigerator, refreshing the water several times to remove excess salt. Drain before cooking.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-beans",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Drain the soaked beans and cook them in fresh water until nearly tender, about 75 minutes.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add diced potatoes and bay leaves to the simmering beans; cook for 15 minutes until tender.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 35 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "sauerkraut",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,75 @@
+{
+  "id": "world-1140",
+  "title": "Buttermilk Biscuits",
+  "description": "Buttermilk Biscuits is a dish from United States prepared with all-purpose flour, baking powder, buttermilk. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 115,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 17,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently fold in the remaining dry or wet ingredients just until homogeneous, without deflating the mixture.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "buttermilk",
+          "amount": 310,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the shaped or assembled mixture in a preheated oven for about 17 minutes until set and cooked through.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 17,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

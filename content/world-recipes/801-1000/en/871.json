@@ -1,0 +1,103 @@
+{
+  "id": "world-0871",
+  "title": "Sajji",
+  "description": "Sajji is a Pakistan dish made with whole chicken, plain yogurt, lemon juice, ginger-garlic paste. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "PK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1.6,
+          "unit": "kg"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 25 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast the marinated whole chicken until juices run clear and an instant-read thermometer reaches 74°C in the thickest meat; rest before carving.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

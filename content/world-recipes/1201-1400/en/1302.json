@@ -1,0 +1,70 @@
+{
+  "id": "world-1302",
+  "title": "Brigadeiro",
+  "description": "Brigadeiro is a dish from Brazil featuring sweetened condensed milk. This home-sized recipe records each ingredient at the step where it is used. Ordinary sugar sprinkles replace traditional chocolate vermicelli sprinkles.",
+  "regionId": "south-america",
+  "countryCode": "BR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 14 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Refrigerate the prepared mixture for about 50 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Roll the chilled chocolate mixture into small balls and coat with edible confectionery sprinkles without heating again.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "sprinkles",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

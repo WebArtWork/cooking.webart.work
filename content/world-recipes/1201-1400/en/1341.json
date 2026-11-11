@@ -1,0 +1,96 @@
+{
+  "id": "world-1341",
+  "title": "Suspiro a la Limeña",
+  "description": "Suspiro a la Limeña is a dish from Peru featuring sweetened condensed milk, evaporated milk, chicken egg, pasteurized egg whites. This home-sized recipe records each ingredient at the step where it is used. Pasteurized egg whites are used in the meringue; refrigerate the finished dessert.",
+  "regionId": "south-america",
+  "countryCode": "PE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 18 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare a fully cooked Swiss meringue using pasteurized whites and sugar over gentle steam, whisking until glossy and stable.",
+      "techniqueIds": [
+        "hot-water-bath",
+        "whisking"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Layer the previously prepared components evenly inside a baking dish, serving mold or plate appropriate to the recipe; smooth the surface and avoid mixing the layers.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Refrigerate the prepared mixture for about 80 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 80,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

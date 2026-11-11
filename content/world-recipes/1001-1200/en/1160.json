@@ -1,0 +1,126 @@
+{
+  "id": "world-1160",
+  "title": "Tacos de Birria",
+  "description": "Tacos de Birria is a dish from Mexico prepared with dried guajillo chilies, dried ancho chilies, garlic, yellow onion. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Toast these ingredients over medium heat for about 5 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "dried-guajillo-chilies",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dried-ancho-chilies",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 170 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 170,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ceylon-cinnamon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shred the fully cooked meat into thin pieces with clean forks, discarding bones and tough connective tissue.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 9 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "oaxaca-cheese",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

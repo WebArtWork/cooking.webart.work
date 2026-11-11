@@ -1,0 +1,123 @@
+{
+  "id": "world-0981",
+  "title": "Чачжанмьон",
+  "description": "Чачжанмьон — страва кухні країни Південна Корея. Основні складники: свинячий фарш, жовта цибуля, цукіні, тяньмяньцзян. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Солодка бобова паста й ферментовані чорні боби наближено замінюють корейський чунджан, тож соус відрізняється.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 13 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "zucchini",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Повільно тушкуйте ферментовані чорні боби й солодку бобову пасту зі свининою та овочами до густого темного солонуватого соусу.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "tianmianjiang",
+          "amount": 105,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fermented-black-beans",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 24,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 5 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть зазначені складники у воді приблизно 9 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "wheat-noodles",
+          "amount": 430,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,101 @@
+{
+  "id": "world-1258",
+  "title": "Bajan Fish Cakes",
+  "description": "Bajan Fish Cakes is a dish from Barbados featuring salt cod, all-purpose flour, chicken egg, green onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "BB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak salt cod in cold water in the refrigerator for about 24 hours, changing the water several times. Drain before simmering; never soak salted fish at room temperature.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently cook the prepared contents in the simmering liquid from earlier steps until fully cooked and safe to eat.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Flake the thoroughly cooked, desalted cod with a fork; remove every bone and keep the fish ready for the mixture.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 15 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

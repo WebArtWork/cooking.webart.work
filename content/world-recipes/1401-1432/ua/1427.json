@@ -1,0 +1,71 @@
+{
+  "id": "world-1427",
+  "title": "Таро з кокосовим молоком",
+  "description": "Палауське таро, повністю відварене до м’якості й подане з кокосовим молоком.",
+  "regionId": "oceania",
+  "countryCode": "PW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть харчове таро, промийте й наріжте однаковими шматками.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть таро у великій кількості води 30–40 хвилин до повного розм’якшення. Злийте воду.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нагрійте кокосове молоко із сіллю до появи пари й томіть приблизно 5 хвилин.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Подавайте гаряче таро, щедро поливши кокосовим молоком.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

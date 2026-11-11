@@ -1,0 +1,86 @@
+{
+  "id": "world-0810",
+  "title": "Chikanda",
+  "description": "Chikanda is a Zambia dish made with peanut butter, ground egusi, cornmeal, banana leaf. This home-scale recipe assigns measured ingredients to the steps where they are used. Chikanda-inspired vegetarian loaf: orchid tubers, the defining traditional base, are absent. Ground egusi and cornmeal are not equivalent substitutes.",
+  "regionId": "southern-africa",
+  "countryCode": "ZM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-egusi",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornmeal",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Wrap the thick mixture securely in clean food-grade banana leaves, then steam until set all the way through; this is only a chikanda-inspired loaf.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

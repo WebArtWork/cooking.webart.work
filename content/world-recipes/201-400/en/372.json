@@ -1,0 +1,93 @@
+{
+  "id": "world-0372",
+  "title": "Birchermüesli",
+  "description": "A traditional Switzerland dish made with rolled oats, whole cow milk, greek yogurt, lemon juice. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "CH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rolled-oats",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "greek-yogurt",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 180 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Peel and coarsely grate the listed vegetables; squeeze out excess moisture so the mixture will hold together.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "apple",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "hazelnut",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

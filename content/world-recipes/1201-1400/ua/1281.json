@@ -1,0 +1,94 @@
+{
+  "id": "world-1281",
+  "title": "Кнедлики мадонго",
+  "description": "Кнедлики мадонго — страва кухні країни Сент-Вінсент і Гренадини з такими основними складниками: кореневище маранти, маніок, кокосове молоко. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Бульби маранти дають домашнє наближення; традиційний крохмаль і зв’язувальні компоненти мадонго різняться.",
+  "regionId": "caribbean",
+  "countryCode": "VC",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистьте й натріть овочі на грубій тертці; відіжміть зайву рідину, щоб маса тримала форму.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "arrowroot-tuber",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassava-root",
+          "amount": 310,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вологими руками сформуйте компактні кнедлики із суміші маранти й маніоку; начинка не потрібна.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть вироби порціями в ледь киплячій підсоленій воді приблизно 23 хвилин, доки вони спливуть і начинка приготується. Вийміть шумівкою.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

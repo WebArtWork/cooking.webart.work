@@ -1,0 +1,67 @@
+{
+  "id": "world-0019",
+  "title": "Kovbasa Domashnia",
+  "description": "Ready-made sausage from the catalog is roasted with garlic; fresh sausage production requires casing ingredients not currently included.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pierce the prepared Ukrainian homemade sausage in several places, then rub with crushed garlic and pepper. This version uses ready-made sausage from the ingredient catalog.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "ukrainian-homemade-sausage",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast in a 190°C oven until browned and heated thoroughly; turn once so the casing colors evenly.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

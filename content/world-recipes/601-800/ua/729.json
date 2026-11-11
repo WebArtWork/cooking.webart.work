@@ -1,0 +1,87 @@
+{
+  "id": "world-0729",
+  "title": "Дараба",
+  "description": "Дараба — страва кухні країни Чад зі складниками: жовта цибуля, помідор, бамія, баклажан. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "central-africa",
+  "countryCode": "TD",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 11 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 290,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 38 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 38,
+      "ingredients": [
+        {
+          "ingredientId": "okra",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "eggplant",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 760,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте зазначені складники до каструлі. Варіть за слабкого кипіння приблизно 10 хвилин до м’якості та готовності.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

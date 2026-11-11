@@ -1,0 +1,80 @@
+{
+  "id": "world-1071",
+  "title": "Тости з кая",
+  "description": "Тости з кая — страва кухні країни Сінгапур, яку готують із таких продуктів: куряче яйце, кокосове молоко, листя пандану, білий хліб. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "SG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pandan-leaves",
+          "amount": 3,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Делікатно загущуйте кокосово-яєчну суміш із пальмовим цукром на слабкому вогні, постійно помішуючи до гладкості кая, не допускаючи згортання яєць.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підсмажуйте зазначені складники на середньому вогні приблизно 6 хвилин, часто перевертаючи, щоб не підгоріли.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "white-bread",
+          "amount": 8,
+          "unit": "slice"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть раніше приготовані компоненти для подавання, підтримуючи безпечну температуру гарячого й холодного.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

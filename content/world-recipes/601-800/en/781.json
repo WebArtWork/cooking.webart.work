@@ -1,0 +1,86 @@
+{
+  "id": "world-0781",
+  "title": "Mofo Gasy",
+  "description": "Mofo Gasy is a Madagascar classic prepared with rice flour, coconut milk, instant yeast, desiccated coconut. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "MG",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 390,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cover the batter loosely and leave in a suitable warm, clean place for about 80 minutes to become bubbly and lightly tangy; do not refrigerate during active fermentation.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 80,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 23 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

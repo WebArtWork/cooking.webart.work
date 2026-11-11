@@ -1,0 +1,109 @@
+{
+  "id": "world-0662",
+  "title": "Рис офада з аямасе",
+  "description": "Рис офада з аямасе — страва кухні країни Нігерія зі складниками: бурий рис, жовта цибуля, зелений солодкий перець, перець скотч-боннет. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Коричневий рис замінює відсутній рис офада; соус аямасе адаптовано під зелений перець і доступні спеції.",
+  "regionId": "west-africa",
+  "countryCode": "NG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 26 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 26,
+      "ingredients": [
+        {
+          "ingredientId": "brown-rice",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 740,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-bell-pepper",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "red-palm-oil",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 22 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "beef-liver",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-stock",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dawadawa",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

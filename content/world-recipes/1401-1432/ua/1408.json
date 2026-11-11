@@ -1,0 +1,74 @@
+{
+  "id": "world-1408",
+  "title": "Кокосовий хліб фаапапа",
+  "description": "Фаапапа — щільний самоанський кокосовий хліб-корж, який зазвичай випікають без дріжджового вистоювання.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 190°C. Змішайте в мисці борошно, розпушувач, цукор і сіль.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Влийте кокосове молоко і перемішайте до утворення густого трохи липкого тіста; не вимішуйте надмірно.",
+      "techniqueIds": [
+        "no-knead-mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 290,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Сформуйте на пергаменті овальний або круглий корж завтовшки 2–3 см. Злегка надріжте верх, позначивши порції.",
+      "techniqueIds": [
+        "pre-shaping-dough"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте 30–35 хвилин до готовності й легкого рум’янцю, тоді остудіть 15 хвилин перед нарізанням.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

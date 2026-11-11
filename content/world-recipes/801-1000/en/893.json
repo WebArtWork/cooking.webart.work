@@ -1,0 +1,90 @@
+{
+  "id": "world-0893",
+  "title": "Watalappam",
+  "description": "Watalappam is a Sri Lanka dish made with coconut milk, chicken egg, cashew. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "LK",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 13 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 580,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "jaggery",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cashew",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Put the prepared parcels in a steamer over gently boiling water, cover, and steam for about 38 minutes until the filling is completely cooked.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 38,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 120 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 120,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "cashew",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

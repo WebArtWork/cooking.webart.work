@@ -1,0 +1,93 @@
+{
+  "id": "world-1108",
+  "title": "Mont Lin Ma Yar",
+  "description": "Mont Lin Ma Yar is a dish from Myanmar prepared with rice flour, coconut milk, quail egg, green onion. This is a home-scale version with measured ingredients in the individual steps where they are used. Use a takoyaki-style or other small round-cavity pan for the characteristic paired half-moon cakes.",
+  "regionId": "southeast-asia",
+  "countryCode": "MM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk the listed batter ingredients until smooth. Let the mixture rest briefly so the flour hydrates.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 340,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Spoon the batter into the lightly oiled half-round wells of a special pan; when set, pair two halves around the cooked quail egg filling.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "quail-egg",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Arrange the already cooked and prepared components for serving, keeping hot and cold components at their safe temperatures.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

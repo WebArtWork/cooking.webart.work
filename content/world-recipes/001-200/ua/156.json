@@ -1,0 +1,107 @@
+{
+  "id": "world-0156",
+  "title": "Ніді ді рондіне",
+  "description": "Класична страва з Сан-Марино. Основні складники: листи лазаньї, рикота, шпинат, прошуто кото. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "SM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "lasagna-sheets",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "ricotta",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "spinach",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "prosciutto-cotto",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нанесіть начинку на відварені листи пасти, скрутіть рулетами, розріжте впоперек на невеликі спіралі й поставте зрізом догори у форму з соусом.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "bechamel-sauce",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте, доки гнізда з пасти добре прогріються, соус закипить, а верх злегка зарум’яниться.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "basil",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

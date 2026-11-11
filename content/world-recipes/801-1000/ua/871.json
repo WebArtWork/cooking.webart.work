@@ -1,0 +1,103 @@
+{
+  "id": "world-0871",
+  "title": "Саджі",
+  "description": "Саджі — страва кухні країни Пакистан. Основні складники: ціла курка, натуральний йогурт, лимонний сік, імбирно-часникова паста. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "south-asia",
+  "countryCode": "PK",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 180 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1.6,
+          "unit": "kg"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 25 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте цілу мариновану курку до прозорого соку й температури 74°C у найтовстішій частині м’яса; перед нарізанням дайте відпочити.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,117 @@
+{
+  "id": "world-0409",
+  "title": "Sticky Toffee Pudding",
+  "description": "A traditional dish from United Kingdom, centered on dried date, baking soda, chicken egg, all-purpose flour. A measured home-kitchen version organized by cooking step.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 10 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "dried-date",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-soda",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Beat the listed ingredients until pale and light; ensure butter and eggs are at room temperature when specified.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Gently fold in the remaining dry or wet ingredients just until homogeneous, without deflating the mixture.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake in a preheated 180°C oven for about 30 minutes until set, golden and cooked through. Cool on a rack.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Heat cream, brown sugar and butter into a smooth toffee sauce. Pour over the warm date sponge to absorb.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

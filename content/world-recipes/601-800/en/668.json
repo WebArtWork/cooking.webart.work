@@ -1,0 +1,121 @@
+{
+  "id": "world-0668",
+  "title": "Banku and Tilapia",
+  "description": "Banku and Tilapia is a Ghana classic prepared with cornmeal, cassava flour, tilapia, lemon juice. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Banku-style paste made without a genuine fermented corn-cassava starter; the taste is milder than authentic banku.",
+  "regionId": "west-africa",
+  "countryCode": "GH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk cornmeal and cassava flour with water to remove lumps before cooking the banku-style dough.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 880,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly stir the grains into the simmering liquid; cook over low heat for about 22 minutes, stirring to prevent sticking.",
+      "techniqueIds": [
+        "absorption-cooking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 25 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Grill over medium-high heat for about 18 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

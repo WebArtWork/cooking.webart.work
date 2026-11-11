@@ -1,0 +1,94 @@
+{
+  "id": "world-1412",
+  "title": "Ota Ika",
+  "description": "Tongan ota ika: a cooling citrus-coconut fish salad, traditionally based on raw fish. This version starts with cooked fish.",
+  "regionId": "oceania",
+  "countryCode": "TO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Steam fish until its centre reaches 63°C, about 10–12 minutes. Spread in a shallow covered dish and chill promptly.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 550,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cut cooked cold fish into cubes. Toss with lemon and lime juice; chill 10 minutes.",
+      "techniqueIds": [
+        "dicing",
+        "acid-marination"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Thinly slice onion and dice tomato and cucumber; fold in with the fish.",
+      "techniqueIds": [
+        "dicing",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Mix in coconut cream and a pinch of salt. Serve chilled.",
+      "techniqueIds": [
+        "folding-in",
+        "seasoning"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

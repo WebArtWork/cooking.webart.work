@@ -1,0 +1,81 @@
+{
+  "id": "world-1430",
+  "title": "Джукджук",
+  "description": "Джукджук у маршалльських етноботанічних джерелах описують як розтерте варене таро з кокосом; тут використано саме цю версію.",
+  "regionId": "oceania",
+  "countryCode": "MH",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть куплене харчове таро, наріжте великими шматками й варіть у великій кількості води 30–40 хвилин до повної м’якості; відцідіть.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Потовчіть гаряче варене таро до гладкої еластичної маси, за потреби додайте ложку теплої води.",
+      "techniqueIds": [
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Умішайте кокосову стружку та кокосові вершки з дрібкою солі, доки маса не стане однорідною й триматиме форму.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Сформуйте шість невеликих порцій і подавайте теплими; за бажання посипте ще трохи кокосовою стружкою.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

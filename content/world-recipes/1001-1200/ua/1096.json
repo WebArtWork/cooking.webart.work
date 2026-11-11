@@ -1,0 +1,80 @@
+{
+  "id": "world-1096",
+  "title": "Нум ансом чек",
+  "description": "Нум ансом чек — страва кухні країни Камбоджа, яку готують із таких продуктів: клейкий рис, банан, кокосове молоко, банановий лист. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "KH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис або локшину в чистій прохолодній воді близько 200 хвилин, злийте і переходьте до подальшого готування.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 200,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 980,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "banana",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 8,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 55 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

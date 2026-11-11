@@ -1,0 +1,127 @@
+{
+  "id": "world-0148",
+  "title": "Shah Plov",
+  "description": "A classic dish from Azerbaijan, featuring basmati rice, lamb shoulder, yellow onion, chestnut. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "AZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Rinse rice and parboil in salted water until just slightly underdone, about 10–12 minutes. Drain carefully.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1150,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Brown lamb with onion and butter, then add chestnuts and dried fruit; cook until aromatic and nearly tender.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chestnut",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-apricot",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Line a buttered deep ovenproof pot with overlapping lavash strips. Layer rice and filling inside, sprinkle with saffron-infused water and fold the lavash over to seal.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lavash",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the lavash-covered plov until its shell is crisp and golden, then carefully turn out onto a platter and cut into wedges.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

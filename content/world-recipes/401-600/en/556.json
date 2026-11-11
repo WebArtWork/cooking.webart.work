@@ -1,0 +1,91 @@
+{
+  "id": "world-0556",
+  "title": "Bahraini Halwa",
+  "description": "A traditional dish from Bahrain, centered on cornstarch, pistachio. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "BH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Warm sugar and water until the sugar dissolves, keeping the syrup clear for the halwa.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 230,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cornstarch",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rose-water",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir the rose-scented starch syrup continuously over low heat until smooth, translucent and very thick; pour into a greased dish to cool.",
+      "techniqueIds": [
+        "slow-simmer-reduction"
+      ],
+      "durationMinutes": 80,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

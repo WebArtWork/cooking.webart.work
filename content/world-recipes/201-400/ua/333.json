@@ -1,0 +1,76 @@
+{
+  "id": "world-0333",
+  "title": "Крем-брюле",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: вершки високої жирності, яєчний жовток. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Прогрійте ваніль у вершках до пари, не доводячи до активного кипіння, щоб зберегти ніжний аромат.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-bean",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте жовтки з цукром та повільно темперуйте теплими ванільними вершками. Процідіть у формочки на водяній бані й запікайте при 150°C близько 30–40 хвилин до ніжного схоплення.",
+      "techniqueIds": [
+        "tempering-eggs",
+        "water-bath-baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 7,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 145,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Охолоджуйте запечений крем у холодильнику близько 3 годин до повної холодної щільності.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 175,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Безпосередньо перед подачею присипте холодний крем тонким шаром цукру та карамелізуйте кухонним пальником до хрусткої золотистої скоринки.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

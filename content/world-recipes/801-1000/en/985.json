@@ -1,0 +1,84 @@
+{
+  "id": "world-0985",
+  "title": "Bingsu",
+  "description": "Bingsu is a South Korea dish made with whole cow milk, sweetened condensed milk, strawberry, mochi rice cakes. This home-scale recipe assigns measured ingredients to the steps where they are used. Quick bingsu uses ready-made sweet red bean paste and grated ice.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 35 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shred or tear the cooked components, then fold together with the listed additions.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Arrange the prepared cooked components and listed toppings in a serving dish, keeping hot foods hot and chilled components cold until serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "strawberry",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mochi-rice-cakes",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "red-bean-paste-anko",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

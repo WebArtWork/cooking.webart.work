@@ -1,0 +1,141 @@
+{
+  "id": "world-0992",
+  "title": "Gua Bao",
+  "description": "Gua Bao is a Taiwan dish made with pork belly, light soy sauce, all-purpose flour, instant yeast. This home-scale recipe assigns measured ingredients to the steps where they are used. Fresh homemade steamed buns replace prepared gua bao buns.",
+  "regionId": "east-asia",
+  "countryCode": "TW",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 45 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chinese-five-spice",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 80 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 610,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Knead and proof the bun dough until doubled, divide into ovals and fold each around a small parchment square before steaming.",
+      "techniqueIds": [
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Roll or press the prepared dough evenly into the desired thickness and shape.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Put the prepared parcels in a steamer over gently boiling water, cover, and steam for about 16 minutes until the filling is completely cooked.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pickled-cucumber",
+          "amount": 165,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

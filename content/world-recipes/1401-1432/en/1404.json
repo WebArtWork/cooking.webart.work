@@ -1,0 +1,110 @@
+{
+  "id": "world-1404",
+  "title": "Lovo",
+  "description": "Fijian lovo-inspired feast of chicken, pork and roots in banana leaves. This version uses a covered home oven rather than a stone-lined earth pit.",
+  "regionId": "oceania",
+  "countryCode": "FJ",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Rub the pork and chicken separately with crushed garlic, ginger, salt and lime juice. Refrigerate covered for 45 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 13,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 60,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Peel and cut taro and sweet potatoes into large, even pieces. Handle only food-grade taro, which must be fully cooked.",
+      "techniqueIds": [
+        "peeling",
+        "chopping"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 650,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soften food-safe banana leaves with brief steam. Layer them inside a deep covered roasting tray; add vegetables and meats, and pour in coconut cream.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 250,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cover tightly and roast at 170°C for approximately 2 hours, until chicken reaches at least 74°C, pork is tender, and taro has no firm or acrid centre.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 120,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Rest the cooked food for 10 minutes, open parcels carefully to avoid steam, and serve hot.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

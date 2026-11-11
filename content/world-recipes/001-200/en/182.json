@@ -1,0 +1,103 @@
+{
+  "id": "world-0182",
+  "title": "Supplì",
+  "description": "A classic dish from Italy, featuring arborio rice, mozzarella, parmigiano reggiano, chicken egg. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 18 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "arborio-rice",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-stock",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mix the cooled tomato rice with Parmesan. Shape oval croquettes around a baton of mozzarella so the cheese is completely enclosed.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "mozzarella",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Dip each croquette in flour and beaten egg, then coat evenly with breadcrumbs.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Deep-fry in oil around 175°C until deeply golden, crisp and heated through.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

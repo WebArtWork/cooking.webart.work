@@ -1,0 +1,107 @@
+{
+  "id": "world-1256",
+  "title": "Калалу",
+  "description": "Калалу — страва кухні країни Тринідад і Тобаго з такими основними складниками: жовта цибуля, часник, бамія, шпинат. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Шпинат замінює листя дашину/таро, що потребує спеціальної підготовки; страва лише за мотивами калалу.",
+  "regionId": "caribbean",
+  "countryCode": "TT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Тушкуйте шпинат, гарбуз і окру в кокосовому молоці до м’якості; трохи подрібніть до текстури калалу по-тринідадськи.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно змішайте раніше підготовлені компоненти в потрібну масу; нових складників на цьому етапі не додавайте.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

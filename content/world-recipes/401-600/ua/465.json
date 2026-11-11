@@ -1,0 +1,96 @@
+{
+  "id": "world-0465",
+  "title": "Сарма",
+  "description": "Традиційна страва кухні країни Туреччина. Основні складники: виноградне листя, білий рис, фарш з ягнятини, жовта цибуля. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "TR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Відокремте й бланшуйте листя в гарячій воді приблизно 7 хвилин до гнучкості. Обсушіть і зріжте товсті прожилки.",
+      "techniqueIds": [
+        "blanching"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "grape-leaves",
+          "amount": 45,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте складники начинки: ті, що потребують теплової обробки, приготуйте, охолодіть і змішайте в однорідну начинку.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "white-rice",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладайте ложку рисово-баранячої начинки на кожен виноградний лист, підгортайте боки й згортайте не надто туго, щоб рис міг набухнути.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 17,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 50 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

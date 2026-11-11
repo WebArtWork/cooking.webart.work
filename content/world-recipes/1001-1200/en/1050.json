@@ -1,0 +1,116 @@
+{
+  "id": "world-1050",
+  "title": "Pempek",
+  "description": "Pempek is a dish from Indonesia prepared with tilapia, tapioca starch, garlic, tamarind concentrate. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Poach the shaped fish-and-tapioca dumplings until set and cooked through, then drain before frying; the separate cuko sauce is sweet, hot and sour.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fry shaped portions in small batches in oil heated to about 170–175°C for about 12 minutes, until golden; drain on a rack.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 450,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 10 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

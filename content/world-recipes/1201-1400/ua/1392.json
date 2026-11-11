@@ -1,0 +1,106 @@
+{
+  "id": "world-1392",
+  "title": "Куряча парміджана по-австралійськи",
+  "description": "Куряча парміджана по-австралійськи — страва кухні країни Австралія з такими основними складниками: куряча грудка, пшеничне борошно універсальне, куряче яйце, панірувальні сухарі. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "oceania",
+  "countryCode": "AU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть продукти й рівномірно запаніруйте їх у зазначених сухих складниках; злегка притисніть паніровку.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 760,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 15 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно викладіть підготовлені компоненти шарами у формі для запікання, подавання чи на тарілці відповідно до страви; вирівняйте поверхню, не змішуючи шари.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 20 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 24,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

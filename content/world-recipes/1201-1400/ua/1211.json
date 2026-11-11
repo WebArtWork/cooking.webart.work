@@ -1,0 +1,102 @@
+{
+  "id": "world-1211",
+  "title": "Накатамалес",
+  "description": "Накатамалес — страва кухні країни Нікарагуа з такими основними складниками: маса харіна, свиняча лопатка, картопля, морква. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "central-america",
+  "countryCode": "NI",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте кукурудзяне борошно із зазначеною водою й сіллю до м’якої цілісної маси, що не липне. Накрийте на приблизно 10 хвилин; таке безглютенове тісто не стає еластичним, як пшеничне.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 33 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 33,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 10,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Щільно загорніть масу з начинкою в харчове бананове листя, перев’яжіть і готуйте на парі до повного схоплення тіста та готовності м’яса.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 115,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

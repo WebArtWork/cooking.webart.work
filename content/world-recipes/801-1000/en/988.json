@@ -1,0 +1,115 @@
+{
+  "id": "world-0988",
+  "title": "Pansangi",
+  "description": "Pansangi is a North Korea dish made with calrose rice, beef sirloin, shiitake mushroom, light soy sauce. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "KP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 22 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "calrose-rice",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 770,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shiitake-mushroom",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bean-sprouts",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange the prepared cooked components and listed toppings in a serving dish, keeping hot foods hot and chilled components cold until serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "kimchi",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tofu-firm",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

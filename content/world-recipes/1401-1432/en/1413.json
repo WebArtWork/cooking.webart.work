@@ -1,0 +1,95 @@
+{
+  "id": "world-1413",
+  "title": "Faikakai",
+  "description": "Faikakai are Tongan starchy dumplings served with a warm sweet coconut sauce; this version uses cassava flour.",
+  "regionId": "oceania",
+  "countryCode": "TO",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix cassava flour, all-purpose flour and salt. Add warm water gradually to form a soft, shapeable dough.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 240,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Divide dough into 18 small rounded dumplings. Bring a wide pot of water to a gentle boil.",
+      "techniqueIds": [
+        "pre-shaping-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Boil dumplings in batches for 12–15 minutes until firm and cooked to the centre; drain.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Simmer coconut cream with brown sugar for 8–10 minutes, stirring until syrupy. Do not let it scorch.",
+      "techniqueIds": [
+        "sugar-syrup-cooking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 155,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Coat warm dumplings in the coconut sauce and serve at once.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

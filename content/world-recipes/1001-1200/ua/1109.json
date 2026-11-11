@@ -1,0 +1,96 @@
+{
+  "id": "world-1109",
+  "title": "Амбуят",
+  "description": "Амбуят — страва кухні країни Бруней, яку готують із таких продуктів: тапіоковий крохмаль, концентрат тамаринду, рибний соус, перець чилі пташине око. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Тапіоковий крохмаль замінює традиційний саговий у амбуяті; обидва утворюють клейстер, але відрізняються.",
+  "regionId": "southeast-asia",
+  "countryCode": "BN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 290,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 540,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поступово вливайте ОКРІП до тапіокового крохмалю, енергійно вимішуючи міцною ложкою до прозорої тягучої маси; не куштуйте сирий крохмаль.",
+      "techniqueIds": [
+        "gelatinizing-starch"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

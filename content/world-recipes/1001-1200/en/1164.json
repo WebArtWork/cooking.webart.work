@@ -1,0 +1,101 @@
+{
+  "id": "world-1164",
+  "title": "Chilaquiles",
+  "description": "Chilaquiles is a dish from Mexico prepared with corn tortillas, red salsa, chicken egg, queso fresco. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 8 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 10 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "red-salsa",
+          "amount": 560,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 160,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the prepared components from earlier steps gently into the intended final mixture; do not add new ingredients.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 5 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "queso-fresco",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

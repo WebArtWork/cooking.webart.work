@@ -1,0 +1,71 @@
+{
+  "id": "world-0139",
+  "title": "Чурчхела",
+  "description": "Класична страва з Грузія. Основні складники: волоський горіх, виноградний сік, білий цукор-пісок, пшеничне борошно універсальне. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "GE",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Нанизайте половинки волоських горіхів на чисту харчову бавовняну нитку та зробіть петлю для підвішування.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розмішайте борошно в холодному виноградному соку до однорідності, додайте цукор і уварюйте 15 хвилин, постійно помішуючи, до густої виноградної маси (татара).",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "grape-juice",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 105,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Повністю занурте горіхові нитки в теплу масу, підвісьте до схоплення й повторіть для товстішого шару. Сушіть кілька днів у чистому провітрюваному місці до пружності; вироби з цвіллю викиньте.",
+      "techniqueIds": [
+        "glazing",
+        "air-drying"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вийміть нитку перед вживанням. Наріжте підсушену чурчхелу скибочками та подавайте як солодощі.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

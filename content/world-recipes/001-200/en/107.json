@@ -1,0 +1,83 @@
+{
+  "id": "world-0107",
+  "title": "Pelēkie Zirņi ar Speķi",
+  "description": "A Latvian grey-pea-and-bacon classic adapted with dried green peas because grey peas are absent from the ingredient catalog.",
+  "regionId": "eastern-europe",
+  "countryCode": "LV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Rinse the dried peas and soak for about 8 hours in the refrigerator, then drain. Simmer in fresh water until tender, roughly 60 minutes. This recipe uses dried green peas because grey peas are missing from the catalog.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 540,
+      "ingredients": [
+        {
+          "ingredientId": "green-peas-dried",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "bacon",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

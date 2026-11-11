@@ -1,0 +1,134 @@
+{
+  "id": "world-0322",
+  "title": "Bouillabaisse",
+  "description": "A traditional France dish made with yellow onion, garlic, tomato, fennel bulb. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 9 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fennel-bulb",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 28 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "fish-stock",
+          "amount": 1350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-zest",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 10 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cod",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mussel",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "baguette",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 2,
+          "unit": "clove"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

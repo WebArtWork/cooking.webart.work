@@ -1,0 +1,110 @@
+{
+  "id": "world-1418",
+  "title": "Тулук",
+  "description": "Тулук — страва Вануату із маніокового тіста з м’ясною начинкою в банановому листі. Домашня версія готується з маніокового борошна замість свіжого тертого кореня.",
+  "regionId": "oceania",
+  "countryCode": "VU",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсмажте свинячий фарш із цибулею та часником до температури 71°C у м’ясі; посоліть і трохи остудіть.",
+      "techniqueIds": [
+        "sauteing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Змішайте маніокове борошно з невеликою кількістю солі й теплим кокосовим молоком до м’якого пластичного тіста; залиште на 5 хвилин.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розм’якшіть харчове бананове листя. Розплескайте шість дисків тіста, покладіть усередину свинину й надійно загорніть у тісто та листя.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть у накриту форму з невеликою кількістю води для пари; запікайте при 185°C 45–55 хвилин, доки маніокове тісто не стане щільним і повністю готовим.",
+      "techniqueIds": [
+        "steam-baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Дайте постояти 10 хвилин і обережно розгорніть; подавайте теплим.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

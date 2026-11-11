@@ -1,0 +1,118 @@
+{
+  "id": "world-0940",
+  "title": "Тонкоцу рамен",
+  "description": "Тонкоцу рамен — страва кухні країни Японія. Основні складники: свинячі кістки, часник, свиняча грудинка, світлий соєвий соус. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть очищені свинячі кістки кілька годин, доливаючи воду за потреби, тоді процідіть для насиченого бульйону тонкоцу.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 240,
+      "ingredients": [
+        {
+          "ingredientId": "pork-bones",
+          "amount": 1500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 2600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 45 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mirin",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 6 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "ramen-noodles",
+          "amount": 430,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Варіть яйця приблизно 9 хвилин, швидко охолодіть у холодній воді, очистьте та підготуйте за потреби.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "nori",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

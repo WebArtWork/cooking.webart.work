@@ -1,0 +1,98 @@
+{
+  "id": "world-1403",
+  "title": "Kokoda",
+  "description": "Fijian coconut-and-lime fish salad. Traditionally made with raw marinated fish; this safer home version uses fully cooked, chilled fish.",
+  "regionId": "oceania",
+  "countryCode": "FJ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach fish gently in just-simmering water until its centre reaches 63°C; remove and chill promptly in a shallow covered dish.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Dice the cooled fish. Mix with lime juice in a clean bowl and refrigerate for 15 minutes; the citrus seasons already cooked fish rather than cooking it.",
+      "techniqueIds": [
+        "acid-marination"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finely chop red onion, tomato, cucumber and chili; toss into the fish.",
+      "techniqueIds": [
+        "dicing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fold in chilled coconut cream and salt; refrigerate briefly and serve cold.",
+      "techniqueIds": [
+        "folding-in",
+        "seasoning"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

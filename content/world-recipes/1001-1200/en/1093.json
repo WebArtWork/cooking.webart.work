@@ -1,0 +1,117 @@
+{
+  "id": "world-1093",
+  "title": "Nom Banh Chok",
+  "description": "Nom Banh Chok is a dish from Cambodia prepared with tilapia, lemongrass, garlic, galangal. This is a home-scale version with measured ingredients in the individual steps where they are used. Shredded cabbage replaces banana blossom; specialty nom banh chok rice noodles also differ.",
+  "regionId": "southeast-asia",
+  "countryCode": "KH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 22 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the listed ingredients in simmering water for about 7 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bean-sprouts",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

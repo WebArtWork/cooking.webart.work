@@ -1,0 +1,117 @@
+{
+  "id": "world-0127",
+  "title": "Медовик",
+  "description": "Класична страва з Росія. Основні складники: куряче яйце, сметана, вершки високої жирності, волоський горіх. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "RU",
+  "servings": 10,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно прогрійте медову суміш до реакції соди. Зніміть із вогню та вмішайте борошно, щоб отримати гладке тісто для тонких коржів.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "baking-soda",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 480,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розкачайте тісто на тонкі круглі коржі та випікайте кожен окремо при 180°C до рум’яності; повністю остудіть перед прошаруванням.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 24 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "sour-cream",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 180,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

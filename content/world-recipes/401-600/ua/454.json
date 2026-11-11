@@ -1,0 +1,90 @@
+{
+  "id": "world-0454",
+  "title": "Донер-кебаб",
+  "description": "Традиційна страва кухні країни Туреччина. Основні складники: ягнятина, натуральний йогурт, піта, помідор. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "TR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 90 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Щільно викладіть мариновану баранину шарами на деко чи компактний рожен і запікайте до повної готовності: це домашнє наближення до донера з вертикального рожна.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нашаткуйте або розберіть готові компоненти на волокна й змішайте з зазначеними додатками.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,111 @@
+{
+  "id": "world-1091",
+  "title": "Рибний амок",
+  "description": "Рибний амок — страва кухні країни Камбоджа, яку готують із таких продуктів: червона тайська паста карі, лемонграс, галангал, креветкова паста. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Домашній рибний амок із доступною тайською пастою карі; кхмерський кроенг має інший аромат і текстуру.",
+  "regionId": "southeast-asia",
+  "countryCode": "KH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 7,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 27 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 27,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

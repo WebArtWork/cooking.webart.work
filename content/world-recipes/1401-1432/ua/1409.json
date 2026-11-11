@@ -1,0 +1,127 @@
+{
+  "id": "world-1409",
+  "title": "Сапасуї",
+  "description": "Самоанський сапасуї — ситна страва зі скляної локшини, м’яса, соєвого соусу та овочів.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть скляну локшину в теплій воді до гнучкості приблизно на 12 хвилин; відцідіть і розріжте на зручні шматки.",
+      "techniqueIds": [
+        "soaking-dried-produce",
+        "draining"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "glass-noodles",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нагрійте олію й обсмажте яловичий фарш до повної готовності; додайте цибулю, імбир і часник та смажте до появи аромату.",
+      "techniqueIds": [
+        "stir-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте тонко нашатковану капусту та моркву; смажте, помішуючи, 5 хвилин.",
+      "techniqueIds": [
+        "stir-frying"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте локшину, соєві соуси та воду. Тушкуйте, обережно перевертаючи, поки локшина не вбере більшість рідини й стане прозорою, приблизно 10 хвилин.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dark-soy-sauce",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Вмішайте нарізану зелену цибулю й подавайте гарячим.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "spring-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

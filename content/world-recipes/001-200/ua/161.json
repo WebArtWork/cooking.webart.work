@@ -1,0 +1,68 @@
+{
+  "id": "world-0161",
+  "title": "Паста качо е пепе",
+  "description": "Класична страва з Італія. Основні складники: спагеті, пекоріно романо. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Подрібніть чорний перець і коротко прогрійте його на широкій сковороді з невеликою кількістю води.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Відваріть пасту до аль денте, збережіть щонайменше чашку крохмалистої води.",
+      "techniqueIds": [
+        "pasta-boiling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "spaghetti",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 9,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поза вогнем енергійно змішайте пасту з дрібно натертим пекоріно, потроху додаючи воду з-під пасти до шовковистої емульсії.",
+      "techniqueIds": [
+        "pasta-finishing-in-sauce",
+        "tossing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "pecorino-romano",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

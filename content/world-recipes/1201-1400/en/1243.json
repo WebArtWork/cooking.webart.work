@@ -1,0 +1,75 @@
+{
+  "id": "world-1243",
+  "title": "Jerk Chicken",
+  "description": "Jerk Chicken is a dish from Jamaica featuring chicken leg quarter, jerk marinade, scotch bonnet pepper, thyme. This home-sized recipe records each ingredient at the step where it is used. A hot grill and oven reproduce home jerk flavor without a traditional pimento-wood smoke pit.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-leg-quarter",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "jerk-marinade",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 5,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Grill jerk-marinated chicken over controlled medium heat to build char without burning the spices; finish until the thickest piece reaches 74°C.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast the already seasoned food in a preheated oven until tender and safely cooked, using a thermometer for meat or poultry.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

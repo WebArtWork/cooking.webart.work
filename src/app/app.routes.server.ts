@@ -7,6 +7,8 @@ const prerender = (kind: string, slugs: () => Promise<{ slug: string }[]>): Serv
 export const serverRoutes: ServerRoute[] = [
 	// a practice session depends on what the learner answers, so it is drawn in the browser
 	{ path: 'practices/:slug', renderMode: RenderMode.Client },
+	// one page per recipe, 1,400 of them: drawn in the browser, from the recipe's own file
+	{ path: 'recipes/:slug', renderMode: RenderMode.Client },
 	{ path: 'profile', renderMode: RenderMode.Client },
 	{ path: 'sign-in', renderMode: RenderMode.Client },
 	prerender('restaurant', () => import('./pages/restaurant/restaurant.data').then((m) => m.RESTAURANTS)),

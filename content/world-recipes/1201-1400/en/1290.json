@@ -1,0 +1,108 @@
+{
+  "id": "world-1290",
+  "title": "Moqueca Baiana",
+  "description": "Moqueca Baiana is a dish from Brazil featuring yellow onion, red bell pepper, tomato, garlic. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "BR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "palm-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 13 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 580,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Nestle fish and shrimp into the fragrant coconut stew, cover and simmer until fish is opaque (63°C) and shrimp pearly and fully cooked.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

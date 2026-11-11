@@ -1,0 +1,86 @@
+{
+  "id": "world-1122",
+  "title": "Barbecue Pork Ribs",
+  "description": "Barbecue Pork Ribs is a dish from United States prepared with pork ribs, barbecue sauce, apple cider vinegar. This is a home-scale version with measured ingredients in the individual steps where they are used. Oven-and-grill ribs, not fully pit-smoked barbecue.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 80 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "pork-ribs",
+          "amount": 1400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 13,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Bake the rubbed ribs tightly covered at 150–160°C until the meat is tender, about 2.5–3 hours; finish with barbecue glaze on the grill.",
+      "techniqueIds": [
+        "low-temperature-roasting"
+      ],
+      "durationMinutes": 165,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill over medium-high heat for about 18 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "barbecue-sauce",
+          "amount": 220,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

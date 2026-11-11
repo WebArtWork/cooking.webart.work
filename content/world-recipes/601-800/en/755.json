@@ -1,0 +1,81 @@
+{
+  "id": "world-0755",
+  "title": "Laxoox",
+  "description": "Laxoox is a Djibouti classic prepared with all-purpose flour, sorghum flour, instant yeast. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "DJ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cover the batter loosely and leave in a suitable warm, clean place for about 350 minutes to become bubbly and lightly tangy; do not refrigerate during active fermentation.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 350,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cook the tangy laxoox batter in thin rounds, letting surface holes form before lifting; do not flip repeatedly.",
+      "techniqueIds": [
+        "griddle-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 22,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

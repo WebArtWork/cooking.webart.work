@@ -1,0 +1,80 @@
+{
+  "id": "world-0879",
+  "title": "Mishti Doi",
+  "description": "Mishti Doi is a Bangladesh dish made with whole cow milk, plain yogurt, pistachio. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "BD",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 30 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 1050,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "When sweetened milk has cooled to warm (about 42°C), stir in live yogurt starter and incubate covered in clean jars until set; then refrigerate promptly.",
+      "techniqueIds": [
+        "yogurt-culturing"
+      ],
+      "durationMinutes": 420,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 150 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

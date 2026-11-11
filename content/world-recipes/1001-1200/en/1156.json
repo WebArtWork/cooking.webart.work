@@ -1,0 +1,52 @@
+{
+  "id": "world-1156",
+  "title": "Maple Taffy",
+  "description": "Maple Taffy is a dish from Canada prepared with . This is a home-scale version with measured ingredients in the individual steps where they are used. Crushed clean ice substitutes for fresh snow; candy syrup is scalding and requires care.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat pure maple syrup carefully to about 112–115°C (soft-ball stage) using a candy thermometer; syrup is extremely hot.",
+      "techniqueIds": [
+        "sugar-syrup-cooking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "maple-syrup",
+          "amount": 420,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Crush clean ice in a shallow tray to mimic packed snow; do not add any new flavorings.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Pour narrow ribbons of hot syrup over crushed ice, let cool briefly and roll onto food-safe sticks; protect hands from burns.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

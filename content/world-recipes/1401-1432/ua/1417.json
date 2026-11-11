@@ -1,0 +1,77 @@
+{
+  "id": "world-1417",
+  "title": "Лаплап",
+  "description": "Лаплап із Вануату традиційно готують із тертих коренеплодів та кокосових вершків у банановому листі під гарячим камінням; це домашня версія з таро.",
+  "regionId": "oceania",
+  "countryCode": "VU",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть харчове таро, наріжте шматками та варіть у воді до повної м’якості 25–35 хвилин; добре злийте воду. Не використовуйте дикоросле таро.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Ретельно розімніть приготовлене таро. Умішайте кокосові вершки й сіль до густої маси, яку можна розподілити шаром.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розм’якшіть бананове листя парою та вистеліть ним форму. Викладіть масу з таро й загорніть листя зверху.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте накритим при 180°C 35–40 хвилин, доки маса стане гарячою й щільною. Дайте постояти 10 хвилин перед нарізанням.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

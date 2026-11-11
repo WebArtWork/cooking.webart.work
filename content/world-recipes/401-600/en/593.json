@@ -1,0 +1,83 @@
+{
+  "id": "world-0593",
+  "title": "Buuz",
+  "description": "A traditional dish from Mongolia, centered on all-purpose flour, ground lamb, yellow onion. A measured home-kitchen version organized by cooking step.",
+  "regionId": "central-asia",
+  "countryCode": "MN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 17 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 175,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "ground-lamb",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roll the rested dough thinly, cut rounds, place filling in the center and pinch each dumpling tightly closed.",
+      "techniqueIds": [
+        "rolling-out-dough",
+        "pinching-dumplings"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Put the prepared parcels in a steamer over gently boiling water, cover, and steam for about 30 minutes until the filling is completely cooked.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

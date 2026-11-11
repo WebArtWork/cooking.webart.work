@@ -1,0 +1,78 @@
+{
+  "id": "world-1151",
+  "title": "Сендвіч із копченим м'ясом по-монреальськи",
+  "description": "Сендвіч із копченим м'ясом по-монреальськи — страва кухні країни Канада, яку готують із таких продуктів: солонина, житній хліб, квашений огірок, жовта гірчиця. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Солонина замінює традиційно засолений ТА копчений монреальський брискет; це адаптація сендвіча, а не автентичне копчене м’ясо.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 25 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rye-bread",
+          "amount": 8,
+          "unit": "slice"
+        },
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-mustard",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "swiss-cheese",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

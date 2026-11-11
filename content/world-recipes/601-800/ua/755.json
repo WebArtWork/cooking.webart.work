@@ -1,0 +1,81 @@
+{
+  "id": "world-0755",
+  "title": "Лахух",
+  "description": "Лахух — страва кухні країни Джибуті зі складниками: пшеничне борошно універсальне, соргове борошно, інстантні дріжджі. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "DJ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sorghum-flour",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нещільно накрийте тісто й залиште приблизно на 350 хвилин у чистому теплому місці до появи бульбашок і легкої кислинки; під час активного бродіння не ставте в холодильник.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 350,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте кислувате тісто лахуху тонкими порціями до появи пор на поверхні; не перевертайте багаторазово.",
+      "techniqueIds": [
+        "griddle-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 22,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

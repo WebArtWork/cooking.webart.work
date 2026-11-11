@@ -1,0 +1,97 @@
+{
+  "id": "world-1227",
+  "title": "Lechón Asado",
+  "description": "Lechón Asado is a dish from Cuba featuring pork shoulder, orange juice, lime juice, garlic. This home-sized recipe records each ingredient at the step where it is used. Oven-roasted lechón uses pork shoulder rather than a whole suckling pig.",
+  "regionId": "caribbean",
+  "countryCode": "CU",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 150 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 190,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 8,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast in a preheated 190°C oven for about 145 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 145,
+      "ingredients": [
+        {
+          "ingredientId": "olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 12 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "orange-juice",
+          "amount": 90,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

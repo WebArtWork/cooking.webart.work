@@ -1,0 +1,134 @@
+{
+  "id": "world-0411",
+  "title": "Трайфл",
+  "description": "Традиційна страва кухні країни Велика Британія. Основні складники: куряче яйце, пшеничне борошно універсальне, цільне коров'яче молоко, яєчний жовток. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте яйця з цукром у густу світлу масу для домашнього бісквіта.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно вмішайте решту сухих або рідких складників лише до однорідності, не осаджуючи масу.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 105,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте бісквіт при 180°C до готовності, остудіть і наріжте пластами або кубиками.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно нагрівайте жовтково-молочну суміш із крохмалем, помішуючи до загустіння крему; швидко охолодіть.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Викладіть шари бісквіта з малиновим джемом і ягодами, додайте охолоджений заварний крем і вкрийте збитими вершками.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "raspberry-jam",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raspberry",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 90 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

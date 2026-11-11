@@ -13,7 +13,7 @@ export const REGIONS: readonly Region[] = [
 	{ id: 'northern-europe', name: { en: 'Northern Europe', ua: 'Північна Європа' }, countries: ['DK', 'EE', 'FI', 'IS', 'IE', 'LV', 'LT', 'NO', 'SE', 'GB'] },
 	{ id: 'western-europe', name: { en: 'Western Europe', ua: 'Західна Європа' }, countries: ['AT', 'BE', 'FR', 'DE', 'LI', 'LU', 'MC', 'NL', 'CH'] },
 	{ id: 'eastern-europe', name: { en: 'Eastern Europe', ua: 'Східна Європа' }, countries: ['BY', 'BG', 'CZ', 'HU', 'MD', 'PL', 'RO', 'RU', 'SK', 'UA'] },
-	{ id: 'southern-europe', name: { en: 'Southern Europe', ua: 'Південна Європа' }, countries: ['AL', 'AD', 'BA', 'HR', 'GR', 'IT', 'MT', 'ME', 'MK', 'PT', 'SM', 'RS', 'SI', 'ES', 'VA'] },
+	{ id: 'southern-europe', name: { en: 'Southern Europe', ua: 'Південна Європа' }, countries: ['AL', 'AD', 'BA', 'HR', 'GR', 'IT', 'MT', 'ME', 'MK', 'PT', 'SM', 'RS', 'SI', 'ES', 'VA', 'XK'] },
 	{ id: 'western-asia', name: { en: 'Western Asia and the Middle East', ua: 'Західна Азія та Близький Схід' }, countries: ['AM', 'AZ', 'BH', 'CY', 'GE', 'IR', 'IQ', 'IL', 'JO', 'KW', 'LB', 'OM', 'PS', 'QA', 'SA', 'SY', 'TR', 'AE', 'YE'] },
 	{ id: 'central-asia', name: { en: 'Central Asia', ua: 'Центральна Азія' }, countries: ['KZ', 'KG', 'TJ', 'TM', 'UZ'] },
 	{ id: 'south-asia', name: { en: 'South Asia', ua: 'Південна Азія' }, countries: ['AF', 'BD', 'BT', 'IN', 'MV', 'NP', 'PK', 'LK'] },
@@ -25,8 +25,8 @@ export const REGIONS: readonly Region[] = [
 	{ id: 'eastern-africa', name: { en: 'Eastern Africa', ua: 'Східна Африка' }, countries: ['BI', 'KM', 'DJ', 'ER', 'ET', 'KE', 'MG', 'MW', 'MU', 'MZ', 'RW', 'SC', 'SO', 'SS', 'TZ', 'UG', 'ZM', 'ZW'] },
 	{ id: 'southern-africa', name: { en: 'Southern Africa', ua: 'Південна Африка' }, countries: ['BW', 'SZ', 'LS', 'NA', 'ZA'] },
 	{ id: 'northern-america', name: { en: 'Northern America', ua: 'Північна Америка' }, countries: ['CA', 'US'] },
-	{ id: 'central-america-caribbean', name: { en: 'Central America and the Caribbean', ua: 'Центральна Америка та Кариби' }, countries: ['BZ', 'CR', 'SV', 'GT', 'HN', 'MX', 'NI', 'PA', 'AG', 'BS', 'BB', 'CU', 'DM', 'DO', 'GD', 'HT', 'JM', 'KN', 'LC', 'VC', 'TT', 'PR'] },
-	{ id: 'south-america', name: { en: 'South America', ua: 'Південна Америка' }, countries: ['AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'GY', 'PY', 'PE', 'SR', 'UY', 'VE'] },
+	{ id: 'central-america-caribbean', name: { en: 'Central America and the Caribbean', ua: 'Центральна Америка та Кариби' }, countries: ['BZ', 'CR', 'SV', 'GT', 'HN', 'MX', 'NI', 'PA', 'AG', 'BS', 'BB', 'CU', 'DM', 'DO', 'GD', 'HT', 'JM', 'KN', 'LC', 'VC', 'TT', 'PR', 'CW'] },
+	{ id: 'south-america', name: { en: 'South America', ua: 'Південна Америка' }, countries: ['AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'GY', 'PY', 'PE', 'SR', 'UY', 'VE', 'GF'] },
 	{ id: 'oceania', name: { en: 'Oceania', ua: 'Океанія' }, countries: ['AU', 'FJ', 'KI', 'MH', 'FM', 'NR', 'NZ', 'PW', 'PG', 'WS', 'SB', 'TO', 'TV', 'VU'] },
 ];
 

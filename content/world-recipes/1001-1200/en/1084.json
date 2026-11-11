@@ -1,0 +1,102 @@
+{
+  "id": "world-1084",
+  "title": "Laing",
+  "description": "Laing is a dish from Philippines prepared with garlic, shallot, spinach, coconut milk. This is a home-scale version with measured ingredients in the individual steps where they are used. Laing-inspired coconut greens, NOT authentic taro-leaf laing: spinach replaces taro leaves; never use improperly prepared taro leaves.",
+  "regionId": "southeast-asia",
+  "countryCode": "PH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 8 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Simmer the spinach, coconut milk, pork belly and shrimp paste gently until meat is fully cooked. This is a spinach adaptation, NOT a method for raw taro leaves.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "pork-belly",
+          "amount": 280,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Continue simmering the sauce from the previous step uncovered until concentrated and thick enough to coat the ingredients.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

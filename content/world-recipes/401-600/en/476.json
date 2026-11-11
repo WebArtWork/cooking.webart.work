@@ -1,0 +1,98 @@
+{
+  "id": "world-0476",
+  "title": "Fattoush",
+  "description": "A traditional dish from Lebanon, centered on tomato, cucumber, radish, lettuce. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "radish",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Toast these ingredients over medium heat for about 5 minutes, turning frequently to prevent scorching.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fold in the dressing ingredients, season to taste and serve, or chill briefly as appropriate.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sumac",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pomegranate-molasses",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

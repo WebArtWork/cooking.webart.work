@@ -1,0 +1,115 @@
+{
+  "id": "world-1312",
+  "title": "Matambre Arrollado",
+  "description": "Matambre Arrollado is a dish from Argentina featuring beef flank steak, garlic, chicken egg, carrot. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 65 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "beef-flank-steak",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-red-wine",
+          "amount": 120,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil the eggs for about 11 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Lay the cooked eggs, softened carrots, bell pepper and olives along the flattened beef to form the filling, then roll tightly before braising.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-olives",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-bell-pepper",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fill and wrap the prepared portions in their wrappers or food-safe leaves; close the edges without tearing.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 120 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Refrigerate the prepared mixture for about 75 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

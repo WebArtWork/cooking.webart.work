@@ -1,0 +1,68 @@
+{
+  "id": "world-0183",
+  "title": "Caprese Salad",
+  "description": "A classic dish from Italy, featuring tomato, fresh mozzarella, basil. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut ripe tomatoes and fresh mozzarella into thick even slices. Arrange alternately with whole basil leaves on a platter.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 490,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-mozzarella",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basil",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Drizzle with olive oil and a little balsamic vinegar, season with salt and freshly ground pepper and serve immediately.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "balsamic-vinegar",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

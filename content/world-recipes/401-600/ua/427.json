@@ -1,0 +1,81 @@
+{
+  "id": "world-0427",
+  "title": "Спокуса Янсона",
+  "description": "Традиційна страва кухні країни Швеція. Основні складники: картопля, жовта цибуля, філе анчоусів, вершки високої жирності. Домашній варіант із кількостями продуктів за етапами приготування. Домашній варіант із філе анчоуса: шведських пряних шпротів для «Спокуси Янсона» немає в каталозі.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "SE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте картоплю тонкою соломкою, цибулю дрібно, анчоуси смужками. Викладіть шарами у змащену форму.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "anchovy-fillets",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Залийте вершковою сумішшю, посипте сухарями, додайте масло й запікайте при 190°C до м’якості картоплі та рум’яної скоринки.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

@@ -1,0 +1,89 @@
+{
+  "id": "world-0863",
+  "title": "Gajar ka Halwa",
+  "description": "Gajar ka Halwa is a India dish made with carrot, whole cow milk, cashew, pistachio. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel and coarsely grate the listed vegetables; squeeze out excess moisture so the mixture will hold together.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 800,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Slowly cook grated carrot in milk and ghee, stirring often, until the carrot is soft and most milk has evaporated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cardamom",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cashew",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pistachio",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

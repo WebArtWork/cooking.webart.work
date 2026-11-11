@@ -1,0 +1,114 @@
+{
+  "id": "world-1340",
+  "title": "Пікаронес",
+  "description": "Пікаронес — страва кухні країни Перу з такими основними складниками: батат, гарбуз, пшеничне борошно універсальне, інстантні дріжджі. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Сироп із темного коричневого цукру замінює традиційну чанкаку/панелу.",
+  "regionId": "south-america",
+  "countryCode": "PE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 28 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Злийте воду з готових продуктів і протягом приблизно 12 хвилин товчіть або розминайте теплими до густої гладкої еластичної маси; сформуйте порції вологими руками чи ложкою.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "anise-seeds",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Змішайте й вимісіть м’яке дріжджове тісто. Накрийте та поставте в тепле місце до збільшення об’єму приблизно вдвічі — орієнтовно на 60 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 60,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вологими руками сформуйте з тіста кільця з отвором; смажте до золотистості й полийте теплим сиропом із коричневого цукру й анісу.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Готуйте складники соусу на помірно слабкому вогні приблизно 12 хвилин до появи аромату та легкого загустіння.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "dark-brown-sugar",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cassia-cinnamon",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

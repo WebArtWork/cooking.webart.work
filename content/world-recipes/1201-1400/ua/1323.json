@@ -1,0 +1,103 @@
+{
+  "id": "world-1323",
+  "title": "Куранто",
+  "description": "Куранто — страва кухні країни Чилі з такими основними складниками: жовта цибуля, часник, картопля, куряче стегно. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Домашня пароварка замінює традиційну земляну піч із розпеченим камінням для куранто.",
+  "regionId": "south-america",
+  "countryCode": "CL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 45 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте курку та картоплю на парі під кришкою до щонайменше 74°C у м’ясі; ніжні морепродукти додавайте лише на наступному етапі.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 580,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте очищених мідій, молюсків і креветок до гарячої пароварки; готуйте лише до непрозорості креветок і розкриття мушель. Нерозкриті викиньте.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "green-lipped-mussel",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "clam",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

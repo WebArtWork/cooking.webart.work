@@ -1,0 +1,104 @@
+{
+  "id": "world-0888",
+  "title": "Стринг-хоперс",
+  "description": "Стринг-хоперс — страва кухні країни Шрі-Ланка. Основні складники: рисове борошно, жовта цибуля, кокосове молоко, кокосова стружка. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Подається кокосово-йогуртова добавка; традиційний шрі-ланкійський самбол або підлива відрізняються.",
+  "regionId": "south-asia",
+  "countryCode": "LK",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 15 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "rice-flour",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 405,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 18,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Покладіть підготовлені вироби на решітку пароварки над водою, що ледь кипить, накрийте й готуйте на парі приблизно 13 хвилин до повної готовності начинки.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 12 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "curry-powder",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

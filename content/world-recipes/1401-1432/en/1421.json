@@ -1,0 +1,110 @@
+{
+  "id": "world-1421",
+  "title": "Te Bua Toro Ni Baukin",
+  "description": "Kiribati te bua toro ni baukin is a pumpkin-and-cabbage bake with canned meat and milk powder.",
+  "regionId": "oceania",
+  "countryCode": "KI",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Preheat oven to 190°C. Grate pumpkin, squeeze out excess liquid and finely shred cabbage.",
+      "techniqueIds": [
+        "shredding"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "pumpkin",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Break corned beef into pieces; combine with the pumpkin and cabbage.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in flour, milk powder, baking powder, lemon juice, salt and pepper to make a thick, cohesive mixture.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "milk-powder",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Oil a deep baking dish, spread the mixture evenly, and bake 45–55 minutes until firm and browned; leftovers should be reheated to 74°C.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Stand 10 minutes before slicing into portions.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

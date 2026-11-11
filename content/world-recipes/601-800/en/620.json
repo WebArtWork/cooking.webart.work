@@ -1,0 +1,88 @@
+{
+  "id": "world-0620",
+  "title": "Brik à l'Oeuf",
+  "description": "Brik à l'Oeuf is a Tunisia classic prepared with canned tuna, parsley, capers, phyllo pastry. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Thin phyllo sheets replace traditional Tunisian malsouka/brik pastry. Eggs are cooked until firm for food safety.",
+  "regionId": "north-africa",
+  "countryCode": "TN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Prepare the filling ingredients: cook or soften any components that require it, let cool, then mix into an even filling.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "canned-tuna",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "capers",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Use two thin phyllo sheets per brik; spread the tuna-herb filling and add one egg per parcel, folding into a triangle with sealed edges.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Fry each brik until crisp and the enclosed egg is fully cooked, adjusting heat to avoid burning the delicate pastry.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,116 @@
+{
+  "id": "world-0321",
+  "title": "Касуле",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: суха біла квасоля, свиняча лопатка, часник, качине конфі. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Залийте складники холодною водою і замочуйте приблизно 720 хвилин; рибу тримайте в холодильнику, кілька разів змінюючи воду для видалення зайвої солі. Перед готуванням злийте воду.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-beans",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 85 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 85,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "duck-confit",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-pork-sausage",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Повільно запікайте касуле в глибокій формі до появи кипіння та скоринки; втопіть скоринку в квасолю й дайте їй утворитися знову.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "duck-fat",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

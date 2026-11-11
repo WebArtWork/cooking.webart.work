@@ -1,0 +1,79 @@
+{
+  "id": "world-1374",
+  "title": "Кесільйо",
+  "description": "Кесільйо — страва кухні країни Венесуела з такими основними складниками: куряче яйце, згущене молоко з цукром, цільне коров'яче молоко. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "VE",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Нагрівайте зазначені складники на помірному вогні приблизно 9 хвилин до бурштинового кольору й аромату, помішуючи за потреби.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 530,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 6,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поставте форму з карамеллю та кремом у гарячу водяну баню й випікайте при 160°C до готовності та застигання крему.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 180 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

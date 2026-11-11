@@ -1,0 +1,96 @@
+{
+  "id": "world-1426",
+  "title": "Fekei Pulaka",
+  "description": "Fekei pulaka is a Tuvaluan cooked, mashed root pudding dressed in coconut cream. This adaptation uses boiled regular taro rather than giant swamp taro.",
+  "regionId": "oceania",
+  "countryCode": "TV",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel food-grade taro, cut into chunks, and boil in plenty of water for 30–40 minutes until completely tender; discard the cooking water.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mash taro while warm with brown sugar and a pinch of salt until thick and smooth.",
+      "techniqueIds": [
+        "mashing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Warm banana leaves briefly to make them pliable. Form six portions of mash into leaf packets.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake parcels at 180°C for about 25 minutes to set and lightly toast the exterior; they are already fully cooked inside.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Warm coconut cream with coconut sugar. Open parcels and spoon warm coconut cream over each portion.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 450,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

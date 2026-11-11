@@ -1,0 +1,132 @@
+{
+  "id": "world-0904",
+  "title": "Peking Duck",
+  "description": "Peking Duck is a China dish made with whole duck, rice vinegar, hoisin sauce, light soy sauce. This home-scale recipe assigns measured ingredients to the steps where they are used. Home-oven Peking duck with homemade pancakes; not the commercial air-dried restaurant roasting method.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 720 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "whole-duck",
+          "amount": 2.2,
+          "unit": "kg"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chinese-five-spice",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "After safely air-drying the glazed duck in the refrigerator, roast on a rack and check the thickest meat reaches a safe temperature, then rest before carving.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 130,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Simmer the liquid and flavorings uncovered for about 8 minutes until reduced and concentrated.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "hoisin-sauce",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Swirl thin layers of batter in a lightly greased hot pan. Cook both sides, about 18 minutes per batch, to make flexible crepes.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 235,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

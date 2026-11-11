@@ -1,0 +1,90 @@
+{
+  "id": "world-0841",
+  "title": "Ідлі",
+  "description": "Ідлі — страва кухні країни Індія. Основні складники: рис для ідлі, урід дал, приправа самбар. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис, крупи або локшину у чистій воді приблизно на 480 хвилин залежно від продукту, потім злийте; для тіста за потреби подрібніть рис і урад.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 480,
+      "ingredients": [
+        {
+          "ingredientId": "idli-rice",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "urad-dal",
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Залиште суміш рисового тіста з бобовими нещільно накритою в чистому теплому місці на приблизно 720 хвилин до бульбашок та легкої кислинки. Час змінюється; не перегрівайте.",
+      "techniqueIds": [
+        "mixed-grain-fermentation"
+      ],
+      "durationMinutes": 720,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розлийте ферментоване тісто у злегка змащені формочки для ідлі та пропарте під кришкою до пухкої повністю готової середини, близько 14–16 хвилин.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "sambar-powder",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

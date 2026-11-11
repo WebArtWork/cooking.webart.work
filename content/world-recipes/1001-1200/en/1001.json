@@ -1,0 +1,118 @@
+{
+  "id": "world-1001",
+  "title": "Tom Yum Goong",
+  "description": "Tom Yum Goong is a dish from Thailand prepared with lemongrass, galangal, makrut lime leaves, shallot. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 15 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "makrut-lime-leaves",
+          "amount": 5,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Add the cleaned shrimp, mushrooms and tomatoes directly TO the hot aromatic soup, then simmer until shrimp turn opaque (about 4–5 minutes). Do not drain the broth.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "straw-mushroom",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Turn off heat and season with fish sauce, lime juice, chili and curry paste to balance sour, salty and spicy notes; remove tough lemongrass stalks before serving.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 70,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "thai-red-curry-paste",
+          "amount": 16,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

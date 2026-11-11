@@ -1,0 +1,118 @@
+{
+  "id": "world-1055",
+  "title": "Лакса пенанг",
+  "description": "Лакса пенанг — страва кухні країни Малайзія, яку готують із таких продуктів: скумбрія, лемонграс, галангал, м'якоть тамаринду. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Скумбрія та доступна рисова локшина замінюють окремі традиційні компоненти асам-лакси з Пенанга.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 40 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "fish-stock",
+          "amount": 1100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "mackerel",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "galangal",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tamarind-pulp",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "papaya",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,93 @@
+{
+  "id": "world-0228",
+  "title": "Паштел-де-ната",
+  "description": "Традиційна страва кухні країни Португалія. Основні інгредієнти: листкове тісто, цільне коров'яче молоко, цедра лимона, яєчний жовток. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "PT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Щільно згорніть листкове тісто рулетом, наріжте кружальцями та розтисніть кожен у маленькій формі, витончуючи тісто вгору по бортах. Охолодіть заготовки.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "puff-pastry",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 6 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ceylon-cinnamon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "lemon-zest",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наповніть формочки кремом на три чверті й випікайте при 250–270°C до хрусткості тіста й темних карамелізованих плям на поверхні; остудіть перед вийманням.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

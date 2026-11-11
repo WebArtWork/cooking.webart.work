@@ -1,0 +1,92 @@
+{
+  "id": "world-0970",
+  "title": "Самгьопсаль",
+  "description": "Самгьопсаль — страва кухні країни Південна Корея. Основні складники: свиняча грудинка, часник, зелена цибуля, гочуджан. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 920,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 115,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 20 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "gochujang",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "doenjang",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "toasted-sesame-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Складіть готові приготовлені компоненти й зазначені додатки в посуді для подавання, підтримуючи гаряче гарячим, а холодне охолодженим.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "romaine-lettuce",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "kimchi",
+          "amount": 260,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,87 @@
+{
+  "id": "world-0718",
+  "title": "Mwamba de Poulet",
+  "description": "Mwamba de Poulet is a Republic of the Congo classic prepared with chicken thigh, yellow onion, palm nut concentrate, tomato. A measured home-style version, with ingredients assigned to the cooking steps where they are used.",
+  "regionId": "central-africa",
+  "countryCode": "CG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 12 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 830,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "palm-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 50 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "palm-nut-concentrate",
+          "amount": 245,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

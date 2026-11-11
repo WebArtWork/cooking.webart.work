@@ -1,0 +1,126 @@
+{
+  "id": "world-0190",
+  "title": "Тирамісу",
+  "description": "Італійський тирамісу з домашніми бісквітними паличками й кремом із маскарпоне на пастеризованому рідкому яйці.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Збийте яйця з цукром до густої стрічки, обережно вмішайте борошно й відсадіть вузькі бісквітні палички на деко з пергаментом.",
+      "techniqueIds": [
+        "whipping-egg-foam",
+        "folding-batter",
+        "piping-batter"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Випікайте домашні бісквітні палички при 180°C приблизно 12 хвилин до стійкості й легкої золотистості; повністю остудіть.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Збийте маскарпоне з пастеризованим рідким яйцем, цукром і ваніллю до легкої гладкої маси; тримайте в холодильнику до складання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "mascarpone",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pasteurized-liquid-egg",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 3,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Приготуйте еспресо, перелийте в неглибокий посуд і повністю охолодіть перед зануренням бісквіту.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "espresso",
+          "amount": 320,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Швидко вмочайте охолоджені домашні бісквітні палички в каву й викладайте шарами з кремом; верхнім має бути крем.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Накрийте та охолоджуйте щонайменше 4 години для стабілізації крему й просочення бісквіту.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    },
+    {
+      "id": "step-7",
+      "instruction": "Рівномірно присипте какао безпосередньо перед нарізанням і подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

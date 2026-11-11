@@ -1,0 +1,91 @@
+{
+  "id": "world-0875",
+  "title": "Shorshe Ilish",
+  "description": "Shorshe Ilish is a Bangladesh dish made with mackerel, serrano pepper, cilantro. This home-scale recipe assigns measured ingredients to the steps where they are used. Mackerel replaces hilsa (ilish); mustard oil and mustard seasoning retain the intended sauce style.",
+  "regionId": "south-asia",
+  "countryCode": "BD",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 20 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "mackerel",
+          "amount": 740,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "ground-mustard",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mustard-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 200,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Arrange mustard-marinated mackerel in a heatproof dish and steam until the fish flakes easily and is thoroughly cooked; use food-grade mustard oil.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 19,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

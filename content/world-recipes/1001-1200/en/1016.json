@@ -1,0 +1,86 @@
+{
+  "id": "world-1016",
+  "title": "Mango Sticky Rice",
+  "description": "Mango Sticky Rice is a dish from Thailand prepared with glutinous rice, coconut milk, mango, white sesame seeds. This is a home-scale version with measured ingredients in the individual steps where they are used. Use glutinous sticky rice; regular jasmine rice is not a suitable substitute.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the measured rice or noodles in clean cool water for about 240 minutes, then drain and proceed to the specified cooking step.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 240,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Steam the already prepared parcels or mixture over gently boiling water for approximately 30 minutes, until fully cooked or set.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Warm coconut milk with palm sugar and salt, then pour most of it over the freshly steamed sticky rice; cover and let absorb before serving.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 390,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "mango",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

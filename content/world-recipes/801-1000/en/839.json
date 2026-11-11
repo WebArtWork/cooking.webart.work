@@ -1,0 +1,113 @@
+{
+  "id": "world-0839",
+  "title": "Rasam",
+  "description": "Rasam is a India dish made with tomato, tamarind concentrate, sambar powder, fresh curry leaves. This home-scale recipe assigns measured ingredients to the steps where they are used. Sambar powder approximates a rasam spice blend; homemade rasam podi is not cataloged.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 14 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sambar-powder",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 5 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "ghee",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mustard-seeds",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cumin-seeds",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-curry-leaves",
+          "amount": 12,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

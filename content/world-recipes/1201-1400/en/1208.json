@@ -1,0 +1,119 @@
+{
+  "id": "world-1208",
+  "title": "Sopa de Pata",
+  "description": "Sopa de Pata is a dish from El Salvador featuring beef tripe, beef shank, yellow onion, garlic. This home-sized recipe records each ingredient at the step where it is used. Beef shank replaces traditional cow feet; the gelatin-rich hoof texture will be different.",
+  "regionId": "central-america",
+  "countryCode": "SV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Simmer thoroughly cleaned tripe and beef shank in fresh water, skim repeatedly and cook until very tender; avoid handling raw offal without proper sanitation.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 130,
+      "ingredients": [
+        {
+          "ingredientId": "beef-tripe",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-shank",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 2300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 35 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plantain",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in these seasonings and additions. Taste, adjust the balance and let the dish stand briefly before serving.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

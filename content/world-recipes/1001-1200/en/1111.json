@@ -1,0 +1,75 @@
+{
+  "id": "world-1111",
+  "title": "Kelupis",
+  "description": "Kelupis is a dish from Brunei prepared with glutinous rice, coconut milk, banana leaf. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "BN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the measured rice or noodles in clean cool water for about 220 minutes, then drain and proceed to the specified cooking step.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 220,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 270,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 8,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Steam the already prepared parcels or mixture over gently boiling water for approximately 50 minutes, until fully cooked or set.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

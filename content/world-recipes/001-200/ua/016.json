@@ -1,0 +1,108 @@
+{
+  "id": "world-0016",
+  "title": "Котлета по-київськи",
+  "description": "Класична страва з Україна. Основні складники: кріп, петрушка, часник, куряча грудка. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "UA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте розм’якшене масло з подрібненою зеленню й часником, сформуйте 4 невеликі брусочки та охолодіть до твердості.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 2,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розріжте філе книжкою, відбийте тонко, загорніть усередину кожного охолоджене масло, щільно закрийте краї й охолодіть.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-breast",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запаніруйте рулетики в борошні, збитому яйці та сухарях, добре притискаючи паніровку.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "breadcrumbs",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обсмажте до золотистості, потім доведіть у духовці при 190°C до внутрішньої температури курятини 74°C.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 130,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

@@ -1,0 +1,124 @@
+{
+  "id": "world-0934",
+  "title": "Суші нігірі",
+  "description": "Суші нігірі — страва кухні країни Японія. Основні складники: рис для суші, рисовий оцет, креветка, копчений лосось. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Ніґірі з готовими креветками й копченим лососем замість сирої риби; готуйте й подавайте свіжими з дотриманням холодового режиму.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Рівномірно розподіліть рис у ароматній рідині. Готуйте приблизно 24 хвилин до вбирання рідини, не перемішуючи надмірно.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "sushi-rice",
+          "amount": 410,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 460,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно змішайте із заправкою, приправте до смаку й подавайте або трохи охолодіть за потреби.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 6 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "smoked-salmon",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Вологими руками сформуйте невеликі овали із заправленого суші-рису; покладіть зверху охолоджену готову креветку чи копченого лосося й злегка притисніть.",
+      "techniqueIds": [
+        "molding-food"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "wasabi-rhizome",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pickled-ginger",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

@@ -1,0 +1,99 @@
+{
+  "id": "world-1396",
+  "title": "Печиво АНЗАК",
+  "description": "Печиво АНЗАК — страва кухні країни Австралія з такими основними складниками: вівсяні пластівці, пшеничне борошно універсальне, кокосова стружка, харчова сода. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "oceania",
+  "countryCode": "AU",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "rolled-oats",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Прогрійте золотий сироп, масло й воду, тоді поза вогнем додайте соду до спінення; швидко з’єднайте з вівсянкою та борошном.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "golden-syrup",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-soda",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте сформовану або складену масу в розігрітій духовці приблизно 19 хвилин до готовності.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 19,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Подавайте страву за відповідної температури й прикрашайте раніше підготовленими складниками.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

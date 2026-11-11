@@ -1,0 +1,99 @@
+{
+  "id": "world-1401",
+  "title": "Hokey Pokey Ice Cream",
+  "description": "New Zealand vanilla ice cream studded with crunchy golden-syrup honeycomb. A no-churn, egg-free home version.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Line a tray with parchment. Heat caster sugar and golden syrup over medium-low heat until melted and bubbling, about 4–5 minutes; do not stir aggressively.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "golden-syrup",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Remove from heat, quickly stir in baking soda once, and immediately pour the foaming honeycomb onto parchment. Keep clear of the hot sugar.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "baking-soda",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cool the honeycomb completely for about 30 minutes, then break into pea-sized shards.",
+      "techniqueIds": [
+        "chopping"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Whip the cold cream until soft peaks form. Fold in condensed milk and vanilla without deflating the mixture.",
+      "techniqueIds": [
+        "whipping-cream",
+        "folding-in"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whipping-cream",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 7,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Fold in most of the honeycomb, reserving a little for topping. Transfer to a covered freezer container and freeze until firm, at least 6 hours.",
+      "techniqueIds": [
+        "no-churn-freezing"
+      ],
+      "durationMinutes": 360,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Let soften for 5 minutes, scoop and sprinkle with the remaining honeycomb.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

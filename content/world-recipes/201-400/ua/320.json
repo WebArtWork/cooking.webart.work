@@ -1,0 +1,103 @@
+{
+  "id": "world-0320",
+  "title": "Французький цибулевий суп",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: жовта цибуля, чебрець, лавровий лист, багет. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Тонко наріжте цибулю й повільно карамелізуйте на суміші масла й олії, часто помішуючи, до насичено-бурштинового кольору близько 35–40 хвилин.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 38,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 20 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 1300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 2,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підсмажуйте зазначені складники на середньому вогні приблизно 5 хвилин, часто перевертаючи, щоб не підгоріли.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "baguette",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 7 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "gruyere",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,96 @@
+{
+  "id": "world-1315",
+  "title": "Chivito",
+  "description": "Chivito is a dish from Uruguay featuring beef sirloin, smoked ham, chicken egg, bread roll. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "UY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 12 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "smoked-ham",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil the eggs for about 12 minutes, cool promptly in cold water, peel and prepare as required.",
+      "techniqueIds": [
+        "hard-boiling-eggs"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "bread-roll",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Grill the marinated portions from the preceding steps, turning to cook evenly and checking the safe internal temperature.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,82 @@
+{
+  "id": "world-0210",
+  "title": "Фабада астуріана",
+  "description": "Замість астурійської квасолі fabes використано доступну в каталозі білу квасолю; додано чорізо й кров’яну ковбасу.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть суху квасолю на ніч, злийте воду та варіть у свіжій до майже повної м’якості приблизно 1,5–2 години на малому вогні.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 115,
+      "ingredients": [
+        {
+          "ingredientId": "butter-beans",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте решту складників, частково накрийте й тушкуйте приблизно 35 хвилин до поєднання смаків і м’якості продуктів.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "chorizo-cured",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "blood-sausage",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bacon",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте приправи та завершальні складники. Спробуйте, збалансуйте смак і дайте страві трохи настоятися перед подаванням.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

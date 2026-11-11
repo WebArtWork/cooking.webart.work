@@ -1,0 +1,96 @@
+{
+  "id": "world-0797",
+  "title": "Буреворс",
+  "description": "Буреворс — страва кухні країни Південно-Африканська Республіка зі складниками: яловичий фарш, свинячий фарш, білий оцет, помідор. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Фарш у формі ковбаси для гриля за мотивами буреворсу, але не справжня південноафриканська ковбаса: в каталозі немає оболонок.",
+  "regionId": "southern-africa",
+  "countryCode": "ZA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-pork",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-nutmeg",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Сформуйте пряний яловичо-свинячий фарш у товсті ковбасні спіралі або котлети; без оболонок це не традиційний буреворс.",
+      "techniqueIds": [
+        "rolling-into-logs"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 23 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 23,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 220,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

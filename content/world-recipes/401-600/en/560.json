@@ -1,0 +1,96 @@
+{
+  "id": "world-0560",
+  "title": "Uzbek Plov",
+  "description": "A traditional dish from Uzbekistan, centered on lamb, yellow onion, carrot, garlic. A measured home-kitchen version organized by cooking step. Uzbek plov adapted with basmati rice; traditional regional devzira rice is unavailable in the catalog.",
+  "regionId": "central-asia",
+  "countryCode": "UZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Pat the main ingredients dry. Brown in a hot heavy pan in batches for about 14 minutes, turning to color all sides.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the julienned carrots with the lamb, onion, cumin and garlic to form the richly flavored plov base called zirvak.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cumin-seeds",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Rinse rice thoroughly and spread over the zirvak in a level layer without stirring; add measured hot water and cook until absorbed.",
+      "techniqueIds": [
+        "pilaf-method"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Take off the heat and let the rice rest under a clean towel or lid for about 15 minutes before serving.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

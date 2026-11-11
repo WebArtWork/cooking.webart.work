@@ -1,0 +1,102 @@
+{
+  "id": "world-1211",
+  "title": "Nacatamales",
+  "description": "Nacatamales is a dish from Nicaragua featuring masa harina, pork shoulder, potato, carrot. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "central-america",
+  "countryCode": "NI",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the corn flour with the measured water and salt until a soft cohesive, non-sticky masa forms. Rest covered for about 10 minutes; this gluten-free dough does not become elastic like wheat dough.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the remaining ingredients, cover partly and stew gently for about 33 minutes until the flavors meld and everything is tender.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 33,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 520,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 10,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fold the food-safe banana leaves snugly around each masa-filled nacatamal, tie securely, then steam thoroughly until the masa is set and meat is fully cooked.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 115,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

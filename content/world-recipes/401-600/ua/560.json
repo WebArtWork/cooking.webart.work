@@ -1,0 +1,96 @@
+{
+  "id": "world-0560",
+  "title": "Узбецький плов",
+  "description": "Традиційна страва кухні країни Узбекистан. Основні складники: ягнятина, жовта цибуля, морква, часник. Домашній варіант із кількостями продуктів за етапами приготування. Узбецький плов адаптовано під басматі, оскільки традиційного рису девзіра немає в каталозі.",
+  "regionId": "central-asia",
+  "countryCode": "UZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 14 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 110,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте нарізану соломкою моркву з бараниною, цибулею, зірою й часником до утворення ароматної основи плову — зірваку.",
+      "techniqueIds": [
+        "stewing"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "carrot",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cumin-seeds",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 2,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Добре промийте рис і розкладіть рівним шаром поверх зірваку, не перемішуючи; долийте відміряну гарячу воду та готуйте до її поглинання.",
+      "techniqueIds": [
+        "pilaf-method"
+      ],
+      "durationMinutes": 27,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 530,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зніміть із вогню та дайте рису відпочити під чистим рушником або кришкою приблизно 15 хвилин перед подаванням.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

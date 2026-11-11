@@ -1,0 +1,44 @@
+{
+  "recipeCount": 200,
+  "locales": [
+    "en",
+    "ua"
+  ],
+  "firstRecipeId": "world-0001",
+  "lastRecipeId": "world-0200",
+  "stepsCount": 853,
+  "ingredientLinks": 1963,
+  "countries": {
+    "UA": 30,
+    "PL": 18,
+    "CZ": 11,
+    "SK": 6,
+    "HU": 12,
+    "RO": 10,
+    "MD": 7,
+    "BY": 6,
+    "LT": 6,
+    "LV": 5,
+    "EE": 5,
+    "RU": 11,
+    "GE": 12,
+    "AM": 8,
+    "AZ": 8,
+    "SM": 2,
+    "IT": 38,
+    "AD": 3,
+    "ES": 2
+  },
+  "regionIds": [
+    "eastern-europe",
+    "southern-europe"
+  ],
+  "sourceCatalogs": [
+    "cooking_ingredients_en_ua_1599(2).zip",
+    "cooking_techniques_en_ua_508.zip"
+  ],
+  "notes": [
+    "Country-region IDs inferred from supplied title list. Replace with official REGIONS IDs if they differ.",
+    "Steps are home-kitchen editorial interpretations of classic dishes and should be recipe-tested before public release."
+  ]
+}

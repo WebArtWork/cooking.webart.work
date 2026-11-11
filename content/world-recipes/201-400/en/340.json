@@ -1,0 +1,117 @@
+{
+  "id": "world-0340",
+  "title": "Sauerbraten",
+  "description": "A traditional Germany dish made with beef round, red wine vinegar, yellow onion, carrot. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Marinate the beef submerged in the vinegar-wine-spice mixture in the refrigerator for 2–4 days, turning daily. Remove, dry and reserve the marinade.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": [
+        {
+          "ingredientId": "beef-round",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-red-wine",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "red-wine-vinegar",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 3,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 12 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the braising liquid and seasonings, cover and cook gently for about 150 minutes until the meat is tender and safely cooked.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rye-bread",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

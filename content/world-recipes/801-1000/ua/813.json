@@ -1,0 +1,68 @@
+{
+  "id": "world-0813",
+  "title": "Кондоволе",
+  "description": "Кондоволе — страва кухні країни Малаві. Основні складники: борошно маніоку, арахісова паста для рагу. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Використовуйте тільки оброблене маніокове борошно; не вживайте неправильно підготовлений сирий маніок.",
+  "regionId": "southern-africa",
+  "countryCode": "MW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Використовуйте лише промислово знешкоджене маніокове борошно. Поступово додавайте його в гарячу воду й вимішуйте густу еластичну масу, не беріть сирий маніок.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 720,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Злийте воду з готових продуктів і протягом приблизно 8 хвилин товчіть або розминайте теплими до густої гладкої еластичної маси; сформуйте порції вологими руками чи ложкою.",
+      "techniqueIds": [
+        "mashing",
+        "pounding"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 140,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-stew-paste",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

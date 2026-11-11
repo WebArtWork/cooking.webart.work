@@ -1,0 +1,53 @@
+{
+  "recipeCount": 200,
+  "locales": [
+    "en",
+    "ua"
+  ],
+  "firstRecipeId": "world-0201",
+  "lastRecipeId": "world-0400",
+  "localizedRecords": 400,
+  "stepCount": 742,
+  "ingredientLinks": 1762,
+  "countries": {
+    "ES": 18,
+    "PT": 11,
+    "GR": 21,
+    "CY": 6,
+    "MT": 6,
+    "HR": 8,
+    "SI": 6,
+    "BA": 6,
+    "RS": 7,
+    "ME": 4,
+    "MK": 4,
+    "AL": 5,
+    "XK": 3,
+    "BG": 7,
+    "MC": 3,
+    "FR": 24,
+    "DE": 16,
+    "AT": 8,
+    "LI": 3,
+    "CH": 7,
+    "BE": 7,
+    "NL": 8,
+    "LU": 4,
+    "GB": 8
+  },
+  "regionIds": [
+    "western-and-northern-europe",
+    "southern-europe"
+  ],
+  "sourceCatalogs": [
+    "cooking_ingredients_en_ua_1599(2).zip",
+    "cooking_techniques_en_ua_508.zip"
+  ],
+  "notes": [
+    "REGIONS ids are provisional from the user’s dish title list and need mapping to application constants.",
+    "One record per language shares the same id: do not import as separate recipes into a single unlocalized collection.",
+    "Kosovo is represented with XK, a commonly used user-assigned code, not an officially assigned ISO 3166-1 alpha-2 code; map or exclude based on your REGIONS/country list.",
+    "Kitchen testing and editorial verification are still required; some specialties have documented ingredient substitutions.",
+    "Bilingual step instructions and measurements are provided; hot-oil and raw-protein food-safety precautions should be reviewed before publication."
+  ]
+}

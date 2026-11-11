@@ -1,0 +1,96 @@
+{
+  "id": "world-1169",
+  "title": "Tamales",
+  "description": "Tamales is a dish from Mexico prepared with masa harina, baking powder, ground pork, red salsa. This is a home-scale version with measured ingredients in the individual steps where they are used. Banana leaves substitute for dried corn husks; banana-leaf tamales are authentic in various southern Mexican traditions.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 570,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 10 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-salsa",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Place a portion of prepared filling on each leaf or wrapper, tuck in the sides and roll tightly into neat parcels.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 16,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spoon masa and cooked pork filling onto clean banana leaves, fold into sealed parcels and steam until the masa sets completely and lifts from the leaf.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 70,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

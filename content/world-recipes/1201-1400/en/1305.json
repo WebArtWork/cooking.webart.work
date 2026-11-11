@@ -1,0 +1,86 @@
+{
+  "id": "world-1305",
+  "title": "Asado",
+  "description": "Asado is a dish from Argentina featuring beef short ribs, pork ribs, fresh pork sausage, beef ribeye. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "AR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 70 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "beef-short-ribs",
+          "amount": 1050,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-ribs",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 13,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Grill over medium-high heat for about 65 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "fresh-pork-sausage",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "beef-ribeye",
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Rest the cooked meat loosely covered for about 13 minutes before slicing to retain juices.",
+      "techniqueIds": [
+        "carryover-cooking"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "chimichurri",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 240,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

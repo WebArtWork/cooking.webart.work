@@ -1,0 +1,102 @@
+{
+  "id": "world-1274",
+  "title": "Saltfish and Chop-Up",
+  "description": "Saltfish and Chop-Up is a dish from Antigua and Barbuda featuring salt cod, spinach, pumpkin, okra. This home-sized recipe records each ingredient at the step where it is used. Cooked spinach stands in for chopped local leafy greens; salt cod must be properly desalinated.",
+  "regionId": "caribbean",
+  "countryCode": "AG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak salt cod in cold water in the refrigerator for about 24 hours, changing the water several times. Drain before simmering; never soak salted fish at room temperature.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently cook the prepared contents in the simmering liquid from earlier steps until fully cooked and safe to eat.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Flake the thoroughly cooked, desalted cod with a fork; remove every bone and keep the fish ready for the mixture.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 11 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

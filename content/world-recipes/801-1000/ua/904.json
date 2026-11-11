@@ -1,0 +1,132 @@
+{
+  "id": "world-0904",
+  "title": "Качка по-пекінськи",
+  "description": "Качка по-пекінськи — страва кухні країни Китай. Основні складники: ціла качка, рисовий оцет, соус хойсин, світлий соєвий соус. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Пекінська качка в домашній духовці з коржиками, а не ресторанний спосіб обдування й запікання.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 720 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "whole-duck",
+          "amount": 2.2,
+          "unit": "kg"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chinese-five-spice",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Після безпечного підсушування глазурованої качки в холодильнику запечіть її на решітці, перевірте температуру в найтовстішому м’ясі, дайте відпочити перед нарізанням.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 130,
+      "ingredients": [
+        {
+          "ingredientId": "honey",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rice-vinegar",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 8 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "hoisin-sauce",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наливайте тонкий шар тіста на злегка змащену розігріту сковороду. Обсмажуйте з обох боків, приблизно 18 хвилин на партію, щоб отримати еластичні млинці.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 235,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

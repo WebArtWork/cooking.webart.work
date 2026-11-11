@@ -1,0 +1,85 @@
+{
+  "id": "world-1410",
+  "title": "Panikeke",
+  "description": "Panikeke are Samoan small round fried doughnuts; this is a straightforward sweet batter version.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk flour, sugar, baking powder and salt in a bowl.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Pour in water and vanilla; mix to a thick sticky batter. Let stand 10 minutes.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 275,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat frying oil to 170–175°C in a deep, stable pan. Carefully drop small spoonfuls of batter in batches; fry 4–5 minutes, turning, until deeply golden and cooked in the centre.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Drain on a rack or paper, cool slightly, and serve warm.",
+      "techniqueIds": [
+        "draining"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

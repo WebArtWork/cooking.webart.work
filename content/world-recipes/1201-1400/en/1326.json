@@ -1,0 +1,79 @@
+{
+  "id": "world-1326",
+  "title": "Leche Asada",
+  "description": "Leche Asada is a dish from Chile featuring chicken egg, whole cow milk, evaporated milk. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "CL",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat the listed ingredients over moderate heat, stirring only as needed, for about 9 minutes until amber and fragrant.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 740,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "evaporated-milk",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 6,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake the egg custard gently in a water bath at about 160°C until set with a slight wobble; refrigerate before serving.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 58,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Refrigerate the prepared mixture for about 150 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

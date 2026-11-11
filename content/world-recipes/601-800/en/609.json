@@ -1,0 +1,96 @@
+{
+  "id": "world-0609",
+  "title": "Baghrir",
+  "description": "Baghrir is a Morocco classic prepared with semolina flour, all-purpose flour, instant yeast, baking powder. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Baghrir requires a light airy semolina batter and one-sided cooking; this is a homemade yeast version.",
+  "regionId": "north-africa",
+  "countryCode": "MA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "semolina-flour",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cover the batter loosely and leave in a suitable warm, clean place for about 40 minutes to become bubbly and lightly tangy; do not refrigerate during active fermentation.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Pour small rounds of bubbly batter into a medium-hot nonstick pan; cook baghrir on ONE side only until many holes appear and the surface is dry.",
+      "techniqueIds": [
+        "griddle-cooking"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 12,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

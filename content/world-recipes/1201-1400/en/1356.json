@@ -1,0 +1,91 @@
+{
+  "id": "world-1356",
+  "title": "Ceviche de Camarón",
+  "description": "Ceviche de Camarón is a dish from Ecuador featuring shrimp, lime juice, orange juice, tomato. This home-sized recipe records each ingredient at the step where it is used. Shrimp are fully heat-cooked before citrus dressing for safety; regional versions vary.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Fully cook shrimp until opaque and pearly, then chill promptly; citrus juice is not a replacement for cooking.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 690,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 135,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Refrigerate the prepared mixture for about 30 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "cilantro",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 8,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,80 @@
+{
+  "id": "world-0471",
+  "title": "Пахлава по-турецьки",
+  "description": "Традиційна страва кухні країни Туреччина. Основні складники: тісто філо, фісташка, лимонний сік. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "TR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Викладіть підготовлені компоненти рівними шарами у формі, розподіляючи начинку до країв.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 22,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pistachio",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Випікайте в розігрітій до 180°C духовці приблизно 42 хвилин до рум’яності та повної готовності. Остудіть на решітці.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 42,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Полийте охолоджену хрустку пахлаву теплим сиропом або гарячу пахлаву холодним сиропом; дайте просочитися, не перезволожуючи.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

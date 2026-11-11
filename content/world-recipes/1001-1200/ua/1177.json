@@ -1,0 +1,107 @@
+{
+  "id": "world-1177",
+  "title": "Агуачіле",
+  "description": "Агуачіле — страва кухні країни Мексика, яку готують із таких продуктів: креветка, сік лайма, перець серрано, кінза. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Повністю термічно приготовані креветки замість сирого агуачіле; лайм сам по собі не гарантує знищення патогенів.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть креветки до повної непрозорості, швидко охолодіть під холодною водою й поставте в холодильник. Лайм сам по собі не робить сирі креветки гарантовано безпечними.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "serrano-pepper",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "cucumber",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 25 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "avocado",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

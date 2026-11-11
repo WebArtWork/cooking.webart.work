@@ -1,0 +1,91 @@
+{
+  "id": "world-1040",
+  "title": "Сате з козлятини",
+  "description": "Сате з козлятини — страва кухні країни Індонезія, яку готують із таких продуктів: козлятина, солодкий соєвий соус кечап маніс, часник, сік лайма. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "ID",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 70 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "goat-meat",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-soy-sauce-kecap-manis",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-coriander",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нанизайте раніше замариновані шматочки на шпажки з невеликими проміжками для рівного прогрівання.",
+      "techniqueIds": [
+        "threading-skewers"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 20 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "shallot",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

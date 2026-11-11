@@ -1,0 +1,94 @@
+{
+  "id": "world-0265",
+  "title": "Чорне ризото",
+  "description": "Наближений варіант далматинського чорного ризото з чорним рисом і кальмаром; для справжнього крні-ріжоту потрібне чорнило каракатиці, якого немає в каталозі.",
+  "regionId": "southern-europe",
+  "countryCode": "HR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "squid",
+          "amount": 560,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 50,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "tomato-paste",
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте чорний рис у гарячому рибному бульйоні з вином до м’якості та кремовості, регулярно помішуючи; темний колір утвориться без традиційного чорнила каракатиці.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 32,
+      "ingredients": [
+        {
+          "ingredientId": "black-rice",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-stock",
+          "amount": 850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parmigiano-reggiano",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

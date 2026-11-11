@@ -1,0 +1,103 @@
+{
+  "id": "world-1323",
+  "title": "Curanto",
+  "description": "Curanto is a dish from Chile featuring yellow onion, garlic, potato, chicken thigh. This home-sized recipe records each ingredient at the step where it is used. A lidded home steamer replaces the traditional hot-stone earth oven for curanto.",
+  "regionId": "south-america",
+  "countryCode": "CL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine these ingredients in a pot, bring just to a boil and skim any foam. Simmer gently for about 45 minutes to make a flavorful base.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 700,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Steam chicken and potatoes covered until the poultry reaches at least 74°C; only then add delicate shellfish in the next stage.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 580,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add scrubbed mussels, clams and shrimp to the hot steamer; cook only until shrimp are opaque and shells open. Discard unopened shells.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "green-lipped-mussel",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "clam",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shrimp",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 28,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

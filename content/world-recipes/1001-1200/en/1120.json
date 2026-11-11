@@ -1,0 +1,76 @@
+{
+  "id": "world-1120",
+  "title": "Texas Beef Brisket",
+  "description": "Texas Beef Brisket is a dish from United States prepared with beef brisket, apple cider vinegar. This is a home-scale version with measured ingredients in the individual steps where they are used. Home slow-roasted brisket without a smoker; Texas smoked brisket requires smoke and temperature control.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 180 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "beef-brisket",
+          "amount": 1800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast the foil-covered brisket low and slow at about 115–125°C for 7–9 hours, until probe-tender (often around 92–96°C inside); rest well before slicing. Do not use 190°C.",
+      "techniqueIds": [
+        "low-and-slow-cooking"
+      ],
+      "durationMinutes": 450,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Let the cooked rice rest, covered, for about 50 minutes, then fluff and serve.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

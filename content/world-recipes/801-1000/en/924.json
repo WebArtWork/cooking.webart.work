@@ -1,0 +1,143 @@
+{
+  "id": "world-0924",
+  "title": "Sichuan Fish in Chili Oil",
+  "description": "Sichuan Fish in Chili Oil is a China dish made with tilapia, cornstarch, doubanjiang, garlic. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 20 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-white-pepper",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 12 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "doubanjiang",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 85,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-arbol-chilies",
+          "amount": 9,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add the listed ingredients to the pot. Keep at a gentle simmer for about 12 minutes, until tender and cooked through.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 900,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "napa-cabbage",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 9 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 9,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cook the listed sauce ingredients over medium-low heat for about 4 minutes until aromatic and slightly thickened.",
+      "techniqueIds": [
+        "sauteing",
+        "reducing-sauce"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "sichuan-peppercorn",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chili-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

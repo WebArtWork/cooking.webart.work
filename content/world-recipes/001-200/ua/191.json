@@ -1,0 +1,79 @@
+{
+  "id": "world-0191",
+  "title": "Пана-кота",
+  "description": "Класична страва з Італія. Основні складники: вершки високої жирності, цільне коров'яче молоко, малина. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 7 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте желювальні складники за інструкцією, змішайте з основою та охолоджуйте приблизно 240 хвилин до повного застигання.",
+      "techniqueIds": [
+        "gelatin-setting",
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": [
+        {
+          "ingredientId": "gelatin-powder",
+          "amount": 11,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "raspberry",
+          "amount": 230,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

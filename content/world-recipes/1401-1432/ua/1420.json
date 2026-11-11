@@ -1,0 +1,94 @@
+{
+  "id": "world-1420",
+  "title": "Пудинг із маніоку",
+  "description": "Вологий маніоково-кокосовий пудинг за мотивами кухні Соломонових Островів, запечений до щільної текстури.",
+  "regionId": "oceania",
+  "countryCode": "SB",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 180°C і злегка змастіть середню форму для запікання.",
+      "techniqueIds": [
+        "preheating"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Змішайте маніокове борошно, кокосовий цукор і сіль. Додайте кокосову стружку.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Умішайте кокосове молоко й воду до гладкої, досить густої, але текучої маси.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Перелийте у форму й випікайте 45–55 хвилин, доки середина перестане бути рідкою, а верх стане золотистим.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Дайте охолонути не менше 20 хвилин, щоб маса схопилася, тоді наріжте квадратами.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

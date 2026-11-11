@@ -1,0 +1,65 @@
+{
+  "id": "world-0323",
+  "title": "Confit de Canard",
+  "description": "A traditional method for duck confit, with curing and slow cooking immersed in duck fat; maintain safe refrigeration.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 720 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "duck-leg",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 32,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 5,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Submerge the cured, rinsed duck legs in duck fat and cook gently at 110–120°C for about 2¾ hours until the meat is very tender; do not boil the fat.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 165,
+      "ingredients": [
+        {
+          "ingredientId": "duck-fat",
+          "amount": 950,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Roast in a preheated 190°C oven for about 12 minutes until nicely browned and fully cooked; turn once if needed.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

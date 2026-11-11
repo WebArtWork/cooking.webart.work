@@ -1,0 +1,143 @@
+{
+  "id": "world-0998",
+  "title": "Пад тай",
+  "description": "Пад тай — страва кухні країни Таїланд. Основні складники: рисова локшина, концентрат тамаринду, рибний соус, креветка. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Підсмажте арахіс перед подаванням; креветки й яйця доведіть до повної готовності.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис, крупи або локшину у чистій воді приблизно на 18 хвилин залежно від продукту, потім злийте; для тіста за потреби подрібніть рис і урад.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "rice-noodles",
+          "amount": 370,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "tamarind-concentrate",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 9 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 330,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tofu-firm",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "peanut-oil",
+          "amount": 55,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Швидко смажте замочену локшину в тамариндовому соусі з готовими креветками, тофу, яйцем і паростками, доки соус не вбереться.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "bean-sprouts",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chives",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

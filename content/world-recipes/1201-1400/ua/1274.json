@@ -1,0 +1,102 @@
+{
+  "id": "world-1274",
+  "title": "Солона риба з овочами",
+  "description": "Солона риба з овочами — страва кухні країни Антигуа і Барбуда з такими основними складниками: солона тріска, шпинат, гарбуз, бамія. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Приготований шпинат замінює місцеву зелень; солону тріску необхідно правильно вимочити.",
+  "regionId": "caribbean",
+  "countryCode": "AG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимочуйте солону тріску в холодній воді в холодильнику близько доби, кілька разів змінюючи воду. Злийте перед варінням; не вимочуйте рибу за кімнатної температури.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 540,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1500,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обережно доведіть підготовлені продукти до повної готовності в гарячій рідині з попередніх етапів.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розберіть повністю приготовану вимочену тріску виделкою на дрібні шматочки, видаліть усі кістки й залиште рибу для суміші.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 11 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "okra",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

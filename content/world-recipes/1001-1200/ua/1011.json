@@ -1,0 +1,107 @@
+{
+  "id": "world-1011",
+  "title": "Ларб",
+  "description": "Ларб — страва кухні країни Таїланд, яку готують із таких продуктів: курячий фарш, рибний соус, сік лайма, цибуля шалот. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть основні продукти. Обсмажуйте їх порціями на добре розігрітій важкій сковороді приблизно 9 хвилин, перевертаючи для рівної скоринки.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "ground-chicken",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підсмажте сухий клейкий рис до золотистості й подрібніть на грубу крихту; саме вона створює характерну горіхову текстуру ларбу.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "mint",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

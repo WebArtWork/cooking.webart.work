@@ -1,0 +1,88 @@
+{
+  "id": "world-1405",
+  "title": "Rourou",
+  "description": "Fijian rourou is traditionally taro leaves simmered in coconut milk. This catalog adaptation uses spinach because edible taro leaves are absent.",
+  "regionId": "oceania",
+  "countryCode": "FJ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Finely chop onion and garlic and sauté in coconut oil until translucent.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Wash spinach thoroughly, chop roughly, and add it to the pan; stir until wilted.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 450,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Pour in coconut milk, season with salt, and simmer gently 15–20 minutes to soften the greens and thicken the sauce.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with a little lime juice and serve with cooked taro or rice.",
+      "techniqueIds": [
+        "finishing-with-acid"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

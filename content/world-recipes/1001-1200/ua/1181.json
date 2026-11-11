@@ -1,0 +1,87 @@
+{
+  "id": "world-1181",
+  "title": "Елоте",
+  "description": "Елоте — страва кухні країни Мексика, яку готують із таких продуктів: солодка кукурудза, майонез, сметана, сік лайма. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 18 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-corn",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chili-powder",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно перемішайте підготовлену заправку з овочами або готовими продуктами до рівномірного покриття.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cotija-cheese",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,99 @@
+{
+  "id": "world-1063",
+  "title": "Kuih Seri Muka",
+  "description": "Kuih Seri Muka is a dish from Malaysia prepared with glutinous rice, coconut milk, chicken egg, pandan leaves. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "MY",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the measured rice or noodles in clean cool water for about 220 minutes, then drain and proceed to the specified cooking step.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 220,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 850,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Steam the prepared ingredients in a covered steamer for about 25 minutes, until fully set or cooked; use food-safe leaves and ensure any protein reaches a safe temperature.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 145,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pandan-leaves",
+          "amount": 3,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pour the strained pandan-coconut egg custard over the already steamed sticky-rice layer and steam gently until fully set.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Refrigerate the prepared mixture for about 90 minutes, cooling perishable foods promptly and never holding cooked rice warm at room temperature.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,82 @@
+{
+  "id": "world-0448",
+  "title": "Копчена баранина",
+  "description": "Традиційна страва кухні країни Ісландія. Основні складники: ягнятина, копчена сіль, картопля, заморожений зелений горошок. Домашній варіант із кількостями продуктів за етапами приготування. Свіжа баранина з копченою сіллю замінює традиційну ісландську копчену баранину, якої немає в каталозі.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "IS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Пошируйте зазначені продукти в рідині без бурхливого кипіння приблизно 55 хвилин до готовності й м’якості.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 55,
+      "ingredients": [
+        {
+          "ingredientId": "lamb",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-salt",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1300,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть зазначені складники у воді приблизно 24 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 700,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 30 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "frozen-green-peas",
+          "amount": 280,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

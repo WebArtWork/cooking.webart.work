@@ -1,0 +1,98 @@
+{
+  "id": "world-0476",
+  "title": "Фатуш",
+  "description": "Традиційна страва кухні країни Ліван. Основні складники: помідор, огірок, редиска, салат латук. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "LB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "radish",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підсмажуйте зазначені складники на середньому вогні приблизно 5 хвилин, часто перевертаючи, щоб не підгоріли.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pita-bread",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно змішайте із заправкою, приправте до смаку й подавайте або трохи охолодіть за потреби.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 55,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sumac",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pomegranate-molasses",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

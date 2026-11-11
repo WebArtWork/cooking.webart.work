@@ -1,0 +1,100 @@
+{
+  "id": "world-0157",
+  "title": "Torta Tre Monti",
+  "description": "A home-oven approximation of layered chocolate-hazelnut wafer cake using freshly baked thin crisp sheets, as ready-made wafers are absent from the catalog.",
+  "regionId": "southern-europe",
+  "countryCode": "SM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk the flour, eggs, sugar, milk and melted butter into a smooth thin wafer batter.",
+      "techniqueIds": [
+        "mixing",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 70,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Spread into very thin rectangular sheets on lined trays and bake each at 180°C until dry and crisp, about 5–7 minutes per sheet. Cool without stacking.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Melt chocolate with cream, blend in finely ground hazelnuts and cool until spreadable.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "dark-chocolate",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 170,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "hazelnut",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spread thin layers of chocolate-hazelnut cream between crisp homemade wafer sheets; finish with a top coating and press lightly.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Refrigerate only until firm enough to slice; keep finished cake cool and dry to preserve its wafer layers.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

@@ -1,0 +1,86 @@
+{
+  "id": "world-0505",
+  "title": "Кнафе по-наблуськи",
+  "description": "Традиційна страва кухні країни Палестина. Основні складники: тісто філо, моцарела, фісташка. Домашній варіант із кількостями продуктів за етапами приготування. Десерт у стилі наблуського кнафе із філо та моцарелою замість традиційного катаїфі й сиру набулсі, відсутніх у каталозі.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "PS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте філо тонко й викладіть у змащену форму навколо шару сиру; це заміна відсутнього катаїфі.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 420,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 28 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 28,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 12 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 270,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rose-water",
+          "amount": 17,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

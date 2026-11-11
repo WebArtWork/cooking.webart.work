@@ -1,0 +1,70 @@
+{
+  "id": "world-1302",
+  "title": "Бригадейру",
+  "description": "Бригадейру — страва кухні країни Бразилія з такими основними складниками: згущене молоко з цукром. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Звичайна кондитерська посипка замінює традиційну шоколадну вермішель.",
+  "regionId": "south-america",
+  "countryCode": "BR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Уварюйте рідину з приправами без кришки приблизно 14 хвилин до насичення та загустіння.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 50 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Скачайте охолоджену шоколадну масу в невеликі кульки й обкачайте в харчовій кондитерській посипці без повторного нагрівання.",
+      "techniqueIds": [
+        "standard-breading"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "sprinkles",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

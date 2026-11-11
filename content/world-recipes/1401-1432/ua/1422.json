@@ -1,0 +1,93 @@
+{
+  "id": "world-1422",
+  "title": "Те іка мата",
+  "description": "Рибний салат по-кірибатійськи з лаймом та кокосом. Домашня версія використовує повністю приготовлену рибу замість традиційного маринування сирої.",
+  "regionId": "oceania",
+  "countryCode": "KI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Припустіть рибу в ледь киплячій воді до температури 63°C у найтовщій частині, після чого швидко охолодіть у накритому неглибокому посуді.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте охолоджену готову рибу кубиками й змішайте з соком лайма; поставте в холодильник на 10 хвилин.",
+      "techniqueIds": [
+        "dicing",
+        "acid-marination"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 90,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Тонко наріжте цибулю, помідор і огірок. Обережно змішайте з рибою.",
+      "techniqueIds": [
+        "slicing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте кокосові вершки й сіль. Тримайте в холодильнику та подавайте охолодженим.",
+      "techniqueIds": [
+        "folding-in"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

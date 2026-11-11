@@ -1,0 +1,76 @@
+{
+  "id": "world-1120",
+  "title": "Техаський яловичий брискет",
+  "description": "Техаський яловичий брискет — страва кухні країни Сполучені Штати Америки, яку готують із таких продуктів: яловича грудинка, яблучний оцет. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Домашній брискет повільно запікають без коптильні; техаський потребує диму й контролю температури.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 180 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "beef-brisket",
+          "amount": 1800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Повільно запікайте брискет під фольгою при близько 115–125°C протягом 7–9 годин до м’якості для щупа (часто близько 92–96°C усередині); добре витримайте перед нарізанням. Не запікайте при 190°C.",
+      "techniqueIds": [
+        "low-and-slow-cooking"
+      ],
+      "durationMinutes": 450,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Залиште готовий рис під кришкою на близько 50 хвилин, тоді розпушіть і подавайте.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

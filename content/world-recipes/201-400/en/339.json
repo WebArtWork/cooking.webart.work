@@ -1,0 +1,95 @@
+{
+  "id": "world-0339",
+  "title": "Macarons",
+  "description": "A traditional France dish made with almond flour, pasteurized egg whites. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Sift almond flour with powdered sugar. Whip pasteurized egg whites with granulated sugar into a stable meringue and fold until it flows in thick ribbons.",
+      "techniqueIds": [
+        "whipping-egg-foam",
+        "folding-batter"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "almond-flour",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 175,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Pipe uniform circles onto parchment and tap the tray to remove bubbles.",
+      "techniqueIds": [
+        "piping-batter"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Rest the piped shells for 30–40 minutes until a dry skin forms and a fingertip no longer sticks.",
+      "techniqueIds": [
+        "air-drying"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the shells at 145–155°C for about 15 minutes; let cool fully before removing from the tray.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cream butter with vanilla and powdered sugar, fill the cooled shells and sandwich pairs together. Refrigerate overnight for the proper texture.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,77 @@
+{
+  "id": "world-1417",
+  "title": "Laplap",
+  "description": "Vanuatu laplap is traditionally grated tuber and coconut cream baked in banana leaves beneath hot stones; this is a home-oven taro version.",
+  "regionId": "oceania",
+  "countryCode": "VU",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel edible taro, cut into chunks and boil in water until completely tender, 25–35 minutes; drain well. Never use wild taro.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mash cooked taro thoroughly. Stir in coconut cream and salt to make a thick, spreadable mass.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soften banana leaves with steam, then use them to line a baking dish. Spread in the taro mixture and fold leaves over the top.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake covered at 180°C for 35–40 minutes until steaming hot and cohesive. Rest 10 minutes before slicing.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

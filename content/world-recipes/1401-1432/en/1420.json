@@ -1,0 +1,94 @@
+{
+  "id": "world-1420",
+  "title": "Cassava Pudding",
+  "description": "A Solomon Islands-style moist cassava-and-coconut pudding baked until firm.",
+  "regionId": "oceania",
+  "countryCode": "SB",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Preheat oven to 180°C and lightly oil a medium baking dish.",
+      "techniqueIds": [
+        "preheating"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 15,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine cassava flour, coconut sugar and salt. Stir in desiccated coconut.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-flour",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Mix in coconut milk and water until smooth and pourable but fairly thick.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pour into the dish and bake 45–55 minutes until the centre is no longer runny and the top is golden.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cool at least 20 minutes to set before cutting into squares.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,94 @@
+{
+  "id": "world-1115",
+  "title": "New York Pizza",
+  "description": "New York Pizza is a dish from United States prepared with bread flour, instant yeast, tomato passata, mozzarella. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix and knead into a supple yeast dough. Cover and leave in a warm place until roughly doubled, about 90 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "bread-flour",
+          "amount": 570,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 11,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "olive-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Shape, press or roll the prepared dough or mixture into portions appropriate to this dish.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tomato-passata",
+          "amount": 310,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mozzarella",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-oregano",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake the already topped dough in a fully preheated 230–250°C oven until the base is crisp and toppings are cooked.",
+      "techniqueIds": [
+        "high-temperature-roasting",
+        "baking"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

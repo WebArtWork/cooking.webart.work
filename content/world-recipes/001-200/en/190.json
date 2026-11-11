@@ -1,0 +1,126 @@
+{
+  "id": "world-0190",
+  "title": "Tiramisu",
+  "description": "An Italian tiramisu prepared with homemade sponge fingers and a mascarpone cream made with pasteurized liquid egg.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whip the eggs and sugar to a thick ribbon, then gently fold in the flour. Pipe narrow sponge fingers onto a parchment-lined tray.",
+      "techniqueIds": [
+        "whipping-egg-foam",
+        "folding-batter",
+        "piping-batter"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 90,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Bake the homemade sponge fingers at 180°C until firm and lightly golden, about 12 minutes; cool completely.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Whip mascarpone with pasteurized liquid egg, sugar and vanilla to a light, smooth cream; keep refrigerated until assembly.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "mascarpone",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pasteurized-liquid-egg",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 3,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Brew espresso, pour into a shallow dish and cool completely before dipping the sponge fingers.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "espresso",
+          "amount": 320,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Quickly dip the cooled homemade sponge fingers into coffee; layer with mascarpone cream in a dish, repeating and finishing with cream.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Cover and refrigerate for at least 4 hours to set the cream and soften the sponge fingers.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    },
+    {
+      "id": "step-7",
+      "instruction": "Dust evenly with cocoa just before slicing and serving.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

@@ -1,0 +1,71 @@
+{
+  "id": "world-1432",
+  "title": "Таро з кокосовими вершками",
+  "description": "Варене таро з кокосовими вершками у стилі Федеративних Штатів Мікронезії — проста острівна основна страва.",
+  "regionId": "oceania",
+  "countryCode": "FM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть придбане харчове таро й наріжте однаковими шматками; промийте від поверхневого крохмалю.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть таро у чистій воді 30–40 хвилин до повної м’якості; злийте воду.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно нагрійте кокосові вершки з невеликою дрібкою солі, помішуючи, щоб не розшарувалися.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Полийте готове таро теплими кокосовими вершками й одразу подавайте.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

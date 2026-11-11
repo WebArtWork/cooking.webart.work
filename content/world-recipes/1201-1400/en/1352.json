@@ -1,0 +1,85 @@
+{
+  "id": "world-1352",
+  "title": "Hornado",
+  "description": "Hornado is a dish from Ecuador featuring pork leg, garlic, potato, red onion. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "south-america",
+  "countryCode": "EC",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 90 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "pork-leg",
+          "amount": 1350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-beer",
+          "amount": 270,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast the already seasoned food in a preheated oven until tender and safely cooked, using a thermometer for meat or poultry.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 175,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill the marinated portions from the preceding steps, turning to cook evenly and checking the safe internal temperature.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

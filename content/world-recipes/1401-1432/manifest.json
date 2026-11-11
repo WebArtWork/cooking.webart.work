@@ -1,0 +1,253 @@
+{
+  "recipeCount": 32,
+  "locales": [
+    "en",
+    "ua"
+  ],
+  "localizedRecords": 64,
+  "firstRecipeId": "world-1401",
+  "lastRecipeId": "world-1432",
+  "stepCount": 145,
+  "ingredientLinks": 228,
+  "countries": {
+    "NZ": 2,
+    "FJ": 4,
+    "WS": 4,
+    "TO": 3,
+    "PG": 3,
+    "VU": 2,
+    "SB": 2,
+    "KI": 2,
+    "NR": 2,
+    "TV": 2,
+    "PW": 2,
+    "MH": 2,
+    "FM": 2
+  },
+  "regionIds": [
+    "oceania"
+  ],
+  "sourceCatalogs": [
+    "cooking_ingredients_en_ua_1599(2).zip",
+    "cooking_techniques_en_ua_508.zip"
+  ],
+  "adaptations": {
+    "world-1402": {
+      "en": "Cornflakes are missing from the ingredient catalog; crisp cracker crumbs are not a flavor-equivalent substitute.",
+      "ua": "Кукурудзяних пластівців немає в каталозі; крихта крекерів не є повноцінною заміною за смаком."
+    },
+    "world-1403": {
+      "en": "Cooked-fish adaptation: traditional kokoda uses raw fish cured with lime; lime alone does not make raw fish safe.",
+      "ua": "Адаптація з вареною рибою: традиційна кокода використовує сиру рибу в лаймі; сам лайм не гарантує безпечності."
+    },
+    "world-1404": {
+      "en": "Home-oven lovo-inspired version; authentic lovo is cooked in an earth pit heated with stones.",
+      "ua": "Домашня адаптація лово в духовці; автентичне лово готують у земляній печі на гарячому камінні."
+    },
+    "world-1405": {
+      "en": "Spinach replaces taro leaves, so this is rourou-inspired, not an authentic taro-leaf preparation.",
+      "ua": "Шпинат замінює листя таро, тож це страва за мотивами руру, а не автентична версія."
+    },
+    "world-1406": {
+      "en": "Cassava flour is used instead of the traditional freshly grated cassava; texture differs.",
+      "ua": "Замість традиційного свіжого тертого маніоку використано маніокове борошно; текстура відрізняється."
+    },
+    "world-1407": {
+      "en": "Traditional oka i’a contains raw fish; using cooked fish materially changes the classic texture.",
+      "ua": "Традиційний ока іа містить сиру рибу; використання приготовленої риби змінює класичну текстуру."
+    },
+    "world-1411": {
+      "en": "Spinach and banana leaves replace edible taro leaves; the traditional recipe is usually baked in a taro-leaf parcel.",
+      "ua": "Шпинат і бананове листя замінюють харчове листя таро; традиційну страву зазвичай запікають саме в листі таро."
+    },
+    "world-1412": {
+      "en": "Traditional ota ika is a raw-fish preparation; heat-cooked fish is safer but texturally different.",
+      "ua": "Традиційне ота іка готують із сирої риби; термічно оброблена риба безпечніша, але має іншу текстуру."
+    },
+    "world-1413": {
+      "en": "Cassava-and-wheat dumplings are a home adaptation; traditional faikakai variants use different starches and specific coconut caramel sauces.",
+      "ua": "Домашня адаптація кльоцок із маніокового та пшеничного борошна; у традиційних варіантах використовують різні крохмалі й карамельні кокосові соуси."
+    },
+    "world-1414": {
+      "en": "Mumu is traditionally cooked in an earth oven over heated stones; this is an indoor-oven approximation.",
+      "ua": "Традиційне муму готують у земляній печі на розігрітому камінні; це адаптація для домашньої духовки."
+    },
+    "world-1416": {
+      "en": "Uses dried sago pearls instead of fresh sago starch; cooking time and texture vary by pearl size.",
+      "ua": "Використано сухі перлини саго замість свіжого сагового крохмалю; час приготування і текстура залежать від розміру перлин."
+    },
+    "world-1417": {
+      "en": "Traditional laplap uses freshly grated tubers and a hot-stone pit; preboiled taro and the oven change texture and aroma.",
+      "ua": "Традиційний лаплап готують зі свіжих тертих коренеплодів у печі на камінні; попередньо варене таро й духовка змінюють текстуру та аромат."
+    },
+    "world-1418": {
+      "en": "Uses cassava flour rather than traditional freshly grated cassava and an oven instead of hot stones; texture differs.",
+      "ua": "Замість традиційного свіжого тертого маніоку використано борошно, а замість гарячого каміння — духовку; текстура відрізняється."
+    },
+    "world-1419": {
+      "en": "A cooked-taro interpretation; Solomon Islands poi is variable and may be made with other roots or vegetables.",
+      "ua": "Інтерпретація з вареного таро; пої на Соломонових Островах може готуватися з інших коренеплодів та овочів."
+    },
+    "world-1420": {
+      "en": "Uses cassava flour rather than freshly grated cassava; this produces a finer, more cake-like crumb.",
+      "ua": "Використано маніокове борошно замість свіжого тертого маніоку, через що структура дрібніша й ближча до пирога."
+    },
+    "world-1422": {
+      "en": "Heat-cooked fish replaces the traditional uncooked citrus-marinated fish.",
+      "ua": "Термічно приготовлена риба замінює традиційну сиру рибу, мариновану в цитрусовому соку."
+    },
+    "world-1424": {
+      "en": "Contemporary home-style interpretation; the title is not documented as a uniquely standardized national recipe.",
+      "ua": "Сучасна домашня інтерпретація; немає надійного підтвердження єдиного стандартизованого національного рецепта з такою назвою."
+    },
+    "world-1425": {
+      "en": "Ordinary edible taro substitutes for pulaka (giant swamp taro); their starches and flavors differ.",
+      "ua": "Звичайне харчове таро замінює пулаку (гігантське болотне таро); їхні крохмаль і смак відрізняються."
+    },
+    "world-1426": {
+      "en": "Uses regular preboiled taro and brown sugar instead of traditional grated pulaka and boiled coconut toddy; preserves the cooked-root-and-coconut structure but not exact flavor.",
+      "ua": "Застосовано варене звичайне таро й коричневий цукор замість тертої пулаки та увареного кокосового соку; збережено основу зі звареного коренеплоду та кокосу, але не точний смак."
+    },
+    "world-1428": {
+      "en": "Uses oven ramekins instead of cleaned crab shells; Palauan ukaeb practices vary and published documentation is limited.",
+      "ua": "Замість очищених крабових панцирів використовуються формочки; способи приготування укаеб різняться, а публічних джерел небагато."
+    },
+    "world-1430": {
+      "en": "Jukjuk is used for different island preparations (including rice balls in other accounts); this recipe follows the Marshallese pounded-taro-and-coconut description.",
+      "ua": "Назву «джукджук» вживають для різних острівних страв (в інших джерелах — рисових кульок); тут використано маршалльський опис розтертого таро з кокосом."
+    },
+    "world-1431": {
+      "en": "A broadly Pohnpeian-inspired banana-coconut preparation; recipes vary and this is not a verified single canonical formulation.",
+      "ua": "Узагальнена версія за мотивами кухні Понпеї; рецепти різняться, і ця формула не підтверджена як єдина канонічна."
+    }
+  },
+  "notes": [
+    "This is the final batch, covering recipes 1401–1432 inclusive from the 1432-title world classic dish catalog.",
+    "All ingredient IDs, technique IDs and unit IDs validated against the original EN/UA catalogs.",
+    "EN and UA records have matching IDs, step IDs, quantities, units, techniques and times; only prose/title are localized.",
+    "regionId oceania matches previous batch but remains provisional pending app REGIONS definition.",
+    "Raw-fish classics (kokoda, oka i'a, ota ika, te ika mata) are explicitly labeled heat-cooked adaptations, not traditional raw versions.",
+    "Only purchased, edible taro is appropriate; thoroughly cook taro and discard cooking liquid. Do not use wild taro.",
+    "Missing cornflakes, taro leaves, pulaka and fresh grated cassava prompt clearly disclosed ingredient substitutions.",
+    "Earth-oven recipes (lovo, mumu, laplap) are adapted to home ovens and identified as such.",
+    "Fish minimum centre temperature 63°C, poultry 74°C, ground meat 71°C; foods are editorial recipes, not kitchen tested.",
+    "Some small-island dishes are local interpretations rather than verified canonical formulations; read descriptions/adaptations before publication."
+  ],
+  "sources": [
+    {
+      "name": "Chelsea Sugar — Hokey Pokey Ice Cream",
+      "url": "https://www.chelsea.co.nz/recipes/browse-recipes/hokey-pokey-ice-cream?category=Desserts"
+    },
+    {
+      "name": "Edmonds — Afghans classic NZ biscuits",
+      "url": "https://edmondscooking.co.nz/recipes/biscuits/afghans"
+    },
+    {
+      "name": "Tonga Tourism — food and feasting",
+      "url": "https://www.tongatourism.travel/discover/people-and-culture/food-and-feasting"
+    },
+    {
+      "name": "Queensland Health — Tongan food and cultural profile",
+      "url": "https://www.metrosouth.health.qld.gov.au/__data/assets/pdf_file/0025/242395/profile_tongan_dietetic.pdf"
+    },
+    {
+      "name": "Vanuatu Tourism Office — local eats",
+      "url": "https://www.vanuatu.travel/en/about-vanuatu/local-eats"
+    },
+    {
+      "name": "Auckland Museum — Taste of Tuvalu",
+      "url": "https://www.aucklandmuseum.com/discover/stories/blog/2020/taste-of-tuvalu"
+    },
+    {
+      "name": "196 Flavors — Kiribati pumpkin bake",
+      "url": "https://www.196flavors.com/kiribati-te-bua-toro-ni-baukin/"
+    },
+    {
+      "name": "Marshall Islands ethnobotany, University of Hawaii — Jukjuk",
+      "url": "https://hawaii.edu/cpis/MI/plants/iaraj.html"
+    },
+    {
+      "name": "Heart Foundation NZ — Solomon poi",
+      "url": "https://www.heartfoundation.org.nz/wellbeing/healthy-recipes/solomon-poi"
+    },
+    {
+      "name": "Papua New Guinea agricultural journal — sago foods",
+      "url": "https://journal.pngagriculture.net/index.php/harvest/article/view/1615"
+    },
+    {
+      "name": "Hong Kong Centre for Food Safety — taro safety",
+      "url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_243_03.html"
+    },
+    {
+      "name": "FDA — Selecting and Serving Fresh and Frozen Seafood Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+    },
+    {
+      "name": "FDA — Safe Food Handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+    }
+  ],
+  "recipeSources": {
+    "world-1401": [
+      "https://www.chelsea.co.nz/recipes/browse-recipes/hokey-pokey-ice-cream?category=Desserts"
+    ],
+    "world-1402": [
+      "https://edmondscooking.co.nz/recipes/biscuits/afghans"
+    ],
+    "world-1403": [
+      "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+    ],
+    "world-1404": [
+      "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+    ],
+    "world-1405": [
+      "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_243_03.html"
+    ],
+    "world-1407": [
+      "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+    ],
+    "world-1411": [
+      "https://www.tongatourism.travel/discover/people-and-culture/food-and-feasting",
+      "https://www.metrosouth.health.qld.gov.au/__data/assets/pdf_file/0025/242395/profile_tongan_dietetic.pdf"
+    ],
+    "world-1412": [
+      "https://www.tongatourism.travel/discover/people-and-culture/food-and-feasting"
+    ],
+    "world-1413": [
+      "https://www.metrosouth.health.qld.gov.au/__data/assets/pdf_file/0025/242395/profile_tongan_dietetic.pdf"
+    ],
+    "world-1416": [
+      "https://journal.pngagriculture.net/index.php/harvest/article/view/1615"
+    ],
+    "world-1417": [
+      "https://www.vanuatu.travel/en/about-vanuatu/local-eats"
+    ],
+    "world-1418": [
+      "https://www.vanuatu.travel/en/about-vanuatu/local-eats"
+    ],
+    "world-1419": [
+      "https://www.heartfoundation.org.nz/wellbeing/healthy-recipes/solomon-poi"
+    ],
+    "world-1421": [
+      "https://www.196flavors.com/kiribati-te-bua-toro-ni-baukin/"
+    ],
+    "world-1422": [
+      "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+    ],
+    "world-1425": [
+      "https://www.aucklandmuseum.com/discover/stories/blog/2020/taste-of-tuvalu"
+    ],
+    "world-1426": [
+      "https://www.aucklandmuseum.com/discover/stories/blog/2020/taste-of-tuvalu"
+    ],
+    "world-1428": [
+      "https://copperapp.app/cuisine/palau.html"
+    ],
+    "world-1430": [
+      "https://hawaii.edu/cpis/MI/plants/iaraj.html"
+    ],
+    "world-1431": [
+      "https://danaleeling.blogspot.com/2018/03/uht-idihd-doughnuts-and-other-local.html"
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { CardListComponent } from '../../components/card-list/card-list.component';
 import type { IconName } from '../../components/icon/icon.data';
 import { TabsComponent } from '../../components/tabs/tabs.component';
@@ -34,7 +35,7 @@ const CONTENT = {
  * pages (/restaurant/..., /recipe/..., and so on); the dashed boxes mark where illustrations will go.
  */
 @Component({
-	imports: [CardListComponent, TabsComponent, TPipe],
+	imports: [CardListComponent, RouterLink, TabsComponent, TPipe],
 	template: `
 		<section class="cook-explore" aria-labelledby="explore-title">
 			<h1 id="explore-title" class="sr-only">{{ 'Explore' | t }}</h1>
@@ -53,6 +54,9 @@ const CONTENT = {
 					[hidden]="active() !== tab.id"
 				>
 					@if (active() === tab.id) {
+						@if (tab.id === 'recipes') {
+							<p><a class="ds-btn ds-btn-outline" routerLink="/recipes">{{ 'Browse all world recipes' | t }}</a></p>
+						}
 						<app-card-list [items]="content[tab.id]" [kind]="tab.kind" [icon]="tab.icon" />
 					}
 				</div>

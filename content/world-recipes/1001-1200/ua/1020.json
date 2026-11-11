@@ -1,0 +1,129 @@
+{
+  "id": "world-1020",
+  "title": "Бун бо Хюе",
+  "description": "Бун бо Хюе — страва кухні країни В'єтнам, яку готують із таких продуктів: яловича гомілка, свиняча рулька, лемонграс, жовта цибуля. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Нашаткована капуста замінює банановий цвіт у гарнірі.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте складники в каструлі, доведіть майже до кипіння та зніміть піну. Варіть на малому вогні приблизно 135 хвилин для насиченої основи.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 135,
+      "ingredients": [
+        {
+          "ingredientId": "beef-shank",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-hock",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 2350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "lemongrass",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 170,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "annatto-seeds",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chili-oil",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shrimp-paste",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть зазначені складники у воді приблизно 8 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vermicelli",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "fish-sauce",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bean-sprouts",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

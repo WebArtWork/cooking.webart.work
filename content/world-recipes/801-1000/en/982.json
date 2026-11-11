@@ -1,0 +1,108 @@
+{
+  "id": "world-0982",
+  "title": "Samgyetang",
+  "description": "Samgyetang is a South Korea dish made with glutinous rice, whole chicken, garlic, dried date. This home-scale recipe assigns measured ingredients to the steps where they are used. Ginger and dates replace ginseng and jujubes; this is a simplified samgyetang, not an exact herbal soup.",
+  "regionId": "east-asia",
+  "countryCode": "KR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the listed rice, grains or noodles in clean water for about 60 minutes as appropriate, then drain; grind rice and urad for batter if required by this dish.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 165,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 440,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Stuff the rinsed whole chicken with the drained glutinous rice, garlic, ginger and dates; secure the opening with a skewer.",
+      "techniqueIds": [
+        "stuffing-vegetables"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1.5,
+          "unit": "kg"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 7,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-date",
+          "amount": 7,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Cover the stuffed chicken with water, add ginger and green onions, then gently boil until both chicken and the rice inside are completely cooked; check the meat reaches 74°C.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 95,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1850,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-ginger",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

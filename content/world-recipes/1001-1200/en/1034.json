@@ -1,0 +1,142 @@
+{
+  "id": "world-1034",
+  "title": "Che Ba Mau",
+  "description": "Che Ba Mau is a dish from Vietnam prepared with mung beans, adzuki beans, tapioca pearls, coconut milk. This is a home-scale version with measured ingredients in the individual steps where they are used. The three-color dessert is an accessible approximation with available beans and tapioca, not a full traditional jelly selection.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak the dried mung beans in clean water, discard the water and simmer separately in fresh water until fully soft.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 210,
+      "ingredients": [
+        {
+          "ingredientId": "mung-beans",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 600,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cook the listed ingredients in simmering water for about 45 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soak the adzuki beans for several hours; discard the soaking water before fully boiling until tender.",
+      "techniqueIds": [
+        "soaking-legumes"
+      ],
+      "durationMinutes": 320,
+      "ingredients": [
+        {
+          "ingredientId": "adzuki-beans",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cook the listed ingredients in simmering water for about 75 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Cook the listed ingredients in simmering water for about 13 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 13,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-pearls",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 550,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 105,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-7",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pandan-leaves",
+          "amount": 3,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

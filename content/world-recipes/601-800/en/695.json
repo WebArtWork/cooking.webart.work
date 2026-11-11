@@ -1,0 +1,70 @@
+{
+  "id": "world-0695",
+  "title": "Akassa",
+  "description": "Akassa is a Benin classic prepared with cornmeal, sourdough starter, peanut sauce. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Akassa-style fermented corn porridge from pantry cornmeal and a yogurt-assisted dough; true fermented maize dough differs.",
+  "regionId": "west-africa",
+  "countryCode": "BJ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sourdough-starter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Cool the prepared ingredients promptly, then refrigerate for about 480 minutes until properly chilled.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 480,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Steam small covered parcels or heatproof ramekins of the fermented cornmeal mixture until completely set; serve warm.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-sauce",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

@@ -1,0 +1,110 @@
+{
+  "id": "world-1414",
+  "title": "Mumu",
+  "description": "Papua New Guinean mumu-inspired feast of pork, chicken and sweet potato, made in a covered oven in place of an earth pit.",
+  "regionId": "oceania",
+  "countryCode": "PG",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut pork shoulder into large chunks. Rub pork and chicken with salt, crushed ginger and garlic, and refrigerate for 30 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Peel and cut sweet potato and taro into thick, even chunks.",
+      "techniqueIds": [
+        "peeling",
+        "chopping"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "taro-root",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Line a covered roasting pot with food-safe banana leaves and layer in meat and vegetables. Add coconut milk and a little water, then seal tightly.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Roast at 170°C for about 2½ hours, until pork is tender, chicken reaches 74°C and taro is fully soft. Add hot water if the pot dries.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Rest covered for 10 minutes and serve straight from the leaves, taking care with escaping steam.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

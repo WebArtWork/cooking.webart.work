@@ -1,0 +1,105 @@
+{
+  "id": "world-1398",
+  "title": "Hāngī",
+  "description": "Hāngī is a dish from New Zealand featuring lamb shoulder, whole chicken, rosemary, banana leaf. This home-sized recipe records each ingredient at the step where it is used. Home oven-roasted hāngī-style meal; authentic Māori hāngī uses a pit and heated stones.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 70 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rosemary",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Layer the prepared meat and vegetables on food-safe banana leaves or inside a covered roasting pan, making a tight packet for steam to circulate.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 10,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Seal the meat and vegetables in food-safe leaf parcels or covered oven trays and roast gently until lamb is tender and chicken reaches 74°C; this is not a real earth-oven hāngī.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Rest the cooked meat loosely covered for about 20 minutes before slicing to retain juices.",
+      "techniqueIds": [
+        "carryover-cooking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

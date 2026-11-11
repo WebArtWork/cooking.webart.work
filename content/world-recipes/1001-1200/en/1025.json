@@ -1,0 +1,106 @@
+{
+  "id": "world-1025",
+  "title": "Goi Cuon",
+  "description": "Goi Cuon is a dish from Vietnam prepared with rice vermicelli, shrimp, pork loin, rice paper wrappers. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "southeast-asia",
+  "countryCode": "VN",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cook the listed ingredients in simmering water for about 5 minutes until tender; drain well if necessary.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "rice-vermicelli",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 7 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-loin",
+          "amount": 270,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Moisten the rice paper sheets briefly, then roll with the COOKED shrimp and pork, rice vermicelli, cucumber, lettuce and herbs; no raw protein goes in the rolls.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "rice-paper-wrappers",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "lettuce",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mint",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "hoisin-sauce",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

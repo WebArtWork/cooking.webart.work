@@ -1,0 +1,86 @@
+{
+  "id": "world-0384",
+  "title": "Гютспот",
+  "description": "Нідерландський гютспот із овочевим пюре та приготованим братвурстом замість традиційної копченої ковбаси.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "NL",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 24 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "potato",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 270,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1150,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 190,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Варіть братвурст на слабкому вогні до повної готовності та безпечної внутрішньої температури; наріжте й викладіть на гаряче овочеве пюре.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "bratwurst",
+          "amount": 430,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

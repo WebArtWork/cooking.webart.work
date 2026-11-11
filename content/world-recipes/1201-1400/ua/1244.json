@@ -1,0 +1,75 @@
+{
+  "id": "world-1244",
+  "title": "Свинина джерк",
+  "description": "Свинина джерк — страва кухні країни Ямайка з такими основними складниками: свиняча лопатка, маринад джерк, чебрець, часник. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 160 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 160,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "jerk-marinade",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Запікайте вже приправлені продукти в розігрітій духовці до м’якості та готовності, перевіряючи температуру м’яса термометром.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 85,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Готуйте замариновані порції на грилі, перевертаючи для рівномірного нагрівання та перевіряючи безпечну температуру всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

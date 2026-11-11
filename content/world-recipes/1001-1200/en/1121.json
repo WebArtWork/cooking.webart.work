@@ -1,0 +1,92 @@
+{
+  "id": "world-1121",
+  "title": "Pulled Pork Barbecue",
+  "description": "Pulled Pork Barbecue is a dish from United States prepared with pork shoulder, barbecue sauce, apple cider vinegar, burger bun. This is a home-scale version with measured ingredients in the individual steps where they are used. Oven-braised pulled pork without a barbecue smoker.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 65 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "smoked-paprika",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast the covered pork shoulder at about 135–150°C for 5–6 hours, or until fork-tender and easily shredded; check it is safely cooked.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 325,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Shred or tear the cooked components, then fold together with the listed additions.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "barbecue-sauce",
+          "amount": 190,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "burger-bun",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

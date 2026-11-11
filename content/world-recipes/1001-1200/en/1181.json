@@ -1,0 +1,87 @@
+{
+  "id": "world-1181",
+  "title": "Elote",
+  "description": "Elote is a dish from Mexico prepared with sweet corn, mayonnaise, sour cream, lime juice. This is a home-scale version with measured ingredients in the individual steps where they are used.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Grill over medium-high heat for about 18 minutes, turning regularly until charred outside and safely cooked inside.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-corn",
+          "amount": 6,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Combine the listed ingredients in a bowl until evenly mixed; avoid overworking delicate components.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chili-powder",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime-juice",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Gently fold the prepared dressing through the assembled vegetables or cooked ingredients until coated.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "cotija-cheese",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

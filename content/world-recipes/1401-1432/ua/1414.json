@@ -1,0 +1,110 @@
+{
+  "id": "world-1414",
+  "title": "Муму",
+  "description": "Муму за мотивами кухні Папуа Нової Гвінеї: запечені свинина, курка та батат, приготовані в закритій формі замість земляної печі.",
+  "regionId": "oceania",
+  "countryCode": "PG",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте свинячу лопатку великими шматками. Натріть свинину й курку сіллю, подрібненим імбиром та часником; маринуйте в холодильнику 30 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 30,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Очистіть батат і таро та наріжте однаковими великими шматками.",
+      "techniqueIds": [
+        "peeling",
+        "chopping"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "taro-root",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вистеліть закриту жаровню харчовим банановим листям і викладіть шарами м’ясо та овочі. Додайте кокосове молоко й трохи води, після чого щільно закрийте.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте при 170°C приблизно 2,5 години, поки свинина стане м’якою, курка досягне 74°C, а таро повністю розм’якне. За потреби долийте гарячої води.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Залиште під кришкою 10 хвилин і подавайте просто з листя, обережно випускаючи гарячу пару.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

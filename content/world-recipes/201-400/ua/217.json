@@ -1,0 +1,77 @@
+{
+  "id": "world-0217",
+  "title": "Каталонський крем",
+  "description": "Традиційна страва кухні країни Іспанія. Основні інгредієнти: цільне коров'яче молоко, цедра лимона, яєчний жовток, кукурудзяний крохмаль. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Додайте зазначені складники до каструлі. Варіть за слабкого кипіння приблизно 8 хвилин до м’якості та готовності.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ceylon-cinnamon",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "lemon-zest",
+          "amount": 7,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Темперуйте жовтки з крохмалем гарячим ароматним молоком, поверніть у сотейник та помішуйте на малому вогні до загустіння. Розлийте у формочки й охолодіть.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Перед подачею присипте тонким шаром цукру та карамелізуйте кухонним пальником або верхнім жаром до хрусткої скоринки.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "brown-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

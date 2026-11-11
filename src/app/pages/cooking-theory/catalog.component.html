@@ -6,6 +6,9 @@
 				| t
 		}}
 	</p>
+	<p class="cooking-head">
+		{{ 'New to kitchen words?' | t }} <a routerLink="/glossary">{{ 'Open the glossary' | t }}</a>
+	</p>
 	<app-cooking-controls class="cooking-controls" />
 	@for (item of results(); track item.id; let first = $first) {
 		<details

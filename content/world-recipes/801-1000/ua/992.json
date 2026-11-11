@@ -1,0 +1,141 @@
+{
+  "id": "world-0992",
+  "title": "Гуа бао",
+  "description": "Гуа бао — страва кухні країни Тайвань. Основні складники: свиняча грудинка, світлий соєвий соус, пшеничне борошно універсальне, інстантні дріжджі. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Свіжі домашні парові булочки замінюють готові булочки для гуа бао.",
+  "regionId": "east-asia",
+  "countryCode": "TW",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 45 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 45,
+      "ingredients": [
+        {
+          "ingredientId": "pork-belly",
+          "amount": 780,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "shaoxing-wine",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chinese-five-spice",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 80 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 610,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вимісіть і вистійте тісто для булочок до подвоєння, поділіть на овали й зігніть кожен навколо шматочка пергаменту перед пропарюванням.",
+      "techniqueIds": [
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "instant-yeast",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розкачайте або розпластайте підготовлене тісто рівномірним шаром потрібної товщини та форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Покладіть підготовлені вироби на решітку пароварки над водою, що ледь кипить, накрийте й готуйте на парі приблизно 16 хвилин до повної готовності начинки.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pickled-cucumber",
+          "amount": 165,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "peanut",
+          "amount": 85,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

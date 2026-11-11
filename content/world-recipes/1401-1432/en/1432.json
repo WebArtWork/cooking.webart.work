@@ -1,0 +1,71 @@
+{
+  "id": "world-1432",
+  "title": "Taro with Coconut Cream",
+  "description": "Federated States of Micronesia-style cooked taro served in coconut cream: a simple Pacific island staple.",
+  "regionId": "oceania",
+  "countryCode": "FM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel purchased edible taro and cut it into equal-sized chunks; rinse away surface starch.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil taro in fresh water for 30–40 minutes until soft throughout; discard the cooking water.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat coconut cream gently with a small pinch of salt, stirring so it does not split.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spoon the warm cream over cooked taro and serve immediately.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,99 @@
+{
+  "id": "world-0672",
+  "title": "Кенкей",
+  "description": "Кенкей — страва кухні країни Гана зі складниками: кукурудзяна крупа дрібного помелу, хлібна закваска, тилапія, перець скотч-боннет. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Домашнє тісто у стилі кенкею; ферментація й загортання відрізняються від традиційних. Тіляпію готують окремо на грилі.",
+  "regionId": "west-africa",
+  "countryCode": "GH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "cornmeal",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 570,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sourdough-starter",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Нещільно накрийте тісто й залиште приблизно на 720 хвилин у чистому теплому місці до появи бульбашок і легкої кислинки; під час активного бродіння не ставте в холодильник.",
+      "techniqueIds": [
+        "sourdough-fermentation"
+      ],
+      "durationMinutes": 720,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розділіть ферментоване кукурудзяне тісто на порції, загорніть у придатне для нагрівання харчове листя чи пергамент і пропарте до повної готовності.",
+      "techniqueIds": [
+        "basket-steaming"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 15 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "tilapia",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 18 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

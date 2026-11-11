@@ -1,0 +1,123 @@
+{
+  "id": "world-0951",
+  "title": "Такоякі",
+  "description": "Такоякі — страва кухні країни Японія. Основні складники: восьминіг, зелена цибуля, маринований імбир, пшеничне борошно універсальне. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Такоякі готують у спеціальній формі з круглими комірками; соус окономіякі замінює соус такоякі.",
+  "regionId": "east-asia",
+  "countryCode": "JP",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Варіть зазначені складники у воді приблизно 25 хвилин до м’якості; за потреби добре злийте воду.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "octopus",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "green-onion",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pickled-ginger",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 245,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dashi-stock",
+          "amount": 380,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наповніть круглі лунки форми тістом, додайте готового восьминога й начинку, обертайте кожну кульку до рівномірної рум’яності й готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "okonomiyaki-sauce",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mayonnaise",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "aonori",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "katsuobushi",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

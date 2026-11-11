@@ -1,0 +1,110 @@
+{
+  "id": "world-1421",
+  "title": "Гарбузова страва те буа торо ні баукін",
+  "description": "Кірибаті те буа торо ні баукін — запіканка з гарбуза й капусти з консервованим м’ясом та сухим молоком.",
+  "regionId": "oceania",
+  "countryCode": "KI",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 190°C. Натріть гарбуз, відіжміть зайву вологу та тонко нашаткуйте капусту.",
+      "techniqueIds": [
+        "shredding"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "pumpkin",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розділіть солонину на шматочки та змішайте з гарбузом і капустою.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 330,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте борошно, сухе молоко, розпушувач, лимонний сік, сіль і перець та вимішайте густу однорідну масу.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "milk-powder",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon-juice",
+          "amount": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Змастіть глибоку форму олією, рівномірно викладіть суміш і запікайте 45–55 хвилин до пружності й рум’янцю; залишки під час повторного розігрівання доводьте до 74°C.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Залиште на 10 хвилин перед нарізанням на порції.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,75 @@
+{
+  "id": "world-1244",
+  "title": "Jerk Pork",
+  "description": "Jerk Pork is a dish from Jamaica featuring pork shoulder, jerk marinade, thyme, garlic. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 160 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 160,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "jerk-marinade",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 4,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast the already seasoned food in a preheated oven until tender and safely cooked, using a thermometer for meat or poultry.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 85,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Grill the marinated portions from the preceding steps, turning to cook evenly and checking the safe internal temperature.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 14,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

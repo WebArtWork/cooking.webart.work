@@ -1,0 +1,120 @@
+{
+  "id": "world-1402",
+  "title": "Печиво «Афган»",
+  "description": "Класичне новозеландське печиво з какао, яке традиційно готують із кукурудзяними пластівцями, шоколадною глазур’ю та волоським горіхом. У цій версії відсутні пластівці замінено хрусткою крихтою крекерів.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 12,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 180°C. Розітріть м’яке масло з дрібним цукром до пухкої маси.",
+      "techniqueIds": [
+        "creaming-butter-sugar"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 95,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Просійте борошно з какао, а потім умішайте грубо подрібнену крихту крекерів, щоб наблизити хрускіт традиційних кукурудзяних пластівців.",
+      "techniqueIds": [
+        "mixing",
+        "folding-in"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 185,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 24,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cracker-crumbs",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть на деко з пергаментом 12 невеликих купок і злегка притисніть. Випікайте 14–16 хвилин, доки печиво схопиться, але не підгорить.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Повністю остудіть печиво перед нанесенням глазурі, приблизно 25 хвилин.",
+      "techniqueIds": [
+        "resting-food"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Змішайте цукрову пудру з какао, м’яким маслом і невеликою кількістю теплої води до консистенції глазурі.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Покрийте охололе печиво глазур’ю і притисніть до кожного шматочок волоського горіха. Дайте глазурі застигнути.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

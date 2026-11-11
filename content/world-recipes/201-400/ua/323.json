@@ -1,0 +1,65 @@
+{
+  "id": "world-0323",
+  "title": "Конфі з качки",
+  "description": "Традиційний метод качиного конфі: попередній посол і тривале приготування у качиному жирі, із дотриманням холодового режиму.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 720 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 720,
+      "ingredients": [
+        {
+          "ingredientId": "duck-leg",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 32,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 5,
+          "unit": "sprig"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 6,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Повністю занурте промиті після засолу качині стегенця у качиний жир і томіть при 110–120°C приблизно 2 години 45 хвилин до м’якості, не допускаючи кипіння жиру.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 165,
+      "ingredients": [
+        {
+          "ingredientId": "duck-fat",
+          "amount": 950,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте в розігрітій до 190°C духовці приблизно 12 хвилин до рум’яності й готовності; за потреби переверніть.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

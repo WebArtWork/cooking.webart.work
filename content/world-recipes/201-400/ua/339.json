@@ -1,0 +1,95 @@
+{
+  "id": "world-0339",
+  "title": "Макарони",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: мигдалеве борошно, пастеризовані яєчні білки. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Просійте мигдальне борошно з цукровою пудрою. Збийте пастеризовані білки з цукром у стійку меренгу та змішайте до консистенції густої стрічки.",
+      "techniqueIds": [
+        "whipping-egg-foam",
+        "folding-batter"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "almond-flour",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 175,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Відсадіть рівні кружальця на пергамент і легенько постукайте деком, щоб видалити бульбашки.",
+      "techniqueIds": [
+        "piping-batter"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Витримайте заготовки 30–40 хвилин до сухої плівки, щоб поверхня не прилипала до пальця.",
+      "techniqueIds": [
+        "air-drying"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Випікайте оболонки при 145–155°C близько 15 хвилин; повністю охолодіть перед зняттям із дека.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Збийте масло з ваніллю та пудрою, наповніть охолоджені половинки кремом і з’єднайте попарно. Витримайте в холодильнику на ніч для потрібної текстури.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

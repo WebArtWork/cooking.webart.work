@@ -1,0 +1,68 @@
+{
+  "id": "world-0183",
+  "title": "Салат капрезе",
+  "description": "Класична страва з Італія. Основні складники: помідор, свіжа моцарела, базилік. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте стиглі помідори й свіжу моцарелу однаковими товстими скибками. Викладіть почергово з цілими листочками базиліку на таріль.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 490,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "fresh-mozzarella",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "basil",
+          "amount": 35,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збризніть оливковою олією та невеликою кількістю бальзамічного оцту, приправте сіллю і свіжомеленим перцем та відразу подавайте.",
+      "techniqueIds": [
+        "tossing",
+        "seasoning"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 60,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "balsamic-vinegar",
+          "amount": 20,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

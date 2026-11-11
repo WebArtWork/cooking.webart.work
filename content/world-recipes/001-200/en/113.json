@@ -1,0 +1,72 @@
+{
+  "id": "world-0113",
+  "title": "Verivorst",
+  "description": "A baked ready-made blood sausage served with a tart berry accompaniment; no raw blood handling is required.",
+  "regionId": "eastern-europe",
+  "countryCode": "EE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Gently brown the commercially prepared blood sausage in lard without tearing the casing.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "blood-sausage",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Transfer to a 190°C oven until fully heated through; do not use raw blood sausage filling without a validated recipe.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Serve with sauerkraut and briefly warmed lingonberries with sugar.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lingonberry",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sauerkraut",
+          "amount": 260,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

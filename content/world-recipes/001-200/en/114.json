@@ -1,0 +1,85 @@
+{
+  "id": "world-0114",
+  "title": "Kama Dessert",
+  "description": "A classic dish from Estonia, featuring chickpea flour, kefir, blueberry. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "EE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix barley, rye, oat and chickpea flours; these recreate a simplified version of roasted-grain kama flour.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "barley-flour",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rye-flour",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "oat-flour",
+          "amount": 85,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chickpea-flour",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Toast the flour mixture in a dry pan over low heat, stirring constantly, until fragrant and lightly browned. Cool fully.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Whisk the toasted flour into kefir and honey, then serve with berries.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "kefir",
+          "amount": 650,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "honey",
+          "amount": 75,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Chill briefly if appropriate, garnish with the listed ingredients and serve at the intended temperature.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "blueberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

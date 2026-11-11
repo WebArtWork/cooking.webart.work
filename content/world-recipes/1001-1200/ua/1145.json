@@ -1,0 +1,95 @@
+{
+  "id": "world-1145",
+  "title": "Нью-йоркський чизкейк",
+  "description": "Нью-йоркський чизкейк — страва кухні країни Сполучені Штати Америки, яку готують із таких продуктів: крихта крекера грем, вершковий сир, куряче яйце, сметана. Кількості в домашньому рецепті прив’язані до окремих етапів приготування.",
+  "regionId": "north-america",
+  "countryCode": "US",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "graham-cracker-crumbs",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розпластайте, розкачайте або сформуйте з підготовленого тіста чи маси порції потрібної форми.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Збийте зазначені складники до світлої пишної маси; за потреби використовуйте масло та яйця кімнатної температури.",
+      "techniqueIds": [
+        "creaming-butter-sugar",
+        "whisking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "cream-cheese",
+          "amount": 870,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 8,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Печіть чизкейк делікатно при 150–160°C, бажано на водяній бані, доки краї схопляться, а середина ще трохи тремтітиме; охолоджуйте поступово, щоб уникнути тріщин.",
+      "techniqueIds": [
+        "water-bath-baking"
+      ],
+      "durationMinutes": 65,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Охолоджуйте підготовлену масу в холодильнику близько 240 хвилин; швидко охолоджуйте швидкопсувні продукти й не тримайте готовий рис у теплі при кімнатній температурі.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 240,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

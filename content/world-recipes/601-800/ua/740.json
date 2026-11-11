@@ -1,0 +1,78 @@
+{
+  "id": "world-0740",
+  "title": "Кітфо",
+  "description": "Кітфо — страва кухні країни Ефіопія зі складниками: жовта цибуля, пряне масло нітер кіббе, мітміта, яловичий фарш. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Це повністю термічно оброблена адаптація кітфо. Традиційно м’ясо часто сире або ледь прогріте й потребує спеціального контролю безпеки.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "ET",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 8 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "niter-kibbeh",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "mitmita",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте яловичий фарш у пряному маслі на середньому вогні до повного прожарювання без сирої середини; це термічно оброблений кітфо.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "injera",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "farmer-cheese",
+          "amount": 160,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

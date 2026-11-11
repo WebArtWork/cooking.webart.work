@@ -1,0 +1,78 @@
+{
+  "id": "world-1151",
+  "title": "Montreal Smoked Meat Sandwich",
+  "description": "Montreal Smoked Meat Sandwich is a dish from Canada prepared with corned beef, rye bread, fermented cucumber, yellow mustard. This is a home-scale version with measured ingredients in the individual steps where they are used. Corned beef replaces traditionally cured AND smoked Montréal brisket; this is a sandwich-inspired adaptation, not authentic smoked meat.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach the listed ingredients in barely simmering liquid for about 25 minutes until tender and cooked through.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Wash and prepare the listed produce; dice or chop evenly for a consistent texture.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rye-bread",
+          "amount": 8,
+          "unit": "slice"
+        },
+        {
+          "ingredientId": "fermented-cucumber",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-mustard",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "swiss-cheese",
+          "amount": 140,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

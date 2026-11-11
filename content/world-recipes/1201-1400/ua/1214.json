@@ -1,0 +1,96 @@
+{
+  "id": "world-1214",
+  "title": "Бахо",
+  "description": "Бахо — страва кухні країни Нікарагуа з такими основними складниками: яловича грудинка, апельсиновий сік, часник, банановий лист. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Пароварка і харчове бананове листя наближають традиційний великий пакунок бахо; перевіряйте готовність яловичини.",
+  "regionId": "central-america",
+  "countryCode": "NI",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 90 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "beef-brisket",
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "orange-juice",
+          "amount": 130,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 8,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "plantain",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cassava-root",
+          "amount": 550,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 150 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

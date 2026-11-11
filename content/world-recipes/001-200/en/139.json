@@ -1,0 +1,71 @@
+{
+  "id": "world-0139",
+  "title": "Churchkhela",
+  "description": "A classic dish from Georgia, featuring walnut, grape juice, white granulated sugar, all-purpose flour. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "eastern-europe",
+  "countryCode": "GE",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Thread the walnut halves closely on clean food-safe cotton string and tie a loop for hanging.",
+      "techniqueIds": [
+        "dry-toasting"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk flour into cold grape juice until smooth, add sugar and simmer while stirring for 15 minutes to make a thick grape pudding (tatara).",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "grape-juice",
+          "amount": 1000,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 105,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Dip the walnut strings fully into warm grape pudding, hang to set, then repeat for a thicker coating. Air-dry in a clean ventilated space until firm, typically several days; discard any showing mold.",
+      "techniqueIds": [
+        "glazing",
+        "air-drying"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Remove the string before eating. Slice the dried churchkhela and serve as a confection.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794253946000
+}

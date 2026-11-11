@@ -1,0 +1,81 @@
+{
+  "id": "world-1317",
+  "title": "Асадо по-уругвайськи",
+  "description": "Асадо по-уругвайськи — страва кухні країни Уругвай з такими основними складниками: короткі яловичі ребра, свинячі ребра, сира свиняча ковбаса, чімічурі. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "UY",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 65 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "beef-short-ribs",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pork-ribs",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте на грилі на середньо-сильному жарі приблизно 65 хвилин, регулярно перевертаючи до рум’яної скоринки та повної готовності всередині.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 65,
+      "ingredients": [
+        {
+          "ingredientId": "fresh-pork-sausage",
+          "amount": 520,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Дайте готовому м’ясу відпочити під нещільним накриттям приблизно 12 хвилин перед нарізанням, щоб зберегти сік.",
+      "techniqueIds": [
+        "carryover-cooking"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть повністю приготовані частини страви на тарілках або в посуді для подавання, додавши зазначені топінги та доповнення безпосередньо перед подаванням.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "chimichurri",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

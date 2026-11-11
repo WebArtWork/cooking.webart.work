@@ -1,0 +1,86 @@
+{
+  "id": "world-1016",
+  "title": "Клейкий рис із манго",
+  "description": "Клейкий рис із манго — страва кухні країни Таїланд, яку готують із таких продуктів: клейкий рис, кокосове молоко, манго, білий кунжут. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Використовуйте клейкий рис; звичайний жасминовий не є рівноцінною заміною.",
+  "regionId": "southeast-asia",
+  "countryCode": "TH",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Замочіть зазначені рис або локшину в чистій прохолодній воді близько 240 хвилин, злийте і переходьте до подальшого готування.",
+      "techniqueIds": [
+        "rice-soaking"
+      ],
+      "durationMinutes": 240,
+      "ingredients": [
+        {
+          "ingredientId": "glutinous-rice",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 900,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Готуйте раніше підготовлені згортки або масу на парі над слабким кипінням близько 30 хвилин до готовності.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нагрійте кокосове молоко з пальмовим цукром і сіллю, залийте ним більшу частину щойно пропареного клейкого рису та накрийте для просочення.",
+      "techniqueIds": [
+        "reducing-sauce"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 390,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "palm-sugar",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Зберіть охолоджені частини з зазначеними начинками або покриттям. За потреби ненадовго охолодіть для стабілізації шарів.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "mango",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-sesame-seeds",
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

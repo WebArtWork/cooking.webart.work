@@ -1,0 +1,117 @@
+{
+  "id": "world-0340",
+  "title": "Зауербратен",
+  "description": "Традиційна страва кухні країни Німеччина. Основні інгредієнти: яловичий стегновий відруб, червоний винний оцет, жовта цибуля, морква. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "DE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Маринуйте яловичину в суміші оцту, вина та спецій у холодильнику 2–4 дні, щодня перевертаючи. Вийміть, обсушіть і збережіть маринад.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": [
+        {
+          "ingredientId": "beef-round",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dry-red-wine",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "red-wine-vinegar",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 3,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "ground-cloves",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 12 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте рідину та приправи для тушкування, накрийте кришкою й готуйте на малому вогні приблизно 150 хвилин до м’якості та повної готовності м’яса.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 150,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 550,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rye-bread",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

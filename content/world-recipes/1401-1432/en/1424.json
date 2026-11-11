@@ -1,0 +1,105 @@
+{
+  "id": "world-1424",
+  "title": "Nauruan Coconut-Crusted Fish",
+  "description": "Nauru-inspired pan-fried fish in a crisp desiccated-coconut coating.",
+  "regionId": "oceania",
+  "countryCode": "NR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Cut fish into four equal fillets, dry well and season with salt and pepper.",
+      "techniqueIds": [
+        "seasoning"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare three bowls: flour, beaten egg, and desiccated coconut mixed with cracker crumbs.",
+      "techniqueIds": [
+        "mise-en-place"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cracker-crumbs",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Coat each fillet with flour, then egg, then coconut mixture; press lightly to adhere.",
+      "techniqueIds": [
+        "crusting"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Pan-fry in oil over medium heat 4–6 minutes per side until golden and the fish reaches 63°C internally; lower heat if coconut browns too quickly.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 85,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Drain briefly and serve with lime juice.",
+      "techniqueIds": [
+        "draining"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

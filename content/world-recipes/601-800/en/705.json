@@ -1,0 +1,76 @@
+{
+  "id": "world-0705",
+  "title": "Kilishi",
+  "description": "Kilishi is a Niger classic prepared with beef sirloin, ginger root, garlic, peanut. A measured home-style version, with ingredients assigned to the cooking steps where they are used. Fully cooked kilishi-inspired spiced beef, not traditional dried kilishi: authentic air-drying needs validated preservation methods.",
+  "regionId": "west-africa",
+  "countryCode": "NE",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 90 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 90,
+      "ingredients": [
+        {
+          "ingredientId": "beef-sirloin",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 4,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Lay spice-coated thin beef strips on a rack and roast until completely cooked and browned; this is not shelf-stable dried meat. Refrigerate leftovers promptly.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "peanut",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lemon",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794259080000
+}

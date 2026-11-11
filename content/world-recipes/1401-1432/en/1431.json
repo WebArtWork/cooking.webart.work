@@ -1,0 +1,90 @@
+{
+  "id": "world-1431",
+  "title": "Pohnpei Banana Pudding",
+  "description": "Pohnpei-inspired dense steamed banana-and-coconut pudding, bound with tapioca starch and wrapped in banana leaf.",
+  "regionId": "oceania",
+  "countryCode": "FM",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mash very ripe bananas until mostly smooth. Mix in coconut cream and coconut sugar.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "banana",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk in tapioca starch and salt until no dry lumps remain; batter should be thick and spoonable.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Soften food-safe banana leaves and line six small heat-safe bowls or make sealed parcels; divide batter evenly.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Steam for 45–55 minutes until the centre is set and starch fully cooked; add boiling water to the steamer as needed.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Rest 15 minutes before unwrapping and cutting. Serve warm or chilled.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

@@ -1,0 +1,105 @@
+{
+  "id": "world-1400",
+  "title": "Pavlova New Zealand Style",
+  "description": "Pavlova New Zealand Style is a dish from New Zealand featuring pasteurized egg whites, white vinegar, cornstarch, whipping cream. This home-sized recipe records each ingredient at the step where it is used.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whip pasteurized whites with gradually added caster sugar until very thick and glossy; fold in vinegar and cornstarch.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 210,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 290,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 12,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "cornstarch",
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heap the meringue into a tall round on parchment, creating a shallow well for cream and fruit; do not proof.",
+      "techniqueIds": [
+        "pre-shaping-dough",
+        "final-proofing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Bake the large meringue gently at 110–120°C, then cool in the switched-off oven for a crisp shell and soft center.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 90,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cool the finished meringue completely in the switched-off oven with the door ajar before adding cream; do not refrigerate the bare shell.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 75,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Whisk or whip the listed ingredients to a smooth, light consistency, then keep cool until needed.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "whipping-cream",
+          "amount": 360,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Arrange the fully cooked and prepared parts of the dish on plates or in the intended serving vessel, adding the listed toppings or accompaniments just before serving.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "kiwi",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "passion-fruit",
+          "amount": 3,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

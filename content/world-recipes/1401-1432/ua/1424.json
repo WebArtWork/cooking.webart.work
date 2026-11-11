@@ -1,0 +1,105 @@
+{
+  "id": "world-1424",
+  "title": "Риба в кокосовій паніровці по-науруанськи",
+  "description": "Риба в хрусткій кокосовій паніровці, смажена на сковороді за мотивами кухні Науру.",
+  "regionId": "oceania",
+  "countryCode": "NR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розділіть рибу на чотири однакові шматки, обсушіть і приправте сіллю та перцем.",
+      "techniqueIds": [
+        "seasoning"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Підготуйте три миски: з борошном, збитим яйцем та кокосовою стружкою, змішаною з крихтою крекерів.",
+      "techniqueIds": [
+        "mise-en-place"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cracker-crumbs",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обкачайте кожне філе в борошні, потім у яйці та кокосовій суміші; злегка притисніть паніровку.",
+      "techniqueIds": [
+        "crusting"
+      ],
+      "durationMinutes": 8,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Смажте на сковороді на помірному вогні по 4–6 хвилин з кожного боку до золотистого кольору й температури 63°C усередині риби; зменште вогонь, якщо кокос надто швидко темнішає.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 85,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Дайте зайвій олії стекти й подавайте з соком лайма.",
+      "techniqueIds": [
+        "draining"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 40,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

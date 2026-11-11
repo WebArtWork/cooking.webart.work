@@ -1,0 +1,97 @@
+{
+  "id": "world-1416",
+  "title": "Саксак",
+  "description": "Саксак — папуаські пакунки із сагових перлин і банана з кокосом. Рецепт використовує сагові перлини з каталогу та харчове бананове листя.",
+  "regionId": "oceania",
+  "countryCode": "PG",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Промийте дрібні сагові перлини, замочіть у теплій воді на 20 хвилин і відцідіть. Вони мають повністю приготуватися на парі.",
+      "techniqueIds": [
+        "soaking-dried-produce",
+        "draining"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "sago-pearls",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Розімніть стиглі банани та змішайте з розм’якшеним саго, цукром і сіллю.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "banana",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Коротко розм’якшіть харчове бананове листя парою. Загорніть суміш у шість щільних пакунків.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте на парі над водою, що постійно кипить, 35–45 хвилин, доки всі перлини саго не стануть прозорими без білого сирого осердя.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Обережно підігрійте кокосове молоко. Розгорніть один пакунок, щоб перевірити готовність, і подавайте кльоцки, поливши кокосовим молоком.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

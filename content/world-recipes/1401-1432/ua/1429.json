@@ -1,0 +1,70 @@
+{
+  "id": "world-1429",
+  "title": "Хлібний плід із кокосом",
+  "description": "Хлібний плід по-маршалльськи, приготовлений до м’якості та поданий з теплими кокосовими вершками.",
+  "regionId": "oceania",
+  "countryCode": "MH",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть стиглий, але щільний хлібний плід, видаліть серцевину й наріжте м’якоть однаковими часточками.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "breadfruit",
+          "amount": 850,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть хлібний плід у пароварку та готуйте над киплячою водою 25–35 хвилин до повної м’якості.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 35,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Підігрійте кокосові вершки з дрібкою солі 4–5 хвилин, не доводячи до сильного кипіння.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Полийте теплі часточки хлібного плоду кокосовими вершками й подавайте.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

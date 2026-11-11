@@ -1,0 +1,98 @@
+{
+  "id": "world-1403",
+  "title": "Кокода",
+  "description": "Фіджійський рибний салат із кокосовими вершками та лаймом. Традиційно рибу маринують сирою; ця домашня версія використовує повністю приготовлену й охолоджену рибу.",
+  "regionId": "oceania",
+  "countryCode": "FJ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обережно припустіть рибу в ледь киплячій воді до температури 63°C у центрі; дістаньте та швидко охолодіть у неглибокому накритому посуді.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте охолоджену рибу кубиками. Змішайте з соком лайма в чистій мисці та поставте в холодильник на 15 хвилин; цитрус лише маринує вже приготовлену рибу.",
+      "techniqueIds": [
+        "acid-marination"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 110,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Дрібно наріжте червону цибулю, помідори, огірок і чилі та додайте до риби.",
+      "techniqueIds": [
+        "dicing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Обережно додайте охолоджені кокосові вершки й сіль; ненадовго охолодіть і подавайте холодним.",
+      "techniqueIds": [
+        "folding-in",
+        "seasoning"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

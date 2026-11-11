@@ -1,0 +1,112 @@
+{
+  "id": "world-0912",
+  "title": "Хар гау",
+  "description": "Хар гау — страва кухні країни Китай. Основні складники: пшеничний крохмаль, тапіоковий крохмаль, креветка, пагони бамбука. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів.",
+  "regionId": "east-asia",
+  "countryCode": "CN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте складники тіста, вимісіть до гладкості й еластичності, накрийте та залиште приблизно на 12 хвилин.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "wheat-starch",
+          "amount": 215,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "canola-oil",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "shrimp",
+          "amount": 560,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bamboo-shoots",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sesame-oil",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-peppercorn",
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Загорніть креветкову начинку в тонке напівпрозоре тісто з пшеничного й тапіокового крохмалю та обережно складіть хар гау складками перед пропарюванням.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 24,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте підготовлені порції на парі під кришкою над слабко киплячою водою близько 13 хвилин до повної готовності чи застигання, обережно вийміть.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 13,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

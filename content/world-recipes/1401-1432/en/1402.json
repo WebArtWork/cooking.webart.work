@@ -1,0 +1,120 @@
+{
+  "id": "world-1402",
+  "title": "Afghan Biscuits",
+  "description": "Classic New Zealand cocoa biscuits traditionally made with cornflakes, finished with chocolate icing and walnuts. This catalog-based version uses crisp cracker crumbs in place of absent cornflakes.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 12,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Preheat oven to 180°C. Cream softened butter with caster sugar until fluffy.",
+      "techniqueIds": [
+        "creaming-butter-sugar"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 95,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Sift in flour and cocoa, then fold in coarsely crushed cracker crumbs to mimic the crunch of traditional cornflakes.",
+      "techniqueIds": [
+        "mixing",
+        "folding-in"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 185,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 24,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cracker-crumbs",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Press 12 walnut-sized mounds onto a parchment-lined tray. Bake for 14–16 minutes, until the biscuits are set but not burned.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 16,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Cool completely before icing, about 25 minutes.",
+      "techniqueIds": [
+        "resting-food"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Whisk powdered sugar with cocoa, softened butter and just enough warm water to make spreadable chocolate icing.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "powdered-sugar",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cocoa-powder",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 25,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-6",
+      "instruction": "Ice the cooled biscuits and press a walnut piece into each. Allow icing to set.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "walnut",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

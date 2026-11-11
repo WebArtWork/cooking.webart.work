@@ -1,14 +1,24 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
+import { I18nService } from '../../feature/i18n/i18n.service';
 import { TPipe } from '../../feature/i18n/t.pipe';
+import { CookingTextComponent } from '../cooking-theory/text.component';
 
 /** Cooking's public introduction and curriculum preview. Lessons will be imported separately. */
 @Component({
-	imports: [RouterLink, NgOptimizedImage, TPipe],
+	imports: [RouterLink, NgOptimizedImage, TPipe, CookingTextComponent],
 	templateUrl: './cooking.component.html',
 })
 export class CookingComponent {
+	private readonly _language = inject(I18nService).language;
+	/** A sentence whose kitchen terms become blue words; the same recipe line in both languages. */
+	protected readonly glossarySample = computed(() =>
+		this._language() === 'ua'
+			? 'Варіть соус, поки він покриває зворотний бік ложки, і не перегрівайте його: надто сильний жар руйнує емульсію та запускає зсідання білка.'
+			: 'Simmer the sauce until it coats the back of a spoon, and watch the temperature: too much heat breaks an emulsion and makes protein coagulation start.',
+	);
+
 	protected readonly mode = inject(ActivatedRoute).snapshot.data['mode'] as string;
 	protected readonly topics = [
 		{

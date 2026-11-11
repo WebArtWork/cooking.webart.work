@@ -1,0 +1,90 @@
+{
+  "id": "world-0193",
+  "title": "Pistachio Gelato",
+  "description": "A classic dish from Italy, featuring whole cow milk, heavy cream, pistachio paste, chicken egg. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Warm milk, cream and sugar until steaming but not boiling.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Whisk eggs with pistachio paste, temper gradually with the hot milk and return to low heat. Stir until custard reaches 82°C; strain and chill completely.",
+      "techniqueIds": [
+        "tempering-eggs",
+        "custard-stirring"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio-paste",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Stir in vanilla, churn the cold custard in an ice-cream machine and freeze until scoopable.",
+      "techniqueIds": [
+        "churning-ice-cream",
+        "freezing-food"
+      ],
+      "durationMinutes": 210,
+      "ingredients": [
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 3,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Top each serving with chopped pistachios.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

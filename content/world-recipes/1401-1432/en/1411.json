@@ -1,0 +1,76 @@
+{
+  "id": "world-1411",
+  "title": "Lu Pulu",
+  "description": "Tongan lu pulu combines corned beef, onion and coconut cream in a leaf parcel. This version replaces unavailable taro leaves with spinach and banana leaf.",
+  "regionId": "oceania",
+  "countryCode": "TO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Heat oven to 180°C. Drain the canned corned beef and break into coarse chunks. Thinly slice onion.",
+      "techniqueIds": [
+        "slicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Briefly wilt spinach in a pan, squeeze excess liquid, then toss with the corned beef and onion.",
+      "techniqueIds": [
+        "sauteing",
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Line a casserole dish with food-safe banana leaves, spoon the mixture in and pour over coconut cream; close the leaves or cover tightly with a lid.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake covered for 45–55 minutes until thoroughly hot and bubbling. Unwrap cautiously and serve with cooked root vegetables.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

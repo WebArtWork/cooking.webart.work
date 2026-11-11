@@ -1,0 +1,71 @@
+{
+  "id": "world-1427",
+  "title": "Taro with Coconut Milk",
+  "description": "Palauan taro cooked until soft and covered in coconut milk.",
+  "regionId": "oceania",
+  "countryCode": "PW",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel edible taro, rinse and cut into evenly sized pieces.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil taro in plenty of water 30–40 minutes until no hard core remains. Drain and discard water.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat coconut milk with salt until steaming, then gently simmer for about 5 minutes.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 370,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Serve hot taro with coconut milk spooned generously over it.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

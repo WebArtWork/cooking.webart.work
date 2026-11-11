@@ -1,0 +1,75 @@
+{
+  "id": "world-1243",
+  "title": "Курка джерк",
+  "description": "Курка джерк — страва кухні країни Ямайка з такими основними складниками: курячий окорочок, маринад джерк, перець скотч-боннет, чебрець. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Гриль і духовка дають домашню версію джерк без традиційного копчення на запашній деревині.",
+  "regionId": "caribbean",
+  "countryCode": "JM",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 180 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 180,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-leg-quarter",
+          "amount": 1100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "jerk-marinade",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "scotch-bonnet-pepper",
+          "amount": 1,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 5,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Смажте курку в маринаді джерк на контрольованому середньому жарі для ароматної скоринки без підгоряння; доведіть найтовстіший шматок до 74°C.",
+      "techniqueIds": [
+        "grilling"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте вже приправлені продукти в розігрітій духовці до м’якості та готовності, перевіряючи температуру м’яса термометром.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

@@ -1,0 +1,93 @@
+{
+  "id": "world-1422",
+  "title": "Te Ika Mata",
+  "description": "Kiribati-style lime-and-coconut fish salad. This home version uses fully cooked fish instead of the traditional raw marination.",
+  "regionId": "oceania",
+  "countryCode": "KI",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Poach fish in gently simmering water until it reaches 63°C in the thickest part, then chill promptly in a covered shallow dish.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mahi-mahi",
+          "amount": 550,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Dice the cooled cooked fish and combine with lime juice; refrigerate 10 minutes.",
+      "techniqueIds": [
+        "dicing",
+        "acid-marination"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 90,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Finely slice onion and chop tomato and cucumber. Fold gently into the fish.",
+      "techniqueIds": [
+        "slicing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "red-onion",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Fold in coconut cream and salt. Keep refrigerated and serve chilled.",
+      "techniqueIds": [
+        "folding-in"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 230,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

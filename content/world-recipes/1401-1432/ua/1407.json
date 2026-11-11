@@ -1,0 +1,93 @@
+{
+  "id": "world-1407",
+  "title": "Ока іа",
+  "description": "Самоанський ока іа: холодний салат із риби, лайма й кокосу. На відміну від традиційної страви із сирою рибою, тут рибу повністю готують.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Готуйте рибне філе на парі до 63°C у центрі приблизно 10–12 хвилин, тоді швидко охолодіть.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте охолоджену рибу невеликими кубиками та полийте соком лайма. Поставте в холодильник на 10 хвилин.",
+      "techniqueIds": [
+        "dicing",
+        "acid-marination"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Наріжте кубиками помідори та огірок, тонко нашаткуйте червону цибулю й подрібніть чилі. Обережно змішайте з рибою.",
+      "techniqueIds": [
+        "dicing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "tomato",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cucumber",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-onion",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "bird-s-eye-chili",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вмішайте кокосове молоко й сіль. Ненадовго охолодіть і подавайте в невеликих мисках.",
+      "techniqueIds": [
+        "folding-in"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

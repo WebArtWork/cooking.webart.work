@@ -1,0 +1,75 @@
+{
+  "id": "world-0334",
+  "title": "Шоколадний мус",
+  "description": "Традиційна страва кухні країни Франція. Основні інгредієнти: вершки високої жирності, пастеризовані яєчні білки. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "FR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обережно розтопіть шоколад із невеликою кількістю вершків на водяній бані, помішуючи до гладкості; остудіть до ледь теплого стану.",
+      "techniqueIds": [
+        "melting-chocolate"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "dark-chocolate",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 80,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте зазначені складники до гладкої легкої консистенції, після чого зберігайте в прохолоді до використання.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Обережно введіть злегка збиті вершки в охолоджений шоколад, тоді додайте збиті пастеризовані білки до пухкого мусу й розподіліть по креманках.",
+      "techniqueIds": [
+        "folding-batter"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "pasteurized-egg-whites",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Швидко охолодіть підготовлені складники, потім поставте в холодильник приблизно на 150 хвилин.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 150,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

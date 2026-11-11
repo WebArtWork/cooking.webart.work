@@ -1,0 +1,86 @@
+{
+  "id": "world-0810",
+  "title": "Чіканда",
+  "description": "Чіканда — страва кухні країни Замбія. Основні складники: арахісова паста, мелене егусі, кукурудзяна крупа дрібного помелу, банановий лист. Кількості у цьому домашньому рецепті прив’язані до відповідних етапів. Страва лише за мотивами чіканди: у каталозі немає традиційних бульб орхідей. Егусі й кукурудзяне борошно не є рівноцінною заміною.",
+  "regionId": "southern-africa",
+  "countryCode": "ZM",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "peanut-butter",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-egusi",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cornmeal",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 260,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Щільно загорніть густу масу в чисте харчове бананове листя та пропарте до повного ущільнення; це лише страва за мотивами чіканди.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 55,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "hot-paprika",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794260640000
+}

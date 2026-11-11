@@ -1,0 +1,127 @@
+{
+  "id": "world-1409",
+  "title": "Sapasui",
+  "description": "Samoan sapasui, a savory glass-noodle dish with meat, soy and vegetables, adapted for home cooking.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Soak glass noodles in warm water until flexible, about 12 minutes; drain and snip into manageable lengths.",
+      "techniqueIds": [
+        "soaking-dried-produce",
+        "draining"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "glass-noodles",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Heat oil and brown ground beef until no pink remains; stir in onion, ginger and garlic, and sauté until aromatic.",
+      "techniqueIds": [
+        "stir-frying"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-beef",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 3,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Add thinly cut cabbage and carrot; stir-fry for 5 minutes.",
+      "techniqueIds": [
+        "stir-frying"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "white-cabbage",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Add noodles, soy sauces and water. Simmer while turning until noodles absorb most liquid and turn translucent, about 10 minutes.",
+      "techniqueIds": [
+        "simmering"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "light-soy-sauce",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dark-soy-sauce",
+          "amount": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Fold in sliced spring onions and serve hot.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "spring-onion",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

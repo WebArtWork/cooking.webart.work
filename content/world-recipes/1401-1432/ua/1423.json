@@ -1,0 +1,86 @@
+{
+  "id": "world-1423",
+  "title": "Риба в кокосовому молоці по-науруанськи",
+  "description": "Риба в кокосовому молоці по-науруанськи, ніжно тушкована з цибулею, імбиром та лаймом.",
+  "regionId": "oceania",
+  "countryCode": "NR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть філе риби та злегка посоліть.",
+      "techniqueIds": [
+        "seasoning"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "red-snapper",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсмажте тонко нарізану цибулю та подрібнений імбир на олії до появи аромату.",
+      "techniqueIds": [
+        "sauteing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-root",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте кокосове молоко й доведіть до слабкого кипіння. Покладіть рибу й готуйте під кришкою приблизно 10–12 хвилин до 63°C у найтовщій частині.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 420,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Наприкінці додайте сік лайма, відрегулюйте смак і подавайте гарячим із рисом або коренеплодами.",
+      "techniqueIds": [
+        "finishing-with-acid"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "lime-juice",
+          "amount": 35,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

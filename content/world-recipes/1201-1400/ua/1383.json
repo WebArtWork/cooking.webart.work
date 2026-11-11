@@ -1,0 +1,90 @@
+{
+  "id": "world-1383",
+  "title": "Пиріг із маніоку",
+  "description": "Пиріг із маніоку — страва кухні країни Гаяна з такими основними складниками: маніок, кокос, кокосове молоко. У домашньому рецепті кожний продукт прив’язаний до етапу його використання.",
+  "regionId": "south-america",
+  "countryCode": "GY",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистьте й натріть овочі на грубій тертці; відіжміть зайву рідину, щоб маса тримала форму.",
+      "techniqueIds": [
+        "peeling",
+        "coarse-grating",
+        "squeezing-out-moisture"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "cassava-root",
+          "amount": 720,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut",
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "dark-brown-sugar",
+          "amount": 210,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 330,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-cinnamon",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Рівномірно викладіть підготовлені компоненти шарами у формі для запікання, подавання чи на тарілці відповідно до страви; вирівняйте поверхню, не змішуючи шари.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 9,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Ретельно запікайте натертий маніок до повної готовності середини, без сирих вологих ділянок; використовуйте правильно очищений харчовий корінь.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 60,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Подавайте страву за відповідної температури й прикрашайте раніше підготовленими складниками.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 25,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794265673340
+}

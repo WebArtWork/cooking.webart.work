@@ -1,0 +1,90 @@
+{
+  "id": "world-1431",
+  "title": "Банановий пудинг Понпеї",
+  "description": "Щільний бананово-кокосовий пудинг за мотивами кухні Понпеї, загущений тапіоковим крохмалем і приготовлений у банановому листі.",
+  "regionId": "oceania",
+  "countryCode": "FM",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розімніть дуже стиглі банани майже до однорідності. Додайте кокосові вершки й кокосовий цукор.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": [
+        {
+          "ingredientId": "banana",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "coconut-sugar",
+          "amount": 65,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Умішайте тапіоковий крохмаль і сіль без сухих грудочок; маса має бути густою, але придатною для викладання ложкою.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "tapioca-starch",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розм’якшіть харчове бананове листя, вистеліть ним шість невеликих жаростійких форм або зробіть закриті пакунки; рівномірно розподіліть масу.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Готуйте на парі 45–55 хвилин, доки середина не стане щільною, а крохмаль повністю готовим; за потреби доливайте окріп у пароварку.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Дайте постояти 15 хвилин, тоді розгорніть і наріжте. Подавайте теплим або охолодженим.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 15,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

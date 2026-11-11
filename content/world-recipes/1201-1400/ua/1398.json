@@ -1,0 +1,105 @@
+{
+  "id": "world-1398",
+  "title": "Хангі",
+  "description": "Хангі — страва кухні країни Нова Зеландія з такими основними складниками: лопатка ягняти, ціла курка, розмарин, банановий лист. У домашньому рецепті кожний продукт прив’язаний до етапу його використання. Домашня запечена страва за мотивами хангі; справжнє маорійське хангі готують у ямі на гарячому камінні.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 70 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 70,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-chicken",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rosemary",
+          "amount": 4,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Викладіть підготовлені м’ясо й овочі на харчове бананове листя або в накриту форму, щільно загорніть для парового приготування.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 10,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 650,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "pumpkin",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Герметично загорніть м’ясо й овочі у харчове листя або накриті форми та повільно запечіть до м’якості баранини й 74°C у курці; це не справжня земляна піч хангі.",
+      "techniqueIds": [
+        "slow-roasting"
+      ],
+      "durationMinutes": 180,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Дайте готовому м’ясу відпочити під нещільним накриттям приблизно 20 хвилин перед нарізанням, щоб зберегти сік.",
+      "techniqueIds": [
+        "carryover-cooking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794265673340
+}

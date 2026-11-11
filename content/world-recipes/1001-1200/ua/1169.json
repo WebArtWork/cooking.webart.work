@@ -1,0 +1,96 @@
+{
+  "id": "world-1169",
+  "title": "Тамалес",
+  "description": "Тамалес — страва кухні країни Мексика, яку готують із таких продуктів: маса харіна, розпушувач тіста, свинячий фарш, червона сальса. Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Бананове листя замінює кукурудзяне лушпиння; тамалес у банановому листі традиційні для низки південних регіонів Мексики.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "masa-harina",
+          "amount": 570,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-stock",
+          "amount": 520,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 8,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Наріжте овочі за потреби. Пасеруйте зазначені складники на середньому вогні, помішуючи, приблизно 10 хвилин до м’якості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "ground-pork",
+          "amount": 580,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "red-salsa",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Викладіть порцію готової начинки на кожен листок або обгортку, загорніть боки й скрутіть щільні акуратні рулетики.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 16,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Покладіть масу й готову свинячу начинку на чисте бананове листя, загорніть і готуйте на парі до повного схоплення тіста, яке відстає від листя.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 70,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

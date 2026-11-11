@@ -1,0 +1,65 @@
+{
+  "id": "world-1415",
+  "title": "Печений каукау",
+  "description": "Каукау — батат у кухні Папуа Нової Гвінеї. У цій простій запеченій версії головний продукт — сам коренеплід.",
+  "regionId": "oceania",
+  "countryCode": "PG",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 200°C. Ретельно вимийте й обсушіть батат; шкірку можна залишити, якщо вона чиста й неушкоджена.",
+      "techniqueIds": [
+        "mise-en-place"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "sweet-potato",
+          "amount": 1000,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Натріть невеликою кількістю кокосової олії, викладіть на деко та кілька разів проколіть кожен коренеплід.",
+      "techniqueIds": [
+        "preheating"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Запікайте 40–55 хвилин, один раз перевернувши, доки ніж легко проходитиме до середини.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розріжте, злегка посоліть і подавайте теплим.",
+      "techniqueIds": [
+        "seasoning"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

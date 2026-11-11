@@ -1,0 +1,127 @@
+{
+  "id": "world-1157",
+  "title": "Tacos al Pastor",
+  "description": "Tacos al Pastor is a dish from Mexico prepared with pork shoulder, dried guajillo chilies, dried ancho chilies, achiote paste. This is a home-scale version with measured ingredients in the individual steps where they are used. Al pastor-inspired pork made without a vertical spit; pineapple and chile-achiote marinade retain the intended profile.",
+  "regionId": "north-america",
+  "countryCode": "MX",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 120 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 120,
+      "ingredients": [
+        {
+          "ingredientId": "pork-shoulder",
+          "amount": 950,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-guajillo-chilies",
+          "amount": 4,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "dried-ancho-chilies",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "achiote-paste",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-vinegar",
+          "amount": 45,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "ground-cumin",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Roast the marinated pork with pineapple until it reaches a safe temperature and caramelized edges form, then slice thin; a home oven does not recreate a vertical trompo.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 75,
+      "ingredients": [
+        {
+          "ingredientId": "pineapple",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Heat the pan over medium heat, shape or spoon out portions, and fry for about 15 minutes total until golden on both sides and fully cooked.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 15,
+      "ingredients": [
+        {
+          "ingredientId": "canola-oil",
+          "amount": 50,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shred the fully cooked meat into thin pieces with clean forks, discarding bones and tough connective tissue.",
+      "techniqueIds": [
+        "shredding",
+        "mixing"
+      ],
+      "durationMinutes": 7,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Assemble the cooled components with the listed fillings or toppings. Refrigerate briefly if needed to set the layers.",
+      "techniqueIds": [
+        "layered-assembly",
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "corn-tortillas",
+          "amount": 12,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-onion",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lime",
+          "amount": 2,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794263955142
+}

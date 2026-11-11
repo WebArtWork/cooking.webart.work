@@ -1,0 +1,111 @@
+{
+  "id": "world-0400",
+  "title": "Яловичина Веллінгтон",
+  "description": "Традиційна страва кухні країни Велика Британія. Основні інгредієнти: яловича вирізка, діжонська гірчиця, печериця, цибуля шалот. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "GB",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обсушіть яловиче філе, приправте й швидко підрум’яньте з усіх боків на дуже гарячій сковороді з олією; остудіть і змастіть гірчицею.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 11,
+      "ingredients": [
+        {
+          "ingredientId": "beef-tenderloin",
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 40,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "dijon-mustard",
+          "amount": 55,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Обсмажуйте дрібно нарізані гриби й шалот із маслом до повного випаровування вологи та сухої консистенції дюкселю; повністю остудіть.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "button-mushroom",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "shallot",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "thyme",
+          "amount": 3,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Покрийте охолоджену яловичину грибним дюкселем, щільно загорніть у прошуто, а потім у листкове тісто; закрийте шви знизу.",
+      "techniqueIds": [
+        "rolling-stuffed-food"
+      ],
+      "durationMinutes": 16,
+      "ingredients": [
+        {
+          "ingredientId": "prosciutto-crudo",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "puff-pastry",
+          "amount": 550,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Охолоджуйте щільно загорнутий сирий Веллінгтон швом донизу щонайменше 30 хвилин, щоб тісто зберегло форму.",
+      "techniqueIds": [
+        "rapid-chilling"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Змастіть тісто збитим яйцем і випікайте при 200°C до золотавості та безпечної внутрішньої температури яловичини в центрі; дайте недовго відпочити перед нарізанням.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 37,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 1,
+          "unit": "pcs"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794255840000
+}

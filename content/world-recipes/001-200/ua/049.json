@@ -1,0 +1,128 @@
+{
+  "id": "world-0049",
+  "title": "Свічкова на сметані",
+  "description": "Класична страва з Чехія. Основні складники: яловича лопатка, жовта цибуля, морква, корінь петрушки. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "eastern-europe",
+  "countryCode": "CZ",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Підрум’яньте яловичину з жиром у важкій каструлі невеликими партіями, щоб м’ясо не тушкувалося.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "lard",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Пасеруйте цибулю та коренеплоди на маслі до легкої золотистості й аромату.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "parsley-root",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "celeriac",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Поверніть м’ясо, додайте бульйон, лавровий лист і духмяний перець та повільно тушкуйте під кришкою до м’якості.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 100,
+      "ingredients": [
+        {
+          "ingredientId": "beef-stock",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "bay-leaf",
+          "amount": 2,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "allspice-berries",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "ground-black-pepper",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Перебийте овочі з вершками, збалансуйте кисло-солодкий смак оцтом і цукром; полийте соусом скибочки м’яса.",
+      "techniqueIds": [
+        "seasoning",
+        "finishing-with-herbs"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "apple-cider-vinegar",
+          "amount": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 18,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

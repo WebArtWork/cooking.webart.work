@@ -1,0 +1,108 @@
+{
+  "id": "world-0518",
+  "title": "Ghormeh Sabzi",
+  "description": "A traditional dish from Iran, centered on parsley, cilantro, green onion, beef chuck. A measured home-kitchen version organized by cooking step.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Chop herbs finely, then fry slowly to develop a deep green color without burning. This step gives ghormeh sabzi its characteristic flavor.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-fenugreek",
+          "amount": 7,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Braise beef with the fried herbs, beans and pierced dried limes until the meat is tender and the stew is richly flavored.",
+      "techniqueIds": [
+        "braising"
+      ],
+      "durationMinutes": 130,
+      "ingredients": [
+        {
+          "ingredientId": "beef-chuck",
+          "amount": 670,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "canned-kidney-beans",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dried-lime",
+          "amount": 3,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Spread the rice evenly into the flavorful liquid. Cook uncovered or partly covered for about 24 minutes until the liquid is absorbed; do not over-stir.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 24,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Finish with the listed ingredients, check seasoning and serve immediately.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

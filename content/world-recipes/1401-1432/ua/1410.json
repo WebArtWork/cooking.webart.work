@@ -1,0 +1,85 @@
+{
+  "id": "world-1410",
+  "title": "Панікеке",
+  "description": "Паніке́ке — самоанські круглі пончики, смажені в олії; тут наведено просту версію із солодкого тіста.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте вінчиком борошно, цукор, розпушувач і сіль.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 12,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Влийте воду та ваніль, перемішайте до густого липкого тіста. Залиште на 10 хвилин.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 275,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нагрійте олію у глибокій стійкій каструлі до 170–175°C. Обережно опускайте невеликі ложки тіста порціями; смажте 4–5 хвилин, перевертаючи, до золотистого кольору та повної готовності всередині.",
+      "techniqueIds": [
+        "deep-frying"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "vegetable-oil-neutral",
+          "amount": 750,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Викладіть на решітку або папір, трохи остудіть і подавайте теплими.",
+      "techniqueIds": [
+        "draining"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

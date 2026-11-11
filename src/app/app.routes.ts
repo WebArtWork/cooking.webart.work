@@ -1,8 +1,10 @@
-import { Routes } from '@angular/router';
+import { inject } from '@angular/core';
+import { ActivatedRouteSnapshot, Routes } from '@angular/router';
 import { buildRouteMeta } from '@wawjs/ngx-default';
 import { companyProfile } from './feature/company/company.data';
 import cookingRoutes from '../data/cooking/routes.json';
 import { COOKING_LOADERS } from './feature/cooking/theory.loaders';
+import { GlossaryService } from './feature/glossary/glossary.service';
 import type { CookingTheory } from './feature/cooking/theories';
 const loadCooking = () =>
 	import('./pages/cooking/cooking.component').then((m) => m.CookingComponent);
@@ -12,6 +14,7 @@ export const routes: Routes = [
 		path: '',
 		pathMatch: 'full',
 		loadComponent: loadCooking,
+		resolve: { glossary: () => inject(GlossaryService).load() },
 		data: {
 			...page('/', 'home'),
 			meta: {
@@ -34,6 +37,7 @@ export const routes: Routes = [
 		loadComponent: () =>
 			import('./pages/cooking-theory/lesson.component').then((m) => m.CookingLessonComponent),
 		resolve: {
+			glossary: () => inject(GlossaryService).load(),
 			theory: () => COOKING_LOADERS[theory.slug]().then((m) => m.default),
 			meta: async () => {
 				const lesson = (await COOKING_LOADERS[theory.slug]()).default as CookingTheory;
@@ -46,6 +50,47 @@ export const routes: Routes = [
 		},
 		data: page('/theories/' + theory.slug, 'lesson'),
 	})),
+	{
+		path: 'glossary',
+		loadComponent: () => import('./pages/cooking-glossary/glossary.component').then((m) => m.GlossaryComponent),
+		data: {
+			meta: {
+				...buildRouteMeta(companyProfile, '/glossary'),
+				title: 'Cooking glossary',
+				description: '289 kitchen words and what they mean, from active time and doneness to emulsion and the Maillard reaction, in English and Ukrainian.',
+			},
+		},
+	},
+	// world recipes: the list, and one page per recipe whose text loads when it opens
+	{
+		path: 'recipes',
+		loadComponent: () => import('./pages/recipes/recipes.component').then((m) => m.RecipesComponent),
+		data: {
+			meta: {
+				...buildRouteMeta(companyProfile, '/recipes'),
+				title: 'World recipes',
+				description: 'More than 1,400 dishes from around the world, with ingredients, steps and times, in English and Ukrainian.',
+			},
+		},
+	},
+	{
+		path: 'recipes/:slug',
+		loadComponent: () => import('./pages/recipes/recipe-detail.component').then((m) => m.RecipeDetailComponent),
+		resolve: {
+			recipe: (route: ActivatedRouteSnapshot) =>
+				import('./pages/recipes/world-recipes.data').then((m) => m.loadWorldRecipe(route.paramMap.get('slug') ?? '')),
+			meta: async (route: ActivatedRouteSnapshot) => {
+				const slug = route.paramMap.get('slug') ?? '';
+				const row = (await import('./pages/recipes/world-recipes.data')).worldRecipeRow(slug);
+				return {
+					...buildRouteMeta(companyProfile, '/recipes/' + slug),
+					title: row?.title.en ?? 'Page not found',
+					...(row ? {} : { robots: 'noindex, follow' }),
+				};
+			},
+		},
+		data: { meta: buildRouteMeta(companyProfile, '/recipes') },
+	},
 	// practice: the list and one session per theory, loaded as a group
 	{ path: 'practices', loadChildren: () => import('./practice.routes').then((m) => m.PRACTICE_ROUTES) },
 	{

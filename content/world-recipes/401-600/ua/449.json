@@ -1,0 +1,69 @@
+{
+  "id": "world-0449",
+  "title": "Ісландський житній хліб",
+  "description": "Традиційна страва кухні країни Ісландія. Основні складники: житнє борошно, цільнозернове пшеничне борошно, житня закваска. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "western-and-northern-europe",
+  "countryCode": "IS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "rye-flour",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "whole-wheat-flour",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 460,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rye-sourdough-starter",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "molasses",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Залиште житнє тісто накритим на 10 годин за кімнатної температури, щоб воно заквасилося й піднялося; на цьому етапі не охолоджуйте.",
+      "techniqueIds": [
+        "bulk-fermentation"
+      ],
+      "durationMinutes": 600,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "Випікайте під кришкою при 120–130°C протягом кількох годин, як ісландський повільно печений житній хліб; повністю остудіть перед нарізанням.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 200,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794257460000
+}

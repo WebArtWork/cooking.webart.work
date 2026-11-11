@@ -1,0 +1,87 @@
+{
+  "id": "world-0529",
+  "title": "Куку сабзі",
+  "description": "Традиційна страва кухні країни Іран. Основні складники: петрушка, кінза, кріп, зелена цибуля. Домашній варіант із кількостями продуктів за етапами приготування.",
+  "regionId": "middle-east-and-west-asia",
+  "countryCode": "IR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Вимийте й підготуйте зазначені продукти; наріжте рівномірними кубиками або дрібними шматочками.",
+      "techniqueIds": [
+        "chopping",
+        "dicing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "parsley",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "dill",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "green-onion",
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Зелені має бути більше, ніж яєць за об’ємом; обережно перемішайте густу зелену масу.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 5,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Розігрійте сковороду на середньому вогні, сформуйте або викладіть порції ложкою й смажте загалом приблизно 18 хвилин до золотистості з обох боків і повної готовності.",
+      "techniqueIds": [
+        "pan-frying"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 65,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794257460000
+}

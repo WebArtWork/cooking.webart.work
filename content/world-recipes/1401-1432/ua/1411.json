@@ -1,0 +1,76 @@
+{
+  "id": "world-1411",
+  "title": "Лу пулу",
+  "description": "Тонганське лу пулу поєднує солонину, цибулю та кокосові вершки в листяному пакунку. Тут відсутнє листя таро замінено шпинатом і банановим листям.",
+  "regionId": "oceania",
+  "countryCode": "TO",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Розігрійте духовку до 180°C. Злийте рідину із солонини та розділіть її на великі шматочки. Тонко наріжте цибулю.",
+      "techniqueIds": [
+        "slicing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "corned-beef",
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Коротко припустіть шпинат на сковороді, відіжміть зайву рідину й змішайте із солониною та цибулею.",
+      "techniqueIds": [
+        "sauteing",
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "spinach",
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Вистеліть форму харчовим банановим листям, викладіть начинку та залийте кокосовими вершками; загорніть листя або щільно накрийте кришкою.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 5,
+          "unit": "leaf"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Запікайте накритим 45–55 хвилин до повного прогрівання й активного булькання. Обережно розгорніть і подавайте з готовими коренеплодами.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 50,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

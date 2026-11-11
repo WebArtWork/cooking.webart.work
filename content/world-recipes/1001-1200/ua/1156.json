@@ -1,0 +1,52 @@
+{
+  "id": "world-1156",
+  "title": "Кленова карамель на снігу",
+  "description": "Кленова карамель на снігу — страва кухні країни Канада, яку готують із таких продуктів: . Кількості в домашньому рецепті прив’язані до окремих етапів приготування. Чистий подрібнений лід замінює свіжий сніг; гарячий сироп може спричинити опіки.",
+  "regionId": "north-america",
+  "countryCode": "CA",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Обережно нагрійте чистий кленовий сироп до приблизно 112–115°C (стадія м’якої кульки) з кондитерським термометром; сироп надзвичайно гарячий.",
+      "techniqueIds": [
+        "sugar-syrup-cooking"
+      ],
+      "durationMinutes": 18,
+      "ingredients": [
+        {
+          "ingredientId": "maple-syrup",
+          "amount": 420,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Подрібніть чистий лід у неглибокій формі, імітуючи щільний сніг; інших додатків не потрібно.",
+      "techniqueIds": [
+        "pressing",
+        "rolling-out-dough"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "ice-cubes",
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Налийте тонкі смуги гарячого сиропу на колотий лід, дайте трохи охолонути й накрутіть на харчові палички; бережіть руки від опіків.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794263955142
+}

@@ -1,0 +1,97 @@
+{
+  "id": "world-1416",
+  "title": "Saksak",
+  "description": "Saksak is a Papua New Guinean banana-and-sago parcel with coconut. This recipe uses catalog sago pearls and food-safe banana leaves.",
+  "regionId": "oceania",
+  "countryCode": "PG",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Rinse small sago pearls, soak in warm water for 20 minutes and drain. The pearls must finish cooking completely in the steamer.",
+      "techniqueIds": [
+        "soaking-dried-produce",
+        "draining"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "sago-pearls",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 650,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Mash ripe bananas and stir with softened sago, sugar and salt.",
+      "techniqueIds": [
+        "mashing",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "banana",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Briefly soften food-grade banana leaves over steam. Wrap the mixture into six tightly sealed parcels.",
+      "techniqueIds": [
+        "leaf-wrapping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "banana-leaf",
+          "amount": 6,
+          "unit": "leaf"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Steam over steadily boiling water for 35–45 minutes until sago pearls become uniformly translucent with no chalky core.",
+      "techniqueIds": [
+        "banana-leaf-steaming"
+      ],
+      "durationMinutes": 40,
+      "ingredients": []
+    },
+    {
+      "id": "step-5",
+      "instruction": "Warm coconut milk gently. Open one parcel to check doneness, then serve dumplings with the coconut milk spooned over.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 350,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794290846780
+}

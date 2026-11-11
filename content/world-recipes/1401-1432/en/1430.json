@@ -1,0 +1,81 @@
+{
+  "id": "world-1430",
+  "title": "Jukjuk",
+  "description": "Jukjuk is described in Marshallese ethnobotanical sources as pounded cooked taro mixed with coconut; this uses that taro-based interpretation.",
+  "regionId": "oceania",
+  "countryCode": "MH",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel store-bought edible taro, cut into large chunks and boil in plenty of water for 30–40 minutes until completely tender; drain.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 850,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1700,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Pound hot cooked taro until smooth and elastic, adding a tablespoon of warm water if needed.",
+      "techniqueIds": [
+        "pounding"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 45,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Mix in desiccated coconut and coconut cream with a pinch of salt until the mass holds together.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "desiccated-coconut",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Shape into six small mounds and serve warm; dust with a little extra coconut if desired.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 4,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

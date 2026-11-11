@@ -1,0 +1,74 @@
+{
+  "id": "world-1408",
+  "title": "Fa'apapa",
+  "description": "Fa’apapa is a dense Samoan coconut flatbread, often baked rather than yeast-risen.",
+  "regionId": "oceania",
+  "countryCode": "WS",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Preheat oven to 190°C. Combine flour, baking powder, sugar and salt in a large bowl.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "baking-powder",
+          "amount": 9,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Pour in coconut milk and stir only until a thick, slightly sticky dough forms; do not overknead.",
+      "techniqueIds": [
+        "no-knead-mixing"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-milk",
+          "amount": 290,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Form a 2–3 cm thick oval or round slab on parchment. Score the top lightly to mark portions.",
+      "techniqueIds": [
+        "pre-shaping-dough"
+      ],
+      "durationMinutes": 6,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake for 30–35 minutes until set and lightly browned, then cool 15 minutes before slicing.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 35,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

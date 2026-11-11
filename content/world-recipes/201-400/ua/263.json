@@ -1,0 +1,81 @@
+{
+  "id": "world-0263",
+  "title": "Пека",
+  "description": "Традиційна страва кухні країни Хорватія. Основні інгредієнти: лопатка ягняти, картопля, морква, часник. Домашній варіант із характерною технологією та поетапно розподіленими продуктами.",
+  "regionId": "southern-europe",
+  "countryCode": "HR",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Змішайте приправи й ретельно покрийте ними м’ясо або овочі. Маринуйте під накриттям у холодильнику приблизно 40 хвилин.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "lamb-shoulder",
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "potato",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "carrot",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 65,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "rosemary",
+          "amount": 2,
+          "unit": "sprig"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Накрийте м’ясо з овочами важкою кришкою для запікання або герметичною кришкою сотейника та готуйте при 190°C близько 2,5 години до м’якості.",
+      "techniqueIds": [
+        "roasting"
+      ],
+      "durationMinutes": 155,
+      "ingredients": [
+        {
+          "ingredientId": "dry-white-wine",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 180,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Відкрийте кришку лише на останні хвилини для легкого підрум’янення, дайте трохи постояти та подавайте пеку просто з форми.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

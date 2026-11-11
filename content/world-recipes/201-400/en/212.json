@@ -1,0 +1,65 @@
+{
+  "id": "world-0212",
+  "title": "Bacalao al Pil Pil",
+  "description": "A traditional Spain dish made with salt cod, garlic. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Desalt the salt cod in the refrigerator for 24–48 hours, changing cold water 3–4 times; pat the fish thoroughly dry.",
+      "techniqueIds": [
+        "soaking-dried-produce"
+      ],
+      "durationMinutes": 1440,
+      "ingredients": [
+        {
+          "ingredientId": "salt-cod",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1800,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Gently poach the cod with sliced garlic in warm olive oil, not boiling oil, until it flakes; move the fish to a warm plate and reserve the gelatin-rich oil.",
+      "techniqueIds": [
+        "poaching"
+      ],
+      "durationMinutes": 9,
+      "ingredients": [
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "garlic",
+          "amount": 5,
+          "unit": "clove"
+        },
+        {
+          "ingredientId": "crushed-red-pepper",
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Off direct heat, swirl and whisk the warm cooking oil with the fish juices until it emulsifies into the distinctive pale pil-pil sauce; return the cod to coat.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

@@ -1,0 +1,99 @@
+{
+  "id": "world-1401",
+  "title": "Морозиво хокі-покі",
+  "description": "Новозеландське ванільне морозиво з хрусткими шматочками карамелі на золотому сиропі. Домашня версія без яєць і морозивниці.",
+  "regionId": "oceania",
+  "countryCode": "NZ",
+  "servings": 6,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Застеліть деко пергаментом. Нагрівайте дрібний цукор і золотий сироп на помірно слабкому вогні до розчинення й появи бульбашок приблизно 4–5 хвилин; не перемішуйте надмірно.",
+      "techniqueIds": [
+        "caramelizing-sugar"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "caster-sugar",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "golden-syrup",
+          "amount": 45,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Зніміть із вогню, швидко один раз умішайте соду та негайно вилийте спінену карамель на пергамент. Бережіться гарячого цукру.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": [
+        {
+          "ingredientId": "baking-soda",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Повністю остудіть карамель приблизно 30 хвилин, тоді поламайте на невеликі шматочки.",
+      "techniqueIds": [
+        "chopping"
+      ],
+      "durationMinutes": 30,
+      "ingredients": []
+    },
+    {
+      "id": "step-4",
+      "instruction": "Збийте холодні вершки до м’яких піків. Обережно вмішайте згущене молоко та ваніль, не осаджуючи масу.",
+      "techniqueIds": [
+        "whipping-cream",
+        "folding-in"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whipping-cream",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sweetened-condensed-milk",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 7,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Умішайте більшість карамелі, трохи залиште для посипання. Перекладіть у закритий контейнер і заморожуйте до повного застигання не менше 6 годин.",
+      "techniqueIds": [
+        "no-churn-freezing"
+      ],
+      "durationMinutes": 360,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Дайте морозиву пом’якшитися 5 хвилин, розкладіть по порціях і посипте залишеною карамеллю.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 5,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

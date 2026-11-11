@@ -1,0 +1,136 @@
+{
+  "id": "world-0829",
+  "title": "Chicken Biryani",
+  "description": "Chicken Biryani is a India dish made with chicken thigh, plain yogurt, ginger-garlic paste, yellow onion. This home-scale recipe assigns measured ingredients to the steps where they are used.",
+  "regionId": "south-asia",
+  "countryCode": "IN",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Combine the seasoning ingredients and coat the main protein or vegetables. Rest covered in the refrigerator for about 80 minutes.",
+      "techniqueIds": [
+        "marinating"
+      ],
+      "durationMinutes": 80,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "plain-yogurt",
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "garam-masala",
+          "amount": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ground-turmeric",
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ginger-garlic-paste",
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Chop the vegetables as needed. Sauté the listed ingredients over medium heat, stirring, for about 14 minutes until softened and aromatic.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 14,
+      "ingredients": [
+        {
+          "ingredientId": "yellow-onion",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "ghee",
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 210,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Parboil rinsed basmati in abundant water for approximately eight minutes until only partly cooked, then drain for biryani layering.",
+      "techniqueIds": [
+        "boiling"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "basmati-rice",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 950,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "In a heavy covered pot alternate seasoned chicken, part-cooked rice, mint, coriander and saffron; keep rice on top.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "mint",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "amount": 22,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 1,
+          "unit": "pinch"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Steam the prepared portions in a covered steamer over gently boiling water for about 32 minutes until completely cooked or set, then remove carefully.",
+      "techniqueIds": [
+        "steaming"
+      ],
+      "durationMinutes": 32,
+      "ingredients": []
+    },
+    {
+      "id": "step-6",
+      "instruction": "Take off the heat and let the rice rest under a clean towel or lid for about 12 minutes before serving.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 12,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794260640000
+}

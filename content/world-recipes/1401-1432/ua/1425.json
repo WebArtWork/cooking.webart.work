@@ -1,0 +1,71 @@
+{
+  "id": "world-1425",
+  "title": "Пулака в кокосових вершках",
+  "description": "Пулака в Тувалу — гігантське болотне таро, яке традиційно готують із кокосовими вершками. Тут використано звичайне харчове таро.",
+  "regionId": "oceania",
+  "countryCode": "TV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Очистіть куплене харчове таро, наріжте шматками 4–5 см і промийте. Не використовуйте невизначене або дикоросле таро.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Варіть таро у великій кількості чистої води 30–40 хвилин до повної м’якості, потім злийте воду.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 2000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Нагрійте кокосові вершки на слабкому вогні з дрібкою солі, помішуючи до однорідності й появи пари.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Полийте гаряче таро кокосовими вершками й негайно подавайте.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

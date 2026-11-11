@@ -1,0 +1,90 @@
+{
+  "id": "world-0742",
+  "title": "Інжера",
+  "description": "Інжера — страва кухні країни Ефіопія зі складниками: борошно тефу, закваска для інджери. Домашній рецепт із кількостями, прив’язаними до відповідних етапів приготування. Інжера з борошна тефу й закваски з каталогу після тривалого активного бродіння; кислинка залежить від сили закваски.",
+  "regionId": "east-africa-and-indian-ocean",
+  "countryCode": "ET",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "teff-flour",
+          "amount": 430,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 670,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "injera-starter",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Залиште тісто з тефу й закваски в накритій неактивній посудині приблизно на 48 годин до виразних бульбашок і приємної кислинки. За ознак псування утилізуйте.",
+      "techniqueIds": [
+        "injera-fermentation"
+      ],
+      "durationMinutes": 2880,
+      "ingredients": []
+    },
+    {
+      "id": "step-3",
+      "instruction": "З’єднайте зазначені складники в мисці до однорідності; не перемішуйте ніжні компоненти надто довго.",
+      "techniqueIds": [
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Розподіліть дуже тонкий шар кислого тіста на гарячій антипригарній сковороді; накрийте й готуйте ЛИШЕ знизу до сухого пористого верху, не перевертаючи.",
+      "techniqueIds": [
+        "injera-griddle-baking"
+      ],
+      "durationMinutes": 28,
+      "ingredients": [
+        {
+          "ingredientId": "sunflower-oil",
+          "amount": 20,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-5",
+      "instruction": "Додайте завершальні складники, перевірте смак і відразу подавайте.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794259080000
+}

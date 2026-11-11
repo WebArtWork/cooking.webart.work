@@ -1,0 +1,71 @@
+{
+  "id": "world-1425",
+  "title": "Pulaka in Coconut Cream",
+  "description": "Tuvaluan pulaka is giant swamp taro, traditionally cooked and served with coconut cream. This uses ordinary edible taro as a substitute.",
+  "regionId": "oceania",
+  "countryCode": "TV",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Peel store-bought edible taro, cut into 4–5 cm pieces and rinse. Do not use unidentified or wild taro.",
+      "techniqueIds": [
+        "peeling"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "taro-root",
+          "amount": 950,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Boil taro in ample fresh water 30–40 minutes until fully soft, then drain and discard cooking water.",
+      "techniqueIds": [
+        "boiling",
+        "draining"
+      ],
+      "durationMinutes": 40,
+      "ingredients": [
+        {
+          "ingredientId": "water",
+          "amount": 2000,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Warm coconut cream over low heat with a pinch of salt, stirring until smooth and steaming.",
+      "techniqueIds": [
+        "gentle-simmering"
+      ],
+      "durationMinutes": 6,
+      "ingredients": [
+        {
+          "ingredientId": "coconut-cream",
+          "amount": 350,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "sea-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Spoon coconut cream over hot taro and serve immediately.",
+      "techniqueIds": [
+        "garnishing"
+      ],
+      "durationMinutes": 2,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794290846780
+}

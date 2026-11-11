@@ -1,0 +1,114 @@
+{
+  "id": "world-0199",
+  "title": "Паелья по-валенсійськи",
+  "description": "Класична страва з Іспанія. Основні складники: куряче стегно, кролятина, стручкова квасоля, помідор. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "ES",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Добре підрум’яньте шматочки курятини та кролятини в оливковій олії на широкій сковороді для паельї.",
+      "techniqueIds": [
+        "searing"
+      ],
+      "durationMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "chicken-thigh",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "rabbit-meat",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "extra-virgin-olive-oil",
+          "amount": 100,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Додайте зелену квасолю й натерті помідори, припустіть; коротко прогрійте паприку, не даючи їй підгоріти.",
+      "techniqueIds": [
+        "chopping",
+        "sauteing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "green-beans",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "tomato",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sweet-paprika",
+          "amount": 6,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Влийте зазначену воду, додайте шафран і квасолю, проваріть м’ясо-овочевий бульйон, тоді всипте рис. Готуйте 17–20 хвилин, не перемішуючи, щоб на дні утворився тонкий сокаррат.",
+      "techniqueIds": [
+        "rice-washing",
+        "absorption-cooking"
+      ],
+      "durationMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "bomba-rice",
+          "amount": 390,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 1400,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "butter-beans",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "saffron-threads",
+          "amount": 0.2,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": null,
+          "unit": "to_taste"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Вимкніть вогонь, нещільно накрийте та дайте рису відпочити 5 хвилин перед подаванням.",
+      "techniqueIds": [
+        "rice-resting",
+        "fluffing-grains"
+      ],
+      "durationMinutes": 5,
+      "ingredients": [
+        {
+          "ingredientId": "rosemary",
+          "amount": 1,
+          "unit": "sprig"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

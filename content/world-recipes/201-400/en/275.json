@@ -1,0 +1,118 @@
+{
+  "id": "world-0275",
+  "title": "Prekmurska Gibanica",
+  "description": "A traditional Slovenia dish made with all-purpose flour, chicken egg, poppy seeds, walnut. This home-style preparation follows its characteristic cooking method and uses measured ingredients.",
+  "regionId": "southern-europe",
+  "countryCode": "SI",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Mix the dough ingredients, knead until smooth and elastic, then cover and rest for about 25 minutes.",
+      "techniqueIds": [
+        "mixing",
+        "kneading",
+        "resting-dough"
+      ],
+      "durationMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "all-purpose-flour",
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 2,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "water",
+          "amount": 140,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "table-salt",
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Prepare separate poppy-seed, walnut, grated-apple and sweet farmer-cheese fillings; do not mix them together, as the alternating layers define Prekmurska gibanica.",
+      "techniqueIds": [
+        "chopping",
+        "mixing"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "poppy-seeds",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 95,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "walnut",
+          "amount": 115,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "apple",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "farmer-cheese",
+          "amount": 320,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Line the tin with pastry, then alternate layers of poppy seeds, cottage cheese, walnuts and apples, separating with thin sheets of pastry; dot with butter and sour cream.",
+      "techniqueIds": [
+        "layered-assembly"
+      ],
+      "durationMinutes": 17,
+      "ingredients": [
+        {
+          "ingredientId": "phyllo-pastry",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "raisin",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "sour-cream",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "unsalted-butter",
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Bake at 175–180°C until the layers are cooked and the pastry golden, about 50–55 minutes; cool slightly before cutting.",
+      "techniqueIds": [
+        "baking"
+      ],
+      "durationMinutes": 53,
+      "ingredients": []
+    }
+  ],
+  "updatedAt": 1794255840000
+}

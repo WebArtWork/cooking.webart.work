@@ -1,0 +1,90 @@
+{
+  "id": "world-0193",
+  "title": "Фісташкове джелато",
+  "description": "Класична страва з Італія. Основні складники: цільне коров'яче молоко, вершки високої жирності, фісташкова паста, куряче яйце. Домашній варіант із поетапними діями та точними кількостями продуктів.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 8,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Прогрійте молоко, вершки та цукор до появи пари, але не кип’ятіть.",
+      "techniqueIds": [
+        "simmering",
+        "skimming-foam"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "whole-cow-milk",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "heavy-cream",
+          "amount": 250,
+          "unit": "ml"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 130,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Збийте яйця з фісташковою пастою, поступово введіть гаряче молоко для темперування й поверніть на малий вогонь. Помішуйте до 82°C, процідіть і повністю охолодіть.",
+      "techniqueIds": [
+        "tempering-eggs",
+        "custard-stirring"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio-paste",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "chicken-egg",
+          "amount": 4,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Додайте ваніль, збийте холодну основу в морозивниці й заморозьте до консистенції для формування кульок.",
+      "techniqueIds": [
+        "churning-ice-cream",
+        "freezing-food"
+      ],
+      "durationMinutes": 210,
+      "ingredients": [
+        {
+          "ingredientId": "vanilla-extract",
+          "amount": 3,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-4",
+      "instruction": "Прикрасьте кожну порцію подрібненими фісташками.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "pistachio",
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}

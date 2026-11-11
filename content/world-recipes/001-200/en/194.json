@@ -1,0 +1,63 @@
+{
+  "id": "world-0194",
+  "title": "Zabaglione",
+  "description": "A classic dish from Italy, featuring egg yolk, raspberry, white granulated sugar, marsala wine. A practical home-kitchen version with measured step ingredients and clear cooking methods.",
+  "regionId": "southern-europe",
+  "countryCode": "IT",
+  "servings": 4,
+  "steps": [
+    {
+      "id": "step-1",
+      "instruction": "Whisk egg yolks and sugar in a heatproof bowl until pale and thick.",
+      "techniqueIds": [
+        "whipping"
+      ],
+      "durationMinutes": 8,
+      "ingredients": [
+        {
+          "ingredientId": "egg-yolk",
+          "amount": 6,
+          "unit": "pcs"
+        },
+        {
+          "ingredientId": "white-granulated-sugar",
+          "amount": 110,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "step-2",
+      "instruction": "Place the bowl over a pan of barely simmering water; whisk in Marsala continuously until the custard is airy and thick, cooking the egg mixture thoroughly.",
+      "techniqueIds": [
+        "hot-water-bath",
+        "whisking"
+      ],
+      "durationMinutes": 10,
+      "ingredients": [
+        {
+          "ingredientId": "marsala-wine",
+          "amount": 170,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "id": "step-3",
+      "instruction": "Serve the warm zabaglione immediately with the berries.",
+      "techniqueIds": [
+        "seasoning",
+        "garnishing"
+      ],
+      "durationMinutes": 3,
+      "ingredients": [
+        {
+          "ingredientId": "raspberry",
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1794253946000
+}
