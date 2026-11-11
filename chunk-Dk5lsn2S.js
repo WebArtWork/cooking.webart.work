@@ -1,0 +1,1 @@
+import{t as e}from"./chunk-C61NQwNt.js";export{e as CHEFS};

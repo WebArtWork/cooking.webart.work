@@ -1,0 +1,1 @@
+import{t as e}from"./chunk-BlPOHYEB.js";export{e as RESTAURANTS};

@@ -1,0 +1,1 @@
+import{t as e}from"./chunk-D1TLniS6.js";export{e as COURSES};

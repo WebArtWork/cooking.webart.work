@@ -1,0 +1,1 @@
+import{t as e}from"./chunk-m4yN42NP.js";export{e as RECIPES};
